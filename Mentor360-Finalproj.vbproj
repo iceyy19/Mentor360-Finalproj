@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>Mentor360_Finalproj</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>Mentor360_Finalproj.Login</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.5" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
     <PackageReference Include="MySqlConnector" Version="2.3.1" />
   </ItemGroup>
 
