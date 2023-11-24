@@ -50,11 +50,10 @@ Partial Class Login
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.Image = My.Resources.Resources.abstract_water_wave_design_background_free_vector
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(-1, -5)
-        Guna2PictureBox1.Margin = New Padding(4)
+        Guna2PictureBox1.Location = New Point(-1, -4)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(1046, 914)
+        Guna2PictureBox1.Size = New Size(837, 731)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
@@ -63,7 +62,7 @@ Partial Class Login
         ' 
         btnLogin.AutoRoundedCorners = True
         btnLogin.BackColor = Color.Transparent
-        btnLogin.BorderRadius = 19
+        btnLogin.BorderRadius = 15
         btnLogin.CustomizableEdges = CustomizableEdges3
         btnLogin.DisabledState.BorderColor = Color.DarkGray
         btnLogin.DisabledState.CustomBorderColor = Color.DarkGray
@@ -71,11 +70,10 @@ Partial Class Login
         btnLogin.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnLogin.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnLogin.ForeColor = Color.White
-        btnLogin.Location = New Point(205, 542)
-        btnLogin.Margin = New Padding(4)
+        btnLogin.Location = New Point(164, 434)
         btnLogin.Name = "btnLogin"
         btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnLogin.Size = New Size(136, 41)
+        btnLogin.Size = New Size(109, 33)
         btnLogin.TabIndex = 5
         btnLogin.Text = "Login"
         btnLogin.UseTransparentBackground = True
@@ -86,11 +84,10 @@ Partial Class Login
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges5
         Guna2PictureBox2.Image = My.Resources.Resources.blue_wave_logo
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(183, 85)
-        Guna2PictureBox2.Margin = New Padding(4)
+        Guna2PictureBox2.Location = New Point(146, 68)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2PictureBox2.Size = New Size(176, 141)
+        Guna2PictureBox2.Size = New Size(141, 113)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 6
         Guna2PictureBox2.TabStop = False
@@ -99,7 +96,7 @@ Partial Class Login
         ' 
         txtEmployeeID.AutoRoundedCorners = True
         txtEmployeeID.BackColor = Color.Transparent
-        txtEmployeeID.BorderRadius = 27
+        txtEmployeeID.BorderRadius = 10
         txtEmployeeID.CustomizableEdges = CustomizableEdges7
         txtEmployeeID.DefaultText = ""
         txtEmployeeID.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -109,22 +106,21 @@ Partial Class Login
         txtEmployeeID.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEmployeeID.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtEmployeeID.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEmployeeID.Location = New Point(116, 307)
-        txtEmployeeID.Margin = New Padding(4)
+        txtEmployeeID.Location = New Point(93, 246)
         txtEmployeeID.MaxLength = 10
         txtEmployeeID.Name = "txtEmployeeID"
         txtEmployeeID.PasswordChar = ChrW(0)
         txtEmployeeID.PlaceholderText = "Username"
         txtEmployeeID.SelectedText = ""
         txtEmployeeID.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtEmployeeID.Size = New Size(312, 56)
+        txtEmployeeID.Size = New Size(250, 45)
         txtEmployeeID.TabIndex = 3
         ' 
         ' txtEmployeePass
         ' 
         txtEmployeePass.AutoRoundedCorners = True
         txtEmployeePass.BackColor = Color.Transparent
-        txtEmployeePass.BorderRadius = 27
+        txtEmployeePass.BorderRadius = 10
         txtEmployeePass.CustomizableEdges = CustomizableEdges9
         txtEmployeePass.DefaultText = ""
         txtEmployeePass.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -134,15 +130,14 @@ Partial Class Login
         txtEmployeePass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEmployeePass.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtEmployeePass.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEmployeePass.Location = New Point(116, 400)
-        txtEmployeePass.Margin = New Padding(4)
+        txtEmployeePass.Location = New Point(93, 320)
         txtEmployeePass.MaxLength = 10
         txtEmployeePass.Name = "txtEmployeePass"
         txtEmployeePass.PasswordChar = "*"c
         txtEmployeePass.PlaceholderText = "Password"
         txtEmployeePass.SelectedText = ""
         txtEmployeePass.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        txtEmployeePass.Size = New Size(312, 56)
+        txtEmployeePass.Size = New Size(250, 45)
         txtEmployeePass.TabIndex = 4
         ' 
         ' Guna2HtmlLabel2
@@ -159,14 +154,17 @@ Partial Class Login
         ' 
         ' gblogin
         ' 
+        gblogin.BackColor = Color.White
         gblogin.Controls.Add(Label1)
         gblogin.Controls.Add(txtEmployeePass)
         gblogin.Controls.Add(txtEmployeeID)
         gblogin.Controls.Add(btnLogin)
         gblogin.Controls.Add(Guna2PictureBox2)
-        gblogin.Location = New Point(271, 94)
+        gblogin.Location = New Point(217, 75)
+        gblogin.Margin = New Padding(2, 2, 2, 2)
         gblogin.Name = "gblogin"
-        gblogin.Size = New Size(531, 670)
+        gblogin.Padding = New Padding(2, 2, 2, 2)
+        gblogin.Size = New Size(425, 536)
         gblogin.TabIndex = 9
         gblogin.TabStop = False
         ' 
@@ -174,20 +172,20 @@ Partial Class Login
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(219, 230)
+        Label1.Location = New Point(175, 184)
+        Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(97, 38)
+        Label1.Size = New Size(82, 32)
         Label1.TabIndex = 7
         Label1.Text = "LOGIN"
         ' 
         ' Login
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1040, 816)
+        ClientSize = New Size(832, 653)
         Controls.Add(gblogin)
         Controls.Add(Guna2PictureBox1)
-        Margin = New Padding(4)
         Name = "Login"
         Text = "Login"
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
