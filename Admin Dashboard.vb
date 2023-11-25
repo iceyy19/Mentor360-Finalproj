@@ -1,11 +1,15 @@
 ﻿Imports Guna.UI2.WinForms
 
 Public Class Admin_Dashboard
+    Public ID As String = Login.ID
+    Public Nname As String = Login.Nname
     Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
 
     End Sub
 
     Private Sub Admin_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblID.Text = ID
+        lblName.Text = Nname
         For Each textBox As Guna2TextBox In {txtEId, txtEName, txtSId, txtSName, txtMId, txtMName}
             textBox.Tag = textBox.Text
         Next

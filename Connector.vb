@@ -4,10 +4,10 @@ Public Class Connector
     Public Shared Function getDBConnection() As MySqlConnection
 
         myDBConnection = New MySqlConnection(
-            "Database=coaching;" &
+            "Database=mentor360-finals;" &
             "Data Source=localhost;" &
             "User id= root;" &
-            "Password= pass;" &
+            "Password= pass0403;" &
             "Port=3306;Command TimeOut=600;")
         Return myDBConnection
 
