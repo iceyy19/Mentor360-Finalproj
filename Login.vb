@@ -12,14 +12,22 @@ Public Class Login
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        If CheckStudentCredentials(txtID.Text, txtPass.Text) Then
+            txtID.Clear()
+            txtPass.Clear()
+            Me.Hide()
+            Admin_Dashboard.Show()
+        Else
+            MsgBox("Incorrect Credentials", "h", vbOK)
+        End If
 
     End Sub
-    Private Function CheckStudentCredentials(employeeID As String, password As String) As Boolean
-        Dim query As String = $"SELECT COUNT(*) FROM tbllogin WHERE demployeeID = @employeeID AND dpassword = @password"
+    Private Function CheckStudentCredentials(AdminID As String, password As String) As Boolean
+        Dim query As String = $"SELECT COUNT(*) FROM tbladmin WHERE dAdminID = @AdminID AND dAdminPassword = @password"
 
         Using myConnection As MySqlConnection = Connector.getDBConnection()
             Using cmd As New MySqlCommand(query, myConnection)
-                cmd.Parameters.AddWithValue("@employeeID", employeeID)
+                cmd.Parameters.AddWithValue("@AdminID", AdminID)
                 cmd.Parameters.AddWithValue("@password", password)
 
                 myConnection.Open()
@@ -38,7 +46,7 @@ Public Class Login
         Try
 
             myConnectionx.Open()
-            myCommandx = New MySqlCommand($"INSERT INTO tbllogs (demployeeID, ttimestamp, dstatus) VALUES ('{txtEmployeeID.Text}', CURRENT_TIMESTAMP(), 'In')", myConnectionx)
+            myCommandx = New MySqlCommand($"INSERT INTO tbllogs (demployeeID, ttimestamp, dstatus) VALUES ('{txtID.Text}', CURRENT_TIMESTAMP(), 'In')", myConnectionx)
             myCommandx.ExecuteNonQuery()
 
         Catch ex As Exception
