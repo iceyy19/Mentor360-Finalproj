@@ -9,6 +9,10 @@ Public Class Admin_Dashboard
         For Each textBox As Guna2TextBox In {txtEId, txtEName, txtSId, txtSName, txtMId, txtMName}
             textBox.Tag = textBox.Text
         Next
+
+        For Each textBox As Guna2TextBox In {txtEId, txtEName, txtSId, txtSName, txtMId, txtMName}
+            textBox.BorderRadius = "7"
+        Next
     End Sub
     Private Sub GunaTextBox_GotFocus(sender As Object, e As EventArgs) Handles txtEId.GotFocus, txtEName.GotFocus, txtSId.GotFocus, txtSName.GotFocus, txtMId.GotFocus, txtMName.GotFocus
         HandleGunaTextBoxFocus(DirectCast(sender, Guna2TextBox), Color.Black)
