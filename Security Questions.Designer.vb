@@ -280,6 +280,7 @@ Partial Class Security_Questions
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(630, 661)
+        ControlBox = False
         Controls.Add(btnNext)
         Controls.Add(btnReset)
         Controls.Add(Guna2HtmlLabel5)
@@ -295,7 +296,6 @@ Partial Class Security_Questions
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(Guna2ComboBox1)
         Name = "Security_Questions"
-        Text = "Security_Questions"
         ResumeLayout(False)
     End Sub
 

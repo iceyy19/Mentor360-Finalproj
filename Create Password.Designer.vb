@@ -142,14 +142,17 @@ Partial Class Create_Password
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(618, 249)
+        ControlBox = False
         Controls.Add(btnConfirm)
         Controls.Add(btnCancel)
         Controls.Add(Guna2HtmlLabel2)
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(Guna2TextBox2)
         Controls.Add(Guna2TextBox1)
+        MaximizeBox = False
+        MinimizeBox = False
         Name = "Create_Password"
-        Text = "Create_Password"
+        ShowIcon = False
         ResumeLayout(False)
     End Sub
 
