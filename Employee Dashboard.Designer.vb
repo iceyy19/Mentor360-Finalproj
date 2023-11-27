@@ -201,9 +201,10 @@ Partial Class Employee_Dashboard
         Guna2Panel1.Controls.Add(btnResult)
         Guna2Panel1.CustomizableEdges = CustomizableEdges9
         Guna2Panel1.Location = New Point(0, 0)
+        Guna2Panel1.Margin = New Padding(4)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Panel1.Size = New Size(150, 757)
+        Guna2Panel1.Size = New Size(188, 946)
         Guna2Panel1.TabIndex = 0
         ' 
         ' Guna2PictureBox2
@@ -212,10 +213,11 @@ Partial Class Employee_Dashboard
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox2.Image = My.Resources.Resources.blue_wave_logo
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(12, 41)
+        Guna2PictureBox2.Location = New Point(15, 51)
+        Guna2PictureBox2.Margin = New Padding(4)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox2.Size = New Size(119, 98)
+        Guna2PictureBox2.Size = New Size(149, 122)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 8
         Guna2PictureBox2.TabStop = False
@@ -230,10 +232,11 @@ Partial Class Employee_Dashboard
         btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(3, 669)
+        btnLogout.Location = New Point(4, 836)
+        btnLogout.Margin = New Padding(4)
         btnLogout.Name = "btnLogout"
         btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnLogout.Size = New Size(139, 44)
+        btnLogout.Size = New Size(174, 55)
         btnLogout.TabIndex = 7
         btnLogout.Text = "Logout"
         ' 
@@ -247,10 +250,11 @@ Partial Class Employee_Dashboard
         btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnHome.ForeColor = Color.White
-        btnHome.Location = New Point(3, 197)
+        btnHome.Location = New Point(4, 246)
+        btnHome.Margin = New Padding(4)
         btnHome.Name = "btnHome"
         btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnHome.Size = New Size(139, 44)
+        btnHome.Size = New Size(174, 55)
         btnHome.TabIndex = 6
         btnHome.Text = "Home"
         ' 
@@ -264,10 +268,11 @@ Partial Class Employee_Dashboard
         btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnResult.ForeColor = Color.White
-        btnResult.Location = New Point(3, 248)
+        btnResult.Location = New Point(4, 310)
+        btnResult.Margin = New Padding(4)
         btnResult.Name = "btnResult"
         btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        btnResult.Size = New Size(139, 44)
+        btnResult.Size = New Size(174, 55)
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
@@ -285,58 +290,64 @@ Partial Class Employee_Dashboard
         Guna2Panel2.Controls.Add(Label1)
         Guna2Panel2.Controls.Add(Guna2GroupBox1)
         Guna2Panel2.CustomizableEdges = CustomizableEdges50
-        Guna2Panel2.Location = New Point(148, 0)
+        Guna2Panel2.Location = New Point(185, 0)
+        Guna2Panel2.Margin = New Padding(4)
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges51
-        Guna2Panel2.Size = New Size(936, 757)
+        Guna2Panel2.Size = New Size(1170, 946)
         Guna2Panel2.TabIndex = 0
         ' 
         ' lblManager
         ' 
         lblManager.AutoSize = True
-        lblManager.Location = New Point(742, 75)
+        lblManager.Location = New Point(928, 94)
+        lblManager.Margin = New Padding(4, 0, 4, 0)
         lblManager.Name = "lblManager"
-        lblManager.Size = New Size(53, 20)
+        lblManager.Size = New Size(63, 25)
         lblManager.TabIndex = 7
         lblManager.Text = "Label8"
         ' 
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(742, 41)
+        lblSupervisor.Location = New Point(928, 51)
+        lblSupervisor.Margin = New Padding(4, 0, 4, 0)
         lblSupervisor.Name = "lblSupervisor"
-        lblSupervisor.Size = New Size(53, 20)
+        lblSupervisor.Size = New Size(63, 25)
         lblSupervisor.TabIndex = 6
         lblSupervisor.Text = "Label7"
         ' 
         ' lblId
         ' 
         lblId.AutoSize = True
-        lblId.Location = New Point(155, 75)
+        lblId.Location = New Point(194, 94)
+        lblId.Margin = New Padding(4, 0, 4, 0)
         lblId.Name = "lblId"
-        lblId.Size = New Size(53, 20)
+        lblId.Size = New Size(63, 25)
         lblId.TabIndex = 5
         lblId.Text = "Label6"
         ' 
         ' lblName
         ' 
         lblName.AutoSize = True
-        lblName.Location = New Point(155, 41)
+        lblName.Location = New Point(194, 51)
+        lblName.Margin = New Padding(4, 0, 4, 0)
         lblName.Name = "lblName"
-        lblName.Size = New Size(53, 20)
+        lblName.Size = New Size(63, 25)
         lblName.TabIndex = 2
         lblName.Text = "Label5"
         ' 
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-82, 123)
+        Guna2Shapes1.Location = New Point(-102, 154)
+        Guna2Shapes1.Margin = New Padding(4)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
         Guna2Shapes1.RoundedEdges = CustomizableEdges11
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Guna2Shapes1.Size = New Size(1103, 2)
+        Guna2Shapes1.Size = New Size(1379, 2)
         Guna2Shapes1.TabIndex = 4
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
@@ -345,9 +356,10 @@ Partial Class Employee_Dashboard
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(655, 75)
+        Label4.Location = New Point(819, 94)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(71, 20)
+        Label4.Size = New Size(86, 25)
         Label4.TabIndex = 3
         Label4.Text = "Manager:"
         ' 
@@ -355,9 +367,10 @@ Partial Class Employee_Dashboard
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(655, 41)
+        Label3.Location = New Point(819, 51)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(81, 20)
+        Label3.Size = New Size(100, 25)
         Label3.TabIndex = 2
         Label3.Text = "Supervisor:"
         ' 
@@ -365,9 +378,10 @@ Partial Class Employee_Dashboard
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(27, 75)
+        Label2.Location = New Point(34, 94)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(97, 20)
+        Label2.Size = New Size(117, 25)
         Label2.TabIndex = 1
         Label2.Text = "Employee ID:"
         ' 
@@ -375,9 +389,10 @@ Partial Class Employee_Dashboard
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(27, 41)
+        Label1.Location = New Point(34, 51)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(122, 20)
+        Label1.Size = New Size(146, 25)
         Label1.TabIndex = 0
         Label1.Text = "Employee Name:"
         ' 
@@ -391,10 +406,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox1.CustomizableEdges = CustomizableEdges48
         Guna2GroupBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox1.ForeColor = Color.White
-        Guna2GroupBox1.Location = New Point(27, 123)
+        Guna2GroupBox1.Location = New Point(34, 154)
+        Guna2GroupBox1.Margin = New Padding(4)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges49
-        Guna2GroupBox1.Size = New Size(880, 602)
+        Guna2GroupBox1.Size = New Size(1100, 752)
         Guna2GroupBox1.TabIndex = 2
         ' 
         ' Guna2vScrollBar1
@@ -402,11 +418,12 @@ Partial Class Employee_Dashboard
         Guna2vScrollBar1.Dock = DockStyle.Right
         Guna2vScrollBar1.InUpdate = False
         Guna2vScrollBar1.LargeChange = 50
-        Guna2vScrollBar1.Location = New Point(858, 40)
-        Guna2vScrollBar1.Maximum = 350
+        Guna2vScrollBar1.Location = New Point(1072, 40)
+        Guna2vScrollBar1.Margin = New Padding(4)
+        Guna2vScrollBar1.Maximum = 280
         Guna2vScrollBar1.Name = "Guna2vScrollBar1"
-        Guna2vScrollBar1.ScrollbarSize = 22
-        Guna2vScrollBar1.Size = New Size(22, 562)
+        Guna2vScrollBar1.ScrollbarSize = 28
+        Guna2vScrollBar1.Size = New Size(28, 712)
         Guna2vScrollBar1.TabIndex = 0
         ' 
         ' Guna2Panel3
@@ -449,19 +466,21 @@ Partial Class Employee_Dashboard
         Guna2Panel3.CustomizableEdges = CustomizableEdges46
         Guna2Panel3.Dock = DockStyle.Fill
         Guna2Panel3.Location = New Point(0, 40)
+        Guna2Panel3.Margin = New Padding(4)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.Padding = New Padding(3)
+        Guna2Panel3.Padding = New Padding(4)
         Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges47
-        Guna2Panel3.Size = New Size(880, 562)
+        Guna2Panel3.Size = New Size(1100, 712)
         Guna2Panel3.TabIndex = 3
         ' 
         ' Label21
         ' 
         Label21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label21.ForeColor = Color.Black
-        Label21.Location = New Point(187, 744)
+        Label21.Location = New Point(234, 930)
+        Label21.Margin = New Padding(4, 0, 4, 0)
         Label21.Name = "Label21"
-        Label21.Size = New Size(407, 49)
+        Label21.Size = New Size(509, 61)
         Label21.TabIndex = 25
         Label21.Text = "I make sure that the software is built consistently and reliably and by managing configurations and dependencies."
         ' 
@@ -469,9 +488,10 @@ Partial Class Employee_Dashboard
         ' 
         Label20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label20.ForeColor = Color.Black
-        Label20.Location = New Point(187, 692)
+        Label20.Location = New Point(234, 865)
+        Label20.Margin = New Padding(4, 0, 4, 0)
         Label20.Name = "Label20"
-        Label20.Size = New Size(407, 34)
+        Label20.Size = New Size(509, 42)
         Label20.TabIndex = 24
         Label20.Text = "I use version control systems to track changes to the code and make it easier to collaborate with other developers."
         ' 
@@ -479,9 +499,10 @@ Partial Class Employee_Dashboard
         ' 
         Label19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label19.ForeColor = Color.Black
-        Label19.Location = New Point(189, 640)
+        Label19.Location = New Point(236, 800)
+        Label19.Margin = New Padding(4, 0, 4, 0)
         Label19.Name = "Label19"
-        Label19.Size = New Size(407, 34)
+        Label19.Size = New Size(509, 42)
         Label19.TabIndex = 23
         Label19.Text = "I make sure the software run faster, more efficiently, and use fewer resources."
         ' 
@@ -496,10 +517,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox11.CustomizableEdges = CustomizableEdges12
         Guna2GroupBox11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox11.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox11.Location = New Point(18, 744)
+        Guna2GroupBox11.Location = New Point(22, 930)
+        Guna2GroupBox11.Margin = New Padding(4)
         Guna2GroupBox11.Name = "Guna2GroupBox11"
         Guna2GroupBox11.ShadowDecoration.CustomizableEdges = CustomizableEdges13
-        Guna2GroupBox11.Size = New Size(163, 34)
+        Guna2GroupBox11.Size = New Size(204, 42)
         Guna2GroupBox11.TabIndex = 20
         ' 
         ' RadioButton28
@@ -508,9 +530,10 @@ Partial Class Employee_Dashboard
         RadioButton28.BackColor = Color.White
         RadioButton28.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton28.ForeColor = Color.Black
-        RadioButton28.Location = New Point(111, 6)
+        RadioButton28.Location = New Point(139, 8)
+        RadioButton28.Margin = New Padding(4)
         RadioButton28.Name = "RadioButton28"
-        RadioButton28.Size = New Size(52, 21)
+        RadioButton28.Size = New Size(63, 25)
         RadioButton28.TabIndex = 2
         RadioButton28.TabStop = True
         RadioButton28.Text = "N/A"
@@ -522,9 +545,10 @@ Partial Class Employee_Dashboard
         RadioButton29.BackColor = Color.White
         RadioButton29.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton29.ForeColor = Color.Black
-        RadioButton29.Location = New Point(4, 6)
+        RadioButton29.Location = New Point(5, 8)
+        RadioButton29.Margin = New Padding(4)
         RadioButton29.Name = "RadioButton29"
-        RadioButton29.Size = New Size(48, 21)
+        RadioButton29.Size = New Size(58, 25)
         RadioButton29.TabIndex = 0
         RadioButton29.TabStop = True
         RadioButton29.Text = "Yes"
@@ -536,9 +560,10 @@ Partial Class Employee_Dashboard
         RadioButton30.BackColor = Color.White
         RadioButton30.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton30.ForeColor = Color.Black
-        RadioButton30.Location = New Point(58, 6)
+        RadioButton30.Location = New Point(72, 8)
+        RadioButton30.Margin = New Padding(4)
         RadioButton30.Name = "RadioButton30"
-        RadioButton30.Size = New Size(47, 21)
+        RadioButton30.Size = New Size(56, 25)
         RadioButton30.TabIndex = 1
         RadioButton30.TabStop = True
         RadioButton30.Text = "No"
@@ -555,10 +580,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox6.CustomizableEdges = CustomizableEdges14
         Guna2GroupBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox6.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox6.Location = New Point(18, 379)
+        Guna2GroupBox6.Location = New Point(22, 474)
+        Guna2GroupBox6.Margin = New Padding(4)
         Guna2GroupBox6.Name = "Guna2GroupBox6"
         Guna2GroupBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges15
-        Guna2GroupBox6.Size = New Size(163, 34)
+        Guna2GroupBox6.Size = New Size(204, 42)
         Guna2GroupBox6.TabIndex = 13
         ' 
         ' RadioButton13
@@ -567,9 +593,10 @@ Partial Class Employee_Dashboard
         RadioButton13.BackColor = Color.White
         RadioButton13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton13.ForeColor = Color.Black
-        RadioButton13.Location = New Point(111, 6)
+        RadioButton13.Location = New Point(139, 8)
+        RadioButton13.Margin = New Padding(4)
         RadioButton13.Name = "RadioButton13"
-        RadioButton13.Size = New Size(52, 21)
+        RadioButton13.Size = New Size(63, 25)
         RadioButton13.TabIndex = 2
         RadioButton13.TabStop = True
         RadioButton13.Text = "N/A"
@@ -581,9 +608,10 @@ Partial Class Employee_Dashboard
         RadioButton14.BackColor = Color.White
         RadioButton14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton14.ForeColor = Color.Black
-        RadioButton14.Location = New Point(4, 6)
+        RadioButton14.Location = New Point(5, 8)
+        RadioButton14.Margin = New Padding(4)
         RadioButton14.Name = "RadioButton14"
-        RadioButton14.Size = New Size(48, 21)
+        RadioButton14.Size = New Size(58, 25)
         RadioButton14.TabIndex = 0
         RadioButton14.TabStop = True
         RadioButton14.Text = "Yes"
@@ -595,9 +623,10 @@ Partial Class Employee_Dashboard
         RadioButton15.BackColor = Color.White
         RadioButton15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton15.ForeColor = Color.Black
-        RadioButton15.Location = New Point(58, 6)
+        RadioButton15.Location = New Point(72, 8)
+        RadioButton15.Margin = New Padding(4)
         RadioButton15.Name = "RadioButton15"
-        RadioButton15.Size = New Size(47, 21)
+        RadioButton15.Size = New Size(56, 25)
         RadioButton15.TabIndex = 1
         RadioButton15.TabStop = True
         RadioButton15.Text = "No"
@@ -614,10 +643,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox12.CustomizableEdges = CustomizableEdges16
         Guna2GroupBox12.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox12.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox12.Location = New Point(18, 588)
+        Guna2GroupBox12.Location = New Point(22, 735)
+        Guna2GroupBox12.Margin = New Padding(4)
         Guna2GroupBox12.Name = "Guna2GroupBox12"
         Guna2GroupBox12.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-        Guna2GroupBox12.Size = New Size(163, 34)
+        Guna2GroupBox12.Size = New Size(204, 42)
         Guna2GroupBox12.TabIndex = 17
         ' 
         ' RadioButton31
@@ -626,9 +656,10 @@ Partial Class Employee_Dashboard
         RadioButton31.BackColor = Color.White
         RadioButton31.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton31.ForeColor = Color.Black
-        RadioButton31.Location = New Point(111, 6)
+        RadioButton31.Location = New Point(139, 8)
+        RadioButton31.Margin = New Padding(4)
         RadioButton31.Name = "RadioButton31"
-        RadioButton31.Size = New Size(52, 21)
+        RadioButton31.Size = New Size(63, 25)
         RadioButton31.TabIndex = 2
         RadioButton31.TabStop = True
         RadioButton31.Text = "N/A"
@@ -640,9 +671,10 @@ Partial Class Employee_Dashboard
         RadioButton32.BackColor = Color.White
         RadioButton32.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton32.ForeColor = Color.Black
-        RadioButton32.Location = New Point(4, 6)
+        RadioButton32.Location = New Point(5, 8)
+        RadioButton32.Margin = New Padding(4)
         RadioButton32.Name = "RadioButton32"
-        RadioButton32.Size = New Size(48, 21)
+        RadioButton32.Size = New Size(58, 25)
         RadioButton32.TabIndex = 0
         RadioButton32.TabStop = True
         RadioButton32.Text = "Yes"
@@ -654,9 +686,10 @@ Partial Class Employee_Dashboard
         RadioButton33.BackColor = Color.White
         RadioButton33.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton33.ForeColor = Color.Black
-        RadioButton33.Location = New Point(58, 6)
+        RadioButton33.Location = New Point(72, 8)
+        RadioButton33.Margin = New Padding(4)
         RadioButton33.Name = "RadioButton33"
-        RadioButton33.Size = New Size(47, 21)
+        RadioButton33.Size = New Size(56, 25)
         RadioButton33.TabIndex = 1
         RadioButton33.TabStop = True
         RadioButton33.Text = "No"
@@ -673,10 +706,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges18
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox7.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox7.Location = New Point(18, 327)
+        Guna2GroupBox7.Location = New Point(22, 409)
+        Guna2GroupBox7.Margin = New Padding(4)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges19
-        Guna2GroupBox7.Size = New Size(163, 34)
+        Guna2GroupBox7.Size = New Size(204, 42)
         Guna2GroupBox7.TabIndex = 12
         ' 
         ' RadioButton16
@@ -685,9 +719,10 @@ Partial Class Employee_Dashboard
         RadioButton16.BackColor = Color.White
         RadioButton16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton16.ForeColor = Color.Black
-        RadioButton16.Location = New Point(111, 6)
+        RadioButton16.Location = New Point(139, 8)
+        RadioButton16.Margin = New Padding(4)
         RadioButton16.Name = "RadioButton16"
-        RadioButton16.Size = New Size(52, 21)
+        RadioButton16.Size = New Size(63, 25)
         RadioButton16.TabIndex = 2
         RadioButton16.TabStop = True
         RadioButton16.Text = "N/A"
@@ -699,9 +734,10 @@ Partial Class Employee_Dashboard
         RadioButton17.BackColor = Color.White
         RadioButton17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton17.ForeColor = Color.Black
-        RadioButton17.Location = New Point(4, 6)
+        RadioButton17.Location = New Point(5, 8)
+        RadioButton17.Margin = New Padding(4)
         RadioButton17.Name = "RadioButton17"
-        RadioButton17.Size = New Size(48, 21)
+        RadioButton17.Size = New Size(58, 25)
         RadioButton17.TabIndex = 0
         RadioButton17.TabStop = True
         RadioButton17.Text = "Yes"
@@ -713,9 +749,10 @@ Partial Class Employee_Dashboard
         RadioButton18.BackColor = Color.White
         RadioButton18.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton18.ForeColor = Color.Black
-        RadioButton18.Location = New Point(58, 6)
+        RadioButton18.Location = New Point(72, 8)
+        RadioButton18.Margin = New Padding(4)
         RadioButton18.Name = "RadioButton18"
-        RadioButton18.Size = New Size(47, 21)
+        RadioButton18.Size = New Size(56, 25)
         RadioButton18.TabIndex = 1
         RadioButton18.TabStop = True
         RadioButton18.Text = "No"
@@ -732,10 +769,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox13.CustomizableEdges = CustomizableEdges20
         Guna2GroupBox13.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox13.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox13.Location = New Point(18, 692)
+        Guna2GroupBox13.Location = New Point(22, 865)
+        Guna2GroupBox13.Margin = New Padding(4)
         Guna2GroupBox13.Name = "Guna2GroupBox13"
         Guna2GroupBox13.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-        Guna2GroupBox13.Size = New Size(163, 34)
+        Guna2GroupBox13.Size = New Size(204, 42)
         Guna2GroupBox13.TabIndex = 19
         ' 
         ' RadioButton34
@@ -744,9 +782,10 @@ Partial Class Employee_Dashboard
         RadioButton34.BackColor = Color.White
         RadioButton34.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton34.ForeColor = Color.Black
-        RadioButton34.Location = New Point(111, 6)
+        RadioButton34.Location = New Point(139, 8)
+        RadioButton34.Margin = New Padding(4)
         RadioButton34.Name = "RadioButton34"
-        RadioButton34.Size = New Size(52, 21)
+        RadioButton34.Size = New Size(63, 25)
         RadioButton34.TabIndex = 2
         RadioButton34.TabStop = True
         RadioButton34.Text = "N/A"
@@ -758,9 +797,10 @@ Partial Class Employee_Dashboard
         RadioButton35.BackColor = Color.White
         RadioButton35.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton35.ForeColor = Color.Black
-        RadioButton35.Location = New Point(4, 6)
+        RadioButton35.Location = New Point(5, 8)
+        RadioButton35.Margin = New Padding(4)
         RadioButton35.Name = "RadioButton35"
-        RadioButton35.Size = New Size(48, 21)
+        RadioButton35.Size = New Size(58, 25)
         RadioButton35.TabIndex = 0
         RadioButton35.TabStop = True
         RadioButton35.Text = "Yes"
@@ -772,9 +812,10 @@ Partial Class Employee_Dashboard
         RadioButton36.BackColor = Color.White
         RadioButton36.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton36.ForeColor = Color.Black
-        RadioButton36.Location = New Point(58, 6)
+        RadioButton36.Location = New Point(72, 8)
+        RadioButton36.Margin = New Padding(4)
         RadioButton36.Name = "RadioButton36"
-        RadioButton36.Size = New Size(47, 21)
+        RadioButton36.Size = New Size(56, 25)
         RadioButton36.TabIndex = 1
         RadioButton36.TabStop = True
         RadioButton36.Text = "No"
@@ -791,10 +832,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox4.CustomizableEdges = CustomizableEdges22
         Guna2GroupBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox4.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox4.Location = New Point(18, 171)
+        Guna2GroupBox4.Location = New Point(22, 214)
+        Guna2GroupBox4.Margin = New Padding(4)
         Guna2GroupBox4.Name = "Guna2GroupBox4"
         Guna2GroupBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-        Guna2GroupBox4.Size = New Size(163, 34)
+        Guna2GroupBox4.Size = New Size(204, 42)
         Guna2GroupBox4.TabIndex = 9
         ' 
         ' RadioButton7
@@ -803,9 +845,10 @@ Partial Class Employee_Dashboard
         RadioButton7.BackColor = Color.White
         RadioButton7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton7.ForeColor = Color.Black
-        RadioButton7.Location = New Point(111, 6)
+        RadioButton7.Location = New Point(139, 8)
+        RadioButton7.Margin = New Padding(4)
         RadioButton7.Name = "RadioButton7"
-        RadioButton7.Size = New Size(52, 21)
+        RadioButton7.Size = New Size(63, 25)
         RadioButton7.TabIndex = 2
         RadioButton7.TabStop = True
         RadioButton7.Text = "N/A"
@@ -817,9 +860,10 @@ Partial Class Employee_Dashboard
         RadioButton8.BackColor = Color.White
         RadioButton8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton8.ForeColor = Color.Black
-        RadioButton8.Location = New Point(4, 6)
+        RadioButton8.Location = New Point(5, 8)
+        RadioButton8.Margin = New Padding(4)
         RadioButton8.Name = "RadioButton8"
-        RadioButton8.Size = New Size(48, 21)
+        RadioButton8.Size = New Size(58, 25)
         RadioButton8.TabIndex = 0
         RadioButton8.TabStop = True
         RadioButton8.Text = "Yes"
@@ -831,9 +875,10 @@ Partial Class Employee_Dashboard
         RadioButton9.BackColor = Color.White
         RadioButton9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton9.ForeColor = Color.Black
-        RadioButton9.Location = New Point(58, 6)
+        RadioButton9.Location = New Point(72, 8)
+        RadioButton9.Margin = New Padding(4)
         RadioButton9.Name = "RadioButton9"
-        RadioButton9.Size = New Size(47, 21)
+        RadioButton9.Size = New Size(56, 25)
         RadioButton9.TabIndex = 1
         RadioButton9.TabStop = True
         RadioButton9.Text = "No"
@@ -850,10 +895,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox14.CustomizableEdges = CustomizableEdges24
         Guna2GroupBox14.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox14.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox14.Location = New Point(18, 536)
+        Guna2GroupBox14.Location = New Point(22, 670)
+        Guna2GroupBox14.Margin = New Padding(4)
         Guna2GroupBox14.Name = "Guna2GroupBox14"
         Guna2GroupBox14.ShadowDecoration.CustomizableEdges = CustomizableEdges25
-        Guna2GroupBox14.Size = New Size(163, 34)
+        Guna2GroupBox14.Size = New Size(204, 42)
         Guna2GroupBox14.TabIndex = 16
         ' 
         ' RadioButton37
@@ -862,9 +908,10 @@ Partial Class Employee_Dashboard
         RadioButton37.BackColor = Color.White
         RadioButton37.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton37.ForeColor = Color.Black
-        RadioButton37.Location = New Point(111, 6)
+        RadioButton37.Location = New Point(139, 8)
+        RadioButton37.Margin = New Padding(4)
         RadioButton37.Name = "RadioButton37"
-        RadioButton37.Size = New Size(52, 21)
+        RadioButton37.Size = New Size(63, 25)
         RadioButton37.TabIndex = 2
         RadioButton37.TabStop = True
         RadioButton37.Text = "N/A"
@@ -876,9 +923,10 @@ Partial Class Employee_Dashboard
         RadioButton38.BackColor = Color.White
         RadioButton38.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton38.ForeColor = Color.Black
-        RadioButton38.Location = New Point(4, 6)
+        RadioButton38.Location = New Point(5, 8)
+        RadioButton38.Margin = New Padding(4)
         RadioButton38.Name = "RadioButton38"
-        RadioButton38.Size = New Size(48, 21)
+        RadioButton38.Size = New Size(58, 25)
         RadioButton38.TabIndex = 0
         RadioButton38.TabStop = True
         RadioButton38.Text = "Yes"
@@ -890,9 +938,10 @@ Partial Class Employee_Dashboard
         RadioButton39.BackColor = Color.White
         RadioButton39.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton39.ForeColor = Color.Black
-        RadioButton39.Location = New Point(58, 6)
+        RadioButton39.Location = New Point(72, 8)
+        RadioButton39.Margin = New Padding(4)
         RadioButton39.Name = "RadioButton39"
-        RadioButton39.Size = New Size(47, 21)
+        RadioButton39.Size = New Size(56, 25)
         RadioButton39.TabIndex = 1
         RadioButton39.TabStop = True
         RadioButton39.Text = "No"
@@ -909,10 +958,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox8.CustomizableEdges = CustomizableEdges26
         Guna2GroupBox8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox8.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox8.Location = New Point(18, 275)
+        Guna2GroupBox8.Location = New Point(22, 344)
+        Guna2GroupBox8.Margin = New Padding(4)
         Guna2GroupBox8.Name = "Guna2GroupBox8"
         Guna2GroupBox8.ShadowDecoration.CustomizableEdges = CustomizableEdges27
-        Guna2GroupBox8.Size = New Size(163, 34)
+        Guna2GroupBox8.Size = New Size(204, 42)
         Guna2GroupBox8.TabIndex = 11
         ' 
         ' RadioButton20
@@ -921,9 +971,10 @@ Partial Class Employee_Dashboard
         RadioButton20.BackColor = Color.White
         RadioButton20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton20.ForeColor = Color.Black
-        RadioButton20.Location = New Point(111, 6)
+        RadioButton20.Location = New Point(139, 8)
+        RadioButton20.Margin = New Padding(4)
         RadioButton20.Name = "RadioButton20"
-        RadioButton20.Size = New Size(52, 21)
+        RadioButton20.Size = New Size(63, 25)
         RadioButton20.TabIndex = 2
         RadioButton20.TabStop = True
         RadioButton20.Text = "N/A"
@@ -935,9 +986,10 @@ Partial Class Employee_Dashboard
         RadioButton19.BackColor = Color.White
         RadioButton19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton19.ForeColor = Color.Black
-        RadioButton19.Location = New Point(4, 6)
+        RadioButton19.Location = New Point(5, 8)
+        RadioButton19.Margin = New Padding(4)
         RadioButton19.Name = "RadioButton19"
-        RadioButton19.Size = New Size(48, 21)
+        RadioButton19.Size = New Size(58, 25)
         RadioButton19.TabIndex = 0
         RadioButton19.TabStop = True
         RadioButton19.Text = "Yes"
@@ -949,9 +1001,10 @@ Partial Class Employee_Dashboard
         RadioButton21.BackColor = Color.White
         RadioButton21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton21.ForeColor = Color.Black
-        RadioButton21.Location = New Point(58, 6)
+        RadioButton21.Location = New Point(72, 8)
+        RadioButton21.Margin = New Padding(4)
         RadioButton21.Name = "RadioButton21"
-        RadioButton21.Size = New Size(47, 21)
+        RadioButton21.Size = New Size(56, 25)
         RadioButton21.TabIndex = 1
         RadioButton21.TabStop = True
         RadioButton21.Text = "No"
@@ -968,10 +1021,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox15.CustomizableEdges = CustomizableEdges28
         Guna2GroupBox15.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox15.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox15.Location = New Point(18, 640)
+        Guna2GroupBox15.Location = New Point(22, 800)
+        Guna2GroupBox15.Margin = New Padding(4)
         Guna2GroupBox15.Name = "Guna2GroupBox15"
         Guna2GroupBox15.ShadowDecoration.CustomizableEdges = CustomizableEdges29
-        Guna2GroupBox15.Size = New Size(163, 34)
+        Guna2GroupBox15.Size = New Size(204, 42)
         Guna2GroupBox15.TabIndex = 18
         ' 
         ' RadioButton40
@@ -980,9 +1034,10 @@ Partial Class Employee_Dashboard
         RadioButton40.BackColor = Color.White
         RadioButton40.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton40.ForeColor = Color.Black
-        RadioButton40.Location = New Point(111, 6)
+        RadioButton40.Location = New Point(139, 8)
+        RadioButton40.Margin = New Padding(4)
         RadioButton40.Name = "RadioButton40"
-        RadioButton40.Size = New Size(52, 21)
+        RadioButton40.Size = New Size(63, 25)
         RadioButton40.TabIndex = 2
         RadioButton40.TabStop = True
         RadioButton40.Text = "N/A"
@@ -994,9 +1049,10 @@ Partial Class Employee_Dashboard
         RadioButton41.BackColor = Color.White
         RadioButton41.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton41.ForeColor = Color.Black
-        RadioButton41.Location = New Point(4, 6)
+        RadioButton41.Location = New Point(5, 8)
+        RadioButton41.Margin = New Padding(4)
         RadioButton41.Name = "RadioButton41"
-        RadioButton41.Size = New Size(48, 21)
+        RadioButton41.Size = New Size(58, 25)
         RadioButton41.TabIndex = 0
         RadioButton41.TabStop = True
         RadioButton41.Text = "Yes"
@@ -1008,9 +1064,10 @@ Partial Class Employee_Dashboard
         RadioButton42.BackColor = Color.White
         RadioButton42.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton42.ForeColor = Color.Black
-        RadioButton42.Location = New Point(58, 6)
+        RadioButton42.Location = New Point(72, 8)
+        RadioButton42.Margin = New Padding(4)
         RadioButton42.Name = "RadioButton42"
-        RadioButton42.Size = New Size(47, 21)
+        RadioButton42.Size = New Size(56, 25)
         RadioButton42.TabIndex = 1
         RadioButton42.TabStop = True
         RadioButton42.Text = "No"
@@ -1027,10 +1084,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox5.CustomizableEdges = CustomizableEdges30
         Guna2GroupBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox5.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox5.Location = New Point(18, 119)
+        Guna2GroupBox5.Location = New Point(22, 149)
+        Guna2GroupBox5.Margin = New Padding(4)
         Guna2GroupBox5.Name = "Guna2GroupBox5"
         Guna2GroupBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges31
-        Guna2GroupBox5.Size = New Size(163, 34)
+        Guna2GroupBox5.Size = New Size(204, 42)
         Guna2GroupBox5.TabIndex = 8
         ' 
         ' RadioButton10
@@ -1039,9 +1097,10 @@ Partial Class Employee_Dashboard
         RadioButton10.BackColor = Color.White
         RadioButton10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton10.ForeColor = Color.Black
-        RadioButton10.Location = New Point(111, 6)
+        RadioButton10.Location = New Point(139, 8)
+        RadioButton10.Margin = New Padding(4)
         RadioButton10.Name = "RadioButton10"
-        RadioButton10.Size = New Size(52, 21)
+        RadioButton10.Size = New Size(63, 25)
         RadioButton10.TabIndex = 2
         RadioButton10.TabStop = True
         RadioButton10.Text = "N/A"
@@ -1053,9 +1112,10 @@ Partial Class Employee_Dashboard
         RadioButton11.BackColor = Color.White
         RadioButton11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton11.ForeColor = Color.Black
-        RadioButton11.Location = New Point(4, 6)
+        RadioButton11.Location = New Point(5, 8)
+        RadioButton11.Margin = New Padding(4)
         RadioButton11.Name = "RadioButton11"
-        RadioButton11.Size = New Size(48, 21)
+        RadioButton11.Size = New Size(58, 25)
         RadioButton11.TabIndex = 0
         RadioButton11.TabStop = True
         RadioButton11.Text = "Yes"
@@ -1067,9 +1127,10 @@ Partial Class Employee_Dashboard
         RadioButton12.BackColor = Color.White
         RadioButton12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton12.ForeColor = Color.Black
-        RadioButton12.Location = New Point(58, 6)
+        RadioButton12.Location = New Point(72, 8)
+        RadioButton12.Margin = New Padding(4)
         RadioButton12.Name = "RadioButton12"
-        RadioButton12.Size = New Size(47, 21)
+        RadioButton12.Size = New Size(56, 25)
         RadioButton12.TabIndex = 1
         RadioButton12.TabStop = True
         RadioButton12.Text = "No"
@@ -1086,10 +1147,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox16.CustomizableEdges = CustomizableEdges32
         Guna2GroupBox16.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox16.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox16.Location = New Point(18, 484)
+        Guna2GroupBox16.Location = New Point(22, 605)
+        Guna2GroupBox16.Margin = New Padding(4)
         Guna2GroupBox16.Name = "Guna2GroupBox16"
         Guna2GroupBox16.ShadowDecoration.CustomizableEdges = CustomizableEdges33
-        Guna2GroupBox16.Size = New Size(163, 34)
+        Guna2GroupBox16.Size = New Size(204, 42)
         Guna2GroupBox16.TabIndex = 15
         ' 
         ' RadioButton43
@@ -1098,9 +1160,10 @@ Partial Class Employee_Dashboard
         RadioButton43.BackColor = Color.White
         RadioButton43.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton43.ForeColor = Color.Black
-        RadioButton43.Location = New Point(111, 6)
+        RadioButton43.Location = New Point(139, 8)
+        RadioButton43.Margin = New Padding(4)
         RadioButton43.Name = "RadioButton43"
-        RadioButton43.Size = New Size(52, 21)
+        RadioButton43.Size = New Size(63, 25)
         RadioButton43.TabIndex = 2
         RadioButton43.TabStop = True
         RadioButton43.Text = "N/A"
@@ -1112,9 +1175,10 @@ Partial Class Employee_Dashboard
         RadioButton44.BackColor = Color.White
         RadioButton44.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton44.ForeColor = Color.Black
-        RadioButton44.Location = New Point(4, 6)
+        RadioButton44.Location = New Point(5, 8)
+        RadioButton44.Margin = New Padding(4)
         RadioButton44.Name = "RadioButton44"
-        RadioButton44.Size = New Size(48, 21)
+        RadioButton44.Size = New Size(58, 25)
         RadioButton44.TabIndex = 0
         RadioButton44.TabStop = True
         RadioButton44.Text = "Yes"
@@ -1126,9 +1190,10 @@ Partial Class Employee_Dashboard
         RadioButton45.BackColor = Color.White
         RadioButton45.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton45.ForeColor = Color.Black
-        RadioButton45.Location = New Point(58, 6)
+        RadioButton45.Location = New Point(72, 8)
+        RadioButton45.Margin = New Padding(4)
         RadioButton45.Name = "RadioButton45"
-        RadioButton45.Size = New Size(47, 21)
+        RadioButton45.Size = New Size(56, 25)
         RadioButton45.TabIndex = 1
         RadioButton45.TabStop = True
         RadioButton45.Text = "No"
@@ -1145,10 +1210,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox9.CustomizableEdges = CustomizableEdges34
         Guna2GroupBox9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox9.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox9.Location = New Point(18, 223)
+        Guna2GroupBox9.Location = New Point(22, 279)
+        Guna2GroupBox9.Margin = New Padding(4)
         Guna2GroupBox9.Name = "Guna2GroupBox9"
         Guna2GroupBox9.ShadowDecoration.CustomizableEdges = CustomizableEdges35
-        Guna2GroupBox9.Size = New Size(163, 34)
+        Guna2GroupBox9.Size = New Size(204, 42)
         Guna2GroupBox9.TabIndex = 10
         ' 
         ' RadioButton22
@@ -1157,9 +1223,10 @@ Partial Class Employee_Dashboard
         RadioButton22.BackColor = Color.White
         RadioButton22.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton22.ForeColor = Color.Black
-        RadioButton22.Location = New Point(111, 6)
+        RadioButton22.Location = New Point(139, 8)
+        RadioButton22.Margin = New Padding(4)
         RadioButton22.Name = "RadioButton22"
-        RadioButton22.Size = New Size(52, 21)
+        RadioButton22.Size = New Size(63, 25)
         RadioButton22.TabIndex = 2
         RadioButton22.TabStop = True
         RadioButton22.Text = "N/A"
@@ -1171,9 +1238,10 @@ Partial Class Employee_Dashboard
         RadioButton23.BackColor = Color.White
         RadioButton23.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton23.ForeColor = Color.Black
-        RadioButton23.Location = New Point(4, 6)
+        RadioButton23.Location = New Point(5, 8)
+        RadioButton23.Margin = New Padding(4)
         RadioButton23.Name = "RadioButton23"
-        RadioButton23.Size = New Size(48, 21)
+        RadioButton23.Size = New Size(58, 25)
         RadioButton23.TabIndex = 0
         RadioButton23.TabStop = True
         RadioButton23.Text = "Yes"
@@ -1185,9 +1253,10 @@ Partial Class Employee_Dashboard
         RadioButton24.BackColor = Color.White
         RadioButton24.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton24.ForeColor = Color.Black
-        RadioButton24.Location = New Point(58, 6)
+        RadioButton24.Location = New Point(72, 8)
+        RadioButton24.Margin = New Padding(4)
         RadioButton24.Name = "RadioButton24"
-        RadioButton24.Size = New Size(47, 21)
+        RadioButton24.Size = New Size(56, 25)
         RadioButton24.TabIndex = 1
         RadioButton24.TabStop = True
         RadioButton24.Text = "No"
@@ -1204,10 +1273,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox17.CustomizableEdges = CustomizableEdges36
         Guna2GroupBox17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox17.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox17.Location = New Point(18, 432)
+        Guna2GroupBox17.Location = New Point(22, 540)
+        Guna2GroupBox17.Margin = New Padding(4)
         Guna2GroupBox17.Name = "Guna2GroupBox17"
         Guna2GroupBox17.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-        Guna2GroupBox17.Size = New Size(163, 34)
+        Guna2GroupBox17.Size = New Size(204, 42)
         Guna2GroupBox17.TabIndex = 14
         ' 
         ' RadioButton46
@@ -1216,9 +1286,10 @@ Partial Class Employee_Dashboard
         RadioButton46.BackColor = Color.White
         RadioButton46.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton46.ForeColor = Color.Black
-        RadioButton46.Location = New Point(111, 6)
+        RadioButton46.Location = New Point(139, 8)
+        RadioButton46.Margin = New Padding(4)
         RadioButton46.Name = "RadioButton46"
-        RadioButton46.Size = New Size(52, 21)
+        RadioButton46.Size = New Size(63, 25)
         RadioButton46.TabIndex = 2
         RadioButton46.TabStop = True
         RadioButton46.Text = "N/A"
@@ -1230,9 +1301,10 @@ Partial Class Employee_Dashboard
         RadioButton47.BackColor = Color.White
         RadioButton47.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton47.ForeColor = Color.Black
-        RadioButton47.Location = New Point(4, 6)
+        RadioButton47.Location = New Point(5, 8)
+        RadioButton47.Margin = New Padding(4)
         RadioButton47.Name = "RadioButton47"
-        RadioButton47.Size = New Size(48, 21)
+        RadioButton47.Size = New Size(58, 25)
         RadioButton47.TabIndex = 0
         RadioButton47.TabStop = True
         RadioButton47.Text = "Yes"
@@ -1244,9 +1316,10 @@ Partial Class Employee_Dashboard
         RadioButton48.BackColor = Color.White
         RadioButton48.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton48.ForeColor = Color.Black
-        RadioButton48.Location = New Point(58, 6)
+        RadioButton48.Location = New Point(72, 8)
+        RadioButton48.Margin = New Padding(4)
         RadioButton48.Name = "RadioButton48"
-        RadioButton48.Size = New Size(47, 21)
+        RadioButton48.Size = New Size(56, 25)
         RadioButton48.TabIndex = 1
         RadioButton48.TabStop = True
         RadioButton48.Text = "No"
@@ -1263,10 +1336,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox2.CustomizableEdges = CustomizableEdges38
         Guna2GroupBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox2.Location = New Point(18, 67)
+        Guna2GroupBox2.Location = New Point(22, 84)
+        Guna2GroupBox2.Margin = New Padding(4)
         Guna2GroupBox2.Name = "Guna2GroupBox2"
         Guna2GroupBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges39
-        Guna2GroupBox2.Size = New Size(163, 34)
+        Guna2GroupBox2.Size = New Size(204, 42)
         Guna2GroupBox2.TabIndex = 7
         ' 
         ' RadioButton1
@@ -1275,9 +1349,10 @@ Partial Class Employee_Dashboard
         RadioButton1.BackColor = Color.White
         RadioButton1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton1.ForeColor = Color.Black
-        RadioButton1.Location = New Point(111, 6)
+        RadioButton1.Location = New Point(139, 8)
+        RadioButton1.Margin = New Padding(4)
         RadioButton1.Name = "RadioButton1"
-        RadioButton1.Size = New Size(52, 21)
+        RadioButton1.Size = New Size(63, 25)
         RadioButton1.TabIndex = 2
         RadioButton1.TabStop = True
         RadioButton1.Text = "N/A"
@@ -1289,9 +1364,10 @@ Partial Class Employee_Dashboard
         RadioButton2.BackColor = Color.White
         RadioButton2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton2.ForeColor = Color.Black
-        RadioButton2.Location = New Point(4, 6)
+        RadioButton2.Location = New Point(5, 8)
+        RadioButton2.Margin = New Padding(4)
         RadioButton2.Name = "RadioButton2"
-        RadioButton2.Size = New Size(48, 21)
+        RadioButton2.Size = New Size(58, 25)
         RadioButton2.TabIndex = 0
         RadioButton2.TabStop = True
         RadioButton2.Text = "Yes"
@@ -1303,9 +1379,10 @@ Partial Class Employee_Dashboard
         RadioButton3.BackColor = Color.White
         RadioButton3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton3.ForeColor = Color.Black
-        RadioButton3.Location = New Point(58, 6)
+        RadioButton3.Location = New Point(72, 8)
+        RadioButton3.Margin = New Padding(4)
         RadioButton3.Name = "RadioButton3"
-        RadioButton3.Size = New Size(47, 21)
+        RadioButton3.Size = New Size(56, 25)
         RadioButton3.TabIndex = 1
         RadioButton3.TabStop = True
         RadioButton3.Text = "No"
@@ -1315,9 +1392,10 @@ Partial Class Employee_Dashboard
         ' 
         Label18.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label18.ForeColor = Color.Black
-        Label18.Location = New Point(187, 588)
+        Label18.Location = New Point(234, 735)
+        Label18.Margin = New Padding(4, 0, 4, 0)
         Label18.Name = "Label18"
-        Label18.Size = New Size(424, 45)
+        Label18.Size = New Size(530, 56)
         Label18.TabIndex = 22
         Label18.Text = "I make sure the CI/CD pipeline is working efficiently and reliably, and that it supports the overall software development lifecycle."
         ' 
@@ -1325,9 +1403,10 @@ Partial Class Employee_Dashboard
         ' 
         Label17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label17.ForeColor = Color.Black
-        Label17.Location = New Point(189, 536)
+        Label17.Location = New Point(236, 670)
+        Label17.Margin = New Padding(4, 0, 4, 0)
         Label17.Name = "Label17"
-        Label17.Size = New Size(424, 46)
+        Label17.Size = New Size(530, 58)
         Label17.TabIndex = 18
         Label17.Text = "I help to set up and maintain CI/CD pipelines, which automate the build, test, and deployment process."
         ' 
@@ -1335,9 +1414,10 @@ Partial Class Employee_Dashboard
         ' 
         Label16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label16.ForeColor = Color.Black
-        Label16.Location = New Point(189, 484)
+        Label16.Location = New Point(236, 605)
+        Label16.Margin = New Padding(4, 0, 4, 0)
         Label16.Name = "Label16"
-        Label16.Size = New Size(407, 46)
+        Label16.Size = New Size(509, 58)
         Label16.TabIndex = 17
         Label16.Text = "I work with the operations and DevOps teams to make the development process faster and more efficient."
         ' 
@@ -1345,9 +1425,10 @@ Partial Class Employee_Dashboard
         ' 
         Label15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label15.ForeColor = Color.Black
-        Label15.Location = New Point(189, 432)
+        Label15.Location = New Point(236, 540)
+        Label15.Margin = New Padding(4, 0, 4, 0)
         Label15.Name = "Label15"
-        Label15.Size = New Size(419, 45)
+        Label15.Size = New Size(524, 56)
         Label15.TabIndex = 16
         Label15.Text = "I help to deploy the software to production and other environments, making sure it goes smoothly and without errors."
         ' 
@@ -1355,9 +1436,10 @@ Partial Class Employee_Dashboard
         ' 
         Label14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label14.ForeColor = Color.Black
-        Label14.Location = New Point(189, 379)
+        Label14.Location = New Point(236, 474)
+        Label14.Margin = New Padding(4, 0, 4, 0)
         Label14.Name = "Label14"
-        Label14.Size = New Size(419, 46)
+        Label14.Size = New Size(524, 58)
         Label14.TabIndex = 15
         Label14.Text = "I keep up with the latest security best practices and make sure they are followed in the development process."
         ' 
@@ -1365,9 +1447,10 @@ Partial Class Employee_Dashboard
         ' 
         Label13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label13.ForeColor = Color.Black
-        Label13.Location = New Point(189, 333)
+        Label13.Location = New Point(236, 416)
+        Label13.Margin = New Padding(4, 0, 4, 0)
         Label13.Name = "Label13"
-        Label13.Size = New Size(419, 35)
+        Label13.Size = New Size(524, 44)
         Label13.TabIndex = 14
         Label13.Text = "I add security features to the code to protect it from potential attacks."
         ' 
@@ -1375,9 +1458,10 @@ Partial Class Employee_Dashboard
         ' 
         Label12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label12.ForeColor = Color.Black
-        Label12.Location = New Point(189, 275)
+        Label12.Location = New Point(236, 344)
+        Label12.Margin = New Padding(4, 0, 4, 0)
         Label12.Name = "Label12"
-        Label12.Size = New Size(419, 46)
+        Label12.Size = New Size(524, 58)
         Label12.TabIndex = 13
         Label12.Text = "I test the software to make sure it works as expected and meets the needs of the user."
         ' 
@@ -1385,9 +1469,10 @@ Partial Class Employee_Dashboard
         ' 
         Label11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label11.ForeColor = Color.Black
-        Label11.Location = New Point(189, 223)
+        Label11.Location = New Point(236, 279)
+        Label11.Margin = New Padding(4, 0, 4, 0)
         Label11.Name = "Label11"
-        Label11.Size = New Size(419, 65)
+        Label11.Size = New Size(524, 81)
         Label11.TabIndex = 12
         Label11.Text = "I checked the code that my teammates have written to make sure it follows the team's coding standards, best practices, and project requirements."
         ' 
@@ -1402,10 +1487,11 @@ Partial Class Employee_Dashboard
         Guna2GroupBox3.CustomizableEdges = CustomizableEdges40
         Guna2GroupBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox3.Location = New Point(18, 15)
+        Guna2GroupBox3.Location = New Point(22, 19)
+        Guna2GroupBox3.Margin = New Padding(4)
         Guna2GroupBox3.Name = "Guna2GroupBox3"
         Guna2GroupBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges41
-        Guna2GroupBox3.Size = New Size(163, 34)
+        Guna2GroupBox3.Size = New Size(204, 42)
         Guna2GroupBox3.TabIndex = 6
         ' 
         ' RadioButton4
@@ -1414,9 +1500,10 @@ Partial Class Employee_Dashboard
         RadioButton4.BackColor = Color.White
         RadioButton4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton4.ForeColor = Color.Black
-        RadioButton4.Location = New Point(111, 6)
+        RadioButton4.Location = New Point(136, 8)
+        RadioButton4.Margin = New Padding(4)
         RadioButton4.Name = "RadioButton4"
-        RadioButton4.Size = New Size(52, 21)
+        RadioButton4.Size = New Size(63, 25)
         RadioButton4.TabIndex = 2
         RadioButton4.TabStop = True
         RadioButton4.Text = "N/A"
@@ -1428,9 +1515,10 @@ Partial Class Employee_Dashboard
         RadioButton5.BackColor = Color.White
         RadioButton5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton5.ForeColor = Color.Black
-        RadioButton5.Location = New Point(4, 6)
+        RadioButton5.Location = New Point(5, 8)
+        RadioButton5.Margin = New Padding(4)
         RadioButton5.Name = "RadioButton5"
-        RadioButton5.Size = New Size(48, 21)
+        RadioButton5.Size = New Size(58, 25)
         RadioButton5.TabIndex = 0
         RadioButton5.TabStop = True
         RadioButton5.Text = "Yes"
@@ -1442,9 +1530,10 @@ Partial Class Employee_Dashboard
         RadioButton6.BackColor = Color.White
         RadioButton6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         RadioButton6.ForeColor = Color.Black
-        RadioButton6.Location = New Point(58, 6)
+        RadioButton6.Location = New Point(72, 8)
+        RadioButton6.Margin = New Padding(4)
         RadioButton6.Name = "RadioButton6"
-        RadioButton6.Size = New Size(47, 21)
+        RadioButton6.Size = New Size(56, 25)
         RadioButton6.TabIndex = 1
         RadioButton6.TabStop = True
         RadioButton6.Text = "No"
@@ -1453,9 +1542,10 @@ Partial Class Employee_Dashboard
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Location = New Point(3, 835)
+        Label10.Location = New Point(4, 1044)
+        Label10.Margin = New Padding(4, 0, 4, 0)
         Label10.Name = "Label10"
-        Label10.Size = New Size(101, 20)
+        Label10.Size = New Size(127, 25)
         Label10.TabIndex = 2
         Label10.Text = "                       "
         ' 
@@ -1463,9 +1553,10 @@ Partial Class Employee_Dashboard
         ' 
         Label6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.ForeColor = Color.Black
-        Label6.Location = New Point(189, 15)
+        Label6.Location = New Point(236, 19)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(410, 44)
+        Label6.Size = New Size(512, 55)
         Label6.TabIndex = 1
         Label6.Text = "I write, test, and maintain code that meets the needs of the project and follows the team's coding standards."
         ' 
@@ -1479,10 +1570,11 @@ Partial Class Employee_Dashboard
         Guna2Button1.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(733, 812)
+        Guna2Button1.Location = New Point(916, 1015)
+        Guna2Button1.Margin = New Padding(4)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-        Guna2Button1.Size = New Size(109, 33)
+        Guna2Button1.Size = New Size(136, 41)
         Guna2Button1.TabIndex = 2
         Guna2Button1.Text = "Next"
         ' 
@@ -1490,9 +1582,10 @@ Partial Class Employee_Dashboard
         ' 
         Label7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label7.ForeColor = Color.Black
-        Label7.Location = New Point(189, 67)
+        Label7.Location = New Point(236, 84)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(407, 43)
+        Label7.Size = New Size(509, 54)
         Label7.TabIndex = 5
         Label7.Text = "I use a variety of programming languages, frameworks, and tools to build software applications and systems."
         ' 
@@ -1500,9 +1593,10 @@ Partial Class Employee_Dashboard
         ' 
         Label9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label9.ForeColor = Color.Black
-        Label9.Location = New Point(189, 171)
+        Label9.Location = New Point(236, 214)
+        Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(407, 43)
+        Label9.Size = New Size(509, 54)
         Label9.TabIndex = 11
         Label9.Text = "I use debugging tools and techniques to figure out what's wrong with the code and how to fix it."
         ' 
@@ -1510,9 +1604,10 @@ Partial Class Employee_Dashboard
         ' 
         Label8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label8.ForeColor = Color.Black
-        Label8.Location = New Point(189, 127)
+        Label8.Location = New Point(236, 159)
+        Label8.Margin = New Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(421, 34)
+        Label8.Size = New Size(526, 42)
         Label8.TabIndex = 8
         Label8.Text = "I find and fix bugs, errors, and performance problems in the software."
         ' 
@@ -1527,13 +1622,15 @@ Partial Class Employee_Dashboard
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(614, 15)
+        Guna2TextBox1.Location = New Point(768, 19)
+        Guna2TextBox1.Margin = New Padding(4)
+        Guna2TextBox1.Multiline = True
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges45
-        Guna2TextBox1.Size = New Size(228, 778)
+        Guna2TextBox1.Size = New Size(285, 972)
         Guna2TextBox1.TabIndex = 4
         ' 
         ' Label5
@@ -1541,20 +1638,22 @@ Partial Class Employee_Dashboard
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(3, 5)
+        Label5.Location = New Point(4, 6)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(244, 25)
+        Label5.Size = New Size(293, 30)
         Label5.TabIndex = 0
         Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
         ' Employee_Dashboard
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1082, 1055)
+        ClientSize = New Size(1352, 945)
         Controls.Add(Guna2Panel2)
         Controls.Add(Guna2Panel1)
         IsMdiContainer = True
+        Margin = New Padding(4)
         Name = "Employee_Dashboard"
         Text = "Employee_Dashboard"
         Guna2Panel1.ResumeLayout(False)
