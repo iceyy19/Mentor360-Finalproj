@@ -24,6 +24,13 @@ Partial Class Employee_History
     Private Sub InitializeComponent()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -31,25 +38,23 @@ Partial Class Employee_History
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Employee_History))
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Employee_History))
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2hScrollBar1 = New Guna.UI2.WinForms.Guna2HScrollBar()
+        Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         lblManager = New Label()
         lblSupervisor = New Label()
         lblId = New Label()
@@ -100,22 +105,17 @@ Partial Class Employee_History
         Label5 = New Label()
         Label10 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        btnHistory = New Guna.UI2.WinForms.Guna2Button()
         btnLogout = New Guna.UI2.WinForms.Guna2Button()
         btnHome = New Guna.UI2.WinForms.Guna2Button()
         btnResult = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
-        Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
-        Guna2hScrollBar1 = New Guna.UI2.WinForms.Guna2HScrollBar()
-        btnHistory = New Guna.UI2.WinForms.Guna2Button()
-        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2Panel2.SuspendLayout()
+        Guna2Panel4.SuspendLayout()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2GroupBox1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
         Guna2Panel1.SuspendLayout()
-        Guna2Panel4.SuspendLayout()
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -140,6 +140,114 @@ Partial Class Employee_History
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         Guna2Panel2.Size = New Size(936, 757)
         Guna2Panel2.TabIndex = 3
+        ' 
+        ' Guna2Panel4
+        ' 
+        Guna2Panel4.Controls.Add(Guna2hScrollBar1)
+        Guna2Panel4.Controls.Add(Guna2vScrollBar2)
+        Guna2Panel4.Controls.Add(Guna2DataGridView1)
+        Guna2Panel4.CustomizableEdges = CustomizableEdges1
+        Guna2Panel4.Location = New Point(27, 147)
+        Guna2Panel4.Name = "Guna2Panel4"
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Panel4.Size = New Size(882, 521)
+        Guna2Panel4.TabIndex = 9
+        ' 
+        ' Guna2hScrollBar1
+        ' 
+        Guna2hScrollBar1.Dock = DockStyle.Bottom
+        Guna2hScrollBar1.InUpdate = False
+        Guna2hScrollBar1.LargeChange = 10
+        Guna2hScrollBar1.Location = New Point(0, 499)
+        Guna2hScrollBar1.Maximum = 30
+        Guna2hScrollBar1.Name = "Guna2hScrollBar1"
+        Guna2hScrollBar1.ScrollbarSize = 22
+        Guna2hScrollBar1.Size = New Size(860, 22)
+        Guna2hScrollBar1.TabIndex = 2
+        ' 
+        ' Guna2vScrollBar2
+        ' 
+        Guna2vScrollBar2.Dock = DockStyle.Right
+        Guna2vScrollBar2.InUpdate = False
+        Guna2vScrollBar2.LargeChange = 10
+        Guna2vScrollBar2.Location = New Point(860, 0)
+        Guna2vScrollBar2.Name = "Guna2vScrollBar2"
+        Guna2vScrollBar2.ScrollbarSize = 22
+        Guna2vScrollBar2.Size = New Size(22, 521)
+        Guna2vScrollBar2.TabIndex = 1
+        ' 
+        ' Guna2DataGridView1
+        ' 
+        DataGridViewCellStyle1.BackColor = Color.White
+        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Guna2DataGridView1.BorderStyle = BorderStyle.FixedSingle
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Guna2DataGridView1.ColumnHeadersHeight = 4
+        Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.Location = New Point(0, 0)
+        Guna2DataGridView1.Name = "Guna2DataGridView1"
+        Guna2DataGridView1.RowHeadersVisible = False
+        Guna2DataGridView1.RowHeadersWidth = 51
+        Guna2DataGridView1.RowTemplate.Height = 29
+        Guna2DataGridView1.Size = New Size(882, 521)
+        Guna2DataGridView1.TabIndex = 0
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
+        Guna2DataGridView1.ThemeStyle.ReadOnly = False
+        Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Guna2Button1
+        ' 
+        Guna2Button1.AutoRoundedCorners = True
+        Guna2Button1.BackColor = Color.WhiteSmoke
+        Guna2Button1.BorderRadius = 15
+        Guna2Button1.CustomizableEdges = CustomizableEdges3
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Location = New Point(811, 696)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Button1.Size = New Size(98, 32)
+        Guna2Button1.TabIndex = 8
+        Guna2Button1.Text = "Export"
         ' 
         ' lblManager
         ' 
@@ -326,6 +434,7 @@ Partial Class Employee_History
         Guna2HtmlLabel25.Name = "Guna2HtmlLabel25"
         Guna2HtmlLabel25.Size = New Size(377, 128)
         Guna2HtmlLabel25.TabIndex = 3
+        Guna2HtmlLabel25.Text = Nothing
         ' 
         ' Guna2HtmlLabel28
         ' 
@@ -726,6 +835,37 @@ Partial Class Employee_History
         Guna2Panel1.Size = New Size(150, 757)
         Guna2Panel1.TabIndex = 4
         ' 
+        ' Guna2PictureBox2
+        ' 
+        Guna2PictureBox2.BackColor = Color.Transparent
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges12
+        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
+        Guna2PictureBox2.ImageRotate = 0F
+        Guna2PictureBox2.Location = New Point(3, 12)
+        Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        Guna2PictureBox2.Size = New Size(139, 54)
+        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox2.TabIndex = 10
+        Guna2PictureBox2.TabStop = False
+        ' 
+        ' btnHistory
+        ' 
+        btnHistory.CustomizableEdges = CustomizableEdges14
+        btnHistory.DisabledState.BorderColor = Color.DarkGray
+        btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
+        btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnHistory.ForeColor = Color.White
+        btnHistory.Location = New Point(3, 298)
+        btnHistory.Name = "btnHistory"
+        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        btnHistory.Size = New Size(139, 44)
+        btnHistory.TabIndex = 9
+        btnHistory.Text = "History"
+        ' 
         ' btnLogout
         ' 
         btnLogout.CustomizableEdges = CustomizableEdges16
@@ -777,144 +917,6 @@ Partial Class Employee_History
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
-        ' Guna2Button1
-        ' 
-        Guna2Button1.AutoRoundedCorners = True
-        Guna2Button1.BackColor = Color.WhiteSmoke
-        Guna2Button1.BorderRadius = 15
-        Guna2Button1.CustomizableEdges = CustomizableEdges3
-        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(811, 696)
-        Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button1.Size = New Size(98, 32)
-        Guna2Button1.TabIndex = 8
-        Guna2Button1.Text = "Export"
-        ' 
-        ' Guna2Panel4
-        ' 
-        Guna2Panel4.Controls.Add(Guna2hScrollBar1)
-        Guna2Panel4.Controls.Add(Guna2vScrollBar2)
-        Guna2Panel4.Controls.Add(Guna2DataGridView1)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges1
-        Guna2Panel4.Location = New Point(27, 147)
-        Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Panel4.Size = New Size(882, 521)
-        Guna2Panel4.TabIndex = 9
-        ' 
-        ' Guna2DataGridView1
-        ' 
-        DataGridViewCellStyle1.BackColor = Color.White
-        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Guna2DataGridView1.BorderStyle = BorderStyle.FixedSingle
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
-        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.Location = New Point(0, 0)
-        Guna2DataGridView1.Name = "Guna2DataGridView1"
-        Guna2DataGridView1.RowHeadersVisible = False
-        Guna2DataGridView1.RowHeadersWidth = 51
-        Guna2DataGridView1.RowTemplate.Height = 29
-        Guna2DataGridView1.Size = New Size(882, 521)
-        Guna2DataGridView1.TabIndex = 0
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
-        Guna2DataGridView1.ThemeStyle.ReadOnly = False
-        Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Guna2vScrollBar2
-        ' 
-        Guna2vScrollBar2.Dock = DockStyle.Right
-        Guna2vScrollBar2.InUpdate = False
-        Guna2vScrollBar2.LargeChange = 10
-        Guna2vScrollBar2.Location = New Point(860, 0)
-        Guna2vScrollBar2.Name = "Guna2vScrollBar2"
-        Guna2vScrollBar2.ScrollbarSize = 22
-        Guna2vScrollBar2.Size = New Size(22, 521)
-        Guna2vScrollBar2.TabIndex = 1
-        ' 
-        ' Guna2hScrollBar1
-        ' 
-        Guna2hScrollBar1.Dock = DockStyle.Bottom
-        Guna2hScrollBar1.InUpdate = False
-        Guna2hScrollBar1.LargeChange = 10
-        Guna2hScrollBar1.Location = New Point(0, 499)
-        Guna2hScrollBar1.Maximum = 30
-        Guna2hScrollBar1.Name = "Guna2hScrollBar1"
-        Guna2hScrollBar1.ScrollbarSize = 22
-        Guna2hScrollBar1.Size = New Size(860, 22)
-        Guna2hScrollBar1.TabIndex = 2
-        ' 
-        ' btnHistory
-        ' 
-        btnHistory.CustomizableEdges = CustomizableEdges14
-        btnHistory.DisabledState.BorderColor = Color.DarkGray
-        btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
-        btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(3, 298)
-        btnHistory.Name = "btnHistory"
-        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges15
-        btnHistory.Size = New Size(139, 44)
-        btnHistory.TabIndex = 9
-        btnHistory.Text = "History"
-        ' 
-        ' Guna2PictureBox2
-        ' 
-        Guna2PictureBox2.BackColor = Color.Transparent
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges12
-        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
-        Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(3, 12)
-        Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges13
-        Guna2PictureBox2.Size = New Size(139, 54)
-        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox2.TabIndex = 10
-        Guna2PictureBox2.TabStop = False
-        ' 
         ' Employee_History
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -926,12 +928,12 @@ Partial Class Employee_History
         Text = "Employee_History"
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
+        Guna2Panel4.ResumeLayout(False)
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         Guna2GroupBox1.ResumeLayout(False)
         Guna2Panel3.ResumeLayout(False)
         Guna2Panel3.PerformLayout()
         Guna2Panel1.ResumeLayout(False)
-        Guna2Panel4.ResumeLayout(False)
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub

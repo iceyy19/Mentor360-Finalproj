@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Supervisor_Dashboard
+Partial Class Supervisor_Answer_Form
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,8 +22,13 @@ Partial Class Supervisor_Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -61,29 +66,12 @@ Partial Class Supervisor_Dashboard
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Supervisor_Dashboard))
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2GroupBox10 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2CustomRadioButton2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        Guna2CustomRadioButton3 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        Guna2CustomRadioButton1 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        btnSubmit = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -102,6 +90,7 @@ Partial Class Supervisor_Dashboard
         Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Label21 = New Label()
         Label20 = New Label()
+        Label5 = New Label()
         Label19 = New Label()
         Guna2GroupBox11 = New Guna.UI2.WinForms.Guna2GroupBox()
         RadioButton28 = New RadioButton()
@@ -177,21 +166,7 @@ Partial Class Supervisor_Dashboard
         Label9 = New Label()
         Label8 = New Label()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Label5 = New Label()
-        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        btnHistory = New Guna.UI2.WinForms.Guna2Button()
-        btnLogout = New Guna.UI2.WinForms.Guna2Button()
-        btnAnswers = New Guna.UI2.WinForms.Guna2Button()
-        btnResult = New Guna.UI2.WinForms.Guna2Button()
-        btnSubmit = New Guna.UI2.WinForms.Guna2Button()
-        Guna2CustomRadioButton1 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Guna2CustomRadioButton2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Guna2CustomRadioButton3 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Guna2GroupBox10 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        btnHome = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Panel2.SuspendLayout()
+        Guna2GroupBox10.SuspendLayout()
         Guna2GroupBox1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
         Guna2GroupBox11.SuspendLayout()
@@ -209,123 +184,188 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox17.SuspendLayout()
         Guna2GroupBox2.SuspendLayout()
         Guna2GroupBox3.SuspendLayout()
-        Guna2Panel1.SuspendLayout()
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2GroupBox10.SuspendLayout()
         SuspendLayout()
         ' 
-        ' Guna2Panel2
+        ' Guna2HtmlLabel5
         ' 
-        Guna2Panel2.BackColor = Color.White
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel5)
-        Guna2Panel2.Controls.Add(Guna2GroupBox10)
-        Guna2Panel2.Controls.Add(btnSubmit)
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel4)
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel3)
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel2)
-        Guna2Panel2.Controls.Add(lblManager)
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel1)
-        Guna2Panel2.Controls.Add(lblSupervisor)
-        Guna2Panel2.Controls.Add(lblId)
-        Guna2Panel2.Controls.Add(lblName)
-        Guna2Panel2.Controls.Add(Guna2Shapes1)
-        Guna2Panel2.Controls.Add(Label4)
-        Guna2Panel2.Controls.Add(Label3)
-        Guna2Panel2.Controls.Add(Label2)
-        Guna2Panel2.Controls.Add(Label1)
-        Guna2Panel2.Controls.Add(Guna2GroupBox1)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges45
-        Guna2Panel2.Location = New Point(147, 0)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        Guna2Panel2.Size = New Size(936, 1057)
-        Guna2Panel2.TabIndex = 4
+        Guna2HtmlLabel5.BackColor = Color.Transparent
+        Guna2HtmlLabel5.ForeColor = Color.Black
+        Guna2HtmlLabel5.Location = New Point(697, 93)
+        Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
+        Guna2HtmlLabel5.Size = New Size(148, 22)
+        Guna2HtmlLabel5.TabIndex = 50
+        Guna2HtmlLabel5.Text = "Need to be answered:"
+        ' 
+        ' Guna2GroupBox10
+        ' 
+        Guna2GroupBox10.BackColor = Color.White
+        Guna2GroupBox10.BorderColor = Color.White
+        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton2)
+        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton3)
+        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton1)
+        Guna2GroupBox10.CustomBorderColor = Color.White
+        Guna2GroupBox10.CustomizableEdges = CustomizableEdges4
+        Guna2GroupBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox10.ForeColor = Color.White
+        Guna2GroupBox10.Location = New Point(645, 652)
+        Guna2GroupBox10.Name = "Guna2GroupBox10"
+        Guna2GroupBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        Guna2GroupBox10.Size = New Size(128, 38)
+        Guna2GroupBox10.TabIndex = 49
+        ' 
+        ' Guna2CustomRadioButton2
+        ' 
+        Guna2CustomRadioButton2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton2.CheckedState.BorderThickness = 0
+        Guna2CustomRadioButton2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton2.CheckedState.InnerColor = Color.White
+        Guna2CustomRadioButton2.Location = New Point(62, 8)
+        Guna2CustomRadioButton2.Name = "Guna2CustomRadioButton2"
+        Guna2CustomRadioButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        Guna2CustomRadioButton2.Size = New Size(18, 18)
+        Guna2CustomRadioButton2.TabIndex = 13
+        Guna2CustomRadioButton2.Text = "Guna2CustomRadioButton2"
+        Guna2CustomRadioButton2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2CustomRadioButton2.UncheckedState.BorderThickness = 2
+        Guna2CustomRadioButton2.UncheckedState.FillColor = Color.Transparent
+        Guna2CustomRadioButton2.UncheckedState.InnerColor = Color.Transparent
+        ' 
+        ' Guna2CustomRadioButton3
+        ' 
+        Guna2CustomRadioButton3.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton3.CheckedState.BorderThickness = 0
+        Guna2CustomRadioButton3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton3.CheckedState.InnerColor = Color.White
+        Guna2CustomRadioButton3.Location = New Point(28, 8)
+        Guna2CustomRadioButton3.Name = "Guna2CustomRadioButton3"
+        Guna2CustomRadioButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2CustomRadioButton3.Size = New Size(18, 18)
+        Guna2CustomRadioButton3.TabIndex = 14
+        Guna2CustomRadioButton3.Text = "Guna2CustomRadioButton3"
+        Guna2CustomRadioButton3.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2CustomRadioButton3.UncheckedState.BorderThickness = 2
+        Guna2CustomRadioButton3.UncheckedState.FillColor = Color.Transparent
+        Guna2CustomRadioButton3.UncheckedState.InnerColor = Color.Transparent
+        ' 
+        ' Guna2CustomRadioButton1
+        ' 
+        Guna2CustomRadioButton1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton1.CheckedState.BorderThickness = 0
+        Guna2CustomRadioButton1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CustomRadioButton1.CheckedState.InnerColor = Color.White
+        Guna2CustomRadioButton1.Location = New Point(96, 8)
+        Guna2CustomRadioButton1.Name = "Guna2CustomRadioButton1"
+        Guna2CustomRadioButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        Guna2CustomRadioButton1.Size = New Size(18, 18)
+        Guna2CustomRadioButton1.TabIndex = 12
+        Guna2CustomRadioButton1.Text = "Guna2CustomRadioButton1"
+        Guna2CustomRadioButton1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2CustomRadioButton1.UncheckedState.BorderThickness = 2
+        Guna2CustomRadioButton1.UncheckedState.FillColor = Color.Transparent
+        Guna2CustomRadioButton1.UncheckedState.InnerColor = Color.Transparent
+        ' 
+        ' btnSubmit
+        ' 
+        btnSubmit.CustomizableEdges = CustomizableEdges6
+        btnSubmit.DisabledState.BorderColor = Color.DarkGray
+        btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSubmit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSubmit.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnSubmit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnSubmit.ForeColor = Color.White
+        btnSubmit.Location = New Point(779, 652)
+        btnSubmit.Name = "btnSubmit"
+        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        btnSubmit.Size = New Size(109, 33)
+        btnSubmit.TabIndex = 48
+        btnSubmit.Text = "Submit"
         ' 
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.Location = New Point(459, 115)
+        Guna2HtmlLabel4.Location = New Point(449, 93)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(39, 22)
-        Guna2HtmlLabel4.TabIndex = 9
+        Guna2HtmlLabel4.TabIndex = 47
         Guna2HtmlLabel4.Text = "Label"
         ' 
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Location = New Point(124, 115)
+        Guna2HtmlLabel3.Location = New Point(114, 93)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(39, 22)
-        Guna2HtmlLabel3.TabIndex = 8
+        Guna2HtmlLabel3.TabIndex = 46
         Guna2HtmlLabel3.Text = "Label"
         ' 
         ' Guna2HtmlLabel2
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.ForeColor = Color.Black
-        Guna2HtmlLabel2.Location = New Point(337, 115)
+        Guna2HtmlLabel2.Location = New Point(327, 93)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(116, 22)
-        Guna2HtmlLabel2.TabIndex = 5
+        Guna2HtmlLabel2.TabIndex = 42
         Guna2HtmlLabel2.Text = "Employee Name:"
         ' 
         ' lblManager
         ' 
         lblManager.AutoSize = True
-        lblManager.Location = New Point(742, 75)
+        lblManager.Location = New Point(732, 53)
         lblManager.Name = "lblManager"
         lblManager.Size = New Size(53, 20)
-        lblManager.TabIndex = 7
+        lblManager.TabIndex = 45
         lblManager.Text = "Label8"
         ' 
         ' Guna2HtmlLabel1
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.ForeColor = Color.Black
-        Guna2HtmlLabel1.Location = New Point(27, 115)
+        Guna2HtmlLabel1.Location = New Point(17, 93)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(91, 22)
-        Guna2HtmlLabel1.TabIndex = 4
+        Guna2HtmlLabel1.TabIndex = 41
         Guna2HtmlLabel1.Text = "Employee ID:"
         ' 
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(742, 41)
+        lblSupervisor.Location = New Point(732, 19)
         lblSupervisor.Name = "lblSupervisor"
         lblSupervisor.Size = New Size(53, 20)
-        lblSupervisor.TabIndex = 6
+        lblSupervisor.TabIndex = 44
         lblSupervisor.Text = "Label7"
         ' 
         ' lblId
         ' 
         lblId.AutoSize = True
-        lblId.Location = New Point(155, 75)
+        lblId.Location = New Point(145, 53)
         lblId.Name = "lblId"
         lblId.Size = New Size(53, 20)
-        lblId.TabIndex = 5
+        lblId.TabIndex = 43
         lblId.Text = "Label6"
         ' 
         ' lblName
         ' 
         lblName.AutoSize = True
-        lblName.Location = New Point(155, 41)
+        lblName.Location = New Point(145, 19)
         lblName.Name = "lblName"
         lblName.Size = New Size(53, 20)
-        lblName.TabIndex = 2
+        lblName.TabIndex = 38
         lblName.Text = "Label5"
         ' 
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-82, 107)
+        Guna2Shapes1.Location = New Point(-92, 85)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
         Guna2Shapes1.RoundedEdges = CustomizableEdges8
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
         Guna2Shapes1.Size = New Size(1103, 2)
-        Guna2Shapes1.TabIndex = 4
+        Guna2Shapes1.TabIndex = 40
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
         ' 
@@ -333,40 +373,40 @@ Partial Class Supervisor_Dashboard
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(655, 75)
+        Label4.Location = New Point(645, 53)
         Label4.Name = "Label4"
         Label4.Size = New Size(71, 20)
-        Label4.TabIndex = 3
+        Label4.TabIndex = 39
         Label4.Text = "Manager:"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(655, 41)
+        Label3.Location = New Point(645, 19)
         Label3.Name = "Label3"
         Label3.Size = New Size(81, 20)
-        Label3.TabIndex = 2
+        Label3.TabIndex = 37
         Label3.Text = "Supervisor:"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(27, 75)
+        Label2.Location = New Point(17, 53)
         Label2.Name = "Label2"
         Label2.Size = New Size(97, 20)
-        Label2.TabIndex = 1
+        Label2.TabIndex = 35
         Label2.Text = "Employee ID:"
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(27, 41)
+        Label1.Location = New Point(17, 19)
         Label1.Name = "Label1"
         Label1.Size = New Size(122, 20)
-        Label1.TabIndex = 0
+        Label1.TabIndex = 34
         Label1.Text = "Employee Name:"
         ' 
         ' Guna2GroupBox1
@@ -374,16 +414,15 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox1.BorderColor = Color.White
         Guna2GroupBox1.Controls.Add(Guna2vScrollBar1)
         Guna2GroupBox1.Controls.Add(Guna2Panel3)
-        Guna2GroupBox1.Controls.Add(Label5)
         Guna2GroupBox1.CustomBorderColor = Color.White
         Guna2GroupBox1.CustomizableEdges = CustomizableEdges43
         Guna2GroupBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox1.ForeColor = Color.White
-        Guna2GroupBox1.Location = New Point(27, 140)
+        Guna2GroupBox1.Location = New Point(17, 82)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
         Guna2GroupBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        Guna2GroupBox1.Size = New Size(880, 547)
-        Guna2GroupBox1.TabIndex = 2
+        Guna2GroupBox1.Size = New Size(880, 983)
+        Guna2GroupBox1.TabIndex = 36
         ' 
         ' Guna2vScrollBar1
         ' 
@@ -394,7 +433,7 @@ Partial Class Supervisor_Dashboard
         Guna2vScrollBar1.Maximum = 280
         Guna2vScrollBar1.Name = "Guna2vScrollBar1"
         Guna2vScrollBar1.ScrollbarSize = 22
-        Guna2vScrollBar1.Size = New Size(22, 507)
+        Guna2vScrollBar1.Size = New Size(22, 943)
         Guna2vScrollBar1.TabIndex = 0
         ' 
         ' Guna2Panel3
@@ -403,6 +442,7 @@ Partial Class Supervisor_Dashboard
         Guna2Panel3.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
         Guna2Panel3.Controls.Add(Label21)
         Guna2Panel3.Controls.Add(Label20)
+        Guna2Panel3.Controls.Add(Label5)
         Guna2Panel3.Controls.Add(Label19)
         Guna2Panel3.Controls.Add(Guna2GroupBox11)
         Guna2Panel3.Controls.Add(Guna2GroupBox6)
@@ -439,38 +479,49 @@ Partial Class Supervisor_Dashboard
         Guna2Panel3.Name = "Guna2Panel3"
         Guna2Panel3.Padding = New Padding(3)
         Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        Guna2Panel3.Size = New Size(880, 507)
+        Guna2Panel3.Size = New Size(880, 943)
         Guna2Panel3.TabIndex = 3
         ' 
         ' Label21
         ' 
         Label21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label21.ForeColor = Color.Black
-        Label21.Location = New Point(179, 746)
+        Label21.Location = New Point(182, 782)
         Label21.Name = "Label21"
         Label21.Size = New Size(407, 49)
         Label21.TabIndex = 25
-        Label21.Text = "I make sure that the software is built consistently and reliably and by managing configurations and dependencies."
+        Label21.Text = "Manage configurations and dependencies to ensure consistent and reliable software builds."
         ' 
         ' Label20
         ' 
         Label20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label20.ForeColor = Color.Black
-        Label20.Location = New Point(179, 694)
+        Label20.Location = New Point(182, 730)
         Label20.Name = "Label20"
         Label20.Size = New Size(407, 34)
         Label20.TabIndex = 24
-        Label20.Text = "I use version control systems to track changes to the code and make it easier to collaborate with other developers."
+        Label20.Text = "Use version control systems (e.g., Git) to manage and track changes to the codebase."
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(16, 16)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(244, 25)
+        Label5.TabIndex = 0
+        Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
         ' Label19
         ' 
         Label19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label19.ForeColor = Color.Black
-        Label19.Location = New Point(181, 642)
+        Label19.Location = New Point(184, 678)
         Label19.Name = "Label19"
         Label19.Size = New Size(407, 34)
         Label19.TabIndex = 23
-        Label19.Text = "I make sure the software run faster, more efficiently, and use fewer resources."
+        Label19.Text = "Optimize software performance, making improvements to enhance speed, efficiency, and resource utilization."
         ' 
         ' Guna2GroupBox11
         ' 
@@ -483,7 +534,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox11.CustomizableEdges = CustomizableEdges9
         Guna2GroupBox11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox11.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox11.Location = New Point(10, 746)
+        Guna2GroupBox11.Location = New Point(13, 782)
         Guna2GroupBox11.Name = "Guna2GroupBox11"
         Guna2GroupBox11.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2GroupBox11.Size = New Size(163, 34)
@@ -542,7 +593,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox6.CustomizableEdges = CustomizableEdges11
         Guna2GroupBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox6.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox6.Location = New Point(10, 381)
+        Guna2GroupBox6.Location = New Point(13, 417)
         Guna2GroupBox6.Name = "Guna2GroupBox6"
         Guna2GroupBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2GroupBox6.Size = New Size(163, 34)
@@ -601,7 +652,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox12.CustomizableEdges = CustomizableEdges13
         Guna2GroupBox12.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox12.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox12.Location = New Point(10, 590)
+        Guna2GroupBox12.Location = New Point(13, 626)
         Guna2GroupBox12.Name = "Guna2GroupBox12"
         Guna2GroupBox12.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2GroupBox12.Size = New Size(163, 34)
@@ -660,7 +711,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox7.CustomizableEdges = CustomizableEdges15
         Guna2GroupBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox7.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox7.Location = New Point(10, 329)
+        Guna2GroupBox7.Location = New Point(13, 365)
         Guna2GroupBox7.Name = "Guna2GroupBox7"
         Guna2GroupBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2GroupBox7.Size = New Size(163, 34)
@@ -719,7 +770,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox13.CustomizableEdges = CustomizableEdges17
         Guna2GroupBox13.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox13.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox13.Location = New Point(10, 694)
+        Guna2GroupBox13.Location = New Point(13, 730)
         Guna2GroupBox13.Name = "Guna2GroupBox13"
         Guna2GroupBox13.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2GroupBox13.Size = New Size(163, 34)
@@ -778,7 +829,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox4.CustomizableEdges = CustomizableEdges19
         Guna2GroupBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox4.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox4.Location = New Point(10, 173)
+        Guna2GroupBox4.Location = New Point(13, 209)
         Guna2GroupBox4.Name = "Guna2GroupBox4"
         Guna2GroupBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2GroupBox4.Size = New Size(163, 34)
@@ -837,7 +888,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox14.CustomizableEdges = CustomizableEdges21
         Guna2GroupBox14.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox14.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox14.Location = New Point(10, 538)
+        Guna2GroupBox14.Location = New Point(13, 574)
         Guna2GroupBox14.Name = "Guna2GroupBox14"
         Guna2GroupBox14.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2GroupBox14.Size = New Size(163, 34)
@@ -896,7 +947,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox8.CustomizableEdges = CustomizableEdges23
         Guna2GroupBox8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox8.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox8.Location = New Point(10, 277)
+        Guna2GroupBox8.Location = New Point(13, 313)
         Guna2GroupBox8.Name = "Guna2GroupBox8"
         Guna2GroupBox8.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2GroupBox8.Size = New Size(163, 34)
@@ -955,7 +1006,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox15.CustomizableEdges = CustomizableEdges25
         Guna2GroupBox15.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox15.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox15.Location = New Point(10, 642)
+        Guna2GroupBox15.Location = New Point(13, 678)
         Guna2GroupBox15.Name = "Guna2GroupBox15"
         Guna2GroupBox15.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2GroupBox15.Size = New Size(163, 34)
@@ -1014,7 +1065,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox5.CustomizableEdges = CustomizableEdges27
         Guna2GroupBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox5.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox5.Location = New Point(10, 121)
+        Guna2GroupBox5.Location = New Point(13, 157)
         Guna2GroupBox5.Name = "Guna2GroupBox5"
         Guna2GroupBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Guna2GroupBox5.Size = New Size(163, 34)
@@ -1073,7 +1124,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox16.CustomizableEdges = CustomizableEdges29
         Guna2GroupBox16.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox16.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox16.Location = New Point(10, 486)
+        Guna2GroupBox16.Location = New Point(13, 522)
         Guna2GroupBox16.Name = "Guna2GroupBox16"
         Guna2GroupBox16.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Guna2GroupBox16.Size = New Size(163, 34)
@@ -1132,7 +1183,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox9.CustomizableEdges = CustomizableEdges31
         Guna2GroupBox9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox9.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox9.Location = New Point(10, 225)
+        Guna2GroupBox9.Location = New Point(13, 261)
         Guna2GroupBox9.Name = "Guna2GroupBox9"
         Guna2GroupBox9.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         Guna2GroupBox9.Size = New Size(163, 34)
@@ -1191,7 +1242,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox17.CustomizableEdges = CustomizableEdges33
         Guna2GroupBox17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox17.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox17.Location = New Point(10, 434)
+        Guna2GroupBox17.Location = New Point(13, 470)
         Guna2GroupBox17.Name = "Guna2GroupBox17"
         Guna2GroupBox17.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         Guna2GroupBox17.Size = New Size(163, 34)
@@ -1250,7 +1301,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox2.CustomizableEdges = CustomizableEdges35
         Guna2GroupBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox2.Location = New Point(10, 69)
+        Guna2GroupBox2.Location = New Point(13, 105)
         Guna2GroupBox2.Name = "Guna2GroupBox2"
         Guna2GroupBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         Guna2GroupBox2.Size = New Size(163, 34)
@@ -1302,81 +1353,81 @@ Partial Class Supervisor_Dashboard
         ' 
         Label18.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label18.ForeColor = Color.Black
-        Label18.Location = New Point(179, 590)
+        Label18.Location = New Point(182, 626)
         Label18.Name = "Label18"
         Label18.Size = New Size(424, 45)
         Label18.TabIndex = 22
-        Label18.Text = "I make sure the CI/CD pipeline is working efficiently and reliably, and that it supports the overall software development lifecycle."
+        Label18.Text = "Ensure that the CI/CD pipeline is efficient, reliable, and supports the overall software development lifecycle."
         ' 
         ' Label17
         ' 
         Label17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label17.ForeColor = Color.Black
-        Label17.Location = New Point(181, 538)
+        Label17.Location = New Point(184, 574)
         Label17.Name = "Label17"
         Label17.Size = New Size(424, 46)
         Label17.TabIndex = 18
-        Label17.Text = "I help to set up and maintain CI/CD pipelines, which automate the build, test, and deployment process."
+        Label17.Text = "Participate in setting up and maintaining CI/CD pipelines to automate the build, test, and deployment processes."
         ' 
         ' Label16
         ' 
         Label16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label16.ForeColor = Color.Black
-        Label16.Location = New Point(181, 486)
+        Label16.Location = New Point(184, 522)
         Label16.Name = "Label16"
         Label16.Size = New Size(407, 46)
         Label16.TabIndex = 17
-        Label16.Text = "I work with the operations and DevOps teams to make the development process faster and more efficient."
+        Label16.Text = "Collaborate with operations and DevOps teams to automate and streamline deployment procedures."
         ' 
         ' Label15
         ' 
         Label15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label15.ForeColor = Color.Black
-        Label15.Location = New Point(181, 434)
+        Label15.Location = New Point(184, 470)
         Label15.Name = "Label15"
         Label15.Size = New Size(419, 45)
         Label15.TabIndex = 16
-        Label15.Text = "I help to deploy the software to production and other environments, making sure it goes smoothly and without errors."
+        Label15.Text = "Participate in the deployment of software to production and other environments, ensuring a smooth and error-free deployment process."
         ' 
         ' Label14
         ' 
         Label14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label14.ForeColor = Color.Black
-        Label14.Location = New Point(181, 381)
+        Label14.Location = New Point(184, 417)
         Label14.Name = "Label14"
         Label14.Size = New Size(419, 46)
         Label14.TabIndex = 15
-        Label14.Text = "I keep up with the latest security best practices and make sure they are followed in the development process."
+        Label14.Text = "Stay informed about security best practices and integrate them into the development process."
         ' 
         ' Label13
         ' 
         Label13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label13.ForeColor = Color.Black
-        Label13.Location = New Point(181, 335)
+        Label13.Location = New Point(184, 371)
         Label13.Name = "Label13"
         Label13.Size = New Size(419, 35)
         Label13.TabIndex = 14
-        Label13.Text = "I add security features to the code to protect it from potential attacks."
+        Label13.Text = "Implement security measures within the code to protect against potential vulnerabilities, such as input validation, encryption, and secure coding practices."
         ' 
         ' Label12
         ' 
         Label12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label12.ForeColor = Color.Black
-        Label12.Location = New Point(181, 277)
+        Label12.Location = New Point(184, 313)
         Label12.Name = "Label12"
         Label12.Size = New Size(419, 46)
         Label12.TabIndex = 13
-        Label12.Text = "I test the software to make sure it works as expected and meets the needs of the user."
+        Label12.Text = "Perform testing, including unit testing, integration testing, and acceptance testing, to verify the functionality and quality of the software."
         ' 
         ' Label11
         ' 
         Label11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label11.ForeColor = Color.Black
-        Label11.Location = New Point(181, 225)
+        Label11.Location = New Point(184, 261)
         Label11.Name = "Label11"
         Label11.Size = New Size(419, 65)
         Label11.TabIndex = 12
-        Label11.Text = "I checked the code that my teammates have written to make sure it follows the team's coding standards, best practices, and project requirements."
+        Label11.Text = "Review code written by team members to ensure adherence to coding standards, best practices, and project requirements."
         ' 
         ' Guna2GroupBox3
         ' 
@@ -1389,7 +1440,7 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox3.CustomizableEdges = CustomizableEdges37
         Guna2GroupBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2GroupBox3.Location = New Point(10, 17)
+        Guna2GroupBox3.Location = New Point(13, 53)
         Guna2GroupBox3.Name = "Guna2GroupBox3"
         Guna2GroupBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         Guna2GroupBox3.Size = New Size(163, 34)
@@ -1440,7 +1491,7 @@ Partial Class Supervisor_Dashboard
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Location = New Point(6, 838)
+        Label10.Location = New Point(12, 844)
         Label10.Name = "Label10"
         Label10.Size = New Size(101, 20)
         Label10.TabIndex = 2
@@ -1450,41 +1501,41 @@ Partial Class Supervisor_Dashboard
         ' 
         Label6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.ForeColor = Color.Black
-        Label6.Location = New Point(181, 17)
+        Label6.Location = New Point(184, 53)
         Label6.Name = "Label6"
         Label6.Size = New Size(410, 44)
         Label6.TabIndex = 1
-        Label6.Text = "I write, test, and maintain code that meets the needs of the project and follows the team's coding standards."
+        Label6.Text = "Write, test, and maintain high-quality code according to project requirements and coding standards."
         ' 
         ' Label7
         ' 
         Label7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label7.ForeColor = Color.Black
-        Label7.Location = New Point(181, 69)
+        Label7.Location = New Point(184, 105)
         Label7.Name = "Label7"
         Label7.Size = New Size(407, 43)
         Label7.TabIndex = 5
-        Label7.Text = "I use a variety of programming languages, frameworks, and tools to build software applications and systems."
+        Label7.Text = "Use various programming languages, frameworks, and tools to develop software applications or systems."
         ' 
         ' Label9
         ' 
         Label9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label9.ForeColor = Color.Black
-        Label9.Location = New Point(181, 173)
+        Label9.Location = New Point(184, 209)
         Label9.Name = "Label9"
         Label9.Size = New Size(407, 43)
         Label9.TabIndex = 11
-        Label9.Text = "I use debugging tools and techniques to figure out what's wrong with the code and how to fix it."
+        Label9.Text = "Use debugging tools and techniques to analyze and diagnose problems in the code."
         ' 
         ' Label8
         ' 
         Label8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Label8.ForeColor = Color.Black
-        Label8.Location = New Point(181, 129)
+        Label8.Location = New Point(184, 165)
         Label8.Name = "Label8"
         Label8.Size = New Size(421, 34)
         Label8.TabIndex = 8
-        Label8.Text = "I find and fix bugs, errors, and performance problems in the software."
+        Label8.Text = "Identify and fix bugs, errors, and performance issues in the software."
         ' 
         ' Guna2TextBox1
         ' 
@@ -1497,7 +1548,7 @@ Partial Class Supervisor_Dashboard
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(614, 17)
+        Guna2TextBox1.Location = New Point(617, 53)
         Guna2TextBox1.Multiline = True
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
@@ -1508,241 +1559,33 @@ Partial Class Supervisor_Dashboard
         Guna2TextBox1.Size = New Size(228, 776)
         Guna2TextBox1.TabIndex = 4
         ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(-5, 2)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(244, 25)
-        Label5.TabIndex = 0
-        Label5.Text = "SOFTWARE DEVELOPMENT"
-        ' 
-        ' Guna2Panel1
-        ' 
-        Guna2Panel1.BackColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        Guna2Panel1.Controls.Add(btnHome)
-        Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.Controls.Add(btnHistory)
-        Guna2Panel1.Controls.Add(btnLogout)
-        Guna2Panel1.Controls.Add(btnAnswers)
-        Guna2Panel1.Controls.Add(btnResult)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges59
-        Guna2Panel1.Location = New Point(-1, 0)
-        Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
-        Guna2Panel1.Size = New Size(150, 757)
-        Guna2Panel1.TabIndex = 5
-        ' 
-        ' Guna2PictureBox2
-        ' 
-        Guna2PictureBox2.BackColor = Color.Transparent
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges49
-        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
-        Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(3, 12)
-        Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        Guna2PictureBox2.Size = New Size(139, 54)
-        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox2.TabIndex = 10
-        Guna2PictureBox2.TabStop = False
-        ' 
-        ' btnHistory
-        ' 
-        btnHistory.CustomizableEdges = CustomizableEdges51
-        btnHistory.DisabledState.BorderColor = Color.DarkGray
-        btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
-        btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(3, 298)
-        btnHistory.Name = "btnHistory"
-        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges52
-        btnHistory.Size = New Size(139, 44)
-        btnHistory.TabIndex = 9
-        btnHistory.Text = "History"
-        ' 
-        ' btnLogout
-        ' 
-        btnLogout.CustomizableEdges = CustomizableEdges53
-        btnLogout.DisabledState.BorderColor = Color.DarkGray
-        btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
-        btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnLogout.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(3, 669)
-        btnLogout.Name = "btnLogout"
-        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges54
-        btnLogout.Size = New Size(139, 44)
-        btnLogout.TabIndex = 7
-        btnLogout.Text = "Logout"
-        ' 
-        ' btnAnswers
-        ' 
-        btnAnswers.CustomizableEdges = CustomizableEdges55
-        btnAnswers.DisabledState.BorderColor = Color.DarkGray
-        btnAnswers.DisabledState.CustomBorderColor = Color.DarkGray
-        btnAnswers.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnAnswers.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnAnswers.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnAnswers.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnAnswers.ForeColor = Color.White
-        btnAnswers.Location = New Point(3, 197)
-        btnAnswers.Name = "btnAnswers"
-        btnAnswers.ShadowDecoration.CustomizableEdges = CustomizableEdges56
-        btnAnswers.Size = New Size(139, 44)
-        btnAnswers.TabIndex = 6
-        btnAnswers.Text = "Answers"
-        ' 
-        ' btnResult
-        ' 
-        btnResult.CustomizableEdges = CustomizableEdges57
-        btnResult.DisabledState.BorderColor = Color.DarkGray
-        btnResult.DisabledState.CustomBorderColor = Color.DarkGray
-        btnResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnResult.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnResult.ForeColor = Color.White
-        btnResult.Location = New Point(3, 248)
-        btnResult.Name = "btnResult"
-        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges58
-        btnResult.Size = New Size(139, 44)
-        btnResult.TabIndex = 5
-        btnResult.Text = "Results"
-        ' 
-        ' btnSubmit
-        ' 
-        btnSubmit.CustomizableEdges = CustomizableEdges6
-        btnSubmit.DisabledState.BorderColor = Color.DarkGray
-        btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
-        btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnSubmit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnSubmit.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnSubmit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSubmit.ForeColor = Color.White
-        btnSubmit.Location = New Point(789, 707)
-        btnSubmit.Name = "btnSubmit"
-        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        btnSubmit.Size = New Size(109, 33)
-        btnSubmit.TabIndex = 10
-        btnSubmit.Text = "Submit"
-        ' 
-        ' Guna2CustomRadioButton1
-        ' 
-        Guna2CustomRadioButton1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton1.CheckedState.BorderThickness = 0
-        Guna2CustomRadioButton1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton1.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton1.Location = New Point(96, 8)
-        Guna2CustomRadioButton1.Name = "Guna2CustomRadioButton1"
-        Guna2CustomRadioButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        Guna2CustomRadioButton1.Size = New Size(18, 18)
-        Guna2CustomRadioButton1.TabIndex = 12
-        Guna2CustomRadioButton1.Text = "Guna2CustomRadioButton1"
-        Guna2CustomRadioButton1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2CustomRadioButton1.UncheckedState.BorderThickness = 2
-        Guna2CustomRadioButton1.UncheckedState.FillColor = Color.Transparent
-        Guna2CustomRadioButton1.UncheckedState.InnerColor = Color.Transparent
-        ' 
-        ' Guna2CustomRadioButton2
-        ' 
-        Guna2CustomRadioButton2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton2.CheckedState.BorderThickness = 0
-        Guna2CustomRadioButton2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton2.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton2.Location = New Point(62, 8)
-        Guna2CustomRadioButton2.Name = "Guna2CustomRadioButton2"
-        Guna2CustomRadioButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges1
-        Guna2CustomRadioButton2.Size = New Size(18, 18)
-        Guna2CustomRadioButton2.TabIndex = 13
-        Guna2CustomRadioButton2.Text = "Guna2CustomRadioButton2"
-        Guna2CustomRadioButton2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2CustomRadioButton2.UncheckedState.BorderThickness = 2
-        Guna2CustomRadioButton2.UncheckedState.FillColor = Color.Transparent
-        Guna2CustomRadioButton2.UncheckedState.InnerColor = Color.Transparent
-        ' 
-        ' Guna2CustomRadioButton3
-        ' 
-        Guna2CustomRadioButton3.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton3.CheckedState.BorderThickness = 0
-        Guna2CustomRadioButton3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CustomRadioButton3.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton3.Location = New Point(28, 8)
-        Guna2CustomRadioButton3.Name = "Guna2CustomRadioButton3"
-        Guna2CustomRadioButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2CustomRadioButton3.Size = New Size(18, 18)
-        Guna2CustomRadioButton3.TabIndex = 14
-        Guna2CustomRadioButton3.Text = "Guna2CustomRadioButton3"
-        Guna2CustomRadioButton3.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2CustomRadioButton3.UncheckedState.BorderThickness = 2
-        Guna2CustomRadioButton3.UncheckedState.FillColor = Color.Transparent
-        Guna2CustomRadioButton3.UncheckedState.InnerColor = Color.Transparent
-        ' 
-        ' Guna2GroupBox10
-        ' 
-        Guna2GroupBox10.BackColor = Color.White
-        Guna2GroupBox10.BorderColor = Color.White
-        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton2)
-        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton3)
-        Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton1)
-        Guna2GroupBox10.CustomBorderColor = Color.White
-        Guna2GroupBox10.CustomizableEdges = CustomizableEdges4
-        Guna2GroupBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2GroupBox10.ForeColor = Color.White
-        Guna2GroupBox10.Location = New Point(655, 707)
-        Guna2GroupBox10.Name = "Guna2GroupBox10"
-        Guna2GroupBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        Guna2GroupBox10.Size = New Size(128, 38)
-        Guna2GroupBox10.TabIndex = 15
-        ' 
-        ' Guna2HtmlLabel5
-        ' 
-        Guna2HtmlLabel5.BackColor = Color.Transparent
-        Guna2HtmlLabel5.ForeColor = Color.Black
-        Guna2HtmlLabel5.Location = New Point(707, 115)
-        Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Guna2HtmlLabel5.Size = New Size(148, 22)
-        Guna2HtmlLabel5.TabIndex = 16
-        Guna2HtmlLabel5.Text = "Need to be answered:"
-        ' 
-        ' btnHome
-        ' 
-        btnHome.CustomizableEdges = CustomizableEdges47
-        btnHome.DisabledState.BorderColor = Color.DarkGray
-        btnHome.DisabledState.CustomBorderColor = Color.DarkGray
-        btnHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnHome.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnHome.ForeColor = Color.White
-        btnHome.Location = New Point(3, 147)
-        btnHome.Name = "btnHome"
-        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        btnHome.Size = New Size(139, 44)
-        btnHome.TabIndex = 11
-        btnHome.Text = "Home"
-        ' 
-        ' Supervisor_Dashboard
+        ' Supervisor_Answer_Form
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1082, 1055)
-        Controls.Add(Guna2Panel2)
-        Controls.Add(Guna2Panel1)
-        IsMdiContainer = True
-        Name = "Supervisor_Dashboard"
-        Text = "Supervisor_Dashboard"
-        Guna2Panel2.ResumeLayout(False)
-        Guna2Panel2.PerformLayout()
+        BackColor = Color.White
+        ClientSize = New Size(918, 1084)
+        ControlBox = False
+        Controls.Add(Guna2HtmlLabel5)
+        Controls.Add(Guna2GroupBox10)
+        Controls.Add(btnSubmit)
+        Controls.Add(Guna2HtmlLabel4)
+        Controls.Add(Guna2HtmlLabel3)
+        Controls.Add(Guna2HtmlLabel2)
+        Controls.Add(lblManager)
+        Controls.Add(Guna2HtmlLabel1)
+        Controls.Add(lblSupervisor)
+        Controls.Add(lblId)
+        Controls.Add(lblName)
+        Controls.Add(Guna2Shapes1)
+        Controls.Add(Label4)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
+        Controls.Add(Guna2GroupBox1)
+        Name = "Supervisor_Answer_Form"
+        Guna2GroupBox10.ResumeLayout(False)
         Guna2GroupBox1.ResumeLayout(False)
-        Guna2GroupBox1.PerformLayout()
         Guna2Panel3.ResumeLayout(False)
         Guna2Panel3.PerformLayout()
         Guna2GroupBox11.ResumeLayout(False)
@@ -1775,18 +1618,26 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox2.PerformLayout()
         Guna2GroupBox3.ResumeLayout(False)
         Guna2GroupBox3.PerformLayout()
-        Guna2Panel1.ResumeLayout(False)
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        Guna2GroupBox10.ResumeLayout(False)
         ResumeLayout(False)
+        PerformLayout()
     End Sub
-    Friend WithEvents lblSupervisor As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+
+    Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2GroupBox10 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2CustomRadioButton2 As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents Guna2CustomRadioButton3 As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents Guna2CustomRadioButton1 As Guna.UI2.WinForms.Guna2CustomRadioButton
+    Friend WithEvents btnSubmit As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblManager As Label
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblSupervisor As Label
     Friend WithEvents lblId As Label
     Friend WithEvents lblName As Label
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -1795,6 +1646,7 @@ Partial Class Supervisor_Dashboard
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label21 As Label
     Friend WithEvents Label20 As Label
+    Friend WithEvents Label5 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Guna2GroupBox11 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents RadioButton28 As RadioButton
@@ -1870,22 +1722,4 @@ Partial Class Supervisor_Dashboard
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents btnHistory As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents btnAnswers As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents btnResult As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2GroupBox10 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents Guna2CustomRadioButton3 As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents Guna2CustomRadioButton2 As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents Guna2CustomRadioButton1 As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents btnSubmit As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents btnHome As Guna.UI2.WinForms.Guna2Button
 End Class
