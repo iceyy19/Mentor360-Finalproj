@@ -36,10 +36,11 @@ Partial Class New_User
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.Image = My.Resources.Resources.new_user_bg2
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(0, -3)
+        Guna2PictureBox1.Location = New Point(0, -2)
+        Guna2PictureBox1.Margin = New Padding(3, 2, 3, 2)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(622, 452)
+        Guna2PictureBox1.Size = New Size(544, 339)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 0
         Guna2PictureBox1.TabStop = False
@@ -54,21 +55,23 @@ Partial Class New_User
         btnStart.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnStart.ForeColor = Color.White
-        btnStart.Location = New Point(243, 345)
+        btnStart.Location = New Point(213, 259)
+        btnStart.Margin = New Padding(3, 2, 3, 2)
         btnStart.Name = "btnStart"
         btnStart.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnStart.Size = New Size(135, 51)
+        btnStart.Size = New Size(118, 38)
         btnStart.TabIndex = 1
         btnStart.Text = "Get Started"
         ' 
         ' New_User
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(621, 408)
+        ClientSize = New Size(543, 306)
         ControlBox = False
         Controls.Add(btnStart)
         Controls.Add(Guna2PictureBox1)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "New_User"
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

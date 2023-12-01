@@ -1,10 +1,13 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+﻿Imports System.Windows
+Imports System.Windows.Forms.DataFormats
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
 Imports Guna.UI2.WinForms
 Imports MySql.Data.MySqlClient
 
 Public Class Login
     Public Shared ID As String
     Public Shared Nname As String
+
     Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
 
     End Sub
@@ -23,35 +26,62 @@ Public Class Login
     End Sub
 
     Private Sub buttonlogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        If txtID.Text = "" And txtPass.Text = "" Then
+        If txtID.Text = "" Or txtPass.Text = "" Then
             MessageBox.Show("Input ID and password.")
         Else
-            If CheckAdminCredentials(txtID.Text, txtPass.Text) Then
+            If cAdmin.Checked = True Then
+                If CheckAdminCredentials(txtID.Text, txtPass.Text) Then
+                    Try
+                        Using myConnection As MySqlConnection = Connector.getDBConnection()
+                            myConnection.Open()
+
+                            Dim query As String = $"SELECT dAdminName FROM tbladmin WHERE dAdminID = @AdminID"
+
+                            Using cmd As New MySqlCommand(query, myConnection)
+                                cmd.Parameters.AddWithValue("@AdminId", txtID.Text)
+                                Dim AdminName As String = Convert.ToString(cmd.ExecuteScalar())
+                                Nname = AdminName
+                            End Using
+                        End Using
+                    Catch ex As Exception
+                        MessageBox.Show($"Error: {ex.Message}")
+                    End Try
+                    ID = txtID.Text
+                    txtID.Clear()
+                    txtPass.Clear()
+                    Me.Hide()
+                    Admin_Dashboard.Show()
+                Else
+                    MessageBox.Show("Invalid credentials.")
+                End If
+            ElseIf CheckEmployeeCredentials(txtID.Text, txtPass.Text) Then
                 Try
-                    Using myConnection As MySqlConnection = Connector.getDBConnection()
-                        myConnection.Open()
+                    Using Connection As MySqlConnection = Connector.getDBConnection()
+                        Connection.Open()
 
-                        Dim query As String = $"SELECT dAdminName FROM tbladmin WHERE dAdminID = @AdminID"
+                        Dim query As String = $"SELECT COUNT(*) FROM tbluserlist WHERE dSec1 IS NULL OR dSec1 = ''"
+                        Using cmd As New MySqlCommand(query, Connection)
+                            Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
-                        Using cmd As New MySqlCommand(query, myConnection)
-                            cmd.Parameters.AddWithValue("@AdminId", txtID.Text)
-                            Dim AdminName As String = Convert.ToString(cmd.ExecuteScalar())
-                            Nname = AdminName
+                            If count > 0 Then
+                                txtID.Clear()
+                                txtPass.Clear()
+                                Dim NewUserForm As New New_User()
+                                NewUserForm.Show()
+                            Else
+                                CheckAndNavigate(txtID.Text)
+                            End If
                         End Using
                     End Using
                 Catch ex As Exception
                     MessageBox.Show($"Error: {ex.Message}")
                 End Try
-                ID = txtID.Text
-                txtID.Clear()
-                txtPass.Clear()
-                Me.Hide()
-                Admin_Dashboard.Show()
+
             Else
                 MessageBox.Show("Invalid credentials.")
             End If
-        End If
 
+        End If
     End Sub
     Private Sub GunaTextBox_GotFocus(sender As Object, e As EventArgs) Handles txtID.GotFocus, txtPass.GotFocus
         HandleGunaTextBoxFocus(DirectCast(sender, Guna2TextBox), Color.Black)
@@ -87,6 +117,93 @@ Public Class Login
                 Return count > 0
             End Using
         End Using
+    End Function
+
+
+    Private Function CheckEmployeeCredentials(EmployeeID As String, password As String) As Boolean
+        Dim query As String = $"SELECT COUNT(*) FROM tbluserlist WHERE dEmployeeID = @employeeID AND dPassword = @password"
+
+        Using myConnection As MySqlConnection = Connector.getDBConnection()
+            Using cmd As New MySqlCommand(query, myConnection)
+                cmd.Parameters.AddWithValue("@employeeID", EmployeeID)
+                cmd.Parameters.AddWithValue("@password", password)
+
+                myConnection.Open()
+                Dim count As Integer = CInt(cmd.ExecuteScalar())
+                Return count > 0
+            End Using
+        End Using
+    End Function
+
+    Private Sub CheckAndNavigate(id As String)
+        Try
+            Using Connection As MySqlConnection = Connector.getDBConnection()
+                Connection.Open()
+
+                ' Check if the specified ID is present in EmployeeID, SupervisorID, or ManagerID columns
+                Dim query As String = "SELECT COUNT(*) FROM tblhierarchy WHERE dEmployeeID = @ID OR dSupervisorID = @ID OR dManagerID = @ID"
+                Using cmd As New MySqlCommand(query, Connection)
+                    cmd.Parameters.AddWithValue("@ID", id)
+
+                    Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())
+
+                    If count > 0 Then
+                        ' Determine the column where the ID is present
+                        Dim column As String = GetIDColumn(id)
+
+                        ' Open the corresponding form based on the column
+                        Select Case column
+                            Case "EmployeeID"
+                                txtID.Clear()
+                                txtPass.Clear()
+                                Me.Hide()
+                                Supervisor_Dashboard.Show()
+                            Case "SupervisorID"
+                                txtID.Clear()
+                                txtPass.Clear()
+                                Me.Hide()
+                                Supervisor_Dashboard.Show()
+                            Case "ManagerID"
+                                txtID.Clear()
+                                txtPass.Clear()
+                                Me.Hide()
+                                Manager_Dashboard.Show()
+                        End Select
+                    Else
+                        MessageBox.Show("ID not found.")
+                    End If
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+        End Try
+    End Sub
+
+    Private Function GetIDColumn(id As String) As String
+        Try
+            Using Connection As MySqlConnection = Connector.getDBConnection()
+                Connection.Open()
+
+                ' Check in which column the ID is present
+                Dim query As String = "SELECT CASE " &
+                                      "WHEN dEmployeeID = @ID THEN 'EmployeeID' " &
+                                      "WHEN dSupervisorID = @ID THEN 'SupervisorID' " &
+                                      "WHEN dManagerID = @ID THEN 'ManagerID' " &
+                                      "ELSE '' END AS IDColumn " &
+                                      "FROM tblhierarchy " &
+                                      "WHERE dEmployeeID = @ID OR dSupervisorID = @ID OR dManagerID = @ID"
+                Using cmd As New MySqlCommand(query, Connection)
+                    cmd.Parameters.AddWithValue("@ID", id)
+
+                    Dim idColumn As String = Convert.ToString(cmd.ExecuteScalar())
+
+                    Return idColumn
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+            Return String.Empty
+        End Try
     End Function
 
     Sub insertLogs()

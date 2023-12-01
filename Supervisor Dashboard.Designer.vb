@@ -99,19 +99,21 @@ Partial Class Supervisor_Dashboard
         Guna2Panel2.Controls.Add(Label2)
         Guna2Panel2.Controls.Add(Label1)
         Guna2Panel2.CustomizableEdges = CustomizableEdges9
-        Guna2Panel2.Location = New Point(147, 0)
+        Guna2Panel2.Location = New Point(129, 0)
+        Guna2Panel2.Margin = New Padding(3, 2, 3, 2)
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Panel2.Size = New Size(936, 757)
+        Guna2Panel2.Size = New Size(819, 568)
         Guna2Panel2.TabIndex = 4
         ' 
         ' Guna2HtmlLabel5
         ' 
         Guna2HtmlLabel5.BackColor = Color.Transparent
         Guna2HtmlLabel5.ForeColor = Color.Black
-        Guna2HtmlLabel5.Location = New Point(707, 115)
+        Guna2HtmlLabel5.Location = New Point(619, 86)
+        Guna2HtmlLabel5.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Guna2HtmlLabel5.Size = New Size(148, 22)
+        Guna2HtmlLabel5.Size = New Size(117, 17)
         Guna2HtmlLabel5.TabIndex = 16
         Guna2HtmlLabel5.Text = "Need to be answered:"
         ' 
@@ -126,10 +128,11 @@ Partial Class Supervisor_Dashboard
         Guna2GroupBox10.CustomizableEdges = CustomizableEdges4
         Guna2GroupBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox10.ForeColor = Color.White
-        Guna2GroupBox10.Location = New Point(655, 707)
+        Guna2GroupBox10.Location = New Point(573, 530)
+        Guna2GroupBox10.Margin = New Padding(3, 2, 3, 2)
         Guna2GroupBox10.Name = "Guna2GroupBox10"
         Guna2GroupBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        Guna2GroupBox10.Size = New Size(128, 38)
+        Guna2GroupBox10.Size = New Size(112, 28)
         Guna2GroupBox10.TabIndex = 15
         ' 
         ' Guna2CustomRadioButton2
@@ -138,10 +141,11 @@ Partial Class Supervisor_Dashboard
         Guna2CustomRadioButton2.CheckedState.BorderThickness = 0
         Guna2CustomRadioButton2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2CustomRadioButton2.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton2.Location = New Point(62, 8)
+        Guna2CustomRadioButton2.Location = New Point(54, 6)
+        Guna2CustomRadioButton2.Margin = New Padding(3, 2, 3, 2)
         Guna2CustomRadioButton2.Name = "Guna2CustomRadioButton2"
         Guna2CustomRadioButton2.ShadowDecoration.CustomizableEdges = CustomizableEdges1
-        Guna2CustomRadioButton2.Size = New Size(18, 18)
+        Guna2CustomRadioButton2.Size = New Size(16, 14)
         Guna2CustomRadioButton2.TabIndex = 13
         Guna2CustomRadioButton2.Text = "Guna2CustomRadioButton2"
         Guna2CustomRadioButton2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -155,10 +159,11 @@ Partial Class Supervisor_Dashboard
         Guna2CustomRadioButton3.CheckedState.BorderThickness = 0
         Guna2CustomRadioButton3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2CustomRadioButton3.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton3.Location = New Point(28, 8)
+        Guna2CustomRadioButton3.Location = New Point(24, 6)
+        Guna2CustomRadioButton3.Margin = New Padding(3, 2, 3, 2)
         Guna2CustomRadioButton3.Name = "Guna2CustomRadioButton3"
         Guna2CustomRadioButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2CustomRadioButton3.Size = New Size(18, 18)
+        Guna2CustomRadioButton3.Size = New Size(16, 14)
         Guna2CustomRadioButton3.TabIndex = 14
         Guna2CustomRadioButton3.Text = "Guna2CustomRadioButton3"
         Guna2CustomRadioButton3.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -172,10 +177,11 @@ Partial Class Supervisor_Dashboard
         Guna2CustomRadioButton1.CheckedState.BorderThickness = 0
         Guna2CustomRadioButton1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2CustomRadioButton1.CheckedState.InnerColor = Color.White
-        Guna2CustomRadioButton1.Location = New Point(96, 8)
+        Guna2CustomRadioButton1.Location = New Point(84, 6)
+        Guna2CustomRadioButton1.Margin = New Padding(3, 2, 3, 2)
         Guna2CustomRadioButton1.Name = "Guna2CustomRadioButton1"
         Guna2CustomRadioButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        Guna2CustomRadioButton1.Size = New Size(18, 18)
+        Guna2CustomRadioButton1.Size = New Size(16, 14)
         Guna2CustomRadioButton1.TabIndex = 12
         Guna2CustomRadioButton1.Text = "Guna2CustomRadioButton1"
         Guna2CustomRadioButton1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -193,28 +199,31 @@ Partial Class Supervisor_Dashboard
         btnSubmit.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnSubmit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnSubmit.ForeColor = Color.White
-        btnSubmit.Location = New Point(789, 707)
+        btnSubmit.Location = New Point(690, 530)
+        btnSubmit.Margin = New Padding(3, 2, 3, 2)
         btnSubmit.Name = "btnSubmit"
         btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        btnSubmit.Size = New Size(109, 33)
+        btnSubmit.Size = New Size(95, 25)
         btnSubmit.TabIndex = 10
         btnSubmit.Text = "Submit"
         ' 
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.Location = New Point(459, 115)
+        Guna2HtmlLabel4.Location = New Point(402, 86)
+        Guna2HtmlLabel4.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Guna2HtmlLabel4.Size = New Size(39, 22)
+        Guna2HtmlLabel4.Size = New Size(31, 17)
         Guna2HtmlLabel4.TabIndex = 9
         Guna2HtmlLabel4.Text = "Label"
         ' 
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Location = New Point(124, 115)
+        Guna2HtmlLabel3.Location = New Point(108, 86)
+        Guna2HtmlLabel3.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Guna2HtmlLabel3.Size = New Size(39, 22)
+        Guna2HtmlLabel3.Size = New Size(31, 17)
         Guna2HtmlLabel3.TabIndex = 8
         Guna2HtmlLabel3.Text = "Label"
         ' 
@@ -222,9 +231,10 @@ Partial Class Supervisor_Dashboard
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.ForeColor = Color.Black
-        Guna2HtmlLabel2.Location = New Point(337, 115)
+        Guna2HtmlLabel2.Location = New Point(295, 86)
+        Guna2HtmlLabel2.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(116, 22)
+        Guna2HtmlLabel2.Size = New Size(93, 17)
         Guna2HtmlLabel2.TabIndex = 5
         Guna2HtmlLabel2.Text = "Employee Name:"
         ' 
@@ -232,49 +242,51 @@ Partial Class Supervisor_Dashboard
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.ForeColor = Color.Black
-        Guna2HtmlLabel1.Location = New Point(27, 115)
+        Guna2HtmlLabel1.Location = New Point(24, 86)
+        Guna2HtmlLabel1.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(91, 22)
+        Guna2HtmlLabel1.Size = New Size(72, 17)
         Guna2HtmlLabel1.TabIndex = 4
         Guna2HtmlLabel1.Text = "Employee ID:"
         ' 
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(732, 41)
+        lblSupervisor.Location = New Point(640, 31)
         lblSupervisor.Name = "lblSupervisor"
-        lblSupervisor.Size = New Size(53, 20)
+        lblSupervisor.Size = New Size(41, 15)
         lblSupervisor.TabIndex = 6
         lblSupervisor.Text = "Label7"
         ' 
         ' lblId
         ' 
         lblId.AutoSize = True
-        lblId.Location = New Point(155, 75)
+        lblId.Location = New Point(136, 56)
         lblId.Name = "lblId"
-        lblId.Size = New Size(53, 20)
+        lblId.Size = New Size(41, 15)
         lblId.TabIndex = 5
         lblId.Text = "Label6"
         ' 
         ' lblName
         ' 
         lblName.AutoSize = True
-        lblName.Location = New Point(155, 41)
+        lblName.Location = New Point(136, 31)
         lblName.Name = "lblName"
-        lblName.Size = New Size(53, 20)
+        lblName.Size = New Size(41, 15)
         lblName.TabIndex = 2
         lblName.Text = "Label5"
         ' 
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-82, 107)
+        Guna2Shapes1.Location = New Point(-72, 80)
+        Guna2Shapes1.Margin = New Padding(3, 2, 3, 2)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
         Guna2Shapes1.RoundedEdges = CustomizableEdges8
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Guna2Shapes1.Size = New Size(1103, 2)
+        Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 4
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
@@ -283,9 +295,9 @@ Partial Class Supervisor_Dashboard
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(655, 41)
+        Label3.Location = New Point(573, 31)
         Label3.Name = "Label3"
-        Label3.Size = New Size(71, 20)
+        Label3.Size = New Size(57, 15)
         Label3.TabIndex = 2
         Label3.Text = "Manager:"
         ' 
@@ -293,9 +305,9 @@ Partial Class Supervisor_Dashboard
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(27, 75)
+        Label2.Location = New Point(24, 56)
         Label2.Name = "Label2"
-        Label2.Size = New Size(100, 20)
+        Label2.Size = New Size(79, 15)
         Label2.TabIndex = 1
         Label2.Text = "Supervisor ID:"
         ' 
@@ -303,9 +315,9 @@ Partial Class Supervisor_Dashboard
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(27, 41)
+        Label1.Location = New Point(24, 31)
         Label1.Name = "Label1"
-        Label1.Size = New Size(125, 20)
+        Label1.Size = New Size(100, 15)
         Label1.TabIndex = 0
         Label1.Text = "Supervisor Name:"
         ' 
@@ -321,9 +333,10 @@ Partial Class Supervisor_Dashboard
         Guna2Panel1.Controls.Add(btnResult)
         Guna2Panel1.CustomizableEdges = CustomizableEdges25
         Guna2Panel1.Location = New Point(-1, 0)
+        Guna2Panel1.Margin = New Padding(3, 2, 3, 2)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Guna2Panel1.Size = New Size(150, 757)
+        Guna2Panel1.Size = New Size(131, 568)
         Guna2Panel1.TabIndex = 5
         ' 
         ' btnEmployees
@@ -336,10 +349,11 @@ Partial Class Supervisor_Dashboard
         btnEmployees.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnEmployees.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnEmployees.ForeColor = Color.White
-        btnEmployees.Location = New Point(3, 348)
+        btnEmployees.Location = New Point(3, 261)
+        btnEmployees.Margin = New Padding(3, 2, 3, 2)
         btnEmployees.Name = "btnEmployees"
         btnEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        btnEmployees.Size = New Size(139, 44)
+        btnEmployees.Size = New Size(122, 33)
         btnEmployees.TabIndex = 12
         btnEmployees.Text = "Employees"
         ' 
@@ -353,10 +367,11 @@ Partial Class Supervisor_Dashboard
         btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnHome.ForeColor = Color.White
-        btnHome.Location = New Point(3, 147)
+        btnHome.Location = New Point(3, 110)
+        btnHome.Margin = New Padding(3, 2, 3, 2)
         btnHome.Name = "btnHome"
         btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        btnHome.Size = New Size(139, 44)
+        btnHome.Size = New Size(122, 33)
         btnHome.TabIndex = 11
         btnHome.Text = "Home"
         ' 
@@ -366,10 +381,11 @@ Partial Class Supervisor_Dashboard
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges15
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(3, 12)
+        Guna2PictureBox2.Location = New Point(3, 9)
+        Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2PictureBox2.Size = New Size(139, 54)
+        Guna2PictureBox2.Size = New Size(122, 40)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 10
         Guna2PictureBox2.TabStop = False
@@ -384,10 +400,11 @@ Partial Class Supervisor_Dashboard
         btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(3, 298)
+        btnHistory.Location = New Point(3, 224)
+        btnHistory.Margin = New Padding(3, 2, 3, 2)
         btnHistory.Name = "btnHistory"
         btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        btnHistory.Size = New Size(139, 44)
+        btnHistory.Size = New Size(122, 33)
         btnHistory.TabIndex = 9
         btnHistory.Text = "History"
         ' 
@@ -401,10 +418,11 @@ Partial Class Supervisor_Dashboard
         btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(3, 669)
+        btnLogout.Location = New Point(3, 502)
+        btnLogout.Margin = New Padding(3, 2, 3, 2)
         btnLogout.Name = "btnLogout"
         btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        btnLogout.Size = New Size(139, 44)
+        btnLogout.Size = New Size(122, 33)
         btnLogout.TabIndex = 7
         btnLogout.Text = "Logout"
         ' 
@@ -418,10 +436,11 @@ Partial Class Supervisor_Dashboard
         btnAnswers.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnAnswers.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnAnswers.ForeColor = Color.White
-        btnAnswers.Location = New Point(3, 197)
+        btnAnswers.Location = New Point(3, 148)
+        btnAnswers.Margin = New Padding(3, 2, 3, 2)
         btnAnswers.Name = "btnAnswers"
         btnAnswers.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        btnAnswers.Size = New Size(139, 44)
+        btnAnswers.Size = New Size(122, 33)
         btnAnswers.TabIndex = 6
         btnAnswers.Text = "Answers"
         ' 
@@ -435,21 +454,23 @@ Partial Class Supervisor_Dashboard
         btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnResult.ForeColor = Color.White
-        btnResult.Location = New Point(3, 248)
+        btnResult.Location = New Point(3, 186)
+        btnResult.Margin = New Padding(3, 2, 3, 2)
         btnResult.Name = "btnResult"
         btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        btnResult.Size = New Size(139, 44)
+        btnResult.Size = New Size(122, 33)
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
         ' Supervisor_Dashboard
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1082, 1055)
+        ClientSize = New Size(947, 569)
         Controls.Add(Guna2Panel2)
         Controls.Add(Guna2Panel1)
         IsMdiContainer = True
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Supervisor_Dashboard"
         Text = "Supervisor_Dashboard"
         Guna2Panel2.ResumeLayout(False)

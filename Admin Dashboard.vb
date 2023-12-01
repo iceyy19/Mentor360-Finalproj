@@ -3,16 +3,26 @@ Imports Guna.UI2.WinForms
 Imports Microsoft.VisualBasic.ApplicationServices
 Imports MySql.Data.MySqlClient
 Imports Org.BouncyCastle.Utilities
+Imports System.Text
+
 
 Public Class Admin_Dashboard
-    Public ID As String = "@000@" 'Login.ID
-    Public Nname As String = "vernon" 'Login.Nname
+    Public ID As String = Login.ID
+    Public Nname As String = Login.Nname
     Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
 
     End Sub
 
     Private Sub Admin_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         viewHierarchy()
+        Dim timer As New Timer()
+        timer.Interval = 1 ' Set the delay in milliseconds
+        AddHandler timer.Tick, Sub()
+                                   ' Set ActiveControl to Nothing to prevent auto selection
+                                   Me.ActiveControl = Nothing
+                                   timer.Stop()
+                               End Sub
+        timer.Start()
         dghierarchy.ColumnHeadersVisible = True
         lblID.Text = ID
         lblName.Text = Nname
@@ -74,23 +84,56 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub AddOrUpdateUser(employeeID As String, employeeName As String, supervisorID As String, supervisorName As String, managerID As String, managerName As String)
+
         Try
             Using connection As MySqlConnection = Connector.getDBConnection()
                 connection.Open()
 
-                ' Check if the employeeID already exists in tbluserlist
                 Dim checkQuery As String = "SELECT COUNT(*) FROM tbluserlist WHERE dEmployeeID = @EmployeeID"
                 Using checkCmd As New MySqlCommand(checkQuery, connection)
                     checkCmd.Parameters.AddWithValue("@EmployeeID", employeeID)
 
                     Dim userCount As Integer = Convert.ToInt32(checkCmd.ExecuteScalar())
 
+
                     If userCount = 0 Then
-                        ' EmployeeID does not exist in tbluserlist, insert it
-                        Dim insertQuery As String = "INSERT INTO tbluserlist (dEmployeeID, dEmployeeName) VALUES (@EmployeeID, @EmployeeName)"
+                        Dim randomString As String = GenerateUniqueRandomString(10)
+                        Dim insertQuery As String = "INSERT INTO tbluserlist (dEmployeeID, dEmployeeName, dPassword) VALUES (@EmployeeID, @EmployeeName, @Password)"
                         Using insertCmd As New MySqlCommand(insertQuery, connection)
                             insertCmd.Parameters.AddWithValue("@EmployeeID", employeeID)
                             insertCmd.Parameters.AddWithValue("@EmployeeName", employeeName)
+                            insertCmd.Parameters.AddWithValue("@Password", employeeID & randomString)
+
+                            insertCmd.ExecuteNonQuery()
+                        End Using
+                    Else
+                    End If
+                End Using
+
+                ' Repeat the process for supervisorID and managerID if needed
+
+            End Using
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+        End Try
+
+        Try
+            Using connection As MySqlConnection = Connector.getDBConnection()
+                connection.Open()
+
+                Dim checkQuery As String = "SELECT COUNT(*) FROM tbluserlist WHERE dEmployeeID = @EmployeeID"
+                Using checkCmd As New MySqlCommand(checkQuery, connection)
+                    checkCmd.Parameters.AddWithValue("@EmployeeID", supervisorID)
+
+                    Dim userCount As Integer = Convert.ToInt32(checkCmd.ExecuteScalar())
+
+                    If userCount = 0 Then
+                        Dim randomString As String = GenerateUniqueRandomString(10)
+                        Dim insertQuery As String = "INSERT INTO tbluserlist (dEmployeeID, dEmployeeName, dPassword) VALUES (@EmployeeID, @EmployeeName, @Password)"
+                        Using insertCmd As New MySqlCommand(insertQuery, connection)
+                            insertCmd.Parameters.AddWithValue("@EmployeeID", supervisorID)
+                            insertCmd.Parameters.AddWithValue("@EmployeeName", supervisorName)
+                            insertCmd.Parameters.AddWithValue("@Password", supervisorID & randomString)
 
                             insertCmd.ExecuteNonQuery()
                         End Using
@@ -99,7 +142,34 @@ Public Class Admin_Dashboard
                     End If
                 End Using
 
-                ' Repeat the process for supervisorID and managerID if needed
+            End Using
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+        End Try
+        Try
+            Using connection As MySqlConnection = Connector.getDBConnection()
+                connection.Open()
+
+                Dim checkQuery As String = "SELECT COUNT(*) FROM tbluserlist WHERE dEmployeeID = @EmployeeID"
+                Using checkCmd As New MySqlCommand(checkQuery, connection)
+                    checkCmd.Parameters.AddWithValue("@EmployeeID", managerID)
+
+                    Dim userCount As Integer = Convert.ToInt32(checkCmd.ExecuteScalar())
+
+                    If userCount = 0 Then
+                        Dim randomString As String = GenerateUniqueRandomString(10)
+                        Dim insertQuery As String = "INSERT INTO tbluserlist (dEmployeeID, dEmployeeName, dPassword) VALUES (@EmployeeID, @EmployeeName, @Password)"
+                        Using insertCmd As New MySqlCommand(insertQuery, connection)
+                            insertCmd.Parameters.AddWithValue("@EmployeeID", managerID)
+                            insertCmd.Parameters.AddWithValue("@EmployeeName", managerName)
+                            insertCmd.Parameters.AddWithValue("@Password", managerID & randomString)
+
+                            insertCmd.ExecuteNonQuery()
+                        End Using
+                    Else
+                        ' EmployeeID already exists in tbluserlist
+                    End If
+                End Using
 
             End Using
         Catch ex As Exception
@@ -159,6 +229,25 @@ Public Class Admin_Dashboard
 
     End Sub
 
+    Private Function GenerateUniqueRandomString(maxLength As Integer) As String
+        ' Define the characters that can be used in the random string
+        Dim characters As String = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*?/+=-"
+
+        ' Initialize the random number generator
+        Dim random As New Random()
+
+        ' Use StringBuilder to efficiently build the random string
+        Dim stringBuilder As New StringBuilder()
+
+        ' Generate a random string with characters from the defined set
+        For i As Integer = 1 To maxLength
+            Dim randomIndex As Integer = random.Next(0, characters.Length)
+            stringBuilder.Append(characters(randomIndex))
+        Next
+
+        ' Return the generated random string
+        Return stringBuilder.ToString()
+    End Function
     Sub Clear()
         txtEId.Text = "Employee ID"
         txtEId.ForeColor = Color.DarkGray
