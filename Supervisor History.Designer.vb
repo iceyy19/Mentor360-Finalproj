@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Employee_History
+Partial Class Supervisor_History
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -38,14 +38,14 @@ Partial Class Employee_History
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Employee_History))
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Supervisor_History))
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -53,6 +53,8 @@ Partial Class Employee_History
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         btnSelect = New Guna.UI2.WinForms.Guna2Button()
         Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
@@ -60,12 +62,10 @@ Partial Class Employee_History
         Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
         Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        lblManager = New Label()
         lblSupervisor = New Label()
         lblId = New Label()
         lblName = New Label()
         Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
-        Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
@@ -110,6 +110,7 @@ Partial Class Employee_History
         Label5 = New Label()
         Label10 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        btnEmployees = New Guna.UI2.WinForms.Guna2Button()
         btnHome = New Guna.UI2.WinForms.Guna2Button()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         btnHistory = New Guna.UI2.WinForms.Guna2Button()
@@ -131,12 +132,10 @@ Partial Class Employee_History
         Guna2Panel2.Controls.Add(btnSelect)
         Guna2Panel2.Controls.Add(Guna2Panel4)
         Guna2Panel2.Controls.Add(Guna2Button1)
-        Guna2Panel2.Controls.Add(lblManager)
         Guna2Panel2.Controls.Add(lblSupervisor)
         Guna2Panel2.Controls.Add(lblId)
         Guna2Panel2.Controls.Add(lblName)
         Guna2Panel2.Controls.Add(Guna2Shapes1)
-        Guna2Panel2.Controls.Add(Label4)
         Guna2Panel2.Controls.Add(Label3)
         Guna2Panel2.Controls.Add(Label2)
         Guna2Panel2.Controls.Add(Label1)
@@ -146,7 +145,7 @@ Partial Class Employee_History
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         Guna2Panel2.Size = New Size(936, 757)
-        Guna2Panel2.TabIndex = 3
+        Guna2Panel2.TabIndex = 5
         ' 
         ' btnSelect
         ' 
@@ -276,19 +275,10 @@ Partial Class Employee_History
         Guna2Button1.TabIndex = 8
         Guna2Button1.Text = "Export"
         ' 
-        ' lblManager
-        ' 
-        lblManager.AutoSize = True
-        lblManager.Location = New Point(742, 75)
-        lblManager.Name = "lblManager"
-        lblManager.Size = New Size(53, 20)
-        lblManager.TabIndex = 7
-        lblManager.Text = "Label8"
-        ' 
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(742, 41)
+        lblSupervisor.Location = New Point(732, 41)
         lblSupervisor.Name = "lblSupervisor"
         lblSupervisor.Size = New Size(53, 20)
         lblSupervisor.TabIndex = 6
@@ -326,25 +316,15 @@ Partial Class Employee_History
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
         ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(655, 75)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(71, 20)
-        Label4.TabIndex = 3
-        Label4.Text = "Manager:"
-        ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(655, 41)
         Label3.Name = "Label3"
-        Label3.Size = New Size(81, 20)
+        Label3.Size = New Size(71, 20)
         Label3.TabIndex = 2
-        Label3.Text = "Supervisor:"
+        Label3.Text = "Manager:"
         ' 
         ' Label2
         ' 
@@ -352,9 +332,9 @@ Partial Class Employee_History
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.Location = New Point(27, 75)
         Label2.Name = "Label2"
-        Label2.Size = New Size(97, 20)
+        Label2.Size = New Size(100, 20)
         Label2.TabIndex = 1
-        Label2.Text = "Employee ID:"
+        Label2.Text = "Supervisor ID:"
         ' 
         ' Label1
         ' 
@@ -362,9 +342,9 @@ Partial Class Employee_History
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label1.Location = New Point(27, 41)
         Label1.Name = "Label1"
-        Label1.Size = New Size(122, 20)
+        Label1.Size = New Size(125, 20)
         Label1.TabIndex = 0
-        Label1.Text = "Employee Name:"
+        Label1.Text = "Supervisor Name:"
         ' 
         ' Guna2GroupBox1
         ' 
@@ -468,7 +448,7 @@ Partial Class Employee_History
         Guna2HtmlLabel28.BackColor = Color.Transparent
         Guna2HtmlLabel28.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel28.ForeColor = Color.Black
-        Guna2HtmlLabel28.Location = New Point(453, 692)
+        Guna2HtmlLabel28.Location = New Point(456, 695)
         Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
         Guna2HtmlLabel28.Size = New Size(63, 19)
         Guna2HtmlLabel28.TabIndex = 39
@@ -479,7 +459,7 @@ Partial Class Employee_History
         Guna2HtmlLabel29.BackColor = Color.Transparent
         Guna2HtmlLabel29.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel29.ForeColor = Color.Black
-        Guna2HtmlLabel29.Location = New Point(53, 692)
+        Guna2HtmlLabel29.Location = New Point(56, 695)
         Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
         Guna2HtmlLabel29.Size = New Size(68, 19)
         Guna2HtmlLabel29.TabIndex = 38
@@ -490,7 +470,7 @@ Partial Class Employee_History
         Guna2HtmlLabel30.BackColor = Color.Transparent
         Guna2HtmlLabel30.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel30.ForeColor = Color.Black
-        Guna2HtmlLabel30.Location = New Point(38, 666)
+        Guna2HtmlLabel30.Location = New Point(41, 669)
         Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
         Guna2HtmlLabel30.Size = New Size(677, 19)
         Guna2HtmlLabel30.TabIndex = 37
@@ -501,7 +481,7 @@ Partial Class Employee_History
         Guna2HtmlLabel31.BackColor = Color.Transparent
         Guna2HtmlLabel31.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel31.ForeColor = Color.Black
-        Guna2HtmlLabel31.Location = New Point(453, 632)
+        Guna2HtmlLabel31.Location = New Point(456, 635)
         Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
         Guna2HtmlLabel31.Size = New Size(63, 19)
         Guna2HtmlLabel31.TabIndex = 36
@@ -512,7 +492,7 @@ Partial Class Employee_History
         Guna2HtmlLabel32.BackColor = Color.Transparent
         Guna2HtmlLabel32.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel32.ForeColor = Color.Black
-        Guna2HtmlLabel32.Location = New Point(53, 632)
+        Guna2HtmlLabel32.Location = New Point(56, 635)
         Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
         Guna2HtmlLabel32.Size = New Size(68, 19)
         Guna2HtmlLabel32.TabIndex = 35
@@ -523,7 +503,7 @@ Partial Class Employee_History
         Guna2HtmlLabel33.BackColor = Color.Transparent
         Guna2HtmlLabel33.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel33.ForeColor = Color.Black
-        Guna2HtmlLabel33.Location = New Point(38, 606)
+        Guna2HtmlLabel33.Location = New Point(41, 609)
         Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
         Guna2HtmlLabel33.Size = New Size(613, 19)
         Guna2HtmlLabel33.TabIndex = 34
@@ -534,7 +514,7 @@ Partial Class Employee_History
         Guna2HtmlLabel34.BackColor = Color.Transparent
         Guna2HtmlLabel34.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel34.ForeColor = Color.Black
-        Guna2HtmlLabel34.Location = New Point(453, 571)
+        Guna2HtmlLabel34.Location = New Point(456, 574)
         Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
         Guna2HtmlLabel34.Size = New Size(63, 19)
         Guna2HtmlLabel34.TabIndex = 33
@@ -545,7 +525,7 @@ Partial Class Employee_History
         Guna2HtmlLabel35.BackColor = Color.Transparent
         Guna2HtmlLabel35.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel35.ForeColor = Color.Black
-        Guna2HtmlLabel35.Location = New Point(53, 571)
+        Guna2HtmlLabel35.Location = New Point(56, 574)
         Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
         Guna2HtmlLabel35.Size = New Size(68, 19)
         Guna2HtmlLabel35.TabIndex = 32
@@ -556,7 +536,7 @@ Partial Class Employee_History
         Guna2HtmlLabel36.BackColor = Color.Transparent
         Guna2HtmlLabel36.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel36.ForeColor = Color.Black
-        Guna2HtmlLabel36.Location = New Point(38, 545)
+        Guna2HtmlLabel36.Location = New Point(41, 548)
         Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
         Guna2HtmlLabel36.Size = New Size(814, 19)
         Guna2HtmlLabel36.TabIndex = 31
@@ -567,7 +547,7 @@ Partial Class Employee_History
         Guna2HtmlLabel13.BackColor = Color.Transparent
         Guna2HtmlLabel13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel13.ForeColor = Color.Black
-        Guna2HtmlLabel13.Location = New Point(453, 511)
+        Guna2HtmlLabel13.Location = New Point(456, 514)
         Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
         Guna2HtmlLabel13.Size = New Size(63, 19)
         Guna2HtmlLabel13.TabIndex = 30
@@ -578,7 +558,7 @@ Partial Class Employee_History
         Guna2HtmlLabel14.BackColor = Color.Transparent
         Guna2HtmlLabel14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel14.ForeColor = Color.Black
-        Guna2HtmlLabel14.Location = New Point(53, 511)
+        Guna2HtmlLabel14.Location = New Point(56, 514)
         Guna2HtmlLabel14.Name = "Guna2HtmlLabel14"
         Guna2HtmlLabel14.Size = New Size(68, 19)
         Guna2HtmlLabel14.TabIndex = 29
@@ -589,7 +569,7 @@ Partial Class Employee_History
         Guna2HtmlLabel15.BackColor = Color.Transparent
         Guna2HtmlLabel15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel15.ForeColor = Color.Black
-        Guna2HtmlLabel15.Location = New Point(38, 485)
+        Guna2HtmlLabel15.Location = New Point(41, 488)
         Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
         Guna2HtmlLabel15.Size = New Size(565, 19)
         Guna2HtmlLabel15.TabIndex = 28
@@ -600,7 +580,7 @@ Partial Class Employee_History
         Guna2HtmlLabel16.BackColor = Color.Transparent
         Guna2HtmlLabel16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel16.ForeColor = Color.Black
-        Guna2HtmlLabel16.Location = New Point(453, 450)
+        Guna2HtmlLabel16.Location = New Point(456, 453)
         Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
         Guna2HtmlLabel16.Size = New Size(63, 19)
         Guna2HtmlLabel16.TabIndex = 27
@@ -611,7 +591,7 @@ Partial Class Employee_History
         Guna2HtmlLabel17.BackColor = Color.Transparent
         Guna2HtmlLabel17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel17.ForeColor = Color.Black
-        Guna2HtmlLabel17.Location = New Point(53, 450)
+        Guna2HtmlLabel17.Location = New Point(56, 453)
         Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
         Guna2HtmlLabel17.Size = New Size(68, 19)
         Guna2HtmlLabel17.TabIndex = 26
@@ -634,7 +614,7 @@ Partial Class Employee_History
         Guna2HtmlLabel19.BackColor = Color.Transparent
         Guna2HtmlLabel19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel19.ForeColor = Color.Black
-        Guna2HtmlLabel19.Location = New Point(453, 370)
+        Guna2HtmlLabel19.Location = New Point(456, 373)
         Guna2HtmlLabel19.Name = "Guna2HtmlLabel19"
         Guna2HtmlLabel19.Size = New Size(63, 19)
         Guna2HtmlLabel19.TabIndex = 24
@@ -645,7 +625,7 @@ Partial Class Employee_History
         Guna2HtmlLabel20.BackColor = Color.Transparent
         Guna2HtmlLabel20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel20.ForeColor = Color.Black
-        Guna2HtmlLabel20.Location = New Point(53, 370)
+        Guna2HtmlLabel20.Location = New Point(56, 373)
         Guna2HtmlLabel20.Name = "Guna2HtmlLabel20"
         Guna2HtmlLabel20.Size = New Size(68, 19)
         Guna2HtmlLabel20.TabIndex = 23
@@ -656,7 +636,7 @@ Partial Class Employee_History
         Guna2HtmlLabel21.BackColor = Color.Transparent
         Guna2HtmlLabel21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel21.ForeColor = Color.Black
-        Guna2HtmlLabel21.Location = New Point(38, 344)
+        Guna2HtmlLabel21.Location = New Point(41, 347)
         Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
         Guna2HtmlLabel21.Size = New Size(800, 19)
         Guna2HtmlLabel21.TabIndex = 22
@@ -667,7 +647,7 @@ Partial Class Employee_History
         Guna2HtmlLabel22.BackColor = Color.Transparent
         Guna2HtmlLabel22.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel22.ForeColor = Color.Black
-        Guna2HtmlLabel22.Location = New Point(453, 309)
+        Guna2HtmlLabel22.Location = New Point(456, 312)
         Guna2HtmlLabel22.Name = "Guna2HtmlLabel22"
         Guna2HtmlLabel22.Size = New Size(63, 19)
         Guna2HtmlLabel22.TabIndex = 21
@@ -678,7 +658,7 @@ Partial Class Employee_History
         Guna2HtmlLabel23.BackColor = Color.Transparent
         Guna2HtmlLabel23.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel23.ForeColor = Color.Black
-        Guna2HtmlLabel23.Location = New Point(53, 309)
+        Guna2HtmlLabel23.Location = New Point(56, 312)
         Guna2HtmlLabel23.Name = "Guna2HtmlLabel23"
         Guna2HtmlLabel23.Size = New Size(68, 19)
         Guna2HtmlLabel23.TabIndex = 20
@@ -689,7 +669,7 @@ Partial Class Employee_History
         Guna2HtmlLabel24.BackColor = Color.Transparent
         Guna2HtmlLabel24.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel24.ForeColor = Color.Black
-        Guna2HtmlLabel24.Location = New Point(38, 283)
+        Guna2HtmlLabel24.Location = New Point(41, 286)
         Guna2HtmlLabel24.Name = "Guna2HtmlLabel24"
         Guna2HtmlLabel24.Size = New Size(735, 19)
         Guna2HtmlLabel24.TabIndex = 19
@@ -700,7 +680,7 @@ Partial Class Employee_History
         Guna2HtmlLabel7.BackColor = Color.Transparent
         Guna2HtmlLabel7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel7.ForeColor = Color.Black
-        Guna2HtmlLabel7.Location = New Point(453, 249)
+        Guna2HtmlLabel7.Location = New Point(456, 252)
         Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
         Guna2HtmlLabel7.Size = New Size(63, 19)
         Guna2HtmlLabel7.TabIndex = 18
@@ -711,7 +691,7 @@ Partial Class Employee_History
         Guna2HtmlLabel8.BackColor = Color.Transparent
         Guna2HtmlLabel8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel8.ForeColor = Color.Black
-        Guna2HtmlLabel8.Location = New Point(53, 249)
+        Guna2HtmlLabel8.Location = New Point(56, 252)
         Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
         Guna2HtmlLabel8.Size = New Size(68, 19)
         Guna2HtmlLabel8.TabIndex = 17
@@ -722,7 +702,7 @@ Partial Class Employee_History
         Guna2HtmlLabel9.BackColor = Color.Transparent
         Guna2HtmlLabel9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel9.ForeColor = Color.Black
-        Guna2HtmlLabel9.Location = New Point(38, 223)
+        Guna2HtmlLabel9.Location = New Point(41, 226)
         Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
         Guna2HtmlLabel9.Size = New Size(511, 19)
         Guna2HtmlLabel9.TabIndex = 16
@@ -733,7 +713,7 @@ Partial Class Employee_History
         Guna2HtmlLabel10.BackColor = Color.Transparent
         Guna2HtmlLabel10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel10.ForeColor = Color.Black
-        Guna2HtmlLabel10.Location = New Point(453, 188)
+        Guna2HtmlLabel10.Location = New Point(456, 191)
         Guna2HtmlLabel10.Name = "Guna2HtmlLabel10"
         Guna2HtmlLabel10.Size = New Size(63, 19)
         Guna2HtmlLabel10.TabIndex = 15
@@ -744,7 +724,7 @@ Partial Class Employee_History
         Guna2HtmlLabel11.BackColor = Color.Transparent
         Guna2HtmlLabel11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel11.ForeColor = Color.Black
-        Guna2HtmlLabel11.Location = New Point(53, 188)
+        Guna2HtmlLabel11.Location = New Point(56, 191)
         Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
         Guna2HtmlLabel11.Size = New Size(68, 19)
         Guna2HtmlLabel11.TabIndex = 14
@@ -755,7 +735,7 @@ Partial Class Employee_History
         Guna2HtmlLabel12.BackColor = Color.Transparent
         Guna2HtmlLabel12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel12.ForeColor = Color.Black
-        Guna2HtmlLabel12.Location = New Point(38, 162)
+        Guna2HtmlLabel12.Location = New Point(41, 165)
         Guna2HtmlLabel12.Name = "Guna2HtmlLabel12"
         Guna2HtmlLabel12.Size = New Size(418, 19)
         Guna2HtmlLabel12.TabIndex = 13
@@ -766,7 +746,7 @@ Partial Class Employee_History
         Guna2HtmlLabel4.BackColor = Color.Transparent
         Guna2HtmlLabel4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel4.ForeColor = Color.Black
-        Guna2HtmlLabel4.Location = New Point(453, 128)
+        Guna2HtmlLabel4.Location = New Point(456, 131)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(63, 19)
         Guna2HtmlLabel4.TabIndex = 12
@@ -777,7 +757,7 @@ Partial Class Employee_History
         Guna2HtmlLabel5.BackColor = Color.Transparent
         Guna2HtmlLabel5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel5.ForeColor = Color.Black
-        Guna2HtmlLabel5.Location = New Point(53, 128)
+        Guna2HtmlLabel5.Location = New Point(56, 131)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(68, 19)
         Guna2HtmlLabel5.TabIndex = 11
@@ -788,7 +768,7 @@ Partial Class Employee_History
         Guna2HtmlLabel6.BackColor = Color.Transparent
         Guna2HtmlLabel6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel6.ForeColor = Color.Black
-        Guna2HtmlLabel6.Location = New Point(38, 102)
+        Guna2HtmlLabel6.Location = New Point(41, 105)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
         Guna2HtmlLabel6.Size = New Size(636, 19)
         Guna2HtmlLabel6.TabIndex = 10
@@ -799,7 +779,7 @@ Partial Class Employee_History
         Guna2HtmlLabel3.BackColor = Color.Transparent
         Guna2HtmlLabel3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel3.ForeColor = Color.Black
-        Guna2HtmlLabel3.Location = New Point(453, 67)
+        Guna2HtmlLabel3.Location = New Point(456, 70)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(63, 19)
         Guna2HtmlLabel3.TabIndex = 9
@@ -810,7 +790,7 @@ Partial Class Employee_History
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel2.ForeColor = Color.Black
-        Guna2HtmlLabel2.Location = New Point(53, 67)
+        Guna2HtmlLabel2.Location = New Point(56, 70)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(68, 19)
         Guna2HtmlLabel2.TabIndex = 8
@@ -821,7 +801,7 @@ Partial Class Employee_History
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2HtmlLabel1.ForeColor = Color.Black
-        Guna2HtmlLabel1.Location = New Point(38, 41)
+        Guna2HtmlLabel1.Location = New Point(41, 44)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(602, 19)
         Guna2HtmlLabel1.TabIndex = 3
@@ -832,7 +812,7 @@ Partial Class Employee_History
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(9, 9)
+        Label5.Location = New Point(12, 12)
         Label5.Name = "Label5"
         Label5.Size = New Size(244, 25)
         Label5.TabIndex = 0
@@ -841,7 +821,7 @@ Partial Class Employee_History
         ' Label10
         ' 
         Label10.AutoSize = True
-        Label10.Location = New Point(9, 808)
+        Label10.Location = New Point(12, 811)
         Label10.Name = "Label10"
         Label10.Size = New Size(101, 20)
         Label10.TabIndex = 2
@@ -850,22 +830,40 @@ Partial Class Employee_History
         ' Guna2Panel1
         ' 
         Guna2Panel1.BackColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        Guna2Panel1.Controls.Add(btnEmployees)
         Guna2Panel1.Controls.Add(btnHome)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
         Guna2Panel1.Controls.Add(btnHistory)
         Guna2Panel1.Controls.Add(btnLogout)
         Guna2Panel1.Controls.Add(btnAnswer)
         Guna2Panel1.Controls.Add(btnResult)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges26
+        Guna2Panel1.CustomizableEdges = CustomizableEdges28
         Guna2Panel1.Location = New Point(-1, 0)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         Guna2Panel1.Size = New Size(150, 757)
-        Guna2Panel1.TabIndex = 4
+        Guna2Panel1.TabIndex = 6
+        ' 
+        ' btnEmployees
+        ' 
+        btnEmployees.CustomizableEdges = CustomizableEdges14
+        btnEmployees.DisabledState.BorderColor = Color.DarkGray
+        btnEmployees.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEmployees.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEmployees.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEmployees.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnEmployees.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEmployees.ForeColor = Color.White
+        btnEmployees.Location = New Point(3, 348)
+        btnEmployees.Name = "btnEmployees"
+        btnEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        btnEmployees.Size = New Size(139, 44)
+        btnEmployees.TabIndex = 12
+        btnEmployees.Text = "Employees"
         ' 
         ' btnHome
         ' 
-        btnHome.CustomizableEdges = CustomizableEdges14
+        btnHome.CustomizableEdges = CustomizableEdges16
         btnHome.DisabledState.BorderColor = Color.DarkGray
         btnHome.DisabledState.CustomBorderColor = Color.DarkGray
         btnHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -875,7 +873,7 @@ Partial Class Employee_History
         btnHome.ForeColor = Color.White
         btnHome.Location = New Point(3, 147)
         btnHome.Name = "btnHome"
-        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         btnHome.Size = New Size(139, 44)
         btnHome.TabIndex = 11
         btnHome.Text = "Home"
@@ -883,12 +881,12 @@ Partial Class Employee_History
         ' Guna2PictureBox2
         ' 
         Guna2PictureBox2.BackColor = Color.Transparent
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges16
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges18
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(3, 12)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Guna2PictureBox2.Size = New Size(139, 54)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 10
@@ -896,7 +894,7 @@ Partial Class Employee_History
         ' 
         ' btnHistory
         ' 
-        btnHistory.CustomizableEdges = CustomizableEdges18
+        btnHistory.CustomizableEdges = CustomizableEdges20
         btnHistory.DisabledState.BorderColor = Color.DarkGray
         btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
         btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -906,14 +904,14 @@ Partial Class Employee_History
         btnHistory.ForeColor = Color.White
         btnHistory.Location = New Point(3, 298)
         btnHistory.Name = "btnHistory"
-        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         btnHistory.Size = New Size(139, 44)
         btnHistory.TabIndex = 9
         btnHistory.Text = "History"
         ' 
         ' btnLogout
         ' 
-        btnLogout.CustomizableEdges = CustomizableEdges20
+        btnLogout.CustomizableEdges = CustomizableEdges22
         btnLogout.DisabledState.BorderColor = Color.DarkGray
         btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -923,14 +921,14 @@ Partial Class Employee_History
         btnLogout.ForeColor = Color.White
         btnLogout.Location = New Point(3, 669)
         btnLogout.Name = "btnLogout"
-        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         btnLogout.Size = New Size(139, 44)
         btnLogout.TabIndex = 7
         btnLogout.Text = "Logout"
         ' 
         ' btnAnswer
         ' 
-        btnAnswer.CustomizableEdges = CustomizableEdges22
+        btnAnswer.CustomizableEdges = CustomizableEdges24
         btnAnswer.DisabledState.BorderColor = Color.DarkGray
         btnAnswer.DisabledState.CustomBorderColor = Color.DarkGray
         btnAnswer.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -940,14 +938,14 @@ Partial Class Employee_History
         btnAnswer.ForeColor = Color.White
         btnAnswer.Location = New Point(3, 197)
         btnAnswer.Name = "btnAnswer"
-        btnAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        btnAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         btnAnswer.Size = New Size(139, 44)
         btnAnswer.TabIndex = 6
         btnAnswer.Text = "Answer"
         ' 
         ' btnResult
         ' 
-        btnResult.CustomizableEdges = CustomizableEdges24
+        btnResult.CustomizableEdges = CustomizableEdges26
         btnResult.DisabledState.BorderColor = Color.DarkGray
         btnResult.DisabledState.CustomBorderColor = Color.DarkGray
         btnResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -957,20 +955,20 @@ Partial Class Employee_History
         btnResult.ForeColor = Color.White
         btnResult.Location = New Point(3, 248)
         btnResult.Name = "btnResult"
-        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges27
         btnResult.Size = New Size(139, 44)
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
-        ' Employee_History
+        ' Supervisor_History
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1082, 756)
         Controls.Add(Guna2Panel2)
         Controls.Add(Guna2Panel1)
-        Name = "Employee_History"
-        Text = "Employee_History"
+        Name = "Supervisor_History"
+        Text = "Supervisor_History"
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
         Guna2Panel4.ResumeLayout(False)
@@ -984,13 +982,16 @@ Partial Class Employee_History
     End Sub
 
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnSelect As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2hScrollBar1 As Guna.UI2.WinForms.Guna2HScrollBar
+    Friend WithEvents Guna2vScrollBar2 As Guna.UI2.WinForms.Guna2VScrollBar
+    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents lblManager As Label
     Friend WithEvents lblSupervisor As Label
     Friend WithEvents lblId As Label
     Friend WithEvents lblName As Label
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -1035,15 +1036,11 @@ Partial Class Employee_History
     Friend WithEvents Label5 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnEmployees As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnHome As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents btnHistory As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnAnswer As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnResult As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2hScrollBar1 As Guna.UI2.WinForms.Guna2HScrollBar
-    Friend WithEvents Guna2vScrollBar2 As Guna.UI2.WinForms.Guna2VScrollBar
-    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents btnHistory As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents btnSelect As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents btnHome As Guna.UI2.WinForms.Guna2Button
 End Class

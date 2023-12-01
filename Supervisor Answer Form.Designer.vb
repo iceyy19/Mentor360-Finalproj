@@ -66,6 +66,57 @@ Partial Class Supervisor_Answer_Form
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Supervisor_Answer_Form))
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2GroupBox10 = New Guna.UI2.WinForms.Guna2GroupBox()
         Guna2CustomRadioButton2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
@@ -75,13 +126,11 @@ Partial Class Supervisor_Answer_Form
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        lblManager = New Label()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblSupervisor = New Label()
         lblId = New Label()
         lblName = New Label()
         Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
-        Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
@@ -166,6 +215,117 @@ Partial Class Supervisor_Answer_Form
         Label9 = New Label()
         Label8 = New Label()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2GroupBox18 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2GroupBox19 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton25 = New RadioButton()
+        RadioButton26 = New RadioButton()
+        RadioButton27 = New RadioButton()
+        Label22 = New Label()
+        Label40 = New Label()
+        Label39 = New Label()
+        Label24 = New Label()
+        Guna2GroupBox22 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton55 = New RadioButton()
+        RadioButton56 = New RadioButton()
+        RadioButton57 = New RadioButton()
+        Guna2GroupBox24 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton61 = New RadioButton()
+        RadioButton62 = New RadioButton()
+        RadioButton63 = New RadioButton()
+        Guna2GroupBox26 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton67 = New RadioButton()
+        RadioButton68 = New RadioButton()
+        RadioButton69 = New RadioButton()
+        Guna2GroupBox28 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton73 = New RadioButton()
+        RadioButton74 = New RadioButton()
+        RadioButton75 = New RadioButton()
+        Guna2GroupBox30 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton79 = New RadioButton()
+        RadioButton80 = New RadioButton()
+        RadioButton81 = New RadioButton()
+        Guna2GroupBox31 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton82 = New RadioButton()
+        RadioButton83 = New RadioButton()
+        RadioButton84 = New RadioButton()
+        Guna2GroupBox32 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton85 = New RadioButton()
+        RadioButton86 = New RadioButton()
+        RadioButton87 = New RadioButton()
+        Label29 = New Label()
+        Label30 = New Label()
+        Label31 = New Label()
+        Label32 = New Label()
+        Label33 = New Label()
+        Guna2GroupBox33 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton88 = New RadioButton()
+        RadioButton89 = New RadioButton()
+        RadioButton90 = New RadioButton()
+        Label34 = New Label()
+        Label35 = New Label()
+        Label36 = New Label()
+        Label37 = New Label()
+        Label38 = New Label()
+        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2GroupBox20 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2vScrollBar3 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Label25 = New Label()
+        Guna2GroupBox38 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton100 = New RadioButton()
+        RadioButton101 = New RadioButton()
+        RadioButton102 = New RadioButton()
+        Label23 = New Label()
+        Guna2GroupBox21 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton49 = New RadioButton()
+        RadioButton50 = New RadioButton()
+        RadioButton51 = New RadioButton()
+        Label26 = New Label()
+        Label27 = New Label()
+        Guna2GroupBox23 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton52 = New RadioButton()
+        RadioButton53 = New RadioButton()
+        RadioButton54 = New RadioButton()
+        Guna2GroupBox25 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton58 = New RadioButton()
+        RadioButton59 = New RadioButton()
+        RadioButton60 = New RadioButton()
+        Guna2GroupBox27 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton64 = New RadioButton()
+        RadioButton65 = New RadioButton()
+        RadioButton66 = New RadioButton()
+        Guna2GroupBox29 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton70 = New RadioButton()
+        RadioButton71 = New RadioButton()
+        RadioButton72 = New RadioButton()
+        Guna2GroupBox34 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton76 = New RadioButton()
+        RadioButton77 = New RadioButton()
+        RadioButton78 = New RadioButton()
+        Guna2GroupBox35 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton91 = New RadioButton()
+        RadioButton92 = New RadioButton()
+        RadioButton93 = New RadioButton()
+        Guna2GroupBox36 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton94 = New RadioButton()
+        RadioButton95 = New RadioButton()
+        RadioButton96 = New RadioButton()
+        Label28 = New Label()
+        Label42 = New Label()
+        Label43 = New Label()
+        Label44 = New Label()
+        Guna2GroupBox37 = New Guna.UI2.WinForms.Guna2GroupBox()
+        RadioButton97 = New RadioButton()
+        RadioButton98 = New RadioButton()
+        RadioButton99 = New RadioButton()
+        Label45 = New Label()
+        Label46 = New Label()
+        Label47 = New Label()
+        Label48 = New Label()
+        Label49 = New Label()
+        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2GroupBox10.SuspendLayout()
         Guna2GroupBox1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
@@ -184,6 +344,29 @@ Partial Class Supervisor_Answer_Form
         Guna2GroupBox17.SuspendLayout()
         Guna2GroupBox2.SuspendLayout()
         Guna2GroupBox3.SuspendLayout()
+        Guna2GroupBox18.SuspendLayout()
+        Guna2Panel1.SuspendLayout()
+        Guna2GroupBox19.SuspendLayout()
+        Guna2GroupBox22.SuspendLayout()
+        Guna2GroupBox24.SuspendLayout()
+        Guna2GroupBox26.SuspendLayout()
+        Guna2GroupBox28.SuspendLayout()
+        Guna2GroupBox30.SuspendLayout()
+        Guna2GroupBox31.SuspendLayout()
+        Guna2GroupBox32.SuspendLayout()
+        Guna2GroupBox33.SuspendLayout()
+        Guna2GroupBox20.SuspendLayout()
+        Guna2Panel2.SuspendLayout()
+        Guna2GroupBox38.SuspendLayout()
+        Guna2GroupBox21.SuspendLayout()
+        Guna2GroupBox23.SuspendLayout()
+        Guna2GroupBox25.SuspendLayout()
+        Guna2GroupBox27.SuspendLayout()
+        Guna2GroupBox29.SuspendLayout()
+        Guna2GroupBox34.SuspendLayout()
+        Guna2GroupBox35.SuspendLayout()
+        Guna2GroupBox36.SuspendLayout()
+        Guna2GroupBox37.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2HtmlLabel5
@@ -309,15 +492,6 @@ Partial Class Supervisor_Answer_Form
         Guna2HtmlLabel2.TabIndex = 42
         Guna2HtmlLabel2.Text = "Employee Name:"
         ' 
-        ' lblManager
-        ' 
-        lblManager.AutoSize = True
-        lblManager.Location = New Point(732, 53)
-        lblManager.Name = "lblManager"
-        lblManager.Size = New Size(53, 20)
-        lblManager.TabIndex = 45
-        lblManager.Text = "Label8"
-        ' 
         ' Guna2HtmlLabel1
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
@@ -331,7 +505,7 @@ Partial Class Supervisor_Answer_Form
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(732, 19)
+        lblSupervisor.Location = New Point(722, 19)
         lblSupervisor.Name = "lblSupervisor"
         lblSupervisor.Size = New Size(53, 20)
         lblSupervisor.TabIndex = 44
@@ -369,25 +543,15 @@ Partial Class Supervisor_Answer_Form
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
         ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(645, 53)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(71, 20)
-        Label4.TabIndex = 39
-        Label4.Text = "Manager:"
-        ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(645, 19)
         Label3.Name = "Label3"
-        Label3.Size = New Size(81, 20)
+        Label3.Size = New Size(71, 20)
         Label3.TabIndex = 37
-        Label3.Text = "Supervisor:"
+        Label3.Text = "Manager:"
         ' 
         ' Label2
         ' 
@@ -395,9 +559,9 @@ Partial Class Supervisor_Answer_Form
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.Location = New Point(17, 53)
         Label2.Name = "Label2"
-        Label2.Size = New Size(97, 20)
+        Label2.Size = New Size(100, 20)
         Label2.TabIndex = 35
-        Label2.Text = "Employee ID:"
+        Label2.Text = "Supervisor ID:"
         ' 
         ' Label1
         ' 
@@ -405,9 +569,9 @@ Partial Class Supervisor_Answer_Form
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label1.Location = New Point(17, 19)
         Label1.Name = "Label1"
-        Label1.Size = New Size(122, 20)
+        Label1.Size = New Size(125, 20)
         Label1.TabIndex = 34
-        Label1.Text = "Employee Name:"
+        Label1.Text = "Supervisor Name:"
         ' 
         ' Guna2GroupBox1
         ' 
@@ -1559,6 +1723,1573 @@ Partial Class Supervisor_Answer_Form
         Guna2TextBox1.Size = New Size(228, 776)
         Guna2TextBox1.TabIndex = 4
         ' 
+        ' Guna2GroupBox18
+        ' 
+        Guna2GroupBox18.BorderColor = Color.White
+        Guna2GroupBox18.Controls.Add(Guna2vScrollBar2)
+        Guna2GroupBox18.Controls.Add(Guna2Panel1)
+        Guna2GroupBox18.CustomBorderColor = Color.White
+        Guna2GroupBox18.CustomizableEdges = CustomizableEdges67
+        Guna2GroupBox18.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox18.ForeColor = Color.White
+        Guna2GroupBox18.Location = New Point(63, 76)
+        Guna2GroupBox18.Name = "Guna2GroupBox18"
+        Guna2GroupBox18.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        Guna2GroupBox18.Size = New Size(880, 983)
+        Guna2GroupBox18.TabIndex = 37
+        ' 
+        ' Guna2vScrollBar2
+        ' 
+        Guna2vScrollBar2.Dock = DockStyle.Right
+        Guna2vScrollBar2.InUpdate = False
+        Guna2vScrollBar2.LargeChange = 50
+        Guna2vScrollBar2.Location = New Point(858, 40)
+        Guna2vScrollBar2.Maximum = 280
+        Guna2vScrollBar2.Name = "Guna2vScrollBar2"
+        Guna2vScrollBar2.ScrollbarSize = 22
+        Guna2vScrollBar2.Size = New Size(22, 943)
+        Guna2vScrollBar2.TabIndex = 0
+        ' 
+        ' Guna2Panel1
+        ' 
+        Guna2Panel1.AutoScroll = True
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel1.Controls.Add(Guna2GroupBox19)
+        Guna2Panel1.Controls.Add(Label22)
+        Guna2Panel1.Controls.Add(Label40)
+        Guna2Panel1.Controls.Add(Label39)
+        Guna2Panel1.Controls.Add(Label24)
+        Guna2Panel1.Controls.Add(Guna2GroupBox22)
+        Guna2Panel1.Controls.Add(Guna2GroupBox24)
+        Guna2Panel1.Controls.Add(Guna2GroupBox26)
+        Guna2Panel1.Controls.Add(Guna2GroupBox28)
+        Guna2Panel1.Controls.Add(Guna2GroupBox30)
+        Guna2Panel1.Controls.Add(Guna2GroupBox31)
+        Guna2Panel1.Controls.Add(Guna2GroupBox32)
+        Guna2Panel1.Controls.Add(Label29)
+        Guna2Panel1.Controls.Add(Label30)
+        Guna2Panel1.Controls.Add(Label31)
+        Guna2Panel1.Controls.Add(Label32)
+        Guna2Panel1.Controls.Add(Label33)
+        Guna2Panel1.Controls.Add(Guna2GroupBox33)
+        Guna2Panel1.Controls.Add(Label34)
+        Guna2Panel1.Controls.Add(Label35)
+        Guna2Panel1.Controls.Add(Label36)
+        Guna2Panel1.Controls.Add(Label37)
+        Guna2Panel1.Controls.Add(Label38)
+        Guna2Panel1.Controls.Add(Guna2TextBox2)
+        Guna2Panel1.CustomizableEdges = CustomizableEdges65
+        Guna2Panel1.Dock = DockStyle.Fill
+        Guna2Panel1.Location = New Point(0, 40)
+        Guna2Panel1.Name = "Guna2Panel1"
+        Guna2Panel1.Padding = New Padding(3)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        Guna2Panel1.Size = New Size(880, 943)
+        Guna2Panel1.TabIndex = 3
+        ' 
+        ' Guna2GroupBox19
+        ' 
+        Guna2GroupBox19.BackColor = Color.White
+        Guna2GroupBox19.BorderColor = Color.White
+        Guna2GroupBox19.Controls.Add(RadioButton25)
+        Guna2GroupBox19.Controls.Add(RadioButton26)
+        Guna2GroupBox19.Controls.Add(RadioButton27)
+        Guna2GroupBox19.CustomBorderColor = Color.White
+        Guna2GroupBox19.CustomizableEdges = CustomizableEdges45
+        Guna2GroupBox19.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox19.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox19.Location = New Point(13, 595)
+        Guna2GroupBox19.Name = "Guna2GroupBox19"
+        Guna2GroupBox19.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        Guna2GroupBox19.Size = New Size(163, 50)
+        Guna2GroupBox19.TabIndex = 9
+        ' 
+        ' RadioButton25
+        ' 
+        RadioButton25.AutoSize = True
+        RadioButton25.BackColor = Color.White
+        RadioButton25.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton25.ForeColor = Color.Black
+        RadioButton25.Location = New Point(111, 15)
+        RadioButton25.Name = "RadioButton25"
+        RadioButton25.Size = New Size(52, 21)
+        RadioButton25.TabIndex = 2
+        RadioButton25.TabStop = True
+        RadioButton25.Text = "N/A"
+        RadioButton25.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton26
+        ' 
+        RadioButton26.AutoSize = True
+        RadioButton26.BackColor = Color.White
+        RadioButton26.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton26.ForeColor = Color.Black
+        RadioButton26.Location = New Point(4, 15)
+        RadioButton26.Name = "RadioButton26"
+        RadioButton26.Size = New Size(48, 21)
+        RadioButton26.TabIndex = 0
+        RadioButton26.TabStop = True
+        RadioButton26.Text = "Yes"
+        RadioButton26.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton27
+        ' 
+        RadioButton27.AutoSize = True
+        RadioButton27.BackColor = Color.White
+        RadioButton27.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton27.ForeColor = Color.Black
+        RadioButton27.Location = New Point(58, 15)
+        RadioButton27.Name = "RadioButton27"
+        RadioButton27.Size = New Size(47, 21)
+        RadioButton27.TabIndex = 1
+        RadioButton27.TabStop = True
+        RadioButton27.Text = "No"
+        RadioButton27.UseVisualStyleBackColor = False
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label22.ForeColor = Color.Black
+        Label22.Location = New Point(19, 427)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(341, 25)
+        Label22.TabIndex = 28
+        Label22.Text = "COLLABORATION AND INVOLVEMENT"
+        ' 
+        ' Label40
+        ' 
+        Label40.AutoSize = True
+        Label40.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label40.ForeColor = Color.Black
+        Label40.Location = New Point(19, 280)
+        Label40.Name = "Label40"
+        Label40.Size = New Size(171, 25)
+        Label40.TabIndex = 27
+        Label40.Text = "DOCUMENTATION"
+        ' 
+        ' Label39
+        ' 
+        Label39.AutoSize = True
+        Label39.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label39.ForeColor = Color.Black
+        Label39.Location = New Point(19, 163)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(218, 25)
+        Label39.TabIndex = 26
+        Label39.Text = "PRODUCTION SUPPORT"
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label24.ForeColor = Color.Black
+        Label24.Location = New Point(19, 19)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(336, 25)
+        Label24.TabIndex = 0
+        Label24.Text = "SYSTEM DESIGN AND ARCHITECTURE"
+        ' 
+        ' Guna2GroupBox22
+        ' 
+        Guna2GroupBox22.BackColor = Color.White
+        Guna2GroupBox22.BorderColor = Color.White
+        Guna2GroupBox22.Controls.Add(RadioButton55)
+        Guna2GroupBox22.Controls.Add(RadioButton56)
+        Guna2GroupBox22.Controls.Add(RadioButton57)
+        Guna2GroupBox22.CustomBorderColor = Color.White
+        Guna2GroupBox22.CustomizableEdges = CustomizableEdges47
+        Guna2GroupBox22.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox22.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox22.Location = New Point(13, 525)
+        Guna2GroupBox22.Name = "Guna2GroupBox22"
+        Guna2GroupBox22.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        Guna2GroupBox22.Size = New Size(163, 34)
+        Guna2GroupBox22.TabIndex = 12
+        ' 
+        ' RadioButton55
+        ' 
+        RadioButton55.AutoSize = True
+        RadioButton55.BackColor = Color.White
+        RadioButton55.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton55.ForeColor = Color.Black
+        RadioButton55.Location = New Point(111, 6)
+        RadioButton55.Name = "RadioButton55"
+        RadioButton55.Size = New Size(52, 21)
+        RadioButton55.TabIndex = 2
+        RadioButton55.TabStop = True
+        RadioButton55.Text = "N/A"
+        RadioButton55.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton56
+        ' 
+        RadioButton56.AutoSize = True
+        RadioButton56.BackColor = Color.White
+        RadioButton56.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton56.ForeColor = Color.Black
+        RadioButton56.Location = New Point(4, 6)
+        RadioButton56.Name = "RadioButton56"
+        RadioButton56.Size = New Size(48, 21)
+        RadioButton56.TabIndex = 0
+        RadioButton56.TabStop = True
+        RadioButton56.Text = "Yes"
+        RadioButton56.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton57
+        ' 
+        RadioButton57.AutoSize = True
+        RadioButton57.BackColor = Color.White
+        RadioButton57.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton57.ForeColor = Color.Black
+        RadioButton57.Location = New Point(58, 6)
+        RadioButton57.Name = "RadioButton57"
+        RadioButton57.Size = New Size(47, 21)
+        RadioButton57.TabIndex = 1
+        RadioButton57.TabStop = True
+        RadioButton57.Text = "No"
+        RadioButton57.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox24
+        ' 
+        Guna2GroupBox24.BackColor = Color.White
+        Guna2GroupBox24.BorderColor = Color.White
+        Guna2GroupBox24.Controls.Add(RadioButton61)
+        Guna2GroupBox24.Controls.Add(RadioButton62)
+        Guna2GroupBox24.Controls.Add(RadioButton63)
+        Guna2GroupBox24.CustomBorderColor = Color.White
+        Guna2GroupBox24.CustomizableEdges = CustomizableEdges49
+        Guna2GroupBox24.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox24.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox24.Location = New Point(13, 313)
+        Guna2GroupBox24.Name = "Guna2GroupBox24"
+        Guna2GroupBox24.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        Guna2GroupBox24.Size = New Size(163, 34)
+        Guna2GroupBox24.TabIndex = 9
+        ' 
+        ' RadioButton61
+        ' 
+        RadioButton61.AutoSize = True
+        RadioButton61.BackColor = Color.White
+        RadioButton61.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton61.ForeColor = Color.Black
+        RadioButton61.Location = New Point(111, 6)
+        RadioButton61.Name = "RadioButton61"
+        RadioButton61.Size = New Size(52, 21)
+        RadioButton61.TabIndex = 2
+        RadioButton61.TabStop = True
+        RadioButton61.Text = "N/A"
+        RadioButton61.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton62
+        ' 
+        RadioButton62.AutoSize = True
+        RadioButton62.BackColor = Color.White
+        RadioButton62.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton62.ForeColor = Color.Black
+        RadioButton62.Location = New Point(4, 6)
+        RadioButton62.Name = "RadioButton62"
+        RadioButton62.Size = New Size(48, 21)
+        RadioButton62.TabIndex = 0
+        RadioButton62.TabStop = True
+        RadioButton62.Text = "Yes"
+        RadioButton62.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton63
+        ' 
+        RadioButton63.AutoSize = True
+        RadioButton63.BackColor = Color.White
+        RadioButton63.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton63.ForeColor = Color.Black
+        RadioButton63.Location = New Point(58, 6)
+        RadioButton63.Name = "RadioButton63"
+        RadioButton63.Size = New Size(47, 21)
+        RadioButton63.TabIndex = 1
+        RadioButton63.TabStop = True
+        RadioButton63.Text = "No"
+        RadioButton63.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox26
+        ' 
+        Guna2GroupBox26.BackColor = Color.White
+        Guna2GroupBox26.BorderColor = Color.White
+        Guna2GroupBox26.Controls.Add(RadioButton67)
+        Guna2GroupBox26.Controls.Add(RadioButton68)
+        Guna2GroupBox26.Controls.Add(RadioButton69)
+        Guna2GroupBox26.CustomBorderColor = Color.White
+        Guna2GroupBox26.CustomizableEdges = CustomizableEdges51
+        Guna2GroupBox26.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox26.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox26.Location = New Point(13, 473)
+        Guna2GroupBox26.Name = "Guna2GroupBox26"
+        Guna2GroupBox26.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2GroupBox26.Size = New Size(163, 34)
+        Guna2GroupBox26.TabIndex = 11
+        ' 
+        ' RadioButton67
+        ' 
+        RadioButton67.AutoSize = True
+        RadioButton67.BackColor = Color.White
+        RadioButton67.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton67.ForeColor = Color.Black
+        RadioButton67.Location = New Point(111, 6)
+        RadioButton67.Name = "RadioButton67"
+        RadioButton67.Size = New Size(52, 21)
+        RadioButton67.TabIndex = 2
+        RadioButton67.TabStop = True
+        RadioButton67.Text = "N/A"
+        RadioButton67.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton68
+        ' 
+        RadioButton68.AutoSize = True
+        RadioButton68.BackColor = Color.White
+        RadioButton68.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton68.ForeColor = Color.Black
+        RadioButton68.Location = New Point(4, 6)
+        RadioButton68.Name = "RadioButton68"
+        RadioButton68.Size = New Size(48, 21)
+        RadioButton68.TabIndex = 0
+        RadioButton68.TabStop = True
+        RadioButton68.Text = "Yes"
+        RadioButton68.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton69
+        ' 
+        RadioButton69.AutoSize = True
+        RadioButton69.BackColor = Color.White
+        RadioButton69.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton69.ForeColor = Color.Black
+        RadioButton69.Location = New Point(58, 6)
+        RadioButton69.Name = "RadioButton69"
+        RadioButton69.Size = New Size(47, 21)
+        RadioButton69.TabIndex = 1
+        RadioButton69.TabStop = True
+        RadioButton69.Text = "No"
+        RadioButton69.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox28
+        ' 
+        Guna2GroupBox28.BackColor = Color.White
+        Guna2GroupBox28.BorderColor = Color.White
+        Guna2GroupBox28.Controls.Add(RadioButton73)
+        Guna2GroupBox28.Controls.Add(RadioButton74)
+        Guna2GroupBox28.Controls.Add(RadioButton75)
+        Guna2GroupBox28.CustomBorderColor = Color.White
+        Guna2GroupBox28.CustomizableEdges = CustomizableEdges53
+        Guna2GroupBox28.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox28.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox28.Location = New Point(13, 208)
+        Guna2GroupBox28.Name = "Guna2GroupBox28"
+        Guna2GroupBox28.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2GroupBox28.Size = New Size(163, 50)
+        Guna2GroupBox28.TabIndex = 8
+        ' 
+        ' RadioButton73
+        ' 
+        RadioButton73.AutoSize = True
+        RadioButton73.BackColor = Color.White
+        RadioButton73.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton73.ForeColor = Color.Black
+        RadioButton73.Location = New Point(111, 15)
+        RadioButton73.Name = "RadioButton73"
+        RadioButton73.Size = New Size(52, 21)
+        RadioButton73.TabIndex = 2
+        RadioButton73.TabStop = True
+        RadioButton73.Text = "N/A"
+        RadioButton73.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton74
+        ' 
+        RadioButton74.AutoSize = True
+        RadioButton74.BackColor = Color.White
+        RadioButton74.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton74.ForeColor = Color.Black
+        RadioButton74.Location = New Point(4, 15)
+        RadioButton74.Name = "RadioButton74"
+        RadioButton74.Size = New Size(48, 21)
+        RadioButton74.TabIndex = 0
+        RadioButton74.TabStop = True
+        RadioButton74.Text = "Yes"
+        RadioButton74.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton75
+        ' 
+        RadioButton75.AutoSize = True
+        RadioButton75.BackColor = Color.White
+        RadioButton75.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton75.ForeColor = Color.Black
+        RadioButton75.Location = New Point(58, 15)
+        RadioButton75.Name = "RadioButton75"
+        RadioButton75.Size = New Size(47, 21)
+        RadioButton75.TabIndex = 1
+        RadioButton75.TabStop = True
+        RadioButton75.Text = "No"
+        RadioButton75.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox30
+        ' 
+        Guna2GroupBox30.BackColor = Color.White
+        Guna2GroupBox30.BorderColor = Color.White
+        Guna2GroupBox30.Controls.Add(RadioButton79)
+        Guna2GroupBox30.Controls.Add(RadioButton80)
+        Guna2GroupBox30.Controls.Add(RadioButton81)
+        Guna2GroupBox30.CustomBorderColor = Color.White
+        Guna2GroupBox30.CustomizableEdges = CustomizableEdges55
+        Guna2GroupBox30.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox30.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox30.Location = New Point(13, 365)
+        Guna2GroupBox30.Name = "Guna2GroupBox30"
+        Guna2GroupBox30.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        Guna2GroupBox30.Size = New Size(163, 34)
+        Guna2GroupBox30.TabIndex = 10
+        ' 
+        ' RadioButton79
+        ' 
+        RadioButton79.AutoSize = True
+        RadioButton79.BackColor = Color.White
+        RadioButton79.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton79.ForeColor = Color.Black
+        RadioButton79.Location = New Point(111, 6)
+        RadioButton79.Name = "RadioButton79"
+        RadioButton79.Size = New Size(52, 21)
+        RadioButton79.TabIndex = 2
+        RadioButton79.TabStop = True
+        RadioButton79.Text = "N/A"
+        RadioButton79.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton80
+        ' 
+        RadioButton80.AutoSize = True
+        RadioButton80.BackColor = Color.White
+        RadioButton80.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton80.ForeColor = Color.Black
+        RadioButton80.Location = New Point(4, 6)
+        RadioButton80.Name = "RadioButton80"
+        RadioButton80.Size = New Size(48, 21)
+        RadioButton80.TabIndex = 0
+        RadioButton80.TabStop = True
+        RadioButton80.Text = "Yes"
+        RadioButton80.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton81
+        ' 
+        RadioButton81.AutoSize = True
+        RadioButton81.BackColor = Color.White
+        RadioButton81.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton81.ForeColor = Color.Black
+        RadioButton81.Location = New Point(58, 6)
+        RadioButton81.Name = "RadioButton81"
+        RadioButton81.Size = New Size(47, 21)
+        RadioButton81.TabIndex = 1
+        RadioButton81.TabStop = True
+        RadioButton81.Text = "No"
+        RadioButton81.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox31
+        ' 
+        Guna2GroupBox31.BackColor = Color.White
+        Guna2GroupBox31.BorderColor = Color.White
+        Guna2GroupBox31.Controls.Add(RadioButton82)
+        Guna2GroupBox31.Controls.Add(RadioButton83)
+        Guna2GroupBox31.Controls.Add(RadioButton84)
+        Guna2GroupBox31.CustomBorderColor = Color.White
+        Guna2GroupBox31.CustomizableEdges = CustomizableEdges57
+        Guna2GroupBox31.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox31.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox31.Location = New Point(13, 684)
+        Guna2GroupBox31.Name = "Guna2GroupBox31"
+        Guna2GroupBox31.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        Guna2GroupBox31.Size = New Size(163, 34)
+        Guna2GroupBox31.TabIndex = 14
+        ' 
+        ' RadioButton82
+        ' 
+        RadioButton82.AutoSize = True
+        RadioButton82.BackColor = Color.White
+        RadioButton82.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton82.ForeColor = Color.Black
+        RadioButton82.Location = New Point(111, 6)
+        RadioButton82.Name = "RadioButton82"
+        RadioButton82.Size = New Size(52, 21)
+        RadioButton82.TabIndex = 2
+        RadioButton82.TabStop = True
+        RadioButton82.Text = "N/A"
+        RadioButton82.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton83
+        ' 
+        RadioButton83.AutoSize = True
+        RadioButton83.BackColor = Color.White
+        RadioButton83.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton83.ForeColor = Color.Black
+        RadioButton83.Location = New Point(4, 6)
+        RadioButton83.Name = "RadioButton83"
+        RadioButton83.Size = New Size(48, 21)
+        RadioButton83.TabIndex = 0
+        RadioButton83.TabStop = True
+        RadioButton83.Text = "Yes"
+        RadioButton83.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton84
+        ' 
+        RadioButton84.AutoSize = True
+        RadioButton84.BackColor = Color.White
+        RadioButton84.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton84.ForeColor = Color.Black
+        RadioButton84.Location = New Point(58, 6)
+        RadioButton84.Name = "RadioButton84"
+        RadioButton84.Size = New Size(47, 21)
+        RadioButton84.TabIndex = 1
+        RadioButton84.TabStop = True
+        RadioButton84.Text = "No"
+        RadioButton84.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox32
+        ' 
+        Guna2GroupBox32.BackColor = Color.White
+        Guna2GroupBox32.BorderColor = Color.White
+        Guna2GroupBox32.Controls.Add(RadioButton85)
+        Guna2GroupBox32.Controls.Add(RadioButton86)
+        Guna2GroupBox32.Controls.Add(RadioButton87)
+        Guna2GroupBox32.CustomBorderColor = Color.White
+        Guna2GroupBox32.CustomizableEdges = CustomizableEdges59
+        Guna2GroupBox32.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox32.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox32.Location = New Point(13, 105)
+        Guna2GroupBox32.Name = "Guna2GroupBox32"
+        Guna2GroupBox32.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        Guna2GroupBox32.Size = New Size(163, 34)
+        Guna2GroupBox32.TabIndex = 7
+        ' 
+        ' RadioButton85
+        ' 
+        RadioButton85.AutoSize = True
+        RadioButton85.BackColor = Color.White
+        RadioButton85.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton85.ForeColor = Color.Black
+        RadioButton85.Location = New Point(111, 6)
+        RadioButton85.Name = "RadioButton85"
+        RadioButton85.Size = New Size(52, 21)
+        RadioButton85.TabIndex = 2
+        RadioButton85.TabStop = True
+        RadioButton85.Text = "N/A"
+        RadioButton85.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton86
+        ' 
+        RadioButton86.AutoSize = True
+        RadioButton86.BackColor = Color.White
+        RadioButton86.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton86.ForeColor = Color.Black
+        RadioButton86.Location = New Point(4, 6)
+        RadioButton86.Name = "RadioButton86"
+        RadioButton86.Size = New Size(48, 21)
+        RadioButton86.TabIndex = 0
+        RadioButton86.TabStop = True
+        RadioButton86.Text = "Yes"
+        RadioButton86.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton87
+        ' 
+        RadioButton87.AutoSize = True
+        RadioButton87.BackColor = Color.White
+        RadioButton87.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton87.ForeColor = Color.Black
+        RadioButton87.Location = New Point(58, 6)
+        RadioButton87.Name = "RadioButton87"
+        RadioButton87.Size = New Size(47, 21)
+        RadioButton87.TabIndex = 1
+        RadioButton87.TabStop = True
+        RadioButton87.Text = "No"
+        RadioButton87.UseVisualStyleBackColor = False
+        ' 
+        ' Label29
+        ' 
+        Label29.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label29.ForeColor = Color.Black
+        Label29.Location = New Point(184, 684)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(419, 45)
+        Label29.TabIndex = 16
+        Label29.Text = "Participate in Sprint Demos to showcase completed work to stakeholders and gather feedback for iterative improvements."
+        ' 
+        ' Label30
+        ' 
+        Label30.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label30.ForeColor = Color.Black
+        Label30.Location = New Point(184, 577)
+        Label30.Name = "Label30"
+        Label30.Size = New Size(419, 89)
+        Label30.TabIndex = 15
+        Label30.Text = resources.GetString("Label30.Text")
+        ' 
+        ' Label31
+        ' 
+        Label31.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label31.ForeColor = Color.Black
+        Label31.Location = New Point(184, 525)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(419, 35)
+        Label31.TabIndex = 14
+        Label31.Text = "Engage in various events, whether they occur within the company, involve school activities, or take place externally (such tree planting, educational lectures and panels, etc.)"
+        ' 
+        ' Label32
+        ' 
+        Label32.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label32.ForeColor = Color.Black
+        Label32.Location = New Point(184, 473)
+        Label32.Name = "Label32"
+        Label32.Size = New Size(419, 46)
+        Label32.TabIndex = 13
+        Label32.Text = "Facilitate seamless product support by fostering collaboration between internal and external functional teams."
+        ' 
+        ' Label33
+        ' 
+        Label33.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label33.ForeColor = Color.Black
+        Label33.Location = New Point(184, 365)
+        Label33.Name = "Label33"
+        Label33.Size = New Size(419, 40)
+        Label33.TabIndex = 12
+        Label33.Text = "Document code to facilitate collaboration and understanding by other developers."
+        ' 
+        ' Guna2GroupBox33
+        ' 
+        Guna2GroupBox33.BackColor = Color.White
+        Guna2GroupBox33.BorderColor = Color.White
+        Guna2GroupBox33.Controls.Add(RadioButton88)
+        Guna2GroupBox33.Controls.Add(RadioButton89)
+        Guna2GroupBox33.Controls.Add(RadioButton90)
+        Guna2GroupBox33.CustomBorderColor = Color.White
+        Guna2GroupBox33.CustomizableEdges = CustomizableEdges61
+        Guna2GroupBox33.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox33.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox33.Location = New Point(13, 53)
+        Guna2GroupBox33.Name = "Guna2GroupBox33"
+        Guna2GroupBox33.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        Guna2GroupBox33.Size = New Size(163, 34)
+        Guna2GroupBox33.TabIndex = 6
+        ' 
+        ' RadioButton88
+        ' 
+        RadioButton88.AutoSize = True
+        RadioButton88.BackColor = Color.White
+        RadioButton88.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton88.ForeColor = Color.Black
+        RadioButton88.Location = New Point(109, 6)
+        RadioButton88.Name = "RadioButton88"
+        RadioButton88.Size = New Size(52, 21)
+        RadioButton88.TabIndex = 2
+        RadioButton88.TabStop = True
+        RadioButton88.Text = "N/A"
+        RadioButton88.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton89
+        ' 
+        RadioButton89.AutoSize = True
+        RadioButton89.BackColor = Color.White
+        RadioButton89.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton89.ForeColor = Color.Black
+        RadioButton89.Location = New Point(4, 6)
+        RadioButton89.Name = "RadioButton89"
+        RadioButton89.Size = New Size(48, 21)
+        RadioButton89.TabIndex = 0
+        RadioButton89.TabStop = True
+        RadioButton89.Text = "Yes"
+        RadioButton89.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton90
+        ' 
+        RadioButton90.AutoSize = True
+        RadioButton90.BackColor = Color.White
+        RadioButton90.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton90.ForeColor = Color.Black
+        RadioButton90.Location = New Point(58, 6)
+        RadioButton90.Name = "RadioButton90"
+        RadioButton90.Size = New Size(47, 21)
+        RadioButton90.TabIndex = 1
+        RadioButton90.TabStop = True
+        RadioButton90.Text = "No"
+        RadioButton90.UseVisualStyleBackColor = False
+        ' 
+        ' Label34
+        ' 
+        Label34.AutoSize = True
+        Label34.Location = New Point(9, 891)
+        Label34.Name = "Label34"
+        Label34.Size = New Size(101, 20)
+        Label34.TabIndex = 2
+        Label34.Text = "                       "
+        ' 
+        ' Label35
+        ' 
+        Label35.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label35.ForeColor = Color.Black
+        Label35.Location = New Point(184, 53)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(410, 44)
+        Label35.TabIndex = 1
+        Label35.Text = "Design and architect software systems, considering scalability, performance, and other system requirements."
+        ' 
+        ' Label36
+        ' 
+        Label36.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label36.ForeColor = Color.Black
+        Label36.Location = New Point(184, 105)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(407, 43)
+        Label36.TabIndex = 5
+        Label36.Text = "Collaborate with cross-functional teams to ensure that the software architecture aligns with project goals."
+        ' 
+        ' Label37
+        ' 
+        Label37.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label37.ForeColor = Color.Black
+        Label37.Location = New Point(184, 313)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(407, 43)
+        Label37.TabIndex = 11
+        Label37.Text = "Create and maintain technical documentation, including design documents, API documentation, and user guides."
+        ' 
+        ' Label38
+        ' 
+        Label38.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label38.ForeColor = Color.Black
+        Label38.Location = New Point(184, 205)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(421, 53)
+        Label38.TabIndex = 8
+        Label38.Text = "Provide support for software in the production environment, including monitoring, issue resolution, and maintenance to ensure system availability and reliability."
+        ' 
+        ' Guna2TextBox2
+        ' 
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges63
+        Guna2TextBox2.DefaultText = ""
+        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Location = New Point(617, 53)
+        Guna2TextBox2.Multiline = True
+        Guna2TextBox2.Name = "Guna2TextBox2"
+        Guna2TextBox2.PasswordChar = ChrW(0)
+        Guna2TextBox2.PlaceholderText = ""
+        Guna2TextBox2.ScrollBars = ScrollBars.Vertical
+        Guna2TextBox2.SelectedText = ""
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        Guna2TextBox2.Size = New Size(228, 624)
+        Guna2TextBox2.TabIndex = 4
+        ' 
+        ' Guna2GroupBox20
+        ' 
+        Guna2GroupBox20.BorderColor = Color.White
+        Guna2GroupBox20.Controls.Add(Guna2vScrollBar3)
+        Guna2GroupBox20.Controls.Add(Guna2Panel2)
+        Guna2GroupBox20.CustomBorderColor = Color.White
+        Guna2GroupBox20.CustomizableEdges = CustomizableEdges93
+        Guna2GroupBox20.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox20.ForeColor = Color.White
+        Guna2GroupBox20.Location = New Point(100, 53)
+        Guna2GroupBox20.Name = "Guna2GroupBox20"
+        Guna2GroupBox20.ShadowDecoration.CustomizableEdges = CustomizableEdges94
+        Guna2GroupBox20.Size = New Size(880, 983)
+        Guna2GroupBox20.TabIndex = 38
+        ' 
+        ' Guna2vScrollBar3
+        ' 
+        Guna2vScrollBar3.Dock = DockStyle.Right
+        Guna2vScrollBar3.InUpdate = False
+        Guna2vScrollBar3.LargeChange = 50
+        Guna2vScrollBar3.Location = New Point(858, 40)
+        Guna2vScrollBar3.Maximum = 280
+        Guna2vScrollBar3.Name = "Guna2vScrollBar3"
+        Guna2vScrollBar3.ScrollbarSize = 22
+        Guna2vScrollBar3.Size = New Size(22, 943)
+        Guna2vScrollBar3.TabIndex = 0
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.AutoScroll = True
+        Guna2Panel2.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel2.Controls.Add(Label25)
+        Guna2Panel2.Controls.Add(Guna2GroupBox38)
+        Guna2Panel2.Controls.Add(Label23)
+        Guna2Panel2.Controls.Add(Guna2GroupBox21)
+        Guna2Panel2.Controls.Add(Label26)
+        Guna2Panel2.Controls.Add(Label27)
+        Guna2Panel2.Controls.Add(Guna2GroupBox23)
+        Guna2Panel2.Controls.Add(Guna2GroupBox25)
+        Guna2Panel2.Controls.Add(Guna2GroupBox27)
+        Guna2Panel2.Controls.Add(Guna2GroupBox29)
+        Guna2Panel2.Controls.Add(Guna2GroupBox34)
+        Guna2Panel2.Controls.Add(Guna2GroupBox35)
+        Guna2Panel2.Controls.Add(Guna2GroupBox36)
+        Guna2Panel2.Controls.Add(Label28)
+        Guna2Panel2.Controls.Add(Label42)
+        Guna2Panel2.Controls.Add(Label43)
+        Guna2Panel2.Controls.Add(Label44)
+        Guna2Panel2.Controls.Add(Guna2GroupBox37)
+        Guna2Panel2.Controls.Add(Label45)
+        Guna2Panel2.Controls.Add(Label46)
+        Guna2Panel2.Controls.Add(Label47)
+        Guna2Panel2.Controls.Add(Label48)
+        Guna2Panel2.Controls.Add(Label49)
+        Guna2Panel2.Controls.Add(Guna2TextBox3)
+        Guna2Panel2.CustomizableEdges = CustomizableEdges91
+        Guna2Panel2.Dock = DockStyle.Fill
+        Guna2Panel2.Location = New Point(0, 40)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.Padding = New Padding(3)
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Guna2Panel2.Size = New Size(880, 943)
+        Guna2Panel2.TabIndex = 3
+        ' 
+        ' Label25
+        ' 
+        Label25.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.ForeColor = Color.Black
+        Label25.Location = New Point(184, 607)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(421, 93)
+        Label25.TabIndex = 27
+        Label25.Text = resources.GetString("Label25.Text")
+        ' 
+        ' Guna2GroupBox38
+        ' 
+        Guna2GroupBox38.BackColor = Color.White
+        Guna2GroupBox38.BorderColor = Color.White
+        Guna2GroupBox38.Controls.Add(RadioButton100)
+        Guna2GroupBox38.Controls.Add(RadioButton101)
+        Guna2GroupBox38.Controls.Add(RadioButton102)
+        Guna2GroupBox38.CustomBorderColor = Color.White
+        Guna2GroupBox38.CustomizableEdges = CustomizableEdges69
+        Guna2GroupBox38.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox38.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox38.Location = New Point(13, 627)
+        Guna2GroupBox38.Name = "Guna2GroupBox38"
+        Guna2GroupBox38.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        Guna2GroupBox38.Size = New Size(163, 50)
+        Guna2GroupBox38.TabIndex = 28
+        ' 
+        ' RadioButton100
+        ' 
+        RadioButton100.AutoSize = True
+        RadioButton100.BackColor = Color.White
+        RadioButton100.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton100.ForeColor = Color.Black
+        RadioButton100.Location = New Point(111, 15)
+        RadioButton100.Name = "RadioButton100"
+        RadioButton100.Size = New Size(52, 21)
+        RadioButton100.TabIndex = 2
+        RadioButton100.TabStop = True
+        RadioButton100.Text = "N/A"
+        RadioButton100.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton101
+        ' 
+        RadioButton101.AutoSize = True
+        RadioButton101.BackColor = Color.White
+        RadioButton101.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton101.ForeColor = Color.Black
+        RadioButton101.Location = New Point(4, 15)
+        RadioButton101.Name = "RadioButton101"
+        RadioButton101.Size = New Size(48, 21)
+        RadioButton101.TabIndex = 0
+        RadioButton101.TabStop = True
+        RadioButton101.Text = "Yes"
+        RadioButton101.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton102
+        ' 
+        RadioButton102.AutoSize = True
+        RadioButton102.BackColor = Color.White
+        RadioButton102.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton102.ForeColor = Color.Black
+        RadioButton102.Location = New Point(58, 15)
+        RadioButton102.Name = "RadioButton102"
+        RadioButton102.Size = New Size(47, 21)
+        RadioButton102.TabIndex = 1
+        RadioButton102.TabStop = True
+        RadioButton102.Text = "No"
+        RadioButton102.UseVisualStyleBackColor = False
+        ' 
+        ' Label23
+        ' 
+        Label23.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.ForeColor = Color.Black
+        Label23.Location = New Point(184, 539)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(421, 53)
+        Label23.TabIndex = 9
+        Label23.Text = "Ensuring that all software development processes, including time tracking in Jira, comply with relevant laws, industry-specific regulations, and organizational policies. "
+        ' 
+        ' Guna2GroupBox21
+        ' 
+        Guna2GroupBox21.BackColor = Color.White
+        Guna2GroupBox21.BorderColor = Color.White
+        Guna2GroupBox21.Controls.Add(RadioButton49)
+        Guna2GroupBox21.Controls.Add(RadioButton50)
+        Guna2GroupBox21.Controls.Add(RadioButton51)
+        Guna2GroupBox21.CustomBorderColor = Color.White
+        Guna2GroupBox21.CustomizableEdges = CustomizableEdges71
+        Guna2GroupBox21.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox21.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox21.Location = New Point(13, 539)
+        Guna2GroupBox21.Name = "Guna2GroupBox21"
+        Guna2GroupBox21.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        Guna2GroupBox21.Size = New Size(163, 50)
+        Guna2GroupBox21.TabIndex = 9
+        ' 
+        ' RadioButton49
+        ' 
+        RadioButton49.AutoSize = True
+        RadioButton49.BackColor = Color.White
+        RadioButton49.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton49.ForeColor = Color.Black
+        RadioButton49.Location = New Point(111, 15)
+        RadioButton49.Name = "RadioButton49"
+        RadioButton49.Size = New Size(52, 21)
+        RadioButton49.TabIndex = 2
+        RadioButton49.TabStop = True
+        RadioButton49.Text = "N/A"
+        RadioButton49.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton50
+        ' 
+        RadioButton50.AutoSize = True
+        RadioButton50.BackColor = Color.White
+        RadioButton50.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton50.ForeColor = Color.Black
+        RadioButton50.Location = New Point(4, 15)
+        RadioButton50.Name = "RadioButton50"
+        RadioButton50.Size = New Size(48, 21)
+        RadioButton50.TabIndex = 0
+        RadioButton50.TabStop = True
+        RadioButton50.Text = "Yes"
+        RadioButton50.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton51
+        ' 
+        RadioButton51.AutoSize = True
+        RadioButton51.BackColor = Color.White
+        RadioButton51.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton51.ForeColor = Color.Black
+        RadioButton51.Location = New Point(58, 15)
+        RadioButton51.Name = "RadioButton51"
+        RadioButton51.Size = New Size(47, 21)
+        RadioButton51.TabIndex = 1
+        RadioButton51.TabStop = True
+        RadioButton51.Text = "No"
+        RadioButton51.UseVisualStyleBackColor = False
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.ForeColor = Color.Black
+        Label26.Location = New Point(22, 248)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(177, 25)
+        Label26.TabIndex = 26
+        Label26.Text = "PROFESSIONALISM"
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label27.ForeColor = Color.Black
+        Label27.Location = New Point(22, 22)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(228, 25)
+        Label27.TabIndex = 0
+        Label27.Text = "CONTINUOUS LEARNING"
+        ' 
+        ' Guna2GroupBox23
+        ' 
+        Guna2GroupBox23.BackColor = Color.White
+        Guna2GroupBox23.BorderColor = Color.White
+        Guna2GroupBox23.Controls.Add(RadioButton52)
+        Guna2GroupBox23.Controls.Add(RadioButton53)
+        Guna2GroupBox23.Controls.Add(RadioButton54)
+        Guna2GroupBox23.CustomBorderColor = Color.White
+        Guna2GroupBox23.CustomizableEdges = CustomizableEdges73
+        Guna2GroupBox23.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox23.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox23.Location = New Point(13, 435)
+        Guna2GroupBox23.Name = "Guna2GroupBox23"
+        Guna2GroupBox23.ShadowDecoration.CustomizableEdges = CustomizableEdges74
+        Guna2GroupBox23.Size = New Size(163, 34)
+        Guna2GroupBox23.TabIndex = 12
+        ' 
+        ' RadioButton52
+        ' 
+        RadioButton52.AutoSize = True
+        RadioButton52.BackColor = Color.White
+        RadioButton52.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton52.ForeColor = Color.Black
+        RadioButton52.Location = New Point(111, 6)
+        RadioButton52.Name = "RadioButton52"
+        RadioButton52.Size = New Size(52, 21)
+        RadioButton52.TabIndex = 2
+        RadioButton52.TabStop = True
+        RadioButton52.Text = "N/A"
+        RadioButton52.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton53
+        ' 
+        RadioButton53.AutoSize = True
+        RadioButton53.BackColor = Color.White
+        RadioButton53.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton53.ForeColor = Color.Black
+        RadioButton53.Location = New Point(4, 6)
+        RadioButton53.Name = "RadioButton53"
+        RadioButton53.Size = New Size(48, 21)
+        RadioButton53.TabIndex = 0
+        RadioButton53.TabStop = True
+        RadioButton53.Text = "Yes"
+        RadioButton53.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton54
+        ' 
+        RadioButton54.AutoSize = True
+        RadioButton54.BackColor = Color.White
+        RadioButton54.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton54.ForeColor = Color.Black
+        RadioButton54.Location = New Point(58, 6)
+        RadioButton54.Name = "RadioButton54"
+        RadioButton54.Size = New Size(47, 21)
+        RadioButton54.TabIndex = 1
+        RadioButton54.TabStop = True
+        RadioButton54.Text = "No"
+        RadioButton54.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox25
+        ' 
+        Guna2GroupBox25.BackColor = Color.White
+        Guna2GroupBox25.BorderColor = Color.White
+        Guna2GroupBox25.Controls.Add(RadioButton58)
+        Guna2GroupBox25.Controls.Add(RadioButton59)
+        Guna2GroupBox25.Controls.Add(RadioButton60)
+        Guna2GroupBox25.CustomBorderColor = Color.White
+        Guna2GroupBox25.CustomizableEdges = CustomizableEdges75
+        Guna2GroupBox25.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox25.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox25.Location = New Point(13, 279)
+        Guna2GroupBox25.Name = "Guna2GroupBox25"
+        Guna2GroupBox25.ShadowDecoration.CustomizableEdges = CustomizableEdges76
+        Guna2GroupBox25.Size = New Size(163, 34)
+        Guna2GroupBox25.TabIndex = 9
+        ' 
+        ' RadioButton58
+        ' 
+        RadioButton58.AutoSize = True
+        RadioButton58.BackColor = Color.White
+        RadioButton58.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton58.ForeColor = Color.Black
+        RadioButton58.Location = New Point(111, 6)
+        RadioButton58.Name = "RadioButton58"
+        RadioButton58.Size = New Size(52, 21)
+        RadioButton58.TabIndex = 2
+        RadioButton58.TabStop = True
+        RadioButton58.Text = "N/A"
+        RadioButton58.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton59
+        ' 
+        RadioButton59.AutoSize = True
+        RadioButton59.BackColor = Color.White
+        RadioButton59.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton59.ForeColor = Color.Black
+        RadioButton59.Location = New Point(4, 6)
+        RadioButton59.Name = "RadioButton59"
+        RadioButton59.Size = New Size(48, 21)
+        RadioButton59.TabIndex = 0
+        RadioButton59.TabStop = True
+        RadioButton59.Text = "Yes"
+        RadioButton59.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton60
+        ' 
+        RadioButton60.AutoSize = True
+        RadioButton60.BackColor = Color.White
+        RadioButton60.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton60.ForeColor = Color.Black
+        RadioButton60.Location = New Point(58, 6)
+        RadioButton60.Name = "RadioButton60"
+        RadioButton60.Size = New Size(47, 21)
+        RadioButton60.TabIndex = 1
+        RadioButton60.TabStop = True
+        RadioButton60.Text = "No"
+        RadioButton60.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox27
+        ' 
+        Guna2GroupBox27.BackColor = Color.White
+        Guna2GroupBox27.BorderColor = Color.White
+        Guna2GroupBox27.Controls.Add(RadioButton64)
+        Guna2GroupBox27.Controls.Add(RadioButton65)
+        Guna2GroupBox27.Controls.Add(RadioButton66)
+        Guna2GroupBox27.CustomBorderColor = Color.White
+        Guna2GroupBox27.CustomizableEdges = CustomizableEdges77
+        Guna2GroupBox27.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox27.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox27.Location = New Point(13, 383)
+        Guna2GroupBox27.Name = "Guna2GroupBox27"
+        Guna2GroupBox27.ShadowDecoration.CustomizableEdges = CustomizableEdges78
+        Guna2GroupBox27.Size = New Size(163, 34)
+        Guna2GroupBox27.TabIndex = 11
+        ' 
+        ' RadioButton64
+        ' 
+        RadioButton64.AutoSize = True
+        RadioButton64.BackColor = Color.White
+        RadioButton64.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton64.ForeColor = Color.Black
+        RadioButton64.Location = New Point(111, 6)
+        RadioButton64.Name = "RadioButton64"
+        RadioButton64.Size = New Size(52, 21)
+        RadioButton64.TabIndex = 2
+        RadioButton64.TabStop = True
+        RadioButton64.Text = "N/A"
+        RadioButton64.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton65
+        ' 
+        RadioButton65.AutoSize = True
+        RadioButton65.BackColor = Color.White
+        RadioButton65.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton65.ForeColor = Color.Black
+        RadioButton65.Location = New Point(4, 6)
+        RadioButton65.Name = "RadioButton65"
+        RadioButton65.Size = New Size(48, 21)
+        RadioButton65.TabIndex = 0
+        RadioButton65.TabStop = True
+        RadioButton65.Text = "Yes"
+        RadioButton65.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton66
+        ' 
+        RadioButton66.AutoSize = True
+        RadioButton66.BackColor = Color.White
+        RadioButton66.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton66.ForeColor = Color.Black
+        RadioButton66.Location = New Point(58, 6)
+        RadioButton66.Name = "RadioButton66"
+        RadioButton66.Size = New Size(47, 21)
+        RadioButton66.TabIndex = 1
+        RadioButton66.TabStop = True
+        RadioButton66.Text = "No"
+        RadioButton66.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox29
+        ' 
+        Guna2GroupBox29.BackColor = Color.White
+        Guna2GroupBox29.BorderColor = Color.White
+        Guna2GroupBox29.Controls.Add(RadioButton70)
+        Guna2GroupBox29.Controls.Add(RadioButton71)
+        Guna2GroupBox29.Controls.Add(RadioButton72)
+        Guna2GroupBox29.CustomBorderColor = Color.White
+        Guna2GroupBox29.CustomizableEdges = CustomizableEdges79
+        Guna2GroupBox29.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox29.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox29.Location = New Point(13, 164)
+        Guna2GroupBox29.Name = "Guna2GroupBox29"
+        Guna2GroupBox29.ShadowDecoration.CustomizableEdges = CustomizableEdges80
+        Guna2GroupBox29.Size = New Size(163, 50)
+        Guna2GroupBox29.TabIndex = 8
+        ' 
+        ' RadioButton70
+        ' 
+        RadioButton70.AutoSize = True
+        RadioButton70.BackColor = Color.White
+        RadioButton70.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton70.ForeColor = Color.Black
+        RadioButton70.Location = New Point(111, 15)
+        RadioButton70.Name = "RadioButton70"
+        RadioButton70.Size = New Size(52, 21)
+        RadioButton70.TabIndex = 2
+        RadioButton70.TabStop = True
+        RadioButton70.Text = "N/A"
+        RadioButton70.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton71
+        ' 
+        RadioButton71.AutoSize = True
+        RadioButton71.BackColor = Color.White
+        RadioButton71.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton71.ForeColor = Color.Black
+        RadioButton71.Location = New Point(4, 15)
+        RadioButton71.Name = "RadioButton71"
+        RadioButton71.Size = New Size(48, 21)
+        RadioButton71.TabIndex = 0
+        RadioButton71.TabStop = True
+        RadioButton71.Text = "Yes"
+        RadioButton71.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton72
+        ' 
+        RadioButton72.AutoSize = True
+        RadioButton72.BackColor = Color.White
+        RadioButton72.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton72.ForeColor = Color.Black
+        RadioButton72.Location = New Point(58, 15)
+        RadioButton72.Name = "RadioButton72"
+        RadioButton72.Size = New Size(47, 21)
+        RadioButton72.TabIndex = 1
+        RadioButton72.TabStop = True
+        RadioButton72.Text = "No"
+        RadioButton72.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox34
+        ' 
+        Guna2GroupBox34.BackColor = Color.White
+        Guna2GroupBox34.BorderColor = Color.White
+        Guna2GroupBox34.Controls.Add(RadioButton76)
+        Guna2GroupBox34.Controls.Add(RadioButton77)
+        Guna2GroupBox34.Controls.Add(RadioButton78)
+        Guna2GroupBox34.CustomBorderColor = Color.White
+        Guna2GroupBox34.CustomizableEdges = CustomizableEdges81
+        Guna2GroupBox34.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox34.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox34.Location = New Point(13, 331)
+        Guna2GroupBox34.Name = "Guna2GroupBox34"
+        Guna2GroupBox34.ShadowDecoration.CustomizableEdges = CustomizableEdges82
+        Guna2GroupBox34.Size = New Size(163, 34)
+        Guna2GroupBox34.TabIndex = 10
+        ' 
+        ' RadioButton76
+        ' 
+        RadioButton76.AutoSize = True
+        RadioButton76.BackColor = Color.White
+        RadioButton76.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton76.ForeColor = Color.Black
+        RadioButton76.Location = New Point(111, 6)
+        RadioButton76.Name = "RadioButton76"
+        RadioButton76.Size = New Size(52, 21)
+        RadioButton76.TabIndex = 2
+        RadioButton76.TabStop = True
+        RadioButton76.Text = "N/A"
+        RadioButton76.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton77
+        ' 
+        RadioButton77.AutoSize = True
+        RadioButton77.BackColor = Color.White
+        RadioButton77.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton77.ForeColor = Color.Black
+        RadioButton77.Location = New Point(4, 6)
+        RadioButton77.Name = "RadioButton77"
+        RadioButton77.Size = New Size(48, 21)
+        RadioButton77.TabIndex = 0
+        RadioButton77.TabStop = True
+        RadioButton77.Text = "Yes"
+        RadioButton77.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton78
+        ' 
+        RadioButton78.AutoSize = True
+        RadioButton78.BackColor = Color.White
+        RadioButton78.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton78.ForeColor = Color.Black
+        RadioButton78.Location = New Point(58, 6)
+        RadioButton78.Name = "RadioButton78"
+        RadioButton78.Size = New Size(47, 21)
+        RadioButton78.TabIndex = 1
+        RadioButton78.TabStop = True
+        RadioButton78.Text = "No"
+        RadioButton78.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox35
+        ' 
+        Guna2GroupBox35.BackColor = Color.White
+        Guna2GroupBox35.BorderColor = Color.White
+        Guna2GroupBox35.Controls.Add(RadioButton91)
+        Guna2GroupBox35.Controls.Add(RadioButton92)
+        Guna2GroupBox35.Controls.Add(RadioButton93)
+        Guna2GroupBox35.CustomBorderColor = Color.White
+        Guna2GroupBox35.CustomizableEdges = CustomizableEdges83
+        Guna2GroupBox35.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox35.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox35.Location = New Point(12, 487)
+        Guna2GroupBox35.Name = "Guna2GroupBox35"
+        Guna2GroupBox35.ShadowDecoration.CustomizableEdges = CustomizableEdges84
+        Guna2GroupBox35.Size = New Size(163, 34)
+        Guna2GroupBox35.TabIndex = 14
+        ' 
+        ' RadioButton91
+        ' 
+        RadioButton91.AutoSize = True
+        RadioButton91.BackColor = Color.White
+        RadioButton91.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton91.ForeColor = Color.Black
+        RadioButton91.Location = New Point(111, 6)
+        RadioButton91.Name = "RadioButton91"
+        RadioButton91.Size = New Size(52, 21)
+        RadioButton91.TabIndex = 2
+        RadioButton91.TabStop = True
+        RadioButton91.Text = "N/A"
+        RadioButton91.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton92
+        ' 
+        RadioButton92.AutoSize = True
+        RadioButton92.BackColor = Color.White
+        RadioButton92.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton92.ForeColor = Color.Black
+        RadioButton92.Location = New Point(4, 6)
+        RadioButton92.Name = "RadioButton92"
+        RadioButton92.Size = New Size(48, 21)
+        RadioButton92.TabIndex = 0
+        RadioButton92.TabStop = True
+        RadioButton92.Text = "Yes"
+        RadioButton92.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton93
+        ' 
+        RadioButton93.AutoSize = True
+        RadioButton93.BackColor = Color.White
+        RadioButton93.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton93.ForeColor = Color.Black
+        RadioButton93.Location = New Point(58, 6)
+        RadioButton93.Name = "RadioButton93"
+        RadioButton93.Size = New Size(47, 21)
+        RadioButton93.TabIndex = 1
+        RadioButton93.TabStop = True
+        RadioButton93.Text = "No"
+        RadioButton93.UseVisualStyleBackColor = False
+        ' 
+        ' Guna2GroupBox36
+        ' 
+        Guna2GroupBox36.BackColor = Color.White
+        Guna2GroupBox36.BorderColor = Color.White
+        Guna2GroupBox36.Controls.Add(RadioButton94)
+        Guna2GroupBox36.Controls.Add(RadioButton95)
+        Guna2GroupBox36.Controls.Add(RadioButton96)
+        Guna2GroupBox36.CustomBorderColor = Color.White
+        Guna2GroupBox36.CustomizableEdges = CustomizableEdges85
+        Guna2GroupBox36.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox36.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox36.Location = New Point(13, 105)
+        Guna2GroupBox36.Name = "Guna2GroupBox36"
+        Guna2GroupBox36.ShadowDecoration.CustomizableEdges = CustomizableEdges86
+        Guna2GroupBox36.Size = New Size(163, 34)
+        Guna2GroupBox36.TabIndex = 7
+        ' 
+        ' RadioButton94
+        ' 
+        RadioButton94.AutoSize = True
+        RadioButton94.BackColor = Color.White
+        RadioButton94.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton94.ForeColor = Color.Black
+        RadioButton94.Location = New Point(111, 6)
+        RadioButton94.Name = "RadioButton94"
+        RadioButton94.Size = New Size(52, 21)
+        RadioButton94.TabIndex = 2
+        RadioButton94.TabStop = True
+        RadioButton94.Text = "N/A"
+        RadioButton94.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton95
+        ' 
+        RadioButton95.AutoSize = True
+        RadioButton95.BackColor = Color.White
+        RadioButton95.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton95.ForeColor = Color.Black
+        RadioButton95.Location = New Point(4, 6)
+        RadioButton95.Name = "RadioButton95"
+        RadioButton95.Size = New Size(48, 21)
+        RadioButton95.TabIndex = 0
+        RadioButton95.TabStop = True
+        RadioButton95.Text = "Yes"
+        RadioButton95.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton96
+        ' 
+        RadioButton96.AutoSize = True
+        RadioButton96.BackColor = Color.White
+        RadioButton96.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton96.ForeColor = Color.Black
+        RadioButton96.Location = New Point(58, 6)
+        RadioButton96.Name = "RadioButton96"
+        RadioButton96.Size = New Size(47, 21)
+        RadioButton96.TabIndex = 1
+        RadioButton96.TabStop = True
+        RadioButton96.Text = "No"
+        RadioButton96.UseVisualStyleBackColor = False
+        ' 
+        ' Label28
+        ' 
+        Label28.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label28.ForeColor = Color.Black
+        Label28.Location = New Point(181, 486)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(419, 45)
+        Label28.TabIndex = 16
+        Label28.Text = "Continuously work on time management skills to increase efficiency and reduce the need for overtime."
+        ' 
+        ' Label42
+        ' 
+        Label42.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label42.ForeColor = Color.Black
+        Label42.Location = New Point(184, 435)
+        Label42.Name = "Label42"
+        Label42.Size = New Size(419, 35)
+        Label42.TabIndex = 14
+        Label42.Text = "Prioritize your health and well-being to ensure you are physically and mentally prepared for work each day."
+        ' 
+        ' Label43
+        ' 
+        Label43.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label43.ForeColor = Color.Black
+        Label43.Location = New Point(184, 383)
+        Label43.Name = "Label43"
+        Label43.Size = New Size(419, 46)
+        Label43.TabIndex = 13
+        Label43.Text = "Communicate proactively if you anticipate being late or unable to attend a meeting."
+        ' 
+        ' Label44
+        ' 
+        Label44.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label44.ForeColor = Color.Black
+        Label44.Location = New Point(184, 331)
+        Label44.Name = "Label44"
+        Label44.Size = New Size(419, 40)
+        Label44.TabIndex = 12
+        Label44.Text = "Plan your workday to accommodate both expected and unexpected tasks."
+        ' 
+        ' Guna2GroupBox37
+        ' 
+        Guna2GroupBox37.BackColor = Color.White
+        Guna2GroupBox37.BorderColor = Color.White
+        Guna2GroupBox37.Controls.Add(RadioButton97)
+        Guna2GroupBox37.Controls.Add(RadioButton98)
+        Guna2GroupBox37.Controls.Add(RadioButton99)
+        Guna2GroupBox37.CustomBorderColor = Color.White
+        Guna2GroupBox37.CustomizableEdges = CustomizableEdges87
+        Guna2GroupBox37.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox37.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2GroupBox37.Location = New Point(13, 53)
+        Guna2GroupBox37.Name = "Guna2GroupBox37"
+        Guna2GroupBox37.ShadowDecoration.CustomizableEdges = CustomizableEdges88
+        Guna2GroupBox37.Size = New Size(163, 34)
+        Guna2GroupBox37.TabIndex = 6
+        ' 
+        ' RadioButton97
+        ' 
+        RadioButton97.AutoSize = True
+        RadioButton97.BackColor = Color.White
+        RadioButton97.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton97.ForeColor = Color.Black
+        RadioButton97.Location = New Point(109, 6)
+        RadioButton97.Name = "RadioButton97"
+        RadioButton97.Size = New Size(52, 21)
+        RadioButton97.TabIndex = 2
+        RadioButton97.TabStop = True
+        RadioButton97.Text = "N/A"
+        RadioButton97.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton98
+        ' 
+        RadioButton98.AutoSize = True
+        RadioButton98.BackColor = Color.White
+        RadioButton98.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton98.ForeColor = Color.Black
+        RadioButton98.Location = New Point(4, 6)
+        RadioButton98.Name = "RadioButton98"
+        RadioButton98.Size = New Size(48, 21)
+        RadioButton98.TabIndex = 0
+        RadioButton98.TabStop = True
+        RadioButton98.Text = "Yes"
+        RadioButton98.UseVisualStyleBackColor = False
+        ' 
+        ' RadioButton99
+        ' 
+        RadioButton99.AutoSize = True
+        RadioButton99.BackColor = Color.White
+        RadioButton99.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        RadioButton99.ForeColor = Color.Black
+        RadioButton99.Location = New Point(58, 6)
+        RadioButton99.Name = "RadioButton99"
+        RadioButton99.Size = New Size(47, 21)
+        RadioButton99.TabIndex = 1
+        RadioButton99.TabStop = True
+        RadioButton99.Text = "No"
+        RadioButton99.UseVisualStyleBackColor = False
+        ' 
+        ' Label45
+        ' 
+        Label45.AutoSize = True
+        Label45.Location = New Point(12, 894)
+        Label45.Name = "Label45"
+        Label45.Size = New Size(101, 20)
+        Label45.TabIndex = 2
+        Label45.Text = "                       "
+        ' 
+        ' Label46
+        ' 
+        Label46.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label46.ForeColor = Color.Black
+        Label46.Location = New Point(184, 53)
+        Label46.Name = "Label46"
+        Label46.Size = New Size(410, 44)
+        Label46.TabIndex = 1
+        Label46.Text = "Stay updated with the latest industry trends, technologies, and best practices in software development."
+        ' 
+        ' Label47
+        ' 
+        Label47.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label47.ForeColor = Color.Black
+        Label47.Location = New Point(184, 105)
+        Label47.Name = "Label47"
+        Label47.Size = New Size(407, 43)
+        Label47.TabIndex = 5
+        Label47.Text = "Continuously improve skills and knowledge through training, self-study, and participation in workshops or conferences."
+        ' 
+        ' Label48
+        ' 
+        Label48.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label48.ForeColor = Color.Black
+        Label48.Location = New Point(184, 279)
+        Label48.Name = "Label48"
+        Label48.Size = New Size(407, 43)
+        Label48.TabIndex = 11
+        Label48.Text = "Use calendar tools and reminders to keep track of meetings and deadlines."
+        ' 
+        ' Label49
+        ' 
+        Label49.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label49.ForeColor = Color.Black
+        Label49.Location = New Point(184, 154)
+        Label49.Name = "Label49"
+        Label49.Size = New Size(421, 74)
+        Label49.TabIndex = 8
+        Label49.Text = resources.GetString("Label49.Text")
+        ' 
+        ' Guna2TextBox3
+        ' 
+        Guna2TextBox3.CustomizableEdges = CustomizableEdges89
+        Guna2TextBox3.DefaultText = ""
+        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.Location = New Point(617, 53)
+        Guna2TextBox3.Multiline = True
+        Guna2TextBox3.Name = "Guna2TextBox3"
+        Guna2TextBox3.PasswordChar = ChrW(0)
+        Guna2TextBox3.PlaceholderText = ""
+        Guna2TextBox3.ScrollBars = ScrollBars.Vertical
+        Guna2TextBox3.SelectedText = ""
+        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges90
+        Guna2TextBox3.Size = New Size(228, 647)
+        Guna2TextBox3.TabIndex = 4
+        ' 
         ' Supervisor_Answer_Form
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -1566,19 +3297,19 @@ Partial Class Supervisor_Answer_Form
         BackColor = Color.White
         ClientSize = New Size(918, 1084)
         ControlBox = False
+        Controls.Add(Guna2GroupBox20)
+        Controls.Add(Guna2GroupBox18)
         Controls.Add(Guna2HtmlLabel5)
         Controls.Add(Guna2GroupBox10)
         Controls.Add(btnSubmit)
         Controls.Add(Guna2HtmlLabel4)
         Controls.Add(Guna2HtmlLabel3)
         Controls.Add(Guna2HtmlLabel2)
-        Controls.Add(lblManager)
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(lblSupervisor)
         Controls.Add(lblId)
         Controls.Add(lblName)
         Controls.Add(Guna2Shapes1)
-        Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -1618,6 +3349,50 @@ Partial Class Supervisor_Answer_Form
         Guna2GroupBox2.PerformLayout()
         Guna2GroupBox3.ResumeLayout(False)
         Guna2GroupBox3.PerformLayout()
+        Guna2GroupBox18.ResumeLayout(False)
+        Guna2Panel1.ResumeLayout(False)
+        Guna2Panel1.PerformLayout()
+        Guna2GroupBox19.ResumeLayout(False)
+        Guna2GroupBox19.PerformLayout()
+        Guna2GroupBox22.ResumeLayout(False)
+        Guna2GroupBox22.PerformLayout()
+        Guna2GroupBox24.ResumeLayout(False)
+        Guna2GroupBox24.PerformLayout()
+        Guna2GroupBox26.ResumeLayout(False)
+        Guna2GroupBox26.PerformLayout()
+        Guna2GroupBox28.ResumeLayout(False)
+        Guna2GroupBox28.PerformLayout()
+        Guna2GroupBox30.ResumeLayout(False)
+        Guna2GroupBox30.PerformLayout()
+        Guna2GroupBox31.ResumeLayout(False)
+        Guna2GroupBox31.PerformLayout()
+        Guna2GroupBox32.ResumeLayout(False)
+        Guna2GroupBox32.PerformLayout()
+        Guna2GroupBox33.ResumeLayout(False)
+        Guna2GroupBox33.PerformLayout()
+        Guna2GroupBox20.ResumeLayout(False)
+        Guna2Panel2.ResumeLayout(False)
+        Guna2Panel2.PerformLayout()
+        Guna2GroupBox38.ResumeLayout(False)
+        Guna2GroupBox38.PerformLayout()
+        Guna2GroupBox21.ResumeLayout(False)
+        Guna2GroupBox21.PerformLayout()
+        Guna2GroupBox23.ResumeLayout(False)
+        Guna2GroupBox23.PerformLayout()
+        Guna2GroupBox25.ResumeLayout(False)
+        Guna2GroupBox25.PerformLayout()
+        Guna2GroupBox27.ResumeLayout(False)
+        Guna2GroupBox27.PerformLayout()
+        Guna2GroupBox29.ResumeLayout(False)
+        Guna2GroupBox29.PerformLayout()
+        Guna2GroupBox34.ResumeLayout(False)
+        Guna2GroupBox34.PerformLayout()
+        Guna2GroupBox35.ResumeLayout(False)
+        Guna2GroupBox35.PerformLayout()
+        Guna2GroupBox36.ResumeLayout(False)
+        Guna2GroupBox36.PerformLayout()
+        Guna2GroupBox37.ResumeLayout(False)
+        Guna2GroupBox37.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1631,13 +3406,11 @@ Partial Class Supervisor_Answer_Form
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents lblManager As Label
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents lblSupervisor As Label
     Friend WithEvents lblId As Label
     Friend WithEvents lblName As Label
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -1722,4 +3495,115 @@ Partial Class Supervisor_Answer_Form
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2GroupBox18 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2vScrollBar2 As Guna.UI2.WinForms.Guna2VScrollBar
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Guna2GroupBox22 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton55 As RadioButton
+    Friend WithEvents RadioButton56 As RadioButton
+    Friend WithEvents RadioButton57 As RadioButton
+    Friend WithEvents Guna2GroupBox24 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton61 As RadioButton
+    Friend WithEvents RadioButton62 As RadioButton
+    Friend WithEvents RadioButton63 As RadioButton
+    Friend WithEvents Guna2GroupBox26 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton67 As RadioButton
+    Friend WithEvents RadioButton68 As RadioButton
+    Friend WithEvents RadioButton69 As RadioButton
+    Friend WithEvents Guna2GroupBox28 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton73 As RadioButton
+    Friend WithEvents RadioButton74 As RadioButton
+    Friend WithEvents RadioButton75 As RadioButton
+    Friend WithEvents Guna2GroupBox30 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton79 As RadioButton
+    Friend WithEvents RadioButton80 As RadioButton
+    Friend WithEvents RadioButton81 As RadioButton
+    Friend WithEvents Guna2GroupBox31 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton82 As RadioButton
+    Friend WithEvents RadioButton83 As RadioButton
+    Friend WithEvents RadioButton84 As RadioButton
+    Friend WithEvents Guna2GroupBox32 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton85 As RadioButton
+    Friend WithEvents RadioButton86 As RadioButton
+    Friend WithEvents RadioButton87 As RadioButton
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Guna2GroupBox33 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton88 As RadioButton
+    Friend WithEvents RadioButton89 As RadioButton
+    Friend WithEvents RadioButton90 As RadioButton
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Guna2GroupBox19 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton25 As RadioButton
+    Friend WithEvents RadioButton26 As RadioButton
+    Friend WithEvents RadioButton27 As RadioButton
+    Friend WithEvents Guna2GroupBox20 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2vScrollBar3 As Guna.UI2.WinForms.Guna2VScrollBar
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Guna2GroupBox38 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton100 As RadioButton
+    Friend WithEvents RadioButton101 As RadioButton
+    Friend WithEvents RadioButton102 As RadioButton
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Guna2GroupBox21 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton49 As RadioButton
+    Friend WithEvents RadioButton50 As RadioButton
+    Friend WithEvents RadioButton51 As RadioButton
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Guna2GroupBox23 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton52 As RadioButton
+    Friend WithEvents RadioButton53 As RadioButton
+    Friend WithEvents RadioButton54 As RadioButton
+    Friend WithEvents Guna2GroupBox25 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton58 As RadioButton
+    Friend WithEvents RadioButton59 As RadioButton
+    Friend WithEvents RadioButton60 As RadioButton
+    Friend WithEvents Guna2GroupBox27 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton64 As RadioButton
+    Friend WithEvents RadioButton65 As RadioButton
+    Friend WithEvents RadioButton66 As RadioButton
+    Friend WithEvents Guna2GroupBox29 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton70 As RadioButton
+    Friend WithEvents RadioButton71 As RadioButton
+    Friend WithEvents RadioButton72 As RadioButton
+    Friend WithEvents Guna2GroupBox34 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton76 As RadioButton
+    Friend WithEvents RadioButton77 As RadioButton
+    Friend WithEvents RadioButton78 As RadioButton
+    Friend WithEvents Guna2GroupBox35 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton91 As RadioButton
+    Friend WithEvents RadioButton92 As RadioButton
+    Friend WithEvents RadioButton93 As RadioButton
+    Friend WithEvents Guna2GroupBox36 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton94 As RadioButton
+    Friend WithEvents RadioButton95 As RadioButton
+    Friend WithEvents RadioButton96 As RadioButton
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Guna2GroupBox37 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents RadioButton97 As RadioButton
+    Friend WithEvents RadioButton98 As RadioButton
+    Friend WithEvents RadioButton99 As RadioButton
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
 End Class

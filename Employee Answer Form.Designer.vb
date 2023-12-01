@@ -150,6 +150,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Label21 = New Label()
         Label20 = New Label()
+        Label5 = New Label()
         Label19 = New Label()
         Guna2GroupBox11 = New Guna.UI2.WinForms.Guna2GroupBox()
         RadioButton28 = New RadioButton()
@@ -225,7 +226,6 @@ Partial Class Employee_Answer_Form
         Label9 = New Label()
         Label8 = New Label()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Label5 = New Label()
         Guna2GroupBox18 = New Guna.UI2.WinForms.Guna2GroupBox()
         Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
@@ -699,6 +699,17 @@ Partial Class Employee_Answer_Form
         Label20.Size = New Size(407, 34)
         Label20.TabIndex = 24
         Label20.Text = "I use version control systems to track changes to the code and make it easier to collaborate with other developers."
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(13, 13)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(244, 25)
+        Label5.TabIndex = 0
+        Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
         ' Label19
         ' 
@@ -1746,17 +1757,6 @@ Partial Class Employee_Answer_Form
         Guna2TextBox1.Size = New Size(228, 776)
         Guna2TextBox1.TabIndex = 4
         ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(13, 13)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(244, 25)
-        Label5.TabIndex = 0
-        Label5.Text = "SOFTWARE DEVELOPMENT"
-        ' 
         ' Guna2GroupBox18
         ' 
         Guna2GroupBox18.BorderColor = Color.White
@@ -1769,7 +1769,7 @@ Partial Class Employee_Answer_Form
         Guna2GroupBox18.Location = New Point(75, 60)
         Guna2GroupBox18.Name = "Guna2GroupBox18"
         Guna2GroupBox18.ShadowDecoration.CustomizableEdges = CustomizableEdges76
-        Guna2GroupBox18.Size = New Size(880, 547)
+        Guna2GroupBox18.Size = New Size(880, 943)
         Guna2GroupBox18.TabIndex = 34
         ' 
         ' Guna2vScrollBar2
@@ -1781,7 +1781,7 @@ Partial Class Employee_Answer_Form
         Guna2vScrollBar2.Maximum = 280
         Guna2vScrollBar2.Name = "Guna2vScrollBar2"
         Guna2vScrollBar2.ScrollbarSize = 22
-        Guna2vScrollBar2.Size = New Size(22, 507)
+        Guna2vScrollBar2.Size = New Size(22, 903)
         Guna2vScrollBar2.TabIndex = 0
         ' 
         ' Guna2Panel1
@@ -1822,7 +1822,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.Padding = New Padding(3)
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges74
-        Guna2Panel1.Size = New Size(880, 507)
+        Guna2Panel1.Size = New Size(880, 903)
         Guna2Panel1.TabIndex = 3
         ' 
         ' Guna2TextBox4
@@ -2617,7 +2617,7 @@ Partial Class Employee_Answer_Form
         Guna2GroupBox28.Location = New Point(120, 45)
         Guna2GroupBox28.Name = "Guna2GroupBox28"
         Guna2GroupBox28.ShadowDecoration.CustomizableEdges = CustomizableEdges104
-        Guna2GroupBox28.Size = New Size(880, 547)
+        Guna2GroupBox28.Size = New Size(880, 943)
         Guna2GroupBox28.TabIndex = 4
         ' 
         ' Guna2vScrollBar3
@@ -2629,7 +2629,7 @@ Partial Class Employee_Answer_Form
         Guna2vScrollBar3.Maximum = 280
         Guna2vScrollBar3.Name = "Guna2vScrollBar3"
         Guna2vScrollBar3.ScrollbarSize = 22
-        Guna2vScrollBar3.Size = New Size(22, 507)
+        Guna2vScrollBar3.Size = New Size(22, 903)
         Guna2vScrollBar3.TabIndex = 0
         ' 
         ' Guna2Panel2
@@ -2666,7 +2666,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.Padding = New Padding(3)
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges102
-        Guna2Panel2.Size = New Size(880, 507)
+        Guna2Panel2.Size = New Size(880, 903)
         Guna2Panel2.TabIndex = 3
         ' 
         ' Guna2GroupBox29
