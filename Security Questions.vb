@@ -1,6 +1,5 @@
 ﻿
 Public Class Security_Questions
-    Public ID As String = Login.ID
     Public Shared A1, A2, A3, Q1, Q2, Q3 As String
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
         txtAnswer1.Clear()

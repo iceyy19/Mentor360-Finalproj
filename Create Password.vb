@@ -1,4 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
+
 Public Class Create_Password
     Public ID As String = Login.ID
     Public A1 As String = Security_Questions.A1
@@ -21,6 +22,11 @@ Public Class Create_Password
             MessageBox.Show("Fill the Required Fields.")
         ElseIf txtNPassword.Text = txtCNPassword.Text Then
             UpdateUserList()
+            txtCNPassword.Clear()
+            txtNPassword.Clear()
+            Me.Close()
+        ElseIf txtNPassword.Text IsNot txtCNPassword.Text Then
+            MessageBox.Show("Both are not the same.")
         Else
 
         End If
@@ -37,17 +43,19 @@ Public Class Create_Password
         myConnectionx = Connector.getDBConnection()
 
         Try
-
             myConnectionx.Open()
-            myCommandx = New MySqlCommand($"UPDATE tbluserlist SET dPassword = '{txtCNPassword.Text}', dSec1 = '{Q1}', dSec1 = '{A1}', dSec1 = '{Q2}', dSec1 = '{A2}', dSec1 = '{Q3}', dSec1 = '{A3}' WHERE dEmployeeID = '{ID}'", myConnectionx)
+
+            myCommandx = New MySqlCommand($"UPDATE tbluserlist SET dPassword = '{txtNPassword.Text}', dSec1 = '{Q1}' , dSeca1 = '{A1}', dSec2 = '{Q2}', dSeca2 = '{A2}', dSec3 = '{Q3}', dSeca3 = '{A3}', tDataChanged = CURRENT_TIMESTAMP() WHERE dEmployeeID = '{ID}'", myConnectionx)
             myCommandx.ExecuteNonQuery()
-
+            MessageBox.Show("Password updated successfully.")
         Catch ex As Exception
-            MsgBox(Err.Description)
+            MsgBox(ex.Message) ' Display the exception message instead of Err.Description
         Finally
-
             myConnectionx.Close()
-
         End Try
+    End Sub
+
+    Private Sub Create_Password_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

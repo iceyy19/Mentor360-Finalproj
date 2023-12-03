@@ -59,11 +59,12 @@ Public Class Login
                     Using Connection As MySqlConnection = Connector.getDBConnection()
                         Connection.Open()
 
-                        Dim query As String = $"SELECT COUNT(*) FROM tbluserlist WHERE dSec1 IS NULL OR dSec1 = ''"
+                        Dim query As String = $"SELECT COUNT(*) FROM tbluserlist WHERE dEmployeeID = '{txtID.Text}' AND (dSec1 IS NULL OR dSec1 = '')"
                         Using cmd As New MySqlCommand(query, Connection)
                             Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
                             If count > 0 Then
+                                ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
                                 Dim NewUserForm As New New_User()
@@ -135,7 +136,7 @@ Public Class Login
         End Using
     End Function
 
-    Private Sub CheckAndNavigate(id As String)
+    Private Sub CheckAndNavigate(idd As String)
         Try
             Using Connection As MySqlConnection = Connector.getDBConnection()
                 Connection.Open()
@@ -143,27 +144,30 @@ Public Class Login
                 ' Check if the specified ID is present in EmployeeID, SupervisorID, or ManagerID columns
                 Dim query As String = "SELECT COUNT(*) FROM tblhierarchy WHERE dEmployeeID = @ID OR dSupervisorID = @ID OR dManagerID = @ID"
                 Using cmd As New MySqlCommand(query, Connection)
-                    cmd.Parameters.AddWithValue("@ID", id)
+                    cmd.Parameters.AddWithValue("@ID", idd)
 
                     Dim count As Integer = Convert.ToInt32(cmd.ExecuteScalar())
 
                     If count > 0 Then
                         ' Determine the column where the ID is present
-                        Dim column As String = GetIDColumn(id)
+                        Dim column As String = GetIDColumn(idd)
 
                         ' Open the corresponding form based on the column
                         Select Case column
                             Case "EmployeeID"
+                                ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
                                 Me.Hide()
-                                Supervisor_Dashboard.Show()
+                                Employee_Dashboard.Show()
                             Case "SupervisorID"
+                                ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
                                 Me.Hide()
                                 Supervisor_Dashboard.Show()
                             Case "ManagerID"
+                                ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
                                 Me.Hide()
