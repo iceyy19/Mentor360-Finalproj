@@ -22,3685 +22,3526 @@ Partial Class Employee_Answer_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges4 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges75 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges76 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges103 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges104 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges101 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges102 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges77 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges78 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges79 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges80 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges81 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges82 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges83 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges84 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges85 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges86 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges87 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges88 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges89 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges90 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges91 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges92 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges93 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges94 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges95 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges96 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges97 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges98 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges99 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges100 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges73 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges74 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges63 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges64 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges69 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges70 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges71 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges72 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Me.Guna2HtmlLabel5 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.gbPageSelection = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbPage2 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.rbPage1 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.rbPage3 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.btnSubmit = New Global.Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2HtmlLabel4 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel3 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel2 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.lblManager = New Global.System.Windows.Forms.Label()
-        Me.Guna2HtmlLabel1 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.lblSupervisor = New Global.System.Windows.Forms.Label()
-        Me.lblId = New Global.System.Windows.Forms.Label()
-        Me.lblName = New Global.System.Windows.Forms.Label()
-        Me.Guna2Shapes1 = New Global.Guna.UI2.WinForms.Guna2Shapes()
-        Me.Label4 = New Global.System.Windows.Forms.Label()
-        Me.Label3 = New Global.System.Windows.Forms.Label()
-        Me.Label2 = New Global.System.Windows.Forms.Label()
-        Me.Label1 = New Global.System.Windows.Forms.Label()
-        Me.gbPage1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2vScrollBar1 = New Global.Guna.UI2.WinForms.Guna2VScrollBar()
-        Me.Guna2Panel3 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.Label21 = New Global.System.Windows.Forms.Label()
-        Me.Label20 = New Global.System.Windows.Forms.Label()
-        Me.Label5 = New Global.System.Windows.Forms.Label()
-        Me.Label19 = New Global.System.Windows.Forms.Label()
-        Me.gbSD15 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD15 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD15 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD15 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD8 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD8 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD8 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD8 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD12 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD12 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD12 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD12 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD7 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD7 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD7 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD7 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD14 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD14 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD14 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD14 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD4 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD4 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD4 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD4 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD11 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD11 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD11 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD11 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD6 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD6 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD6 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD6 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD13 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD13 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD13 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD13 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD3 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD3 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD3 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD10 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD10 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD10 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD10 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD5 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD5 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD5 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD5 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD9 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD9 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD9 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD9 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbSD2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD2 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD2 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD2 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label18 = New Global.System.Windows.Forms.Label()
-        Me.Label17 = New Global.System.Windows.Forms.Label()
-        Me.Label16 = New Global.System.Windows.Forms.Label()
-        Me.Label15 = New Global.System.Windows.Forms.Label()
-        Me.Label14 = New Global.System.Windows.Forms.Label()
-        Me.Label13 = New Global.System.Windows.Forms.Label()
-        Me.Label12 = New Global.System.Windows.Forms.Label()
-        Me.Label11 = New Global.System.Windows.Forms.Label()
-        Me.gbSD1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbNASD1 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbYesSD1 = New Global.System.Windows.Forms.RadioButton()
-        Me.rbNoSD1 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label10 = New Global.System.Windows.Forms.Label()
-        Me.Label6 = New Global.System.Windows.Forms.Label()
-        Me.Label7 = New Global.System.Windows.Forms.Label()
-        Me.Label9 = New Global.System.Windows.Forms.Label()
-        Me.Label8 = New Global.System.Windows.Forms.Label()
-        Me.txtSoftwareDevelopment = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.gbPage2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.gbPage3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2vScrollBar3 = New Global.Guna.UI2.WinForms.Guna2VScrollBar()
-        Me.Guna2Panel2 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.gbP7 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton73 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton74 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton75 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbP6 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton76 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton77 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton78 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label36 = New Global.System.Windows.Forms.Label()
-        Me.gbP3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton79 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton80 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton81 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbP5 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton82 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton83 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton84 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbCL3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton85 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton86 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton87 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label37 = New Global.System.Windows.Forms.Label()
-        Me.gbP4 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton88 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton89 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton90 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbP2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton91 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton92 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton93 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label38 = New Global.System.Windows.Forms.Label()
-        Me.gbCL2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton94 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton95 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton96 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label39 = New Global.System.Windows.Forms.Label()
-        Me.Label40 = New Global.System.Windows.Forms.Label()
-        Me.Label41 = New Global.System.Windows.Forms.Label()
-        Me.gbP1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton97 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton98 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton99 = New Global.System.Windows.Forms.RadioButton()
-        Me.gbCL1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton100 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton101 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton102 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label42 = New Global.System.Windows.Forms.Label()
-        Me.Label43 = New Global.System.Windows.Forms.Label()
-        Me.Label44 = New Global.System.Windows.Forms.Label()
-        Me.Label45 = New Global.System.Windows.Forms.Label()
-        Me.Label46 = New Global.System.Windows.Forms.Label()
-        Me.Label47 = New Global.System.Windows.Forms.Label()
-        Me.txtProfessionalism = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtContinuousLearnin = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2vScrollBar2 = New Global.Guna.UI2.WinForms.Guna2VScrollBar()
-        Me.Guna2Panel1 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2TextBox4 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2GroupBox19 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton25 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton26 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton27 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label22 = New Global.System.Windows.Forms.Label()
-        Me.Label23 = New Global.System.Windows.Forms.Label()
-        Me.Label24 = New Global.System.Windows.Forms.Label()
-        Me.Label25 = New Global.System.Windows.Forms.Label()
-        Me.Guna2GroupBox20 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton49 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton50 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton51 = New Global.System.Windows.Forms.RadioButton()
-        Me.Guna2GroupBox21 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton52 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton53 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton54 = New Global.System.Windows.Forms.RadioButton()
-        Me.Guna2GroupBox22 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton55 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton56 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton57 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label26 = New Global.System.Windows.Forms.Label()
-        Me.Guna2TextBox3 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox2 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label27 = New Global.System.Windows.Forms.Label()
-        Me.Label28 = New Global.System.Windows.Forms.Label()
-        Me.Guna2GroupBox23 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton58 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton59 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton60 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label29 = New Global.System.Windows.Forms.Label()
-        Me.Label30 = New Global.System.Windows.Forms.Label()
-        Me.Guna2GroupBox24 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton61 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton62 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton63 = New Global.System.Windows.Forms.RadioButton()
-        Me.Guna2GroupBox25 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton64 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton65 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton66 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label31 = New Global.System.Windows.Forms.Label()
-        Me.Guna2GroupBox26 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton67 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton68 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton69 = New Global.System.Windows.Forms.RadioButton()
-        Me.Guna2GroupBox27 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.RadioButton70 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton71 = New Global.System.Windows.Forms.RadioButton()
-        Me.RadioButton72 = New Global.System.Windows.Forms.RadioButton()
-        Me.Label32 = New Global.System.Windows.Forms.Label()
-        Me.Label33 = New Global.System.Windows.Forms.Label()
-        Me.Label34 = New Global.System.Windows.Forms.Label()
-        Me.btnNext = New Global.Guna.UI2.WinForms.Guna2Button()
-        Me.Label35 = New Global.System.Windows.Forms.Label()
-        Me.Guna2TextBox5 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.gbPageSelection.SuspendLayout()
-        Me.gbPage1.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
-        Me.gbSD15.SuspendLayout()
-        Me.gbSD8.SuspendLayout()
-        Me.gbSD12.SuspendLayout()
-        Me.gbSD7.SuspendLayout()
-        Me.gbSD14.SuspendLayout()
-        Me.gbSD4.SuspendLayout()
-        Me.gbSD11.SuspendLayout()
-        Me.gbSD6.SuspendLayout()
-        Me.gbSD13.SuspendLayout()
-        Me.gbSD3.SuspendLayout()
-        Me.gbSD10.SuspendLayout()
-        Me.gbSD5.SuspendLayout()
-        Me.gbSD9.SuspendLayout()
-        Me.gbSD2.SuspendLayout()
-        Me.gbSD1.SuspendLayout()
-        Me.gbPage2.SuspendLayout()
-        Me.gbPage3.SuspendLayout()
-        Me.Guna2Panel2.SuspendLayout()
-        Me.gbP7.SuspendLayout()
-        Me.gbP6.SuspendLayout()
-        Me.gbP3.SuspendLayout()
-        Me.gbP5.SuspendLayout()
-        Me.gbCL3.SuspendLayout()
-        Me.gbP4.SuspendLayout()
-        Me.gbP2.SuspendLayout()
-        Me.gbCL2.SuspendLayout()
-        Me.gbP1.SuspendLayout()
-        Me.gbCL1.SuspendLayout()
-        Me.Guna2Panel1.SuspendLayout()
-        Me.Guna2GroupBox19.SuspendLayout()
-        Me.Guna2GroupBox20.SuspendLayout()
-        Me.Guna2GroupBox21.SuspendLayout()
-        Me.Guna2GroupBox22.SuspendLayout()
-        Me.Guna2GroupBox23.SuspendLayout()
-        Me.Guna2GroupBox24.SuspendLayout()
-        Me.Guna2GroupBox25.SuspendLayout()
-        Me.Guna2GroupBox26.SuspendLayout()
-        Me.Guna2GroupBox27.SuspendLayout()
-        Me.SuspendLayout()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges103 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges104 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        gbPageSelection = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbPage2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbPage1 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbPage3 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        btnSubmit = New Guna.UI2.WinForms.Guna2Button()
+        Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblManager = New Label()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        lblSupervisor = New Label()
+        lblId = New Label()
+        lblName = New Label()
+        Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        gbPage1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Label21 = New Label()
+        Label20 = New Label()
+        Label5 = New Label()
+        Label19 = New Label()
+        gbSD15 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD15 = New RadioButton()
+        rbYesSD15 = New RadioButton()
+        rbNoSD15 = New RadioButton()
+        gbSD8 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD8 = New RadioButton()
+        rbYesSD8 = New RadioButton()
+        rbNoSD8 = New RadioButton()
+        gbSD12 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD12 = New RadioButton()
+        rbYesSD12 = New RadioButton()
+        rbNoSD12 = New RadioButton()
+        gbSD7 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD7 = New RadioButton()
+        rbYesSD7 = New RadioButton()
+        rbNoSD7 = New RadioButton()
+        gbSD14 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD14 = New RadioButton()
+        rbYesSD14 = New RadioButton()
+        rbNoSD14 = New RadioButton()
+        gbSD4 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD4 = New RadioButton()
+        rbYesSD4 = New RadioButton()
+        rbNoSD4 = New RadioButton()
+        gbSD11 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD11 = New RadioButton()
+        rbYesSD11 = New RadioButton()
+        rbNoSD11 = New RadioButton()
+        gbSD6 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD6 = New RadioButton()
+        rbYesSD6 = New RadioButton()
+        rbNoSD6 = New RadioButton()
+        gbSD13 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD13 = New RadioButton()
+        rbYesSD13 = New RadioButton()
+        rbNoSD13 = New RadioButton()
+        gbSD3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD3 = New RadioButton()
+        rbYesSD3 = New RadioButton()
+        rbNoSD3 = New RadioButton()
+        gbSD10 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD10 = New RadioButton()
+        rbYesSD10 = New RadioButton()
+        rbNoSD10 = New RadioButton()
+        gbSD5 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD5 = New RadioButton()
+        rbYesSD5 = New RadioButton()
+        rbNoSD5 = New RadioButton()
+        gbSD9 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD9 = New RadioButton()
+        rbYesSD9 = New RadioButton()
+        rbNoSD9 = New RadioButton()
+        gbSD2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD2 = New RadioButton()
+        rbYesSD2 = New RadioButton()
+        rbNoSD2 = New RadioButton()
+        Label18 = New Label()
+        Label17 = New Label()
+        Label16 = New Label()
+        Label15 = New Label()
+        Label14 = New Label()
+        Label13 = New Label()
+        Label12 = New Label()
+        Label11 = New Label()
+        gbSD1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASD1 = New RadioButton()
+        rbYesSD1 = New RadioButton()
+        rbNoSD1 = New RadioButton()
+        Label10 = New Label()
+        Label6 = New Label()
+        Label7 = New Label()
+        Label9 = New Label()
+        Label8 = New Label()
+        txtSoftwareDevelopment = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2vScrollBar1 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        gbPage2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2vScrollBar2 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        txtCollabAndInvolvement = New Guna.UI2.WinForms.Guna2TextBox()
+        gbCI3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACI3 = New RadioButton()
+        rbYESCI3 = New RadioButton()
+        rbNOCI3 = New RadioButton()
+        Label22 = New Label()
+        Label23 = New Label()
+        Label24 = New Label()
+        Label25 = New Label()
+        gbCI4 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACI4 = New RadioButton()
+        rbYESCI4 = New RadioButton()
+        rbNOCI4 = New RadioButton()
+        gbCI2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACI2 = New RadioButton()
+        rbYESCI2 = New RadioButton()
+        rbNOCI2 = New RadioButton()
+        gbCI1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACI1 = New RadioButton()
+        rbYESCI1 = New RadioButton()
+        rbNOCI1 = New RadioButton()
+        Label26 = New Label()
+        txtDocumentation = New Guna.UI2.WinForms.Guna2TextBox()
+        txtProductionSupport = New Guna.UI2.WinForms.Guna2TextBox()
+        Label27 = New Label()
+        Label28 = New Label()
+        gbD2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAD2 = New RadioButton()
+        rbYESD2 = New RadioButton()
+        rbNOD2 = New RadioButton()
+        Label29 = New Label()
+        Label30 = New Label()
+        gbD1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAD1 = New RadioButton()
+        rbYESD1 = New RadioButton()
+        rbNOD1 = New RadioButton()
+        gbPS1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAPS1 = New RadioButton()
+        rbYESPS1 = New RadioButton()
+        rbNOPS1 = New RadioButton()
+        Label31 = New Label()
+        gbSDA2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASDA2 = New RadioButton()
+        rbYESSDA2 = New RadioButton()
+        rbNOSDA2 = New RadioButton()
+        gbSDA1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNASDA1 = New RadioButton()
+        rbYESSDA1 = New RadioButton()
+        rbNOSDA1 = New RadioButton()
+        Label32 = New Label()
+        Label33 = New Label()
+        Label34 = New Label()
+        btnNext = New Guna.UI2.WinForms.Guna2Button()
+        Label35 = New Label()
+        txtSystemAndArchitecture = New Guna.UI2.WinForms.Guna2TextBox()
+        gbPage3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2vScrollBar3 = New Guna.UI2.WinForms.Guna2VScrollBar()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        gbP7 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP7 = New RadioButton()
+        rbYESP7 = New RadioButton()
+        rbNOP7 = New RadioButton()
+        gbP6 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP6 = New RadioButton()
+        rbYESP6 = New RadioButton()
+        rbNOP6 = New RadioButton()
+        Label36 = New Label()
+        gbP3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP3 = New RadioButton()
+        rbYESP3 = New RadioButton()
+        rbNOP3 = New RadioButton()
+        gbP5 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP5 = New RadioButton()
+        rbYESP5 = New RadioButton()
+        rbNOP5 = New RadioButton()
+        gbCL3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACL3 = New RadioButton()
+        rbYESCL3 = New RadioButton()
+        rbNOCL3 = New RadioButton()
+        Label37 = New Label()
+        gbP4 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP4 = New RadioButton()
+        rbYESP4 = New RadioButton()
+        rbNOP4 = New RadioButton()
+        gbP2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP2 = New RadioButton()
+        rbYESP2 = New RadioButton()
+        rbNOP2 = New RadioButton()
+        Label38 = New Label()
+        gbCL2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACL2 = New RadioButton()
+        rbYESCL2 = New RadioButton()
+        rbNOCL2 = New RadioButton()
+        Label39 = New Label()
+        Label40 = New Label()
+        Label41 = New Label()
+        gbP1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNAP1 = New RadioButton()
+        rbYESP1 = New RadioButton()
+        rbNOP1 = New RadioButton()
+        gbCL1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbNACL1 = New RadioButton()
+        rbYESCL1 = New RadioButton()
+        rbNOCL1 = New RadioButton()
+        Label42 = New Label()
+        Label43 = New Label()
+        Label44 = New Label()
+        Label45 = New Label()
+        Label46 = New Label()
+        Label47 = New Label()
+        txtProfessionalism = New Guna.UI2.WinForms.Guna2TextBox()
+        txtContinuousLearnin = New Guna.UI2.WinForms.Guna2TextBox()
+        gbPageSelection.SuspendLayout()
+        gbPage1.SuspendLayout()
+        Guna2Panel3.SuspendLayout()
+        gbSD15.SuspendLayout()
+        gbSD8.SuspendLayout()
+        gbSD12.SuspendLayout()
+        gbSD7.SuspendLayout()
+        gbSD14.SuspendLayout()
+        gbSD4.SuspendLayout()
+        gbSD11.SuspendLayout()
+        gbSD6.SuspendLayout()
+        gbSD13.SuspendLayout()
+        gbSD3.SuspendLayout()
+        gbSD10.SuspendLayout()
+        gbSD5.SuspendLayout()
+        gbSD9.SuspendLayout()
+        gbSD2.SuspendLayout()
+        gbSD1.SuspendLayout()
+        gbPage2.SuspendLayout()
+        Guna2Panel1.SuspendLayout()
+        gbCI3.SuspendLayout()
+        gbCI4.SuspendLayout()
+        gbCI2.SuspendLayout()
+        gbCI1.SuspendLayout()
+        gbD2.SuspendLayout()
+        gbD1.SuspendLayout()
+        gbPS1.SuspendLayout()
+        gbSDA2.SuspendLayout()
+        gbSDA1.SuspendLayout()
+        gbPage3.SuspendLayout()
+        Guna2Panel2.SuspendLayout()
+        gbP7.SuspendLayout()
+        gbP6.SuspendLayout()
+        gbP3.SuspendLayout()
+        gbP5.SuspendLayout()
+        gbCL3.SuspendLayout()
+        gbP4.SuspendLayout()
+        gbP2.SuspendLayout()
+        gbCL2.SuspendLayout()
+        gbP1.SuspendLayout()
+        gbCL1.SuspendLayout()
+        SuspendLayout()
         ' 
         ' Guna2HtmlLabel5
         ' 
-        Me.Guna2HtmlLabel5.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel5.Location = New Global.System.Drawing.Point(610, 75)
-        Me.Guna2HtmlLabel5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New Global.System.Drawing.Size(117, 17)
-        Me.Guna2HtmlLabel5.TabIndex = 33
-        Me.Guna2HtmlLabel5.Text = "Need to be answered:"
+        Guna2HtmlLabel5.BackColor = Color.Transparent
+        Guna2HtmlLabel5.ForeColor = Color.Black
+        Guna2HtmlLabel5.Location = New Point(697, 100)
+        Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
+        Guna2HtmlLabel5.Size = New Size(148, 22)
+        Guna2HtmlLabel5.TabIndex = 33
+        Guna2HtmlLabel5.Text = "Need to be answered:"
         ' 
         ' gbPageSelection
         ' 
-        Me.gbPageSelection.BackColor = Global.System.Drawing.Color.White
-        Me.gbPageSelection.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPageSelection.Controls.Add(Me.rbPage2)
-        Me.gbPageSelection.Controls.Add(Me.rbPage1)
-        Me.gbPageSelection.Controls.Add(Me.rbPage3)
-        Me.gbPageSelection.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPageSelection.CustomizableEdges = CustomizableEdges4
-        Me.gbPageSelection.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPageSelection.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPageSelection.Location = New Global.System.Drawing.Point(564, 494)
-        Me.gbPageSelection.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPageSelection.Name = "gbPageSelection"
-        Me.gbPageSelection.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        Me.gbPageSelection.Size = New Global.System.Drawing.Size(112, 28)
-        Me.gbPageSelection.TabIndex = 32
+        gbPageSelection.BackColor = Color.White
+        gbPageSelection.BorderColor = Color.White
+        gbPageSelection.Controls.Add(rbPage2)
+        gbPageSelection.Controls.Add(rbPage1)
+        gbPageSelection.Controls.Add(rbPage3)
+        gbPageSelection.CustomBorderColor = Color.White
+        gbPageSelection.CustomizableEdges = CustomizableEdges4
+        gbPageSelection.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPageSelection.ForeColor = Color.White
+        gbPageSelection.Location = New Point(645, 659)
+        gbPageSelection.Name = "gbPageSelection"
+        gbPageSelection.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        gbPageSelection.Size = New Size(128, 37)
+        gbPageSelection.TabIndex = 32
         ' 
         ' rbPage2
         ' 
-        Me.rbPage2.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage2.CheckedState.BorderThickness = 0
-        Me.rbPage2.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage2.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage2.Location = New Global.System.Drawing.Point(54, 6)
-        Me.rbPage2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage2.Name = "rbPage2"
-        Me.rbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges1
-        Me.rbPage2.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage2.TabIndex = 13
-        Me.rbPage2.Text = "Guna2CustomRadioButton2"
-        Me.rbPage2.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage2.UncheckedState.BorderThickness = 2
-        Me.rbPage2.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage2.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage2.CheckedState.BorderThickness = 0
+        rbPage2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage2.CheckedState.InnerColor = Color.White
+        rbPage2.Location = New Point(62, 8)
+        rbPage2.Name = "rbPage2"
+        rbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges1
+        rbPage2.Size = New Size(18, 19)
+        rbPage2.TabIndex = 13
+        rbPage2.Text = "Guna2CustomRadioButton2"
+        rbPage2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage2.UncheckedState.BorderThickness = 2
+        rbPage2.UncheckedState.FillColor = Color.Transparent
+        rbPage2.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' rbPage1
         ' 
-        Me.rbPage1.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage1.CheckedState.BorderThickness = 0
-        Me.rbPage1.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage1.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage1.Location = New Global.System.Drawing.Point(24, 6)
-        Me.rbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage1.Name = "rbPage1"
-        Me.rbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Me.rbPage1.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage1.TabIndex = 14
-        Me.rbPage1.Text = "Guna2CustomRadioButton3"
-        Me.rbPage1.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage1.UncheckedState.BorderThickness = 2
-        Me.rbPage1.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage1.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage1.CheckedState.BorderThickness = 0
+        rbPage1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage1.CheckedState.InnerColor = Color.White
+        rbPage1.Location = New Point(27, 8)
+        rbPage1.Name = "rbPage1"
+        rbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        rbPage1.Size = New Size(18, 19)
+        rbPage1.TabIndex = 14
+        rbPage1.Text = "Guna2CustomRadioButton3"
+        rbPage1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage1.UncheckedState.BorderThickness = 2
+        rbPage1.UncheckedState.FillColor = Color.Transparent
+        rbPage1.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' rbPage3
         ' 
-        Me.rbPage3.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage3.CheckedState.BorderThickness = 0
-        Me.rbPage3.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage3.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage3.Location = New Global.System.Drawing.Point(84, 6)
-        Me.rbPage3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage3.Name = "rbPage3"
-        Me.rbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        Me.rbPage3.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage3.TabIndex = 12
-        Me.rbPage3.Text = "Guna2CustomRadioButton1"
-        Me.rbPage3.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage3.UncheckedState.BorderThickness = 2
-        Me.rbPage3.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage3.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage3.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage3.CheckedState.BorderThickness = 0
+        rbPage3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage3.CheckedState.InnerColor = Color.White
+        rbPage3.Location = New Point(96, 8)
+        rbPage3.Name = "rbPage3"
+        rbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        rbPage3.Size = New Size(18, 19)
+        rbPage3.TabIndex = 12
+        rbPage3.Text = "Guna2CustomRadioButton1"
+        rbPage3.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage3.UncheckedState.BorderThickness = 2
+        rbPage3.UncheckedState.FillColor = Color.Transparent
+        rbPage3.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' btnSubmit
         ' 
-        Me.btnSubmit.CustomizableEdges = CustomizableEdges6
-        Me.btnSubmit.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
-        Me.btnSubmit.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
-        Me.btnSubmit.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
-        Me.btnSubmit.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.btnSubmit.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(17))), CInt(CByte(CByte(16))), CInt(CByte(CByte(68))))
-        Me.btnSubmit.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.btnSubmit.ForeColor = Global.System.Drawing.Color.White
-        Me.btnSubmit.Location = New Global.System.Drawing.Point(682, 494)
-        Me.btnSubmit.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        Me.btnSubmit.Size = New Global.System.Drawing.Size(95, 25)
-        Me.btnSubmit.TabIndex = 31
-        Me.btnSubmit.Text = "Submit"
+        btnSubmit.CustomizableEdges = CustomizableEdges6
+        btnSubmit.DisabledState.BorderColor = Color.DarkGray
+        btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSubmit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSubmit.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnSubmit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnSubmit.ForeColor = Color.White
+        btnSubmit.Location = New Point(779, 659)
+        btnSubmit.Name = "btnSubmit"
+        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        btnSubmit.Size = New Size(109, 33)
+        btnSubmit.TabIndex = 31
+        btnSubmit.Text = "Submit"
         ' 
         ' Guna2HtmlLabel4
         ' 
-        Me.Guna2HtmlLabel4.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Location = New Global.System.Drawing.Point(393, 75)
-        Me.Guna2HtmlLabel4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New Global.System.Drawing.Size(31, 17)
-        Me.Guna2HtmlLabel4.TabIndex = 30
-        Me.Guna2HtmlLabel4.Text = "Label"
+        Guna2HtmlLabel4.BackColor = Color.Transparent
+        Guna2HtmlLabel4.Location = New Point(449, 100)
+        Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
+        Guna2HtmlLabel4.Size = New Size(39, 22)
+        Guna2HtmlLabel4.TabIndex = 30
+        Guna2HtmlLabel4.Text = "Label"
         ' 
         ' Guna2HtmlLabel3
         ' 
-        Me.Guna2HtmlLabel3.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Location = New Global.System.Drawing.Point(100, 75)
-        Me.Guna2HtmlLabel3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New Global.System.Drawing.Size(31, 17)
-        Me.Guna2HtmlLabel3.TabIndex = 29
-        Me.Guna2HtmlLabel3.Text = "Label"
+        Guna2HtmlLabel3.BackColor = Color.Transparent
+        Guna2HtmlLabel3.Location = New Point(114, 100)
+        Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
+        Guna2HtmlLabel3.Size = New Size(39, 22)
+        Guna2HtmlLabel3.TabIndex = 29
+        Guna2HtmlLabel3.Text = "Label"
         ' 
         ' Guna2HtmlLabel2
         ' 
-        Me.Guna2HtmlLabel2.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel2.Location = New Global.System.Drawing.Point(286, 75)
-        Me.Guna2HtmlLabel2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New Global.System.Drawing.Size(93, 17)
-        Me.Guna2HtmlLabel2.TabIndex = 25
-        Me.Guna2HtmlLabel2.Text = "Employee Name:"
+        Guna2HtmlLabel2.BackColor = Color.Transparent
+        Guna2HtmlLabel2.ForeColor = Color.Black
+        Guna2HtmlLabel2.Location = New Point(327, 100)
+        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Guna2HtmlLabel2.Size = New Size(116, 22)
+        Guna2HtmlLabel2.TabIndex = 25
+        Guna2HtmlLabel2.Text = "Employee Name:"
         ' 
         ' lblManager
         ' 
-        Me.lblManager.AutoSize = True
-        Me.lblManager.Location = New Global.System.Drawing.Point(640, 45)
-        Me.lblManager.Name = "lblManager"
-        Me.lblManager.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblManager.TabIndex = 28
-        Me.lblManager.Text = "Label8"
+        lblManager.AutoSize = True
+        lblManager.Location = New Point(731, 60)
+        lblManager.Name = "lblManager"
+        lblManager.Size = New Size(53, 20)
+        lblManager.TabIndex = 28
+        lblManager.Text = "Label8"
         ' 
         ' Guna2HtmlLabel1
         ' 
-        Me.Guna2HtmlLabel1.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel1.Location = New Global.System.Drawing.Point(15, 75)
-        Me.Guna2HtmlLabel1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New Global.System.Drawing.Size(72, 17)
-        Me.Guna2HtmlLabel1.TabIndex = 24
-        Me.Guna2HtmlLabel1.Text = "Employee ID:"
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.ForeColor = Color.Black
+        Guna2HtmlLabel1.Location = New Point(17, 100)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(91, 22)
+        Guna2HtmlLabel1.TabIndex = 24
+        Guna2HtmlLabel1.Text = "Employee ID:"
         ' 
         ' lblSupervisor
         ' 
-        Me.lblSupervisor.AutoSize = True
-        Me.lblSupervisor.Location = New Global.System.Drawing.Point(640, 20)
-        Me.lblSupervisor.Name = "lblSupervisor"
-        Me.lblSupervisor.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblSupervisor.TabIndex = 27
-        Me.lblSupervisor.Text = "Label7"
+        lblSupervisor.AutoSize = True
+        lblSupervisor.Location = New Point(731, 27)
+        lblSupervisor.Name = "lblSupervisor"
+        lblSupervisor.Size = New Size(53, 20)
+        lblSupervisor.TabIndex = 27
+        lblSupervisor.Text = "Label7"
         ' 
         ' lblId
         ' 
-        Me.lblId.AutoSize = True
-        Me.lblId.Location = New Global.System.Drawing.Point(127, 45)
-        Me.lblId.Name = "lblId"
-        Me.lblId.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblId.TabIndex = 26
-        Me.lblId.Text = "Label6"
+        lblId.AutoSize = True
+        lblId.Location = New Point(145, 60)
+        lblId.Name = "lblId"
+        lblId.Size = New Size(53, 20)
+        lblId.TabIndex = 26
+        lblId.Text = "Label6"
         ' 
         ' lblName
         ' 
-        Me.lblName.AutoSize = True
-        Me.lblName.Location = New Global.System.Drawing.Point(127, 20)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblName.TabIndex = 21
-        Me.lblName.Text = "Label5"
+        lblName.AutoSize = True
+        lblName.Location = New Point(145, 27)
+        lblName.Name = "lblName"
+        lblName.Size = New Size(53, 20)
+        lblName.TabIndex = 21
+        lblName.Text = "Label5"
         ' 
         ' Guna2Shapes1
         ' 
-        Me.Guna2Shapes1.FillColor = Global.System.Drawing.Color.Gray
-        Me.Guna2Shapes1.Location = New Global.System.Drawing.Point(-80, 69)
-        Me.Guna2Shapes1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Shapes1.Name = "Guna2Shapes1"
-        Me.Guna2Shapes1.PolygonSkip = 1
-        Me.Guna2Shapes1.Rotate = 0F
-        Me.Guna2Shapes1.RoundedEdges = CustomizableEdges8
-        Me.Guna2Shapes1.Shape = Global.Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes1.Size = New Global.System.Drawing.Size(965, 2)
-        Me.Guna2Shapes1.TabIndex = 23
-        Me.Guna2Shapes1.Text = "Guna2Shapes1"
-        Me.Guna2Shapes1.Zoom = 80
+        Guna2Shapes1.FillColor = Color.Gray
+        Guna2Shapes1.Location = New Point(-91, 92)
+        Guna2Shapes1.Name = "Guna2Shapes1"
+        Guna2Shapes1.PolygonSkip = 1
+        Guna2Shapes1.Rotate = 0F
+        Guna2Shapes1.RoundedEdges = CustomizableEdges8
+        Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
+        Guna2Shapes1.Size = New Size(1103, 3)
+        Guna2Shapes1.TabIndex = 23
+        Guna2Shapes1.Text = "Guna2Shapes1"
+        Guna2Shapes1.Zoom = 80
         ' 
         ' Label4
         ' 
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New Global.System.Drawing.Point(564, 45)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New Global.System.Drawing.Size(57, 15)
-        Me.Label4.TabIndex = 22
-        Me.Label4.Text = "Manager:"
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(645, 60)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(71, 20)
+        Label4.TabIndex = 22
+        Label4.Text = "Manager:"
         ' 
         ' Label3
         ' 
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New Global.System.Drawing.Point(564, 20)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New Global.System.Drawing.Size(65, 15)
-        Me.Label3.TabIndex = 20
-        Me.Label3.Text = "Supervisor:"
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(645, 27)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(81, 20)
+        Label3.TabIndex = 20
+        Label3.Text = "Supervisor:"
         ' 
         ' Label2
         ' 
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New Global.System.Drawing.Point(15, 45)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Employee ID:"
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(17, 60)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(97, 20)
+        Label2.TabIndex = 18
+        Label2.Text = "Employee ID:"
         ' 
         ' Label1
         ' 
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New Global.System.Drawing.Point(15, 20)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New Global.System.Drawing.Size(97, 15)
-        Me.Label1.TabIndex = 17
-        Me.Label1.Text = "Employee Name:"
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(17, 27)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(122, 20)
+        Label1.TabIndex = 17
+        Label1.Text = "Employee Name:"
         ' 
         ' gbPage1
         ' 
-        Me.gbPage1.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage1.Controls.Add(Me.Guna2Panel3)
-        Me.gbPage1.Controls.Add(Me.Guna2vScrollBar1)
-        Me.gbPage1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage1.CustomizableEdges = CustomizableEdges43
-        Me.gbPage1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage1.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage1.Location = New Global.System.Drawing.Point(15, 67)
-        Me.gbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage1.Name = "gbPage1"
-        Me.gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        Me.gbPage1.Size = New Global.System.Drawing.Size(770, 737)
-        Me.gbPage1.TabIndex = 19
-        ' 
-        ' Guna2vScrollBar1
-        ' 
-        Me.Guna2vScrollBar1.Dock = Global.System.Windows.Forms.DockStyle.Right
-        Me.Guna2vScrollBar1.InUpdate = False
-        Me.Guna2vScrollBar1.LargeChange = 50
-        Me.Guna2vScrollBar1.Location = New Global.System.Drawing.Point(751, 40)
-        Me.Guna2vScrollBar1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2vScrollBar1.Maximum = 280
-        Me.Guna2vScrollBar1.Name = "Guna2vScrollBar1"
-        Me.Guna2vScrollBar1.ScrollbarSize = 19
-        Me.Guna2vScrollBar1.Size = New Global.System.Drawing.Size(19, 697)
-        Me.Guna2vScrollBar1.TabIndex = 0
+        gbPage1.BorderColor = Color.White
+        gbPage1.Controls.Add(Guna2Panel3)
+        gbPage1.Controls.Add(Guna2vScrollBar1)
+        gbPage1.CustomBorderColor = Color.White
+        gbPage1.CustomizableEdges = CustomizableEdges43
+        gbPage1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage1.ForeColor = Color.White
+        gbPage1.Location = New Point(17, 89)
+        gbPage1.Name = "gbPage1"
+        gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        gbPage1.Size = New Size(880, 983)
+        gbPage1.TabIndex = 19
         ' 
         ' Guna2Panel3
         ' 
-        Me.Guna2Panel3.AutoScroll = True
-        Me.Guna2Panel3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel3.Controls.Add(Me.Label21)
-        Me.Guna2Panel3.Controls.Add(Me.Label20)
-        Me.Guna2Panel3.Controls.Add(Me.Label5)
-        Me.Guna2Panel3.Controls.Add(Me.Label19)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD15)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD8)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD12)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD7)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD14)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD4)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD11)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD6)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD13)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD3)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD10)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD5)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD9)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD2)
-        Me.Guna2Panel3.Controls.Add(Me.Label18)
-        Me.Guna2Panel3.Controls.Add(Me.Label17)
-        Me.Guna2Panel3.Controls.Add(Me.Label16)
-        Me.Guna2Panel3.Controls.Add(Me.Label15)
-        Me.Guna2Panel3.Controls.Add(Me.Label14)
-        Me.Guna2Panel3.Controls.Add(Me.Label13)
-        Me.Guna2Panel3.Controls.Add(Me.Label12)
-        Me.Guna2Panel3.Controls.Add(Me.Label11)
-        Me.Guna2Panel3.Controls.Add(Me.gbSD1)
-        Me.Guna2Panel3.Controls.Add(Me.Label10)
-        Me.Guna2Panel3.Controls.Add(Me.Label6)
-        Me.Guna2Panel3.Controls.Add(Me.Label7)
-        Me.Guna2Panel3.Controls.Add(Me.Label9)
-        Me.Guna2Panel3.Controls.Add(Me.Label8)
-        Me.Guna2Panel3.Controls.Add(Me.txtSoftwareDevelopment)
-        Me.Guna2Panel3.CustomizableEdges = CustomizableEdges41
-        Me.Guna2Panel3.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        Me.Guna2Panel3.Size = New Global.System.Drawing.Size(751, 697)
-        Me.Guna2Panel3.TabIndex = 3
+        Guna2Panel3.AutoScroll = True
+        Guna2Panel3.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel3.Controls.Add(Label21)
+        Guna2Panel3.Controls.Add(Label20)
+        Guna2Panel3.Controls.Add(Label5)
+        Guna2Panel3.Controls.Add(Label19)
+        Guna2Panel3.Controls.Add(gbSD15)
+        Guna2Panel3.Controls.Add(gbSD8)
+        Guna2Panel3.Controls.Add(gbSD12)
+        Guna2Panel3.Controls.Add(gbSD7)
+        Guna2Panel3.Controls.Add(gbSD14)
+        Guna2Panel3.Controls.Add(gbSD4)
+        Guna2Panel3.Controls.Add(gbSD11)
+        Guna2Panel3.Controls.Add(gbSD6)
+        Guna2Panel3.Controls.Add(gbSD13)
+        Guna2Panel3.Controls.Add(gbSD3)
+        Guna2Panel3.Controls.Add(gbSD10)
+        Guna2Panel3.Controls.Add(gbSD5)
+        Guna2Panel3.Controls.Add(gbSD9)
+        Guna2Panel3.Controls.Add(gbSD2)
+        Guna2Panel3.Controls.Add(Label18)
+        Guna2Panel3.Controls.Add(Label17)
+        Guna2Panel3.Controls.Add(Label16)
+        Guna2Panel3.Controls.Add(Label15)
+        Guna2Panel3.Controls.Add(Label14)
+        Guna2Panel3.Controls.Add(Label13)
+        Guna2Panel3.Controls.Add(Label12)
+        Guna2Panel3.Controls.Add(Label11)
+        Guna2Panel3.Controls.Add(gbSD1)
+        Guna2Panel3.Controls.Add(Label10)
+        Guna2Panel3.Controls.Add(Label6)
+        Guna2Panel3.Controls.Add(Label7)
+        Guna2Panel3.Controls.Add(Label9)
+        Guna2Panel3.Controls.Add(Label8)
+        Guna2Panel3.Controls.Add(txtSoftwareDevelopment)
+        Guna2Panel3.CustomizableEdges = CustomizableEdges41
+        Guna2Panel3.Dock = DockStyle.Fill
+        Guna2Panel3.Location = New Point(0, 40)
+        Guna2Panel3.Name = "Guna2Panel3"
+        Guna2Panel3.Padding = New Padding(3)
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        Guna2Panel3.Size = New Size(858, 943)
+        Guna2Panel3.TabIndex = 3
         ' 
         ' Label21
         ' 
-        Me.Label21.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label21.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label21.Location = New Global.System.Drawing.Point(159, 586)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New Global.System.Drawing.Size(356, 37)
-        Me.Label21.TabIndex = 25
-        Me.Label21.Text = "I make sure that the software is built consistently and reliably and by managing configurations and dependencies."
+        Label21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label21.ForeColor = Color.Black
+        Label21.Location = New Point(182, 781)
+        Label21.Name = "Label21"
+        Label21.Size = New Size(407, 49)
+        Label21.TabIndex = 25
+        Label21.Text = "I make sure that the software is built consistently and reliably and by managing configurations and dependencies."
         ' 
         ' Label20
         ' 
-        Me.Label20.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label20.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label20.Location = New Global.System.Drawing.Point(159, 548)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New Global.System.Drawing.Size(356, 26)
-        Me.Label20.TabIndex = 24
-        Me.Label20.Text = "I use version control systems to track changes to the code and make it easier to collaborate with other developers."
+        Label20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label20.ForeColor = Color.Black
+        Label20.Location = New Point(182, 731)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(407, 35)
+        Label20.TabIndex = 24
+        Label20.Text = "I use version control systems to track changes to the code and make it easier to collaborate with other developers."
         ' 
         ' Label5
         ' 
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label5.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label5.Location = New Global.System.Drawing.Point(11, 10)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New Global.System.Drawing.Size(200, 20)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "SOFTWARE DEVELOPMENT"
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(13, 13)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(244, 25)
+        Label5.TabIndex = 0
+        Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
         ' Label19
         ' 
-        Me.Label19.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label19.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label19.Location = New Global.System.Drawing.Point(161, 508)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New Global.System.Drawing.Size(356, 26)
-        Me.Label19.TabIndex = 23
-        Me.Label19.Text = "I make sure the software run faster, more efficiently, and use fewer resources."
+        Label19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label19.ForeColor = Color.Black
+        Label19.Location = New Point(184, 677)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(407, 35)
+        Label19.TabIndex = 23
+        Label19.Text = "I make sure the software run faster, more efficiently, and use fewer resources."
         ' 
         ' gbSD15
         ' 
-        Me.gbSD15.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD15.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD15.Controls.Add(Me.rbNASD15)
-        Me.gbSD15.Controls.Add(Me.rbYesSD15)
-        Me.gbSD15.Controls.Add(Me.rbNoSD15)
-        Me.gbSD15.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD15.CustomizableEdges = CustomizableEdges9
-        Me.gbSD15.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD15.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD15.Location = New Global.System.Drawing.Point(11, 586)
-        Me.gbSD15.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD15.Name = "gbSD15"
-        Me.gbSD15.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Me.gbSD15.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD15.TabIndex = 20
+        gbSD15.BackColor = Color.White
+        gbSD15.BorderColor = Color.White
+        gbSD15.Controls.Add(rbNASD15)
+        gbSD15.Controls.Add(rbYesSD15)
+        gbSD15.Controls.Add(rbNoSD15)
+        gbSD15.CustomBorderColor = Color.White
+        gbSD15.CustomizableEdges = CustomizableEdges9
+        gbSD15.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD15.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD15.Location = New Point(13, 781)
+        gbSD15.Name = "gbSD15"
+        gbSD15.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        gbSD15.Size = New Size(163, 35)
+        gbSD15.TabIndex = 20
         ' 
         ' rbNASD15
         ' 
-        Me.rbNASD15.AutoSize = True
-        Me.rbNASD15.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD15.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD15.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD15.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD15.Name = "rbNASD15"
-        Me.rbNASD15.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD15.TabIndex = 2
-        Me.rbNASD15.TabStop = True
-        Me.rbNASD15.Text = "N/A"
-        Me.rbNASD15.UseVisualStyleBackColor = False
+        rbNASD15.AutoSize = True
+        rbNASD15.BackColor = Color.White
+        rbNASD15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD15.ForeColor = Color.Black
+        rbNASD15.Location = New Point(111, 5)
+        rbNASD15.Name = "rbNASD15"
+        rbNASD15.Size = New Size(52, 21)
+        rbNASD15.TabIndex = 2
+        rbNASD15.TabStop = True
+        rbNASD15.Text = "N/A"
+        rbNASD15.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD15
         ' 
-        Me.rbYesSD15.AutoSize = True
-        Me.rbYesSD15.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD15.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD15.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD15.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD15.Name = "rbYesSD15"
-        Me.rbYesSD15.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD15.TabIndex = 0
-        Me.rbYesSD15.TabStop = True
-        Me.rbYesSD15.Text = "Yes"
-        Me.rbYesSD15.UseVisualStyleBackColor = False
+        rbYesSD15.AutoSize = True
+        rbYesSD15.BackColor = Color.White
+        rbYesSD15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD15.ForeColor = Color.Black
+        rbYesSD15.Location = New Point(5, 5)
+        rbYesSD15.Name = "rbYesSD15"
+        rbYesSD15.Size = New Size(48, 21)
+        rbYesSD15.TabIndex = 0
+        rbYesSD15.TabStop = True
+        rbYesSD15.Text = "Yes"
+        rbYesSD15.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD15
         ' 
-        Me.rbNoSD15.AutoSize = True
-        Me.rbNoSD15.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD15.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD15.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD15.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD15.Name = "rbNoSD15"
-        Me.rbNoSD15.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD15.TabIndex = 1
-        Me.rbNoSD15.TabStop = True
-        Me.rbNoSD15.Text = "No"
-        Me.rbNoSD15.UseVisualStyleBackColor = False
+        rbNoSD15.AutoSize = True
+        rbNoSD15.BackColor = Color.White
+        rbNoSD15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD15.ForeColor = Color.Black
+        rbNoSD15.Location = New Point(58, 5)
+        rbNoSD15.Name = "rbNoSD15"
+        rbNoSD15.Size = New Size(47, 21)
+        rbNoSD15.TabIndex = 1
+        rbNoSD15.TabStop = True
+        rbNoSD15.Text = "No"
+        rbNoSD15.UseVisualStyleBackColor = False
         ' 
         ' gbSD8
         ' 
-        Me.gbSD8.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD8.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD8.Controls.Add(Me.rbNASD8)
-        Me.gbSD8.Controls.Add(Me.rbYesSD8)
-        Me.gbSD8.Controls.Add(Me.rbNoSD8)
-        Me.gbSD8.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD8.CustomizableEdges = CustomizableEdges11
-        Me.gbSD8.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD8.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD8.Location = New Global.System.Drawing.Point(11, 313)
-        Me.gbSD8.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD8.Name = "gbSD8"
-        Me.gbSD8.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Me.gbSD8.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD8.TabIndex = 13
+        gbSD8.BackColor = Color.White
+        gbSD8.BorderColor = Color.White
+        gbSD8.Controls.Add(rbNASD8)
+        gbSD8.Controls.Add(rbYesSD8)
+        gbSD8.Controls.Add(rbNoSD8)
+        gbSD8.CustomBorderColor = Color.White
+        gbSD8.CustomizableEdges = CustomizableEdges11
+        gbSD8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD8.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD8.Location = New Point(13, 417)
+        gbSD8.Name = "gbSD8"
+        gbSD8.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        gbSD8.Size = New Size(163, 35)
+        gbSD8.TabIndex = 13
         ' 
         ' rbNASD8
         ' 
-        Me.rbNASD8.AutoSize = True
-        Me.rbNASD8.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD8.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD8.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD8.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD8.Name = "rbNASD8"
-        Me.rbNASD8.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD8.TabIndex = 2
-        Me.rbNASD8.TabStop = True
-        Me.rbNASD8.Text = "N/A"
-        Me.rbNASD8.UseVisualStyleBackColor = False
+        rbNASD8.AutoSize = True
+        rbNASD8.BackColor = Color.White
+        rbNASD8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD8.ForeColor = Color.Black
+        rbNASD8.Location = New Point(111, 5)
+        rbNASD8.Name = "rbNASD8"
+        rbNASD8.Size = New Size(52, 21)
+        rbNASD8.TabIndex = 2
+        rbNASD8.TabStop = True
+        rbNASD8.Text = "N/A"
+        rbNASD8.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD8
         ' 
-        Me.rbYesSD8.AutoSize = True
-        Me.rbYesSD8.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD8.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD8.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD8.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD8.Name = "rbYesSD8"
-        Me.rbYesSD8.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD8.TabIndex = 0
-        Me.rbYesSD8.TabStop = True
-        Me.rbYesSD8.Text = "Yes"
-        Me.rbYesSD8.UseVisualStyleBackColor = False
+        rbYesSD8.AutoSize = True
+        rbYesSD8.BackColor = Color.White
+        rbYesSD8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD8.ForeColor = Color.Black
+        rbYesSD8.Location = New Point(5, 5)
+        rbYesSD8.Name = "rbYesSD8"
+        rbYesSD8.Size = New Size(48, 21)
+        rbYesSD8.TabIndex = 0
+        rbYesSD8.TabStop = True
+        rbYesSD8.Text = "Yes"
+        rbYesSD8.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD8
         ' 
-        Me.rbNoSD8.AutoSize = True
-        Me.rbNoSD8.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD8.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD8.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD8.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD8.Name = "rbNoSD8"
-        Me.rbNoSD8.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD8.TabIndex = 1
-        Me.rbNoSD8.TabStop = True
-        Me.rbNoSD8.Text = "No"
-        Me.rbNoSD8.UseVisualStyleBackColor = False
+        rbNoSD8.AutoSize = True
+        rbNoSD8.BackColor = Color.White
+        rbNoSD8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD8.ForeColor = Color.Black
+        rbNoSD8.Location = New Point(58, 5)
+        rbNoSD8.Name = "rbNoSD8"
+        rbNoSD8.Size = New Size(47, 21)
+        rbNoSD8.TabIndex = 1
+        rbNoSD8.TabStop = True
+        rbNoSD8.Text = "No"
+        rbNoSD8.UseVisualStyleBackColor = False
         ' 
         ' gbSD12
         ' 
-        Me.gbSD12.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD12.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD12.Controls.Add(Me.rbNASD12)
-        Me.gbSD12.Controls.Add(Me.rbYesSD12)
-        Me.gbSD12.Controls.Add(Me.rbNoSD12)
-        Me.gbSD12.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD12.CustomizableEdges = CustomizableEdges13
-        Me.gbSD12.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD12.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD12.Location = New Global.System.Drawing.Point(11, 470)
-        Me.gbSD12.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD12.Name = "gbSD12"
-        Me.gbSD12.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Me.gbSD12.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD12.TabIndex = 17
+        gbSD12.BackColor = Color.White
+        gbSD12.BorderColor = Color.White
+        gbSD12.Controls.Add(rbNASD12)
+        gbSD12.Controls.Add(rbYesSD12)
+        gbSD12.Controls.Add(rbNoSD12)
+        gbSD12.CustomBorderColor = Color.White
+        gbSD12.CustomizableEdges = CustomizableEdges13
+        gbSD12.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD12.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD12.Location = New Point(13, 627)
+        gbSD12.Name = "gbSD12"
+        gbSD12.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        gbSD12.Size = New Size(163, 35)
+        gbSD12.TabIndex = 17
         ' 
         ' rbNASD12
         ' 
-        Me.rbNASD12.AutoSize = True
-        Me.rbNASD12.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD12.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD12.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD12.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD12.Name = "rbNASD12"
-        Me.rbNASD12.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD12.TabIndex = 2
-        Me.rbNASD12.TabStop = True
-        Me.rbNASD12.Text = "N/A"
-        Me.rbNASD12.UseVisualStyleBackColor = False
+        rbNASD12.AutoSize = True
+        rbNASD12.BackColor = Color.White
+        rbNASD12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD12.ForeColor = Color.Black
+        rbNASD12.Location = New Point(111, 5)
+        rbNASD12.Name = "rbNASD12"
+        rbNASD12.Size = New Size(52, 21)
+        rbNASD12.TabIndex = 2
+        rbNASD12.TabStop = True
+        rbNASD12.Text = "N/A"
+        rbNASD12.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD12
         ' 
-        Me.rbYesSD12.AutoSize = True
-        Me.rbYesSD12.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD12.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD12.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD12.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD12.Name = "rbYesSD12"
-        Me.rbYesSD12.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD12.TabIndex = 0
-        Me.rbYesSD12.TabStop = True
-        Me.rbYesSD12.Text = "Yes"
-        Me.rbYesSD12.UseVisualStyleBackColor = False
+        rbYesSD12.AutoSize = True
+        rbYesSD12.BackColor = Color.White
+        rbYesSD12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD12.ForeColor = Color.Black
+        rbYesSD12.Location = New Point(5, 5)
+        rbYesSD12.Name = "rbYesSD12"
+        rbYesSD12.Size = New Size(48, 21)
+        rbYesSD12.TabIndex = 0
+        rbYesSD12.TabStop = True
+        rbYesSD12.Text = "Yes"
+        rbYesSD12.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD12
         ' 
-        Me.rbNoSD12.AutoSize = True
-        Me.rbNoSD12.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD12.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD12.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD12.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD12.Name = "rbNoSD12"
-        Me.rbNoSD12.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD12.TabIndex = 1
-        Me.rbNoSD12.TabStop = True
-        Me.rbNoSD12.Text = "No"
-        Me.rbNoSD12.UseVisualStyleBackColor = False
+        rbNoSD12.AutoSize = True
+        rbNoSD12.BackColor = Color.White
+        rbNoSD12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD12.ForeColor = Color.Black
+        rbNoSD12.Location = New Point(58, 5)
+        rbNoSD12.Name = "rbNoSD12"
+        rbNoSD12.Size = New Size(47, 21)
+        rbNoSD12.TabIndex = 1
+        rbNoSD12.TabStop = True
+        rbNoSD12.Text = "No"
+        rbNoSD12.UseVisualStyleBackColor = False
         ' 
         ' gbSD7
         ' 
-        Me.gbSD7.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD7.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD7.Controls.Add(Me.rbNASD7)
-        Me.gbSD7.Controls.Add(Me.rbYesSD7)
-        Me.gbSD7.Controls.Add(Me.rbNoSD7)
-        Me.gbSD7.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD7.CustomizableEdges = CustomizableEdges15
-        Me.gbSD7.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD7.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD7.Location = New Global.System.Drawing.Point(11, 274)
-        Me.gbSD7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD7.Name = "gbSD7"
-        Me.gbSD7.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Me.gbSD7.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD7.TabIndex = 12
+        gbSD7.BackColor = Color.White
+        gbSD7.BorderColor = Color.White
+        gbSD7.Controls.Add(rbNASD7)
+        gbSD7.Controls.Add(rbYesSD7)
+        gbSD7.Controls.Add(rbNoSD7)
+        gbSD7.CustomBorderColor = Color.White
+        gbSD7.CustomizableEdges = CustomizableEdges15
+        gbSD7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD7.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD7.Location = New Point(13, 365)
+        gbSD7.Name = "gbSD7"
+        gbSD7.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        gbSD7.Size = New Size(163, 35)
+        gbSD7.TabIndex = 12
         ' 
         ' rbNASD7
         ' 
-        Me.rbNASD7.AutoSize = True
-        Me.rbNASD7.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD7.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD7.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD7.Name = "rbNASD7"
-        Me.rbNASD7.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD7.TabIndex = 2
-        Me.rbNASD7.TabStop = True
-        Me.rbNASD7.Text = "N/A"
-        Me.rbNASD7.UseVisualStyleBackColor = False
+        rbNASD7.AutoSize = True
+        rbNASD7.BackColor = Color.White
+        rbNASD7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD7.ForeColor = Color.Black
+        rbNASD7.Location = New Point(111, 5)
+        rbNASD7.Name = "rbNASD7"
+        rbNASD7.Size = New Size(52, 21)
+        rbNASD7.TabIndex = 2
+        rbNASD7.TabStop = True
+        rbNASD7.Text = "N/A"
+        rbNASD7.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD7
         ' 
-        Me.rbYesSD7.AutoSize = True
-        Me.rbYesSD7.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD7.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD7.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD7.Name = "rbYesSD7"
-        Me.rbYesSD7.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD7.TabIndex = 0
-        Me.rbYesSD7.TabStop = True
-        Me.rbYesSD7.Text = "Yes"
-        Me.rbYesSD7.UseVisualStyleBackColor = False
+        rbYesSD7.AutoSize = True
+        rbYesSD7.BackColor = Color.White
+        rbYesSD7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD7.ForeColor = Color.Black
+        rbYesSD7.Location = New Point(5, 5)
+        rbYesSD7.Name = "rbYesSD7"
+        rbYesSD7.Size = New Size(48, 21)
+        rbYesSD7.TabIndex = 0
+        rbYesSD7.TabStop = True
+        rbYesSD7.Text = "Yes"
+        rbYesSD7.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD7
         ' 
-        Me.rbNoSD7.AutoSize = True
-        Me.rbNoSD7.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD7.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD7.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD7.Name = "rbNoSD7"
-        Me.rbNoSD7.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD7.TabIndex = 1
-        Me.rbNoSD7.TabStop = True
-        Me.rbNoSD7.Text = "No"
-        Me.rbNoSD7.UseVisualStyleBackColor = False
+        rbNoSD7.AutoSize = True
+        rbNoSD7.BackColor = Color.White
+        rbNoSD7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD7.ForeColor = Color.Black
+        rbNoSD7.Location = New Point(58, 5)
+        rbNoSD7.Name = "rbNoSD7"
+        rbNoSD7.Size = New Size(47, 21)
+        rbNoSD7.TabIndex = 1
+        rbNoSD7.TabStop = True
+        rbNoSD7.Text = "No"
+        rbNoSD7.UseVisualStyleBackColor = False
         ' 
         ' gbSD14
         ' 
-        Me.gbSD14.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD14.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD14.Controls.Add(Me.rbNASD14)
-        Me.gbSD14.Controls.Add(Me.rbYesSD14)
-        Me.gbSD14.Controls.Add(Me.rbNoSD14)
-        Me.gbSD14.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD14.CustomizableEdges = CustomizableEdges17
-        Me.gbSD14.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD14.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD14.Location = New Global.System.Drawing.Point(11, 548)
-        Me.gbSD14.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD14.Name = "gbSD14"
-        Me.gbSD14.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Me.gbSD14.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD14.TabIndex = 19
+        gbSD14.BackColor = Color.White
+        gbSD14.BorderColor = Color.White
+        gbSD14.Controls.Add(rbNASD14)
+        gbSD14.Controls.Add(rbYesSD14)
+        gbSD14.Controls.Add(rbNoSD14)
+        gbSD14.CustomBorderColor = Color.White
+        gbSD14.CustomizableEdges = CustomizableEdges17
+        gbSD14.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD14.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD14.Location = New Point(13, 731)
+        gbSD14.Name = "gbSD14"
+        gbSD14.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        gbSD14.Size = New Size(163, 35)
+        gbSD14.TabIndex = 19
         ' 
         ' rbNASD14
         ' 
-        Me.rbNASD14.AutoSize = True
-        Me.rbNASD14.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD14.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD14.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD14.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD14.Name = "rbNASD14"
-        Me.rbNASD14.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD14.TabIndex = 2
-        Me.rbNASD14.TabStop = True
-        Me.rbNASD14.Text = "N/A"
-        Me.rbNASD14.UseVisualStyleBackColor = False
+        rbNASD14.AutoSize = True
+        rbNASD14.BackColor = Color.White
+        rbNASD14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD14.ForeColor = Color.Black
+        rbNASD14.Location = New Point(111, 5)
+        rbNASD14.Name = "rbNASD14"
+        rbNASD14.Size = New Size(52, 21)
+        rbNASD14.TabIndex = 2
+        rbNASD14.TabStop = True
+        rbNASD14.Text = "N/A"
+        rbNASD14.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD14
         ' 
-        Me.rbYesSD14.AutoSize = True
-        Me.rbYesSD14.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD14.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD14.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD14.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD14.Name = "rbYesSD14"
-        Me.rbYesSD14.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD14.TabIndex = 0
-        Me.rbYesSD14.TabStop = True
-        Me.rbYesSD14.Text = "Yes"
-        Me.rbYesSD14.UseVisualStyleBackColor = False
+        rbYesSD14.AutoSize = True
+        rbYesSD14.BackColor = Color.White
+        rbYesSD14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD14.ForeColor = Color.Black
+        rbYesSD14.Location = New Point(5, 5)
+        rbYesSD14.Name = "rbYesSD14"
+        rbYesSD14.Size = New Size(48, 21)
+        rbYesSD14.TabIndex = 0
+        rbYesSD14.TabStop = True
+        rbYesSD14.Text = "Yes"
+        rbYesSD14.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD14
         ' 
-        Me.rbNoSD14.AutoSize = True
-        Me.rbNoSD14.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD14.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD14.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD14.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD14.Name = "rbNoSD14"
-        Me.rbNoSD14.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD14.TabIndex = 1
-        Me.rbNoSD14.TabStop = True
-        Me.rbNoSD14.Text = "No"
-        Me.rbNoSD14.UseVisualStyleBackColor = False
+        rbNoSD14.AutoSize = True
+        rbNoSD14.BackColor = Color.White
+        rbNoSD14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD14.ForeColor = Color.Black
+        rbNoSD14.Location = New Point(58, 5)
+        rbNoSD14.Name = "rbNoSD14"
+        rbNoSD14.Size = New Size(47, 21)
+        rbNoSD14.TabIndex = 1
+        rbNoSD14.TabStop = True
+        rbNoSD14.Text = "No"
+        rbNoSD14.UseVisualStyleBackColor = False
         ' 
         ' gbSD4
         ' 
-        Me.gbSD4.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD4.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD4.Controls.Add(Me.rbNASD4)
-        Me.gbSD4.Controls.Add(Me.rbYesSD4)
-        Me.gbSD4.Controls.Add(Me.rbNoSD4)
-        Me.gbSD4.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD4.CustomizableEdges = CustomizableEdges19
-        Me.gbSD4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD4.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD4.Location = New Global.System.Drawing.Point(11, 157)
-        Me.gbSD4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD4.Name = "gbSD4"
-        Me.gbSD4.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Me.gbSD4.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD4.TabIndex = 9
+        gbSD4.BackColor = Color.White
+        gbSD4.BorderColor = Color.White
+        gbSD4.Controls.Add(rbNASD4)
+        gbSD4.Controls.Add(rbYesSD4)
+        gbSD4.Controls.Add(rbNoSD4)
+        gbSD4.CustomBorderColor = Color.White
+        gbSD4.CustomizableEdges = CustomizableEdges19
+        gbSD4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD4.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD4.Location = New Point(13, 209)
+        gbSD4.Name = "gbSD4"
+        gbSD4.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        gbSD4.Size = New Size(163, 35)
+        gbSD4.TabIndex = 9
         ' 
         ' rbNASD4
         ' 
-        Me.rbNASD4.AutoSize = True
-        Me.rbNASD4.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD4.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD4.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD4.Name = "rbNASD4"
-        Me.rbNASD4.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD4.TabIndex = 2
-        Me.rbNASD4.TabStop = True
-        Me.rbNASD4.Text = "N/A"
-        Me.rbNASD4.UseVisualStyleBackColor = False
+        rbNASD4.AutoSize = True
+        rbNASD4.BackColor = Color.White
+        rbNASD4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD4.ForeColor = Color.Black
+        rbNASD4.Location = New Point(111, 5)
+        rbNASD4.Name = "rbNASD4"
+        rbNASD4.Size = New Size(52, 21)
+        rbNASD4.TabIndex = 2
+        rbNASD4.TabStop = True
+        rbNASD4.Text = "N/A"
+        rbNASD4.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD4
         ' 
-        Me.rbYesSD4.AutoSize = True
-        Me.rbYesSD4.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD4.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD4.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD4.Name = "rbYesSD4"
-        Me.rbYesSD4.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD4.TabIndex = 0
-        Me.rbYesSD4.TabStop = True
-        Me.rbYesSD4.Text = "Yes"
-        Me.rbYesSD4.UseVisualStyleBackColor = False
+        rbYesSD4.AutoSize = True
+        rbYesSD4.BackColor = Color.White
+        rbYesSD4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD4.ForeColor = Color.Black
+        rbYesSD4.Location = New Point(5, 5)
+        rbYesSD4.Name = "rbYesSD4"
+        rbYesSD4.Size = New Size(48, 21)
+        rbYesSD4.TabIndex = 0
+        rbYesSD4.TabStop = True
+        rbYesSD4.Text = "Yes"
+        rbYesSD4.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD4
         ' 
-        Me.rbNoSD4.AutoSize = True
-        Me.rbNoSD4.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD4.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD4.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD4.Name = "rbNoSD4"
-        Me.rbNoSD4.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD4.TabIndex = 1
-        Me.rbNoSD4.TabStop = True
-        Me.rbNoSD4.Text = "No"
-        Me.rbNoSD4.UseVisualStyleBackColor = False
+        rbNoSD4.AutoSize = True
+        rbNoSD4.BackColor = Color.White
+        rbNoSD4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD4.ForeColor = Color.Black
+        rbNoSD4.Location = New Point(58, 5)
+        rbNoSD4.Name = "rbNoSD4"
+        rbNoSD4.Size = New Size(47, 21)
+        rbNoSD4.TabIndex = 1
+        rbNoSD4.TabStop = True
+        rbNoSD4.Text = "No"
+        rbNoSD4.UseVisualStyleBackColor = False
         ' 
         ' gbSD11
         ' 
-        Me.gbSD11.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD11.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD11.Controls.Add(Me.rbNASD11)
-        Me.gbSD11.Controls.Add(Me.rbYesSD11)
-        Me.gbSD11.Controls.Add(Me.rbNoSD11)
-        Me.gbSD11.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD11.CustomizableEdges = CustomizableEdges21
-        Me.gbSD11.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD11.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD11.Location = New Global.System.Drawing.Point(11, 430)
-        Me.gbSD11.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD11.Name = "gbSD11"
-        Me.gbSD11.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Me.gbSD11.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD11.TabIndex = 16
+        gbSD11.BackColor = Color.White
+        gbSD11.BorderColor = Color.White
+        gbSD11.Controls.Add(rbNASD11)
+        gbSD11.Controls.Add(rbYesSD11)
+        gbSD11.Controls.Add(rbNoSD11)
+        gbSD11.CustomBorderColor = Color.White
+        gbSD11.CustomizableEdges = CustomizableEdges21
+        gbSD11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD11.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD11.Location = New Point(13, 573)
+        gbSD11.Name = "gbSD11"
+        gbSD11.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        gbSD11.Size = New Size(163, 35)
+        gbSD11.TabIndex = 16
         ' 
         ' rbNASD11
         ' 
-        Me.rbNASD11.AutoSize = True
-        Me.rbNASD11.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD11.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD11.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD11.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD11.Name = "rbNASD11"
-        Me.rbNASD11.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD11.TabIndex = 2
-        Me.rbNASD11.TabStop = True
-        Me.rbNASD11.Text = "N/A"
-        Me.rbNASD11.UseVisualStyleBackColor = False
+        rbNASD11.AutoSize = True
+        rbNASD11.BackColor = Color.White
+        rbNASD11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD11.ForeColor = Color.Black
+        rbNASD11.Location = New Point(111, 5)
+        rbNASD11.Name = "rbNASD11"
+        rbNASD11.Size = New Size(52, 21)
+        rbNASD11.TabIndex = 2
+        rbNASD11.TabStop = True
+        rbNASD11.Text = "N/A"
+        rbNASD11.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD11
         ' 
-        Me.rbYesSD11.AutoSize = True
-        Me.rbYesSD11.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD11.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD11.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD11.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD11.Name = "rbYesSD11"
-        Me.rbYesSD11.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD11.TabIndex = 0
-        Me.rbYesSD11.TabStop = True
-        Me.rbYesSD11.Text = "Yes"
-        Me.rbYesSD11.UseVisualStyleBackColor = False
+        rbYesSD11.AutoSize = True
+        rbYesSD11.BackColor = Color.White
+        rbYesSD11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD11.ForeColor = Color.Black
+        rbYesSD11.Location = New Point(5, 5)
+        rbYesSD11.Name = "rbYesSD11"
+        rbYesSD11.Size = New Size(48, 21)
+        rbYesSD11.TabIndex = 0
+        rbYesSD11.TabStop = True
+        rbYesSD11.Text = "Yes"
+        rbYesSD11.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD11
         ' 
-        Me.rbNoSD11.AutoSize = True
-        Me.rbNoSD11.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD11.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD11.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD11.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD11.Name = "rbNoSD11"
-        Me.rbNoSD11.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD11.TabIndex = 1
-        Me.rbNoSD11.TabStop = True
-        Me.rbNoSD11.Text = "No"
-        Me.rbNoSD11.UseVisualStyleBackColor = False
+        rbNoSD11.AutoSize = True
+        rbNoSD11.BackColor = Color.White
+        rbNoSD11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD11.ForeColor = Color.Black
+        rbNoSD11.Location = New Point(58, 5)
+        rbNoSD11.Name = "rbNoSD11"
+        rbNoSD11.Size = New Size(47, 21)
+        rbNoSD11.TabIndex = 1
+        rbNoSD11.TabStop = True
+        rbNoSD11.Text = "No"
+        rbNoSD11.UseVisualStyleBackColor = False
         ' 
         ' gbSD6
         ' 
-        Me.gbSD6.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD6.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD6.Controls.Add(Me.rbNASD6)
-        Me.gbSD6.Controls.Add(Me.rbYesSD6)
-        Me.gbSD6.Controls.Add(Me.rbNoSD6)
-        Me.gbSD6.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD6.CustomizableEdges = CustomizableEdges23
-        Me.gbSD6.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD6.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD6.Location = New Global.System.Drawing.Point(11, 235)
-        Me.gbSD6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD6.Name = "gbSD6"
-        Me.gbSD6.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Me.gbSD6.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD6.TabIndex = 11
+        gbSD6.BackColor = Color.White
+        gbSD6.BorderColor = Color.White
+        gbSD6.Controls.Add(rbNASD6)
+        gbSD6.Controls.Add(rbYesSD6)
+        gbSD6.Controls.Add(rbNoSD6)
+        gbSD6.CustomBorderColor = Color.White
+        gbSD6.CustomizableEdges = CustomizableEdges23
+        gbSD6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD6.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD6.Location = New Point(13, 313)
+        gbSD6.Name = "gbSD6"
+        gbSD6.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        gbSD6.Size = New Size(163, 35)
+        gbSD6.TabIndex = 11
         ' 
         ' rbNASD6
         ' 
-        Me.rbNASD6.AutoSize = True
-        Me.rbNASD6.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD6.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD6.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD6.Name = "rbNASD6"
-        Me.rbNASD6.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD6.TabIndex = 2
-        Me.rbNASD6.TabStop = True
-        Me.rbNASD6.Text = "N/A"
-        Me.rbNASD6.UseVisualStyleBackColor = False
+        rbNASD6.AutoSize = True
+        rbNASD6.BackColor = Color.White
+        rbNASD6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD6.ForeColor = Color.Black
+        rbNASD6.Location = New Point(111, 5)
+        rbNASD6.Name = "rbNASD6"
+        rbNASD6.Size = New Size(52, 21)
+        rbNASD6.TabIndex = 2
+        rbNASD6.TabStop = True
+        rbNASD6.Text = "N/A"
+        rbNASD6.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD6
         ' 
-        Me.rbYesSD6.AutoSize = True
-        Me.rbYesSD6.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD6.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD6.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD6.Name = "rbYesSD6"
-        Me.rbYesSD6.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD6.TabIndex = 0
-        Me.rbYesSD6.TabStop = True
-        Me.rbYesSD6.Text = "Yes"
-        Me.rbYesSD6.UseVisualStyleBackColor = False
+        rbYesSD6.AutoSize = True
+        rbYesSD6.BackColor = Color.White
+        rbYesSD6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD6.ForeColor = Color.Black
+        rbYesSD6.Location = New Point(5, 5)
+        rbYesSD6.Name = "rbYesSD6"
+        rbYesSD6.Size = New Size(48, 21)
+        rbYesSD6.TabIndex = 0
+        rbYesSD6.TabStop = True
+        rbYesSD6.Text = "Yes"
+        rbYesSD6.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD6
         ' 
-        Me.rbNoSD6.AutoSize = True
-        Me.rbNoSD6.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD6.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD6.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD6.Name = "rbNoSD6"
-        Me.rbNoSD6.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD6.TabIndex = 1
-        Me.rbNoSD6.TabStop = True
-        Me.rbNoSD6.Text = "No"
-        Me.rbNoSD6.UseVisualStyleBackColor = False
+        rbNoSD6.AutoSize = True
+        rbNoSD6.BackColor = Color.White
+        rbNoSD6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD6.ForeColor = Color.Black
+        rbNoSD6.Location = New Point(58, 5)
+        rbNoSD6.Name = "rbNoSD6"
+        rbNoSD6.Size = New Size(47, 21)
+        rbNoSD6.TabIndex = 1
+        rbNoSD6.TabStop = True
+        rbNoSD6.Text = "No"
+        rbNoSD6.UseVisualStyleBackColor = False
         ' 
         ' gbSD13
         ' 
-        Me.gbSD13.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD13.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD13.Controls.Add(Me.rbNASD13)
-        Me.gbSD13.Controls.Add(Me.rbYesSD13)
-        Me.gbSD13.Controls.Add(Me.rbNoSD13)
-        Me.gbSD13.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD13.CustomizableEdges = CustomizableEdges25
-        Me.gbSD13.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD13.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD13.Location = New Global.System.Drawing.Point(11, 508)
-        Me.gbSD13.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD13.Name = "gbSD13"
-        Me.gbSD13.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Me.gbSD13.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD13.TabIndex = 18
+        gbSD13.BackColor = Color.White
+        gbSD13.BorderColor = Color.White
+        gbSD13.Controls.Add(rbNASD13)
+        gbSD13.Controls.Add(rbYesSD13)
+        gbSD13.Controls.Add(rbNoSD13)
+        gbSD13.CustomBorderColor = Color.White
+        gbSD13.CustomizableEdges = CustomizableEdges25
+        gbSD13.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD13.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD13.Location = New Point(13, 677)
+        gbSD13.Name = "gbSD13"
+        gbSD13.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        gbSD13.Size = New Size(163, 35)
+        gbSD13.TabIndex = 18
         ' 
         ' rbNASD13
         ' 
-        Me.rbNASD13.AutoSize = True
-        Me.rbNASD13.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD13.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD13.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD13.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD13.Name = "rbNASD13"
-        Me.rbNASD13.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD13.TabIndex = 2
-        Me.rbNASD13.TabStop = True
-        Me.rbNASD13.Text = "N/A"
-        Me.rbNASD13.UseVisualStyleBackColor = False
+        rbNASD13.AutoSize = True
+        rbNASD13.BackColor = Color.White
+        rbNASD13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD13.ForeColor = Color.Black
+        rbNASD13.Location = New Point(111, 5)
+        rbNASD13.Name = "rbNASD13"
+        rbNASD13.Size = New Size(52, 21)
+        rbNASD13.TabIndex = 2
+        rbNASD13.TabStop = True
+        rbNASD13.Text = "N/A"
+        rbNASD13.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD13
         ' 
-        Me.rbYesSD13.AutoSize = True
-        Me.rbYesSD13.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD13.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD13.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD13.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD13.Name = "rbYesSD13"
-        Me.rbYesSD13.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD13.TabIndex = 0
-        Me.rbYesSD13.TabStop = True
-        Me.rbYesSD13.Text = "Yes"
-        Me.rbYesSD13.UseVisualStyleBackColor = False
+        rbYesSD13.AutoSize = True
+        rbYesSD13.BackColor = Color.White
+        rbYesSD13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD13.ForeColor = Color.Black
+        rbYesSD13.Location = New Point(5, 5)
+        rbYesSD13.Name = "rbYesSD13"
+        rbYesSD13.Size = New Size(48, 21)
+        rbYesSD13.TabIndex = 0
+        rbYesSD13.TabStop = True
+        rbYesSD13.Text = "Yes"
+        rbYesSD13.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD13
         ' 
-        Me.rbNoSD13.AutoSize = True
-        Me.rbNoSD13.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD13.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD13.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD13.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD13.Name = "rbNoSD13"
-        Me.rbNoSD13.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD13.TabIndex = 1
-        Me.rbNoSD13.TabStop = True
-        Me.rbNoSD13.Text = "No"
-        Me.rbNoSD13.UseVisualStyleBackColor = False
+        rbNoSD13.AutoSize = True
+        rbNoSD13.BackColor = Color.White
+        rbNoSD13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD13.ForeColor = Color.Black
+        rbNoSD13.Location = New Point(58, 5)
+        rbNoSD13.Name = "rbNoSD13"
+        rbNoSD13.Size = New Size(47, 21)
+        rbNoSD13.TabIndex = 1
+        rbNoSD13.TabStop = True
+        rbNoSD13.Text = "No"
+        rbNoSD13.UseVisualStyleBackColor = False
         ' 
         ' gbSD3
         ' 
-        Me.gbSD3.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD3.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD3.Controls.Add(Me.rbNASD3)
-        Me.gbSD3.Controls.Add(Me.rbYesSD3)
-        Me.gbSD3.Controls.Add(Me.rbNoSD3)
-        Me.gbSD3.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD3.CustomizableEdges = CustomizableEdges27
-        Me.gbSD3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD3.Location = New Global.System.Drawing.Point(11, 118)
-        Me.gbSD3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD3.Name = "gbSD3"
-        Me.gbSD3.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Me.gbSD3.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD3.TabIndex = 8
+        gbSD3.BackColor = Color.White
+        gbSD3.BorderColor = Color.White
+        gbSD3.Controls.Add(rbNASD3)
+        gbSD3.Controls.Add(rbYesSD3)
+        gbSD3.Controls.Add(rbNoSD3)
+        gbSD3.CustomBorderColor = Color.White
+        gbSD3.CustomizableEdges = CustomizableEdges27
+        gbSD3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD3.Location = New Point(13, 157)
+        gbSD3.Name = "gbSD3"
+        gbSD3.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        gbSD3.Size = New Size(163, 35)
+        gbSD3.TabIndex = 8
         ' 
         ' rbNASD3
         ' 
-        Me.rbNASD3.AutoSize = True
-        Me.rbNASD3.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD3.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD3.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD3.Name = "rbNASD3"
-        Me.rbNASD3.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD3.TabIndex = 2
-        Me.rbNASD3.TabStop = True
-        Me.rbNASD3.Text = "N/A"
-        Me.rbNASD3.UseVisualStyleBackColor = False
+        rbNASD3.AutoSize = True
+        rbNASD3.BackColor = Color.White
+        rbNASD3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD3.ForeColor = Color.Black
+        rbNASD3.Location = New Point(111, 5)
+        rbNASD3.Name = "rbNASD3"
+        rbNASD3.Size = New Size(52, 21)
+        rbNASD3.TabIndex = 2
+        rbNASD3.TabStop = True
+        rbNASD3.Text = "N/A"
+        rbNASD3.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD3
         ' 
-        Me.rbYesSD3.AutoSize = True
-        Me.rbYesSD3.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD3.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD3.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD3.Name = "rbYesSD3"
-        Me.rbYesSD3.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD3.TabIndex = 0
-        Me.rbYesSD3.TabStop = True
-        Me.rbYesSD3.Text = "Yes"
-        Me.rbYesSD3.UseVisualStyleBackColor = False
+        rbYesSD3.AutoSize = True
+        rbYesSD3.BackColor = Color.White
+        rbYesSD3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD3.ForeColor = Color.Black
+        rbYesSD3.Location = New Point(5, 5)
+        rbYesSD3.Name = "rbYesSD3"
+        rbYesSD3.Size = New Size(48, 21)
+        rbYesSD3.TabIndex = 0
+        rbYesSD3.TabStop = True
+        rbYesSD3.Text = "Yes"
+        rbYesSD3.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD3
         ' 
-        Me.rbNoSD3.AutoSize = True
-        Me.rbNoSD3.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD3.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD3.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD3.Name = "rbNoSD3"
-        Me.rbNoSD3.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD3.TabIndex = 1
-        Me.rbNoSD3.TabStop = True
-        Me.rbNoSD3.Text = "No"
-        Me.rbNoSD3.UseVisualStyleBackColor = False
+        rbNoSD3.AutoSize = True
+        rbNoSD3.BackColor = Color.White
+        rbNoSD3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD3.ForeColor = Color.Black
+        rbNoSD3.Location = New Point(58, 5)
+        rbNoSD3.Name = "rbNoSD3"
+        rbNoSD3.Size = New Size(47, 21)
+        rbNoSD3.TabIndex = 1
+        rbNoSD3.TabStop = True
+        rbNoSD3.Text = "No"
+        rbNoSD3.UseVisualStyleBackColor = False
         ' 
         ' gbSD10
         ' 
-        Me.gbSD10.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD10.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD10.Controls.Add(Me.rbNASD10)
-        Me.gbSD10.Controls.Add(Me.rbYesSD10)
-        Me.gbSD10.Controls.Add(Me.rbNoSD10)
-        Me.gbSD10.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD10.CustomizableEdges = CustomizableEdges29
-        Me.gbSD10.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD10.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD10.Location = New Global.System.Drawing.Point(11, 392)
-        Me.gbSD10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD10.Name = "gbSD10"
-        Me.gbSD10.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Me.gbSD10.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD10.TabIndex = 15
+        gbSD10.BackColor = Color.White
+        gbSD10.BorderColor = Color.White
+        gbSD10.Controls.Add(rbNASD10)
+        gbSD10.Controls.Add(rbYesSD10)
+        gbSD10.Controls.Add(rbNoSD10)
+        gbSD10.CustomBorderColor = Color.White
+        gbSD10.CustomizableEdges = CustomizableEdges29
+        gbSD10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD10.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD10.Location = New Point(13, 523)
+        gbSD10.Name = "gbSD10"
+        gbSD10.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        gbSD10.Size = New Size(163, 35)
+        gbSD10.TabIndex = 15
         ' 
         ' rbNASD10
         ' 
-        Me.rbNASD10.AutoSize = True
-        Me.rbNASD10.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD10.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD10.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD10.Name = "rbNASD10"
-        Me.rbNASD10.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD10.TabIndex = 2
-        Me.rbNASD10.TabStop = True
-        Me.rbNASD10.Text = "N/A"
-        Me.rbNASD10.UseVisualStyleBackColor = False
+        rbNASD10.AutoSize = True
+        rbNASD10.BackColor = Color.White
+        rbNASD10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD10.ForeColor = Color.Black
+        rbNASD10.Location = New Point(111, 5)
+        rbNASD10.Name = "rbNASD10"
+        rbNASD10.Size = New Size(52, 21)
+        rbNASD10.TabIndex = 2
+        rbNASD10.TabStop = True
+        rbNASD10.Text = "N/A"
+        rbNASD10.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD10
         ' 
-        Me.rbYesSD10.AutoSize = True
-        Me.rbYesSD10.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD10.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD10.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD10.Name = "rbYesSD10"
-        Me.rbYesSD10.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD10.TabIndex = 0
-        Me.rbYesSD10.TabStop = True
-        Me.rbYesSD10.Text = "Yes"
-        Me.rbYesSD10.UseVisualStyleBackColor = False
+        rbYesSD10.AutoSize = True
+        rbYesSD10.BackColor = Color.White
+        rbYesSD10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD10.ForeColor = Color.Black
+        rbYesSD10.Location = New Point(5, 5)
+        rbYesSD10.Name = "rbYesSD10"
+        rbYesSD10.Size = New Size(48, 21)
+        rbYesSD10.TabIndex = 0
+        rbYesSD10.TabStop = True
+        rbYesSD10.Text = "Yes"
+        rbYesSD10.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD10
         ' 
-        Me.rbNoSD10.AutoSize = True
-        Me.rbNoSD10.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD10.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD10.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD10.Name = "rbNoSD10"
-        Me.rbNoSD10.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD10.TabIndex = 1
-        Me.rbNoSD10.TabStop = True
-        Me.rbNoSD10.Text = "No"
-        Me.rbNoSD10.UseVisualStyleBackColor = False
+        rbNoSD10.AutoSize = True
+        rbNoSD10.BackColor = Color.White
+        rbNoSD10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD10.ForeColor = Color.Black
+        rbNoSD10.Location = New Point(58, 5)
+        rbNoSD10.Name = "rbNoSD10"
+        rbNoSD10.Size = New Size(47, 21)
+        rbNoSD10.TabIndex = 1
+        rbNoSD10.TabStop = True
+        rbNoSD10.Text = "No"
+        rbNoSD10.UseVisualStyleBackColor = False
         ' 
         ' gbSD5
         ' 
-        Me.gbSD5.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD5.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD5.Controls.Add(Me.rbNASD5)
-        Me.gbSD5.Controls.Add(Me.rbYesSD5)
-        Me.gbSD5.Controls.Add(Me.rbNoSD5)
-        Me.gbSD5.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD5.CustomizableEdges = CustomizableEdges31
-        Me.gbSD5.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD5.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD5.Location = New Global.System.Drawing.Point(11, 196)
-        Me.gbSD5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD5.Name = "gbSD5"
-        Me.gbSD5.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Me.gbSD5.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD5.TabIndex = 10
+        gbSD5.BackColor = Color.White
+        gbSD5.BorderColor = Color.White
+        gbSD5.Controls.Add(rbNASD5)
+        gbSD5.Controls.Add(rbYesSD5)
+        gbSD5.Controls.Add(rbNoSD5)
+        gbSD5.CustomBorderColor = Color.White
+        gbSD5.CustomizableEdges = CustomizableEdges31
+        gbSD5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD5.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD5.Location = New Point(13, 261)
+        gbSD5.Name = "gbSD5"
+        gbSD5.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        gbSD5.Size = New Size(163, 35)
+        gbSD5.TabIndex = 10
         ' 
         ' rbNASD5
         ' 
-        Me.rbNASD5.AutoSize = True
-        Me.rbNASD5.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD5.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD5.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD5.Name = "rbNASD5"
-        Me.rbNASD5.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD5.TabIndex = 2
-        Me.rbNASD5.TabStop = True
-        Me.rbNASD5.Text = "N/A"
-        Me.rbNASD5.UseVisualStyleBackColor = False
+        rbNASD5.AutoSize = True
+        rbNASD5.BackColor = Color.White
+        rbNASD5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD5.ForeColor = Color.Black
+        rbNASD5.Location = New Point(111, 5)
+        rbNASD5.Name = "rbNASD5"
+        rbNASD5.Size = New Size(52, 21)
+        rbNASD5.TabIndex = 2
+        rbNASD5.TabStop = True
+        rbNASD5.Text = "N/A"
+        rbNASD5.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD5
         ' 
-        Me.rbYesSD5.AutoSize = True
-        Me.rbYesSD5.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD5.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD5.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD5.Name = "rbYesSD5"
-        Me.rbYesSD5.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD5.TabIndex = 0
-        Me.rbYesSD5.TabStop = True
-        Me.rbYesSD5.Text = "Yes"
-        Me.rbYesSD5.UseVisualStyleBackColor = False
+        rbYesSD5.AutoSize = True
+        rbYesSD5.BackColor = Color.White
+        rbYesSD5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD5.ForeColor = Color.Black
+        rbYesSD5.Location = New Point(5, 5)
+        rbYesSD5.Name = "rbYesSD5"
+        rbYesSD5.Size = New Size(48, 21)
+        rbYesSD5.TabIndex = 0
+        rbYesSD5.TabStop = True
+        rbYesSD5.Text = "Yes"
+        rbYesSD5.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD5
         ' 
-        Me.rbNoSD5.AutoSize = True
-        Me.rbNoSD5.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD5.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD5.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD5.Name = "rbNoSD5"
-        Me.rbNoSD5.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD5.TabIndex = 1
-        Me.rbNoSD5.TabStop = True
-        Me.rbNoSD5.Text = "No"
-        Me.rbNoSD5.UseVisualStyleBackColor = False
+        rbNoSD5.AutoSize = True
+        rbNoSD5.BackColor = Color.White
+        rbNoSD5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD5.ForeColor = Color.Black
+        rbNoSD5.Location = New Point(58, 5)
+        rbNoSD5.Name = "rbNoSD5"
+        rbNoSD5.Size = New Size(47, 21)
+        rbNoSD5.TabIndex = 1
+        rbNoSD5.TabStop = True
+        rbNoSD5.Text = "No"
+        rbNoSD5.UseVisualStyleBackColor = False
         ' 
         ' gbSD9
         ' 
-        Me.gbSD9.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD9.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD9.Controls.Add(Me.rbNASD9)
-        Me.gbSD9.Controls.Add(Me.rbYesSD9)
-        Me.gbSD9.Controls.Add(Me.rbNoSD9)
-        Me.gbSD9.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD9.CustomizableEdges = CustomizableEdges33
-        Me.gbSD9.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD9.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD9.Location = New Global.System.Drawing.Point(11, 352)
-        Me.gbSD9.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD9.Name = "gbSD9"
-        Me.gbSD9.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        Me.gbSD9.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD9.TabIndex = 14
+        gbSD9.BackColor = Color.White
+        gbSD9.BorderColor = Color.White
+        gbSD9.Controls.Add(rbNASD9)
+        gbSD9.Controls.Add(rbYesSD9)
+        gbSD9.Controls.Add(rbNoSD9)
+        gbSD9.CustomBorderColor = Color.White
+        gbSD9.CustomizableEdges = CustomizableEdges33
+        gbSD9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD9.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD9.Location = New Point(13, 469)
+        gbSD9.Name = "gbSD9"
+        gbSD9.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        gbSD9.Size = New Size(163, 35)
+        gbSD9.TabIndex = 14
         ' 
         ' rbNASD9
         ' 
-        Me.rbNASD9.AutoSize = True
-        Me.rbNASD9.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD9.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD9.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD9.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD9.Name = "rbNASD9"
-        Me.rbNASD9.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD9.TabIndex = 2
-        Me.rbNASD9.TabStop = True
-        Me.rbNASD9.Text = "N/A"
-        Me.rbNASD9.UseVisualStyleBackColor = False
+        rbNASD9.AutoSize = True
+        rbNASD9.BackColor = Color.White
+        rbNASD9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD9.ForeColor = Color.Black
+        rbNASD9.Location = New Point(111, 5)
+        rbNASD9.Name = "rbNASD9"
+        rbNASD9.Size = New Size(52, 21)
+        rbNASD9.TabIndex = 2
+        rbNASD9.TabStop = True
+        rbNASD9.Text = "N/A"
+        rbNASD9.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD9
         ' 
-        Me.rbYesSD9.AutoSize = True
-        Me.rbYesSD9.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD9.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD9.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD9.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD9.Name = "rbYesSD9"
-        Me.rbYesSD9.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD9.TabIndex = 0
-        Me.rbYesSD9.TabStop = True
-        Me.rbYesSD9.Text = "Yes"
-        Me.rbYesSD9.UseVisualStyleBackColor = False
+        rbYesSD9.AutoSize = True
+        rbYesSD9.BackColor = Color.White
+        rbYesSD9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD9.ForeColor = Color.Black
+        rbYesSD9.Location = New Point(5, 5)
+        rbYesSD9.Name = "rbYesSD9"
+        rbYesSD9.Size = New Size(48, 21)
+        rbYesSD9.TabIndex = 0
+        rbYesSD9.TabStop = True
+        rbYesSD9.Text = "Yes"
+        rbYesSD9.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD9
         ' 
-        Me.rbNoSD9.AutoSize = True
-        Me.rbNoSD9.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD9.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD9.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD9.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD9.Name = "rbNoSD9"
-        Me.rbNoSD9.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD9.TabIndex = 1
-        Me.rbNoSD9.TabStop = True
-        Me.rbNoSD9.Text = "No"
-        Me.rbNoSD9.UseVisualStyleBackColor = False
+        rbNoSD9.AutoSize = True
+        rbNoSD9.BackColor = Color.White
+        rbNoSD9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD9.ForeColor = Color.Black
+        rbNoSD9.Location = New Point(58, 5)
+        rbNoSD9.Name = "rbNoSD9"
+        rbNoSD9.Size = New Size(47, 21)
+        rbNoSD9.TabIndex = 1
+        rbNoSD9.TabStop = True
+        rbNoSD9.Text = "No"
+        rbNoSD9.UseVisualStyleBackColor = False
         ' 
         ' gbSD2
         ' 
-        Me.gbSD2.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD2.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD2.Controls.Add(Me.rbNASD2)
-        Me.gbSD2.Controls.Add(Me.rbYesSD2)
-        Me.gbSD2.Controls.Add(Me.rbNoSD2)
-        Me.gbSD2.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD2.CustomizableEdges = CustomizableEdges35
-        Me.gbSD2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD2.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD2.Location = New Global.System.Drawing.Point(11, 79)
-        Me.gbSD2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD2.Name = "gbSD2"
-        Me.gbSD2.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        Me.gbSD2.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD2.TabIndex = 7
+        gbSD2.BackColor = Color.White
+        gbSD2.BorderColor = Color.White
+        gbSD2.Controls.Add(rbNASD2)
+        gbSD2.Controls.Add(rbYesSD2)
+        gbSD2.Controls.Add(rbNoSD2)
+        gbSD2.CustomBorderColor = Color.White
+        gbSD2.CustomizableEdges = CustomizableEdges35
+        gbSD2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD2.Location = New Point(13, 105)
+        gbSD2.Name = "gbSD2"
+        gbSD2.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        gbSD2.Size = New Size(163, 35)
+        gbSD2.TabIndex = 7
         ' 
         ' rbNASD2
         ' 
-        Me.rbNASD2.AutoSize = True
-        Me.rbNASD2.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD2.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD2.Location = New Global.System.Drawing.Point(97, 4)
-        Me.rbNASD2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD2.Name = "rbNASD2"
-        Me.rbNASD2.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD2.TabIndex = 2
-        Me.rbNASD2.TabStop = True
-        Me.rbNASD2.Text = "N/A"
-        Me.rbNASD2.UseVisualStyleBackColor = False
+        rbNASD2.AutoSize = True
+        rbNASD2.BackColor = Color.White
+        rbNASD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD2.ForeColor = Color.Black
+        rbNASD2.Location = New Point(111, 5)
+        rbNASD2.Name = "rbNASD2"
+        rbNASD2.Size = New Size(52, 21)
+        rbNASD2.TabIndex = 2
+        rbNASD2.TabStop = True
+        rbNASD2.Text = "N/A"
+        rbNASD2.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD2
         ' 
-        Me.rbYesSD2.AutoSize = True
-        Me.rbYesSD2.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD2.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD2.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD2.Name = "rbYesSD2"
-        Me.rbYesSD2.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD2.TabIndex = 0
-        Me.rbYesSD2.TabStop = True
-        Me.rbYesSD2.Text = "Yes"
-        Me.rbYesSD2.UseVisualStyleBackColor = False
+        rbYesSD2.AutoSize = True
+        rbYesSD2.BackColor = Color.White
+        rbYesSD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD2.ForeColor = Color.Black
+        rbYesSD2.Location = New Point(5, 5)
+        rbYesSD2.Name = "rbYesSD2"
+        rbYesSD2.Size = New Size(48, 21)
+        rbYesSD2.TabIndex = 0
+        rbYesSD2.TabStop = True
+        rbYesSD2.Text = "Yes"
+        rbYesSD2.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD2
         ' 
-        Me.rbNoSD2.AutoSize = True
-        Me.rbNoSD2.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD2.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD2.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD2.Name = "rbNoSD2"
-        Me.rbNoSD2.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD2.TabIndex = 1
-        Me.rbNoSD2.TabStop = True
-        Me.rbNoSD2.Text = "No"
-        Me.rbNoSD2.UseVisualStyleBackColor = False
+        rbNoSD2.AutoSize = True
+        rbNoSD2.BackColor = Color.White
+        rbNoSD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD2.ForeColor = Color.Black
+        rbNoSD2.Location = New Point(58, 5)
+        rbNoSD2.Name = "rbNoSD2"
+        rbNoSD2.Size = New Size(47, 21)
+        rbNoSD2.TabIndex = 1
+        rbNoSD2.TabStop = True
+        rbNoSD2.Text = "No"
+        rbNoSD2.UseVisualStyleBackColor = False
         ' 
         ' Label18
         ' 
-        Me.Label18.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label18.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label18.Location = New Global.System.Drawing.Point(159, 470)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New Global.System.Drawing.Size(371, 34)
-        Me.Label18.TabIndex = 22
-        Me.Label18.Text = "I make sure the CI/CD pipeline is working efficiently and reliably, and that it supports the overall software development lifecycle."
+        Label18.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label18.ForeColor = Color.Black
+        Label18.Location = New Point(182, 627)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(424, 45)
+        Label18.TabIndex = 22
+        Label18.Text = "I make sure the CI/CD pipeline is working efficiently and reliably, and that it supports the overall software development lifecycle."
         ' 
         ' Label17
         ' 
-        Me.Label17.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label17.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label17.Location = New Global.System.Drawing.Point(161, 430)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New Global.System.Drawing.Size(371, 34)
-        Me.Label17.TabIndex = 18
-        Me.Label17.Text = "I help to set up and maintain CI/CD pipelines, which automate the build, test, and deployment process."
+        Label17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label17.ForeColor = Color.Black
+        Label17.Location = New Point(184, 573)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(424, 45)
+        Label17.TabIndex = 18
+        Label17.Text = "I help to set up and maintain CI/CD pipelines, which automate the build, test, and deployment process."
         ' 
         ' Label16
         ' 
-        Me.Label16.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label16.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label16.Location = New Global.System.Drawing.Point(161, 392)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New Global.System.Drawing.Size(356, 34)
-        Me.Label16.TabIndex = 17
-        Me.Label16.Text = "I work with the operations and DevOps teams to make the development process faster and more efficient."
+        Label16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label16.ForeColor = Color.Black
+        Label16.Location = New Point(184, 523)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(407, 45)
+        Label16.TabIndex = 17
+        Label16.Text = "I work with the operations and DevOps teams to make the development process faster and more efficient."
         ' 
         ' Label15
         ' 
-        Me.Label15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label15.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label15.Location = New Global.System.Drawing.Point(161, 352)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New Global.System.Drawing.Size(367, 34)
-        Me.Label15.TabIndex = 16
-        Me.Label15.Text = "I help to deploy the software to production and other environments, making sure it goes smoothly and without errors."
+        Label15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.ForeColor = Color.Black
+        Label15.Location = New Point(184, 469)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(419, 45)
+        Label15.TabIndex = 16
+        Label15.Text = "I help to deploy the software to production and other environments, making sure it goes smoothly and without errors."
         ' 
         ' Label14
         ' 
-        Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label14.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label14.Location = New Global.System.Drawing.Point(161, 313)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New Global.System.Drawing.Size(367, 34)
-        Me.Label14.TabIndex = 15
-        Me.Label14.Text = "I keep up with the latest security best practices and make sure they are followed in the development process."
+        Label14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.ForeColor = Color.Black
+        Label14.Location = New Point(184, 417)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(419, 45)
+        Label14.TabIndex = 15
+        Label14.Text = "I keep up with the latest security best practices and make sure they are followed in the development process."
         ' 
         ' Label13
         ' 
-        Me.Label13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label13.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label13.Location = New Global.System.Drawing.Point(161, 278)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New Global.System.Drawing.Size(367, 26)
-        Me.Label13.TabIndex = 14
-        Me.Label13.Text = "I add security features to the code to protect it from potential attacks."
+        Label13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label13.ForeColor = Color.Black
+        Label13.Location = New Point(184, 371)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(419, 35)
+        Label13.TabIndex = 14
+        Label13.Text = "I add security features to the code to protect it from potential attacks."
         ' 
         ' Label12
         ' 
-        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label12.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label12.Location = New Global.System.Drawing.Point(161, 235)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New Global.System.Drawing.Size(367, 34)
-        Me.Label12.TabIndex = 13
-        Me.Label12.Text = "I test the software to make sure it works as expected and meets the needs of the user."
+        Label12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.ForeColor = Color.Black
+        Label12.Location = New Point(184, 313)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(419, 45)
+        Label12.TabIndex = 13
+        Label12.Text = "I test the software to make sure it works as expected and meets the needs of the user."
         ' 
         ' Label11
         ' 
-        Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label11.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label11.Location = New Global.System.Drawing.Point(161, 196)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New Global.System.Drawing.Size(367, 49)
-        Me.Label11.TabIndex = 12
-        Me.Label11.Text = "I checked the code that my teammates have written to make sure it follows the team's coding standards, best practices, and project requirements."
+        Label11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.ForeColor = Color.Black
+        Label11.Location = New Point(184, 261)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(419, 65)
+        Label11.TabIndex = 12
+        Label11.Text = "I checked the code that my teammates have written to make sure it follows the team's coding standards, best practices, and project requirements."
         ' 
         ' gbSD1
         ' 
-        Me.gbSD1.BackColor = Global.System.Drawing.Color.White
-        Me.gbSD1.BorderColor = Global.System.Drawing.Color.White
-        Me.gbSD1.Controls.Add(Me.rbNASD1)
-        Me.gbSD1.Controls.Add(Me.rbYesSD1)
-        Me.gbSD1.Controls.Add(Me.rbNoSD1)
-        Me.gbSD1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbSD1.CustomizableEdges = CustomizableEdges37
-        Me.gbSD1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbSD1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbSD1.Location = New Global.System.Drawing.Point(11, 40)
-        Me.gbSD1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbSD1.Name = "gbSD1"
-        Me.gbSD1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        Me.gbSD1.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbSD1.TabIndex = 6
+        gbSD1.BackColor = Color.White
+        gbSD1.BorderColor = Color.White
+        gbSD1.Controls.Add(rbNASD1)
+        gbSD1.Controls.Add(rbYesSD1)
+        gbSD1.Controls.Add(rbNoSD1)
+        gbSD1.CustomBorderColor = Color.White
+        gbSD1.CustomizableEdges = CustomizableEdges37
+        gbSD1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSD1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSD1.Location = New Point(13, 53)
+        gbSD1.Name = "gbSD1"
+        gbSD1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        gbSD1.Size = New Size(163, 35)
+        gbSD1.TabIndex = 6
         ' 
         ' rbNASD1
         ' 
-        Me.rbNASD1.AutoSize = True
-        Me.rbNASD1.BackColor = Global.System.Drawing.Color.White
-        Me.rbNASD1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNASD1.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNASD1.Location = New Global.System.Drawing.Point(95, 4)
-        Me.rbNASD1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNASD1.Name = "rbNASD1"
-        Me.rbNASD1.Size = New Global.System.Drawing.Size(44, 17)
-        Me.rbNASD1.TabIndex = 2
-        Me.rbNASD1.TabStop = True
-        Me.rbNASD1.Text = "N/A"
-        Me.rbNASD1.UseVisualStyleBackColor = False
+        rbNASD1.AutoSize = True
+        rbNASD1.BackColor = Color.White
+        rbNASD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASD1.ForeColor = Color.Black
+        rbNASD1.Location = New Point(109, 5)
+        rbNASD1.Name = "rbNASD1"
+        rbNASD1.Size = New Size(52, 21)
+        rbNASD1.TabIndex = 2
+        rbNASD1.TabStop = True
+        rbNASD1.Text = "N/A"
+        rbNASD1.UseVisualStyleBackColor = False
         ' 
         ' rbYesSD1
         ' 
-        Me.rbYesSD1.AutoSize = True
-        Me.rbYesSD1.BackColor = Global.System.Drawing.Color.White
-        Me.rbYesSD1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbYesSD1.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbYesSD1.Location = New Global.System.Drawing.Point(4, 4)
-        Me.rbYesSD1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbYesSD1.Name = "rbYesSD1"
-        Me.rbYesSD1.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbYesSD1.TabIndex = 0
-        Me.rbYesSD1.TabStop = True
-        Me.rbYesSD1.Text = "Yes"
-        Me.rbYesSD1.UseVisualStyleBackColor = False
+        rbYesSD1.AutoSize = True
+        rbYesSD1.BackColor = Color.White
+        rbYesSD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYesSD1.ForeColor = Color.Black
+        rbYesSD1.Location = New Point(5, 5)
+        rbYesSD1.Name = "rbYesSD1"
+        rbYesSD1.Size = New Size(48, 21)
+        rbYesSD1.TabIndex = 0
+        rbYesSD1.TabStop = True
+        rbYesSD1.Text = "Yes"
+        rbYesSD1.UseVisualStyleBackColor = False
         ' 
         ' rbNoSD1
         ' 
-        Me.rbNoSD1.AutoSize = True
-        Me.rbNoSD1.BackColor = Global.System.Drawing.Color.White
-        Me.rbNoSD1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.rbNoSD1.ForeColor = Global.System.Drawing.Color.Black
-        Me.rbNoSD1.Location = New Global.System.Drawing.Point(51, 4)
-        Me.rbNoSD1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbNoSD1.Name = "rbNoSD1"
-        Me.rbNoSD1.Size = New Global.System.Drawing.Size(40, 17)
-        Me.rbNoSD1.TabIndex = 1
-        Me.rbNoSD1.TabStop = True
-        Me.rbNoSD1.Text = "No"
-        Me.rbNoSD1.UseVisualStyleBackColor = False
+        rbNoSD1.AutoSize = True
+        rbNoSD1.BackColor = Color.White
+        rbNoSD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNoSD1.ForeColor = Color.Black
+        rbNoSD1.Location = New Point(58, 5)
+        rbNoSD1.Name = "rbNoSD1"
+        rbNoSD1.Size = New Size(47, 21)
+        rbNoSD1.TabIndex = 1
+        rbNoSD1.TabStop = True
+        rbNoSD1.Text = "No"
+        rbNoSD1.UseVisualStyleBackColor = False
         ' 
         ' Label10
         ' 
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New Global.System.Drawing.Point(8, 631)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label10.TabIndex = 2
-        Me.Label10.Text = "                       "
+        Label10.AutoSize = True
+        Label10.Location = New Point(9, 841)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(101, 20)
+        Label10.TabIndex = 2
+        Label10.Text = "                       "
         ' 
         ' Label6
         ' 
-        Me.Label6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label6.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label6.Location = New Global.System.Drawing.Point(161, 40)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New Global.System.Drawing.Size(359, 33)
-        Me.Label6.TabIndex = 1
-        Me.Label6.Text = "I write, test, and maintain code that meets the needs of the project and follows the team's coding standards."
+        Label6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.ForeColor = Color.Black
+        Label6.Location = New Point(184, 53)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(410, 44)
+        Label6.TabIndex = 1
+        Label6.Text = "I write, test, and maintain code that meets the needs of the project and follows the team's coding standards."
         ' 
         ' Label7
         ' 
-        Me.Label7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label7.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label7.Location = New Global.System.Drawing.Point(161, 79)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label7.TabIndex = 5
-        Me.Label7.Text = "I use a variety of programming languages, frameworks, and tools to build software applications and systems."
+        Label7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.ForeColor = Color.Black
+        Label7.Location = New Point(184, 105)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(407, 43)
+        Label7.TabIndex = 5
+        Label7.Text = "I use a variety of programming languages, frameworks, and tools to build software applications and systems."
         ' 
         ' Label9
         ' 
-        Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label9.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label9.Location = New Global.System.Drawing.Point(161, 157)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label9.TabIndex = 11
-        Me.Label9.Text = "I use debugging tools and techniques to figure out what's wrong with the code and how to fix it."
+        Label9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.ForeColor = Color.Black
+        Label9.Location = New Point(184, 209)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(407, 43)
+        Label9.TabIndex = 11
+        Label9.Text = "I use debugging tools and techniques to figure out what's wrong with the code and how to fix it."
         ' 
         ' Label8
         ' 
-        Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label8.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label8.Location = New Global.System.Drawing.Point(161, 124)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New Global.System.Drawing.Size(368, 26)
-        Me.Label8.TabIndex = 8
-        Me.Label8.Text = "I find and fix bugs, errors, and performance problems in the software."
+        Label8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.ForeColor = Color.Black
+        Label8.Location = New Point(184, 165)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(421, 35)
+        Label8.TabIndex = 8
+        Label8.Text = "I find and fix bugs, errors, and performance problems in the software."
         ' 
         ' txtSoftwareDevelopment
         ' 
-        Me.txtSoftwareDevelopment.CustomizableEdges = CustomizableEdges39
-        Me.txtSoftwareDevelopment.DefaultText = ""
-        Me.txtSoftwareDevelopment.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSoftwareDevelopment.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSoftwareDevelopment.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSoftwareDevelopment.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSoftwareDevelopment.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSoftwareDevelopment.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSoftwareDevelopment.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSoftwareDevelopment.Location = New Global.System.Drawing.Point(540, 40)
-        Me.txtSoftwareDevelopment.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSoftwareDevelopment.Multiline = True
-        Me.txtSoftwareDevelopment.Name = "txtSoftwareDevelopment"
-        Me.txtSoftwareDevelopment.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSoftwareDevelopment.PlaceholderText = ""
-        Me.txtSoftwareDevelopment.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSoftwareDevelopment.SelectedText = ""
-        Me.txtSoftwareDevelopment.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        Me.txtSoftwareDevelopment.Size = New Global.System.Drawing.Size(200, 582)
-        Me.txtSoftwareDevelopment.TabIndex = 4
+        txtSoftwareDevelopment.CustomizableEdges = CustomizableEdges39
+        txtSoftwareDevelopment.DefaultText = ""
+        txtSoftwareDevelopment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSoftwareDevelopment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSoftwareDevelopment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSoftwareDevelopment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSoftwareDevelopment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSoftwareDevelopment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSoftwareDevelopment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSoftwareDevelopment.Location = New Point(617, 53)
+        txtSoftwareDevelopment.Multiline = True
+        txtSoftwareDevelopment.Name = "txtSoftwareDevelopment"
+        txtSoftwareDevelopment.PasswordChar = ChrW(0)
+        txtSoftwareDevelopment.PlaceholderText = ""
+        txtSoftwareDevelopment.ScrollBars = ScrollBars.Vertical
+        txtSoftwareDevelopment.SelectedText = ""
+        txtSoftwareDevelopment.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        txtSoftwareDevelopment.Size = New Size(229, 776)
+        txtSoftwareDevelopment.TabIndex = 4
+        ' 
+        ' Guna2vScrollBar1
+        ' 
+        Guna2vScrollBar1.Dock = DockStyle.Right
+        Guna2vScrollBar1.InUpdate = False
+        Guna2vScrollBar1.LargeChange = 50
+        Guna2vScrollBar1.Location = New Point(858, 40)
+        Guna2vScrollBar1.Maximum = 280
+        Guna2vScrollBar1.Name = "Guna2vScrollBar1"
+        Guna2vScrollBar1.ScrollbarSize = 22
+        Guna2vScrollBar1.Size = New Size(22, 943)
+        Guna2vScrollBar1.TabIndex = 0
         ' 
         ' gbPage2
         ' 
-        Me.gbPage2.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage2.Controls.Add(Me.Guna2vScrollBar2)
-        Me.gbPage2.Controls.Add(Me.Guna2Panel1)
-        Me.gbPage2.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage2.CustomizableEdges = CustomizableEdges75
-        Me.gbPage2.Enabled = False
-        Me.gbPage2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage2.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage2.Location = New Global.System.Drawing.Point(806, 69)
-        Me.gbPage2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage2.Name = "gbPage2"
-        Me.gbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges76
-        Me.gbPage2.Size = New Global.System.Drawing.Size(770, 707)
-        Me.gbPage2.TabIndex = 34
-        ' 
-        ' gbPage3
-        ' 
-        Me.gbPage3.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage3.Controls.Add(Me.Guna2vScrollBar3)
-        Me.gbPage3.Controls.Add(Me.Guna2Panel2)
-        Me.gbPage3.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage3.CustomizableEdges = CustomizableEdges103
-        Me.gbPage3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage3.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage3.Location = New Global.System.Drawing.Point(15, 67)
-        Me.gbPage3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage3.Name = "gbPage3"
-        Me.gbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges104
-        Me.gbPage3.Size = New Global.System.Drawing.Size(770, 707)
-        Me.gbPage3.TabIndex = 4
-        ' 
-        ' Guna2vScrollBar3
-        ' 
-        Me.Guna2vScrollBar3.Dock = Global.System.Windows.Forms.DockStyle.Right
-        Me.Guna2vScrollBar3.InUpdate = False
-        Me.Guna2vScrollBar3.LargeChange = 50
-        Me.Guna2vScrollBar3.Location = New Global.System.Drawing.Point(751, 40)
-        Me.Guna2vScrollBar3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2vScrollBar3.Maximum = 280
-        Me.Guna2vScrollBar3.Name = "Guna2vScrollBar3"
-        Me.Guna2vScrollBar3.ScrollbarSize = 19
-        Me.Guna2vScrollBar3.Size = New Global.System.Drawing.Size(19, 667)
-        Me.Guna2vScrollBar3.TabIndex = 0
-        ' 
-        ' Guna2Panel2
-        ' 
-        Me.Guna2Panel2.AutoScroll = True
-        Me.Guna2Panel2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel2.Controls.Add(Me.gbP7)
-        Me.Guna2Panel2.Controls.Add(Me.gbP6)
-        Me.Guna2Panel2.Controls.Add(Me.Label36)
-        Me.Guna2Panel2.Controls.Add(Me.gbP3)
-        Me.Guna2Panel2.Controls.Add(Me.gbP5)
-        Me.Guna2Panel2.Controls.Add(Me.gbCL3)
-        Me.Guna2Panel2.Controls.Add(Me.Label37)
-        Me.Guna2Panel2.Controls.Add(Me.gbP4)
-        Me.Guna2Panel2.Controls.Add(Me.gbP2)
-        Me.Guna2Panel2.Controls.Add(Me.Label38)
-        Me.Guna2Panel2.Controls.Add(Me.gbCL2)
-        Me.Guna2Panel2.Controls.Add(Me.Label39)
-        Me.Guna2Panel2.Controls.Add(Me.Label40)
-        Me.Guna2Panel2.Controls.Add(Me.Label41)
-        Me.Guna2Panel2.Controls.Add(Me.gbP1)
-        Me.Guna2Panel2.Controls.Add(Me.gbCL1)
-        Me.Guna2Panel2.Controls.Add(Me.Label42)
-        Me.Guna2Panel2.Controls.Add(Me.Label43)
-        Me.Guna2Panel2.Controls.Add(Me.Label44)
-        Me.Guna2Panel2.Controls.Add(Me.Label45)
-        Me.Guna2Panel2.Controls.Add(Me.Label46)
-        Me.Guna2Panel2.Controls.Add(Me.Label47)
-        Me.Guna2Panel2.Controls.Add(Me.txtProfessionalism)
-        Me.Guna2Panel2.Controls.Add(Me.txtContinuousLearnin)
-        Me.Guna2Panel2.CustomizableEdges = CustomizableEdges101
-        Me.Guna2Panel2.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel2.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges102
-        Me.Guna2Panel2.Size = New Global.System.Drawing.Size(770, 667)
-        Me.Guna2Panel2.TabIndex = 3
-        ' 
-        ' gbP7
-        ' 
-        Me.gbP7.BackColor = Global.System.Drawing.Color.White
-        Me.gbP7.BorderColor = Global.System.Drawing.Color.White
-        Me.gbP7.Controls.Add(Me.RadioButton73)
-        Me.gbP7.Controls.Add(Me.RadioButton74)
-        Me.gbP7.Controls.Add(Me.RadioButton75)
-        Me.gbP7.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP7.CustomizableEdges = CustomizableEdges77
-        Me.gbP7.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP7.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP7.Location = New Global.System.Drawing.Point(17, 493)
-        Me.gbP7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP7.Name = "gbP7"
-        Me.gbP7.ShadowDecoration.CustomizableEdges = CustomizableEdges78
-        Me.gbP7.Size = New Global.System.Drawing.Size(143, 41)
-        Me.gbP7.TabIndex = 9
-        ' 
-        ' RadioButton73
-        ' 
-        Me.RadioButton73.AutoSize = True
-        Me.RadioButton73.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton73.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton73.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton73.Location = New Global.System.Drawing.Point(94, 13)
-        Me.RadioButton73.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton73.Name = "RadioButton73"
-        Me.RadioButton73.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton73.TabIndex = 2
-        Me.RadioButton73.TabStop = True
-        Me.RadioButton73.Text = "N/A"
-        Me.RadioButton73.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton74
-        ' 
-        Me.RadioButton74.AutoSize = True
-        Me.RadioButton74.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton74.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton74.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton74.Location = New Global.System.Drawing.Point(3, 13)
-        Me.RadioButton74.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton74.Name = "RadioButton74"
-        Me.RadioButton74.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton74.TabIndex = 0
-        Me.RadioButton74.TabStop = True
-        Me.RadioButton74.Text = "Yes"
-        Me.RadioButton74.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton75
-        ' 
-        Me.RadioButton75.AutoSize = True
-        Me.RadioButton75.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton75.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton75.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton75.Location = New Global.System.Drawing.Point(49, 13)
-        Me.RadioButton75.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton75.Name = "RadioButton75"
-        Me.RadioButton75.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton75.TabIndex = 1
-        Me.RadioButton75.TabStop = True
-        Me.RadioButton75.Text = "No"
-        Me.RadioButton75.UseVisualStyleBackColor = False
-        ' 
-        ' gbP6
-        ' 
-        Me.gbP6.BackColor = Global.System.Drawing.Color.White
-        Me.gbP6.BorderColor = Global.System.Drawing.Color.White
-        Me.gbP6.Controls.Add(Me.RadioButton76)
-        Me.gbP6.Controls.Add(Me.RadioButton77)
-        Me.gbP6.Controls.Add(Me.RadioButton78)
-        Me.gbP6.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP6.CustomizableEdges = CustomizableEdges79
-        Me.gbP6.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP6.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP6.Location = New Global.System.Drawing.Point(17, 435)
-        Me.gbP6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP6.Name = "gbP6"
-        Me.gbP6.ShadowDecoration.CustomizableEdges = CustomizableEdges80
-        Me.gbP6.Size = New Global.System.Drawing.Size(143, 41)
-        Me.gbP6.TabIndex = 25
-        ' 
-        ' RadioButton76
-        ' 
-        Me.RadioButton76.AutoSize = True
-        Me.RadioButton76.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton76.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton76.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton76.Location = New Global.System.Drawing.Point(94, 13)
-        Me.RadioButton76.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton76.Name = "RadioButton76"
-        Me.RadioButton76.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton76.TabIndex = 2
-        Me.RadioButton76.TabStop = True
-        Me.RadioButton76.Text = "N/A"
-        Me.RadioButton76.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton77
-        ' 
-        Me.RadioButton77.AutoSize = True
-        Me.RadioButton77.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton77.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton77.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton77.Location = New Global.System.Drawing.Point(3, 13)
-        Me.RadioButton77.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton77.Name = "RadioButton77"
-        Me.RadioButton77.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton77.TabIndex = 0
-        Me.RadioButton77.TabStop = True
-        Me.RadioButton77.Text = "Yes"
-        Me.RadioButton77.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton78
-        ' 
-        Me.RadioButton78.AutoSize = True
-        Me.RadioButton78.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton78.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton78.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton78.Location = New Global.System.Drawing.Point(49, 13)
-        Me.RadioButton78.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton78.Name = "RadioButton78"
-        Me.RadioButton78.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton78.TabIndex = 1
-        Me.RadioButton78.TabStop = True
-        Me.RadioButton78.Text = "No"
-        Me.RadioButton78.UseVisualStyleBackColor = False
-        ' 
-        ' Label36
-        ' 
-        Me.Label36.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label36.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label36.Location = New Global.System.Drawing.Point(166, 493)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New Global.System.Drawing.Size(359, 41)
-        Me.Label36.TabIndex = 24
-        Me.Label36.Text = "I strive to be a professional software engineer by not only developing my technical skills, but also by communicating effectively, working well with others, and behaving ethically."
-        ' 
-        ' gbP3
-        ' 
-        Me.gbP3.BackColor = Global.System.Drawing.Color.White
-        Me.gbP3.BorderColor = Global.System.Drawing.Color.White
-        Me.gbP3.Controls.Add(Me.RadioButton79)
-        Me.gbP3.Controls.Add(Me.RadioButton80)
-        Me.gbP3.Controls.Add(Me.RadioButton81)
-        Me.gbP3.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP3.CustomizableEdges = CustomizableEdges81
-        Me.gbP3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP3.Location = New Global.System.Drawing.Point(17, 316)
-        Me.gbP3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP3.Name = "gbP3"
-        Me.gbP3.ShadowDecoration.CustomizableEdges = CustomizableEdges82
-        Me.gbP3.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbP3.TabIndex = 17
-        ' 
-        ' RadioButton79
-        ' 
-        Me.RadioButton79.AutoSize = True
-        Me.RadioButton79.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton79.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton79.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton79.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton79.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton79.Name = "RadioButton79"
-        Me.RadioButton79.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton79.TabIndex = 2
-        Me.RadioButton79.TabStop = True
-        Me.RadioButton79.Text = "N/A"
-        Me.RadioButton79.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton80
-        ' 
-        Me.RadioButton80.AutoSize = True
-        Me.RadioButton80.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton80.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton80.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton80.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton80.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton80.Name = "RadioButton80"
-        Me.RadioButton80.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton80.TabIndex = 0
-        Me.RadioButton80.TabStop = True
-        Me.RadioButton80.Text = "Yes"
-        Me.RadioButton80.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton81
-        ' 
-        Me.RadioButton81.AutoSize = True
-        Me.RadioButton81.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton81.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton81.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton81.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton81.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton81.Name = "RadioButton81"
-        Me.RadioButton81.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton81.TabIndex = 1
-        Me.RadioButton81.TabStop = True
-        Me.RadioButton81.Text = "No"
-        Me.RadioButton81.UseVisualStyleBackColor = False
-        ' 
-        ' gbP5
-        ' 
-        Me.gbP5.BackColor = Global.System.Drawing.Color.White
-        Me.gbP5.BorderColor = Global.System.Drawing.Color.White
-        Me.gbP5.Controls.Add(Me.RadioButton82)
-        Me.gbP5.Controls.Add(Me.RadioButton83)
-        Me.gbP5.Controls.Add(Me.RadioButton84)
-        Me.gbP5.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP5.CustomizableEdges = CustomizableEdges83
-        Me.gbP5.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP5.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP5.Location = New Global.System.Drawing.Point(17, 394)
-        Me.gbP5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP5.Name = "gbP5"
-        Me.gbP5.ShadowDecoration.CustomizableEdges = CustomizableEdges84
-        Me.gbP5.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbP5.TabIndex = 21
-        ' 
-        ' RadioButton82
-        ' 
-        Me.RadioButton82.AutoSize = True
-        Me.RadioButton82.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton82.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton82.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton82.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton82.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton82.Name = "RadioButton82"
-        Me.RadioButton82.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton82.TabIndex = 2
-        Me.RadioButton82.TabStop = True
-        Me.RadioButton82.Text = "N/A"
-        Me.RadioButton82.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton83
-        ' 
-        Me.RadioButton83.AutoSize = True
-        Me.RadioButton83.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton83.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton83.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton83.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton83.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton83.Name = "RadioButton83"
-        Me.RadioButton83.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton83.TabIndex = 0
-        Me.RadioButton83.TabStop = True
-        Me.RadioButton83.Text = "Yes"
-        Me.RadioButton83.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton84
-        ' 
-        Me.RadioButton84.AutoSize = True
-        Me.RadioButton84.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton84.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton84.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton84.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton84.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton84.Name = "RadioButton84"
-        Me.RadioButton84.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton84.TabIndex = 1
-        Me.RadioButton84.TabStop = True
-        Me.RadioButton84.Text = "No"
-        Me.RadioButton84.UseVisualStyleBackColor = False
-        ' 
-        ' gbCL3
-        ' 
-        Me.gbCL3.BackColor = Global.System.Drawing.Color.White
-        Me.gbCL3.BorderColor = Global.System.Drawing.Color.White
-        Me.gbCL3.Controls.Add(Me.RadioButton85)
-        Me.gbCL3.Controls.Add(Me.RadioButton86)
-        Me.gbCL3.Controls.Add(Me.RadioButton87)
-        Me.gbCL3.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbCL3.CustomizableEdges = CustomizableEdges85
-        Me.gbCL3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbCL3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbCL3.Location = New Global.System.Drawing.Point(17, 130)
-        Me.gbCL3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbCL3.Name = "gbCL3"
-        Me.gbCL3.ShadowDecoration.CustomizableEdges = CustomizableEdges86
-        Me.gbCL3.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbCL3.TabIndex = 9
-        ' 
-        ' RadioButton85
-        ' 
-        Me.RadioButton85.AutoSize = True
-        Me.RadioButton85.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton85.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton85.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton85.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton85.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton85.Name = "RadioButton85"
-        Me.RadioButton85.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton85.TabIndex = 2
-        Me.RadioButton85.TabStop = True
-        Me.RadioButton85.Text = "N/A"
-        Me.RadioButton85.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton86
-        ' 
-        Me.RadioButton86.AutoSize = True
-        Me.RadioButton86.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton86.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton86.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton86.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton86.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton86.Name = "RadioButton86"
-        Me.RadioButton86.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton86.TabIndex = 0
-        Me.RadioButton86.TabStop = True
-        Me.RadioButton86.Text = "Yes"
-        Me.RadioButton86.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton87
-        ' 
-        Me.RadioButton87.AutoSize = True
-        Me.RadioButton87.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton87.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton87.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton87.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton87.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton87.Name = "RadioButton87"
-        Me.RadioButton87.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton87.TabIndex = 1
-        Me.RadioButton87.TabStop = True
-        Me.RadioButton87.Text = "No"
-        Me.RadioButton87.UseVisualStyleBackColor = False
-        ' 
-        ' Label37
-        ' 
-        Me.Label37.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label37.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label37.Location = New Global.System.Drawing.Point(166, 435)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New Global.System.Drawing.Size(359, 40)
-        Me.Label37.TabIndex = 22
-        Me.Label37.Text = "I make sure that I follow all software development processes, including time tracking in Jira, and comply with all relevant laws, industry-specific regulations, and organizational policies."
-        ' 
-        ' gbP4
-        ' 
-        Me.gbP4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP4.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP4.Controls.Add(Me.RadioButton88)
-        Me.gbP4.Controls.Add(Me.RadioButton89)
-        Me.gbP4.Controls.Add(Me.RadioButton90)
-        Me.gbP4.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP4.CustomizableEdges = CustomizableEdges87
-        Me.gbP4.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP4.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP4.Location = New Global.System.Drawing.Point(17, 355)
-        Me.gbP4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP4.Name = "gbP4"
-        Me.gbP4.ShadowDecoration.CustomizableEdges = CustomizableEdges88
-        Me.gbP4.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbP4.TabIndex = 20
-        ' 
-        ' RadioButton88
-        ' 
-        Me.RadioButton88.AutoSize = True
-        Me.RadioButton88.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton88.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton88.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton88.Location = New Global.System.Drawing.Point(95, 4)
-        Me.RadioButton88.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton88.Name = "RadioButton88"
-        Me.RadioButton88.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton88.TabIndex = 2
-        Me.RadioButton88.TabStop = True
-        Me.RadioButton88.Text = "N/A"
-        Me.RadioButton88.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton89
-        ' 
-        Me.RadioButton89.AutoSize = True
-        Me.RadioButton89.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton89.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton89.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton89.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton89.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton89.Name = "RadioButton89"
-        Me.RadioButton89.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton89.TabIndex = 0
-        Me.RadioButton89.TabStop = True
-        Me.RadioButton89.Text = "Yes"
-        Me.RadioButton89.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton90
-        ' 
-        Me.RadioButton90.AutoSize = True
-        Me.RadioButton90.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton90.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton90.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton90.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton90.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton90.Name = "RadioButton90"
-        Me.RadioButton90.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton90.TabIndex = 1
-        Me.RadioButton90.TabStop = True
-        Me.RadioButton90.Text = "No"
-        Me.RadioButton90.UseVisualStyleBackColor = False
-        ' 
-        ' gbP2
-        ' 
-        Me.gbP2.BackColor = Global.System.Drawing.Color.White
-        Me.gbP2.BorderColor = Global.System.Drawing.Color.White
-        Me.gbP2.Controls.Add(Me.RadioButton91)
-        Me.gbP2.Controls.Add(Me.RadioButton92)
-        Me.gbP2.Controls.Add(Me.RadioButton93)
-        Me.gbP2.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP2.CustomizableEdges = CustomizableEdges89
-        Me.gbP2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP2.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP2.Location = New Global.System.Drawing.Point(17, 275)
-        Me.gbP2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP2.Name = "gbP2"
-        Me.gbP2.ShadowDecoration.CustomizableEdges = CustomizableEdges90
-        Me.gbP2.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbP2.TabIndex = 15
-        ' 
-        ' RadioButton91
-        ' 
-        Me.RadioButton91.AutoSize = True
-        Me.RadioButton91.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton91.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton91.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton91.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton91.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton91.Name = "RadioButton91"
-        Me.RadioButton91.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton91.TabIndex = 2
-        Me.RadioButton91.TabStop = True
-        Me.RadioButton91.Text = "N/A"
-        Me.RadioButton91.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton92
-        ' 
-        Me.RadioButton92.AutoSize = True
-        Me.RadioButton92.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton92.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton92.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton92.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton92.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton92.Name = "RadioButton92"
-        Me.RadioButton92.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton92.TabIndex = 0
-        Me.RadioButton92.TabStop = True
-        Me.RadioButton92.Text = "Yes"
-        Me.RadioButton92.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton93
-        ' 
-        Me.RadioButton93.AutoSize = True
-        Me.RadioButton93.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton93.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton93.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton93.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton93.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton93.Name = "RadioButton93"
-        Me.RadioButton93.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton93.TabIndex = 1
-        Me.RadioButton93.TabStop = True
-        Me.RadioButton93.Text = "No"
-        Me.RadioButton93.UseVisualStyleBackColor = False
-        ' 
-        ' Label38
-        ' 
-        Me.Label38.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label38.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label38.Location = New Global.System.Drawing.Point(166, 355)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New Global.System.Drawing.Size(359, 33)
-        Me.Label38.TabIndex = 18
-        Me.Label38.Text = "I take care of my physical and mental health so that I can be productive at work."
-        ' 
-        ' gbCL2
-        ' 
-        Me.gbCL2.BackColor = Global.System.Drawing.Color.White
-        Me.gbCL2.BorderColor = Global.System.Drawing.Color.White
-        Me.gbCL2.Controls.Add(Me.RadioButton94)
-        Me.gbCL2.Controls.Add(Me.RadioButton95)
-        Me.gbCL2.Controls.Add(Me.RadioButton96)
-        Me.gbCL2.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbCL2.CustomizableEdges = CustomizableEdges91
-        Me.gbCL2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbCL2.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbCL2.Location = New Global.System.Drawing.Point(17, 89)
-        Me.gbCL2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbCL2.Name = "gbCL2"
-        Me.gbCL2.ShadowDecoration.CustomizableEdges = CustomizableEdges92
-        Me.gbCL2.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbCL2.TabIndex = 7
-        ' 
-        ' RadioButton94
-        ' 
-        Me.RadioButton94.AutoSize = True
-        Me.RadioButton94.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton94.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton94.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton94.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton94.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton94.Name = "RadioButton94"
-        Me.RadioButton94.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton94.TabIndex = 2
-        Me.RadioButton94.TabStop = True
-        Me.RadioButton94.Text = "N/A"
-        Me.RadioButton94.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton95
-        ' 
-        Me.RadioButton95.AutoSize = True
-        Me.RadioButton95.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton95.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton95.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton95.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton95.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton95.Name = "RadioButton95"
-        Me.RadioButton95.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton95.TabIndex = 0
-        Me.RadioButton95.TabStop = True
-        Me.RadioButton95.Text = "Yes"
-        Me.RadioButton95.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton96
-        ' 
-        Me.RadioButton96.AutoSize = True
-        Me.RadioButton96.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton96.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton96.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton96.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton96.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton96.Name = "RadioButton96"
-        Me.RadioButton96.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton96.TabIndex = 1
-        Me.RadioButton96.TabStop = True
-        Me.RadioButton96.Text = "No"
-        Me.RadioButton96.UseVisualStyleBackColor = False
-        ' 
-        ' Label39
-        ' 
-        Me.Label39.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label39.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label39.Location = New Global.System.Drawing.Point(166, 394)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label39.TabIndex = 19
-        Me.Label39.Text = "I work on my time management skills so that I can be more efficient and reduce the need to work overtime."
-        ' 
-        ' Label40
-        ' 
-        Me.Label40.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label40.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label40.Location = New Global.System.Drawing.Point(166, 321)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New Global.System.Drawing.Size(359, 26)
-        Me.Label40.TabIndex = 16
-        Me.Label40.Text = "I let my team know if I will be late or unable to attend a meeting."
-        ' 
-        ' Label41
-        ' 
-        Me.Label41.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label41.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label41.Location = New Global.System.Drawing.Point(166, 130)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New Global.System.Drawing.Size(359, 32)
-        Me.Label41.TabIndex = 8
-        Me.Label41.Text = "I collaborate effectively with my team members and other stakeholders to achieve our common goals."
-        ' 
-        ' gbP1
-        ' 
-        Me.gbP1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP1.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP1.Controls.Add(Me.RadioButton97)
-        Me.gbP1.Controls.Add(Me.RadioButton98)
-        Me.gbP1.Controls.Add(Me.RadioButton99)
-        Me.gbP1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbP1.CustomizableEdges = CustomizableEdges93
-        Me.gbP1.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbP1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbP1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbP1.Location = New Global.System.Drawing.Point(17, 236)
-        Me.gbP1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbP1.Name = "gbP1"
-        Me.gbP1.ShadowDecoration.CustomizableEdges = CustomizableEdges94
-        Me.gbP1.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbP1.TabIndex = 14
-        ' 
-        ' RadioButton97
-        ' 
-        Me.RadioButton97.AutoSize = True
-        Me.RadioButton97.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton97.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton97.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton97.Location = New Global.System.Drawing.Point(95, 4)
-        Me.RadioButton97.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton97.Name = "RadioButton97"
-        Me.RadioButton97.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton97.TabIndex = 2
-        Me.RadioButton97.TabStop = True
-        Me.RadioButton97.Text = "N/A"
-        Me.RadioButton97.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton98
-        ' 
-        Me.RadioButton98.AutoSize = True
-        Me.RadioButton98.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton98.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton98.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton98.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton98.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton98.Name = "RadioButton98"
-        Me.RadioButton98.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton98.TabIndex = 0
-        Me.RadioButton98.TabStop = True
-        Me.RadioButton98.Text = "Yes"
-        Me.RadioButton98.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton99
-        ' 
-        Me.RadioButton99.AutoSize = True
-        Me.RadioButton99.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton99.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton99.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton99.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton99.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton99.Name = "RadioButton99"
-        Me.RadioButton99.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton99.TabIndex = 1
-        Me.RadioButton99.TabStop = True
-        Me.RadioButton99.Text = "No"
-        Me.RadioButton99.UseVisualStyleBackColor = False
-        ' 
-        ' gbCL1
-        ' 
-        Me.gbCL1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbCL1.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbCL1.Controls.Add(Me.RadioButton100)
-        Me.gbCL1.Controls.Add(Me.RadioButton101)
-        Me.gbCL1.Controls.Add(Me.RadioButton102)
-        Me.gbCL1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbCL1.CustomizableEdges = CustomizableEdges95
-        Me.gbCL1.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.gbCL1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbCL1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.gbCL1.Location = New Global.System.Drawing.Point(17, 50)
-        Me.gbCL1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbCL1.Name = "gbCL1"
-        Me.gbCL1.ShadowDecoration.CustomizableEdges = CustomizableEdges96
-        Me.gbCL1.Size = New Global.System.Drawing.Size(143, 26)
-        Me.gbCL1.TabIndex = 6
-        ' 
-        ' RadioButton100
-        ' 
-        Me.RadioButton100.AutoSize = True
-        Me.RadioButton100.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton100.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton100.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton100.Location = New Global.System.Drawing.Point(95, 4)
-        Me.RadioButton100.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton100.Name = "RadioButton100"
-        Me.RadioButton100.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton100.TabIndex = 2
-        Me.RadioButton100.TabStop = True
-        Me.RadioButton100.Text = "N/A"
-        Me.RadioButton100.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton101
-        ' 
-        Me.RadioButton101.AutoSize = True
-        Me.RadioButton101.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton101.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton101.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton101.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton101.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton101.Name = "RadioButton101"
-        Me.RadioButton101.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton101.TabIndex = 0
-        Me.RadioButton101.TabStop = True
-        Me.RadioButton101.Text = "Yes"
-        Me.RadioButton101.UseVisualStyleBackColor = False
-        ' 
-        ' RadioButton102
-        ' 
-        Me.RadioButton102.AutoSize = True
-        Me.RadioButton102.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton102.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton102.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton102.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton102.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton102.Name = "RadioButton102"
-        Me.RadioButton102.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton102.TabIndex = 1
-        Me.RadioButton102.TabStop = True
-        Me.RadioButton102.Text = "No"
-        Me.RadioButton102.UseVisualStyleBackColor = False
-        ' 
-        ' Label42
-        ' 
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label42.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label42.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label42.Location = New Global.System.Drawing.Point(23, 212)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New Global.System.Drawing.Size(145, 20)
-        Me.Label42.TabIndex = 10
-        Me.Label42.Text = "PROFESSIONALISM"
-        ' 
-        ' Label43
-        ' 
-        Me.Label43.AutoSize = True
-        Me.Label43.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label43.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label43.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label43.Location = New Global.System.Drawing.Point(23, 26)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New Global.System.Drawing.Size(189, 20)
-        Me.Label43.TabIndex = 0
-        Me.Label43.Text = "CONTINUOUS LEARNING"
-        ' 
-        ' Label44
-        ' 
-        Me.Label44.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label44.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label44.Location = New Global.System.Drawing.Point(166, 236)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New Global.System.Drawing.Size(359, 33)
-        Me.Label44.TabIndex = 11
-        Me.Label44.Text = "I communicate effectively, both verbally and in writing. I convey my ideas clearly and concisely."
-        ' 
-        ' Label45
-        ' 
-        Me.Label45.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label45.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label45.Location = New Global.System.Drawing.Point(166, 50)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New Global.System.Drawing.Size(359, 33)
-        Me.Label45.TabIndex = 1
-        Me.Label45.Text = "I keep up with the latest trends and best practices in software development."
-        ' 
-        ' Label46
-        ' 
-        Me.Label46.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label46.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label46.Location = New Global.System.Drawing.Point(166, 280)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New Global.System.Drawing.Size(356, 20)
-        Me.Label46.TabIndex = 13
-        Me.Label46.Text = "I maintain a positive and professional attitude in the workplace."
-        ' 
-        ' Label47
-        ' 
-        Me.Label47.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label47.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label47.Location = New Global.System.Drawing.Point(166, 89)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label47.TabIndex = 5
-        Me.Label47.Text = "I am committed to continuous learning and development. I actively seek out and participate in training and development opportunities."
-        ' 
-        ' txtProfessionalism
-        ' 
-        Me.txtProfessionalism.CustomizableEdges = CustomizableEdges97
-        Me.txtProfessionalism.DefaultText = ""
-        Me.txtProfessionalism.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtProfessionalism.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtProfessionalism.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtProfessionalism.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtProfessionalism.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtProfessionalism.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtProfessionalism.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtProfessionalism.Location = New Global.System.Drawing.Point(541, 210)
-        Me.txtProfessionalism.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtProfessionalism.Multiline = True
-        Me.txtProfessionalism.Name = "txtProfessionalism"
-        Me.txtProfessionalism.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtProfessionalism.PlaceholderText = ""
-        Me.txtProfessionalism.SelectedText = ""
-        Me.txtProfessionalism.ShadowDecoration.CustomizableEdges = CustomizableEdges98
-        Me.txtProfessionalism.Size = New Global.System.Drawing.Size(200, 330)
-        Me.txtProfessionalism.TabIndex = 12
-        ' 
-        ' txtContinuousLearnin
-        ' 
-        Me.txtContinuousLearnin.CustomizableEdges = CustomizableEdges99
-        Me.txtContinuousLearnin.DefaultText = ""
-        Me.txtContinuousLearnin.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtContinuousLearnin.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtContinuousLearnin.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtContinuousLearnin.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtContinuousLearnin.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtContinuousLearnin.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtContinuousLearnin.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtContinuousLearnin.Location = New Global.System.Drawing.Point(541, 24)
-        Me.txtContinuousLearnin.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtContinuousLearnin.Multiline = True
-        Me.txtContinuousLearnin.Name = "txtContinuousLearnin"
-        Me.txtContinuousLearnin.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtContinuousLearnin.PlaceholderText = ""
-        Me.txtContinuousLearnin.SelectedText = ""
-        Me.txtContinuousLearnin.ShadowDecoration.CustomizableEdges = CustomizableEdges100
-        Me.txtContinuousLearnin.Size = New Global.System.Drawing.Size(200, 139)
-        Me.txtContinuousLearnin.TabIndex = 4
+        gbPage2.BorderColor = Color.White
+        gbPage2.Controls.Add(Guna2vScrollBar2)
+        gbPage2.Controls.Add(Guna2Panel1)
+        gbPage2.CustomBorderColor = Color.White
+        gbPage2.CustomizableEdges = CustomizableEdges75
+        gbPage2.Enabled = False
+        gbPage2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage2.ForeColor = Color.White
+        gbPage2.Location = New Point(918, 89)
+        gbPage2.Name = "gbPage2"
+        gbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges76
+        gbPage2.Size = New Size(880, 943)
+        gbPage2.TabIndex = 34
         ' 
         ' Guna2vScrollBar2
         ' 
-        Me.Guna2vScrollBar2.Dock = Global.System.Windows.Forms.DockStyle.Right
-        Me.Guna2vScrollBar2.InUpdate = False
-        Me.Guna2vScrollBar2.LargeChange = 50
-        Me.Guna2vScrollBar2.Location = New Global.System.Drawing.Point(751, 40)
-        Me.Guna2vScrollBar2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2vScrollBar2.Maximum = 280
-        Me.Guna2vScrollBar2.Name = "Guna2vScrollBar2"
-        Me.Guna2vScrollBar2.ScrollbarSize = 19
-        Me.Guna2vScrollBar2.Size = New Global.System.Drawing.Size(19, 667)
-        Me.Guna2vScrollBar2.TabIndex = 0
+        Guna2vScrollBar2.Dock = DockStyle.Right
+        Guna2vScrollBar2.InUpdate = False
+        Guna2vScrollBar2.LargeChange = 50
+        Guna2vScrollBar2.Location = New Point(858, 40)
+        Guna2vScrollBar2.Maximum = 280
+        Guna2vScrollBar2.Name = "Guna2vScrollBar2"
+        Guna2vScrollBar2.ScrollbarSize = 22
+        Guna2vScrollBar2.Size = New Size(22, 903)
+        Guna2vScrollBar2.TabIndex = 0
         ' 
         ' Guna2Panel1
         ' 
-        Me.Guna2Panel1.AutoScroll = True
-        Me.Guna2Panel1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel1.Controls.Add(Me.Guna2TextBox4)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox19)
-        Me.Guna2Panel1.Controls.Add(Me.Label22)
-        Me.Guna2Panel1.Controls.Add(Me.Label23)
-        Me.Guna2Panel1.Controls.Add(Me.Label24)
-        Me.Guna2Panel1.Controls.Add(Me.Label25)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox20)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox21)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox22)
-        Me.Guna2Panel1.Controls.Add(Me.Label26)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2TextBox3)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2TextBox2)
-        Me.Guna2Panel1.Controls.Add(Me.Label27)
-        Me.Guna2Panel1.Controls.Add(Me.Label28)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox23)
-        Me.Guna2Panel1.Controls.Add(Me.Label29)
-        Me.Guna2Panel1.Controls.Add(Me.Label30)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox24)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox25)
-        Me.Guna2Panel1.Controls.Add(Me.Label31)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox26)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2GroupBox27)
-        Me.Guna2Panel1.Controls.Add(Me.Label32)
-        Me.Guna2Panel1.Controls.Add(Me.Label33)
-        Me.Guna2Panel1.Controls.Add(Me.Label34)
-        Me.Guna2Panel1.Controls.Add(Me.btnNext)
-        Me.Guna2Panel1.Controls.Add(Me.Label35)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2TextBox5)
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges73
-        Me.Guna2Panel1.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel1.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges74
-        Me.Guna2Panel1.Size = New Global.System.Drawing.Size(770, 667)
-        Me.Guna2Panel1.TabIndex = 3
+        Guna2Panel1.AutoScroll = True
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel1.Controls.Add(txtCollabAndInvolvement)
+        Guna2Panel1.Controls.Add(gbCI3)
+        Guna2Panel1.Controls.Add(Label22)
+        Guna2Panel1.Controls.Add(Label23)
+        Guna2Panel1.Controls.Add(Label24)
+        Guna2Panel1.Controls.Add(Label25)
+        Guna2Panel1.Controls.Add(gbCI4)
+        Guna2Panel1.Controls.Add(gbCI2)
+        Guna2Panel1.Controls.Add(gbCI1)
+        Guna2Panel1.Controls.Add(Label26)
+        Guna2Panel1.Controls.Add(txtDocumentation)
+        Guna2Panel1.Controls.Add(txtProductionSupport)
+        Guna2Panel1.Controls.Add(Label27)
+        Guna2Panel1.Controls.Add(Label28)
+        Guna2Panel1.Controls.Add(gbD2)
+        Guna2Panel1.Controls.Add(Label29)
+        Guna2Panel1.Controls.Add(Label30)
+        Guna2Panel1.Controls.Add(gbD1)
+        Guna2Panel1.Controls.Add(gbPS1)
+        Guna2Panel1.Controls.Add(Label31)
+        Guna2Panel1.Controls.Add(gbSDA2)
+        Guna2Panel1.Controls.Add(gbSDA1)
+        Guna2Panel1.Controls.Add(Label32)
+        Guna2Panel1.Controls.Add(Label33)
+        Guna2Panel1.Controls.Add(Label34)
+        Guna2Panel1.Controls.Add(btnNext)
+        Guna2Panel1.Controls.Add(Label35)
+        Guna2Panel1.Controls.Add(txtSystemAndArchitecture)
+        Guna2Panel1.CustomizableEdges = CustomizableEdges73
+        Guna2Panel1.Dock = DockStyle.Fill
+        Guna2Panel1.Location = New Point(0, 40)
+        Guna2Panel1.Name = "Guna2Panel1"
+        Guna2Panel1.Padding = New Padding(3)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges74
+        Guna2Panel1.Size = New Size(880, 903)
+        Guna2Panel1.TabIndex = 3
         ' 
-        ' Guna2TextBox4
+        ' txtCollabAndInvolvement
         ' 
-        Me.Guna2TextBox4.CustomizableEdges = CustomizableEdges45
-        Me.Guna2TextBox4.DefaultText = ""
-        Me.Guna2TextBox4.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.Guna2TextBox4.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.Guna2TextBox4.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox4.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox4.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2TextBox4.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox4.Location = New Global.System.Drawing.Point(537, 374)
-        Me.Guna2TextBox4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2TextBox4.Multiline = True
-        Me.Guna2TextBox4.Name = "Guna2TextBox4"
-        Me.Guna2TextBox4.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.Guna2TextBox4.PlaceholderText = ""
-        Me.Guna2TextBox4.SelectedText = ""
-        Me.Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        Me.Guna2TextBox4.Size = New Global.System.Drawing.Size(200, 191)
-        Me.Guna2TextBox4.TabIndex = 22
+        txtCollabAndInvolvement.CustomizableEdges = CustomizableEdges45
+        txtCollabAndInvolvement.DefaultText = ""
+        txtCollabAndInvolvement.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCollabAndInvolvement.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCollabAndInvolvement.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCollabAndInvolvement.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCollabAndInvolvement.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCollabAndInvolvement.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCollabAndInvolvement.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCollabAndInvolvement.Location = New Point(614, 499)
+        txtCollabAndInvolvement.Multiline = True
+        txtCollabAndInvolvement.Name = "txtCollabAndInvolvement"
+        txtCollabAndInvolvement.PasswordChar = ChrW(0)
+        txtCollabAndInvolvement.PlaceholderText = ""
+        txtCollabAndInvolvement.ScrollBars = ScrollBars.Vertical
+        txtCollabAndInvolvement.SelectedText = ""
+        txtCollabAndInvolvement.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        txtCollabAndInvolvement.Size = New Size(229, 255)
+        txtCollabAndInvolvement.TabIndex = 22
         ' 
-        ' Guna2GroupBox19
+        ' gbCI3
         ' 
-        Me.Guna2GroupBox19.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox19.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox19.Controls.Add(Me.RadioButton25)
-        Me.Guna2GroupBox19.Controls.Add(Me.RadioButton26)
-        Me.Guna2GroupBox19.Controls.Add(Me.RadioButton27)
-        Me.Guna2GroupBox19.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox19.CustomizableEdges = CustomizableEdges47
-        Me.Guna2GroupBox19.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox19.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox19.Location = New Global.System.Drawing.Point(18, 483)
-        Me.Guna2GroupBox19.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox19.Name = "Guna2GroupBox19"
-        Me.Guna2GroupBox19.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        Me.Guna2GroupBox19.Size = New Global.System.Drawing.Size(143, 41)
-        Me.Guna2GroupBox19.TabIndex = 21
+        gbCI3.BackColor = Color.White
+        gbCI3.BorderColor = Color.White
+        gbCI3.Controls.Add(rbNACI3)
+        gbCI3.Controls.Add(rbYESCI3)
+        gbCI3.Controls.Add(rbNOCI3)
+        gbCI3.CustomBorderColor = Color.White
+        gbCI3.CustomizableEdges = CustomizableEdges47
+        gbCI3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCI3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCI3.Location = New Point(21, 644)
+        gbCI3.Name = "gbCI3"
+        gbCI3.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        gbCI3.Size = New Size(163, 55)
+        gbCI3.TabIndex = 21
         ' 
-        ' RadioButton25
+        ' rbNACI3
         ' 
-        Me.RadioButton25.AutoSize = True
-        Me.RadioButton25.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton25.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton25.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton25.Location = New Global.System.Drawing.Point(94, 13)
-        Me.RadioButton25.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton25.TabIndex = 2
-        Me.RadioButton25.TabStop = True
-        Me.RadioButton25.Text = "N/A"
-        Me.RadioButton25.UseVisualStyleBackColor = False
+        rbNACI3.AutoSize = True
+        rbNACI3.BackColor = Color.White
+        rbNACI3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACI3.ForeColor = Color.Black
+        rbNACI3.Location = New Point(107, 17)
+        rbNACI3.Name = "rbNACI3"
+        rbNACI3.Size = New Size(52, 21)
+        rbNACI3.TabIndex = 2
+        rbNACI3.TabStop = True
+        rbNACI3.Text = "N/A"
+        rbNACI3.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton26
+        ' rbYESCI3
         ' 
-        Me.RadioButton26.AutoSize = True
-        Me.RadioButton26.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton26.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton26.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton26.Location = New Global.System.Drawing.Point(3, 13)
-        Me.RadioButton26.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton26.TabIndex = 0
-        Me.RadioButton26.TabStop = True
-        Me.RadioButton26.Text = "Yes"
-        Me.RadioButton26.UseVisualStyleBackColor = False
+        rbYESCI3.AutoSize = True
+        rbYESCI3.BackColor = Color.White
+        rbYESCI3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCI3.ForeColor = Color.Black
+        rbYESCI3.Location = New Point(3, 17)
+        rbYESCI3.Name = "rbYESCI3"
+        rbYESCI3.Size = New Size(48, 21)
+        rbYESCI3.TabIndex = 0
+        rbYESCI3.TabStop = True
+        rbYESCI3.Text = "Yes"
+        rbYESCI3.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton27
+        ' rbNOCI3
         ' 
-        Me.RadioButton27.AutoSize = True
-        Me.RadioButton27.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton27.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton27.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton27.Location = New Global.System.Drawing.Point(49, 13)
-        Me.RadioButton27.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton27.TabIndex = 1
-        Me.RadioButton27.TabStop = True
-        Me.RadioButton27.Text = "No"
-        Me.RadioButton27.UseVisualStyleBackColor = False
+        rbNOCI3.AutoSize = True
+        rbNOCI3.BackColor = Color.White
+        rbNOCI3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCI3.ForeColor = Color.Black
+        rbNOCI3.Location = New Point(56, 17)
+        rbNOCI3.Name = "rbNOCI3"
+        rbNOCI3.Size = New Size(47, 21)
+        rbNOCI3.TabIndex = 1
+        rbNOCI3.TabStop = True
+        rbNOCI3.Text = "No"
+        rbNOCI3.UseVisualStyleBackColor = False
         ' 
         ' Label22
         ' 
-        Me.Label22.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label22.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label22.Location = New Global.System.Drawing.Point(166, 539)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label22.TabIndex = 20
-        Me.Label22.Text = "I present my completed work to stakeholders and gather feedback for improvements."
+        Label22.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.ForeColor = Color.Black
+        Label22.Location = New Point(190, 719)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(407, 43)
+        Label22.TabIndex = 20
+        Label22.Text = "I present my completed work to stakeholders and gather feedback for improvements."
         ' 
         ' Label23
         ' 
-        Me.Label23.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label23.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label23.Location = New Global.System.Drawing.Point(166, 483)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New Global.System.Drawing.Size(356, 40)
-        Me.Label23.TabIndex = 19
-        Me.Label23.Text = "I share my ideas and suggestions for improving products, processes, and performance. I assess current practices, identify areas for improvement, and propose solutions."
+        Label23.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.ForeColor = Color.Black
+        Label23.Location = New Point(190, 644)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(407, 53)
+        Label23.TabIndex = 19
+        Label23.Text = "I share my ideas and suggestions for improving products, processes, and performance. I assess current practices, identify areas for improvement, and propose solutions."
         ' 
         ' Label24
         ' 
-        Me.Label24.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label24.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label24.Location = New Global.System.Drawing.Point(166, 443)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label24.TabIndex = 18
-        Me.Label24.Text = "I participate in various events, both inside and outside of the company."
+        Label24.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.ForeColor = Color.Black
+        Label24.Location = New Point(190, 591)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(407, 43)
+        Label24.TabIndex = 18
+        Label24.Text = "I participate in various events, both inside and outside of the company."
         ' 
         ' Label25
         ' 
-        Me.Label25.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label25.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label25.Location = New Global.System.Drawing.Point(166, 403)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label25.TabIndex = 17
-        Me.Label25.Text = "I help to make sure that the product is supported seamlessly by working with other internal and external teams."
+        Label25.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.ForeColor = Color.Black
+        Label25.Location = New Point(190, 537)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(407, 43)
+        Label25.TabIndex = 17
+        Label25.Text = "I help to make sure that the product is supported seamlessly by working with other internal and external teams."
         ' 
-        ' Guna2GroupBox20
+        ' gbCI4
         ' 
-        Me.Guna2GroupBox20.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox20.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox20.Controls.Add(Me.RadioButton49)
-        Me.Guna2GroupBox20.Controls.Add(Me.RadioButton50)
-        Me.Guna2GroupBox20.Controls.Add(Me.RadioButton51)
-        Me.Guna2GroupBox20.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox20.CustomizableEdges = CustomizableEdges49
-        Me.Guna2GroupBox20.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox20.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox20.Location = New Global.System.Drawing.Point(17, 539)
-        Me.Guna2GroupBox20.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox20.Name = "Guna2GroupBox20"
-        Me.Guna2GroupBox20.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        Me.Guna2GroupBox20.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox20.TabIndex = 11
+        gbCI4.BackColor = Color.White
+        gbCI4.BorderColor = Color.White
+        gbCI4.Controls.Add(rbNACI4)
+        gbCI4.Controls.Add(rbYESCI4)
+        gbCI4.Controls.Add(rbNOCI4)
+        gbCI4.CustomBorderColor = Color.White
+        gbCI4.CustomizableEdges = CustomizableEdges49
+        gbCI4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCI4.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCI4.Location = New Point(19, 719)
+        gbCI4.Name = "gbCI4"
+        gbCI4.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        gbCI4.Size = New Size(163, 35)
+        gbCI4.TabIndex = 11
         ' 
-        ' RadioButton49
+        ' rbNACI4
         ' 
-        Me.RadioButton49.AutoSize = True
-        Me.RadioButton49.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton49.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton49.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton49.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton49.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton49.Name = "RadioButton49"
-        Me.RadioButton49.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton49.TabIndex = 2
-        Me.RadioButton49.TabStop = True
-        Me.RadioButton49.Text = "N/A"
-        Me.RadioButton49.UseVisualStyleBackColor = False
+        rbNACI4.AutoSize = True
+        rbNACI4.BackColor = Color.White
+        rbNACI4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACI4.ForeColor = Color.Black
+        rbNACI4.Location = New Point(111, 5)
+        rbNACI4.Name = "rbNACI4"
+        rbNACI4.Size = New Size(52, 21)
+        rbNACI4.TabIndex = 2
+        rbNACI4.TabStop = True
+        rbNACI4.Text = "N/A"
+        rbNACI4.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton50
+        ' rbYESCI4
         ' 
-        Me.RadioButton50.AutoSize = True
-        Me.RadioButton50.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton50.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton50.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton50.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton50.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton50.Name = "RadioButton50"
-        Me.RadioButton50.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton50.TabIndex = 0
-        Me.RadioButton50.TabStop = True
-        Me.RadioButton50.Text = "Yes"
-        Me.RadioButton50.UseVisualStyleBackColor = False
+        rbYESCI4.AutoSize = True
+        rbYESCI4.BackColor = Color.White
+        rbYESCI4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCI4.ForeColor = Color.Black
+        rbYESCI4.Location = New Point(5, 5)
+        rbYESCI4.Name = "rbYESCI4"
+        rbYESCI4.Size = New Size(48, 21)
+        rbYESCI4.TabIndex = 0
+        rbYESCI4.TabStop = True
+        rbYESCI4.Text = "Yes"
+        rbYESCI4.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton51
+        ' rbNOCI4
         ' 
-        Me.RadioButton51.AutoSize = True
-        Me.RadioButton51.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton51.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton51.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton51.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton51.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton51.Name = "RadioButton51"
-        Me.RadioButton51.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton51.TabIndex = 1
-        Me.RadioButton51.TabStop = True
-        Me.RadioButton51.Text = "No"
-        Me.RadioButton51.UseVisualStyleBackColor = False
+        rbNOCI4.AutoSize = True
+        rbNOCI4.BackColor = Color.White
+        rbNOCI4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCI4.ForeColor = Color.Black
+        rbNOCI4.Location = New Point(58, 5)
+        rbNOCI4.Name = "rbNOCI4"
+        rbNOCI4.Size = New Size(47, 21)
+        rbNOCI4.TabIndex = 1
+        rbNOCI4.TabStop = True
+        rbNOCI4.Text = "No"
+        rbNOCI4.UseVisualStyleBackColor = False
         ' 
-        ' Guna2GroupBox21
+        ' gbCI2
         ' 
-        Me.Guna2GroupBox21.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox21.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox21.Controls.Add(Me.RadioButton52)
-        Me.Guna2GroupBox21.Controls.Add(Me.RadioButton53)
-        Me.Guna2GroupBox21.Controls.Add(Me.RadioButton54)
-        Me.Guna2GroupBox21.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox21.CustomizableEdges = CustomizableEdges51
-        Me.Guna2GroupBox21.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox21.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox21.Location = New Global.System.Drawing.Point(18, 443)
-        Me.Guna2GroupBox21.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox21.Name = "Guna2GroupBox21"
-        Me.Guna2GroupBox21.ShadowDecoration.CustomizableEdges = CustomizableEdges52
-        Me.Guna2GroupBox21.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox21.TabIndex = 12
+        gbCI2.BackColor = Color.White
+        gbCI2.BorderColor = Color.White
+        gbCI2.Controls.Add(rbNACI2)
+        gbCI2.Controls.Add(rbYESCI2)
+        gbCI2.Controls.Add(rbNOCI2)
+        gbCI2.CustomBorderColor = Color.White
+        gbCI2.CustomizableEdges = CustomizableEdges51
+        gbCI2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCI2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCI2.Location = New Point(21, 591)
+        gbCI2.Name = "gbCI2"
+        gbCI2.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        gbCI2.Size = New Size(163, 35)
+        gbCI2.TabIndex = 12
         ' 
-        ' RadioButton52
+        ' rbNACI2
         ' 
-        Me.RadioButton52.AutoSize = True
-        Me.RadioButton52.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton52.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton52.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton52.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton52.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton52.Name = "RadioButton52"
-        Me.RadioButton52.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton52.TabIndex = 2
-        Me.RadioButton52.TabStop = True
-        Me.RadioButton52.Text = "N/A"
-        Me.RadioButton52.UseVisualStyleBackColor = False
+        rbNACI2.AutoSize = True
+        rbNACI2.BackColor = Color.White
+        rbNACI2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACI2.ForeColor = Color.Black
+        rbNACI2.Location = New Point(111, 5)
+        rbNACI2.Name = "rbNACI2"
+        rbNACI2.Size = New Size(52, 21)
+        rbNACI2.TabIndex = 2
+        rbNACI2.TabStop = True
+        rbNACI2.Text = "N/A"
+        rbNACI2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton53
+        ' rbYESCI2
         ' 
-        Me.RadioButton53.AutoSize = True
-        Me.RadioButton53.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton53.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton53.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton53.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton53.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton53.Name = "RadioButton53"
-        Me.RadioButton53.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton53.TabIndex = 0
-        Me.RadioButton53.TabStop = True
-        Me.RadioButton53.Text = "Yes"
-        Me.RadioButton53.UseVisualStyleBackColor = False
+        rbYESCI2.AutoSize = True
+        rbYESCI2.BackColor = Color.White
+        rbYESCI2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCI2.ForeColor = Color.Black
+        rbYESCI2.Location = New Point(5, 5)
+        rbYESCI2.Name = "rbYESCI2"
+        rbYESCI2.Size = New Size(48, 21)
+        rbYESCI2.TabIndex = 0
+        rbYESCI2.TabStop = True
+        rbYESCI2.Text = "Yes"
+        rbYESCI2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton54
+        ' rbNOCI2
         ' 
-        Me.RadioButton54.AutoSize = True
-        Me.RadioButton54.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton54.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton54.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton54.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton54.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton54.Name = "RadioButton54"
-        Me.RadioButton54.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton54.TabIndex = 1
-        Me.RadioButton54.TabStop = True
-        Me.RadioButton54.Text = "No"
-        Me.RadioButton54.UseVisualStyleBackColor = False
+        rbNOCI2.AutoSize = True
+        rbNOCI2.BackColor = Color.White
+        rbNOCI2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCI2.ForeColor = Color.Black
+        rbNOCI2.Location = New Point(58, 5)
+        rbNOCI2.Name = "rbNOCI2"
+        rbNOCI2.Size = New Size(47, 21)
+        rbNOCI2.TabIndex = 1
+        rbNOCI2.TabStop = True
+        rbNOCI2.Text = "No"
+        rbNOCI2.UseVisualStyleBackColor = False
         ' 
-        ' Guna2GroupBox22
+        ' gbCI1
         ' 
-        Me.Guna2GroupBox22.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox22.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox22.Controls.Add(Me.RadioButton55)
-        Me.Guna2GroupBox22.Controls.Add(Me.RadioButton56)
-        Me.Guna2GroupBox22.Controls.Add(Me.RadioButton57)
-        Me.Guna2GroupBox22.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox22.CustomizableEdges = CustomizableEdges53
-        Me.Guna2GroupBox22.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox22.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox22.Location = New Global.System.Drawing.Point(18, 403)
-        Me.Guna2GroupBox22.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox22.Name = "Guna2GroupBox22"
-        Me.Guna2GroupBox22.ShadowDecoration.CustomizableEdges = CustomizableEdges54
-        Me.Guna2GroupBox22.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox22.TabIndex = 11
+        gbCI1.BackColor = Color.White
+        gbCI1.BorderColor = Color.White
+        gbCI1.Controls.Add(rbNACI1)
+        gbCI1.Controls.Add(rbYESCI1)
+        gbCI1.Controls.Add(rbNOCI1)
+        gbCI1.CustomBorderColor = Color.White
+        gbCI1.CustomizableEdges = CustomizableEdges53
+        gbCI1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCI1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCI1.Location = New Point(21, 537)
+        gbCI1.Name = "gbCI1"
+        gbCI1.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        gbCI1.Size = New Size(163, 35)
+        gbCI1.TabIndex = 11
         ' 
-        ' RadioButton55
+        ' rbNACI1
         ' 
-        Me.RadioButton55.AutoSize = True
-        Me.RadioButton55.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton55.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton55.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton55.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton55.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton55.Name = "RadioButton55"
-        Me.RadioButton55.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton55.TabIndex = 2
-        Me.RadioButton55.TabStop = True
-        Me.RadioButton55.Text = "N/A"
-        Me.RadioButton55.UseVisualStyleBackColor = False
+        rbNACI1.AutoSize = True
+        rbNACI1.BackColor = Color.White
+        rbNACI1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACI1.ForeColor = Color.Black
+        rbNACI1.Location = New Point(111, 5)
+        rbNACI1.Name = "rbNACI1"
+        rbNACI1.Size = New Size(52, 21)
+        rbNACI1.TabIndex = 2
+        rbNACI1.TabStop = True
+        rbNACI1.Text = "N/A"
+        rbNACI1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton56
+        ' rbYESCI1
         ' 
-        Me.RadioButton56.AutoSize = True
-        Me.RadioButton56.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton56.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton56.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton56.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton56.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton56.Name = "RadioButton56"
-        Me.RadioButton56.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton56.TabIndex = 0
-        Me.RadioButton56.TabStop = True
-        Me.RadioButton56.Text = "Yes"
-        Me.RadioButton56.UseVisualStyleBackColor = False
+        rbYESCI1.AutoSize = True
+        rbYESCI1.BackColor = Color.White
+        rbYESCI1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCI1.ForeColor = Color.Black
+        rbYESCI1.Location = New Point(5, 5)
+        rbYESCI1.Name = "rbYESCI1"
+        rbYESCI1.Size = New Size(48, 21)
+        rbYESCI1.TabIndex = 0
+        rbYESCI1.TabStop = True
+        rbYESCI1.Text = "Yes"
+        rbYESCI1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton57
+        ' rbNOCI1
         ' 
-        Me.RadioButton57.AutoSize = True
-        Me.RadioButton57.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton57.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton57.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton57.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton57.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton57.Name = "RadioButton57"
-        Me.RadioButton57.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton57.TabIndex = 1
-        Me.RadioButton57.TabStop = True
-        Me.RadioButton57.Text = "No"
-        Me.RadioButton57.UseVisualStyleBackColor = False
+        rbNOCI1.AutoSize = True
+        rbNOCI1.BackColor = Color.White
+        rbNOCI1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCI1.ForeColor = Color.Black
+        rbNOCI1.Location = New Point(58, 5)
+        rbNOCI1.Name = "rbNOCI1"
+        rbNOCI1.Size = New Size(47, 21)
+        rbNOCI1.TabIndex = 1
+        rbNOCI1.TabStop = True
+        rbNOCI1.Text = "No"
+        rbNOCI1.UseVisualStyleBackColor = False
         ' 
         ' Label26
         ' 
-        Me.Label26.AutoSize = True
-        Me.Label26.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label26.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label26.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label26.Location = New Global.System.Drawing.Point(23, 376)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New Global.System.Drawing.Size(282, 20)
-        Me.Label26.TabIndex = 16
-        Me.Label26.Text = "COLLABORATION AND INVOLVEMENT"
+        Label26.AutoSize = True
+        Label26.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label26.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.ForeColor = Color.Black
+        Label26.Location = New Point(26, 501)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(341, 25)
+        Label26.TabIndex = 16
+        Label26.Text = "COLLABORATION AND INVOLVEMENT"
         ' 
-        ' Guna2TextBox3
+        ' txtDocumentation
         ' 
-        Me.Guna2TextBox3.CustomizableEdges = CustomizableEdges55
-        Me.Guna2TextBox3.DefaultText = ""
-        Me.Guna2TextBox3.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.Guna2TextBox3.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.Guna2TextBox3.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox3.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2TextBox3.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox3.Location = New Global.System.Drawing.Point(537, 241)
-        Me.Guna2TextBox3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2TextBox3.Multiline = True
-        Me.Guna2TextBox3.Name = "Guna2TextBox3"
-        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.Guna2TextBox3.PlaceholderText = ""
-        Me.Guna2TextBox3.SelectedText = ""
-        Me.Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges56
-        Me.Guna2TextBox3.Size = New Global.System.Drawing.Size(200, 100)
-        Me.Guna2TextBox3.TabIndex = 15
+        txtDocumentation.CustomizableEdges = CustomizableEdges55
+        txtDocumentation.DefaultText = ""
+        txtDocumentation.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtDocumentation.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtDocumentation.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDocumentation.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDocumentation.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDocumentation.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDocumentation.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDocumentation.Location = New Point(614, 321)
+        txtDocumentation.Multiline = True
+        txtDocumentation.Name = "txtDocumentation"
+        txtDocumentation.PasswordChar = ChrW(0)
+        txtDocumentation.PlaceholderText = ""
+        txtDocumentation.ScrollBars = ScrollBars.Vertical
+        txtDocumentation.SelectedText = ""
+        txtDocumentation.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        txtDocumentation.Size = New Size(229, 133)
+        txtDocumentation.TabIndex = 15
         ' 
-        ' Guna2TextBox2
+        ' txtProductionSupport
         ' 
-        Me.Guna2TextBox2.CustomizableEdges = CustomizableEdges57
-        Me.Guna2TextBox2.DefaultText = ""
-        Me.Guna2TextBox2.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.Guna2TextBox2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.Guna2TextBox2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox2.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2TextBox2.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox2.Location = New Global.System.Drawing.Point(537, 140)
-        Me.Guna2TextBox2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2TextBox2.Multiline = True
-        Me.Guna2TextBox2.Name = "Guna2TextBox2"
-        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.Guna2TextBox2.PlaceholderText = ""
-        Me.Guna2TextBox2.SelectedText = ""
-        Me.Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges58
-        Me.Guna2TextBox2.Size = New Global.System.Drawing.Size(200, 73)
-        Me.Guna2TextBox2.TabIndex = 14
+        txtProductionSupport.CustomizableEdges = CustomizableEdges57
+        txtProductionSupport.DefaultText = ""
+        txtProductionSupport.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtProductionSupport.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtProductionSupport.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtProductionSupport.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtProductionSupport.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtProductionSupport.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtProductionSupport.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtProductionSupport.Location = New Point(614, 187)
+        txtProductionSupport.Multiline = True
+        txtProductionSupport.Name = "txtProductionSupport"
+        txtProductionSupport.PasswordChar = ChrW(0)
+        txtProductionSupport.PlaceholderText = ""
+        txtProductionSupport.ScrollBars = ScrollBars.Vertical
+        txtProductionSupport.SelectedText = ""
+        txtProductionSupport.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        txtProductionSupport.Size = New Size(229, 97)
+        txtProductionSupport.TabIndex = 14
         ' 
         ' Label27
         ' 
-        Me.Label27.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label27.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label27.Location = New Global.System.Drawing.Point(166, 309)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label27.TabIndex = 13
-        Me.Label27.Text = "I write documentation for the software, such as design documents, API documentation, and user guides."
+        Label27.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label27.ForeColor = Color.Black
+        Label27.Location = New Point(190, 412)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(407, 43)
+        Label27.TabIndex = 13
+        Label27.Text = "I write documentation for the software, such as design documents, API documentation, and user guides."
         ' 
         ' Label28
         ' 
-        Me.Label28.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label28.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label28.Location = New Global.System.Drawing.Point(166, 268)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label28.TabIndex = 12
-        Me.Label28.Text = "I write documentation for the software, such as design documents, API documentation, and user guides."
+        Label28.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label28.ForeColor = Color.Black
+        Label28.Location = New Point(190, 357)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(407, 43)
+        Label28.TabIndex = 12
+        Label28.Text = "I write documentation for the software, such as design documents, API documentation, and user guides."
         ' 
-        ' Guna2GroupBox23
+        ' gbD2
         ' 
-        Me.Guna2GroupBox23.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox23.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox23.Controls.Add(Me.RadioButton58)
-        Me.Guna2GroupBox23.Controls.Add(Me.RadioButton59)
-        Me.Guna2GroupBox23.Controls.Add(Me.RadioButton60)
-        Me.Guna2GroupBox23.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox23.CustomizableEdges = CustomizableEdges59
-        Me.Guna2GroupBox23.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox23.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox23.Location = New Global.System.Drawing.Point(18, 309)
-        Me.Guna2GroupBox23.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox23.Name = "Guna2GroupBox23"
-        Me.Guna2GroupBox23.ShadowDecoration.CustomizableEdges = CustomizableEdges60
-        Me.Guna2GroupBox23.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox23.TabIndex = 10
+        gbD2.BackColor = Color.White
+        gbD2.BorderColor = Color.White
+        gbD2.Controls.Add(rbNAD2)
+        gbD2.Controls.Add(rbYESD2)
+        gbD2.Controls.Add(rbNOD2)
+        gbD2.CustomBorderColor = Color.White
+        gbD2.CustomizableEdges = CustomizableEdges59
+        gbD2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbD2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbD2.Location = New Point(21, 412)
+        gbD2.Name = "gbD2"
+        gbD2.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        gbD2.Size = New Size(163, 35)
+        gbD2.TabIndex = 10
         ' 
-        ' RadioButton58
+        ' rbNAD2
         ' 
-        Me.RadioButton58.AutoSize = True
-        Me.RadioButton58.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton58.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton58.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton58.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton58.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton58.Name = "RadioButton58"
-        Me.RadioButton58.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton58.TabIndex = 2
-        Me.RadioButton58.TabStop = True
-        Me.RadioButton58.Text = "N/A"
-        Me.RadioButton58.UseVisualStyleBackColor = False
+        rbNAD2.AutoSize = True
+        rbNAD2.BackColor = Color.White
+        rbNAD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAD2.ForeColor = Color.Black
+        rbNAD2.Location = New Point(111, 5)
+        rbNAD2.Name = "rbNAD2"
+        rbNAD2.Size = New Size(52, 21)
+        rbNAD2.TabIndex = 2
+        rbNAD2.TabStop = True
+        rbNAD2.Text = "N/A"
+        rbNAD2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton59
+        ' rbYESD2
         ' 
-        Me.RadioButton59.AutoSize = True
-        Me.RadioButton59.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton59.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton59.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton59.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton59.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton59.Name = "RadioButton59"
-        Me.RadioButton59.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton59.TabIndex = 0
-        Me.RadioButton59.TabStop = True
-        Me.RadioButton59.Text = "Yes"
-        Me.RadioButton59.UseVisualStyleBackColor = False
+        rbYESD2.AutoSize = True
+        rbYESD2.BackColor = Color.White
+        rbYESD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESD2.ForeColor = Color.Black
+        rbYESD2.Location = New Point(5, 5)
+        rbYESD2.Name = "rbYESD2"
+        rbYESD2.Size = New Size(48, 21)
+        rbYESD2.TabIndex = 0
+        rbYESD2.TabStop = True
+        rbYESD2.Text = "Yes"
+        rbYESD2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton60
+        ' rbNOD2
         ' 
-        Me.RadioButton60.AutoSize = True
-        Me.RadioButton60.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton60.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton60.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton60.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton60.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton60.Name = "RadioButton60"
-        Me.RadioButton60.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton60.TabIndex = 1
-        Me.RadioButton60.TabStop = True
-        Me.RadioButton60.Text = "No"
-        Me.RadioButton60.UseVisualStyleBackColor = False
+        rbNOD2.AutoSize = True
+        rbNOD2.BackColor = Color.White
+        rbNOD2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOD2.ForeColor = Color.Black
+        rbNOD2.Location = New Point(58, 5)
+        rbNOD2.Name = "rbNOD2"
+        rbNOD2.Size = New Size(47, 21)
+        rbNOD2.TabIndex = 1
+        rbNOD2.TabStop = True
+        rbNOD2.Text = "No"
+        rbNOD2.UseVisualStyleBackColor = False
         ' 
         ' Label29
         ' 
-        Me.Label29.AutoSize = True
-        Me.Label29.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label29.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label29.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label29.Location = New Global.System.Drawing.Point(20, 243)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New Global.System.Drawing.Size(140, 20)
-        Me.Label29.TabIndex = 11
-        Me.Label29.Text = "DOCUMENTATION"
+        Label29.AutoSize = True
+        Label29.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label29.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label29.ForeColor = Color.Black
+        Label29.Location = New Point(23, 324)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(171, 25)
+        Label29.TabIndex = 11
+        Label29.Text = "DOCUMENTATION"
         ' 
         ' Label30
         ' 
-        Me.Label30.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label30.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label30.Location = New Global.System.Drawing.Point(166, 166)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New Global.System.Drawing.Size(370, 41)
-        Me.Label30.TabIndex = 10
-        Me.Label30.Text = "I help to keep the software running smoothly in production by monitoring it for problems, resolving issues, and performing maintenance."
+        Label30.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label30.ForeColor = Color.Black
+        Label30.Location = New Point(190, 221)
+        Label30.Name = "Label30"
+        Label30.Size = New Size(423, 55)
+        Label30.TabIndex = 10
+        Label30.Text = "I help to keep the software running smoothly in production by monitoring it for problems, resolving issues, and performing maintenance."
         ' 
-        ' Guna2GroupBox24
+        ' gbD1
         ' 
-        Me.Guna2GroupBox24.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox24.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox24.Controls.Add(Me.RadioButton61)
-        Me.Guna2GroupBox24.Controls.Add(Me.RadioButton62)
-        Me.Guna2GroupBox24.Controls.Add(Me.RadioButton63)
-        Me.Guna2GroupBox24.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox24.CustomizableEdges = CustomizableEdges61
-        Me.Guna2GroupBox24.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox24.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox24.Location = New Global.System.Drawing.Point(18, 268)
-        Me.Guna2GroupBox24.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox24.Name = "Guna2GroupBox24"
-        Me.Guna2GroupBox24.ShadowDecoration.CustomizableEdges = CustomizableEdges62
-        Me.Guna2GroupBox24.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox24.TabIndex = 9
+        gbD1.BackColor = Color.White
+        gbD1.BorderColor = Color.White
+        gbD1.Controls.Add(rbNAD1)
+        gbD1.Controls.Add(rbYESD1)
+        gbD1.Controls.Add(rbNOD1)
+        gbD1.CustomBorderColor = Color.White
+        gbD1.CustomizableEdges = CustomizableEdges61
+        gbD1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbD1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbD1.Location = New Point(21, 357)
+        gbD1.Name = "gbD1"
+        gbD1.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        gbD1.Size = New Size(163, 35)
+        gbD1.TabIndex = 9
         ' 
-        ' RadioButton61
+        ' rbNAD1
         ' 
-        Me.RadioButton61.AutoSize = True
-        Me.RadioButton61.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton61.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton61.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton61.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton61.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton61.Name = "RadioButton61"
-        Me.RadioButton61.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton61.TabIndex = 2
-        Me.RadioButton61.TabStop = True
-        Me.RadioButton61.Text = "N/A"
-        Me.RadioButton61.UseVisualStyleBackColor = False
+        rbNAD1.AutoSize = True
+        rbNAD1.BackColor = Color.White
+        rbNAD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAD1.ForeColor = Color.Black
+        rbNAD1.Location = New Point(111, 5)
+        rbNAD1.Name = "rbNAD1"
+        rbNAD1.Size = New Size(52, 21)
+        rbNAD1.TabIndex = 2
+        rbNAD1.TabStop = True
+        rbNAD1.Text = "N/A"
+        rbNAD1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton62
+        ' rbYESD1
         ' 
-        Me.RadioButton62.AutoSize = True
-        Me.RadioButton62.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton62.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton62.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton62.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton62.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton62.Name = "RadioButton62"
-        Me.RadioButton62.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton62.TabIndex = 0
-        Me.RadioButton62.TabStop = True
-        Me.RadioButton62.Text = "Yes"
-        Me.RadioButton62.UseVisualStyleBackColor = False
+        rbYESD1.AutoSize = True
+        rbYESD1.BackColor = Color.White
+        rbYESD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESD1.ForeColor = Color.Black
+        rbYESD1.Location = New Point(5, 5)
+        rbYESD1.Name = "rbYESD1"
+        rbYESD1.Size = New Size(48, 21)
+        rbYESD1.TabIndex = 0
+        rbYESD1.TabStop = True
+        rbYESD1.Text = "Yes"
+        rbYESD1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton63
+        ' rbNOD1
         ' 
-        Me.RadioButton63.AutoSize = True
-        Me.RadioButton63.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton63.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton63.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton63.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton63.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton63.Name = "RadioButton63"
-        Me.RadioButton63.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton63.TabIndex = 1
-        Me.RadioButton63.TabStop = True
-        Me.RadioButton63.Text = "No"
-        Me.RadioButton63.UseVisualStyleBackColor = False
+        rbNOD1.AutoSize = True
+        rbNOD1.BackColor = Color.White
+        rbNOD1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOD1.ForeColor = Color.Black
+        rbNOD1.Location = New Point(58, 5)
+        rbNOD1.Name = "rbNOD1"
+        rbNOD1.Size = New Size(47, 21)
+        rbNOD1.TabIndex = 1
+        rbNOD1.TabStop = True
+        rbNOD1.Text = "No"
+        rbNOD1.UseVisualStyleBackColor = False
         ' 
-        ' Guna2GroupBox25
+        ' gbPS1
         ' 
-        Me.Guna2GroupBox25.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox25.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox25.Controls.Add(Me.RadioButton64)
-        Me.Guna2GroupBox25.Controls.Add(Me.RadioButton65)
-        Me.Guna2GroupBox25.Controls.Add(Me.RadioButton66)
-        Me.Guna2GroupBox25.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox25.CustomizableEdges = CustomizableEdges63
-        Me.Guna2GroupBox25.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox25.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox25.Location = New Global.System.Drawing.Point(18, 166)
-        Me.Guna2GroupBox25.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox25.Name = "Guna2GroupBox25"
-        Me.Guna2GroupBox25.ShadowDecoration.CustomizableEdges = CustomizableEdges64
-        Me.Guna2GroupBox25.Size = New Global.System.Drawing.Size(143, 41)
-        Me.Guna2GroupBox25.TabIndex = 8
+        gbPS1.BackColor = Color.White
+        gbPS1.BorderColor = Color.White
+        gbPS1.Controls.Add(rbNAPS1)
+        gbPS1.Controls.Add(rbYESPS1)
+        gbPS1.Controls.Add(rbNOPS1)
+        gbPS1.CustomBorderColor = Color.White
+        gbPS1.CustomizableEdges = CustomizableEdges63
+        gbPS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPS1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbPS1.Location = New Point(21, 221)
+        gbPS1.Name = "gbPS1"
+        gbPS1.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        gbPS1.Size = New Size(163, 55)
+        gbPS1.TabIndex = 8
         ' 
-        ' RadioButton64
+        ' rbNAPS1
         ' 
-        Me.RadioButton64.AutoSize = True
-        Me.RadioButton64.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton64.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton64.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton64.Location = New Global.System.Drawing.Point(94, 13)
-        Me.RadioButton64.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton64.Name = "RadioButton64"
-        Me.RadioButton64.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton64.TabIndex = 2
-        Me.RadioButton64.TabStop = True
-        Me.RadioButton64.Text = "N/A"
-        Me.RadioButton64.UseVisualStyleBackColor = False
+        rbNAPS1.AutoSize = True
+        rbNAPS1.BackColor = Color.White
+        rbNAPS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAPS1.ForeColor = Color.Black
+        rbNAPS1.Location = New Point(107, 17)
+        rbNAPS1.Name = "rbNAPS1"
+        rbNAPS1.Size = New Size(52, 21)
+        rbNAPS1.TabIndex = 2
+        rbNAPS1.TabStop = True
+        rbNAPS1.Text = "N/A"
+        rbNAPS1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton65
+        ' rbYESPS1
         ' 
-        Me.RadioButton65.AutoSize = True
-        Me.RadioButton65.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton65.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton65.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton65.Location = New Global.System.Drawing.Point(3, 13)
-        Me.RadioButton65.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton65.Name = "RadioButton65"
-        Me.RadioButton65.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton65.TabIndex = 0
-        Me.RadioButton65.TabStop = True
-        Me.RadioButton65.Text = "Yes"
-        Me.RadioButton65.UseVisualStyleBackColor = False
+        rbYESPS1.AutoSize = True
+        rbYESPS1.BackColor = Color.White
+        rbYESPS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESPS1.ForeColor = Color.Black
+        rbYESPS1.Location = New Point(3, 17)
+        rbYESPS1.Name = "rbYESPS1"
+        rbYESPS1.Size = New Size(48, 21)
+        rbYESPS1.TabIndex = 0
+        rbYESPS1.TabStop = True
+        rbYESPS1.Text = "Yes"
+        rbYESPS1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton66
+        ' rbNOPS1
         ' 
-        Me.RadioButton66.AutoSize = True
-        Me.RadioButton66.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton66.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton66.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton66.Location = New Global.System.Drawing.Point(49, 13)
-        Me.RadioButton66.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton66.Name = "RadioButton66"
-        Me.RadioButton66.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton66.TabIndex = 1
-        Me.RadioButton66.TabStop = True
-        Me.RadioButton66.Text = "No"
-        Me.RadioButton66.UseVisualStyleBackColor = False
+        rbNOPS1.AutoSize = True
+        rbNOPS1.BackColor = Color.White
+        rbNOPS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOPS1.ForeColor = Color.Black
+        rbNOPS1.Location = New Point(56, 17)
+        rbNOPS1.Name = "rbNOPS1"
+        rbNOPS1.Size = New Size(47, 21)
+        rbNOPS1.TabIndex = 1
+        rbNOPS1.TabStop = True
+        rbNOPS1.Text = "No"
+        rbNOPS1.UseVisualStyleBackColor = False
         ' 
         ' Label31
         ' 
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label31.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label31.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label31.Location = New Global.System.Drawing.Point(20, 142)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New Global.System.Drawing.Size(178, 20)
-        Me.Label31.TabIndex = 8
-        Me.Label31.Text = "PRODUCTION SUPPORT"
+        Label31.AutoSize = True
+        Label31.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label31.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label31.ForeColor = Color.Black
+        Label31.Location = New Point(23, 189)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(218, 25)
+        Label31.TabIndex = 8
+        Label31.Text = "PRODUCTION SUPPORT"
         ' 
-        ' Guna2GroupBox26
+        ' gbSDA2
         ' 
-        Me.Guna2GroupBox26.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox26.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox26.Controls.Add(Me.RadioButton67)
-        Me.Guna2GroupBox26.Controls.Add(Me.RadioButton68)
-        Me.Guna2GroupBox26.Controls.Add(Me.RadioButton69)
-        Me.Guna2GroupBox26.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox26.CustomizableEdges = CustomizableEdges65
-        Me.Guna2GroupBox26.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox26.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox26.Location = New Global.System.Drawing.Point(17, 79)
-        Me.Guna2GroupBox26.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox26.Name = "Guna2GroupBox26"
-        Me.Guna2GroupBox26.ShadowDecoration.CustomizableEdges = CustomizableEdges66
-        Me.Guna2GroupBox26.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox26.TabIndex = 7
+        gbSDA2.BackColor = Color.White
+        gbSDA2.BorderColor = Color.White
+        gbSDA2.Controls.Add(rbNASDA2)
+        gbSDA2.Controls.Add(rbYESSDA2)
+        gbSDA2.Controls.Add(rbNOSDA2)
+        gbSDA2.CustomBorderColor = Color.White
+        gbSDA2.CustomizableEdges = CustomizableEdges65
+        gbSDA2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSDA2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSDA2.Location = New Point(19, 105)
+        gbSDA2.Name = "gbSDA2"
+        gbSDA2.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        gbSDA2.Size = New Size(163, 35)
+        gbSDA2.TabIndex = 7
         ' 
-        ' RadioButton67
+        ' rbNASDA2
         ' 
-        Me.RadioButton67.AutoSize = True
-        Me.RadioButton67.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton67.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton67.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton67.Location = New Global.System.Drawing.Point(97, 4)
-        Me.RadioButton67.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton67.Name = "RadioButton67"
-        Me.RadioButton67.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton67.TabIndex = 2
-        Me.RadioButton67.TabStop = True
-        Me.RadioButton67.Text = "N/A"
-        Me.RadioButton67.UseVisualStyleBackColor = False
+        rbNASDA2.AutoSize = True
+        rbNASDA2.BackColor = Color.White
+        rbNASDA2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASDA2.ForeColor = Color.Black
+        rbNASDA2.Location = New Point(111, 5)
+        rbNASDA2.Name = "rbNASDA2"
+        rbNASDA2.Size = New Size(52, 21)
+        rbNASDA2.TabIndex = 2
+        rbNASDA2.TabStop = True
+        rbNASDA2.Text = "N/A"
+        rbNASDA2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton68
+        ' rbYESSDA2
         ' 
-        Me.RadioButton68.AutoSize = True
-        Me.RadioButton68.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton68.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton68.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton68.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton68.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton68.Name = "RadioButton68"
-        Me.RadioButton68.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton68.TabIndex = 0
-        Me.RadioButton68.TabStop = True
-        Me.RadioButton68.Text = "Yes"
-        Me.RadioButton68.UseVisualStyleBackColor = False
+        rbYESSDA2.AutoSize = True
+        rbYESSDA2.BackColor = Color.White
+        rbYESSDA2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESSDA2.ForeColor = Color.Black
+        rbYESSDA2.Location = New Point(5, 5)
+        rbYESSDA2.Name = "rbYESSDA2"
+        rbYESSDA2.Size = New Size(48, 21)
+        rbYESSDA2.TabIndex = 0
+        rbYESSDA2.TabStop = True
+        rbYESSDA2.Text = "Yes"
+        rbYESSDA2.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton69
+        ' rbNOSDA2
         ' 
-        Me.RadioButton69.AutoSize = True
-        Me.RadioButton69.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton69.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton69.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton69.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton69.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton69.Name = "RadioButton69"
-        Me.RadioButton69.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton69.TabIndex = 1
-        Me.RadioButton69.TabStop = True
-        Me.RadioButton69.Text = "No"
-        Me.RadioButton69.UseVisualStyleBackColor = False
+        rbNOSDA2.AutoSize = True
+        rbNOSDA2.BackColor = Color.White
+        rbNOSDA2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOSDA2.ForeColor = Color.Black
+        rbNOSDA2.Location = New Point(58, 5)
+        rbNOSDA2.Name = "rbNOSDA2"
+        rbNOSDA2.Size = New Size(47, 21)
+        rbNOSDA2.TabIndex = 1
+        rbNOSDA2.TabStop = True
+        rbNOSDA2.Text = "No"
+        rbNOSDA2.UseVisualStyleBackColor = False
         ' 
-        ' Guna2GroupBox27
+        ' gbSDA1
         ' 
-        Me.Guna2GroupBox27.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2GroupBox27.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2GroupBox27.Controls.Add(Me.RadioButton70)
-        Me.Guna2GroupBox27.Controls.Add(Me.RadioButton71)
-        Me.Guna2GroupBox27.Controls.Add(Me.RadioButton72)
-        Me.Guna2GroupBox27.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox27.CustomizableEdges = CustomizableEdges67
-        Me.Guna2GroupBox27.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2GroupBox27.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox27.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.Guna2GroupBox27.Location = New Global.System.Drawing.Point(17, 40)
-        Me.Guna2GroupBox27.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox27.Name = "Guna2GroupBox27"
-        Me.Guna2GroupBox27.ShadowDecoration.CustomizableEdges = CustomizableEdges68
-        Me.Guna2GroupBox27.Size = New Global.System.Drawing.Size(143, 26)
-        Me.Guna2GroupBox27.TabIndex = 6
+        gbSDA1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbSDA1.BorderColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbSDA1.Controls.Add(rbNASDA1)
+        gbSDA1.Controls.Add(rbYESSDA1)
+        gbSDA1.Controls.Add(rbNOSDA1)
+        gbSDA1.CustomBorderColor = Color.White
+        gbSDA1.CustomizableEdges = CustomizableEdges67
+        gbSDA1.FillColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbSDA1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbSDA1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbSDA1.Location = New Point(19, 53)
+        gbSDA1.Name = "gbSDA1"
+        gbSDA1.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        gbSDA1.Size = New Size(163, 35)
+        gbSDA1.TabIndex = 6
         ' 
-        ' RadioButton70
+        ' rbNASDA1
         ' 
-        Me.RadioButton70.AutoSize = True
-        Me.RadioButton70.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton70.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton70.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton70.Location = New Global.System.Drawing.Point(95, 4)
-        Me.RadioButton70.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton70.Name = "RadioButton70"
-        Me.RadioButton70.Size = New Global.System.Drawing.Size(44, 17)
-        Me.RadioButton70.TabIndex = 2
-        Me.RadioButton70.TabStop = True
-        Me.RadioButton70.Text = "N/A"
-        Me.RadioButton70.UseVisualStyleBackColor = False
+        rbNASDA1.AutoSize = True
+        rbNASDA1.BackColor = Color.White
+        rbNASDA1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNASDA1.ForeColor = Color.Black
+        rbNASDA1.Location = New Point(109, 5)
+        rbNASDA1.Name = "rbNASDA1"
+        rbNASDA1.Size = New Size(52, 21)
+        rbNASDA1.TabIndex = 2
+        rbNASDA1.TabStop = True
+        rbNASDA1.Text = "N/A"
+        rbNASDA1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton71
+        ' rbYESSDA1
         ' 
-        Me.RadioButton71.AutoSize = True
-        Me.RadioButton71.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton71.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton71.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton71.Location = New Global.System.Drawing.Point(4, 4)
-        Me.RadioButton71.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton71.Name = "RadioButton71"
-        Me.RadioButton71.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton71.TabIndex = 0
-        Me.RadioButton71.TabStop = True
-        Me.RadioButton71.Text = "Yes"
-        Me.RadioButton71.UseVisualStyleBackColor = False
+        rbYESSDA1.AutoSize = True
+        rbYESSDA1.BackColor = Color.White
+        rbYESSDA1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESSDA1.ForeColor = Color.Black
+        rbYESSDA1.Location = New Point(5, 5)
+        rbYESSDA1.Name = "rbYESSDA1"
+        rbYESSDA1.Size = New Size(48, 21)
+        rbYESSDA1.TabIndex = 0
+        rbYESSDA1.TabStop = True
+        rbYESSDA1.Text = "Yes"
+        rbYESSDA1.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton72
+        ' rbNOSDA1
         ' 
-        Me.RadioButton72.AutoSize = True
-        Me.RadioButton72.BackColor = Global.System.Drawing.Color.White
-        Me.RadioButton72.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.RadioButton72.ForeColor = Global.System.Drawing.Color.Black
-        Me.RadioButton72.Location = New Global.System.Drawing.Point(51, 4)
-        Me.RadioButton72.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.RadioButton72.Name = "RadioButton72"
-        Me.RadioButton72.Size = New Global.System.Drawing.Size(40, 17)
-        Me.RadioButton72.TabIndex = 1
-        Me.RadioButton72.TabStop = True
-        Me.RadioButton72.Text = "No"
-        Me.RadioButton72.UseVisualStyleBackColor = False
+        rbNOSDA1.AutoSize = True
+        rbNOSDA1.BackColor = Color.White
+        rbNOSDA1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOSDA1.ForeColor = Color.Black
+        rbNOSDA1.Location = New Point(58, 5)
+        rbNOSDA1.Name = "rbNOSDA1"
+        rbNOSDA1.Size = New Size(47, 21)
+        rbNOSDA1.TabIndex = 1
+        rbNOSDA1.TabStop = True
+        rbNOSDA1.Text = "No"
+        rbNOSDA1.UseVisualStyleBackColor = False
         ' 
         ' Label32
         ' 
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Label32.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label32.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label32.Location = New Global.System.Drawing.Point(20, 14)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New Global.System.Drawing.Size(276, 20)
-        Me.Label32.TabIndex = 0
-        Me.Label32.Text = "SYSTEM DESIGN AND ARCHITECTURE"
+        Label32.AutoSize = True
+        Label32.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label32.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label32.ForeColor = Color.Black
+        Label32.Location = New Point(23, 19)
+        Label32.Name = "Label32"
+        Label32.Size = New Size(336, 25)
+        Label32.TabIndex = 0
+        Label32.Text = "SYSTEM DESIGN AND ARCHITECTURE"
         ' 
         ' Label33
         ' 
-        Me.Label33.AutoSize = True
-        Me.Label33.Location = New Global.System.Drawing.Point(8, 631)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label33.TabIndex = 2
-        Me.Label33.Text = "                       "
+        Label33.AutoSize = True
+        Label33.Location = New Point(9, 841)
+        Label33.Name = "Label33"
+        Label33.Size = New Size(101, 20)
+        Label33.TabIndex = 2
+        Label33.Text = "                       "
         ' 
         ' Label34
         ' 
-        Me.Label34.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label34.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label34.Location = New Global.System.Drawing.Point(166, 40)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New Global.System.Drawing.Size(359, 33)
-        Me.Label34.TabIndex = 1
-        Me.Label34.Text = "I design and architect software systems that are scalable, performant, and meet the other requirements of the system."
+        Label34.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label34.ForeColor = Color.Black
+        Label34.Location = New Point(190, 53)
+        Label34.Name = "Label34"
+        Label34.Size = New Size(410, 44)
+        Label34.TabIndex = 1
+        Label34.Text = "I design and architect software systems that are scalable, performant, and meet the other requirements of the system."
         ' 
         ' btnNext
         ' 
-        Me.btnNext.CustomizableEdges = CustomizableEdges69
-        Me.btnNext.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
-        Me.btnNext.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
-        Me.btnNext.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
-        Me.btnNext.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.btnNext.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(17))), CInt(CByte(CByte(16))), CInt(CByte(CByte(68))))
-        Me.btnNext.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.ForeColor = Global.System.Drawing.Color.White
-        Me.btnNext.Location = New Global.System.Drawing.Point(641, 609)
-        Me.btnNext.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges70
-        Me.btnNext.Size = New Global.System.Drawing.Size(95, 25)
-        Me.btnNext.TabIndex = 2
-        Me.btnNext.Text = "Next"
+        btnNext.CustomizableEdges = CustomizableEdges69
+        btnNext.DisabledState.BorderColor = Color.DarkGray
+        btnNext.DisabledState.CustomBorderColor = Color.DarkGray
+        btnNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnNext.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnNext.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnNext.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnNext.ForeColor = Color.White
+        btnNext.Location = New Point(733, 812)
+        btnNext.Name = "btnNext"
+        btnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        btnNext.Size = New Size(109, 33)
+        btnNext.TabIndex = 2
+        btnNext.Text = "Next"
         ' 
         ' Label35
         ' 
-        Me.Label35.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label35.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label35.Location = New Global.System.Drawing.Point(166, 79)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New Global.System.Drawing.Size(356, 32)
-        Me.Label35.TabIndex = 5
-        Me.Label35.Text = "I work with other teams to make sure that the software architecture meets the goals of the project."
+        Label35.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label35.ForeColor = Color.Black
+        Label35.Location = New Point(190, 105)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(407, 43)
+        Label35.TabIndex = 5
+        Label35.Text = "I work with other teams to make sure that the software architecture meets the goals of the project."
         ' 
-        ' Guna2TextBox5
+        ' txtSystemAndArchitecture
         ' 
-        Me.Guna2TextBox5.CustomizableEdges = CustomizableEdges71
-        Me.Guna2TextBox5.DefaultText = ""
-        Me.Guna2TextBox5.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.Guna2TextBox5.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.Guna2TextBox5.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox5.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox5.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox5.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2TextBox5.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox5.Location = New Global.System.Drawing.Point(537, 11)
-        Me.Guna2TextBox5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2TextBox5.Multiline = True
-        Me.Guna2TextBox5.Name = "Guna2TextBox5"
-        Me.Guna2TextBox5.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.Guna2TextBox5.PlaceholderText = ""
-        Me.Guna2TextBox5.SelectedText = ""
-        Me.Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges72
-        Me.Guna2TextBox5.Size = New Global.System.Drawing.Size(200, 100)
-        Me.Guna2TextBox5.TabIndex = 4
+        txtSystemAndArchitecture.CustomizableEdges = CustomizableEdges71
+        txtSystemAndArchitecture.DefaultText = ""
+        txtSystemAndArchitecture.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSystemAndArchitecture.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSystemAndArchitecture.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSystemAndArchitecture.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSystemAndArchitecture.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSystemAndArchitecture.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSystemAndArchitecture.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSystemAndArchitecture.Location = New Point(614, 15)
+        txtSystemAndArchitecture.Multiline = True
+        txtSystemAndArchitecture.Name = "txtSystemAndArchitecture"
+        txtSystemAndArchitecture.PasswordChar = ChrW(0)
+        txtSystemAndArchitecture.PlaceholderText = ""
+        txtSystemAndArchitecture.ScrollBars = ScrollBars.Vertical
+        txtSystemAndArchitecture.SelectedText = ""
+        txtSystemAndArchitecture.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        txtSystemAndArchitecture.Size = New Size(229, 133)
+        txtSystemAndArchitecture.TabIndex = 4
+        ' 
+        ' gbPage3
+        ' 
+        gbPage3.BorderColor = Color.White
+        gbPage3.Controls.Add(Guna2vScrollBar3)
+        gbPage3.Controls.Add(Guna2Panel2)
+        gbPage3.CustomBorderColor = Color.White
+        gbPage3.CustomizableEdges = CustomizableEdges103
+        gbPage3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage3.ForeColor = Color.White
+        gbPage3.Location = New Point(17, 89)
+        gbPage3.Name = "gbPage3"
+        gbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges104
+        gbPage3.Size = New Size(880, 943)
+        gbPage3.TabIndex = 4
+        ' 
+        ' Guna2vScrollBar3
+        ' 
+        Guna2vScrollBar3.Dock = DockStyle.Right
+        Guna2vScrollBar3.InUpdate = False
+        Guna2vScrollBar3.LargeChange = 50
+        Guna2vScrollBar3.Location = New Point(858, 40)
+        Guna2vScrollBar3.Maximum = 280
+        Guna2vScrollBar3.Name = "Guna2vScrollBar3"
+        Guna2vScrollBar3.ScrollbarSize = 22
+        Guna2vScrollBar3.Size = New Size(22, 903)
+        Guna2vScrollBar3.TabIndex = 0
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.AutoScroll = True
+        Guna2Panel2.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel2.Controls.Add(gbP7)
+        Guna2Panel2.Controls.Add(gbP6)
+        Guna2Panel2.Controls.Add(Label36)
+        Guna2Panel2.Controls.Add(gbP3)
+        Guna2Panel2.Controls.Add(gbP5)
+        Guna2Panel2.Controls.Add(gbCL3)
+        Guna2Panel2.Controls.Add(Label37)
+        Guna2Panel2.Controls.Add(gbP4)
+        Guna2Panel2.Controls.Add(gbP2)
+        Guna2Panel2.Controls.Add(Label38)
+        Guna2Panel2.Controls.Add(gbCL2)
+        Guna2Panel2.Controls.Add(Label39)
+        Guna2Panel2.Controls.Add(Label40)
+        Guna2Panel2.Controls.Add(Label41)
+        Guna2Panel2.Controls.Add(gbP1)
+        Guna2Panel2.Controls.Add(gbCL1)
+        Guna2Panel2.Controls.Add(Label42)
+        Guna2Panel2.Controls.Add(Label43)
+        Guna2Panel2.Controls.Add(Label44)
+        Guna2Panel2.Controls.Add(Label45)
+        Guna2Panel2.Controls.Add(Label46)
+        Guna2Panel2.Controls.Add(Label47)
+        Guna2Panel2.Controls.Add(txtProfessionalism)
+        Guna2Panel2.Controls.Add(txtContinuousLearnin)
+        Guna2Panel2.CustomizableEdges = CustomizableEdges101
+        Guna2Panel2.Dock = DockStyle.Fill
+        Guna2Panel2.Location = New Point(0, 40)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.Padding = New Padding(3)
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges102
+        Guna2Panel2.Size = New Size(880, 903)
+        Guna2Panel2.TabIndex = 3
+        ' 
+        ' gbP7
+        ' 
+        gbP7.BackColor = Color.White
+        gbP7.BorderColor = Color.White
+        gbP7.Controls.Add(rbNAP7)
+        gbP7.Controls.Add(rbYESP7)
+        gbP7.Controls.Add(rbNOP7)
+        gbP7.CustomBorderColor = Color.White
+        gbP7.CustomizableEdges = CustomizableEdges77
+        gbP7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP7.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP7.Location = New Point(19, 657)
+        gbP7.Name = "gbP7"
+        gbP7.ShadowDecoration.CustomizableEdges = CustomizableEdges78
+        gbP7.Size = New Size(163, 55)
+        gbP7.TabIndex = 9
+        ' 
+        ' rbNAP7
+        ' 
+        rbNAP7.AutoSize = True
+        rbNAP7.BackColor = Color.White
+        rbNAP7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP7.ForeColor = Color.Black
+        rbNAP7.Location = New Point(107, 17)
+        rbNAP7.Name = "rbNAP7"
+        rbNAP7.Size = New Size(52, 21)
+        rbNAP7.TabIndex = 2
+        rbNAP7.TabStop = True
+        rbNAP7.Text = "N/A"
+        rbNAP7.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP7
+        ' 
+        rbYESP7.AutoSize = True
+        rbYESP7.BackColor = Color.White
+        rbYESP7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP7.ForeColor = Color.Black
+        rbYESP7.Location = New Point(3, 17)
+        rbYESP7.Name = "rbYESP7"
+        rbYESP7.Size = New Size(48, 21)
+        rbYESP7.TabIndex = 0
+        rbYESP7.TabStop = True
+        rbYESP7.Text = "Yes"
+        rbYESP7.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP7
+        ' 
+        rbNOP7.AutoSize = True
+        rbNOP7.BackColor = Color.White
+        rbNOP7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP7.ForeColor = Color.Black
+        rbNOP7.Location = New Point(56, 17)
+        rbNOP7.Name = "rbNOP7"
+        rbNOP7.Size = New Size(47, 21)
+        rbNOP7.TabIndex = 1
+        rbNOP7.TabStop = True
+        rbNOP7.Text = "No"
+        rbNOP7.UseVisualStyleBackColor = False
+        ' 
+        ' gbP6
+        ' 
+        gbP6.BackColor = Color.White
+        gbP6.BorderColor = Color.White
+        gbP6.Controls.Add(rbNAP6)
+        gbP6.Controls.Add(rbYESP6)
+        gbP6.Controls.Add(rbNOP6)
+        gbP6.CustomBorderColor = Color.White
+        gbP6.CustomizableEdges = CustomizableEdges79
+        gbP6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP6.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP6.Location = New Point(19, 580)
+        gbP6.Name = "gbP6"
+        gbP6.ShadowDecoration.CustomizableEdges = CustomizableEdges80
+        gbP6.Size = New Size(163, 55)
+        gbP6.TabIndex = 25
+        ' 
+        ' rbNAP6
+        ' 
+        rbNAP6.AutoSize = True
+        rbNAP6.BackColor = Color.White
+        rbNAP6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP6.ForeColor = Color.Black
+        rbNAP6.Location = New Point(107, 17)
+        rbNAP6.Name = "rbNAP6"
+        rbNAP6.Size = New Size(52, 21)
+        rbNAP6.TabIndex = 2
+        rbNAP6.TabStop = True
+        rbNAP6.Text = "N/A"
+        rbNAP6.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP6
+        ' 
+        rbYESP6.AutoSize = True
+        rbYESP6.BackColor = Color.White
+        rbYESP6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP6.ForeColor = Color.Black
+        rbYESP6.Location = New Point(3, 17)
+        rbYESP6.Name = "rbYESP6"
+        rbYESP6.Size = New Size(48, 21)
+        rbYESP6.TabIndex = 0
+        rbYESP6.TabStop = True
+        rbYESP6.Text = "Yes"
+        rbYESP6.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP6
+        ' 
+        rbNOP6.AutoSize = True
+        rbNOP6.BackColor = Color.White
+        rbNOP6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP6.ForeColor = Color.Black
+        rbNOP6.Location = New Point(56, 17)
+        rbNOP6.Name = "rbNOP6"
+        rbNOP6.Size = New Size(47, 21)
+        rbNOP6.TabIndex = 1
+        rbNOP6.TabStop = True
+        rbNOP6.Text = "No"
+        rbNOP6.UseVisualStyleBackColor = False
+        ' 
+        ' Label36
+        ' 
+        Label36.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label36.ForeColor = Color.Black
+        Label36.Location = New Point(190, 657)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(410, 55)
+        Label36.TabIndex = 24
+        Label36.Text = "I strive to be a professional software engineer by not only developing my technical skills, but also by communicating effectively, working well with others, and behaving ethically."
+        ' 
+        ' gbP3
+        ' 
+        gbP3.BackColor = Color.White
+        gbP3.BorderColor = Color.White
+        gbP3.Controls.Add(rbNAP3)
+        gbP3.Controls.Add(rbYESP3)
+        gbP3.Controls.Add(rbNOP3)
+        gbP3.CustomBorderColor = Color.White
+        gbP3.CustomizableEdges = CustomizableEdges81
+        gbP3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP3.Location = New Point(19, 421)
+        gbP3.Name = "gbP3"
+        gbP3.ShadowDecoration.CustomizableEdges = CustomizableEdges82
+        gbP3.Size = New Size(163, 35)
+        gbP3.TabIndex = 17
+        ' 
+        ' rbNAP3
+        ' 
+        rbNAP3.AutoSize = True
+        rbNAP3.BackColor = Color.White
+        rbNAP3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP3.ForeColor = Color.Black
+        rbNAP3.Location = New Point(111, 5)
+        rbNAP3.Name = "rbNAP3"
+        rbNAP3.Size = New Size(52, 21)
+        rbNAP3.TabIndex = 2
+        rbNAP3.TabStop = True
+        rbNAP3.Text = "N/A"
+        rbNAP3.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP3
+        ' 
+        rbYESP3.AutoSize = True
+        rbYESP3.BackColor = Color.White
+        rbYESP3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP3.ForeColor = Color.Black
+        rbYESP3.Location = New Point(5, 5)
+        rbYESP3.Name = "rbYESP3"
+        rbYESP3.Size = New Size(48, 21)
+        rbYESP3.TabIndex = 0
+        rbYESP3.TabStop = True
+        rbYESP3.Text = "Yes"
+        rbYESP3.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP3
+        ' 
+        rbNOP3.AutoSize = True
+        rbNOP3.BackColor = Color.White
+        rbNOP3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP3.ForeColor = Color.Black
+        rbNOP3.Location = New Point(58, 5)
+        rbNOP3.Name = "rbNOP3"
+        rbNOP3.Size = New Size(47, 21)
+        rbNOP3.TabIndex = 1
+        rbNOP3.TabStop = True
+        rbNOP3.Text = "No"
+        rbNOP3.UseVisualStyleBackColor = False
+        ' 
+        ' gbP5
+        ' 
+        gbP5.BackColor = Color.White
+        gbP5.BorderColor = Color.White
+        gbP5.Controls.Add(rbNAP5)
+        gbP5.Controls.Add(rbYESP5)
+        gbP5.Controls.Add(rbNOP5)
+        gbP5.CustomBorderColor = Color.White
+        gbP5.CustomizableEdges = CustomizableEdges83
+        gbP5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP5.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP5.Location = New Point(19, 525)
+        gbP5.Name = "gbP5"
+        gbP5.ShadowDecoration.CustomizableEdges = CustomizableEdges84
+        gbP5.Size = New Size(163, 35)
+        gbP5.TabIndex = 21
+        ' 
+        ' rbNAP5
+        ' 
+        rbNAP5.AutoSize = True
+        rbNAP5.BackColor = Color.White
+        rbNAP5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP5.ForeColor = Color.Black
+        rbNAP5.Location = New Point(111, 5)
+        rbNAP5.Name = "rbNAP5"
+        rbNAP5.Size = New Size(52, 21)
+        rbNAP5.TabIndex = 2
+        rbNAP5.TabStop = True
+        rbNAP5.Text = "N/A"
+        rbNAP5.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP5
+        ' 
+        rbYESP5.AutoSize = True
+        rbYESP5.BackColor = Color.White
+        rbYESP5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP5.ForeColor = Color.Black
+        rbYESP5.Location = New Point(5, 5)
+        rbYESP5.Name = "rbYESP5"
+        rbYESP5.Size = New Size(48, 21)
+        rbYESP5.TabIndex = 0
+        rbYESP5.TabStop = True
+        rbYESP5.Text = "Yes"
+        rbYESP5.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP5
+        ' 
+        rbNOP5.AutoSize = True
+        rbNOP5.BackColor = Color.White
+        rbNOP5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP5.ForeColor = Color.Black
+        rbNOP5.Location = New Point(58, 5)
+        rbNOP5.Name = "rbNOP5"
+        rbNOP5.Size = New Size(47, 21)
+        rbNOP5.TabIndex = 1
+        rbNOP5.TabStop = True
+        rbNOP5.Text = "No"
+        rbNOP5.UseVisualStyleBackColor = False
+        ' 
+        ' gbCL3
+        ' 
+        gbCL3.BackColor = Color.White
+        gbCL3.BorderColor = Color.White
+        gbCL3.Controls.Add(rbNACL3)
+        gbCL3.Controls.Add(rbYESCL3)
+        gbCL3.Controls.Add(rbNOCL3)
+        gbCL3.CustomBorderColor = Color.White
+        gbCL3.CustomizableEdges = CustomizableEdges85
+        gbCL3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCL3.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCL3.Location = New Point(19, 173)
+        gbCL3.Name = "gbCL3"
+        gbCL3.ShadowDecoration.CustomizableEdges = CustomizableEdges86
+        gbCL3.Size = New Size(163, 35)
+        gbCL3.TabIndex = 9
+        ' 
+        ' rbNACL3
+        ' 
+        rbNACL3.AutoSize = True
+        rbNACL3.BackColor = Color.White
+        rbNACL3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACL3.ForeColor = Color.Black
+        rbNACL3.Location = New Point(111, 5)
+        rbNACL3.Name = "rbNACL3"
+        rbNACL3.Size = New Size(52, 21)
+        rbNACL3.TabIndex = 2
+        rbNACL3.TabStop = True
+        rbNACL3.Text = "N/A"
+        rbNACL3.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESCL3
+        ' 
+        rbYESCL3.AutoSize = True
+        rbYESCL3.BackColor = Color.White
+        rbYESCL3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCL3.ForeColor = Color.Black
+        rbYESCL3.Location = New Point(5, 5)
+        rbYESCL3.Name = "rbYESCL3"
+        rbYESCL3.Size = New Size(48, 21)
+        rbYESCL3.TabIndex = 0
+        rbYESCL3.TabStop = True
+        rbYESCL3.Text = "Yes"
+        rbYESCL3.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOCL3
+        ' 
+        rbNOCL3.AutoSize = True
+        rbNOCL3.BackColor = Color.White
+        rbNOCL3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCL3.ForeColor = Color.Black
+        rbNOCL3.Location = New Point(58, 5)
+        rbNOCL3.Name = "rbNOCL3"
+        rbNOCL3.Size = New Size(47, 21)
+        rbNOCL3.TabIndex = 1
+        rbNOCL3.TabStop = True
+        rbNOCL3.Text = "No"
+        rbNOCL3.UseVisualStyleBackColor = False
+        ' 
+        ' Label37
+        ' 
+        Label37.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label37.ForeColor = Color.Black
+        Label37.Location = New Point(190, 580)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(410, 53)
+        Label37.TabIndex = 22
+        Label37.Text = "I make sure that I follow all software development processes, including time tracking in Jira, and comply with all relevant laws, industry-specific regulations, and organizational policies."
+        ' 
+        ' gbP4
+        ' 
+        gbP4.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP4.BorderColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP4.Controls.Add(rbNAP4)
+        gbP4.Controls.Add(rbYESP4)
+        gbP4.Controls.Add(rbNOP4)
+        gbP4.CustomBorderColor = Color.White
+        gbP4.CustomizableEdges = CustomizableEdges87
+        gbP4.FillColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP4.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP4.Location = New Point(19, 473)
+        gbP4.Name = "gbP4"
+        gbP4.ShadowDecoration.CustomizableEdges = CustomizableEdges88
+        gbP4.Size = New Size(163, 35)
+        gbP4.TabIndex = 20
+        ' 
+        ' rbNAP4
+        ' 
+        rbNAP4.AutoSize = True
+        rbNAP4.BackColor = Color.White
+        rbNAP4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP4.ForeColor = Color.Black
+        rbNAP4.Location = New Point(109, 5)
+        rbNAP4.Name = "rbNAP4"
+        rbNAP4.Size = New Size(52, 21)
+        rbNAP4.TabIndex = 2
+        rbNAP4.TabStop = True
+        rbNAP4.Text = "N/A"
+        rbNAP4.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP4
+        ' 
+        rbYESP4.AutoSize = True
+        rbYESP4.BackColor = Color.White
+        rbYESP4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP4.ForeColor = Color.Black
+        rbYESP4.Location = New Point(5, 5)
+        rbYESP4.Name = "rbYESP4"
+        rbYESP4.Size = New Size(48, 21)
+        rbYESP4.TabIndex = 0
+        rbYESP4.TabStop = True
+        rbYESP4.Text = "Yes"
+        rbYESP4.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP4
+        ' 
+        rbNOP4.AutoSize = True
+        rbNOP4.BackColor = Color.White
+        rbNOP4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP4.ForeColor = Color.Black
+        rbNOP4.Location = New Point(58, 5)
+        rbNOP4.Name = "rbNOP4"
+        rbNOP4.Size = New Size(47, 21)
+        rbNOP4.TabIndex = 1
+        rbNOP4.TabStop = True
+        rbNOP4.Text = "No"
+        rbNOP4.UseVisualStyleBackColor = False
+        ' 
+        ' gbP2
+        ' 
+        gbP2.BackColor = Color.White
+        gbP2.BorderColor = Color.White
+        gbP2.Controls.Add(rbNAP2)
+        gbP2.Controls.Add(rbYESP2)
+        gbP2.Controls.Add(rbNOP2)
+        gbP2.CustomBorderColor = Color.White
+        gbP2.CustomizableEdges = CustomizableEdges89
+        gbP2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP2.Location = New Point(19, 367)
+        gbP2.Name = "gbP2"
+        gbP2.ShadowDecoration.CustomizableEdges = CustomizableEdges90
+        gbP2.Size = New Size(163, 35)
+        gbP2.TabIndex = 15
+        ' 
+        ' rbNAP2
+        ' 
+        rbNAP2.AutoSize = True
+        rbNAP2.BackColor = Color.White
+        rbNAP2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP2.ForeColor = Color.Black
+        rbNAP2.Location = New Point(111, 5)
+        rbNAP2.Name = "rbNAP2"
+        rbNAP2.Size = New Size(52, 21)
+        rbNAP2.TabIndex = 2
+        rbNAP2.TabStop = True
+        rbNAP2.Text = "N/A"
+        rbNAP2.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP2
+        ' 
+        rbYESP2.AutoSize = True
+        rbYESP2.BackColor = Color.White
+        rbYESP2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP2.ForeColor = Color.Black
+        rbYESP2.Location = New Point(5, 5)
+        rbYESP2.Name = "rbYESP2"
+        rbYESP2.Size = New Size(48, 21)
+        rbYESP2.TabIndex = 0
+        rbYESP2.TabStop = True
+        rbYESP2.Text = "Yes"
+        rbYESP2.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP2
+        ' 
+        rbNOP2.AutoSize = True
+        rbNOP2.BackColor = Color.White
+        rbNOP2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP2.ForeColor = Color.Black
+        rbNOP2.Location = New Point(58, 5)
+        rbNOP2.Name = "rbNOP2"
+        rbNOP2.Size = New Size(47, 21)
+        rbNOP2.TabIndex = 1
+        rbNOP2.TabStop = True
+        rbNOP2.Text = "No"
+        rbNOP2.UseVisualStyleBackColor = False
+        ' 
+        ' Label38
+        ' 
+        Label38.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label38.ForeColor = Color.Black
+        Label38.Location = New Point(190, 473)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(410, 44)
+        Label38.TabIndex = 18
+        Label38.Text = "I take care of my physical and mental health so that I can be productive at work."
+        ' 
+        ' gbCL2
+        ' 
+        gbCL2.BackColor = Color.White
+        gbCL2.BorderColor = Color.White
+        gbCL2.Controls.Add(rbNACL2)
+        gbCL2.Controls.Add(rbYESCL2)
+        gbCL2.Controls.Add(rbNOCL2)
+        gbCL2.CustomBorderColor = Color.White
+        gbCL2.CustomizableEdges = CustomizableEdges91
+        gbCL2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCL2.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCL2.Location = New Point(19, 119)
+        gbCL2.Name = "gbCL2"
+        gbCL2.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        gbCL2.Size = New Size(163, 35)
+        gbCL2.TabIndex = 7
+        ' 
+        ' rbNACL2
+        ' 
+        rbNACL2.AutoSize = True
+        rbNACL2.BackColor = Color.White
+        rbNACL2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACL2.ForeColor = Color.Black
+        rbNACL2.Location = New Point(111, 5)
+        rbNACL2.Name = "rbNACL2"
+        rbNACL2.Size = New Size(52, 21)
+        rbNACL2.TabIndex = 2
+        rbNACL2.TabStop = True
+        rbNACL2.Text = "N/A"
+        rbNACL2.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESCL2
+        ' 
+        rbYESCL2.AutoSize = True
+        rbYESCL2.BackColor = Color.White
+        rbYESCL2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCL2.ForeColor = Color.Black
+        rbYESCL2.Location = New Point(5, 5)
+        rbYESCL2.Name = "rbYESCL2"
+        rbYESCL2.Size = New Size(48, 21)
+        rbYESCL2.TabIndex = 0
+        rbYESCL2.TabStop = True
+        rbYESCL2.Text = "Yes"
+        rbYESCL2.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOCL2
+        ' 
+        rbNOCL2.AutoSize = True
+        rbNOCL2.BackColor = Color.White
+        rbNOCL2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCL2.ForeColor = Color.Black
+        rbNOCL2.Location = New Point(58, 5)
+        rbNOCL2.Name = "rbNOCL2"
+        rbNOCL2.Size = New Size(47, 21)
+        rbNOCL2.TabIndex = 1
+        rbNOCL2.TabStop = True
+        rbNOCL2.Text = "No"
+        rbNOCL2.UseVisualStyleBackColor = False
+        ' 
+        ' Label39
+        ' 
+        Label39.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label39.ForeColor = Color.Black
+        Label39.Location = New Point(190, 525)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(407, 43)
+        Label39.TabIndex = 19
+        Label39.Text = "I work on my time management skills so that I can be more efficient and reduce the need to work overtime."
+        ' 
+        ' Label40
+        ' 
+        Label40.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label40.ForeColor = Color.Black
+        Label40.Location = New Point(190, 428)
+        Label40.Name = "Label40"
+        Label40.Size = New Size(410, 35)
+        Label40.TabIndex = 16
+        Label40.Text = "I let my team know if I will be late or unable to attend a meeting."
+        ' 
+        ' Label41
+        ' 
+        Label41.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label41.ForeColor = Color.Black
+        Label41.Location = New Point(190, 173)
+        Label41.Name = "Label41"
+        Label41.Size = New Size(410, 43)
+        Label41.TabIndex = 8
+        Label41.Text = "I collaborate effectively with my team members and other stakeholders to achieve our common goals."
+        ' 
+        ' gbP1
+        ' 
+        gbP1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP1.BorderColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP1.Controls.Add(rbNAP1)
+        gbP1.Controls.Add(rbYESP1)
+        gbP1.Controls.Add(rbNOP1)
+        gbP1.CustomBorderColor = Color.White
+        gbP1.CustomizableEdges = CustomizableEdges93
+        gbP1.FillColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbP1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbP1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbP1.Location = New Point(19, 315)
+        gbP1.Name = "gbP1"
+        gbP1.ShadowDecoration.CustomizableEdges = CustomizableEdges94
+        gbP1.Size = New Size(163, 35)
+        gbP1.TabIndex = 14
+        ' 
+        ' rbNAP1
+        ' 
+        rbNAP1.AutoSize = True
+        rbNAP1.BackColor = Color.White
+        rbNAP1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNAP1.ForeColor = Color.Black
+        rbNAP1.Location = New Point(109, 5)
+        rbNAP1.Name = "rbNAP1"
+        rbNAP1.Size = New Size(52, 21)
+        rbNAP1.TabIndex = 2
+        rbNAP1.TabStop = True
+        rbNAP1.Text = "N/A"
+        rbNAP1.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESP1
+        ' 
+        rbYESP1.AutoSize = True
+        rbYESP1.BackColor = Color.White
+        rbYESP1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESP1.ForeColor = Color.Black
+        rbYESP1.Location = New Point(5, 5)
+        rbYESP1.Name = "rbYESP1"
+        rbYESP1.Size = New Size(48, 21)
+        rbYESP1.TabIndex = 0
+        rbYESP1.TabStop = True
+        rbYESP1.Text = "Yes"
+        rbYESP1.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOP1
+        ' 
+        rbNOP1.AutoSize = True
+        rbNOP1.BackColor = Color.White
+        rbNOP1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOP1.ForeColor = Color.Black
+        rbNOP1.Location = New Point(58, 5)
+        rbNOP1.Name = "rbNOP1"
+        rbNOP1.Size = New Size(47, 21)
+        rbNOP1.TabIndex = 1
+        rbNOP1.TabStop = True
+        rbNOP1.Text = "No"
+        rbNOP1.UseVisualStyleBackColor = False
+        ' 
+        ' gbCL1
+        ' 
+        gbCL1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbCL1.BorderColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbCL1.Controls.Add(rbNACL1)
+        gbCL1.Controls.Add(rbYESCL1)
+        gbCL1.Controls.Add(rbNOCL1)
+        gbCL1.CustomBorderColor = Color.White
+        gbCL1.CustomizableEdges = CustomizableEdges95
+        gbCL1.FillColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        gbCL1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbCL1.ForeColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        gbCL1.Location = New Point(19, 67)
+        gbCL1.Name = "gbCL1"
+        gbCL1.ShadowDecoration.CustomizableEdges = CustomizableEdges96
+        gbCL1.Size = New Size(163, 35)
+        gbCL1.TabIndex = 6
+        ' 
+        ' rbNACL1
+        ' 
+        rbNACL1.AutoSize = True
+        rbNACL1.BackColor = Color.White
+        rbNACL1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNACL1.ForeColor = Color.Black
+        rbNACL1.Location = New Point(109, 5)
+        rbNACL1.Name = "rbNACL1"
+        rbNACL1.Size = New Size(52, 21)
+        rbNACL1.TabIndex = 2
+        rbNACL1.TabStop = True
+        rbNACL1.Text = "N/A"
+        rbNACL1.UseVisualStyleBackColor = False
+        ' 
+        ' rbYESCL1
+        ' 
+        rbYESCL1.AutoSize = True
+        rbYESCL1.BackColor = Color.White
+        rbYESCL1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbYESCL1.ForeColor = Color.Black
+        rbYESCL1.Location = New Point(5, 5)
+        rbYESCL1.Name = "rbYESCL1"
+        rbYESCL1.Size = New Size(48, 21)
+        rbYESCL1.TabIndex = 0
+        rbYESCL1.TabStop = True
+        rbYESCL1.Text = "Yes"
+        rbYESCL1.UseVisualStyleBackColor = False
+        ' 
+        ' rbNOCL1
+        ' 
+        rbNOCL1.AutoSize = True
+        rbNOCL1.BackColor = Color.White
+        rbNOCL1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        rbNOCL1.ForeColor = Color.Black
+        rbNOCL1.Location = New Point(58, 5)
+        rbNOCL1.Name = "rbNOCL1"
+        rbNOCL1.Size = New Size(47, 21)
+        rbNOCL1.TabIndex = 1
+        rbNOCL1.TabStop = True
+        rbNOCL1.Text = "No"
+        rbNOCL1.UseVisualStyleBackColor = False
+        ' 
+        ' Label42
+        ' 
+        Label42.AutoSize = True
+        Label42.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label42.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label42.ForeColor = Color.Black
+        Label42.Location = New Point(26, 283)
+        Label42.Name = "Label42"
+        Label42.Size = New Size(177, 25)
+        Label42.TabIndex = 10
+        Label42.Text = "PROFESSIONALISM"
+        ' 
+        ' Label43
+        ' 
+        Label43.AutoSize = True
+        Label43.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Label43.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label43.ForeColor = Color.Black
+        Label43.Location = New Point(26, 35)
+        Label43.Name = "Label43"
+        Label43.Size = New Size(228, 25)
+        Label43.TabIndex = 0
+        Label43.Text = "CONTINUOUS LEARNING"
+        ' 
+        ' Label44
+        ' 
+        Label44.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label44.ForeColor = Color.Black
+        Label44.Location = New Point(190, 315)
+        Label44.Name = "Label44"
+        Label44.Size = New Size(410, 44)
+        Label44.TabIndex = 11
+        Label44.Text = "I communicate effectively, both verbally and in writing. I convey my ideas clearly and concisely."
+        ' 
+        ' Label45
+        ' 
+        Label45.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label45.ForeColor = Color.Black
+        Label45.Location = New Point(190, 67)
+        Label45.Name = "Label45"
+        Label45.Size = New Size(410, 44)
+        Label45.TabIndex = 1
+        Label45.Text = "I keep up with the latest trends and best practices in software development."
+        ' 
+        ' Label46
+        ' 
+        Label46.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label46.ForeColor = Color.Black
+        Label46.Location = New Point(190, 373)
+        Label46.Name = "Label46"
+        Label46.Size = New Size(407, 27)
+        Label46.TabIndex = 13
+        Label46.Text = "I maintain a positive and professional attitude in the workplace."
+        ' 
+        ' Label47
+        ' 
+        Label47.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Label47.ForeColor = Color.Black
+        Label47.Location = New Point(190, 119)
+        Label47.Name = "Label47"
+        Label47.Size = New Size(407, 43)
+        Label47.TabIndex = 5
+        Label47.Text = "I am committed to continuous learning and development. I actively seek out and participate in training and development opportunities."
+        ' 
+        ' txtProfessionalism
+        ' 
+        txtProfessionalism.CustomizableEdges = CustomizableEdges97
+        txtProfessionalism.DefaultText = ""
+        txtProfessionalism.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtProfessionalism.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtProfessionalism.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtProfessionalism.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtProfessionalism.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtProfessionalism.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtProfessionalism.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtProfessionalism.Location = New Point(618, 280)
+        txtProfessionalism.Multiline = True
+        txtProfessionalism.Name = "txtProfessionalism"
+        txtProfessionalism.PasswordChar = ChrW(0)
+        txtProfessionalism.PlaceholderText = ""
+        txtProfessionalism.ScrollBars = ScrollBars.Vertical
+        txtProfessionalism.SelectedText = ""
+        txtProfessionalism.ShadowDecoration.CustomizableEdges = CustomizableEdges98
+        txtProfessionalism.Size = New Size(229, 440)
+        txtProfessionalism.TabIndex = 12
+        ' 
+        ' txtContinuousLearnin
+        ' 
+        txtContinuousLearnin.CustomizableEdges = CustomizableEdges99
+        txtContinuousLearnin.DefaultText = ""
+        txtContinuousLearnin.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtContinuousLearnin.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtContinuousLearnin.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContinuousLearnin.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContinuousLearnin.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContinuousLearnin.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtContinuousLearnin.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContinuousLearnin.Location = New Point(618, 32)
+        txtContinuousLearnin.Multiline = True
+        txtContinuousLearnin.Name = "txtContinuousLearnin"
+        txtContinuousLearnin.PasswordChar = ChrW(0)
+        txtContinuousLearnin.PlaceholderText = ""
+        txtContinuousLearnin.ScrollBars = ScrollBars.Vertical
+        txtContinuousLearnin.SelectedText = ""
+        txtContinuousLearnin.ShadowDecoration.CustomizableEdges = CustomizableEdges100
+        txtContinuousLearnin.Size = New Size(229, 185)
+        txtContinuousLearnin.TabIndex = 4
         ' 
         ' Employee_Answer_Form
         ' 
-        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
-        Me.AutoScaleMode = Global.System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = Global.System.Drawing.Color.White
-        Me.ClientSize = New Global.System.Drawing.Size(1287, 977)
-        Me.ControlBox = False
-        Me.Controls.Add(Me.Guna2HtmlLabel5)
-        Me.Controls.Add(Me.gbPageSelection)
-        Me.Controls.Add(Me.gbPage2)
-        Me.Controls.Add(Me.btnSubmit)
-        Me.Controls.Add(Me.Guna2HtmlLabel4)
-        Me.Controls.Add(Me.Guna2HtmlLabel3)
-        Me.Controls.Add(Me.Guna2HtmlLabel2)
-        Me.Controls.Add(Me.lblManager)
-        Me.Controls.Add(Me.Guna2HtmlLabel1)
-        Me.Controls.Add(Me.lblSupervisor)
-        Me.Controls.Add(Me.lblId)
-        Me.Controls.Add(Me.lblName)
-        Me.Controls.Add(Me.Guna2Shapes1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.gbPage3)
-        Me.Controls.Add(Me.gbPage1)
-        Me.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Name = "Employee_Answer_Form"
-        Me.gbPageSelection.ResumeLayout(False)
-        Me.gbPage1.ResumeLayout(False)
-        Me.Guna2Panel3.ResumeLayout(False)
-        Me.Guna2Panel3.PerformLayout()
-        Me.gbSD15.ResumeLayout(False)
-        Me.gbSD15.PerformLayout()
-        Me.gbSD8.ResumeLayout(False)
-        Me.gbSD8.PerformLayout()
-        Me.gbSD12.ResumeLayout(False)
-        Me.gbSD12.PerformLayout()
-        Me.gbSD7.ResumeLayout(False)
-        Me.gbSD7.PerformLayout()
-        Me.gbSD14.ResumeLayout(False)
-        Me.gbSD14.PerformLayout()
-        Me.gbSD4.ResumeLayout(False)
-        Me.gbSD4.PerformLayout()
-        Me.gbSD11.ResumeLayout(False)
-        Me.gbSD11.PerformLayout()
-        Me.gbSD6.ResumeLayout(False)
-        Me.gbSD6.PerformLayout()
-        Me.gbSD13.ResumeLayout(False)
-        Me.gbSD13.PerformLayout()
-        Me.gbSD3.ResumeLayout(False)
-        Me.gbSD3.PerformLayout()
-        Me.gbSD10.ResumeLayout(False)
-        Me.gbSD10.PerformLayout()
-        Me.gbSD5.ResumeLayout(False)
-        Me.gbSD5.PerformLayout()
-        Me.gbSD9.ResumeLayout(False)
-        Me.gbSD9.PerformLayout()
-        Me.gbSD2.ResumeLayout(False)
-        Me.gbSD2.PerformLayout()
-        Me.gbSD1.ResumeLayout(False)
-        Me.gbSD1.PerformLayout()
-        Me.gbPage2.ResumeLayout(False)
-        Me.gbPage3.ResumeLayout(False)
-        Me.Guna2Panel2.ResumeLayout(False)
-        Me.Guna2Panel2.PerformLayout()
-        Me.gbP7.ResumeLayout(False)
-        Me.gbP7.PerformLayout()
-        Me.gbP6.ResumeLayout(False)
-        Me.gbP6.PerformLayout()
-        Me.gbP3.ResumeLayout(False)
-        Me.gbP3.PerformLayout()
-        Me.gbP5.ResumeLayout(False)
-        Me.gbP5.PerformLayout()
-        Me.gbCL3.ResumeLayout(False)
-        Me.gbCL3.PerformLayout()
-        Me.gbP4.ResumeLayout(False)
-        Me.gbP4.PerformLayout()
-        Me.gbP2.ResumeLayout(False)
-        Me.gbP2.PerformLayout()
-        Me.gbCL2.ResumeLayout(False)
-        Me.gbCL2.PerformLayout()
-        Me.gbP1.ResumeLayout(False)
-        Me.gbP1.PerformLayout()
-        Me.gbCL1.ResumeLayout(False)
-        Me.gbCL1.PerformLayout()
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
-        Me.Guna2GroupBox19.ResumeLayout(False)
-        Me.Guna2GroupBox19.PerformLayout()
-        Me.Guna2GroupBox20.ResumeLayout(False)
-        Me.Guna2GroupBox20.PerformLayout()
-        Me.Guna2GroupBox21.ResumeLayout(False)
-        Me.Guna2GroupBox21.PerformLayout()
-        Me.Guna2GroupBox22.ResumeLayout(False)
-        Me.Guna2GroupBox22.PerformLayout()
-        Me.Guna2GroupBox23.ResumeLayout(False)
-        Me.Guna2GroupBox23.PerformLayout()
-        Me.Guna2GroupBox24.ResumeLayout(False)
-        Me.Guna2GroupBox24.PerformLayout()
-        Me.Guna2GroupBox25.ResumeLayout(False)
-        Me.Guna2GroupBox25.PerformLayout()
-        Me.Guna2GroupBox26.ResumeLayout(False)
-        Me.Guna2GroupBox26.PerformLayout()
-        Me.Guna2GroupBox27.ResumeLayout(False)
-        Me.Guna2GroupBox27.PerformLayout()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
+        ClientSize = New Size(1471, 1084)
+        ControlBox = False
+        Controls.Add(Guna2HtmlLabel5)
+        Controls.Add(gbPageSelection)
+        Controls.Add(gbPage2)
+        Controls.Add(btnSubmit)
+        Controls.Add(Guna2HtmlLabel4)
+        Controls.Add(Guna2HtmlLabel3)
+        Controls.Add(Guna2HtmlLabel2)
+        Controls.Add(lblManager)
+        Controls.Add(Guna2HtmlLabel1)
+        Controls.Add(lblSupervisor)
+        Controls.Add(lblId)
+        Controls.Add(lblName)
+        Controls.Add(Guna2Shapes1)
+        Controls.Add(Label4)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
+        Controls.Add(gbPage3)
+        Controls.Add(gbPage1)
+        Name = "Employee_Answer_Form"
+        gbPageSelection.ResumeLayout(False)
+        gbPage1.ResumeLayout(False)
+        Guna2Panel3.ResumeLayout(False)
+        Guna2Panel3.PerformLayout()
+        gbSD15.ResumeLayout(False)
+        gbSD15.PerformLayout()
+        gbSD8.ResumeLayout(False)
+        gbSD8.PerformLayout()
+        gbSD12.ResumeLayout(False)
+        gbSD12.PerformLayout()
+        gbSD7.ResumeLayout(False)
+        gbSD7.PerformLayout()
+        gbSD14.ResumeLayout(False)
+        gbSD14.PerformLayout()
+        gbSD4.ResumeLayout(False)
+        gbSD4.PerformLayout()
+        gbSD11.ResumeLayout(False)
+        gbSD11.PerformLayout()
+        gbSD6.ResumeLayout(False)
+        gbSD6.PerformLayout()
+        gbSD13.ResumeLayout(False)
+        gbSD13.PerformLayout()
+        gbSD3.ResumeLayout(False)
+        gbSD3.PerformLayout()
+        gbSD10.ResumeLayout(False)
+        gbSD10.PerformLayout()
+        gbSD5.ResumeLayout(False)
+        gbSD5.PerformLayout()
+        gbSD9.ResumeLayout(False)
+        gbSD9.PerformLayout()
+        gbSD2.ResumeLayout(False)
+        gbSD2.PerformLayout()
+        gbSD1.ResumeLayout(False)
+        gbSD1.PerformLayout()
+        gbPage2.ResumeLayout(False)
+        Guna2Panel1.ResumeLayout(False)
+        Guna2Panel1.PerformLayout()
+        gbCI3.ResumeLayout(False)
+        gbCI3.PerformLayout()
+        gbCI4.ResumeLayout(False)
+        gbCI4.PerformLayout()
+        gbCI2.ResumeLayout(False)
+        gbCI2.PerformLayout()
+        gbCI1.ResumeLayout(False)
+        gbCI1.PerformLayout()
+        gbD2.ResumeLayout(False)
+        gbD2.PerformLayout()
+        gbD1.ResumeLayout(False)
+        gbD1.PerformLayout()
+        gbPS1.ResumeLayout(False)
+        gbPS1.PerformLayout()
+        gbSDA2.ResumeLayout(False)
+        gbSDA2.PerformLayout()
+        gbSDA1.ResumeLayout(False)
+        gbSDA1.PerformLayout()
+        gbPage3.ResumeLayout(False)
+        Guna2Panel2.ResumeLayout(False)
+        Guna2Panel2.PerformLayout()
+        gbP7.ResumeLayout(False)
+        gbP7.PerformLayout()
+        gbP6.ResumeLayout(False)
+        gbP6.PerformLayout()
+        gbP3.ResumeLayout(False)
+        gbP3.PerformLayout()
+        gbP5.ResumeLayout(False)
+        gbP5.PerformLayout()
+        gbCL3.ResumeLayout(False)
+        gbCL3.PerformLayout()
+        gbP4.ResumeLayout(False)
+        gbP4.PerformLayout()
+        gbP2.ResumeLayout(False)
+        gbP2.PerformLayout()
+        gbCL2.ResumeLayout(False)
+        gbCL2.PerformLayout()
+        gbP1.ResumeLayout(False)
+        gbP1.PerformLayout()
+        gbCL1.ResumeLayout(False)
+        gbCL1.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -3806,110 +3647,110 @@ Partial Class Employee_Answer_Form
     Friend WithEvents gbPage2 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2vScrollBar2 As Guna.UI2.WinForms.Guna2VScrollBar
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2GroupBox19 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton25 As RadioButton
-    Friend WithEvents RadioButton26 As RadioButton
-    Friend WithEvents RadioButton27 As RadioButton
+    Friend WithEvents txtCollabAndInvolvement As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents gbCI3 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNACI3 As RadioButton
+    Friend WithEvents rbYESCI3 As RadioButton
+    Friend WithEvents rbNOCI3 As RadioButton
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
-    Friend WithEvents Guna2GroupBox20 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton49 As RadioButton
-    Friend WithEvents RadioButton50 As RadioButton
-    Friend WithEvents RadioButton51 As RadioButton
-    Friend WithEvents Guna2GroupBox21 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton52 As RadioButton
-    Friend WithEvents RadioButton53 As RadioButton
-    Friend WithEvents RadioButton54 As RadioButton
-    Friend WithEvents Guna2GroupBox22 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton55 As RadioButton
-    Friend WithEvents RadioButton56 As RadioButton
-    Friend WithEvents RadioButton57 As RadioButton
+    Friend WithEvents gbCI4 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNACI4 As RadioButton
+    Friend WithEvents rbYESCI4 As RadioButton
+    Friend WithEvents rbNOCI4 As RadioButton
+    Friend WithEvents gbCI2 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNACI2 As RadioButton
+    Friend WithEvents rbYESCI2 As RadioButton
+    Friend WithEvents rbNOCI2 As RadioButton
+    Friend WithEvents gbCI1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNACI1 As RadioButton
+    Friend WithEvents rbYESCI1 As RadioButton
+    Friend WithEvents rbNOCI1 As RadioButton
     Friend WithEvents Label26 As Label
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtDocumentation As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtProductionSupport As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
-    Friend WithEvents Guna2GroupBox23 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton58 As RadioButton
-    Friend WithEvents RadioButton59 As RadioButton
-    Friend WithEvents RadioButton60 As RadioButton
+    Friend WithEvents gbD2 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNAD2 As RadioButton
+    Friend WithEvents rbYESD2 As RadioButton
+    Friend WithEvents rbNOD2 As RadioButton
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents Guna2GroupBox24 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton61 As RadioButton
-    Friend WithEvents RadioButton62 As RadioButton
-    Friend WithEvents RadioButton63 As RadioButton
-    Friend WithEvents Guna2GroupBox25 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton64 As RadioButton
-    Friend WithEvents RadioButton65 As RadioButton
-    Friend WithEvents RadioButton66 As RadioButton
+    Friend WithEvents gbD1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNAD1 As RadioButton
+    Friend WithEvents rbYESD1 As RadioButton
+    Friend WithEvents rbNOD1 As RadioButton
+    Friend WithEvents gbPS1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNAPS1 As RadioButton
+    Friend WithEvents rbYESPS1 As RadioButton
+    Friend WithEvents rbNOPS1 As RadioButton
     Friend WithEvents Label31 As Label
-    Friend WithEvents Guna2GroupBox26 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton67 As RadioButton
-    Friend WithEvents RadioButton68 As RadioButton
-    Friend WithEvents RadioButton69 As RadioButton
-    Friend WithEvents Guna2GroupBox27 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton70 As RadioButton
-    Friend WithEvents RadioButton71 As RadioButton
-    Friend WithEvents RadioButton72 As RadioButton
+    Friend WithEvents gbSDA2 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNASDA2 As RadioButton
+    Friend WithEvents rbYESSDA2 As RadioButton
+    Friend WithEvents rbNOSDA2 As RadioButton
+    Friend WithEvents gbSDA1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents rbNASDA1 As RadioButton
+    Friend WithEvents rbYESSDA1 As RadioButton
+    Friend WithEvents rbNOSDA1 As RadioButton
     Friend WithEvents Label32 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents btnNext As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label35 As Label
-    Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSystemAndArchitecture As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents gbPage3 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2vScrollBar3 As Guna.UI2.WinForms.Guna2VScrollBar
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents gbP7 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton73 As RadioButton
-    Friend WithEvents RadioButton74 As RadioButton
-    Friend WithEvents RadioButton75 As RadioButton
+    Friend WithEvents rbNAP7 As RadioButton
+    Friend WithEvents rbYESP7 As RadioButton
+    Friend WithEvents rbNOP7 As RadioButton
     Friend WithEvents gbP6 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton76 As RadioButton
-    Friend WithEvents RadioButton77 As RadioButton
-    Friend WithEvents RadioButton78 As RadioButton
+    Friend WithEvents rbNAP6 As RadioButton
+    Friend WithEvents rbYESP6 As RadioButton
+    Friend WithEvents rbNOP6 As RadioButton
     Friend WithEvents Label36 As Label
     Friend WithEvents gbP3 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton79 As RadioButton
-    Friend WithEvents RadioButton80 As RadioButton
-    Friend WithEvents RadioButton81 As RadioButton
+    Friend WithEvents rbNAP3 As RadioButton
+    Friend WithEvents rbYESP3 As RadioButton
+    Friend WithEvents rbNOP3 As RadioButton
     Friend WithEvents gbP5 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton82 As RadioButton
-    Friend WithEvents RadioButton83 As RadioButton
-    Friend WithEvents RadioButton84 As RadioButton
+    Friend WithEvents rbNAP5 As RadioButton
+    Friend WithEvents rbYESP5 As RadioButton
+    Friend WithEvents rbNOP5 As RadioButton
     Friend WithEvents gbCL3 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton85 As RadioButton
-    Friend WithEvents RadioButton86 As RadioButton
-    Friend WithEvents RadioButton87 As RadioButton
+    Friend WithEvents rbNACL3 As RadioButton
+    Friend WithEvents rbYESCL3 As RadioButton
+    Friend WithEvents rbNOCL3 As RadioButton
     Friend WithEvents Label37 As Label
     Friend WithEvents gbP4 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton88 As RadioButton
-    Friend WithEvents RadioButton89 As RadioButton
-    Friend WithEvents RadioButton90 As RadioButton
+    Friend WithEvents rbNAP4 As RadioButton
+    Friend WithEvents rbYESP4 As RadioButton
+    Friend WithEvents rbNOP4 As RadioButton
     Friend WithEvents gbP2 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton91 As RadioButton
-    Friend WithEvents RadioButton92 As RadioButton
-    Friend WithEvents RadioButton93 As RadioButton
+    Friend WithEvents rbNAP2 As RadioButton
+    Friend WithEvents rbYESP2 As RadioButton
+    Friend WithEvents rbNOP2 As RadioButton
     Friend WithEvents Label38 As Label
     Friend WithEvents gbCL2 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton94 As RadioButton
-    Friend WithEvents RadioButton95 As RadioButton
-    Friend WithEvents RadioButton96 As RadioButton
+    Friend WithEvents rbNACL2 As RadioButton
+    Friend WithEvents rbYESCL2 As RadioButton
+    Friend WithEvents rbNOCL2 As RadioButton
     Friend WithEvents Label39 As Label
     Friend WithEvents Label40 As Label
     Friend WithEvents Label41 As Label
     Friend WithEvents gbP1 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton97 As RadioButton
-    Friend WithEvents RadioButton98 As RadioButton
-    Friend WithEvents RadioButton99 As RadioButton
+    Friend WithEvents rbNAP1 As RadioButton
+    Friend WithEvents rbYESP1 As RadioButton
+    Friend WithEvents rbNOP1 As RadioButton
     Friend WithEvents gbCL1 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents RadioButton100 As RadioButton
-    Friend WithEvents RadioButton101 As RadioButton
-    Friend WithEvents RadioButton102 As RadioButton
+    Friend WithEvents rbNACL1 As RadioButton
+    Friend WithEvents rbYESCL1 As RadioButton
+    Friend WithEvents rbNOCL1 As RadioButton
     Friend WithEvents Label42 As Label
     Friend WithEvents Label43 As Label
     Friend WithEvents Label44 As Label
