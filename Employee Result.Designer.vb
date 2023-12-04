@@ -264,7 +264,7 @@ Partial Class Employee_Result
         Guna2GroupBox10.Controls.Add(Guna2CustomRadioButton1)
         Guna2GroupBox10.CustomBorderColor = Color.White
         Guna2GroupBox10.CustomizableEdges = CustomizableEdges5
-        Guna2GroupBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox10.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox10.ForeColor = Color.White
         Guna2GroupBox10.Location = New Point(742, 719)
         Guna2GroupBox10.Name = "Guna2GroupBox10"
@@ -347,7 +347,7 @@ Partial Class Employee_Result
         Guna2GroupBox3.Controls.Add(Guna2Panel5)
         Guna2GroupBox3.CustomBorderColor = Color.White
         Guna2GroupBox3.CustomizableEdges = CustomizableEdges13
-        Guna2GroupBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox3.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox3.ForeColor = Color.White
         Guna2GroupBox3.Location = New Point(93, 64)
         Guna2GroupBox3.Name = "Guna2GroupBox3"
@@ -469,7 +469,7 @@ Partial Class Employee_Result
         Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox5.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.Location = New Point(447, 663)
         Guna2TextBox5.Name = "Guna2TextBox5"
@@ -490,7 +490,7 @@ Partial Class Employee_Result
         Guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox6.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox6.Location = New Point(37, 663)
         Guna2TextBox6.Name = "Guna2TextBox6"
@@ -830,7 +830,7 @@ Partial Class Employee_Result
         Guna2GroupBox2.Controls.Add(Guna2Panel4)
         Guna2GroupBox2.CustomBorderColor = Color.White
         Guna2GroupBox2.CustomizableEdges = CustomizableEdges21
-        Guna2GroupBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox2.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox2.ForeColor = Color.White
         Guna2GroupBox2.Location = New Point(56, 82)
         Guna2GroupBox2.Name = "Guna2GroupBox2"
@@ -939,7 +939,7 @@ Partial Class Employee_Result
         Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox3.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Location = New Point(447, 663)
         Guna2TextBox3.Name = "Guna2TextBox3"
@@ -960,7 +960,7 @@ Partial Class Employee_Result
         Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox4.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox4.Location = New Point(37, 663)
         Guna2TextBox4.Name = "Guna2TextBox4"
@@ -1345,7 +1345,7 @@ Partial Class Employee_Result
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label4.Location = New Point(655, 75)
         Label4.Name = "Label4"
         Label4.Size = New Size(71, 20)
@@ -1355,7 +1355,7 @@ Partial Class Employee_Result
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(655, 41)
         Label3.Name = "Label3"
         Label3.Size = New Size(81, 20)
@@ -1365,7 +1365,7 @@ Partial Class Employee_Result
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.Location = New Point(27, 75)
         Label2.Name = "Label2"
         Label2.Size = New Size(97, 20)
@@ -1375,7 +1375,7 @@ Partial Class Employee_Result
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label1.Location = New Point(27, 41)
         Label1.Name = "Label1"
         Label1.Size = New Size(122, 20)
@@ -1389,7 +1389,7 @@ Partial Class Employee_Result
         Guna2GroupBox1.Controls.Add(Guna2Panel3)
         Guna2GroupBox1.CustomBorderColor = Color.White
         Guna2GroupBox1.CustomizableEdges = CustomizableEdges30
-        Guna2GroupBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox1.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2GroupBox1.ForeColor = Color.White
         Guna2GroupBox1.Location = New Point(27, 98)
         Guna2GroupBox1.Name = "Guna2GroupBox1"
@@ -1612,7 +1612,7 @@ Partial Class Employee_Result
         Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox2.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.Location = New Point(450, 775)
         Guna2TextBox2.Name = "Guna2TextBox2"
@@ -1633,7 +1633,7 @@ Partial Class Employee_Result
         Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox1.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Location = New Point(35, 775)
         Guna2TextBox1.Name = "Guna2TextBox1"
@@ -2147,7 +2147,7 @@ Partial Class Employee_Result
         ' 
         ' Employee_Result
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1082, 756)
         Controls.Add(Guna2Panel2)
