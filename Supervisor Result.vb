@@ -1,19 +1,44 @@
 ﻿Public Class Supervisor_Result
-    Private Sub Guna2TextBox6_TextChanged(sender As Object, e As EventArgs) Handles txtPE1.TextChanged
-
-    End Sub
-
-    Private Sub lblPS3_Click(sender As Object, e As EventArgs) Handles lblPS3.Click
-
-    End Sub
-
-    Private Sub lblPE3_Click(sender As Object, e As EventArgs) Handles lblPE3.Click
-    End Sub
-
-    Private Sub Guna2Panel5_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel5.Paint
-    End Sub
-
     Private Sub Supervisor_Result_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        gbPage2.Visible = False
+        gbPage3.Visible = False
+        gbPage4.Visible = False
+        rbPage1.Checked = True
+    End Sub
 
+    Private Sub rbPage1_CheckedChanged(sender As Object, e As EventArgs) Handles rbPage1.CheckedChanged
+        If rbPage1.Checked Then
+            gbPage1.Visible = True
+            gbPage2.Visible = False
+            gbPage3.Visible = False
+            gbPage4.Visible = False
+        End If
+    End Sub
+
+    Private Sub rbPage2_CheckedChanged(sender As Object, e As EventArgs) Handles rbPage2.CheckedChanged
+        If rbPage2.Checked Then
+            gbPage1.Visible = False
+            gbPage2.Visible = True
+            gbPage3.Visible = False
+            gbPage4.Visible = False
+        End If
+    End Sub
+
+    Private Sub rbPage3_CheckedChanged(sender As Object, e As EventArgs) Handles rbPage3.CheckedChanged
+        If rbPage3.Checked Then
+            gbPage1.Visible = False
+            gbPage2.Visible = False
+            gbPage3.Visible = True
+            gbPage4.Visible = False
+        End If
+    End Sub
+
+    Private Sub rbPage4_CheckedChanged(sender As Object, e As EventArgs) Handles rbPage4.CheckedChanged
+        If rbPage4.Checked Then
+            gbPage1.Visible = False
+            gbPage2.Visible = False
+            gbPage3.Visible = False
+            gbPage4.Visible = True
+        End If
     End Sub
 End Class
