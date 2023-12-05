@@ -32,4 +32,8 @@
             gbPage3.Visible = True
         End If
     End Sub
+
+    Private Sub gbPage2_Click(sender As Object, e As EventArgs) Handles gbPage2.Click
+
+    End Sub
 End Class
