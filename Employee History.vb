@@ -1,11 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class Employee_History
-    Private Sub Guna2DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dghistory.CellContentClick
-
-    End Sub
-
-
-    Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
+    Private Sub Guna2DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgHistory.CellContentClick
 
     End Sub
 
