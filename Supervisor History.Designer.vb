@@ -46,13 +46,14 @@ Partial Class Supervisor_History
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-92, 98)
+        Guna2Shapes1.Location = New Point(-115, 122)
+        Guna2Shapes1.Margin = New Padding(4)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
         Guna2Shapes1.RoundedEdges = CustomizableEdges1
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Guna2Shapes1.Size = New Size(1103, 3)
+        Guna2Shapes1.Size = New Size(1379, 4)
         Guna2Shapes1.TabIndex = 70
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
@@ -60,9 +61,10 @@ Partial Class Supervisor_History
         ' lblManager
         ' 
         lblManager.AutoSize = True
-        lblManager.Location = New Point(736, 31)
+        lblManager.Location = New Point(920, 39)
+        lblManager.Margin = New Padding(4, 0, 4, 0)
         lblManager.Name = "lblManager"
-        lblManager.Size = New Size(53, 20)
+        lblManager.Size = New Size(63, 25)
         lblManager.TabIndex = 69
         lblManager.Tag = "lblManager"
         lblManager.Text = "Label8"
@@ -70,9 +72,10 @@ Partial Class Supervisor_History
         ' lblSupervisorID
         ' 
         lblSupervisorID.AutoSize = True
-        lblSupervisorID.Location = New Point(147, 65)
+        lblSupervisorID.Location = New Point(184, 81)
+        lblSupervisorID.Margin = New Padding(4, 0, 4, 0)
         lblSupervisorID.Name = "lblSupervisorID"
-        lblSupervisorID.Size = New Size(53, 20)
+        lblSupervisorID.Size = New Size(63, 25)
         lblSupervisorID.TabIndex = 67
         lblSupervisorID.Tag = "lblSupervisorID"
         lblSupervisorID.Text = "Label6"
@@ -80,9 +83,10 @@ Partial Class Supervisor_History
         ' lblSupervisorName
         ' 
         lblSupervisorName.AutoSize = True
-        lblSupervisorName.Location = New Point(147, 31)
+        lblSupervisorName.Location = New Point(184, 39)
+        lblSupervisorName.Margin = New Padding(4, 0, 4, 0)
         lblSupervisorName.Name = "lblSupervisorName"
-        lblSupervisorName.Size = New Size(53, 20)
+        lblSupervisorName.Size = New Size(63, 25)
         lblSupervisorName.TabIndex = 64
         lblSupervisorName.Tag = "lblSupervisorName"
         lblSupervisorName.Text = "Label5"
@@ -91,9 +95,10 @@ Partial Class Supervisor_History
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(649, 31)
+        Label4.Location = New Point(811, 39)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(71, 20)
+        Label4.Size = New Size(86, 25)
         Label4.TabIndex = 66
         Label4.Text = "Manager:"
         ' 
@@ -101,9 +106,10 @@ Partial Class Supervisor_History
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(19, 65)
+        Label2.Location = New Point(24, 81)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(100, 20)
+        Label2.Size = New Size(123, 25)
         Label2.TabIndex = 63
         Label2.Text = "Supervisor ID:"
         ' 
@@ -111,9 +117,10 @@ Partial Class Supervisor_History
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(19, 31)
+        Label1.Location = New Point(24, 39)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(125, 20)
+        Label1.Size = New Size(152, 25)
         Label1.TabIndex = 62
         Label1.Text = "Supervisor Name:"
         ' 
@@ -128,18 +135,23 @@ Partial Class Supervisor_History
         btnSelect.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnSelect.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnSelect.ForeColor = Color.White
-        btnSelect.Location = New Point(19, 662)
+        btnSelect.Location = New Point(24, 828)
+        btnSelect.Margin = New Padding(4)
         btnSelect.Name = "btnSelect"
         btnSelect.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        btnSelect.Size = New Size(113, 43)
+        btnSelect.Size = New Size(141, 54)
         btnSelect.TabIndex = 61
         btnSelect.Tag = "btnSelect"
         btnSelect.Text = "Select"
         ' 
         ' dgHistory
         ' 
+        dgHistory.AllowUserToAddRows = False
+        dgHistory.AllowUserToDeleteRows = False
+        dgHistory.AllowUserToResizeRows = False
         DataGridViewCellStyle1.BackColor = Color.White
         dgHistory.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        dgHistory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader
         dgHistory.BorderStyle = BorderStyle.FixedSingle
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
@@ -149,7 +161,7 @@ Partial Class Supervisor_History
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
         dgHistory.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgHistory.ColumnHeadersHeight = 4
+        dgHistory.ColumnHeadersHeight = 20
         dgHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
@@ -160,12 +172,14 @@ Partial Class Supervisor_History
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgHistory.DefaultCellStyle = DataGridViewCellStyle3
         dgHistory.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgHistory.Location = New Point(19, 121)
+        dgHistory.Location = New Point(24, 151)
+        dgHistory.Margin = New Padding(4)
         dgHistory.Name = "dgHistory"
+        dgHistory.ReadOnly = True
         dgHistory.RowHeadersVisible = False
         dgHistory.RowHeadersWidth = 51
         dgHistory.RowTemplate.Height = 29
-        dgHistory.Size = New Size(882, 521)
+        dgHistory.Size = New Size(1102, 651)
         dgHistory.TabIndex = 59
         dgHistory.Tag = "dgHistory"
         dgHistory.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
@@ -180,8 +194,8 @@ Partial Class Supervisor_History
         dgHistory.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dgHistory.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgHistory.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgHistory.ThemeStyle.HeaderStyle.Height = 4
-        dgHistory.ThemeStyle.ReadOnly = False
+        dgHistory.ThemeStyle.HeaderStyle.Height = 20
+        dgHistory.ThemeStyle.ReadOnly = True
         dgHistory.ThemeStyle.RowsStyle.BackColor = Color.White
         dgHistory.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgHistory.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -201,20 +215,21 @@ Partial Class Supervisor_History
         btnExport.FillColor = Color.Maroon
         btnExport.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnExport.ForeColor = Color.White
-        btnExport.Location = New Point(788, 662)
+        btnExport.Location = New Point(985, 828)
+        btnExport.Margin = New Padding(4)
         btnExport.Name = "btnExport"
         btnExport.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        btnExport.Size = New Size(113, 43)
+        btnExport.Size = New Size(141, 54)
         btnExport.TabIndex = 60
         btnExport.Tag = "btnExport"
         btnExport.Text = "Export"
         ' 
         ' Supervisor_History
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(918, 736)
+        ClientSize = New Size(1148, 920)
         ControlBox = False
         Controls.Add(Guna2Shapes1)
         Controls.Add(lblManager)
@@ -226,6 +241,7 @@ Partial Class Supervisor_History
         Controls.Add(btnSelect)
         Controls.Add(dgHistory)
         Controls.Add(btnExport)
+        Margin = New Padding(4)
         Name = "Supervisor_History"
         CType(dgHistory, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

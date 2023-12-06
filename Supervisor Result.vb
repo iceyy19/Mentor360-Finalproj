@@ -1,10 +1,29 @@
-﻿Public Class Supervisor_Result
+﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+
+Public Class Supervisor_Result
+    Public Property SelectedRowData As Dictionary(Of String, String)
     Private Sub Supervisor_Result_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         gbPage2.Visible = False
         gbPage3.Visible = False
         gbPage4.Visible = False
         rbPage1.Checked = True
+
+        txtCIE1.Enabled = False
+        txtCIS1.Enabled = False
+        txtSDAE1.Enabled = False
+        txtSDAS1.Enabled = False
+        txtCLE1.Enabled = False
+        txtCLS1.Enabled = False
+        txtDE1.Enabled = False
+        txtDS1.Enabled = False
+        txtPSE1.Enabled = False
+        txtPSS1.Enabled = False
+        txtSDE1.Enabled = False
+        txtSDS1.Enabled = False
+        txtPE1.Enabled = False
+        txtPS1.Enabled = False
     End Sub
+
 
     Private Sub rbPage1_CheckedChanged(sender As Object, e As EventArgs) Handles rbPage1.CheckedChanged
         If rbPage1.Checked Then
@@ -41,4 +60,5 @@
             gbPage4.Visible = True
         End If
     End Sub
+
 End Class

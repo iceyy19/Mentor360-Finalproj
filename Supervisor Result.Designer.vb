@@ -22,3292 +22,3384 @@ Partial Class Supervisor_Result
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges11 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As Global.System.ComponentModel.ComponentResourceManager = New Global.System.ComponentModel.ComponentResourceManager(GetType(Global.Mentor360_Finalproj.Supervisor_Result))
-        Dim CustomizableEdges5 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Me.gbPage3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2Panel5 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.lblPS7 = New Global.System.Windows.Forms.Label()
-        Me.lblPS6 = New Global.System.Windows.Forms.Label()
-        Me.lblPS5 = New Global.System.Windows.Forms.Label()
-        Me.lblPS4 = New Global.System.Windows.Forms.Label()
-        Me.lblPS3 = New Global.System.Windows.Forms.Label()
-        Me.lblPS2 = New Global.System.Windows.Forms.Label()
-        Me.lblPS1 = New Global.System.Windows.Forms.Label()
-        Me.lblPE7 = New Global.System.Windows.Forms.Label()
-        Me.lblPE6 = New Global.System.Windows.Forms.Label()
-        Me.lblPE5 = New Global.System.Windows.Forms.Label()
-        Me.lblPE4 = New Global.System.Windows.Forms.Label()
-        Me.lblPE3 = New Global.System.Windows.Forms.Label()
-        Me.lblPE2 = New Global.System.Windows.Forms.Label()
-        Me.lblPE1 = New Global.System.Windows.Forms.Label()
-        Me.lblCLS3 = New Global.System.Windows.Forms.Label()
-        Me.lblCLS2 = New Global.System.Windows.Forms.Label()
-        Me.lblCLS1 = New Global.System.Windows.Forms.Label()
-        Me.lblCLE3 = New Global.System.Windows.Forms.Label()
-        Me.lblCLE2 = New Global.System.Windows.Forms.Label()
-        Me.lblCLE1 = New Global.System.Windows.Forms.Label()
-        Me.txtCLS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtCLE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2HtmlLabel100 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel101 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel102 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Label14 = New Global.System.Windows.Forms.Label()
-        Me.txtPS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2HtmlLabel46 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel47 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel48 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel49 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel50 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel51 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel52 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel53 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel54 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel55 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel56 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel57 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel58 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel59 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel60 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel61 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel62 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel63 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel91 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel92 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel93 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel94 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel95 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel96 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel97 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel98 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel99 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Label15 = New Global.System.Windows.Forms.Label()
-        Me.Label16 = New Global.System.Windows.Forms.Label()
-        Me.gbPage2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2Panel4 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.lblCIS4 = New Global.System.Windows.Forms.Label()
-        Me.lblCIS3 = New Global.System.Windows.Forms.Label()
-        Me.lblCIS2 = New Global.System.Windows.Forms.Label()
-        Me.lblCIS1 = New Global.System.Windows.Forms.Label()
-        Me.lblDS2 = New Global.System.Windows.Forms.Label()
-        Me.lblDS1 = New Global.System.Windows.Forms.Label()
-        Me.lblPSS1 = New Global.System.Windows.Forms.Label()
-        Me.lblSDAS2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDAS1 = New Global.System.Windows.Forms.Label()
-        Me.lblCIE4 = New Global.System.Windows.Forms.Label()
-        Me.lblCIE3 = New Global.System.Windows.Forms.Label()
-        Me.lblCIE2 = New Global.System.Windows.Forms.Label()
-        Me.lblCIE1 = New Global.System.Windows.Forms.Label()
-        Me.lblDE2 = New Global.System.Windows.Forms.Label()
-        Me.lblDE1 = New Global.System.Windows.Forms.Label()
-        Me.lblPSE1 = New Global.System.Windows.Forms.Label()
-        Me.lblSDAE2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDAE1 = New Global.System.Windows.Forms.Label()
-        Me.txtCIS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtCIE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtDS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtDE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPSS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPSE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtSDAS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtSDAE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label11 = New Global.System.Windows.Forms.Label()
-        Me.Label9 = New Global.System.Windows.Forms.Label()
-        Me.Label8 = New Global.System.Windows.Forms.Label()
-        Me.Guna2HtmlLabel64 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel65 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel66 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel67 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel68 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel69 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel70 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel71 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel72 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel73 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel74 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel75 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel76 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel77 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel78 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel79 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel80 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel81 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel82 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel83 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel84 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel85 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel86 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel87 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel88 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel89 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel90 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Label4 = New Global.System.Windows.Forms.Label()
-        Me.Label12 = New Global.System.Windows.Forms.Label()
-        Me.gbPage1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2Panel3 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.lblSDS15 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS14 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS13 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS12 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS11 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS10 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS9 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS8 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS7 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS6 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS5 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS4 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS3 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS1 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE15 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE14 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE13 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE12 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE11 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE10 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE9 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE8 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE7 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE6 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE5 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE4 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE3 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE1 = New Global.System.Windows.Forms.Label()
-        Me.Guna2HtmlLabel43 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel44 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel45 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel25 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel26 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel27 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel37 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel38 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel39 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel40 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel41 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel42 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.txtSDS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtSDE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2HtmlLabel28 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel29 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel30 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel31 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel32 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel33 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel34 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel35 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel36 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel13 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel14 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel15 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel16 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel17 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel18 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel19 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel20 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel21 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel22 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel23 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel24 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel7 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel8 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel9 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel10 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel11 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel12 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel4 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel5 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel6 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel3 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel2 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel1 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Label5 = New Global.System.Windows.Forms.Label()
-        Me.Label10 = New Global.System.Windows.Forms.Label()
-        Me.Label7 = New Global.System.Windows.Forms.Label()
-        Me.Label6 = New Global.System.Windows.Forms.Label()
-        Me.lblSupervisor = New Global.System.Windows.Forms.Label()
-        Me.lblId = New Global.System.Windows.Forms.Label()
-        Me.lblName = New Global.System.Windows.Forms.Label()
-        Me.Guna2Shapes1 = New Global.Guna.UI2.WinForms.Guna2Shapes()
-        Me.Label3 = New Global.System.Windows.Forms.Label()
-        Me.Label2 = New Global.System.Windows.Forms.Label()
-        Me.Label1 = New Global.System.Windows.Forms.Label()
-        Me.lblEmployeeID = New Global.System.Windows.Forms.Label()
-        Me.lblEmployeeName = New Global.System.Windows.Forms.Label()
-        Me.Guna2GroupBox10 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.rbPage4 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.rbPage2 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.rbPage1 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.rbPage3 = New Global.Guna.UI2.WinForms.Guna2CustomRadioButton()
-        Me.gbPage4 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2Panel1 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Button1 = New Global.Guna.UI2.WinForms.Guna2Button()
-        Me.Label13 = New Global.System.Windows.Forms.Label()
-        Me.Label17 = New Global.System.Windows.Forms.Label()
-        Me.Guna2HtmlLabel103 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel104 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Label18 = New Global.System.Windows.Forms.Label()
-        Me.Guna2TextBox1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label19 = New Global.System.Windows.Forms.Label()
-        Me.gbPage3.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
-        Me.gbPage2.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.gbPage1.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
-        Me.Guna2GroupBox10.SuspendLayout()
-        Me.gbPage4.SuspendLayout()
-        Me.Guna2Panel1.SuspendLayout()
-        Me.SuspendLayout()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Supervisor_Result))
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        gbPage3 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        lblPS7 = New Label()
+        lblPS6 = New Label()
+        lblPS5 = New Label()
+        lblPS4 = New Label()
+        lblPS3 = New Label()
+        lblPS2 = New Label()
+        lblPS1 = New Label()
+        lblPE7 = New Label()
+        lblPE6 = New Label()
+        lblPE5 = New Label()
+        lblPE4 = New Label()
+        lblPE3 = New Label()
+        lblPE2 = New Label()
+        lblPE1 = New Label()
+        lblCLS3 = New Label()
+        lblCLS2 = New Label()
+        lblCLS1 = New Label()
+        lblCLE3 = New Label()
+        lblCLE2 = New Label()
+        lblCLE1 = New Label()
+        txtCLS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtCLE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2HtmlLabel100 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel101 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel102 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Label14 = New Label()
+        txtPS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtPE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2HtmlLabel46 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel47 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel48 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel49 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel50 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel51 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel52 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel53 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel54 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel55 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel56 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel57 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel58 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel59 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel60 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel61 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel62 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel63 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel91 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel92 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel93 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel94 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel95 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel96 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel97 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel98 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel99 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Label15 = New Label()
+        Label16 = New Label()
+        gbPage2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        lblCIS4 = New Label()
+        lblCIS3 = New Label()
+        lblCIS2 = New Label()
+        lblCIS1 = New Label()
+        lblDS2 = New Label()
+        lblDS1 = New Label()
+        lblPSS1 = New Label()
+        lblSDAS2 = New Label()
+        lblSDAS1 = New Label()
+        lblCIE4 = New Label()
+        lblCIE3 = New Label()
+        lblCIE2 = New Label()
+        lblCIE1 = New Label()
+        lblDE2 = New Label()
+        lblDE1 = New Label()
+        lblPSE1 = New Label()
+        lblSDAE2 = New Label()
+        lblSDAE1 = New Label()
+        txtCIS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtCIE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtDS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtDE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtPSS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtPSE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSDAS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSDAE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label11 = New Label()
+        Label9 = New Label()
+        Label8 = New Label()
+        Guna2HtmlLabel64 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel65 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel66 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel67 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel68 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel69 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel70 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel71 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel72 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel73 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel74 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel75 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel76 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel77 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel78 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel79 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel80 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel81 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel82 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel83 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel84 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel85 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel86 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel87 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel88 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel89 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel90 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Label4 = New Label()
+        Label12 = New Label()
+        gbPage1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        lblSDS15 = New Label()
+        lblSDS14 = New Label()
+        lblSDS13 = New Label()
+        lblSDS12 = New Label()
+        lblSDS11 = New Label()
+        lblSDS10 = New Label()
+        lblSDS9 = New Label()
+        lblSDS8 = New Label()
+        lblSDS7 = New Label()
+        lblSDS6 = New Label()
+        lblSDS5 = New Label()
+        lblSDS4 = New Label()
+        lblSDS3 = New Label()
+        lblSDS2 = New Label()
+        lblSDS1 = New Label()
+        lblSDE15 = New Label()
+        lblSDE14 = New Label()
+        lblSDE13 = New Label()
+        lblSDE12 = New Label()
+        lblSDE11 = New Label()
+        lblSDE10 = New Label()
+        lblSDE9 = New Label()
+        lblSDE8 = New Label()
+        lblSDE7 = New Label()
+        lblSDE6 = New Label()
+        lblSDE5 = New Label()
+        lblSDE4 = New Label()
+        lblSDE3 = New Label()
+        lblSDE2 = New Label()
+        lblSDE1 = New Label()
+        Guna2HtmlLabel43 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel44 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel45 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel25 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel26 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel37 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel38 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel39 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel42 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        txtSDS1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSDE1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2HtmlLabel28 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel29 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel30 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel31 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel32 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel33 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel34 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel35 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel36 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel13 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel14 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel15 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel16 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel18 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel19 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel20 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel22 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel23 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel24 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel7 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel8 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel9 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel10 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel11 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel12 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Label5 = New Label()
+        Label10 = New Label()
+        Label7 = New Label()
+        Label6 = New Label()
+        lblSupervisor = New Label()
+        lblId = New Label()
+        lblName = New Label()
+        Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        lblEmployeeID = New Label()
+        lblEmployeeName = New Label()
+        Guna2GroupBox10 = New Guna.UI2.WinForms.Guna2GroupBox()
+        rbPage4 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbPage2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbPage1 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        rbPage3 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
+        gbPage4 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Label13 = New Label()
+        Label17 = New Label()
+        Guna2HtmlLabel103 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2HtmlLabel104 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Label18 = New Label()
+        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label19 = New Label()
+        gbPage3.SuspendLayout()
+        Guna2Panel5.SuspendLayout()
+        gbPage2.SuspendLayout()
+        Guna2Panel4.SuspendLayout()
+        gbPage1.SuspendLayout()
+        Guna2Panel3.SuspendLayout()
+        Guna2GroupBox10.SuspendLayout()
+        gbPage4.SuspendLayout()
+        Guna2Panel1.SuspendLayout()
+        SuspendLayout()
         ' 
         ' gbPage3
         ' 
-        Me.gbPage3.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage3.Controls.Add(Me.Guna2Panel5)
-        Me.gbPage3.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage3.CustomizableEdges = CustomizableEdges11
-        Me.gbPage3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage3.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage3.Location = New Global.System.Drawing.Point(17, 75)
-        Me.gbPage3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage3.Name = "gbPage3"
-        Me.gbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Me.gbPage3.Size = New Global.System.Drawing.Size(770, 443)
-        Me.gbPage3.TabIndex = 10
+        gbPage3.BorderColor = Color.White
+        gbPage3.Controls.Add(Guna2Panel5)
+        gbPage3.CustomBorderColor = Color.White
+        gbPage3.CustomizableEdges = CustomizableEdges11
+        gbPage3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage3.ForeColor = Color.White
+        gbPage3.Location = New Point(24, 125)
+        gbPage3.Margin = New Padding(4, 3, 4, 3)
+        gbPage3.Name = "gbPage3"
+        gbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        gbPage3.Size = New Size(1100, 738)
+        gbPage3.TabIndex = 10
         ' 
         ' Guna2Panel5
         ' 
-        Me.Guna2Panel5.AutoScroll = True
-        Me.Guna2Panel5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel5.Controls.Add(Me.lblPS7)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS6)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS5)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS4)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS3)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS2)
-        Me.Guna2Panel5.Controls.Add(Me.lblPS1)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE7)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE6)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE5)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE4)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE3)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE2)
-        Me.Guna2Panel5.Controls.Add(Me.lblPE1)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLS3)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLS2)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLS1)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLE3)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLE2)
-        Me.Guna2Panel5.Controls.Add(Me.lblCLE1)
-        Me.Guna2Panel5.Controls.Add(Me.txtCLS1)
-        Me.Guna2Panel5.Controls.Add(Me.txtCLE1)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel100)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel101)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel102)
-        Me.Guna2Panel5.Controls.Add(Me.Label14)
-        Me.Guna2Panel5.Controls.Add(Me.txtPS1)
-        Me.Guna2Panel5.Controls.Add(Me.txtPE1)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel46)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel47)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel48)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel49)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel50)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel51)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel52)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel53)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel54)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel55)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel56)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel57)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel58)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel59)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel60)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel61)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel62)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel63)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel91)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel92)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel93)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel94)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel95)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel96)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel97)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel98)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel99)
-        Me.Guna2Panel5.Controls.Add(Me.Label15)
-        Me.Guna2Panel5.Controls.Add(Me.Label16)
-        Me.Guna2Panel5.CustomizableEdges = CustomizableEdges9
-        Me.Guna2Panel5.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel5.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Me.Guna2Panel5.Size = New Global.System.Drawing.Size(770, 403)
-        Me.Guna2Panel5.TabIndex = 3
+        Guna2Panel5.AutoScroll = True
+        Guna2Panel5.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel5.Controls.Add(lblPS7)
+        Guna2Panel5.Controls.Add(lblPS6)
+        Guna2Panel5.Controls.Add(lblPS5)
+        Guna2Panel5.Controls.Add(lblPS4)
+        Guna2Panel5.Controls.Add(lblPS3)
+        Guna2Panel5.Controls.Add(lblPS2)
+        Guna2Panel5.Controls.Add(lblPS1)
+        Guna2Panel5.Controls.Add(lblPE7)
+        Guna2Panel5.Controls.Add(lblPE6)
+        Guna2Panel5.Controls.Add(lblPE5)
+        Guna2Panel5.Controls.Add(lblPE4)
+        Guna2Panel5.Controls.Add(lblPE3)
+        Guna2Panel5.Controls.Add(lblPE2)
+        Guna2Panel5.Controls.Add(lblPE1)
+        Guna2Panel5.Controls.Add(lblCLS3)
+        Guna2Panel5.Controls.Add(lblCLS2)
+        Guna2Panel5.Controls.Add(lblCLS1)
+        Guna2Panel5.Controls.Add(lblCLE3)
+        Guna2Panel5.Controls.Add(lblCLE2)
+        Guna2Panel5.Controls.Add(lblCLE1)
+        Guna2Panel5.Controls.Add(txtCLS1)
+        Guna2Panel5.Controls.Add(txtCLE1)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel100)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel101)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel102)
+        Guna2Panel5.Controls.Add(Label14)
+        Guna2Panel5.Controls.Add(txtPS1)
+        Guna2Panel5.Controls.Add(txtPE1)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel46)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel47)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel48)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel49)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel50)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel51)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel52)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel53)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel54)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel55)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel56)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel57)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel58)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel59)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel60)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel61)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel62)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel63)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel91)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel92)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel93)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel94)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel95)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel96)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel97)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel98)
+        Guna2Panel5.Controls.Add(Guna2HtmlLabel99)
+        Guna2Panel5.Controls.Add(Label15)
+        Guna2Panel5.Controls.Add(Label16)
+        Guna2Panel5.CustomizableEdges = CustomizableEdges9
+        Guna2Panel5.Dock = DockStyle.Fill
+        Guna2Panel5.Location = New Point(0, 40)
+        Guna2Panel5.Margin = New Padding(4, 3, 4, 3)
+        Guna2Panel5.Name = "Guna2Panel5"
+        Guna2Panel5.Padding = New Padding(4, 3, 4, 3)
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel5.Size = New Size(1100, 698)
+        Guna2Panel5.TabIndex = 3
         ' 
         ' lblPS7
         ' 
-        Me.lblPS7.AutoSize = True
-        Me.lblPS7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS7.Location = New Global.System.Drawing.Point(459, 589)
-        Me.lblPS7.Name = "lblPS7"
-        Me.lblPS7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS7.TabIndex = 86
+        lblPS7.AutoSize = True
+        lblPS7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS7.ForeColor = Color.Black
+        lblPS7.Location = New Point(656, 982)
+        lblPS7.Margin = New Padding(4, 0, 4, 0)
+        lblPS7.Name = "lblPS7"
+        lblPS7.Size = New Size(0, 21)
+        lblPS7.TabIndex = 86
         ' 
         ' lblPS6
         ' 
-        Me.lblPS6.AutoSize = True
-        Me.lblPS6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS6.Location = New Global.System.Drawing.Point(459, 524)
-        Me.lblPS6.Name = "lblPS6"
-        Me.lblPS6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS6.TabIndex = 85
+        lblPS6.AutoSize = True
+        lblPS6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS6.ForeColor = Color.Black
+        lblPS6.Location = New Point(656, 873)
+        lblPS6.Margin = New Padding(4, 0, 4, 0)
+        lblPS6.Name = "lblPS6"
+        lblPS6.Size = New Size(0, 21)
+        lblPS6.TabIndex = 85
         ' 
         ' lblPS5
         ' 
-        Me.lblPS5.AutoSize = True
-        Me.lblPS5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS5.Location = New Global.System.Drawing.Point(459, 471)
-        Me.lblPS5.Name = "lblPS5"
-        Me.lblPS5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS5.TabIndex = 84
+        lblPS5.AutoSize = True
+        lblPS5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS5.ForeColor = Color.Black
+        lblPS5.Location = New Point(656, 785)
+        lblPS5.Margin = New Padding(4, 0, 4, 0)
+        lblPS5.Name = "lblPS5"
+        lblPS5.Size = New Size(0, 21)
+        lblPS5.TabIndex = 84
         ' 
         ' lblPS4
         ' 
-        Me.lblPS4.AutoSize = True
-        Me.lblPS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS4.Location = New Global.System.Drawing.Point(459, 431)
-        Me.lblPS4.Name = "lblPS4"
-        Me.lblPS4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS4.TabIndex = 83
+        lblPS4.AutoSize = True
+        lblPS4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS4.ForeColor = Color.Black
+        lblPS4.Location = New Point(656, 718)
+        lblPS4.Margin = New Padding(4, 0, 4, 0)
+        lblPS4.Name = "lblPS4"
+        lblPS4.Size = New Size(0, 21)
+        lblPS4.TabIndex = 83
         ' 
         ' lblPS3
         ' 
-        Me.lblPS3.AutoSize = True
-        Me.lblPS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS3.Location = New Global.System.Drawing.Point(458, 402)
-        Me.lblPS3.Name = "lblPS3"
-        Me.lblPS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS3.TabIndex = 82
+        lblPS3.AutoSize = True
+        lblPS3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS3.ForeColor = Color.Black
+        lblPS3.Location = New Point(654, 670)
+        lblPS3.Margin = New Padding(4, 0, 4, 0)
+        lblPS3.Name = "lblPS3"
+        lblPS3.Size = New Size(0, 21)
+        lblPS3.TabIndex = 82
         ' 
         ' lblPS2
         ' 
-        Me.lblPS2.AutoSize = True
-        Me.lblPS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS2.Location = New Global.System.Drawing.Point(459, 368)
-        Me.lblPS2.Name = "lblPS2"
-        Me.lblPS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS2.TabIndex = 81
+        lblPS2.AutoSize = True
+        lblPS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS2.ForeColor = Color.Black
+        lblPS2.Location = New Point(656, 613)
+        lblPS2.Margin = New Padding(4, 0, 4, 0)
+        lblPS2.Name = "lblPS2"
+        lblPS2.Size = New Size(0, 21)
+        lblPS2.TabIndex = 81
         ' 
         ' lblPS1
         ' 
-        Me.lblPS1.AutoSize = True
-        Me.lblPS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS1.Location = New Global.System.Drawing.Point(460, 333)
-        Me.lblPS1.Name = "lblPS1"
-        Me.lblPS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPS1.TabIndex = 80
+        lblPS1.AutoSize = True
+        lblPS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPS1.ForeColor = Color.Black
+        lblPS1.Location = New Point(657, 555)
+        lblPS1.Margin = New Padding(4, 0, 4, 0)
+        lblPS1.Name = "lblPS1"
+        lblPS1.Size = New Size(0, 21)
+        lblPS1.TabIndex = 80
         ' 
         ' lblPE7
         ' 
-        Me.lblPE7.AutoSize = True
-        Me.lblPE7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE7.Location = New Global.System.Drawing.Point(105, 589)
-        Me.lblPE7.Name = "lblPE7"
-        Me.lblPE7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE7.TabIndex = 79
+        lblPE7.AutoSize = True
+        lblPE7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE7.ForeColor = Color.Black
+        lblPE7.Location = New Point(150, 982)
+        lblPE7.Margin = New Padding(4, 0, 4, 0)
+        lblPE7.Name = "lblPE7"
+        lblPE7.Size = New Size(0, 21)
+        lblPE7.TabIndex = 79
         ' 
         ' lblPE6
         ' 
-        Me.lblPE6.AutoSize = True
-        Me.lblPE6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE6.Location = New Global.System.Drawing.Point(105, 526)
-        Me.lblPE6.Name = "lblPE6"
-        Me.lblPE6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE6.TabIndex = 78
+        lblPE6.AutoSize = True
+        lblPE6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE6.ForeColor = Color.Black
+        lblPE6.Location = New Point(150, 877)
+        lblPE6.Margin = New Padding(4, 0, 4, 0)
+        lblPE6.Name = "lblPE6"
+        lblPE6.Size = New Size(0, 21)
+        lblPE6.TabIndex = 78
         ' 
         ' lblPE5
         ' 
-        Me.lblPE5.AutoSize = True
-        Me.lblPE5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE5.Location = New Global.System.Drawing.Point(105, 472)
-        Me.lblPE5.Name = "lblPE5"
-        Me.lblPE5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE5.TabIndex = 77
+        lblPE5.AutoSize = True
+        lblPE5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE5.ForeColor = Color.Black
+        lblPE5.Location = New Point(150, 787)
+        lblPE5.Margin = New Padding(4, 0, 4, 0)
+        lblPE5.Name = "lblPE5"
+        lblPE5.Size = New Size(0, 21)
+        lblPE5.TabIndex = 77
         ' 
         ' lblPE4
         ' 
-        Me.lblPE4.AutoSize = True
-        Me.lblPE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE4.Location = New Global.System.Drawing.Point(105, 433)
-        Me.lblPE4.Name = "lblPE4"
-        Me.lblPE4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE4.TabIndex = 76
+        lblPE4.AutoSize = True
+        lblPE4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE4.ForeColor = Color.Black
+        lblPE4.Location = New Point(150, 722)
+        lblPE4.Margin = New Padding(4, 0, 4, 0)
+        lblPE4.Name = "lblPE4"
+        lblPE4.Size = New Size(0, 21)
+        lblPE4.TabIndex = 76
         ' 
         ' lblPE3
         ' 
-        Me.lblPE3.AutoSize = True
-        Me.lblPE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE3.Location = New Global.System.Drawing.Point(104, 402)
-        Me.lblPE3.Name = "lblPE3"
-        Me.lblPE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE3.TabIndex = 75
+        lblPE3.AutoSize = True
+        lblPE3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE3.ForeColor = Color.Black
+        lblPE3.Location = New Point(149, 670)
+        lblPE3.Margin = New Padding(4, 0, 4, 0)
+        lblPE3.Name = "lblPE3"
+        lblPE3.Size = New Size(0, 21)
+        lblPE3.TabIndex = 75
         ' 
         ' lblPE2
         ' 
-        Me.lblPE2.AutoSize = True
-        Me.lblPE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE2.Location = New Global.System.Drawing.Point(105, 368)
-        Me.lblPE2.Name = "lblPE2"
-        Me.lblPE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE2.TabIndex = 74
+        lblPE2.AutoSize = True
+        lblPE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE2.ForeColor = Color.Black
+        lblPE2.Location = New Point(150, 613)
+        lblPE2.Margin = New Padding(4, 0, 4, 0)
+        lblPE2.Name = "lblPE2"
+        lblPE2.Size = New Size(0, 21)
+        lblPE2.TabIndex = 74
         ' 
         ' lblPE1
         ' 
-        Me.lblPE1.AutoSize = True
-        Me.lblPE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE1.Location = New Global.System.Drawing.Point(106, 333)
-        Me.lblPE1.Name = "lblPE1"
-        Me.lblPE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPE1.TabIndex = 73
+        lblPE1.AutoSize = True
+        lblPE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPE1.ForeColor = Color.Black
+        lblPE1.Location = New Point(151, 555)
+        lblPE1.Margin = New Padding(4, 0, 4, 0)
+        lblPE1.Name = "lblPE1"
+        lblPE1.Size = New Size(0, 21)
+        lblPE1.TabIndex = 73
         ' 
         ' lblCLS3
         ' 
-        Me.lblCLS3.AutoSize = True
-        Me.lblCLS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS3.Location = New Global.System.Drawing.Point(466, 146)
-        Me.lblCLS3.Name = "lblCLS3"
-        Me.lblCLS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLS3.TabIndex = 72
+        lblCLS3.AutoSize = True
+        lblCLS3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLS3.ForeColor = Color.Black
+        lblCLS3.Location = New Point(666, 243)
+        lblCLS3.Margin = New Padding(4, 0, 4, 0)
+        lblCLS3.Name = "lblCLS3"
+        lblCLS3.Size = New Size(0, 21)
+        lblCLS3.TabIndex = 72
         ' 
         ' lblCLS2
         ' 
-        Me.lblCLS2.AutoSize = True
-        Me.lblCLS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS2.Location = New Global.System.Drawing.Point(466, 93)
-        Me.lblCLS2.Name = "lblCLS2"
-        Me.lblCLS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLS2.TabIndex = 71
+        lblCLS2.AutoSize = True
+        lblCLS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLS2.ForeColor = Color.Black
+        lblCLS2.Location = New Point(666, 155)
+        lblCLS2.Margin = New Padding(4, 0, 4, 0)
+        lblCLS2.Name = "lblCLS2"
+        lblCLS2.Size = New Size(0, 21)
+        lblCLS2.TabIndex = 71
         ' 
         ' lblCLS1
         ' 
-        Me.lblCLS1.AutoSize = True
-        Me.lblCLS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS1.Location = New Global.System.Drawing.Point(466, 56)
-        Me.lblCLS1.Name = "lblCLS1"
-        Me.lblCLS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLS1.TabIndex = 70
+        lblCLS1.AutoSize = True
+        lblCLS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLS1.ForeColor = Color.Black
+        lblCLS1.Location = New Point(666, 93)
+        lblCLS1.Margin = New Padding(4, 0, 4, 0)
+        lblCLS1.Name = "lblCLS1"
+        lblCLS1.Size = New Size(0, 21)
+        lblCLS1.TabIndex = 70
         ' 
         ' lblCLE3
         ' 
-        Me.lblCLE3.AutoSize = True
-        Me.lblCLE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE3.Location = New Global.System.Drawing.Point(112, 146)
-        Me.lblCLE3.Name = "lblCLE3"
-        Me.lblCLE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLE3.TabIndex = 69
+        lblCLE3.AutoSize = True
+        lblCLE3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLE3.ForeColor = Color.Black
+        lblCLE3.Location = New Point(160, 243)
+        lblCLE3.Margin = New Padding(4, 0, 4, 0)
+        lblCLE3.Name = "lblCLE3"
+        lblCLE3.Size = New Size(0, 21)
+        lblCLE3.TabIndex = 69
         ' 
         ' lblCLE2
         ' 
-        Me.lblCLE2.AutoSize = True
-        Me.lblCLE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE2.Location = New Global.System.Drawing.Point(112, 92)
-        Me.lblCLE2.Name = "lblCLE2"
-        Me.lblCLE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLE2.TabIndex = 68
+        lblCLE2.AutoSize = True
+        lblCLE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLE2.ForeColor = Color.Black
+        lblCLE2.Location = New Point(160, 153)
+        lblCLE2.Margin = New Padding(4, 0, 4, 0)
+        lblCLE2.Name = "lblCLE2"
+        lblCLE2.Size = New Size(0, 21)
+        lblCLE2.TabIndex = 68
         ' 
         ' lblCLE1
         ' 
-        Me.lblCLE1.AutoSize = True
-        Me.lblCLE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCLE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE1.Location = New Global.System.Drawing.Point(112, 56)
-        Me.lblCLE1.Name = "lblCLE1"
-        Me.lblCLE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCLE1.TabIndex = 67
+        lblCLE1.AutoSize = True
+        lblCLE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCLE1.ForeColor = Color.Black
+        lblCLE1.Location = New Point(160, 93)
+        lblCLE1.Margin = New Padding(4, 0, 4, 0)
+        lblCLE1.Name = "lblCLE1"
+        lblCLE1.Size = New Size(0, 21)
+        lblCLE1.TabIndex = 67
         ' 
         ' txtCLS1
         ' 
-        Me.txtCLS1.CustomizableEdges = CustomizableEdges1
-        Me.txtCLS1.DefaultText = ""
-        Me.txtCLS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCLS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCLS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCLS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLS1.Location = New Global.System.Drawing.Point(397, 164)
-        Me.txtCLS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCLS1.Name = "txtCLS1"
-        Me.txtCLS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCLS1.PlaceholderText = ""
-        Me.txtCLS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCLS1.SelectedText = ""
-        Me.txtCLS1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Me.txtCLS1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtCLS1.TabIndex = 47
+        txtCLS1.CustomizableEdges = CustomizableEdges1
+        txtCLS1.DefaultText = ""
+        txtCLS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCLS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCLS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCLS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCLS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCLS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCLS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCLS1.Location = New Point(567, 273)
+        txtCLS1.Margin = New Padding(4, 3, 4, 3)
+        txtCLS1.Name = "txtCLS1"
+        txtCLS1.PasswordChar = ChrW(0)
+        txtCLS1.PlaceholderText = ""
+        txtCLS1.ScrollBars = ScrollBars.Vertical
+        txtCLS1.SelectedText = ""
+        txtCLS1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtCLS1.Size = New Size(470, 163)
+        txtCLS1.TabIndex = 47
         ' 
         ' txtCLE1
         ' 
-        Me.txtCLE1.CustomizableEdges = CustomizableEdges3
-        Me.txtCLE1.DefaultText = ""
-        Me.txtCLE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCLE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCLE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCLE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLE1.Location = New Global.System.Drawing.Point(38, 164)
-        Me.txtCLE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCLE1.Name = "txtCLE1"
-        Me.txtCLE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCLE1.PlaceholderText = ""
-        Me.txtCLE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCLE1.SelectedText = ""
-        Me.txtCLE1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Me.txtCLE1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtCLE1.TabIndex = 46
+        txtCLE1.CustomizableEdges = CustomizableEdges3
+        txtCLE1.DefaultText = ""
+        txtCLE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCLE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCLE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCLE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCLE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCLE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCLE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCLE1.Location = New Point(54, 273)
+        txtCLE1.Margin = New Padding(4, 3, 4, 3)
+        txtCLE1.Name = "txtCLE1"
+        txtCLE1.PasswordChar = ChrW(0)
+        txtCLE1.PlaceholderText = ""
+        txtCLE1.ScrollBars = ScrollBars.Vertical
+        txtCLE1.SelectedText = ""
+        txtCLE1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtCLE1.Size = New Size(470, 163)
+        txtCLE1.TabIndex = 46
         ' 
         ' Guna2HtmlLabel100
         ' 
-        Me.Guna2HtmlLabel100.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel100.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel100.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel100.Location = New Global.System.Drawing.Point(395, 587)
-        Me.Guna2HtmlLabel100.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel100.Name = "Guna2HtmlLabel100"
-        Me.Guna2HtmlLabel100.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel100.TabIndex = 45
-        Me.Guna2HtmlLabel100.Text = "Supervisor:"
+        Guna2HtmlLabel100.BackColor = Color.Transparent
+        Guna2HtmlLabel100.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel100.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel100.Location = New Point(564, 978)
+        Guna2HtmlLabel100.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel100.Name = "Guna2HtmlLabel100"
+        Guna2HtmlLabel100.Size = New Size(81, 23)
+        Guna2HtmlLabel100.TabIndex = 45
+        Guna2HtmlLabel100.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel101
         ' 
-        Me.Guna2HtmlLabel101.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel101.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel101.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel101.Location = New Global.System.Drawing.Point(45, 587)
-        Me.Guna2HtmlLabel101.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel101.Name = "Guna2HtmlLabel101"
-        Me.Guna2HtmlLabel101.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel101.TabIndex = 44
-        Me.Guna2HtmlLabel101.Text = "Employee:"
+        Guna2HtmlLabel101.BackColor = Color.Transparent
+        Guna2HtmlLabel101.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel101.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel101.Location = New Point(64, 978)
+        Guna2HtmlLabel101.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel101.Name = "Guna2HtmlLabel101"
+        Guna2HtmlLabel101.Size = New Size(74, 23)
+        Guna2HtmlLabel101.TabIndex = 44
+        Guna2HtmlLabel101.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel102
         ' 
-        Me.Guna2HtmlLabel102.AutoSize = False
-        Me.Guna2HtmlLabel102.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel102.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel102.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel102.Location = New Global.System.Drawing.Point(32, 543)
-        Me.Guna2HtmlLabel102.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel102.Name = "Guna2HtmlLabel102"
-        Me.Guna2HtmlLabel102.Size = New Global.System.Drawing.Size(693, 40)
-        Me.Guna2HtmlLabel102.TabIndex = 43
-        Me.Guna2HtmlLabel102.Text = resources.GetString("Guna2HtmlLabel102.Text")
+        Guna2HtmlLabel102.AutoSize = False
+        Guna2HtmlLabel102.BackColor = Color.Transparent
+        Guna2HtmlLabel102.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel102.ForeColor = Color.Black
+        Guna2HtmlLabel102.Location = New Point(46, 905)
+        Guna2HtmlLabel102.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel102.Name = "Guna2HtmlLabel102"
+        Guna2HtmlLabel102.Size = New Size(990, 67)
+        Guna2HtmlLabel102.TabIndex = 43
+        Guna2HtmlLabel102.Text = resources.GetString("Guna2HtmlLabel102.Text")
         ' 
         ' Label14
         ' 
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label14.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label14.Location = New Global.System.Drawing.Point(13, 284)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New Global.System.Drawing.Size(145, 20)
-        Me.Label14.TabIndex = 42
-        Me.Label14.Text = "PROFESSIONALISM"
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.ForeColor = Color.Black
+        Label14.Location = New Point(19, 473)
+        Label14.Margin = New Padding(4, 0, 4, 0)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(212, 30)
+        Label14.TabIndex = 42
+        Label14.Text = "PROFESSIONALISM"
         ' 
         ' txtPS1
         ' 
-        Me.txtPS1.CustomizableEdges = CustomizableEdges5
-        Me.txtPS1.DefaultText = ""
-        Me.txtPS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPS1.Location = New Global.System.Drawing.Point(388, 619)
-        Me.txtPS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPS1.Name = "txtPS1"
-        Me.txtPS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPS1.PlaceholderText = ""
-        Me.txtPS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPS1.SelectedText = ""
-        Me.txtPS1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Me.txtPS1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtPS1.TabIndex = 41
+        txtPS1.CustomizableEdges = CustomizableEdges5
+        txtPS1.DefaultText = ""
+        txtPS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtPS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtPS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtPS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPS1.Location = New Point(554, 1032)
+        txtPS1.Margin = New Padding(4, 3, 4, 3)
+        txtPS1.Name = "txtPS1"
+        txtPS1.PasswordChar = ChrW(0)
+        txtPS1.PlaceholderText = ""
+        txtPS1.ScrollBars = ScrollBars.Vertical
+        txtPS1.SelectedText = ""
+        txtPS1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtPS1.Size = New Size(470, 163)
+        txtPS1.TabIndex = 41
         ' 
         ' txtPE1
         ' 
-        Me.txtPE1.CustomizableEdges = CustomizableEdges7
-        Me.txtPE1.DefaultText = ""
-        Me.txtPE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPE1.Location = New Global.System.Drawing.Point(29, 619)
-        Me.txtPE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPE1.Name = "txtPE1"
-        Me.txtPE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPE1.PlaceholderText = ""
-        Me.txtPE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPE1.SelectedText = ""
-        Me.txtPE1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Me.txtPE1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtPE1.TabIndex = 40
+        txtPE1.CustomizableEdges = CustomizableEdges7
+        txtPE1.DefaultText = ""
+        txtPE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtPE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtPE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtPE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPE1.Location = New Point(41, 1032)
+        txtPE1.Margin = New Padding(4, 3, 4, 3)
+        txtPE1.Name = "txtPE1"
+        txtPE1.PasswordChar = ChrW(0)
+        txtPE1.PlaceholderText = ""
+        txtPE1.ScrollBars = ScrollBars.Vertical
+        txtPE1.SelectedText = ""
+        txtPE1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtPE1.Size = New Size(470, 163)
+        txtPE1.TabIndex = 40
         ' 
         ' Guna2HtmlLabel46
         ' 
-        Me.Guna2HtmlLabel46.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel46.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel46.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel46.Location = New Global.System.Drawing.Point(395, 523)
-        Me.Guna2HtmlLabel46.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel46.Name = "Guna2HtmlLabel46"
-        Me.Guna2HtmlLabel46.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel46.TabIndex = 33
-        Me.Guna2HtmlLabel46.Text = "Supervisor:"
+        Guna2HtmlLabel46.BackColor = Color.Transparent
+        Guna2HtmlLabel46.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel46.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel46.Location = New Point(564, 872)
+        Guna2HtmlLabel46.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel46.Name = "Guna2HtmlLabel46"
+        Guna2HtmlLabel46.Size = New Size(81, 23)
+        Guna2HtmlLabel46.TabIndex = 33
+        Guna2HtmlLabel46.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel47
         ' 
-        Me.Guna2HtmlLabel47.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel47.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel47.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel47.Location = New Global.System.Drawing.Point(45, 523)
-        Me.Guna2HtmlLabel47.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel47.Name = "Guna2HtmlLabel47"
-        Me.Guna2HtmlLabel47.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel47.TabIndex = 32
-        Me.Guna2HtmlLabel47.Text = "Employee:"
+        Guna2HtmlLabel47.BackColor = Color.Transparent
+        Guna2HtmlLabel47.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel47.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel47.Location = New Point(64, 872)
+        Guna2HtmlLabel47.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel47.Name = "Guna2HtmlLabel47"
+        Guna2HtmlLabel47.Size = New Size(74, 23)
+        Guna2HtmlLabel47.TabIndex = 32
+        Guna2HtmlLabel47.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel48
         ' 
-        Me.Guna2HtmlLabel48.AutoSize = False
-        Me.Guna2HtmlLabel48.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel48.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel48.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel48.Location = New Global.System.Drawing.Point(32, 495)
-        Me.Guna2HtmlLabel48.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel48.Name = "Guna2HtmlLabel48"
-        Me.Guna2HtmlLabel48.Size = New Global.System.Drawing.Size(693, 28)
-        Me.Guna2HtmlLabel48.TabIndex = 31
-        Me.Guna2HtmlLabel48.Text = "6. Ensuring that all software development processes, including time tracking in Jira, comply with relevant laws, industry-specific regulations, and organizational policies. "
+        Guna2HtmlLabel48.AutoSize = False
+        Guna2HtmlLabel48.BackColor = Color.Transparent
+        Guna2HtmlLabel48.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel48.ForeColor = Color.Black
+        Guna2HtmlLabel48.Location = New Point(46, 825)
+        Guna2HtmlLabel48.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel48.Name = "Guna2HtmlLabel48"
+        Guna2HtmlLabel48.Size = New Size(990, 47)
+        Guna2HtmlLabel48.TabIndex = 31
+        Guna2HtmlLabel48.Text = "6. Ensuring that all software development processes, including time tracking in Jira, comply with relevant laws, industry-specific regulations, and organizational policies. "
         ' 
         ' Guna2HtmlLabel49
         ' 
-        Me.Guna2HtmlLabel49.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel49.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel49.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel49.Location = New Global.System.Drawing.Point(395, 470)
-        Me.Guna2HtmlLabel49.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel49.Name = "Guna2HtmlLabel49"
-        Me.Guna2HtmlLabel49.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel49.TabIndex = 30
-        Me.Guna2HtmlLabel49.Text = "Supervisor:"
+        Guna2HtmlLabel49.BackColor = Color.Transparent
+        Guna2HtmlLabel49.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel49.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel49.Location = New Point(564, 783)
+        Guna2HtmlLabel49.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel49.Name = "Guna2HtmlLabel49"
+        Guna2HtmlLabel49.Size = New Size(81, 23)
+        Guna2HtmlLabel49.TabIndex = 30
+        Guna2HtmlLabel49.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel50
         ' 
-        Me.Guna2HtmlLabel50.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel50.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel50.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel50.Location = New Global.System.Drawing.Point(45, 470)
-        Me.Guna2HtmlLabel50.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel50.Name = "Guna2HtmlLabel50"
-        Me.Guna2HtmlLabel50.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel50.TabIndex = 29
-        Me.Guna2HtmlLabel50.Text = "Employee:"
+        Guna2HtmlLabel50.BackColor = Color.Transparent
+        Guna2HtmlLabel50.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel50.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel50.Location = New Point(64, 783)
+        Guna2HtmlLabel50.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel50.Name = "Guna2HtmlLabel50"
+        Guna2HtmlLabel50.Size = New Size(74, 23)
+        Guna2HtmlLabel50.TabIndex = 29
+        Guna2HtmlLabel50.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel51
         ' 
-        Me.Guna2HtmlLabel51.AutoSize = False
-        Me.Guna2HtmlLabel51.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel51.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel51.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel51.Location = New Global.System.Drawing.Point(31, 454)
-        Me.Guna2HtmlLabel51.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel51.Name = "Guna2HtmlLabel51"
-        Me.Guna2HtmlLabel51.Size = New Global.System.Drawing.Size(542, 12)
-        Me.Guna2HtmlLabel51.TabIndex = 28
-        Me.Guna2HtmlLabel51.Text = "5. Continuously work on time management skills to increase efficiency and reduce the need for overtime."
+        Guna2HtmlLabel51.AutoSize = False
+        Guna2HtmlLabel51.BackColor = Color.Transparent
+        Guna2HtmlLabel51.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel51.ForeColor = Color.Black
+        Guna2HtmlLabel51.Location = New Point(44, 757)
+        Guna2HtmlLabel51.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel51.Name = "Guna2HtmlLabel51"
+        Guna2HtmlLabel51.Size = New Size(774, 20)
+        Guna2HtmlLabel51.TabIndex = 28
+        Guna2HtmlLabel51.Text = "5. Continuously work on time management skills to increase efficiency and reduce the need for overtime."
         ' 
         ' Guna2HtmlLabel52
         ' 
-        Me.Guna2HtmlLabel52.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel52.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel52.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel52.Location = New Global.System.Drawing.Point(395, 430)
-        Me.Guna2HtmlLabel52.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel52.Name = "Guna2HtmlLabel52"
-        Me.Guna2HtmlLabel52.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel52.TabIndex = 27
-        Me.Guna2HtmlLabel52.Text = "Supervisor:"
+        Guna2HtmlLabel52.BackColor = Color.Transparent
+        Guna2HtmlLabel52.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel52.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel52.Location = New Point(564, 717)
+        Guna2HtmlLabel52.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel52.Name = "Guna2HtmlLabel52"
+        Guna2HtmlLabel52.Size = New Size(81, 23)
+        Guna2HtmlLabel52.TabIndex = 27
+        Guna2HtmlLabel52.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel53
         ' 
-        Me.Guna2HtmlLabel53.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel53.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel53.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel53.Location = New Global.System.Drawing.Point(45, 430)
-        Me.Guna2HtmlLabel53.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel53.Name = "Guna2HtmlLabel53"
-        Me.Guna2HtmlLabel53.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel53.TabIndex = 26
-        Me.Guna2HtmlLabel53.Text = "Employee:"
+        Guna2HtmlLabel53.BackColor = Color.Transparent
+        Guna2HtmlLabel53.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel53.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel53.Location = New Point(64, 717)
+        Guna2HtmlLabel53.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel53.Name = "Guna2HtmlLabel53"
+        Guna2HtmlLabel53.Size = New Size(74, 23)
+        Guna2HtmlLabel53.TabIndex = 26
+        Guna2HtmlLabel53.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel54
         ' 
-        Me.Guna2HtmlLabel54.AutoSize = False
-        Me.Guna2HtmlLabel54.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel54.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel54.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel54.Location = New Global.System.Drawing.Point(31, 414)
-        Me.Guna2HtmlLabel54.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel54.Name = "Guna2HtmlLabel54"
-        Me.Guna2HtmlLabel54.Size = New Global.System.Drawing.Size(569, 17)
-        Me.Guna2HtmlLabel54.TabIndex = 25
-        Me.Guna2HtmlLabel54.Text = "4. Prioritize your health and well-being to ensure you are physically and mentally prepared for work each day."
+        Guna2HtmlLabel54.AutoSize = False
+        Guna2HtmlLabel54.BackColor = Color.Transparent
+        Guna2HtmlLabel54.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel54.ForeColor = Color.Black
+        Guna2HtmlLabel54.Location = New Point(44, 690)
+        Guna2HtmlLabel54.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel54.Name = "Guna2HtmlLabel54"
+        Guna2HtmlLabel54.Size = New Size(813, 28)
+        Guna2HtmlLabel54.TabIndex = 25
+        Guna2HtmlLabel54.Text = "4. Prioritize your health and well-being to ensure you are physically and mentally prepared for work each day."
         ' 
         ' Guna2HtmlLabel55
         ' 
-        Me.Guna2HtmlLabel55.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel55.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel55.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel55.Location = New Global.System.Drawing.Point(394, 400)
-        Me.Guna2HtmlLabel55.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel55.Name = "Guna2HtmlLabel55"
-        Me.Guna2HtmlLabel55.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel55.TabIndex = 24
-        Me.Guna2HtmlLabel55.Text = "Supervisor:"
+        Guna2HtmlLabel55.BackColor = Color.Transparent
+        Guna2HtmlLabel55.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel55.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel55.Location = New Point(563, 667)
+        Guna2HtmlLabel55.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel55.Name = "Guna2HtmlLabel55"
+        Guna2HtmlLabel55.Size = New Size(81, 23)
+        Guna2HtmlLabel55.TabIndex = 24
+        Guna2HtmlLabel55.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel56
         ' 
-        Me.Guna2HtmlLabel56.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel56.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel56.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel56.Location = New Global.System.Drawing.Point(44, 400)
-        Me.Guna2HtmlLabel56.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel56.Name = "Guna2HtmlLabel56"
-        Me.Guna2HtmlLabel56.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel56.TabIndex = 23
-        Me.Guna2HtmlLabel56.Text = "Employee:"
+        Guna2HtmlLabel56.BackColor = Color.Transparent
+        Guna2HtmlLabel56.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel56.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel56.Location = New Point(63, 667)
+        Guna2HtmlLabel56.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel56.Name = "Guna2HtmlLabel56"
+        Guna2HtmlLabel56.Size = New Size(74, 23)
+        Guna2HtmlLabel56.TabIndex = 23
+        Guna2HtmlLabel56.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel57
         ' 
-        Me.Guna2HtmlLabel57.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel57.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel57.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel57.Location = New Global.System.Drawing.Point(32, 382)
-        Me.Guna2HtmlLabel57.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel57.Name = "Guna2HtmlLabel57"
-        Me.Guna2HtmlLabel57.Size = New Global.System.Drawing.Size(381, 14)
-        Me.Guna2HtmlLabel57.TabIndex = 22
-        Me.Guna2HtmlLabel57.Text = "3. Communicate proactively if you anticipate being late or unable to attend a meeting."
+        Guna2HtmlLabel57.BackColor = Color.Transparent
+        Guna2HtmlLabel57.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel57.ForeColor = Color.Black
+        Guna2HtmlLabel57.Location = New Point(46, 637)
+        Guna2HtmlLabel57.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel57.Name = "Guna2HtmlLabel57"
+        Guna2HtmlLabel57.Size = New Size(594, 23)
+        Guna2HtmlLabel57.TabIndex = 22
+        Guna2HtmlLabel57.Text = "3. Communicate proactively if you anticipate being late or unable to attend a meeting."
         ' 
         ' Guna2HtmlLabel58
         ' 
-        Me.Guna2HtmlLabel58.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel58.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel58.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel58.Location = New Global.System.Drawing.Point(395, 366)
-        Me.Guna2HtmlLabel58.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
-        Me.Guna2HtmlLabel58.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel58.TabIndex = 21
-        Me.Guna2HtmlLabel58.Text = "Supervisor:"
+        Guna2HtmlLabel58.BackColor = Color.Transparent
+        Guna2HtmlLabel58.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel58.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel58.Location = New Point(564, 610)
+        Guna2HtmlLabel58.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
+        Guna2HtmlLabel58.Size = New Size(81, 23)
+        Guna2HtmlLabel58.TabIndex = 21
+        Guna2HtmlLabel58.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel59
         ' 
-        Me.Guna2HtmlLabel59.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel59.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel59.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel59.Location = New Global.System.Drawing.Point(45, 366)
-        Me.Guna2HtmlLabel59.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel59.Name = "Guna2HtmlLabel59"
-        Me.Guna2HtmlLabel59.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel59.TabIndex = 20
-        Me.Guna2HtmlLabel59.Text = "Employee:"
+        Guna2HtmlLabel59.BackColor = Color.Transparent
+        Guna2HtmlLabel59.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel59.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel59.Location = New Point(64, 610)
+        Guna2HtmlLabel59.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel59.Name = "Guna2HtmlLabel59"
+        Guna2HtmlLabel59.Size = New Size(74, 23)
+        Guna2HtmlLabel59.TabIndex = 20
+        Guna2HtmlLabel59.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel60
         ' 
-        Me.Guna2HtmlLabel60.AutoSize = False
-        Me.Guna2HtmlLabel60.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel60.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel60.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel60.Location = New Global.System.Drawing.Point(32, 348)
-        Me.Guna2HtmlLabel60.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel60.Name = "Guna2HtmlLabel60"
-        Me.Guna2HtmlLabel60.Size = New Global.System.Drawing.Size(552, 14)
-        Me.Guna2HtmlLabel60.TabIndex = 19
-        Me.Guna2HtmlLabel60.Text = "2. Plan your workday to accommodate both expected and unexpected tasks."
+        Guna2HtmlLabel60.AutoSize = False
+        Guna2HtmlLabel60.BackColor = Color.Transparent
+        Guna2HtmlLabel60.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel60.ForeColor = Color.Black
+        Guna2HtmlLabel60.Location = New Point(46, 580)
+        Guna2HtmlLabel60.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel60.Name = "Guna2HtmlLabel60"
+        Guna2HtmlLabel60.Size = New Size(789, 23)
+        Guna2HtmlLabel60.TabIndex = 19
+        Guna2HtmlLabel60.Text = "2. Plan your workday to accommodate both expected and unexpected tasks."
         ' 
         ' Guna2HtmlLabel61
         ' 
-        Me.Guna2HtmlLabel61.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel61.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel61.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel61.Location = New Global.System.Drawing.Point(396, 331)
-        Me.Guna2HtmlLabel61.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel61.Name = "Guna2HtmlLabel61"
-        Me.Guna2HtmlLabel61.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel61.TabIndex = 18
-        Me.Guna2HtmlLabel61.Text = "Supervisor:"
+        Guna2HtmlLabel61.BackColor = Color.Transparent
+        Guna2HtmlLabel61.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel61.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel61.Location = New Point(566, 552)
+        Guna2HtmlLabel61.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel61.Name = "Guna2HtmlLabel61"
+        Guna2HtmlLabel61.Size = New Size(81, 23)
+        Guna2HtmlLabel61.TabIndex = 18
+        Guna2HtmlLabel61.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel62
         ' 
-        Me.Guna2HtmlLabel62.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel62.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel62.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel62.Location = New Global.System.Drawing.Point(46, 331)
-        Me.Guna2HtmlLabel62.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel62.Name = "Guna2HtmlLabel62"
-        Me.Guna2HtmlLabel62.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel62.TabIndex = 17
-        Me.Guna2HtmlLabel62.Text = "Employee:"
+        Guna2HtmlLabel62.BackColor = Color.Transparent
+        Guna2HtmlLabel62.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel62.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel62.Location = New Point(66, 552)
+        Guna2HtmlLabel62.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel62.Name = "Guna2HtmlLabel62"
+        Guna2HtmlLabel62.Size = New Size(74, 23)
+        Guna2HtmlLabel62.TabIndex = 17
+        Guna2HtmlLabel62.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel63
         ' 
-        Me.Guna2HtmlLabel63.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel63.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel63.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel63.Location = New Global.System.Drawing.Point(32, 311)
-        Me.Guna2HtmlLabel63.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel63.Name = "Guna2HtmlLabel63"
-        Me.Guna2HtmlLabel63.Size = New Global.System.Drawing.Size(340, 14)
-        Me.Guna2HtmlLabel63.TabIndex = 16
-        Me.Guna2HtmlLabel63.Text = "1. Use calendar tools and reminders to keep track of meetings and deadlines."
+        Guna2HtmlLabel63.BackColor = Color.Transparent
+        Guna2HtmlLabel63.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel63.ForeColor = Color.Black
+        Guna2HtmlLabel63.Location = New Point(46, 518)
+        Guna2HtmlLabel63.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel63.Name = "Guna2HtmlLabel63"
+        Guna2HtmlLabel63.Size = New Size(533, 23)
+        Guna2HtmlLabel63.TabIndex = 16
+        Guna2HtmlLabel63.Text = "1. Use calendar tools and reminders to keep track of meetings and deadlines."
         ' 
         ' Guna2HtmlLabel91
         ' 
-        Me.Guna2HtmlLabel91.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel91.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel91.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel91.Location = New Global.System.Drawing.Point(402, 144)
-        Me.Guna2HtmlLabel91.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel91.Name = "Guna2HtmlLabel91"
-        Me.Guna2HtmlLabel91.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel91.TabIndex = 15
-        Me.Guna2HtmlLabel91.Text = "Supervisor:"
+        Guna2HtmlLabel91.BackColor = Color.Transparent
+        Guna2HtmlLabel91.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel91.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel91.Location = New Point(574, 240)
+        Guna2HtmlLabel91.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel91.Name = "Guna2HtmlLabel91"
+        Guna2HtmlLabel91.Size = New Size(81, 23)
+        Guna2HtmlLabel91.TabIndex = 15
+        Guna2HtmlLabel91.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel92
         ' 
-        Me.Guna2HtmlLabel92.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel92.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel92.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel92.Location = New Global.System.Drawing.Point(52, 144)
-        Me.Guna2HtmlLabel92.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel92.Name = "Guna2HtmlLabel92"
-        Me.Guna2HtmlLabel92.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel92.TabIndex = 14
-        Me.Guna2HtmlLabel92.Text = "Employee:"
+        Guna2HtmlLabel92.BackColor = Color.Transparent
+        Guna2HtmlLabel92.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel92.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel92.Location = New Point(74, 240)
+        Guna2HtmlLabel92.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel92.Name = "Guna2HtmlLabel92"
+        Guna2HtmlLabel92.Size = New Size(74, 23)
+        Guna2HtmlLabel92.TabIndex = 14
+        Guna2HtmlLabel92.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel93
         ' 
-        Me.Guna2HtmlLabel93.AutoSize = False
-        Me.Guna2HtmlLabel93.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel93.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel93.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel93.Location = New Global.System.Drawing.Point(38, 111)
-        Me.Guna2HtmlLabel93.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel93.Name = "Guna2HtmlLabel93"
-        Me.Guna2HtmlLabel93.Size = New Global.System.Drawing.Size(707, 28)
-        Me.Guna2HtmlLabel93.TabIndex = 13
-        Me.Guna2HtmlLabel93.Text = resources.GetString("Guna2HtmlLabel93.Text")
+        Guna2HtmlLabel93.AutoSize = False
+        Guna2HtmlLabel93.BackColor = Color.Transparent
+        Guna2HtmlLabel93.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel93.ForeColor = Color.Black
+        Guna2HtmlLabel93.Location = New Point(54, 185)
+        Guna2HtmlLabel93.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel93.Name = "Guna2HtmlLabel93"
+        Guna2HtmlLabel93.Size = New Size(1010, 47)
+        Guna2HtmlLabel93.TabIndex = 13
+        Guna2HtmlLabel93.Text = resources.GetString("Guna2HtmlLabel93.Text")
         ' 
         ' Guna2HtmlLabel94
         ' 
-        Me.Guna2HtmlLabel94.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel94.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel94.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel94.Location = New Global.System.Drawing.Point(402, 90)
-        Me.Guna2HtmlLabel94.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel94.Name = "Guna2HtmlLabel94"
-        Me.Guna2HtmlLabel94.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel94.TabIndex = 12
-        Me.Guna2HtmlLabel94.Text = "Supervisor:"
+        Guna2HtmlLabel94.BackColor = Color.Transparent
+        Guna2HtmlLabel94.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel94.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel94.Location = New Point(574, 150)
+        Guna2HtmlLabel94.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel94.Name = "Guna2HtmlLabel94"
+        Guna2HtmlLabel94.Size = New Size(81, 23)
+        Guna2HtmlLabel94.TabIndex = 12
+        Guna2HtmlLabel94.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel95
         ' 
-        Me.Guna2HtmlLabel95.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel95.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel95.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel95.Location = New Global.System.Drawing.Point(52, 90)
-        Me.Guna2HtmlLabel95.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel95.Name = "Guna2HtmlLabel95"
-        Me.Guna2HtmlLabel95.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel95.TabIndex = 11
-        Me.Guna2HtmlLabel95.Text = "Employee:"
+        Guna2HtmlLabel95.BackColor = Color.Transparent
+        Guna2HtmlLabel95.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel95.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel95.Location = New Point(74, 150)
+        Guna2HtmlLabel95.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel95.Name = "Guna2HtmlLabel95"
+        Guna2HtmlLabel95.Size = New Size(74, 23)
+        Guna2HtmlLabel95.TabIndex = 11
+        Guna2HtmlLabel95.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel96
         ' 
-        Me.Guna2HtmlLabel96.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel96.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel96.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel96.Location = New Global.System.Drawing.Point(38, 70)
-        Me.Guna2HtmlLabel96.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel96.Name = "Guna2HtmlLabel96"
-        Me.Guna2HtmlLabel96.Size = New Global.System.Drawing.Size(535, 14)
-        Me.Guna2HtmlLabel96.TabIndex = 10
-        Me.Guna2HtmlLabel96.Text = "2. Continuously improve skills and knowledge through training, self-study, and participation in workshops or conferences."
+        Guna2HtmlLabel96.BackColor = Color.Transparent
+        Guna2HtmlLabel96.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel96.ForeColor = Color.Black
+        Guna2HtmlLabel96.Location = New Point(54, 117)
+        Guna2HtmlLabel96.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel96.Name = "Guna2HtmlLabel96"
+        Guna2HtmlLabel96.Size = New Size(844, 23)
+        Guna2HtmlLabel96.TabIndex = 10
+        Guna2HtmlLabel96.Text = "2. Continuously improve skills and knowledge through training, self-study, and participation in workshops or conferences."
         ' 
         ' Guna2HtmlLabel97
         ' 
-        Me.Guna2HtmlLabel97.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel97.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel97.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel97.Location = New Global.System.Drawing.Point(402, 55)
-        Me.Guna2HtmlLabel97.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel97.Name = "Guna2HtmlLabel97"
-        Me.Guna2HtmlLabel97.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel97.TabIndex = 9
-        Me.Guna2HtmlLabel97.Text = "Supervisor:"
+        Guna2HtmlLabel97.BackColor = Color.Transparent
+        Guna2HtmlLabel97.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel97.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel97.Location = New Point(574, 92)
+        Guna2HtmlLabel97.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel97.Name = "Guna2HtmlLabel97"
+        Guna2HtmlLabel97.Size = New Size(81, 23)
+        Guna2HtmlLabel97.TabIndex = 9
+        Guna2HtmlLabel97.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel98
         ' 
-        Me.Guna2HtmlLabel98.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel98.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel98.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel98.Location = New Global.System.Drawing.Point(52, 55)
-        Me.Guna2HtmlLabel98.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel98.Name = "Guna2HtmlLabel98"
-        Me.Guna2HtmlLabel98.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel98.TabIndex = 8
-        Me.Guna2HtmlLabel98.Text = "Employee:"
+        Guna2HtmlLabel98.BackColor = Color.Transparent
+        Guna2HtmlLabel98.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel98.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel98.Location = New Point(74, 92)
+        Guna2HtmlLabel98.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel98.Name = "Guna2HtmlLabel98"
+        Guna2HtmlLabel98.Size = New Size(74, 23)
+        Guna2HtmlLabel98.TabIndex = 8
+        Guna2HtmlLabel98.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel99
         ' 
-        Me.Guna2HtmlLabel99.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel99.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel99.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel99.Location = New Global.System.Drawing.Point(38, 35)
-        Me.Guna2HtmlLabel99.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel99.Name = "Guna2HtmlLabel99"
-        Me.Guna2HtmlLabel99.Size = New Global.System.Drawing.Size(460, 14)
-        Me.Guna2HtmlLabel99.TabIndex = 3
-        Me.Guna2HtmlLabel99.Text = "1. Stay updated with the latest industry trends, technologies, and best practices in software development."
+        Guna2HtmlLabel99.BackColor = Color.Transparent
+        Guna2HtmlLabel99.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel99.ForeColor = Color.Black
+        Guna2HtmlLabel99.Location = New Point(54, 58)
+        Guna2HtmlLabel99.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel99.Name = "Guna2HtmlLabel99"
+        Guna2HtmlLabel99.Size = New Size(725, 23)
+        Guna2HtmlLabel99.TabIndex = 3
+        Guna2HtmlLabel99.Text = "1. Stay updated with the latest industry trends, technologies, and best practices in software development."
         ' 
         ' Label15
         ' 
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label15.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label15.Location = New Global.System.Drawing.Point(13, 11)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New Global.System.Drawing.Size(189, 20)
-        Me.Label15.TabIndex = 0
-        Me.Label15.Text = "CONTINUOUS LEARNING"
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.ForeColor = Color.Black
+        Label15.Location = New Point(19, 18)
+        Label15.Margin = New Padding(4, 0, 4, 0)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(274, 30)
+        Label15.TabIndex = 0
+        Label15.Text = "CONTINUOUS LEARNING"
         ' 
         ' Label16
         ' 
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New Global.System.Drawing.Point(13, 620)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label16.TabIndex = 2
-        Me.Label16.Text = "                       "
+        Label16.AutoSize = True
+        Label16.Location = New Point(19, 1033)
+        Label16.Margin = New Padding(4, 0, 4, 0)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(127, 25)
+        Label16.TabIndex = 2
+        Label16.Text = "                       "
         ' 
         ' gbPage2
         ' 
-        Me.gbPage2.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage2.Controls.Add(Me.Guna2Panel4)
-        Me.gbPage2.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage2.CustomizableEdges = CustomizableEdges31
-        Me.gbPage2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage2.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage2.Location = New Global.System.Drawing.Point(17, 75)
-        Me.gbPage2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage2.Name = "gbPage2"
-        Me.gbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Me.gbPage2.Size = New Global.System.Drawing.Size(770, 443)
-        Me.gbPage2.TabIndex = 5
+        gbPage2.BorderColor = Color.White
+        gbPage2.Controls.Add(Guna2Panel4)
+        gbPage2.CustomBorderColor = Color.White
+        gbPage2.CustomizableEdges = CustomizableEdges31
+        gbPage2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage2.ForeColor = Color.White
+        gbPage2.Location = New Point(24, 125)
+        gbPage2.Margin = New Padding(4, 3, 4, 3)
+        gbPage2.Name = "gbPage2"
+        gbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        gbPage2.Size = New Size(1100, 738)
+        gbPage2.TabIndex = 5
         ' 
         ' Guna2Panel4
         ' 
-        Me.Guna2Panel4.AutoScroll = True
-        Me.Guna2Panel4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel4.Controls.Add(Me.lblCIS4)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIS3)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIS2)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIS1)
-        Me.Guna2Panel4.Controls.Add(Me.lblDS2)
-        Me.Guna2Panel4.Controls.Add(Me.lblDS1)
-        Me.Guna2Panel4.Controls.Add(Me.lblPSS1)
-        Me.Guna2Panel4.Controls.Add(Me.lblSDAS2)
-        Me.Guna2Panel4.Controls.Add(Me.lblSDAS1)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIE4)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIE3)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIE2)
-        Me.Guna2Panel4.Controls.Add(Me.lblCIE1)
-        Me.Guna2Panel4.Controls.Add(Me.lblDE2)
-        Me.Guna2Panel4.Controls.Add(Me.lblDE1)
-        Me.Guna2Panel4.Controls.Add(Me.lblPSE1)
-        Me.Guna2Panel4.Controls.Add(Me.lblSDAE2)
-        Me.Guna2Panel4.Controls.Add(Me.lblSDAE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtCIS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtCIE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtDS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtDE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtPSS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtPSE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtSDAS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtSDAE1)
-        Me.Guna2Panel4.Controls.Add(Me.Label11)
-        Me.Guna2Panel4.Controls.Add(Me.Label9)
-        Me.Guna2Panel4.Controls.Add(Me.Label8)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel64)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel65)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel66)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel67)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel68)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel69)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel70)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel71)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel72)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel73)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel74)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel75)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel76)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel77)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel78)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel79)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel80)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel81)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel82)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel83)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel84)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel85)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel86)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel87)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel88)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel89)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel90)
-        Me.Guna2Panel4.Controls.Add(Me.Label4)
-        Me.Guna2Panel4.Controls.Add(Me.Label12)
-        Me.Guna2Panel4.CustomizableEdges = CustomizableEdges29
-        Me.Guna2Panel4.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel4.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Me.Guna2Panel4.Size = New Global.System.Drawing.Size(770, 403)
-        Me.Guna2Panel4.TabIndex = 3
+        Guna2Panel4.AutoScroll = True
+        Guna2Panel4.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel4.Controls.Add(lblCIS4)
+        Guna2Panel4.Controls.Add(lblCIS3)
+        Guna2Panel4.Controls.Add(lblCIS2)
+        Guna2Panel4.Controls.Add(lblCIS1)
+        Guna2Panel4.Controls.Add(lblDS2)
+        Guna2Panel4.Controls.Add(lblDS1)
+        Guna2Panel4.Controls.Add(lblPSS1)
+        Guna2Panel4.Controls.Add(lblSDAS2)
+        Guna2Panel4.Controls.Add(lblSDAS1)
+        Guna2Panel4.Controls.Add(lblCIE4)
+        Guna2Panel4.Controls.Add(lblCIE3)
+        Guna2Panel4.Controls.Add(lblCIE2)
+        Guna2Panel4.Controls.Add(lblCIE1)
+        Guna2Panel4.Controls.Add(lblDE2)
+        Guna2Panel4.Controls.Add(lblDE1)
+        Guna2Panel4.Controls.Add(lblPSE1)
+        Guna2Panel4.Controls.Add(lblSDAE2)
+        Guna2Panel4.Controls.Add(lblSDAE1)
+        Guna2Panel4.Controls.Add(txtCIS1)
+        Guna2Panel4.Controls.Add(txtCIE1)
+        Guna2Panel4.Controls.Add(txtDS1)
+        Guna2Panel4.Controls.Add(txtDE1)
+        Guna2Panel4.Controls.Add(txtPSS1)
+        Guna2Panel4.Controls.Add(txtPSE1)
+        Guna2Panel4.Controls.Add(txtSDAS1)
+        Guna2Panel4.Controls.Add(txtSDAE1)
+        Guna2Panel4.Controls.Add(Label11)
+        Guna2Panel4.Controls.Add(Label9)
+        Guna2Panel4.Controls.Add(Label8)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel64)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel65)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel66)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel67)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel68)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel69)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel70)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel71)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel72)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel73)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel74)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel75)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel76)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel77)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel78)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel79)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel80)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel81)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel82)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel83)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel84)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel85)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel86)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel87)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel88)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel89)
+        Guna2Panel4.Controls.Add(Guna2HtmlLabel90)
+        Guna2Panel4.Controls.Add(Label4)
+        Guna2Panel4.Controls.Add(Label12)
+        Guna2Panel4.CustomizableEdges = CustomizableEdges29
+        Guna2Panel4.Dock = DockStyle.Fill
+        Guna2Panel4.Location = New Point(0, 40)
+        Guna2Panel4.Margin = New Padding(4, 3, 4, 3)
+        Guna2Panel4.Name = "Guna2Panel4"
+        Guna2Panel4.Padding = New Padding(4, 3, 4, 3)
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        Guna2Panel4.Size = New Size(1100, 698)
+        Guna2Panel4.TabIndex = 3
         ' 
         ' lblCIS4
         ' 
-        Me.lblCIS4.AutoSize = True
-        Me.lblCIS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS4.Location = New Global.System.Drawing.Point(462, 712)
-        Me.lblCIS4.Name = "lblCIS4"
-        Me.lblCIS4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS4.TabIndex = 86
+        lblCIS4.AutoSize = True
+        lblCIS4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIS4.ForeColor = Color.Black
+        lblCIS4.Location = New Point(660, 1187)
+        lblCIS4.Margin = New Padding(4, 0, 4, 0)
+        lblCIS4.Name = "lblCIS4"
+        lblCIS4.Size = New Size(0, 21)
+        lblCIS4.TabIndex = 86
         ' 
         ' lblCIS3
         ' 
-        Me.lblCIS3.AutoSize = True
-        Me.lblCIS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS3.Location = New Global.System.Drawing.Point(462, 675)
-        Me.lblCIS3.Name = "lblCIS3"
-        Me.lblCIS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS3.TabIndex = 85
+        lblCIS3.AutoSize = True
+        lblCIS3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIS3.ForeColor = Color.Black
+        lblCIS3.Location = New Point(660, 1125)
+        lblCIS3.Margin = New Padding(4, 0, 4, 0)
+        lblCIS3.Name = "lblCIS3"
+        lblCIS3.Size = New Size(0, 21)
+        lblCIS3.TabIndex = 85
         ' 
         ' lblCIS2
         ' 
-        Me.lblCIS2.AutoSize = True
-        Me.lblCIS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS2.Location = New Global.System.Drawing.Point(462, 612)
-        Me.lblCIS2.Name = "lblCIS2"
-        Me.lblCIS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS2.TabIndex = 84
+        lblCIS2.AutoSize = True
+        lblCIS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIS2.ForeColor = Color.Black
+        lblCIS2.Location = New Point(660, 1020)
+        lblCIS2.Margin = New Padding(4, 0, 4, 0)
+        lblCIS2.Name = "lblCIS2"
+        lblCIS2.Size = New Size(0, 21)
+        lblCIS2.TabIndex = 84
         ' 
         ' lblCIS1
         ' 
-        Me.lblCIS1.AutoSize = True
-        Me.lblCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS1.Location = New Global.System.Drawing.Point(462, 568)
-        Me.lblCIS1.Name = "lblCIS1"
-        Me.lblCIS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS1.TabIndex = 83
+        lblCIS1.AutoSize = True
+        lblCIS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIS1.ForeColor = Color.Black
+        lblCIS1.Location = New Point(660, 947)
+        lblCIS1.Margin = New Padding(4, 0, 4, 0)
+        lblCIS1.Name = "lblCIS1"
+        lblCIS1.Size = New Size(0, 21)
+        lblCIS1.TabIndex = 83
         ' 
         ' lblDS2
         ' 
-        Me.lblDS2.AutoSize = True
-        Me.lblDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDS2.Location = New Global.System.Drawing.Point(464, 428)
-        Me.lblDS2.Name = "lblDS2"
-        Me.lblDS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDS2.TabIndex = 82
+        lblDS2.AutoSize = True
+        lblDS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDS2.ForeColor = Color.Black
+        lblDS2.Location = New Point(663, 713)
+        lblDS2.Margin = New Padding(4, 0, 4, 0)
+        lblDS2.Name = "lblDS2"
+        lblDS2.Size = New Size(0, 21)
+        lblDS2.TabIndex = 82
         ' 
         ' lblDS1
         ' 
-        Me.lblDS1.AutoSize = True
-        Me.lblDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDS1.Location = New Global.System.Drawing.Point(464, 393)
-        Me.lblDS1.Name = "lblDS1"
-        Me.lblDS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDS1.TabIndex = 81
+        lblDS1.AutoSize = True
+        lblDS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDS1.ForeColor = Color.Black
+        lblDS1.Location = New Point(663, 655)
+        lblDS1.Margin = New Padding(4, 0, 4, 0)
+        lblDS1.Name = "lblDS1"
+        lblDS1.Size = New Size(0, 21)
+        lblDS1.TabIndex = 81
         ' 
         ' lblPSS1
         ' 
-        Me.lblPSS1.AutoSize = True
-        Me.lblPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPSS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPSS1.Location = New Global.System.Drawing.Point(464, 246)
-        Me.lblPSS1.Name = "lblPSS1"
-        Me.lblPSS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPSS1.TabIndex = 80
+        lblPSS1.AutoSize = True
+        lblPSS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPSS1.ForeColor = Color.Black
+        lblPSS1.Location = New Point(663, 410)
+        lblPSS1.Margin = New Padding(4, 0, 4, 0)
+        lblPSS1.Name = "lblPSS1"
+        lblPSS1.Size = New Size(0, 21)
+        lblPSS1.TabIndex = 80
         ' 
         ' lblSDAS2
         ' 
-        Me.lblSDAS2.AutoSize = True
-        Me.lblSDAS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAS2.Location = New Global.System.Drawing.Point(464, 89)
-        Me.lblSDAS2.Name = "lblSDAS2"
-        Me.lblSDAS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAS2.TabIndex = 79
+        lblSDAS2.AutoSize = True
+        lblSDAS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDAS2.ForeColor = Color.Black
+        lblSDAS2.Location = New Point(663, 148)
+        lblSDAS2.Margin = New Padding(4, 0, 4, 0)
+        lblSDAS2.Name = "lblSDAS2"
+        lblSDAS2.Size = New Size(0, 21)
+        lblSDAS2.TabIndex = 79
         ' 
         ' lblSDAS1
         ' 
-        Me.lblSDAS1.AutoSize = True
-        Me.lblSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAS1.Location = New Global.System.Drawing.Point(464, 54)
-        Me.lblSDAS1.Name = "lblSDAS1"
-        Me.lblSDAS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAS1.TabIndex = 78
+        lblSDAS1.AutoSize = True
+        lblSDAS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDAS1.ForeColor = Color.Black
+        lblSDAS1.Location = New Point(663, 90)
+        lblSDAS1.Margin = New Padding(4, 0, 4, 0)
+        lblSDAS1.Name = "lblSDAS1"
+        lblSDAS1.Size = New Size(0, 21)
+        lblSDAS1.TabIndex = 78
         ' 
         ' lblCIE4
         ' 
-        Me.lblCIE4.AutoSize = True
-        Me.lblCIE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE4.Location = New Global.System.Drawing.Point(108, 712)
-        Me.lblCIE4.Name = "lblCIE4"
-        Me.lblCIE4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE4.TabIndex = 77
+        lblCIE4.AutoSize = True
+        lblCIE4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIE4.ForeColor = Color.Black
+        lblCIE4.Location = New Point(154, 1187)
+        lblCIE4.Margin = New Padding(4, 0, 4, 0)
+        lblCIE4.Name = "lblCIE4"
+        lblCIE4.Size = New Size(0, 21)
+        lblCIE4.TabIndex = 77
         ' 
         ' lblCIE3
         ' 
-        Me.lblCIE3.AutoSize = True
-        Me.lblCIE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE3.Location = New Global.System.Drawing.Point(108, 675)
-        Me.lblCIE3.Name = "lblCIE3"
-        Me.lblCIE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE3.TabIndex = 76
+        lblCIE3.AutoSize = True
+        lblCIE3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIE3.ForeColor = Color.Black
+        lblCIE3.Location = New Point(154, 1125)
+        lblCIE3.Margin = New Padding(4, 0, 4, 0)
+        lblCIE3.Name = "lblCIE3"
+        lblCIE3.Size = New Size(0, 21)
+        lblCIE3.TabIndex = 76
         ' 
         ' lblCIE2
         ' 
-        Me.lblCIE2.AutoSize = True
-        Me.lblCIE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE2.Location = New Global.System.Drawing.Point(108, 614)
-        Me.lblCIE2.Name = "lblCIE2"
-        Me.lblCIE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE2.TabIndex = 75
+        lblCIE2.AutoSize = True
+        lblCIE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIE2.ForeColor = Color.Black
+        lblCIE2.Location = New Point(154, 1023)
+        lblCIE2.Margin = New Padding(4, 0, 4, 0)
+        lblCIE2.Name = "lblCIE2"
+        lblCIE2.Size = New Size(0, 21)
+        lblCIE2.TabIndex = 75
         ' 
         ' lblCIE1
         ' 
-        Me.lblCIE1.AutoSize = True
-        Me.lblCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE1.Location = New Global.System.Drawing.Point(108, 568)
-        Me.lblCIE1.Name = "lblCIE1"
-        Me.lblCIE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE1.TabIndex = 74
+        lblCIE1.AutoSize = True
+        lblCIE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblCIE1.ForeColor = Color.Black
+        lblCIE1.Location = New Point(154, 947)
+        lblCIE1.Margin = New Padding(4, 0, 4, 0)
+        lblCIE1.Name = "lblCIE1"
+        lblCIE1.Size = New Size(0, 21)
+        lblCIE1.TabIndex = 74
         ' 
         ' lblDE2
         ' 
-        Me.lblDE2.AutoSize = True
-        Me.lblDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDE2.Location = New Global.System.Drawing.Point(109, 428)
-        Me.lblDE2.Name = "lblDE2"
-        Me.lblDE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDE2.TabIndex = 73
+        lblDE2.AutoSize = True
+        lblDE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDE2.ForeColor = Color.Black
+        lblDE2.Location = New Point(156, 713)
+        lblDE2.Margin = New Padding(4, 0, 4, 0)
+        lblDE2.Name = "lblDE2"
+        lblDE2.Size = New Size(0, 21)
+        lblDE2.TabIndex = 73
         ' 
         ' lblDE1
         ' 
-        Me.lblDE1.AutoSize = True
-        Me.lblDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDE1.Location = New Global.System.Drawing.Point(109, 393)
-        Me.lblDE1.Name = "lblDE1"
-        Me.lblDE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDE1.TabIndex = 72
+        lblDE1.AutoSize = True
+        lblDE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDE1.ForeColor = Color.Black
+        lblDE1.Location = New Point(156, 655)
+        lblDE1.Margin = New Padding(4, 0, 4, 0)
+        lblDE1.Name = "lblDE1"
+        lblDE1.Size = New Size(0, 21)
+        lblDE1.TabIndex = 72
         ' 
         ' lblPSE1
         ' 
-        Me.lblPSE1.AutoSize = True
-        Me.lblPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPSE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPSE1.Location = New Global.System.Drawing.Point(109, 246)
-        Me.lblPSE1.Name = "lblPSE1"
-        Me.lblPSE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPSE1.TabIndex = 71
+        lblPSE1.AutoSize = True
+        lblPSE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPSE1.ForeColor = Color.Black
+        lblPSE1.Location = New Point(156, 410)
+        lblPSE1.Margin = New Padding(4, 0, 4, 0)
+        lblPSE1.Name = "lblPSE1"
+        lblPSE1.Size = New Size(0, 21)
+        lblPSE1.TabIndex = 71
         ' 
         ' lblSDAE2
         ' 
-        Me.lblSDAE2.AutoSize = True
-        Me.lblSDAE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAE2.Location = New Global.System.Drawing.Point(109, 89)
-        Me.lblSDAE2.Name = "lblSDAE2"
-        Me.lblSDAE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAE2.TabIndex = 70
+        lblSDAE2.AutoSize = True
+        lblSDAE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDAE2.ForeColor = Color.Black
+        lblSDAE2.Location = New Point(156, 148)
+        lblSDAE2.Margin = New Padding(4, 0, 4, 0)
+        lblSDAE2.Name = "lblSDAE2"
+        lblSDAE2.Size = New Size(0, 21)
+        lblSDAE2.TabIndex = 70
         ' 
         ' lblSDAE1
         ' 
-        Me.lblSDAE1.AutoSize = True
-        Me.lblSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAE1.Location = New Global.System.Drawing.Point(109, 54)
-        Me.lblSDAE1.Name = "lblSDAE1"
-        Me.lblSDAE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAE1.TabIndex = 69
+        lblSDAE1.AutoSize = True
+        lblSDAE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDAE1.ForeColor = Color.Black
+        lblSDAE1.Location = New Point(156, 90)
+        lblSDAE1.Margin = New Padding(4, 0, 4, 0)
+        lblSDAE1.Name = "lblSDAE1"
+        lblSDAE1.Size = New Size(0, 21)
+        lblSDAE1.TabIndex = 69
         ' 
         ' txtCIS1
         ' 
-        Me.txtCIS1.CustomizableEdges = CustomizableEdges13
-        Me.txtCIS1.DefaultText = ""
-        Me.txtCIS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCIS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCIS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCIS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIS1.Location = New Global.System.Drawing.Point(392, 737)
-        Me.txtCIS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCIS1.Name = "txtCIS1"
-        Me.txtCIS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCIS1.PlaceholderText = ""
-        Me.txtCIS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCIS1.SelectedText = ""
-        Me.txtCIS1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Me.txtCIS1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtCIS1.TabIndex = 63
+        txtCIS1.CustomizableEdges = CustomizableEdges13
+        txtCIS1.DefaultText = ""
+        txtCIS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCIS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCIS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCIS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCIS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCIS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCIS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCIS1.Location = New Point(560, 1228)
+        txtCIS1.Margin = New Padding(4, 3, 4, 3)
+        txtCIS1.Name = "txtCIS1"
+        txtCIS1.PasswordChar = ChrW(0)
+        txtCIS1.PlaceholderText = ""
+        txtCIS1.ScrollBars = ScrollBars.Vertical
+        txtCIS1.SelectedText = ""
+        txtCIS1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtCIS1.Size = New Size(470, 108)
+        txtCIS1.TabIndex = 63
         ' 
         ' txtCIE1
         ' 
-        Me.txtCIE1.CustomizableEdges = CustomizableEdges15
-        Me.txtCIE1.DefaultText = ""
-        Me.txtCIE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCIE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCIE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCIE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIE1.Location = New Global.System.Drawing.Point(33, 737)
-        Me.txtCIE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCIE1.Name = "txtCIE1"
-        Me.txtCIE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCIE1.PlaceholderText = ""
-        Me.txtCIE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCIE1.SelectedText = ""
-        Me.txtCIE1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Me.txtCIE1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtCIE1.TabIndex = 62
+        txtCIE1.CustomizableEdges = CustomizableEdges15
+        txtCIE1.DefaultText = ""
+        txtCIE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtCIE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtCIE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCIE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtCIE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCIE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtCIE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtCIE1.Location = New Point(47, 1228)
+        txtCIE1.Margin = New Padding(4, 3, 4, 3)
+        txtCIE1.Name = "txtCIE1"
+        txtCIE1.PasswordChar = ChrW(0)
+        txtCIE1.PlaceholderText = ""
+        txtCIE1.ScrollBars = ScrollBars.Vertical
+        txtCIE1.SelectedText = ""
+        txtCIE1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtCIE1.Size = New Size(470, 108)
+        txtCIE1.TabIndex = 62
         ' 
         ' txtDS1
         ' 
-        Me.txtDS1.CustomizableEdges = CustomizableEdges17
-        Me.txtDS1.DefaultText = ""
-        Me.txtDS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtDS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtDS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtDS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDS1.Location = New Global.System.Drawing.Point(392, 446)
-        Me.txtDS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtDS1.Name = "txtDS1"
-        Me.txtDS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtDS1.PlaceholderText = ""
-        Me.txtDS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtDS1.SelectedText = ""
-        Me.txtDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Me.txtDS1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtDS1.TabIndex = 61
+        txtDS1.CustomizableEdges = CustomizableEdges17
+        txtDS1.DefaultText = ""
+        txtDS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtDS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtDS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDS1.Location = New Point(560, 743)
+        txtDS1.Margin = New Padding(4, 3, 4, 3)
+        txtDS1.Name = "txtDS1"
+        txtDS1.PasswordChar = ChrW(0)
+        txtDS1.PlaceholderText = ""
+        txtDS1.ScrollBars = ScrollBars.Vertical
+        txtDS1.SelectedText = ""
+        txtDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        txtDS1.Size = New Size(470, 108)
+        txtDS1.TabIndex = 61
         ' 
         ' txtDE1
         ' 
-        Me.txtDE1.CustomizableEdges = CustomizableEdges19
-        Me.txtDE1.DefaultText = ""
-        Me.txtDE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtDE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtDE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtDE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDE1.Location = New Global.System.Drawing.Point(33, 446)
-        Me.txtDE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtDE1.Name = "txtDE1"
-        Me.txtDE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtDE1.PlaceholderText = ""
-        Me.txtDE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtDE1.SelectedText = ""
-        Me.txtDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Me.txtDE1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtDE1.TabIndex = 60
+        txtDE1.CustomizableEdges = CustomizableEdges19
+        txtDE1.DefaultText = ""
+        txtDE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtDE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtDE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtDE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtDE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtDE1.Location = New Point(47, 743)
+        txtDE1.Margin = New Padding(4, 3, 4, 3)
+        txtDE1.Name = "txtDE1"
+        txtDE1.PasswordChar = ChrW(0)
+        txtDE1.PlaceholderText = ""
+        txtDE1.ScrollBars = ScrollBars.Vertical
+        txtDE1.SelectedText = ""
+        txtDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtDE1.Size = New Size(470, 108)
+        txtDE1.TabIndex = 60
         ' 
         ' txtPSS1
         ' 
-        Me.txtPSS1.CustomizableEdges = CustomizableEdges21
-        Me.txtPSS1.DefaultText = ""
-        Me.txtPSS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPSS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPSS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPSS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSS1.Location = New Global.System.Drawing.Point(392, 264)
-        Me.txtPSS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPSS1.Name = "txtPSS1"
-        Me.txtPSS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPSS1.PlaceholderText = ""
-        Me.txtPSS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPSS1.SelectedText = ""
-        Me.txtPSS1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Me.txtPSS1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtPSS1.TabIndex = 59
+        txtPSS1.CustomizableEdges = CustomizableEdges21
+        txtPSS1.DefaultText = ""
+        txtPSS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtPSS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtPSS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPSS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPSS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPSS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtPSS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPSS1.Location = New Point(560, 440)
+        txtPSS1.Margin = New Padding(4, 3, 4, 3)
+        txtPSS1.Name = "txtPSS1"
+        txtPSS1.PasswordChar = ChrW(0)
+        txtPSS1.PlaceholderText = ""
+        txtPSS1.ScrollBars = ScrollBars.Vertical
+        txtPSS1.SelectedText = ""
+        txtPSS1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        txtPSS1.Size = New Size(470, 108)
+        txtPSS1.TabIndex = 59
         ' 
         ' txtPSE1
         ' 
-        Me.txtPSE1.CustomizableEdges = CustomizableEdges23
-        Me.txtPSE1.DefaultText = ""
-        Me.txtPSE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPSE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPSE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPSE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSE1.Location = New Global.System.Drawing.Point(33, 264)
-        Me.txtPSE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPSE1.Name = "txtPSE1"
-        Me.txtPSE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPSE1.PlaceholderText = ""
-        Me.txtPSE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPSE1.SelectedText = ""
-        Me.txtPSE1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Me.txtPSE1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtPSE1.TabIndex = 58
+        txtPSE1.CustomizableEdges = CustomizableEdges23
+        txtPSE1.DefaultText = ""
+        txtPSE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtPSE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtPSE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPSE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtPSE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPSE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtPSE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtPSE1.Location = New Point(47, 440)
+        txtPSE1.Margin = New Padding(4, 3, 4, 3)
+        txtPSE1.Name = "txtPSE1"
+        txtPSE1.PasswordChar = ChrW(0)
+        txtPSE1.PlaceholderText = ""
+        txtPSE1.ScrollBars = ScrollBars.Vertical
+        txtPSE1.SelectedText = ""
+        txtPSE1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        txtPSE1.Size = New Size(470, 108)
+        txtPSE1.TabIndex = 58
         ' 
         ' txtSDAS1
         ' 
-        Me.txtSDAS1.CustomizableEdges = CustomizableEdges25
-        Me.txtSDAS1.DefaultText = ""
-        Me.txtSDAS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDAS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDAS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDAS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAS1.Location = New Global.System.Drawing.Point(392, 106)
-        Me.txtSDAS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDAS1.Name = "txtSDAS1"
-        Me.txtSDAS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDAS1.PlaceholderText = ""
-        Me.txtSDAS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDAS1.SelectedText = ""
-        Me.txtSDAS1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Me.txtSDAS1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtSDAS1.TabIndex = 57
+        txtSDAS1.CustomizableEdges = CustomizableEdges25
+        txtSDAS1.DefaultText = ""
+        txtSDAS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSDAS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSDAS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDAS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDAS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDAS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSDAS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDAS1.Location = New Point(560, 177)
+        txtSDAS1.Margin = New Padding(4, 3, 4, 3)
+        txtSDAS1.Name = "txtSDAS1"
+        txtSDAS1.PasswordChar = ChrW(0)
+        txtSDAS1.PlaceholderText = ""
+        txtSDAS1.ScrollBars = ScrollBars.Vertical
+        txtSDAS1.SelectedText = ""
+        txtSDAS1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        txtSDAS1.Size = New Size(470, 108)
+        txtSDAS1.TabIndex = 57
         ' 
         ' txtSDAE1
         ' 
-        Me.txtSDAE1.CustomizableEdges = CustomizableEdges27
-        Me.txtSDAE1.DefaultText = ""
-        Me.txtSDAE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDAE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDAE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDAE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAE1.Location = New Global.System.Drawing.Point(33, 106)
-        Me.txtSDAE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDAE1.Name = "txtSDAE1"
-        Me.txtSDAE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDAE1.PlaceholderText = ""
-        Me.txtSDAE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDAE1.SelectedText = ""
-        Me.txtSDAE1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Me.txtSDAE1.Size = New Global.System.Drawing.Size(329, 65)
-        Me.txtSDAE1.TabIndex = 56
+        txtSDAE1.CustomizableEdges = CustomizableEdges27
+        txtSDAE1.DefaultText = ""
+        txtSDAE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSDAE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSDAE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDAE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDAE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDAE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSDAE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDAE1.Location = New Point(47, 177)
+        txtSDAE1.Margin = New Padding(4, 3, 4, 3)
+        txtSDAE1.Name = "txtSDAE1"
+        txtSDAE1.PasswordChar = ChrW(0)
+        txtSDAE1.PlaceholderText = ""
+        txtSDAE1.ScrollBars = ScrollBars.Vertical
+        txtSDAE1.SelectedText = ""
+        txtSDAE1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        txtSDAE1.Size = New Size(470, 108)
+        txtSDAE1.TabIndex = 56
         ' 
         ' Label11
         ' 
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label11.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label11.Location = New Global.System.Drawing.Point(10, 526)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New Global.System.Drawing.Size(282, 20)
-        Me.Label11.TabIndex = 44
-        Me.Label11.Text = "COLLABORATION AND INVOLVEMENT"
+        Label11.AutoSize = True
+        Label11.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label11.ForeColor = Color.Black
+        Label11.Location = New Point(14, 877)
+        Label11.Margin = New Padding(4, 0, 4, 0)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(409, 30)
+        Label11.TabIndex = 44
+        Label11.Text = "COLLABORATION AND INVOLVEMENT"
         ' 
         ' Label9
         ' 
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label9.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label9.Location = New Global.System.Drawing.Point(10, 345)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New Global.System.Drawing.Size(140, 20)
-        Me.Label9.TabIndex = 43
-        Me.Label9.Text = "DOCUMENTATION"
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.ForeColor = Color.Black
+        Label9.Location = New Point(14, 575)
+        Label9.Margin = New Padding(4, 0, 4, 0)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(204, 30)
+        Label9.TabIndex = 43
+        Label9.Text = "DOCUMENTATION"
         ' 
         ' Label8
         ' 
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label8.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label8.Location = New Global.System.Drawing.Point(10, 187)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New Global.System.Drawing.Size(178, 20)
-        Me.Label8.TabIndex = 42
-        Me.Label8.Text = "PRODUCTION SUPPORT"
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.ForeColor = Color.Black
+        Label8.Location = New Point(14, 312)
+        Label8.Margin = New Padding(4, 0, 4, 0)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(264, 30)
+        Label8.TabIndex = 42
+        Label8.Text = "PRODUCTION SUPPORT"
         ' 
         ' Guna2HtmlLabel64
         ' 
-        Me.Guna2HtmlLabel64.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel64.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel64.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel64.Location = New Global.System.Drawing.Point(397, 711)
-        Me.Guna2HtmlLabel64.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel64.Name = "Guna2HtmlLabel64"
-        Me.Guna2HtmlLabel64.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel64.TabIndex = 33
-        Me.Guna2HtmlLabel64.Text = "Supervisor:"
+        Guna2HtmlLabel64.BackColor = Color.Transparent
+        Guna2HtmlLabel64.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel64.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel64.Location = New Point(567, 1185)
+        Guna2HtmlLabel64.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel64.Name = "Guna2HtmlLabel64"
+        Guna2HtmlLabel64.Size = New Size(81, 23)
+        Guna2HtmlLabel64.TabIndex = 33
+        Guna2HtmlLabel64.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel65
         ' 
-        Me.Guna2HtmlLabel65.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel65.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel65.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel65.Location = New Global.System.Drawing.Point(47, 711)
-        Me.Guna2HtmlLabel65.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel65.Name = "Guna2HtmlLabel65"
-        Me.Guna2HtmlLabel65.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel65.TabIndex = 32
-        Me.Guna2HtmlLabel65.Text = "Employee:"
+        Guna2HtmlLabel65.BackColor = Color.Transparent
+        Guna2HtmlLabel65.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel65.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel65.Location = New Point(67, 1185)
+        Guna2HtmlLabel65.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel65.Name = "Guna2HtmlLabel65"
+        Guna2HtmlLabel65.Size = New Size(74, 23)
+        Guna2HtmlLabel65.TabIndex = 32
+        Guna2HtmlLabel65.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel66
         ' 
-        Me.Guna2HtmlLabel66.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel66.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel66.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel66.Location = New Global.System.Drawing.Point(36, 692)
-        Me.Guna2HtmlLabel66.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel66.Name = "Guna2HtmlLabel66"
-        Me.Guna2HtmlLabel66.Size = New Global.System.Drawing.Size(544, 14)
-        Me.Guna2HtmlLabel66.TabIndex = 31
-        Me.Guna2HtmlLabel66.Text = "4. Participate in Sprint Demos to showcase completed work to stakeholders and gather feedback for iterative improvements."
+        Guna2HtmlLabel66.BackColor = Color.Transparent
+        Guna2HtmlLabel66.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel66.ForeColor = Color.Black
+        Guna2HtmlLabel66.Location = New Point(51, 1153)
+        Guna2HtmlLabel66.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel66.Name = "Guna2HtmlLabel66"
+        Guna2HtmlLabel66.Size = New Size(860, 23)
+        Guna2HtmlLabel66.TabIndex = 31
+        Guna2HtmlLabel66.Text = "4. Participate in Sprint Demos to showcase completed work to stakeholders and gather feedback for iterative improvements."
         ' 
         ' Guna2HtmlLabel67
         ' 
-        Me.Guna2HtmlLabel67.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel67.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel67.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel67.Location = New Global.System.Drawing.Point(397, 674)
-        Me.Guna2HtmlLabel67.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel67.Name = "Guna2HtmlLabel67"
-        Me.Guna2HtmlLabel67.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel67.TabIndex = 30
-        Me.Guna2HtmlLabel67.Text = "Supervisor:"
+        Guna2HtmlLabel67.BackColor = Color.Transparent
+        Guna2HtmlLabel67.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel67.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel67.Location = New Point(567, 1123)
+        Guna2HtmlLabel67.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel67.Name = "Guna2HtmlLabel67"
+        Guna2HtmlLabel67.Size = New Size(81, 23)
+        Guna2HtmlLabel67.TabIndex = 30
+        Guna2HtmlLabel67.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel68
         ' 
-        Me.Guna2HtmlLabel68.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel68.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel68.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel68.Location = New Global.System.Drawing.Point(47, 674)
-        Me.Guna2HtmlLabel68.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel68.Name = "Guna2HtmlLabel68"
-        Me.Guna2HtmlLabel68.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel68.TabIndex = 29
-        Me.Guna2HtmlLabel68.Text = "Employee:"
+        Guna2HtmlLabel68.BackColor = Color.Transparent
+        Guna2HtmlLabel68.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel68.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel68.Location = New Point(67, 1123)
+        Guna2HtmlLabel68.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel68.Name = "Guna2HtmlLabel68"
+        Guna2HtmlLabel68.Size = New Size(74, 23)
+        Guna2HtmlLabel68.TabIndex = 29
+        Guna2HtmlLabel68.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel69
         ' 
-        Me.Guna2HtmlLabel69.AutoSize = False
-        Me.Guna2HtmlLabel69.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel69.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel69.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel69.Location = New Global.System.Drawing.Point(33, 629)
-        Me.Guna2HtmlLabel69.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel69.Name = "Guna2HtmlLabel69"
-        Me.Guna2HtmlLabel69.Size = New Global.System.Drawing.Size(711, 43)
-        Me.Guna2HtmlLabel69.TabIndex = 28
-        Me.Guna2HtmlLabel69.Text = resources.GetString("Guna2HtmlLabel69.Text")
+        Guna2HtmlLabel69.AutoSize = False
+        Guna2HtmlLabel69.BackColor = Color.Transparent
+        Guna2HtmlLabel69.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel69.ForeColor = Color.Black
+        Guna2HtmlLabel69.Location = New Point(47, 1048)
+        Guna2HtmlLabel69.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel69.Name = "Guna2HtmlLabel69"
+        Guna2HtmlLabel69.Size = New Size(1016, 72)
+        Guna2HtmlLabel69.TabIndex = 28
+        Guna2HtmlLabel69.Text = resources.GetString("Guna2HtmlLabel69.Text")
         ' 
         ' Guna2HtmlLabel70
         ' 
-        Me.Guna2HtmlLabel70.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel70.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel70.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel70.Location = New Global.System.Drawing.Point(397, 613)
-        Me.Guna2HtmlLabel70.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel70.Name = "Guna2HtmlLabel70"
-        Me.Guna2HtmlLabel70.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel70.TabIndex = 27
-        Me.Guna2HtmlLabel70.Text = "Supervisor:"
+        Guna2HtmlLabel70.BackColor = Color.Transparent
+        Guna2HtmlLabel70.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel70.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel70.Location = New Point(567, 1022)
+        Guna2HtmlLabel70.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel70.Name = "Guna2HtmlLabel70"
+        Guna2HtmlLabel70.Size = New Size(81, 23)
+        Guna2HtmlLabel70.TabIndex = 27
+        Guna2HtmlLabel70.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel71
         ' 
-        Me.Guna2HtmlLabel71.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel71.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel71.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel71.Location = New Global.System.Drawing.Point(47, 613)
-        Me.Guna2HtmlLabel71.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel71.Name = "Guna2HtmlLabel71"
-        Me.Guna2HtmlLabel71.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel71.TabIndex = 26
-        Me.Guna2HtmlLabel71.Text = "Employee:"
+        Guna2HtmlLabel71.BackColor = Color.Transparent
+        Guna2HtmlLabel71.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel71.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel71.Location = New Point(67, 1022)
+        Guna2HtmlLabel71.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel71.Name = "Guna2HtmlLabel71"
+        Guna2HtmlLabel71.Size = New Size(74, 23)
+        Guna2HtmlLabel71.TabIndex = 26
+        Guna2HtmlLabel71.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel72
         ' 
-        Me.Guna2HtmlLabel72.AutoSize = False
-        Me.Guna2HtmlLabel72.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel72.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel72.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel72.Location = New Global.System.Drawing.Point(33, 583)
-        Me.Guna2HtmlLabel72.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel72.Name = "Guna2HtmlLabel72"
-        Me.Guna2HtmlLabel72.Size = New Global.System.Drawing.Size(692, 27)
-        Me.Guna2HtmlLabel72.TabIndex = 25
-        Me.Guna2HtmlLabel72.Text = "2. Engage in various events, whether they occur within the company, involve school activities, or take place externally (such tree planting, educational lectures and panels, etc.)"
+        Guna2HtmlLabel72.AutoSize = False
+        Guna2HtmlLabel72.BackColor = Color.Transparent
+        Guna2HtmlLabel72.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel72.ForeColor = Color.Black
+        Guna2HtmlLabel72.Location = New Point(47, 972)
+        Guna2HtmlLabel72.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel72.Name = "Guna2HtmlLabel72"
+        Guna2HtmlLabel72.Size = New Size(989, 45)
+        Guna2HtmlLabel72.TabIndex = 25
+        Guna2HtmlLabel72.Text = "2. Engage in various events, whether they occur within the company, involve school activities, or take place externally (such tree planting, educational lectures and panels, etc.)"
         ' 
         ' Guna2HtmlLabel73
         ' 
-        Me.Guna2HtmlLabel73.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel73.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel73.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel73.Location = New Global.System.Drawing.Point(397, 567)
-        Me.Guna2HtmlLabel73.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel73.Name = "Guna2HtmlLabel73"
-        Me.Guna2HtmlLabel73.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel73.TabIndex = 24
-        Me.Guna2HtmlLabel73.Text = "Supervisor:"
+        Guna2HtmlLabel73.BackColor = Color.Transparent
+        Guna2HtmlLabel73.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel73.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel73.Location = New Point(567, 945)
+        Guna2HtmlLabel73.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel73.Name = "Guna2HtmlLabel73"
+        Guna2HtmlLabel73.Size = New Size(81, 23)
+        Guna2HtmlLabel73.TabIndex = 24
+        Guna2HtmlLabel73.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel74
         ' 
-        Me.Guna2HtmlLabel74.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel74.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel74.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel74.Location = New Global.System.Drawing.Point(47, 567)
-        Me.Guna2HtmlLabel74.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel74.Name = "Guna2HtmlLabel74"
-        Me.Guna2HtmlLabel74.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel74.TabIndex = 23
-        Me.Guna2HtmlLabel74.Text = "Employee:"
+        Guna2HtmlLabel74.BackColor = Color.Transparent
+        Guna2HtmlLabel74.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel74.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel74.Location = New Point(67, 945)
+        Guna2HtmlLabel74.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel74.Name = "Guna2HtmlLabel74"
+        Guna2HtmlLabel74.Size = New Size(74, 23)
+        Guna2HtmlLabel74.TabIndex = 23
+        Guna2HtmlLabel74.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel75
         ' 
-        Me.Guna2HtmlLabel75.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel75.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel75.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel75.Location = New Global.System.Drawing.Point(36, 550)
-        Me.Guna2HtmlLabel75.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel75.Name = "Guna2HtmlLabel75"
-        Me.Guna2HtmlLabel75.Size = New Global.System.Drawing.Size(491, 14)
-        Me.Guna2HtmlLabel75.TabIndex = 22
-        Me.Guna2HtmlLabel75.Text = "1. Facilitate seamless product support by fostering collaboration between internal and external functional teams."
+        Guna2HtmlLabel75.BackColor = Color.Transparent
+        Guna2HtmlLabel75.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel75.ForeColor = Color.Black
+        Guna2HtmlLabel75.Location = New Point(51, 917)
+        Guna2HtmlLabel75.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel75.Name = "Guna2HtmlLabel75"
+        Guna2HtmlLabel75.Size = New Size(776, 23)
+        Guna2HtmlLabel75.TabIndex = 22
+        Guna2HtmlLabel75.Text = "1. Facilitate seamless product support by fostering collaboration between internal and external functional teams."
         ' 
         ' Guna2HtmlLabel76
         ' 
-        Me.Guna2HtmlLabel76.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel76.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel76.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel76.Location = New Global.System.Drawing.Point(399, 424)
-        Me.Guna2HtmlLabel76.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel76.Name = "Guna2HtmlLabel76"
-        Me.Guna2HtmlLabel76.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel76.TabIndex = 21
-        Me.Guna2HtmlLabel76.Text = "Supervisor:"
+        Guna2HtmlLabel76.BackColor = Color.Transparent
+        Guna2HtmlLabel76.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel76.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel76.Location = New Point(570, 707)
+        Guna2HtmlLabel76.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel76.Name = "Guna2HtmlLabel76"
+        Guna2HtmlLabel76.Size = New Size(81, 23)
+        Guna2HtmlLabel76.TabIndex = 21
+        Guna2HtmlLabel76.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel77
         ' 
-        Me.Guna2HtmlLabel77.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel77.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel77.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel77.Location = New Global.System.Drawing.Point(49, 424)
-        Me.Guna2HtmlLabel77.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel77.Name = "Guna2HtmlLabel77"
-        Me.Guna2HtmlLabel77.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel77.TabIndex = 20
-        Me.Guna2HtmlLabel77.Text = "Employee:"
+        Guna2HtmlLabel77.BackColor = Color.Transparent
+        Guna2HtmlLabel77.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel77.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel77.Location = New Point(70, 707)
+        Guna2HtmlLabel77.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel77.Name = "Guna2HtmlLabel77"
+        Guna2HtmlLabel77.Size = New Size(74, 23)
+        Guna2HtmlLabel77.TabIndex = 20
+        Guna2HtmlLabel77.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel78
         ' 
-        Me.Guna2HtmlLabel78.AutoSize = False
-        Me.Guna2HtmlLabel78.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel78.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel78.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel78.Location = New Global.System.Drawing.Point(33, 404)
-        Me.Guna2HtmlLabel78.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel78.Name = "Guna2HtmlLabel78"
-        Me.Guna2HtmlLabel78.Size = New Global.System.Drawing.Size(717, 14)
-        Me.Guna2HtmlLabel78.TabIndex = 19
-        Me.Guna2HtmlLabel78.Text = "2. Document code to facilitate collaboration and understanding by other developers."
+        Guna2HtmlLabel78.AutoSize = False
+        Guna2HtmlLabel78.BackColor = Color.Transparent
+        Guna2HtmlLabel78.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel78.ForeColor = Color.Black
+        Guna2HtmlLabel78.Location = New Point(47, 673)
+        Guna2HtmlLabel78.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel78.Name = "Guna2HtmlLabel78"
+        Guna2HtmlLabel78.Size = New Size(1024, 23)
+        Guna2HtmlLabel78.TabIndex = 19
+        Guna2HtmlLabel78.Text = "2. Document code to facilitate collaboration and understanding by other developers."
         ' 
         ' Guna2HtmlLabel79
         ' 
-        Me.Guna2HtmlLabel79.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel79.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel79.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel79.Location = New Global.System.Drawing.Point(399, 390)
-        Me.Guna2HtmlLabel79.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel79.Name = "Guna2HtmlLabel79"
-        Me.Guna2HtmlLabel79.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel79.TabIndex = 18
-        Me.Guna2HtmlLabel79.Text = "Supervisor:"
+        Guna2HtmlLabel79.BackColor = Color.Transparent
+        Guna2HtmlLabel79.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel79.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel79.Location = New Point(570, 650)
+        Guna2HtmlLabel79.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel79.Name = "Guna2HtmlLabel79"
+        Guna2HtmlLabel79.Size = New Size(81, 23)
+        Guna2HtmlLabel79.TabIndex = 18
+        Guna2HtmlLabel79.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel80
         ' 
-        Me.Guna2HtmlLabel80.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel80.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel80.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel80.Location = New Global.System.Drawing.Point(49, 390)
-        Me.Guna2HtmlLabel80.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel80.Name = "Guna2HtmlLabel80"
-        Me.Guna2HtmlLabel80.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel80.TabIndex = 17
-        Me.Guna2HtmlLabel80.Text = "Employee:"
+        Guna2HtmlLabel80.BackColor = Color.Transparent
+        Guna2HtmlLabel80.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel80.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel80.Location = New Point(70, 650)
+        Guna2HtmlLabel80.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel80.Name = "Guna2HtmlLabel80"
+        Guna2HtmlLabel80.Size = New Size(74, 23)
+        Guna2HtmlLabel80.TabIndex = 17
+        Guna2HtmlLabel80.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel81
         ' 
-        Me.Guna2HtmlLabel81.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel81.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel81.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel81.Location = New Global.System.Drawing.Point(36, 370)
-        Me.Guna2HtmlLabel81.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel81.Name = "Guna2HtmlLabel81"
-        Me.Guna2HtmlLabel81.Size = New Global.System.Drawing.Size(513, 14)
-        Me.Guna2HtmlLabel81.TabIndex = 16
-        Me.Guna2HtmlLabel81.Text = "1. Create and maintain technical documentation, including design documents, API documentation, and user guides."
+        Guna2HtmlLabel81.BackColor = Color.Transparent
+        Guna2HtmlLabel81.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel81.ForeColor = Color.Black
+        Guna2HtmlLabel81.Location = New Point(51, 617)
+        Guna2HtmlLabel81.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel81.Name = "Guna2HtmlLabel81"
+        Guna2HtmlLabel81.Size = New Size(794, 23)
+        Guna2HtmlLabel81.TabIndex = 16
+        Guna2HtmlLabel81.Text = "1. Create and maintain technical documentation, including design documents, API documentation, and user guides."
         ' 
         ' Guna2HtmlLabel82
         ' 
-        Me.Guna2HtmlLabel82.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel82.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel82.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel82.Location = New Global.System.Drawing.Point(399, 244)
-        Me.Guna2HtmlLabel82.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel82.Name = "Guna2HtmlLabel82"
-        Me.Guna2HtmlLabel82.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel82.TabIndex = 15
-        Me.Guna2HtmlLabel82.Text = "Supervisor:"
+        Guna2HtmlLabel82.BackColor = Color.Transparent
+        Guna2HtmlLabel82.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel82.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel82.Location = New Point(570, 407)
+        Guna2HtmlLabel82.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel82.Name = "Guna2HtmlLabel82"
+        Guna2HtmlLabel82.Size = New Size(81, 23)
+        Guna2HtmlLabel82.TabIndex = 15
+        Guna2HtmlLabel82.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel83
         ' 
-        Me.Guna2HtmlLabel83.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel83.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel83.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel83.Location = New Global.System.Drawing.Point(49, 244)
-        Me.Guna2HtmlLabel83.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel83.Name = "Guna2HtmlLabel83"
-        Me.Guna2HtmlLabel83.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel83.TabIndex = 14
-        Me.Guna2HtmlLabel83.Text = "Employee:"
+        Guna2HtmlLabel83.BackColor = Color.Transparent
+        Guna2HtmlLabel83.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel83.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel83.Location = New Point(70, 407)
+        Guna2HtmlLabel83.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel83.Name = "Guna2HtmlLabel83"
+        Guna2HtmlLabel83.Size = New Size(74, 23)
+        Guna2HtmlLabel83.TabIndex = 14
+        Guna2HtmlLabel83.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel84
         ' 
-        Me.Guna2HtmlLabel84.AutoSize = False
-        Me.Guna2HtmlLabel84.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel84.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel84.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel84.Location = New Global.System.Drawing.Point(36, 216)
-        Me.Guna2HtmlLabel84.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel84.Name = "Guna2HtmlLabel84"
-        Me.Guna2HtmlLabel84.Size = New Global.System.Drawing.Size(709, 25)
-        Me.Guna2HtmlLabel84.TabIndex = 13
-        Me.Guna2HtmlLabel84.Text = "1. Provide support for software in the production environment, including monitoring, issue resolution, and maintenance to ensure system availability and reliability."
+        Guna2HtmlLabel84.AutoSize = False
+        Guna2HtmlLabel84.BackColor = Color.Transparent
+        Guna2HtmlLabel84.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel84.ForeColor = Color.Black
+        Guna2HtmlLabel84.Location = New Point(51, 360)
+        Guna2HtmlLabel84.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel84.Name = "Guna2HtmlLabel84"
+        Guna2HtmlLabel84.Size = New Size(1013, 42)
+        Guna2HtmlLabel84.TabIndex = 13
+        Guna2HtmlLabel84.Text = "1. Provide support for software in the production environment, including monitoring, issue resolution, and maintenance to ensure system availability and reliability."
         ' 
         ' Guna2HtmlLabel85
         ' 
-        Me.Guna2HtmlLabel85.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel85.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel85.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel85.Location = New Global.System.Drawing.Point(399, 88)
-        Me.Guna2HtmlLabel85.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel85.Name = "Guna2HtmlLabel85"
-        Me.Guna2HtmlLabel85.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel85.TabIndex = 12
-        Me.Guna2HtmlLabel85.Text = "Supervisor:"
+        Guna2HtmlLabel85.BackColor = Color.Transparent
+        Guna2HtmlLabel85.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel85.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel85.Location = New Point(570, 147)
+        Guna2HtmlLabel85.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel85.Name = "Guna2HtmlLabel85"
+        Guna2HtmlLabel85.Size = New Size(81, 23)
+        Guna2HtmlLabel85.TabIndex = 12
+        Guna2HtmlLabel85.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel86
         ' 
-        Me.Guna2HtmlLabel86.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel86.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel86.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel86.Location = New Global.System.Drawing.Point(49, 88)
-        Me.Guna2HtmlLabel86.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel86.Name = "Guna2HtmlLabel86"
-        Me.Guna2HtmlLabel86.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel86.TabIndex = 11
-        Me.Guna2HtmlLabel86.Text = "Employee:"
+        Guna2HtmlLabel86.BackColor = Color.Transparent
+        Guna2HtmlLabel86.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel86.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel86.Location = New Point(70, 147)
+        Guna2HtmlLabel86.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel86.Name = "Guna2HtmlLabel86"
+        Guna2HtmlLabel86.Size = New Size(74, 23)
+        Guna2HtmlLabel86.TabIndex = 11
+        Guna2HtmlLabel86.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel87
         ' 
-        Me.Guna2HtmlLabel87.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel87.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel87.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel87.Location = New Global.System.Drawing.Point(36, 68)
-        Me.Guna2HtmlLabel87.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel87.Name = "Guna2HtmlLabel87"
-        Me.Guna2HtmlLabel87.Size = New Global.System.Drawing.Size(469, 14)
-        Me.Guna2HtmlLabel87.TabIndex = 10
-        Me.Guna2HtmlLabel87.Text = "2. Collaborate with cross-functional teams to ensure that the software architecture aligns with project goals."
+        Guna2HtmlLabel87.BackColor = Color.Transparent
+        Guna2HtmlLabel87.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel87.ForeColor = Color.Black
+        Guna2HtmlLabel87.Location = New Point(51, 113)
+        Guna2HtmlLabel87.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel87.Name = "Guna2HtmlLabel87"
+        Guna2HtmlLabel87.Size = New Size(745, 23)
+        Guna2HtmlLabel87.TabIndex = 10
+        Guna2HtmlLabel87.Text = "2. Collaborate with cross-functional teams to ensure that the software architecture aligns with project goals."
         ' 
         ' Guna2HtmlLabel88
         ' 
-        Me.Guna2HtmlLabel88.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel88.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel88.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel88.Location = New Global.System.Drawing.Point(399, 52)
-        Me.Guna2HtmlLabel88.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel88.Name = "Guna2HtmlLabel88"
-        Me.Guna2HtmlLabel88.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel88.TabIndex = 9
-        Me.Guna2HtmlLabel88.Text = "Supervisor:"
+        Guna2HtmlLabel88.BackColor = Color.Transparent
+        Guna2HtmlLabel88.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel88.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel88.Location = New Point(570, 87)
+        Guna2HtmlLabel88.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel88.Name = "Guna2HtmlLabel88"
+        Guna2HtmlLabel88.Size = New Size(81, 23)
+        Guna2HtmlLabel88.TabIndex = 9
+        Guna2HtmlLabel88.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel89
         ' 
-        Me.Guna2HtmlLabel89.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel89.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel89.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel89.Location = New Global.System.Drawing.Point(49, 52)
-        Me.Guna2HtmlLabel89.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel89.Name = "Guna2HtmlLabel89"
-        Me.Guna2HtmlLabel89.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel89.TabIndex = 8
-        Me.Guna2HtmlLabel89.Text = "Employee:"
+        Guna2HtmlLabel89.BackColor = Color.Transparent
+        Guna2HtmlLabel89.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel89.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel89.Location = New Point(70, 87)
+        Guna2HtmlLabel89.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel89.Name = "Guna2HtmlLabel89"
+        Guna2HtmlLabel89.Size = New Size(74, 23)
+        Guna2HtmlLabel89.TabIndex = 8
+        Guna2HtmlLabel89.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel90
         ' 
-        Me.Guna2HtmlLabel90.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel90.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel90.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel90.Location = New Global.System.Drawing.Point(36, 33)
-        Me.Guna2HtmlLabel90.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel90.Name = "Guna2HtmlLabel90"
-        Me.Guna2HtmlLabel90.Size = New Global.System.Drawing.Size(483, 14)
-        Me.Guna2HtmlLabel90.TabIndex = 3
-        Me.Guna2HtmlLabel90.Text = "1. Design and architect software systems, considering scalability, performance, and other system requirements."
+        Guna2HtmlLabel90.BackColor = Color.Transparent
+        Guna2HtmlLabel90.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel90.ForeColor = Color.Black
+        Guna2HtmlLabel90.Location = New Point(51, 55)
+        Guna2HtmlLabel90.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel90.Name = "Guna2HtmlLabel90"
+        Guna2HtmlLabel90.Size = New Size(767, 23)
+        Guna2HtmlLabel90.TabIndex = 3
+        Guna2HtmlLabel90.Text = "1. Design and architect software systems, considering scalability, performance, and other system requirements."
         ' 
         ' Label4
         ' 
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label4.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label4.Location = New Global.System.Drawing.Point(10, 9)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New Global.System.Drawing.Size(276, 20)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "SYSTEM DESIGN AND ARCHITECTURE"
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.ForeColor = Color.Black
+        Label4.Location = New Point(14, 15)
+        Label4.Margin = New Padding(4, 0, 4, 0)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(403, 30)
+        Label4.TabIndex = 0
+        Label4.Text = "SYSTEM DESIGN AND ARCHITECTURE"
         ' 
         ' Label12
         ' 
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New Global.System.Drawing.Point(10, 613)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label12.TabIndex = 2
-        Me.Label12.Text = "                       "
+        Label12.AutoSize = True
+        Label12.Location = New Point(14, 1022)
+        Label12.Margin = New Padding(4, 0, 4, 0)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(127, 25)
+        Label12.TabIndex = 2
+        Label12.Text = "                       "
         ' 
         ' gbPage1
         ' 
-        Me.gbPage1.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage1.Controls.Add(Me.Guna2Panel3)
-        Me.gbPage1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage1.CustomizableEdges = CustomizableEdges39
-        Me.gbPage1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage1.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage1.Location = New Global.System.Drawing.Point(17, 75)
-        Me.gbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage1.Name = "gbPage1"
-        Me.gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        Me.gbPage1.Size = New Global.System.Drawing.Size(770, 443)
-        Me.gbPage1.TabIndex = 2
+        gbPage1.BorderColor = Color.White
+        gbPage1.Controls.Add(Guna2Panel3)
+        gbPage1.CustomBorderColor = Color.White
+        gbPage1.CustomizableEdges = CustomizableEdges39
+        gbPage1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage1.ForeColor = Color.White
+        gbPage1.Location = New Point(24, 125)
+        gbPage1.Margin = New Padding(4, 3, 4, 3)
+        gbPage1.Name = "gbPage1"
+        gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        gbPage1.Size = New Size(1100, 738)
+        gbPage1.TabIndex = 2
         ' 
         ' Guna2Panel3
         ' 
-        Me.Guna2Panel3.AutoScroll = True
-        Me.Guna2Panel3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS15)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS14)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS13)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS12)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS11)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS10)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS9)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS8)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS7)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS6)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS5)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS4)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS3)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS2)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS1)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE15)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE14)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE13)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE12)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE11)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE10)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE9)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE8)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE7)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE6)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE5)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE4)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE3)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE2)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE1)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel43)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel44)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel45)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel25)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel26)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel27)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel37)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel38)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel39)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel40)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel41)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel42)
-        Me.Guna2Panel3.Controls.Add(Me.txtSDS1)
-        Me.Guna2Panel3.Controls.Add(Me.txtSDE1)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel28)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel29)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel30)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel31)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel32)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel33)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel34)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel35)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel36)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel13)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel14)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel15)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel16)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel17)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel18)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel19)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel20)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel21)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel22)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel23)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel24)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel7)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel8)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel9)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel10)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel11)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel12)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel4)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel5)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel6)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel3)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel2)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel1)
-        Me.Guna2Panel3.Controls.Add(Me.Label5)
-        Me.Guna2Panel3.Controls.Add(Me.Label10)
-        Me.Guna2Panel3.CustomizableEdges = CustomizableEdges37
-        Me.Guna2Panel3.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        Me.Guna2Panel3.Size = New Global.System.Drawing.Size(770, 403)
-        Me.Guna2Panel3.TabIndex = 3
+        Guna2Panel3.AutoScroll = True
+        Guna2Panel3.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel3.Controls.Add(lblSDS15)
+        Guna2Panel3.Controls.Add(lblSDS14)
+        Guna2Panel3.Controls.Add(lblSDS13)
+        Guna2Panel3.Controls.Add(lblSDS12)
+        Guna2Panel3.Controls.Add(lblSDS11)
+        Guna2Panel3.Controls.Add(lblSDS10)
+        Guna2Panel3.Controls.Add(lblSDS9)
+        Guna2Panel3.Controls.Add(lblSDS8)
+        Guna2Panel3.Controls.Add(lblSDS7)
+        Guna2Panel3.Controls.Add(lblSDS6)
+        Guna2Panel3.Controls.Add(lblSDS5)
+        Guna2Panel3.Controls.Add(lblSDS4)
+        Guna2Panel3.Controls.Add(lblSDS3)
+        Guna2Panel3.Controls.Add(lblSDS2)
+        Guna2Panel3.Controls.Add(lblSDS1)
+        Guna2Panel3.Controls.Add(lblSDE15)
+        Guna2Panel3.Controls.Add(lblSDE14)
+        Guna2Panel3.Controls.Add(lblSDE13)
+        Guna2Panel3.Controls.Add(lblSDE12)
+        Guna2Panel3.Controls.Add(lblSDE11)
+        Guna2Panel3.Controls.Add(lblSDE10)
+        Guna2Panel3.Controls.Add(lblSDE9)
+        Guna2Panel3.Controls.Add(lblSDE8)
+        Guna2Panel3.Controls.Add(lblSDE7)
+        Guna2Panel3.Controls.Add(lblSDE6)
+        Guna2Panel3.Controls.Add(lblSDE5)
+        Guna2Panel3.Controls.Add(lblSDE4)
+        Guna2Panel3.Controls.Add(lblSDE3)
+        Guna2Panel3.Controls.Add(lblSDE2)
+        Guna2Panel3.Controls.Add(lblSDE1)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel43)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel44)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel45)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel25)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel26)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel27)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel37)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel38)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel39)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel40)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel41)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel42)
+        Guna2Panel3.Controls.Add(txtSDS1)
+        Guna2Panel3.Controls.Add(txtSDE1)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel28)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel29)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel30)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel31)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel32)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel33)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel34)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel35)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel36)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel13)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel14)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel15)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel16)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel17)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel18)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel19)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel20)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel21)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel22)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel23)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel24)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel7)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel8)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel9)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel10)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel11)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel12)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel4)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel5)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel6)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel3)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel2)
+        Guna2Panel3.Controls.Add(Guna2HtmlLabel1)
+        Guna2Panel3.Controls.Add(Label5)
+        Guna2Panel3.Controls.Add(Label10)
+        Guna2Panel3.CustomizableEdges = CustomizableEdges37
+        Guna2Panel3.Dock = DockStyle.Fill
+        Guna2Panel3.Location = New Point(0, 40)
+        Guna2Panel3.Margin = New Padding(4, 3, 4, 3)
+        Guna2Panel3.Name = "Guna2Panel3"
+        Guna2Panel3.Padding = New Padding(4, 3, 4, 3)
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        Guna2Panel3.Size = New Size(1100, 698)
+        Guna2Panel3.TabIndex = 3
         ' 
         ' lblSDS15
         ' 
-        Me.lblSDS15.AutoSize = True
-        Me.lblSDS15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS15.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS15.Location = New Global.System.Drawing.Point(461, 560)
-        Me.lblSDS15.Name = "lblSDS15"
-        Me.lblSDS15.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS15.TabIndex = 113
+        lblSDS15.AutoSize = True
+        lblSDS15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS15.ForeColor = Color.Black
+        lblSDS15.Location = New Point(659, 933)
+        lblSDS15.Margin = New Padding(4, 0, 4, 0)
+        lblSDS15.Name = "lblSDS15"
+        lblSDS15.Size = New Size(0, 21)
+        lblSDS15.TabIndex = 113
         ' 
         ' lblSDS14
         ' 
-        Me.lblSDS14.AutoSize = True
-        Me.lblSDS14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS14.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS14.Location = New Global.System.Drawing.Point(461, 525)
-        Me.lblSDS14.Name = "lblSDS14"
-        Me.lblSDS14.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS14.TabIndex = 112
+        lblSDS14.AutoSize = True
+        lblSDS14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS14.ForeColor = Color.Black
+        lblSDS14.Location = New Point(659, 875)
+        lblSDS14.Margin = New Padding(4, 0, 4, 0)
+        lblSDS14.Name = "lblSDS14"
+        lblSDS14.Size = New Size(0, 21)
+        lblSDS14.TabIndex = 112
         ' 
         ' lblSDS13
         ' 
-        Me.lblSDS13.AutoSize = True
-        Me.lblSDS13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS13.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS13.Location = New Global.System.Drawing.Point(459, 490)
-        Me.lblSDS13.Name = "lblSDS13"
-        Me.lblSDS13.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS13.TabIndex = 111
+        lblSDS13.AutoSize = True
+        lblSDS13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS13.ForeColor = Color.Black
+        lblSDS13.Location = New Point(656, 817)
+        lblSDS13.Margin = New Padding(4, 0, 4, 0)
+        lblSDS13.Name = "lblSDS13"
+        lblSDS13.Size = New Size(0, 21)
+        lblSDS13.TabIndex = 111
         ' 
         ' lblSDS12
         ' 
-        Me.lblSDS12.AutoSize = True
-        Me.lblSDS12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS12.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS12.Location = New Global.System.Drawing.Point(459, 455)
-        Me.lblSDS12.Name = "lblSDS12"
-        Me.lblSDS12.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS12.TabIndex = 110
+        lblSDS12.AutoSize = True
+        lblSDS12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS12.ForeColor = Color.Black
+        lblSDS12.Location = New Point(656, 758)
+        lblSDS12.Margin = New Padding(4, 0, 4, 0)
+        lblSDS12.Name = "lblSDS12"
+        lblSDS12.Size = New Size(0, 21)
+        lblSDS12.TabIndex = 110
         ' 
         ' lblSDS11
         ' 
-        Me.lblSDS11.AutoSize = True
-        Me.lblSDS11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS11.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS11.Location = New Global.System.Drawing.Point(461, 419)
-        Me.lblSDS11.Name = "lblSDS11"
-        Me.lblSDS11.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS11.TabIndex = 109
+        lblSDS11.AutoSize = True
+        lblSDS11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS11.ForeColor = Color.Black
+        lblSDS11.Location = New Point(659, 698)
+        lblSDS11.Margin = New Padding(4, 0, 4, 0)
+        lblSDS11.Name = "lblSDS11"
+        lblSDS11.Size = New Size(0, 21)
+        lblSDS11.TabIndex = 109
         ' 
         ' lblSDS10
         ' 
-        Me.lblSDS10.AutoSize = True
-        Me.lblSDS10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS10.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS10.Location = New Global.System.Drawing.Point(459, 384)
-        Me.lblSDS10.Name = "lblSDS10"
-        Me.lblSDS10.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS10.TabIndex = 108
+        lblSDS10.AutoSize = True
+        lblSDS10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS10.ForeColor = Color.Black
+        lblSDS10.Location = New Point(656, 640)
+        lblSDS10.Margin = New Padding(4, 0, 4, 0)
+        lblSDS10.Name = "lblSDS10"
+        lblSDS10.Size = New Size(0, 21)
+        lblSDS10.TabIndex = 108
         ' 
         ' lblSDS9
         ' 
-        Me.lblSDS9.AutoSize = True
-        Me.lblSDS9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS9.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS9.Location = New Global.System.Drawing.Point(459, 349)
-        Me.lblSDS9.Name = "lblSDS9"
-        Me.lblSDS9.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS9.TabIndex = 107
+        lblSDS9.AutoSize = True
+        lblSDS9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS9.ForeColor = Color.Black
+        lblSDS9.Location = New Point(656, 582)
+        lblSDS9.Margin = New Padding(4, 0, 4, 0)
+        lblSDS9.Name = "lblSDS9"
+        lblSDS9.Size = New Size(0, 21)
+        lblSDS9.TabIndex = 107
         ' 
         ' lblSDS8
         ' 
-        Me.lblSDS8.AutoSize = True
-        Me.lblSDS8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS8.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS8.Location = New Global.System.Drawing.Point(459, 314)
-        Me.lblSDS8.Name = "lblSDS8"
-        Me.lblSDS8.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS8.TabIndex = 106
+        lblSDS8.AutoSize = True
+        lblSDS8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS8.ForeColor = Color.Black
+        lblSDS8.Location = New Point(656, 523)
+        lblSDS8.Margin = New Padding(4, 0, 4, 0)
+        lblSDS8.Name = "lblSDS8"
+        lblSDS8.Size = New Size(0, 21)
+        lblSDS8.TabIndex = 106
         ' 
         ' lblSDS7
         ' 
-        Me.lblSDS7.AutoSize = True
-        Me.lblSDS7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS7.Location = New Global.System.Drawing.Point(459, 278)
-        Me.lblSDS7.Name = "lblSDS7"
-        Me.lblSDS7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS7.TabIndex = 105
+        lblSDS7.AutoSize = True
+        lblSDS7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS7.ForeColor = Color.Black
+        lblSDS7.Location = New Point(656, 463)
+        lblSDS7.Margin = New Padding(4, 0, 4, 0)
+        lblSDS7.Name = "lblSDS7"
+        lblSDS7.Size = New Size(0, 21)
+        lblSDS7.TabIndex = 105
         ' 
         ' lblSDS6
         ' 
-        Me.lblSDS6.AutoSize = True
-        Me.lblSDS6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS6.Location = New Global.System.Drawing.Point(459, 228)
-        Me.lblSDS6.Name = "lblSDS6"
-        Me.lblSDS6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS6.TabIndex = 104
+        lblSDS6.AutoSize = True
+        lblSDS6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS6.ForeColor = Color.Black
+        lblSDS6.Location = New Point(656, 380)
+        lblSDS6.Margin = New Padding(4, 0, 4, 0)
+        lblSDS6.Name = "lblSDS6"
+        lblSDS6.Size = New Size(0, 21)
+        lblSDS6.TabIndex = 104
         ' 
         ' lblSDS5
         ' 
-        Me.lblSDS5.AutoSize = True
-        Me.lblSDS5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS5.Location = New Global.System.Drawing.Point(459, 193)
-        Me.lblSDS5.Name = "lblSDS5"
-        Me.lblSDS5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS5.TabIndex = 103
+        lblSDS5.AutoSize = True
+        lblSDS5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS5.ForeColor = Color.Black
+        lblSDS5.Location = New Point(656, 322)
+        lblSDS5.Margin = New Padding(4, 0, 4, 0)
+        lblSDS5.Name = "lblSDS5"
+        lblSDS5.Size = New Size(0, 21)
+        lblSDS5.TabIndex = 103
         ' 
         ' lblSDS4
         ' 
-        Me.lblSDS4.AutoSize = True
-        Me.lblSDS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS4.Location = New Global.System.Drawing.Point(461, 158)
-        Me.lblSDS4.Name = "lblSDS4"
-        Me.lblSDS4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS4.TabIndex = 102
+        lblSDS4.AutoSize = True
+        lblSDS4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS4.ForeColor = Color.Black
+        lblSDS4.Location = New Point(659, 263)
+        lblSDS4.Margin = New Padding(4, 0, 4, 0)
+        lblSDS4.Name = "lblSDS4"
+        lblSDS4.Size = New Size(0, 21)
+        lblSDS4.TabIndex = 102
         ' 
         ' lblSDS3
         ' 
-        Me.lblSDS3.AutoSize = True
-        Me.lblSDS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS3.Location = New Global.System.Drawing.Point(461, 122)
-        Me.lblSDS3.Name = "lblSDS3"
-        Me.lblSDS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS3.TabIndex = 101
+        lblSDS3.AutoSize = True
+        lblSDS3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS3.ForeColor = Color.Black
+        lblSDS3.Location = New Point(659, 203)
+        lblSDS3.Margin = New Padding(4, 0, 4, 0)
+        lblSDS3.Name = "lblSDS3"
+        lblSDS3.Size = New Size(0, 21)
+        lblSDS3.TabIndex = 101
         ' 
         ' lblSDS2
         ' 
-        Me.lblSDS2.AutoSize = True
-        Me.lblSDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS2.Location = New Global.System.Drawing.Point(461, 87)
-        Me.lblSDS2.Name = "lblSDS2"
-        Me.lblSDS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS2.TabIndex = 100
+        lblSDS2.AutoSize = True
+        lblSDS2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS2.ForeColor = Color.Black
+        lblSDS2.Location = New Point(659, 145)
+        lblSDS2.Margin = New Padding(4, 0, 4, 0)
+        lblSDS2.Name = "lblSDS2"
+        lblSDS2.Size = New Size(0, 21)
+        lblSDS2.TabIndex = 100
         ' 
         ' lblSDS1
         ' 
-        Me.lblSDS1.AutoSize = True
-        Me.lblSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS1.Location = New Global.System.Drawing.Point(461, 52)
-        Me.lblSDS1.Name = "lblSDS1"
-        Me.lblSDS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS1.TabIndex = 99
+        lblSDS1.AutoSize = True
+        lblSDS1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDS1.ForeColor = Color.Black
+        lblSDS1.Location = New Point(659, 87)
+        lblSDS1.Margin = New Padding(4, 0, 4, 0)
+        lblSDS1.Name = "lblSDS1"
+        lblSDS1.Size = New Size(0, 21)
+        lblSDS1.TabIndex = 99
         ' 
         ' lblSDE15
         ' 
-        Me.lblSDE15.AutoSize = True
-        Me.lblSDE15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE15.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE15.Location = New Global.System.Drawing.Point(107, 560)
-        Me.lblSDE15.Name = "lblSDE15"
-        Me.lblSDE15.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE15.TabIndex = 98
+        lblSDE15.AutoSize = True
+        lblSDE15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE15.ForeColor = Color.Black
+        lblSDE15.Location = New Point(153, 933)
+        lblSDE15.Margin = New Padding(4, 0, 4, 0)
+        lblSDE15.Name = "lblSDE15"
+        lblSDE15.Size = New Size(0, 21)
+        lblSDE15.TabIndex = 98
         ' 
         ' lblSDE14
         ' 
-        Me.lblSDE14.AutoSize = True
-        Me.lblSDE14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE14.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE14.Location = New Global.System.Drawing.Point(107, 525)
-        Me.lblSDE14.Name = "lblSDE14"
-        Me.lblSDE14.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE14.TabIndex = 97
+        lblSDE14.AutoSize = True
+        lblSDE14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE14.ForeColor = Color.Black
+        lblSDE14.Location = New Point(153, 875)
+        lblSDE14.Margin = New Padding(4, 0, 4, 0)
+        lblSDE14.Name = "lblSDE14"
+        lblSDE14.Size = New Size(0, 21)
+        lblSDE14.TabIndex = 97
         ' 
         ' lblSDE13
         ' 
-        Me.lblSDE13.AutoSize = True
-        Me.lblSDE13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE13.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE13.Location = New Global.System.Drawing.Point(105, 490)
-        Me.lblSDE13.Name = "lblSDE13"
-        Me.lblSDE13.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE13.TabIndex = 96
+        lblSDE13.AutoSize = True
+        lblSDE13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE13.ForeColor = Color.Black
+        lblSDE13.Location = New Point(150, 817)
+        lblSDE13.Margin = New Padding(4, 0, 4, 0)
+        lblSDE13.Name = "lblSDE13"
+        lblSDE13.Size = New Size(0, 21)
+        lblSDE13.TabIndex = 96
         ' 
         ' lblSDE12
         ' 
-        Me.lblSDE12.AutoSize = True
-        Me.lblSDE12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE12.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE12.Location = New Global.System.Drawing.Point(105, 455)
-        Me.lblSDE12.Name = "lblSDE12"
-        Me.lblSDE12.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE12.TabIndex = 95
+        lblSDE12.AutoSize = True
+        lblSDE12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE12.ForeColor = Color.Black
+        lblSDE12.Location = New Point(150, 758)
+        lblSDE12.Margin = New Padding(4, 0, 4, 0)
+        lblSDE12.Name = "lblSDE12"
+        lblSDE12.Size = New Size(0, 21)
+        lblSDE12.TabIndex = 95
         ' 
         ' lblSDE11
         ' 
-        Me.lblSDE11.AutoSize = True
-        Me.lblSDE11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE11.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE11.Location = New Global.System.Drawing.Point(107, 419)
-        Me.lblSDE11.Name = "lblSDE11"
-        Me.lblSDE11.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE11.TabIndex = 94
+        lblSDE11.AutoSize = True
+        lblSDE11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE11.ForeColor = Color.Black
+        lblSDE11.Location = New Point(153, 698)
+        lblSDE11.Margin = New Padding(4, 0, 4, 0)
+        lblSDE11.Name = "lblSDE11"
+        lblSDE11.Size = New Size(0, 21)
+        lblSDE11.TabIndex = 94
         ' 
         ' lblSDE10
         ' 
-        Me.lblSDE10.AutoSize = True
-        Me.lblSDE10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE10.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE10.Location = New Global.System.Drawing.Point(105, 384)
-        Me.lblSDE10.Name = "lblSDE10"
-        Me.lblSDE10.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE10.TabIndex = 93
+        lblSDE10.AutoSize = True
+        lblSDE10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE10.ForeColor = Color.Black
+        lblSDE10.Location = New Point(150, 640)
+        lblSDE10.Margin = New Padding(4, 0, 4, 0)
+        lblSDE10.Name = "lblSDE10"
+        lblSDE10.Size = New Size(0, 21)
+        lblSDE10.TabIndex = 93
         ' 
         ' lblSDE9
         ' 
-        Me.lblSDE9.AutoSize = True
-        Me.lblSDE9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE9.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE9.Location = New Global.System.Drawing.Point(105, 349)
-        Me.lblSDE9.Name = "lblSDE9"
-        Me.lblSDE9.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE9.TabIndex = 92
+        lblSDE9.AutoSize = True
+        lblSDE9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE9.ForeColor = Color.Black
+        lblSDE9.Location = New Point(150, 582)
+        lblSDE9.Margin = New Padding(4, 0, 4, 0)
+        lblSDE9.Name = "lblSDE9"
+        lblSDE9.Size = New Size(0, 21)
+        lblSDE9.TabIndex = 92
         ' 
         ' lblSDE8
         ' 
-        Me.lblSDE8.AutoSize = True
-        Me.lblSDE8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE8.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE8.Location = New Global.System.Drawing.Point(105, 314)
-        Me.lblSDE8.Name = "lblSDE8"
-        Me.lblSDE8.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE8.TabIndex = 91
+        lblSDE8.AutoSize = True
+        lblSDE8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE8.ForeColor = Color.Black
+        lblSDE8.Location = New Point(150, 523)
+        lblSDE8.Margin = New Padding(4, 0, 4, 0)
+        lblSDE8.Name = "lblSDE8"
+        lblSDE8.Size = New Size(0, 21)
+        lblSDE8.TabIndex = 91
         ' 
         ' lblSDE7
         ' 
-        Me.lblSDE7.AutoSize = True
-        Me.lblSDE7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE7.Location = New Global.System.Drawing.Point(105, 278)
-        Me.lblSDE7.Name = "lblSDE7"
-        Me.lblSDE7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE7.TabIndex = 90
+        lblSDE7.AutoSize = True
+        lblSDE7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE7.ForeColor = Color.Black
+        lblSDE7.Location = New Point(150, 463)
+        lblSDE7.Margin = New Padding(4, 0, 4, 0)
+        lblSDE7.Name = "lblSDE7"
+        lblSDE7.Size = New Size(0, 21)
+        lblSDE7.TabIndex = 90
         ' 
         ' lblSDE6
         ' 
-        Me.lblSDE6.AutoSize = True
-        Me.lblSDE6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE6.Location = New Global.System.Drawing.Point(105, 228)
-        Me.lblSDE6.Name = "lblSDE6"
-        Me.lblSDE6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE6.TabIndex = 89
+        lblSDE6.AutoSize = True
+        lblSDE6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE6.ForeColor = Color.Black
+        lblSDE6.Location = New Point(150, 380)
+        lblSDE6.Margin = New Padding(4, 0, 4, 0)
+        lblSDE6.Name = "lblSDE6"
+        lblSDE6.Size = New Size(0, 21)
+        lblSDE6.TabIndex = 89
         ' 
         ' lblSDE5
         ' 
-        Me.lblSDE5.AutoSize = True
-        Me.lblSDE5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE5.Location = New Global.System.Drawing.Point(105, 193)
-        Me.lblSDE5.Name = "lblSDE5"
-        Me.lblSDE5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE5.TabIndex = 88
+        lblSDE5.AutoSize = True
+        lblSDE5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE5.ForeColor = Color.Black
+        lblSDE5.Location = New Point(150, 322)
+        lblSDE5.Margin = New Padding(4, 0, 4, 0)
+        lblSDE5.Name = "lblSDE5"
+        lblSDE5.Size = New Size(0, 21)
+        lblSDE5.TabIndex = 88
         ' 
         ' lblSDE4
         ' 
-        Me.lblSDE4.AutoSize = True
-        Me.lblSDE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE4.Location = New Global.System.Drawing.Point(107, 158)
-        Me.lblSDE4.Name = "lblSDE4"
-        Me.lblSDE4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE4.TabIndex = 87
+        lblSDE4.AutoSize = True
+        lblSDE4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE4.ForeColor = Color.Black
+        lblSDE4.Location = New Point(153, 263)
+        lblSDE4.Margin = New Padding(4, 0, 4, 0)
+        lblSDE4.Name = "lblSDE4"
+        lblSDE4.Size = New Size(0, 21)
+        lblSDE4.TabIndex = 87
         ' 
         ' lblSDE3
         ' 
-        Me.lblSDE3.AutoSize = True
-        Me.lblSDE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE3.Location = New Global.System.Drawing.Point(107, 122)
-        Me.lblSDE3.Name = "lblSDE3"
-        Me.lblSDE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE3.TabIndex = 86
+        lblSDE3.AutoSize = True
+        lblSDE3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE3.ForeColor = Color.Black
+        lblSDE3.Location = New Point(153, 203)
+        lblSDE3.Margin = New Padding(4, 0, 4, 0)
+        lblSDE3.Name = "lblSDE3"
+        lblSDE3.Size = New Size(0, 21)
+        lblSDE3.TabIndex = 86
         ' 
         ' lblSDE2
         ' 
-        Me.lblSDE2.AutoSize = True
-        Me.lblSDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE2.Location = New Global.System.Drawing.Point(107, 87)
-        Me.lblSDE2.Name = "lblSDE2"
-        Me.lblSDE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE2.TabIndex = 85
+        lblSDE2.AutoSize = True
+        lblSDE2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE2.ForeColor = Color.Black
+        lblSDE2.Location = New Point(153, 145)
+        lblSDE2.Margin = New Padding(4, 0, 4, 0)
+        lblSDE2.Name = "lblSDE2"
+        lblSDE2.Size = New Size(0, 21)
+        lblSDE2.TabIndex = 85
         ' 
         ' lblSDE1
         ' 
-        Me.lblSDE1.AutoSize = True
-        Me.lblSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE1.Location = New Global.System.Drawing.Point(107, 52)
-        Me.lblSDE1.Name = "lblSDE1"
-        Me.lblSDE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE1.TabIndex = 84
+        lblSDE1.AutoSize = True
+        lblSDE1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        lblSDE1.ForeColor = Color.Black
+        lblSDE1.Location = New Point(153, 87)
+        lblSDE1.Margin = New Padding(4, 0, 4, 0)
+        lblSDE1.Name = "lblSDE1"
+        lblSDE1.Size = New Size(0, 21)
+        lblSDE1.TabIndex = 84
         ' 
         ' Guna2HtmlLabel43
         ' 
-        Me.Guna2HtmlLabel43.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel43.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel43.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel43.Location = New Global.System.Drawing.Point(396, 559)
-        Me.Guna2HtmlLabel43.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
-        Me.Guna2HtmlLabel43.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel43.TabIndex = 53
-        Me.Guna2HtmlLabel43.Text = "Supervisor:"
+        Guna2HtmlLabel43.BackColor = Color.Transparent
+        Guna2HtmlLabel43.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel43.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel43.Location = New Point(566, 932)
+        Guna2HtmlLabel43.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
+        Guna2HtmlLabel43.Size = New Size(81, 23)
+        Guna2HtmlLabel43.TabIndex = 53
+        Guna2HtmlLabel43.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel44
         ' 
-        Me.Guna2HtmlLabel44.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel44.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel44.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel44.Location = New Global.System.Drawing.Point(46, 559)
-        Me.Guna2HtmlLabel44.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel44.Name = "Guna2HtmlLabel44"
-        Me.Guna2HtmlLabel44.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel44.TabIndex = 52
-        Me.Guna2HtmlLabel44.Text = "Employee:"
+        Guna2HtmlLabel44.BackColor = Color.Transparent
+        Guna2HtmlLabel44.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel44.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel44.Location = New Point(66, 932)
+        Guna2HtmlLabel44.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel44.Name = "Guna2HtmlLabel44"
+        Guna2HtmlLabel44.Size = New Size(74, 23)
+        Guna2HtmlLabel44.TabIndex = 52
+        Guna2HtmlLabel44.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel45
         ' 
-        Me.Guna2HtmlLabel45.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel45.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel45.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel45.Location = New Global.System.Drawing.Point(33, 539)
-        Me.Guna2HtmlLabel45.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel45.Name = "Guna2HtmlLabel45"
-        Me.Guna2HtmlLabel45.Size = New Global.System.Drawing.Size(418, 14)
-        Me.Guna2HtmlLabel45.TabIndex = 51
-        Me.Guna2HtmlLabel45.Text = "15. Manage configurations and dependencies to ensure consistent and reliable software builds."
+        Guna2HtmlLabel45.BackColor = Color.Transparent
+        Guna2HtmlLabel45.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel45.ForeColor = Color.Black
+        Guna2HtmlLabel45.Location = New Point(47, 898)
+        Guna2HtmlLabel45.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel45.Name = "Guna2HtmlLabel45"
+        Guna2HtmlLabel45.Size = New Size(658, 23)
+        Guna2HtmlLabel45.TabIndex = 51
+        Guna2HtmlLabel45.Text = "15. Manage configurations and dependencies to ensure consistent and reliable software builds."
         ' 
         ' Guna2HtmlLabel25
         ' 
-        Me.Guna2HtmlLabel25.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel25.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel25.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel25.Location = New Global.System.Drawing.Point(396, 524)
-        Me.Guna2HtmlLabel25.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel25.Name = "Guna2HtmlLabel25"
-        Me.Guna2HtmlLabel25.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel25.TabIndex = 50
-        Me.Guna2HtmlLabel25.Text = "Supervisor:"
+        Guna2HtmlLabel25.BackColor = Color.Transparent
+        Guna2HtmlLabel25.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel25.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel25.Location = New Point(566, 873)
+        Guna2HtmlLabel25.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel25.Name = "Guna2HtmlLabel25"
+        Guna2HtmlLabel25.Size = New Size(81, 23)
+        Guna2HtmlLabel25.TabIndex = 50
+        Guna2HtmlLabel25.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel26
         ' 
-        Me.Guna2HtmlLabel26.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel26.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel26.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel26.Location = New Global.System.Drawing.Point(46, 524)
-        Me.Guna2HtmlLabel26.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel26.Name = "Guna2HtmlLabel26"
-        Me.Guna2HtmlLabel26.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel26.TabIndex = 49
-        Me.Guna2HtmlLabel26.Text = "Employee:"
+        Guna2HtmlLabel26.BackColor = Color.Transparent
+        Guna2HtmlLabel26.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel26.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel26.Location = New Point(66, 873)
+        Guna2HtmlLabel26.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel26.Name = "Guna2HtmlLabel26"
+        Guna2HtmlLabel26.Size = New Size(74, 23)
+        Guna2HtmlLabel26.TabIndex = 49
+        Guna2HtmlLabel26.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel27
         ' 
-        Me.Guna2HtmlLabel27.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel27.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel27.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel27.Location = New Global.System.Drawing.Point(33, 504)
-        Me.Guna2HtmlLabel27.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel27.Name = "Guna2HtmlLabel27"
-        Me.Guna2HtmlLabel27.Size = New Global.System.Drawing.Size(391, 14)
-        Me.Guna2HtmlLabel27.TabIndex = 48
-        Me.Guna2HtmlLabel27.Text = "14. Use version control systems (e.g., Git) to manage and track changes to the codebase."
+        Guna2HtmlLabel27.BackColor = Color.Transparent
+        Guna2HtmlLabel27.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel27.ForeColor = Color.Black
+        Guna2HtmlLabel27.Location = New Point(47, 840)
+        Guna2HtmlLabel27.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel27.Name = "Guna2HtmlLabel27"
+        Guna2HtmlLabel27.Size = New Size(609, 23)
+        Guna2HtmlLabel27.TabIndex = 48
+        Guna2HtmlLabel27.Text = "14. Use version control systems (e.g., Git) to manage and track changes to the codebase."
         ' 
         ' Guna2HtmlLabel37
         ' 
-        Me.Guna2HtmlLabel37.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel37.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel37.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel37.Location = New Global.System.Drawing.Point(395, 488)
-        Me.Guna2HtmlLabel37.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
-        Me.Guna2HtmlLabel37.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel37.TabIndex = 47
-        Me.Guna2HtmlLabel37.Text = "Supervisor:"
+        Guna2HtmlLabel37.BackColor = Color.Transparent
+        Guna2HtmlLabel37.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel37.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel37.Location = New Point(564, 813)
+        Guna2HtmlLabel37.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
+        Guna2HtmlLabel37.Size = New Size(81, 23)
+        Guna2HtmlLabel37.TabIndex = 47
+        Guna2HtmlLabel37.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel38
         ' 
-        Me.Guna2HtmlLabel38.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel38.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel38.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel38.Location = New Global.System.Drawing.Point(45, 488)
-        Me.Guna2HtmlLabel38.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
-        Me.Guna2HtmlLabel38.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel38.TabIndex = 46
-        Me.Guna2HtmlLabel38.Text = "Employee:"
+        Guna2HtmlLabel38.BackColor = Color.Transparent
+        Guna2HtmlLabel38.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel38.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel38.Location = New Point(64, 813)
+        Guna2HtmlLabel38.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
+        Guna2HtmlLabel38.Size = New Size(74, 23)
+        Guna2HtmlLabel38.TabIndex = 46
+        Guna2HtmlLabel38.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel39
         ' 
-        Me.Guna2HtmlLabel39.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel39.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel39.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel39.Location = New Global.System.Drawing.Point(32, 469)
-        Me.Guna2HtmlLabel39.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
-        Me.Guna2HtmlLabel39.Size = New Global.System.Drawing.Size(497, 14)
-        Me.Guna2HtmlLabel39.TabIndex = 45
-        Me.Guna2HtmlLabel39.Text = "13. Optimize software performance, making improvements to enhance speed, efficiency, and resource utilization."
+        Guna2HtmlLabel39.BackColor = Color.Transparent
+        Guna2HtmlLabel39.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel39.ForeColor = Color.Black
+        Guna2HtmlLabel39.Location = New Point(46, 782)
+        Guna2HtmlLabel39.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
+        Guna2HtmlLabel39.Size = New Size(781, 23)
+        Guna2HtmlLabel39.TabIndex = 45
+        Guna2HtmlLabel39.Text = "13. Optimize software performance, making improvements to enhance speed, efficiency, and resource utilization."
         ' 
         ' Guna2HtmlLabel40
         ' 
-        Me.Guna2HtmlLabel40.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel40.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel40.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel40.Location = New Global.System.Drawing.Point(395, 453)
-        Me.Guna2HtmlLabel40.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
-        Me.Guna2HtmlLabel40.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel40.TabIndex = 44
-        Me.Guna2HtmlLabel40.Text = "Supervisor:"
+        Guna2HtmlLabel40.BackColor = Color.Transparent
+        Guna2HtmlLabel40.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel40.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel40.Location = New Point(564, 755)
+        Guna2HtmlLabel40.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
+        Guna2HtmlLabel40.Size = New Size(81, 23)
+        Guna2HtmlLabel40.TabIndex = 44
+        Guna2HtmlLabel40.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel41
         ' 
-        Me.Guna2HtmlLabel41.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel41.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel41.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel41.Location = New Global.System.Drawing.Point(45, 453)
-        Me.Guna2HtmlLabel41.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
-        Me.Guna2HtmlLabel41.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel41.TabIndex = 43
-        Me.Guna2HtmlLabel41.Text = "Employee:"
+        Guna2HtmlLabel41.BackColor = Color.Transparent
+        Guna2HtmlLabel41.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel41.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel41.Location = New Point(64, 755)
+        Guna2HtmlLabel41.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
+        Guna2HtmlLabel41.Size = New Size(74, 23)
+        Guna2HtmlLabel41.TabIndex = 43
+        Guna2HtmlLabel41.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel42
         ' 
-        Me.Guna2HtmlLabel42.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel42.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel42.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel42.Location = New Global.System.Drawing.Point(32, 434)
-        Me.Guna2HtmlLabel42.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
-        Me.Guna2HtmlLabel42.Size = New Global.System.Drawing.Size(481, 14)
-        Me.Guna2HtmlLabel42.TabIndex = 42
-        Me.Guna2HtmlLabel42.Text = "12. Ensure that the CI/CD pipeline is efficient, reliable, and supports the overall software development lifecycle."
+        Guna2HtmlLabel42.BackColor = Color.Transparent
+        Guna2HtmlLabel42.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel42.ForeColor = Color.Black
+        Guna2HtmlLabel42.Location = New Point(46, 723)
+        Guna2HtmlLabel42.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
+        Guna2HtmlLabel42.Size = New Size(764, 23)
+        Guna2HtmlLabel42.TabIndex = 42
+        Guna2HtmlLabel42.Text = "12. Ensure that the CI/CD pipeline is efficient, reliable, and supports the overall software development lifecycle."
         ' 
         ' txtSDS1
         ' 
-        Me.txtSDS1.CustomizableEdges = CustomizableEdges33
-        Me.txtSDS1.DefaultText = ""
-        Me.txtSDS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDS1.Location = New Global.System.Drawing.Point(394, 581)
-        Me.txtSDS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDS1.Name = "txtSDS1"
-        Me.txtSDS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDS1.PlaceholderText = ""
-        Me.txtSDS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDS1.SelectedText = ""
-        Me.txtSDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        Me.txtSDS1.Size = New Global.System.Drawing.Size(329, 73)
-        Me.txtSDS1.TabIndex = 41
+        txtSDS1.CustomizableEdges = CustomizableEdges33
+        txtSDS1.DefaultText = ""
+        txtSDS1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSDS1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSDS1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDS1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDS1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDS1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSDS1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDS1.Location = New Point(563, 968)
+        txtSDS1.Margin = New Padding(4, 3, 4, 3)
+        txtSDS1.Name = "txtSDS1"
+        txtSDS1.PasswordChar = ChrW(0)
+        txtSDS1.PlaceholderText = ""
+        txtSDS1.ScrollBars = ScrollBars.Vertical
+        txtSDS1.SelectedText = ""
+        txtSDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        txtSDS1.Size = New Size(470, 122)
+        txtSDS1.TabIndex = 41
         ' 
         ' txtSDE1
         ' 
-        Me.txtSDE1.CustomizableEdges = CustomizableEdges35
-        Me.txtSDE1.DefaultText = ""
-        Me.txtSDE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDE1.Location = New Global.System.Drawing.Point(31, 581)
-        Me.txtSDE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDE1.Name = "txtSDE1"
-        Me.txtSDE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDE1.PlaceholderText = ""
-        Me.txtSDE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDE1.SelectedText = ""
-        Me.txtSDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        Me.txtSDE1.Size = New Global.System.Drawing.Size(329, 73)
-        Me.txtSDE1.TabIndex = 40
+        txtSDE1.CustomizableEdges = CustomizableEdges35
+        txtSDE1.DefaultText = ""
+        txtSDE1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSDE1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSDE1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDE1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSDE1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDE1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSDE1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSDE1.Location = New Point(44, 968)
+        txtSDE1.Margin = New Padding(4, 3, 4, 3)
+        txtSDE1.Name = "txtSDE1"
+        txtSDE1.PasswordChar = ChrW(0)
+        txtSDE1.PlaceholderText = ""
+        txtSDE1.ScrollBars = ScrollBars.Vertical
+        txtSDE1.SelectedText = ""
+        txtSDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        txtSDE1.Size = New Size(470, 122)
+        txtSDE1.TabIndex = 40
         ' 
         ' Guna2HtmlLabel28
         ' 
-        Me.Guna2HtmlLabel28.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel28.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel28.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel28.Location = New Global.System.Drawing.Point(396, 418)
-        Me.Guna2HtmlLabel28.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
-        Me.Guna2HtmlLabel28.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel28.TabIndex = 39
-        Me.Guna2HtmlLabel28.Text = "Supervisor:"
+        Guna2HtmlLabel28.BackColor = Color.Transparent
+        Guna2HtmlLabel28.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel28.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel28.Location = New Point(566, 697)
+        Guna2HtmlLabel28.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
+        Guna2HtmlLabel28.Size = New Size(81, 23)
+        Guna2HtmlLabel28.TabIndex = 39
+        Guna2HtmlLabel28.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel29
         ' 
-        Me.Guna2HtmlLabel29.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel29.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel29.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel29.Location = New Global.System.Drawing.Point(46, 418)
-        Me.Guna2HtmlLabel29.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
-        Me.Guna2HtmlLabel29.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel29.TabIndex = 38
-        Me.Guna2HtmlLabel29.Text = "Employee:"
+        Guna2HtmlLabel29.BackColor = Color.Transparent
+        Guna2HtmlLabel29.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel29.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel29.Location = New Point(66, 697)
+        Guna2HtmlLabel29.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
+        Guna2HtmlLabel29.Size = New Size(74, 23)
+        Guna2HtmlLabel29.TabIndex = 38
+        Guna2HtmlLabel29.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel30
         ' 
-        Me.Guna2HtmlLabel30.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel30.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel30.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel30.Location = New Global.System.Drawing.Point(33, 398)
-        Me.Guna2HtmlLabel30.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
-        Me.Guna2HtmlLabel30.Size = New Global.System.Drawing.Size(510, 14)
-        Me.Guna2HtmlLabel30.TabIndex = 37
-        Me.Guna2HtmlLabel30.Text = "11. Participate in setting up and maintaining CI/CD pipelines to automate the build, test, and deployment processes."
+        Guna2HtmlLabel30.BackColor = Color.Transparent
+        Guna2HtmlLabel30.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel30.ForeColor = Color.Black
+        Guna2HtmlLabel30.Location = New Point(47, 663)
+        Guna2HtmlLabel30.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
+        Guna2HtmlLabel30.Size = New Size(799, 23)
+        Guna2HtmlLabel30.TabIndex = 37
+        Guna2HtmlLabel30.Text = "11. Participate in setting up and maintaining CI/CD pipelines to automate the build, test, and deployment processes."
         ' 
         ' Guna2HtmlLabel31
         ' 
-        Me.Guna2HtmlLabel31.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel31.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel31.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel31.Location = New Global.System.Drawing.Point(395, 382)
-        Me.Guna2HtmlLabel31.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
-        Me.Guna2HtmlLabel31.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel31.TabIndex = 36
-        Me.Guna2HtmlLabel31.Text = "Supervisor:"
+        Guna2HtmlLabel31.BackColor = Color.Transparent
+        Guna2HtmlLabel31.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel31.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel31.Location = New Point(564, 637)
+        Guna2HtmlLabel31.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
+        Guna2HtmlLabel31.Size = New Size(81, 23)
+        Guna2HtmlLabel31.TabIndex = 36
+        Guna2HtmlLabel31.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel32
         ' 
-        Me.Guna2HtmlLabel32.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel32.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel32.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel32.Location = New Global.System.Drawing.Point(45, 382)
-        Me.Guna2HtmlLabel32.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
-        Me.Guna2HtmlLabel32.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel32.TabIndex = 35
-        Me.Guna2HtmlLabel32.Text = "Employee:"
+        Guna2HtmlLabel32.BackColor = Color.Transparent
+        Guna2HtmlLabel32.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel32.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel32.Location = New Point(64, 637)
+        Guna2HtmlLabel32.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
+        Guna2HtmlLabel32.Size = New Size(74, 23)
+        Guna2HtmlLabel32.TabIndex = 35
+        Guna2HtmlLabel32.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel33
         ' 
-        Me.Guna2HtmlLabel33.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel33.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel33.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel33.Location = New Global.System.Drawing.Point(32, 363)
-        Me.Guna2HtmlLabel33.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
-        Me.Guna2HtmlLabel33.Size = New Global.System.Drawing.Size(458, 14)
-        Me.Guna2HtmlLabel33.TabIndex = 34
-        Me.Guna2HtmlLabel33.Text = "10. Collaborate with operations and DevOps teams to automate and streamline deployment procedures."
+        Guna2HtmlLabel33.BackColor = Color.Transparent
+        Guna2HtmlLabel33.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel33.ForeColor = Color.Black
+        Guna2HtmlLabel33.Location = New Point(46, 605)
+        Guna2HtmlLabel33.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
+        Guna2HtmlLabel33.Size = New Size(722, 23)
+        Guna2HtmlLabel33.TabIndex = 34
+        Guna2HtmlLabel33.Text = "10. Collaborate with operations and DevOps teams to automate and streamline deployment procedures."
         ' 
         ' Guna2HtmlLabel34
         ' 
-        Me.Guna2HtmlLabel34.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel34.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel34.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel34.Location = New Global.System.Drawing.Point(395, 347)
-        Me.Guna2HtmlLabel34.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
-        Me.Guna2HtmlLabel34.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel34.TabIndex = 33
-        Me.Guna2HtmlLabel34.Text = "Supervisor:"
+        Guna2HtmlLabel34.BackColor = Color.Transparent
+        Guna2HtmlLabel34.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel34.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel34.Location = New Point(564, 578)
+        Guna2HtmlLabel34.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
+        Guna2HtmlLabel34.Size = New Size(81, 23)
+        Guna2HtmlLabel34.TabIndex = 33
+        Guna2HtmlLabel34.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel35
         ' 
-        Me.Guna2HtmlLabel35.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel35.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel35.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel35.Location = New Global.System.Drawing.Point(45, 347)
-        Me.Guna2HtmlLabel35.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
-        Me.Guna2HtmlLabel35.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel35.TabIndex = 32
-        Me.Guna2HtmlLabel35.Text = "Employee:"
+        Guna2HtmlLabel35.BackColor = Color.Transparent
+        Guna2HtmlLabel35.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel35.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel35.Location = New Point(64, 578)
+        Guna2HtmlLabel35.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
+        Guna2HtmlLabel35.Size = New Size(74, 23)
+        Guna2HtmlLabel35.TabIndex = 32
+        Guna2HtmlLabel35.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel36
         ' 
-        Me.Guna2HtmlLabel36.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel36.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel36.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel36.Location = New Global.System.Drawing.Point(32, 328)
-        Me.Guna2HtmlLabel36.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
-        Me.Guna2HtmlLabel36.Size = New Global.System.Drawing.Size(611, 14)
-        Me.Guna2HtmlLabel36.TabIndex = 31
-        Me.Guna2HtmlLabel36.Text = "9. Participate in the deployment of software to production and other environments, ensuring a smooth and error-free deployment process."
+        Guna2HtmlLabel36.BackColor = Color.Transparent
+        Guna2HtmlLabel36.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel36.ForeColor = Color.Black
+        Guna2HtmlLabel36.Location = New Point(46, 547)
+        Guna2HtmlLabel36.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
+        Guna2HtmlLabel36.Size = New Size(959, 23)
+        Guna2HtmlLabel36.TabIndex = 31
+        Guna2HtmlLabel36.Text = "9. Participate in the deployment of software to production and other environments, ensuring a smooth and error-free deployment process."
         ' 
         ' Guna2HtmlLabel13
         ' 
-        Me.Guna2HtmlLabel13.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel13.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel13.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel13.Location = New Global.System.Drawing.Point(395, 312)
-        Me.Guna2HtmlLabel13.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
-        Me.Guna2HtmlLabel13.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel13.TabIndex = 30
-        Me.Guna2HtmlLabel13.Text = "Supervisor:"
+        Guna2HtmlLabel13.BackColor = Color.Transparent
+        Guna2HtmlLabel13.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel13.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel13.Location = New Point(564, 520)
+        Guna2HtmlLabel13.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
+        Guna2HtmlLabel13.Size = New Size(81, 23)
+        Guna2HtmlLabel13.TabIndex = 30
+        Guna2HtmlLabel13.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel14
         ' 
-        Me.Guna2HtmlLabel14.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel14.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel14.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel14.Location = New Global.System.Drawing.Point(45, 312)
-        Me.Guna2HtmlLabel14.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel14.Name = "Guna2HtmlLabel14"
-        Me.Guna2HtmlLabel14.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel14.TabIndex = 29
-        Me.Guna2HtmlLabel14.Text = "Employee:"
+        Guna2HtmlLabel14.BackColor = Color.Transparent
+        Guna2HtmlLabel14.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel14.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel14.Location = New Point(64, 520)
+        Guna2HtmlLabel14.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel14.Name = "Guna2HtmlLabel14"
+        Guna2HtmlLabel14.Size = New Size(74, 23)
+        Guna2HtmlLabel14.TabIndex = 29
+        Guna2HtmlLabel14.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel15
         ' 
-        Me.Guna2HtmlLabel15.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel15.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel15.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel15.Location = New Global.System.Drawing.Point(32, 292)
-        Me.Guna2HtmlLabel15.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
-        Me.Guna2HtmlLabel15.Size = New Global.System.Drawing.Size(424, 14)
-        Me.Guna2HtmlLabel15.TabIndex = 28
-        Me.Guna2HtmlLabel15.Text = "8. Stay informed about security best practices and integrate them into the development process."
+        Guna2HtmlLabel15.BackColor = Color.Transparent
+        Guna2HtmlLabel15.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel15.ForeColor = Color.Black
+        Guna2HtmlLabel15.Location = New Point(46, 487)
+        Guna2HtmlLabel15.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
+        Guna2HtmlLabel15.Size = New Size(665, 23)
+        Guna2HtmlLabel15.TabIndex = 28
+        Guna2HtmlLabel15.Text = "8. Stay informed about security best practices and integrate them into the development process."
         ' 
         ' Guna2HtmlLabel16
         ' 
-        Me.Guna2HtmlLabel16.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel16.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel16.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel16.Location = New Global.System.Drawing.Point(395, 277)
-        Me.Guna2HtmlLabel16.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
-        Me.Guna2HtmlLabel16.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel16.TabIndex = 27
-        Me.Guna2HtmlLabel16.Text = "Supervisor:"
+        Guna2HtmlLabel16.BackColor = Color.Transparent
+        Guna2HtmlLabel16.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel16.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel16.Location = New Point(564, 462)
+        Guna2HtmlLabel16.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
+        Guna2HtmlLabel16.Size = New Size(81, 23)
+        Guna2HtmlLabel16.TabIndex = 27
+        Guna2HtmlLabel16.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel17
         ' 
-        Me.Guna2HtmlLabel17.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel17.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel17.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel17.Location = New Global.System.Drawing.Point(45, 277)
-        Me.Guna2HtmlLabel17.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
-        Me.Guna2HtmlLabel17.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel17.TabIndex = 26
-        Me.Guna2HtmlLabel17.Text = "Employee:"
+        Guna2HtmlLabel17.BackColor = Color.Transparent
+        Guna2HtmlLabel17.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel17.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel17.Location = New Point(64, 462)
+        Guna2HtmlLabel17.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
+        Guna2HtmlLabel17.Size = New Size(74, 23)
+        Guna2HtmlLabel17.TabIndex = 26
+        Guna2HtmlLabel17.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel18
         ' 
-        Me.Guna2HtmlLabel18.AutoSize = False
-        Me.Guna2HtmlLabel18.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel18.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel18.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel18.Location = New Global.System.Drawing.Point(29, 240)
-        Me.Guna2HtmlLabel18.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel18.Name = "Guna2HtmlLabel18"
-        Me.Guna2HtmlLabel18.Size = New Global.System.Drawing.Size(705, 30)
-        Me.Guna2HtmlLabel18.TabIndex = 25
-        Me.Guna2HtmlLabel18.Text = "7. Implement security measures within the code to protect against potential vulnerabilities, such as input validation, encryption, and secure coding practices."
+        Guna2HtmlLabel18.AutoSize = False
+        Guna2HtmlLabel18.BackColor = Color.Transparent
+        Guna2HtmlLabel18.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel18.ForeColor = Color.Black
+        Guna2HtmlLabel18.Location = New Point(41, 400)
+        Guna2HtmlLabel18.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel18.Name = "Guna2HtmlLabel18"
+        Guna2HtmlLabel18.Size = New Size(1007, 50)
+        Guna2HtmlLabel18.TabIndex = 25
+        Guna2HtmlLabel18.Text = "7. Implement security measures within the code to protect against potential vulnerabilities, such as input validation, encryption, and secure coding practices."
         ' 
         ' Guna2HtmlLabel19
         ' 
-        Me.Guna2HtmlLabel19.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel19.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel19.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel19.Location = New Global.System.Drawing.Point(395, 226)
-        Me.Guna2HtmlLabel19.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel19.Name = "Guna2HtmlLabel19"
-        Me.Guna2HtmlLabel19.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel19.TabIndex = 24
-        Me.Guna2HtmlLabel19.Text = "Supervisor:"
+        Guna2HtmlLabel19.BackColor = Color.Transparent
+        Guna2HtmlLabel19.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel19.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel19.Location = New Point(564, 377)
+        Guna2HtmlLabel19.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel19.Name = "Guna2HtmlLabel19"
+        Guna2HtmlLabel19.Size = New Size(81, 23)
+        Guna2HtmlLabel19.TabIndex = 24
+        Guna2HtmlLabel19.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel20
         ' 
-        Me.Guna2HtmlLabel20.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel20.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel20.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel20.Location = New Global.System.Drawing.Point(45, 226)
-        Me.Guna2HtmlLabel20.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel20.Name = "Guna2HtmlLabel20"
-        Me.Guna2HtmlLabel20.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel20.TabIndex = 23
-        Me.Guna2HtmlLabel20.Text = "Employee:"
+        Guna2HtmlLabel20.BackColor = Color.Transparent
+        Guna2HtmlLabel20.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel20.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel20.Location = New Point(64, 377)
+        Guna2HtmlLabel20.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel20.Name = "Guna2HtmlLabel20"
+        Guna2HtmlLabel20.Size = New Size(74, 23)
+        Guna2HtmlLabel20.TabIndex = 23
+        Guna2HtmlLabel20.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel21
         ' 
-        Me.Guna2HtmlLabel21.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel21.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel21.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel21.Location = New Global.System.Drawing.Point(32, 207)
-        Me.Guna2HtmlLabel21.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
-        Me.Guna2HtmlLabel21.Size = New Global.System.Drawing.Size(605, 14)
-        Me.Guna2HtmlLabel21.TabIndex = 22
-        Me.Guna2HtmlLabel21.Text = "6. Perform testing, including unit testing, integration testing, and acceptance testing, to verify the functionality and quality of the software."
+        Guna2HtmlLabel21.BackColor = Color.Transparent
+        Guna2HtmlLabel21.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel21.ForeColor = Color.Black
+        Guna2HtmlLabel21.Location = New Point(46, 345)
+        Guna2HtmlLabel21.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
+        Guna2HtmlLabel21.Size = New Size(950, 23)
+        Guna2HtmlLabel21.TabIndex = 22
+        Guna2HtmlLabel21.Text = "6. Perform testing, including unit testing, integration testing, and acceptance testing, to verify the functionality and quality of the software."
         ' 
         ' Guna2HtmlLabel22
         ' 
-        Me.Guna2HtmlLabel22.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel22.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel22.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel22.Location = New Global.System.Drawing.Point(395, 191)
-        Me.Guna2HtmlLabel22.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel22.Name = "Guna2HtmlLabel22"
-        Me.Guna2HtmlLabel22.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel22.TabIndex = 21
-        Me.Guna2HtmlLabel22.Text = "Supervisor:"
+        Guna2HtmlLabel22.BackColor = Color.Transparent
+        Guna2HtmlLabel22.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel22.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel22.Location = New Point(564, 318)
+        Guna2HtmlLabel22.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel22.Name = "Guna2HtmlLabel22"
+        Guna2HtmlLabel22.Size = New Size(81, 23)
+        Guna2HtmlLabel22.TabIndex = 21
+        Guna2HtmlLabel22.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel23
         ' 
-        Me.Guna2HtmlLabel23.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel23.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel23.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel23.Location = New Global.System.Drawing.Point(45, 191)
-        Me.Guna2HtmlLabel23.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel23.Name = "Guna2HtmlLabel23"
-        Me.Guna2HtmlLabel23.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel23.TabIndex = 20
-        Me.Guna2HtmlLabel23.Text = "Employee:"
+        Guna2HtmlLabel23.BackColor = Color.Transparent
+        Guna2HtmlLabel23.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel23.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel23.Location = New Point(64, 318)
+        Guna2HtmlLabel23.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel23.Name = "Guna2HtmlLabel23"
+        Guna2HtmlLabel23.Size = New Size(74, 23)
+        Guna2HtmlLabel23.TabIndex = 20
+        Guna2HtmlLabel23.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel24
         ' 
-        Me.Guna2HtmlLabel24.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel24.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel24.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel24.Location = New Global.System.Drawing.Point(32, 172)
-        Me.Guna2HtmlLabel24.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel24.Name = "Guna2HtmlLabel24"
-        Me.Guna2HtmlLabel24.Size = New Global.System.Drawing.Size(548, 14)
-        Me.Guna2HtmlLabel24.TabIndex = 19
-        Me.Guna2HtmlLabel24.Text = "5. Review code written by team members to ensure adherence to coding standards, best practices, and project requirements."
+        Guna2HtmlLabel24.BackColor = Color.Transparent
+        Guna2HtmlLabel24.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel24.ForeColor = Color.Black
+        Guna2HtmlLabel24.Location = New Point(46, 287)
+        Guna2HtmlLabel24.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel24.Name = "Guna2HtmlLabel24"
+        Guna2HtmlLabel24.Size = New Size(861, 23)
+        Guna2HtmlLabel24.TabIndex = 19
+        Guna2HtmlLabel24.Text = "5. Review code written by team members to ensure adherence to coding standards, best practices, and project requirements."
         ' 
         ' Guna2HtmlLabel7
         ' 
-        Me.Guna2HtmlLabel7.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel7.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel7.Location = New Global.System.Drawing.Point(396, 156)
-        Me.Guna2HtmlLabel7.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
-        Me.Guna2HtmlLabel7.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel7.TabIndex = 18
-        Me.Guna2HtmlLabel7.Text = "Supervisor:"
+        Guna2HtmlLabel7.BackColor = Color.Transparent
+        Guna2HtmlLabel7.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel7.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel7.Location = New Point(566, 260)
+        Guna2HtmlLabel7.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
+        Guna2HtmlLabel7.Size = New Size(81, 23)
+        Guna2HtmlLabel7.TabIndex = 18
+        Guna2HtmlLabel7.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel8
         ' 
-        Me.Guna2HtmlLabel8.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel8.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel8.Location = New Global.System.Drawing.Point(46, 156)
-        Me.Guna2HtmlLabel8.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
-        Me.Guna2HtmlLabel8.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel8.TabIndex = 17
-        Me.Guna2HtmlLabel8.Text = "Employee:"
+        Guna2HtmlLabel8.BackColor = Color.Transparent
+        Guna2HtmlLabel8.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel8.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel8.Location = New Point(66, 260)
+        Guna2HtmlLabel8.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel8.Name = "Guna2HtmlLabel8"
+        Guna2HtmlLabel8.Size = New Size(74, 23)
+        Guna2HtmlLabel8.TabIndex = 17
+        Guna2HtmlLabel8.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel9
         ' 
-        Me.Guna2HtmlLabel9.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel9.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel9.Location = New Global.System.Drawing.Point(33, 136)
-        Me.Guna2HtmlLabel9.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
-        Me.Guna2HtmlLabel9.Size = New Global.System.Drawing.Size(386, 14)
-        Me.Guna2HtmlLabel9.TabIndex = 16
-        Me.Guna2HtmlLabel9.Text = "4. Use debugging tools and techniques to analyze and diagnose problems in the code."
+        Guna2HtmlLabel9.BackColor = Color.Transparent
+        Guna2HtmlLabel9.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel9.ForeColor = Color.Black
+        Guna2HtmlLabel9.Location = New Point(47, 227)
+        Guna2HtmlLabel9.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
+        Guna2HtmlLabel9.Size = New Size(595, 23)
+        Guna2HtmlLabel9.TabIndex = 16
+        Guna2HtmlLabel9.Text = "4. Use debugging tools and techniques to analyze and diagnose problems in the code."
         ' 
         ' Guna2HtmlLabel10
         ' 
-        Me.Guna2HtmlLabel10.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel10.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel10.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel10.Location = New Global.System.Drawing.Point(396, 121)
-        Me.Guna2HtmlLabel10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel10.Name = "Guna2HtmlLabel10"
-        Me.Guna2HtmlLabel10.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel10.TabIndex = 15
-        Me.Guna2HtmlLabel10.Text = "Supervisor:"
+        Guna2HtmlLabel10.BackColor = Color.Transparent
+        Guna2HtmlLabel10.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel10.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel10.Location = New Point(566, 202)
+        Guna2HtmlLabel10.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel10.Name = "Guna2HtmlLabel10"
+        Guna2HtmlLabel10.Size = New Size(81, 23)
+        Guna2HtmlLabel10.TabIndex = 15
+        Guna2HtmlLabel10.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel11
         ' 
-        Me.Guna2HtmlLabel11.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel11.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel11.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel11.Location = New Global.System.Drawing.Point(46, 121)
-        Me.Guna2HtmlLabel11.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
-        Me.Guna2HtmlLabel11.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel11.TabIndex = 14
-        Me.Guna2HtmlLabel11.Text = "Employee:"
+        Guna2HtmlLabel11.BackColor = Color.Transparent
+        Guna2HtmlLabel11.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel11.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel11.Location = New Point(66, 202)
+        Guna2HtmlLabel11.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
+        Guna2HtmlLabel11.Size = New Size(74, 23)
+        Guna2HtmlLabel11.TabIndex = 14
+        Guna2HtmlLabel11.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel12
         ' 
-        Me.Guna2HtmlLabel12.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel12.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel12.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel12.Location = New Global.System.Drawing.Point(33, 101)
-        Me.Guna2HtmlLabel12.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel12.Name = "Guna2HtmlLabel12"
-        Me.Guna2HtmlLabel12.Size = New Global.System.Drawing.Size(311, 14)
-        Me.Guna2HtmlLabel12.TabIndex = 13
-        Me.Guna2HtmlLabel12.Text = "3. Identify and fix bugs, errors, and performance issues in the software."
+        Guna2HtmlLabel12.BackColor = Color.Transparent
+        Guna2HtmlLabel12.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel12.ForeColor = Color.Black
+        Guna2HtmlLabel12.Location = New Point(47, 168)
+        Guna2HtmlLabel12.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel12.Name = "Guna2HtmlLabel12"
+        Guna2HtmlLabel12.Size = New Size(490, 23)
+        Guna2HtmlLabel12.TabIndex = 13
+        Guna2HtmlLabel12.Text = "3. Identify and fix bugs, errors, and performance issues in the software."
         ' 
         ' Guna2HtmlLabel4
         ' 
-        Me.Guna2HtmlLabel4.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel4.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel4.Location = New Global.System.Drawing.Point(396, 86)
-        Me.Guna2HtmlLabel4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel4.TabIndex = 12
-        Me.Guna2HtmlLabel4.Text = "Supervisor:"
+        Guna2HtmlLabel4.BackColor = Color.Transparent
+        Guna2HtmlLabel4.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel4.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel4.Location = New Point(566, 143)
+        Guna2HtmlLabel4.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
+        Guna2HtmlLabel4.Size = New Size(81, 23)
+        Guna2HtmlLabel4.TabIndex = 12
+        Guna2HtmlLabel4.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel5
         ' 
-        Me.Guna2HtmlLabel5.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel5.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel5.Location = New Global.System.Drawing.Point(46, 86)
-        Me.Guna2HtmlLabel5.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel5.TabIndex = 11
-        Me.Guna2HtmlLabel5.Text = "Employee:"
+        Guna2HtmlLabel5.BackColor = Color.Transparent
+        Guna2HtmlLabel5.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel5.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel5.Location = New Point(66, 143)
+        Guna2HtmlLabel5.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
+        Guna2HtmlLabel5.Size = New Size(74, 23)
+        Guna2HtmlLabel5.TabIndex = 11
+        Guna2HtmlLabel5.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel6
         ' 
-        Me.Guna2HtmlLabel6.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel6.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel6.Location = New Global.System.Drawing.Point(33, 66)
-        Me.Guna2HtmlLabel6.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Me.Guna2HtmlLabel6.Size = New Global.System.Drawing.Size(471, 14)
-        Me.Guna2HtmlLabel6.TabIndex = 10
-        Me.Guna2HtmlLabel6.Text = "2. Use various programming languages, frameworks, and tools to develop software applications or systems."
+        Guna2HtmlLabel6.BackColor = Color.Transparent
+        Guna2HtmlLabel6.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel6.ForeColor = Color.Black
+        Guna2HtmlLabel6.Location = New Point(47, 110)
+        Guna2HtmlLabel6.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
+        Guna2HtmlLabel6.Size = New Size(747, 23)
+        Guna2HtmlLabel6.TabIndex = 10
+        Guna2HtmlLabel6.Text = "2. Use various programming languages, frameworks, and tools to develop software applications or systems."
         ' 
         ' Guna2HtmlLabel3
         ' 
-        Me.Guna2HtmlLabel3.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel3.Location = New Global.System.Drawing.Point(396, 50)
-        Me.Guna2HtmlLabel3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New Global.System.Drawing.Size(50, 14)
-        Me.Guna2HtmlLabel3.TabIndex = 9
-        Me.Guna2HtmlLabel3.Text = "Supervisor:"
+        Guna2HtmlLabel3.BackColor = Color.Transparent
+        Guna2HtmlLabel3.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel3.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2HtmlLabel3.Location = New Point(566, 83)
+        Guna2HtmlLabel3.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
+        Guna2HtmlLabel3.Size = New Size(81, 23)
+        Guna2HtmlLabel3.TabIndex = 9
+        Guna2HtmlLabel3.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel2
         ' 
-        Me.Guna2HtmlLabel2.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel2.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(0))), CInt(CByte(CByte(192))))
-        Me.Guna2HtmlLabel2.Location = New Global.System.Drawing.Point(46, 50)
-        Me.Guna2HtmlLabel2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New Global.System.Drawing.Size(48, 14)
-        Me.Guna2HtmlLabel2.TabIndex = 8
-        Me.Guna2HtmlLabel2.Text = "Employee:"
+        Guna2HtmlLabel2.BackColor = Color.Transparent
+        Guna2HtmlLabel2.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel2.ForeColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        Guna2HtmlLabel2.Location = New Point(66, 83)
+        Guna2HtmlLabel2.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Guna2HtmlLabel2.Size = New Size(74, 23)
+        Guna2HtmlLabel2.TabIndex = 8
+        Guna2HtmlLabel2.Text = "Employee:"
         ' 
         ' Guna2HtmlLabel1
         ' 
-        Me.Guna2HtmlLabel1.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel1.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel1.Location = New Global.System.Drawing.Point(33, 31)
-        Me.Guna2HtmlLabel1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New Global.System.Drawing.Size(452, 14)
-        Me.Guna2HtmlLabel1.TabIndex = 3
-        Me.Guna2HtmlLabel1.Text = "1. Write, test, and maintain high-quality code according to project requirements and coding standards."
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel1.ForeColor = Color.Black
+        Guna2HtmlLabel1.Location = New Point(47, 52)
+        Guna2HtmlLabel1.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(707, 23)
+        Guna2HtmlLabel1.TabIndex = 3
+        Guna2HtmlLabel1.Text = "1. Write, test, and maintain high-quality code according to project requirements and coding standards."
         ' 
         ' Label5
         ' 
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label5.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label5.Location = New Global.System.Drawing.Point(8, 7)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New Global.System.Drawing.Size(200, 20)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "SOFTWARE DEVELOPMENT"
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(11, 12)
+        Label5.Margin = New Padding(4, 0, 4, 0)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(293, 30)
+        Label5.TabIndex = 0
+        Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
         ' Label10
         ' 
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New Global.System.Drawing.Point(8, 606)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label10.TabIndex = 2
-        Me.Label10.Text = "                       "
+        Label10.AutoSize = True
+        Label10.Location = New Point(11, 1010)
+        Label10.Margin = New Padding(4, 0, 4, 0)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(127, 25)
+        Label10.TabIndex = 2
+        Label10.Text = "                       "
         ' 
         ' Label7
         ' 
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New Global.System.Drawing.Point(359, 88)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New Global.System.Drawing.Size(97, 15)
-        Me.Label7.TabIndex = 19
-        Me.Label7.Text = "Employee Name:"
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(513, 147)
+        Label7.Margin = New Padding(4, 0, 4, 0)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(146, 25)
+        Label7.TabIndex = 19
+        Label7.Text = "Employee Name:"
         ' 
         ' Label6
         ' 
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New Global.System.Drawing.Point(17, 88)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label6.TabIndex = 18
-        Me.Label6.Text = "Employee ID:"
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(24, 147)
+        Label6.Margin = New Padding(4, 0, 4, 0)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(117, 25)
+        Label6.TabIndex = 18
+        Label6.Text = "Employee ID:"
         ' 
         ' lblSupervisor
         ' 
-        Me.lblSupervisor.AutoSize = True
-        Me.lblSupervisor.Location = New Global.System.Drawing.Point(634, 14)
-        Me.lblSupervisor.Name = "lblSupervisor"
-        Me.lblSupervisor.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblSupervisor.TabIndex = 17
-        Me.lblSupervisor.Text = "Label7"
+        lblSupervisor.AutoSize = True
+        lblSupervisor.Location = New Point(906, 23)
+        lblSupervisor.Margin = New Padding(4, 0, 4, 0)
+        lblSupervisor.Name = "lblSupervisor"
+        lblSupervisor.Size = New Size(63, 25)
+        lblSupervisor.TabIndex = 17
+        lblSupervisor.Text = "Label7"
         ' 
         ' lblId
         ' 
-        Me.lblId.AutoSize = True
-        Me.lblId.Location = New Global.System.Drawing.Point(129, 39)
-        Me.lblId.Name = "lblId"
-        Me.lblId.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblId.TabIndex = 16
-        Me.lblId.Text = "Label6"
+        lblId.AutoSize = True
+        lblId.Location = New Point(184, 65)
+        lblId.Margin = New Padding(4, 0, 4, 0)
+        lblId.Name = "lblId"
+        lblId.Size = New Size(63, 25)
+        lblId.TabIndex = 16
+        lblId.Text = "Label6"
         ' 
         ' lblName
         ' 
-        Me.lblName.AutoSize = True
-        Me.lblName.Location = New Global.System.Drawing.Point(129, 14)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblName.TabIndex = 13
-        Me.lblName.Text = "Label5"
+        lblName.AutoSize = True
+        lblName.Location = New Point(184, 23)
+        lblName.Margin = New Padding(4, 0, 4, 0)
+        lblName.Name = "lblName"
+        lblName.Size = New Size(63, 25)
+        lblName.TabIndex = 13
+        lblName.Text = "Label5"
         ' 
         ' Guna2Shapes1
         ' 
-        Me.Guna2Shapes1.FillColor = Global.System.Drawing.Color.Gray
-        Me.Guna2Shapes1.Location = New Global.System.Drawing.Point(-79, 75)
-        Me.Guna2Shapes1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Shapes1.Name = "Guna2Shapes1"
-        Me.Guna2Shapes1.PolygonSkip = 1
-        Me.Guna2Shapes1.Rotate = 0F
-        Me.Guna2Shapes1.RoundedEdges = CustomizableEdges41
-        Me.Guna2Shapes1.Shape = Global.Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes1.Size = New Global.System.Drawing.Size(965, 2)
-        Me.Guna2Shapes1.TabIndex = 15
-        Me.Guna2Shapes1.Text = "Guna2Shapes1"
-        Me.Guna2Shapes1.Zoom = 80
+        Guna2Shapes1.FillColor = Color.Gray
+        Guna2Shapes1.Location = New Point(-113, 125)
+        Guna2Shapes1.Margin = New Padding(4, 3, 4, 3)
+        Guna2Shapes1.Name = "Guna2Shapes1"
+        Guna2Shapes1.PolygonSkip = 1
+        Guna2Shapes1.Rotate = 0F
+        Guna2Shapes1.RoundedEdges = CustomizableEdges41
+        Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
+        Guna2Shapes1.Size = New Size(1379, 3)
+        Guna2Shapes1.TabIndex = 15
+        Guna2Shapes1.Text = "Guna2Shapes1"
+        Guna2Shapes1.Zoom = 80
         ' 
         ' Label3
         ' 
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New Global.System.Drawing.Point(566, 14)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New Global.System.Drawing.Size(57, 15)
-        Me.Label3.TabIndex = 14
-        Me.Label3.Text = "Manager:"
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(809, 23)
+        Label3.Margin = New Padding(4, 0, 4, 0)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(86, 25)
+        Label3.TabIndex = 14
+        Label3.Text = "Manager:"
         ' 
         ' Label2
         ' 
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New Global.System.Drawing.Point(17, 39)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New Global.System.Drawing.Size(79, 15)
-        Me.Label2.TabIndex = 12
-        Me.Label2.Text = "Supervisor ID:"
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(24, 65)
+        Label2.Margin = New Padding(4, 0, 4, 0)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(123, 25)
+        Label2.TabIndex = 12
+        Label2.Text = "Supervisor ID:"
         ' 
         ' Label1
         ' 
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New Global.System.Drawing.Point(17, 14)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New Global.System.Drawing.Size(100, 15)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "Supervisor Name:"
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(24, 23)
+        Label1.Margin = New Padding(4, 0, 4, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(152, 25)
+        Label1.TabIndex = 11
+        Label1.Text = "Supervisor Name:"
         ' 
         ' lblEmployeeID
         ' 
-        Me.lblEmployeeID.AutoSize = True
-        Me.lblEmployeeID.Location = New Global.System.Drawing.Point(107, 88)
-        Me.lblEmployeeID.Name = "lblEmployeeID"
-        Me.lblEmployeeID.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblEmployeeID.TabIndex = 20
-        Me.lblEmployeeID.Text = "Label6"
+        lblEmployeeID.AutoSize = True
+        lblEmployeeID.Location = New Point(153, 147)
+        lblEmployeeID.Margin = New Padding(4, 0, 4, 0)
+        lblEmployeeID.Name = "lblEmployeeID"
+        lblEmployeeID.Size = New Size(63, 25)
+        lblEmployeeID.TabIndex = 20
+        lblEmployeeID.Text = "Label6"
         ' 
         ' lblEmployeeName
         ' 
-        Me.lblEmployeeName.AutoSize = True
-        Me.lblEmployeeName.Location = New Global.System.Drawing.Point(471, 88)
-        Me.lblEmployeeName.Name = "lblEmployeeName"
-        Me.lblEmployeeName.Size = New Global.System.Drawing.Size(41, 15)
-        Me.lblEmployeeName.TabIndex = 21
-        Me.lblEmployeeName.Text = "Label6"
+        lblEmployeeName.AutoSize = True
+        lblEmployeeName.Location = New Point(673, 147)
+        lblEmployeeName.Margin = New Padding(4, 0, 4, 0)
+        lblEmployeeName.Name = "lblEmployeeName"
+        lblEmployeeName.Size = New Size(63, 25)
+        lblEmployeeName.TabIndex = 21
+        lblEmployeeName.Text = "Label6"
         ' 
         ' Guna2GroupBox10
         ' 
-        Me.Guna2GroupBox10.BackColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox10.BorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox10.Controls.Add(Me.rbPage4)
-        Me.Guna2GroupBox10.Controls.Add(Me.rbPage2)
-        Me.Guna2GroupBox10.Controls.Add(Me.rbPage1)
-        Me.Guna2GroupBox10.Controls.Add(Me.rbPage3)
-        Me.Guna2GroupBox10.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox10.CustomizableEdges = CustomizableEdges46
-        Me.Guna2GroupBox10.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2GroupBox10.ForeColor = Global.System.Drawing.Color.White
-        Me.Guna2GroupBox10.Location = New Global.System.Drawing.Point(648, 523)
-        Me.Guna2GroupBox10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2GroupBox10.Name = "Guna2GroupBox10"
-        Me.Guna2GroupBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges47
-        Me.Guna2GroupBox10.Size = New Global.System.Drawing.Size(144, 26)
-        Me.Guna2GroupBox10.TabIndex = 62
+        Guna2GroupBox10.BackColor = Color.White
+        Guna2GroupBox10.BorderColor = Color.White
+        Guna2GroupBox10.Controls.Add(rbPage4)
+        Guna2GroupBox10.Controls.Add(rbPage2)
+        Guna2GroupBox10.Controls.Add(rbPage1)
+        Guna2GroupBox10.Controls.Add(rbPage3)
+        Guna2GroupBox10.CustomBorderColor = Color.White
+        Guna2GroupBox10.CustomizableEdges = CustomizableEdges46
+        Guna2GroupBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2GroupBox10.ForeColor = Color.White
+        Guna2GroupBox10.Location = New Point(926, 872)
+        Guna2GroupBox10.Margin = New Padding(4, 3, 4, 3)
+        Guna2GroupBox10.Name = "Guna2GroupBox10"
+        Guna2GroupBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        Guna2GroupBox10.Size = New Size(206, 43)
+        Guna2GroupBox10.TabIndex = 62
         ' 
         ' rbPage4
         ' 
-        Me.rbPage4.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage4.CheckedState.BorderThickness = 0
-        Me.rbPage4.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage4.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage4.Location = New Global.System.Drawing.Point(114, 6)
-        Me.rbPage4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage4.Name = "rbPage4"
-        Me.rbPage4.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        Me.rbPage4.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage4.TabIndex = 15
-        Me.rbPage4.Text = "Guna2CustomRadioButton4"
-        Me.rbPage4.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage4.UncheckedState.BorderThickness = 2
-        Me.rbPage4.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage4.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage4.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage4.CheckedState.BorderThickness = 0
+        rbPage4.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage4.CheckedState.InnerColor = Color.White
+        rbPage4.Location = New Point(163, 10)
+        rbPage4.Margin = New Padding(4, 3, 4, 3)
+        rbPage4.Name = "rbPage4"
+        rbPage4.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        rbPage4.Size = New Size(23, 23)
+        rbPage4.TabIndex = 15
+        rbPage4.Text = "Guna2CustomRadioButton4"
+        rbPage4.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage4.UncheckedState.BorderThickness = 2
+        rbPage4.UncheckedState.FillColor = Color.Transparent
+        rbPage4.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' rbPage2
         ' 
-        Me.rbPage2.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage2.CheckedState.BorderThickness = 0
-        Me.rbPage2.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage2.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage2.Location = New Global.System.Drawing.Point(54, 6)
-        Me.rbPage2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage2.Name = "rbPage2"
-        Me.rbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-        Me.rbPage2.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage2.TabIndex = 13
-        Me.rbPage2.Text = "Guna2CustomRadioButton2"
-        Me.rbPage2.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage2.UncheckedState.BorderThickness = 2
-        Me.rbPage2.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage2.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage2.CheckedState.BorderThickness = 0
+        rbPage2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage2.CheckedState.InnerColor = Color.White
+        rbPage2.Location = New Point(77, 10)
+        rbPage2.Margin = New Padding(4, 3, 4, 3)
+        rbPage2.Name = "rbPage2"
+        rbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        rbPage2.Size = New Size(23, 23)
+        rbPage2.TabIndex = 13
+        rbPage2.Text = "Guna2CustomRadioButton2"
+        rbPage2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage2.UncheckedState.BorderThickness = 2
+        rbPage2.UncheckedState.FillColor = Color.Transparent
+        rbPage2.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' rbPage1
         ' 
-        Me.rbPage1.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage1.CheckedState.BorderThickness = 0
-        Me.rbPage1.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage1.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage1.Location = New Global.System.Drawing.Point(24, 6)
-        Me.rbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage1.Name = "rbPage1"
-        Me.rbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        Me.rbPage1.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage1.TabIndex = 14
-        Me.rbPage1.Text = "Guna2CustomRadioButton3"
-        Me.rbPage1.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage1.UncheckedState.BorderThickness = 2
-        Me.rbPage1.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage1.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage1.CheckedState.BorderThickness = 0
+        rbPage1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage1.CheckedState.InnerColor = Color.White
+        rbPage1.Location = New Point(34, 10)
+        rbPage1.Margin = New Padding(4, 3, 4, 3)
+        rbPage1.Name = "rbPage1"
+        rbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        rbPage1.Size = New Size(23, 23)
+        rbPage1.TabIndex = 14
+        rbPage1.Text = "Guna2CustomRadioButton3"
+        rbPage1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage1.UncheckedState.BorderThickness = 2
+        rbPage1.UncheckedState.FillColor = Color.Transparent
+        rbPage1.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' rbPage3
         ' 
-        Me.rbPage3.CheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage3.CheckedState.BorderThickness = 0
-        Me.rbPage3.CheckedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.rbPage3.CheckedState.InnerColor = Global.System.Drawing.Color.White
-        Me.rbPage3.Location = New Global.System.Drawing.Point(84, 6)
-        Me.rbPage3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.rbPage3.Name = "rbPage3"
-        Me.rbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
-        Me.rbPage3.Size = New Global.System.Drawing.Size(16, 14)
-        Me.rbPage3.TabIndex = 12
-        Me.rbPage3.Text = "Guna2CustomRadioButton1"
-        Me.rbPage3.UncheckedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(125))), CInt(CByte(CByte(137))), CInt(CByte(CByte(149))))
-        Me.rbPage3.UncheckedState.BorderThickness = 2
-        Me.rbPage3.UncheckedState.FillColor = Global.System.Drawing.Color.Transparent
-        Me.rbPage3.UncheckedState.InnerColor = Global.System.Drawing.Color.Transparent
+        rbPage3.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage3.CheckedState.BorderThickness = 0
+        rbPage3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        rbPage3.CheckedState.InnerColor = Color.White
+        rbPage3.Location = New Point(120, 10)
+        rbPage3.Margin = New Padding(4, 3, 4, 3)
+        rbPage3.Name = "rbPage3"
+        rbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        rbPage3.Size = New Size(23, 23)
+        rbPage3.TabIndex = 12
+        rbPage3.Text = "Guna2CustomRadioButton1"
+        rbPage3.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        rbPage3.UncheckedState.BorderThickness = 2
+        rbPage3.UncheckedState.FillColor = Color.Transparent
+        rbPage3.UncheckedState.InnerColor = Color.Transparent
         ' 
         ' gbPage4
         ' 
-        Me.gbPage4.BorderColor = Global.System.Drawing.Color.White
-        Me.gbPage4.Controls.Add(Me.Guna2Panel1)
-        Me.gbPage4.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage4.CustomizableEdges = CustomizableEdges54
-        Me.gbPage4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage4.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage4.Location = New Global.System.Drawing.Point(17, 75)
-        Me.gbPage4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage4.Name = "gbPage4"
-        Me.gbPage4.ShadowDecoration.CustomizableEdges = CustomizableEdges55
-        Me.gbPage4.Size = New Global.System.Drawing.Size(770, 443)
-        Me.gbPage4.TabIndex = 63
+        gbPage4.BorderColor = Color.White
+        gbPage4.Controls.Add(Guna2Panel1)
+        gbPage4.CustomBorderColor = Color.White
+        gbPage4.CustomizableEdges = CustomizableEdges54
+        gbPage4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        gbPage4.ForeColor = Color.White
+        gbPage4.Location = New Point(24, 125)
+        gbPage4.Margin = New Padding(4, 3, 4, 3)
+        gbPage4.Name = "gbPage4"
+        gbPage4.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        gbPage4.Size = New Size(1100, 738)
+        gbPage4.TabIndex = 63
         ' 
         ' Guna2Panel1
         ' 
-        Me.Guna2Panel1.AutoScroll = True
-        Me.Guna2Panel1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)
-        Me.Guna2Panel1.Controls.Add(Me.Label13)
-        Me.Guna2Panel1.Controls.Add(Me.Label17)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel103)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel104)
-        Me.Guna2Panel1.Controls.Add(Me.Label18)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2TextBox1)
-        Me.Guna2Panel1.Controls.Add(Me.Label19)
-        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges52
-        Me.Guna2Panel1.Dock = Global.System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel1.Location = New Global.System.Drawing.Point(0, 40)
-        Me.Guna2Panel1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Padding = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges53
-        Me.Guna2Panel1.Size = New Global.System.Drawing.Size(770, 403)
-        Me.Guna2Panel1.TabIndex = 3
+        Guna2Panel1.AutoScroll = True
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel1.Controls.Add(Guna2Button1)
+        Guna2Panel1.Controls.Add(Label13)
+        Guna2Panel1.Controls.Add(Label17)
+        Guna2Panel1.Controls.Add(Guna2HtmlLabel103)
+        Guna2Panel1.Controls.Add(Guna2HtmlLabel104)
+        Guna2Panel1.Controls.Add(Label18)
+        Guna2Panel1.Controls.Add(Guna2TextBox1)
+        Guna2Panel1.Controls.Add(Label19)
+        Guna2Panel1.CustomizableEdges = CustomizableEdges52
+        Guna2Panel1.Dock = DockStyle.Fill
+        Guna2Panel1.Location = New Point(0, 40)
+        Guna2Panel1.Margin = New Padding(4, 3, 4, 3)
+        Guna2Panel1.Name = "Guna2Panel1"
+        Guna2Panel1.Padding = New Padding(4, 3, 4, 3)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        Guna2Panel1.Size = New Size(1100, 698)
+        Guna2Panel1.TabIndex = 3
         ' 
         ' Guna2Button1
         ' 
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = Global.System.Drawing.Color.WhiteSmoke
-        Me.Guna2Button1.BorderRadius = 11
-        Me.Guna2Button1.CustomizableEdges = CustomizableEdges48
-        Me.Guna2Button1.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
-        Me.Guna2Button1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.Guna2Button1.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(17))), CInt(CByte(CByte(16))), CInt(CByte(CByte(68))))
-        Me.Guna2Button1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2Button1.ForeColor = Global.System.Drawing.Color.White
-        Me.Guna2Button1.Location = New Global.System.Drawing.Point(648, 398)
-        Me.Guna2Button1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges49
-        Me.Guna2Button1.Size = New Global.System.Drawing.Size(86, 24)
-        Me.Guna2Button1.TabIndex = 18
-        Me.Guna2Button1.Text = "Submit"
+        Guna2Button1.AutoRoundedCorners = True
+        Guna2Button1.BackColor = Color.WhiteSmoke
+        Guna2Button1.BorderRadius = 19
+        Guna2Button1.CustomizableEdges = CustomizableEdges48
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Location = New Point(926, 663)
+        Guna2Button1.Margin = New Padding(4, 3, 4, 3)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Guna2Button1.Size = New Size(123, 40)
+        Guna2Button1.TabIndex = 18
+        Guna2Button1.Text = "Submit"
         ' 
         ' Label13
         ' 
-        Me.Label13.AutoSize = True
-        Me.Label13.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label13.Location = New Global.System.Drawing.Point(696, 12)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New Global.System.Drawing.Size(12, 15)
-        Me.Label13.TabIndex = 17
-        Me.Label13.Text = "?"
+        Label13.AutoSize = True
+        Label13.ForeColor = Color.Black
+        Label13.Location = New Point(994, 20)
+        Label13.Margin = New Padding(4, 0, 4, 0)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(20, 25)
+        Label13.TabIndex = 17
+        Label13.Text = "?"
         ' 
         ' Label17
         ' 
-        Me.Label17.AutoSize = True
-        Me.Label17.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label17.Location = New Global.System.Drawing.Point(576, 12)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New Global.System.Drawing.Size(12, 15)
-        Me.Label17.TabIndex = 16
-        Me.Label17.Text = "?"
+        Label17.AutoSize = True
+        Label17.ForeColor = Color.Black
+        Label17.Location = New Point(823, 20)
+        Label17.Margin = New Padding(4, 0, 4, 0)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(20, 25)
+        Label17.TabIndex = 16
+        Label17.Text = "?"
         ' 
         ' Guna2HtmlLabel103
         ' 
-        Me.Guna2HtmlLabel103.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel103.Font = New Global.System.Drawing.Font("Segoe UI", 10.2F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel103.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel103.Location = New Global.System.Drawing.Point(628, 9)
-        Me.Guna2HtmlLabel103.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel103.Name = "Guna2HtmlLabel103"
-        Me.Guna2HtmlLabel103.Size = New Global.System.Drawing.Size(58, 21)
-        Me.Guna2HtmlLabel103.TabIndex = 15
-        Me.Guna2HtmlLabel103.Text = "S-Rating:"
+        Guna2HtmlLabel103.BackColor = Color.Transparent
+        Guna2HtmlLabel103.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel103.ForeColor = Color.Black
+        Guna2HtmlLabel103.Location = New Point(897, 15)
+        Guna2HtmlLabel103.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel103.Name = "Guna2HtmlLabel103"
+        Guna2HtmlLabel103.Size = New Size(83, 30)
+        Guna2HtmlLabel103.TabIndex = 15
+        Guna2HtmlLabel103.Text = "S-Rating:"
         ' 
         ' Guna2HtmlLabel104
         ' 
-        Me.Guna2HtmlLabel104.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel104.Font = New Global.System.Drawing.Font("Segoe UI", 10.2F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel104.ForeColor = Global.System.Drawing.Color.Black
-        Me.Guna2HtmlLabel104.Location = New Global.System.Drawing.Point(508, 9)
-        Me.Guna2HtmlLabel104.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel104.Name = "Guna2HtmlLabel104"
-        Me.Guna2HtmlLabel104.Size = New Global.System.Drawing.Size(58, 21)
-        Me.Guna2HtmlLabel104.TabIndex = 14
-        Me.Guna2HtmlLabel104.Text = "E-Rating:"
+        Guna2HtmlLabel104.BackColor = Color.Transparent
+        Guna2HtmlLabel104.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel104.ForeColor = Color.Black
+        Guna2HtmlLabel104.Location = New Point(726, 15)
+        Guna2HtmlLabel104.Margin = New Padding(4, 3, 4, 3)
+        Guna2HtmlLabel104.Name = "Guna2HtmlLabel104"
+        Guna2HtmlLabel104.Size = New Size(82, 30)
+        Guna2HtmlLabel104.TabIndex = 14
+        Guna2HtmlLabel104.Text = "E-Rating:"
         ' 
         ' Label18
         ' 
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label18.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label18.Location = New Global.System.Drawing.Point(20, 9)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New Global.System.Drawing.Size(101, 20)
-        Me.Label18.TabIndex = 4
-        Me.Label18.Text = "DISCUSSION:"
+        Label18.AutoSize = True
+        Label18.Font = New Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.ForeColor = Color.Black
+        Label18.Location = New Point(29, 15)
+        Label18.Margin = New Padding(4, 0, 4, 0)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(149, 30)
+        Label18.TabIndex = 4
+        Label18.Text = "DISCUSSION:"
         ' 
         ' Guna2TextBox1
         ' 
-        Me.Guna2TextBox1.CustomizableEdges = CustomizableEdges50
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.Guna2TextBox1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.Guna2TextBox1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.Guna2TextBox1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2TextBox1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox1.Location = New Global.System.Drawing.Point(18, 37)
-        Me.Guna2TextBox1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderText = ""
-        Me.Guna2TextBox1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges51
-        Me.Guna2TextBox1.Size = New Global.System.Drawing.Size(716, 338)
-        Me.Guna2TextBox1.TabIndex = 3
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges50
+        Guna2TextBox1.DefaultText = ""
+        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Location = New Point(26, 62)
+        Guna2TextBox1.Margin = New Padding(4, 3, 4, 3)
+        Guna2TextBox1.Name = "Guna2TextBox1"
+        Guna2TextBox1.PasswordChar = ChrW(0)
+        Guna2TextBox1.PlaceholderText = ""
+        Guna2TextBox1.ScrollBars = ScrollBars.Vertical
+        Guna2TextBox1.SelectedText = ""
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        Guna2TextBox1.Size = New Size(1023, 563)
+        Guna2TextBox1.TabIndex = 3
         ' 
         ' Label19
         ' 
-        Me.Label19.AutoSize = True
-        Me.Label19.Location = New Global.System.Drawing.Point(10, 596)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label19.TabIndex = 2
-        Me.Label19.Text = "                       "
+        Label19.AutoSize = True
+        Label19.Location = New Point(14, 993)
+        Label19.Margin = New Padding(4, 0, 4, 0)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(127, 25)
+        Label19.TabIndex = 2
+        Label19.Text = "                       "
         ' 
         ' Supervisor_Result
         ' 
-        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
-        Me.AutoScaleMode = Global.System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = Global.System.Drawing.Color.White
-        Me.ClientSize = New Global.System.Drawing.Size(803, 552)
-        Me.ControlBox = False
-        Me.Controls.Add(Me.Guna2GroupBox10)
-        Me.Controls.Add(Me.lblEmployeeName)
-        Me.Controls.Add(Me.lblEmployeeID)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.lblSupervisor)
-        Me.Controls.Add(Me.lblId)
-        Me.Controls.Add(Me.lblName)
-        Me.Controls.Add(Me.Guna2Shapes1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.gbPage1)
-        Me.Controls.Add(Me.gbPage2)
-        Me.Controls.Add(Me.gbPage3)
-        Me.Controls.Add(Me.gbPage4)
-        Me.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Name = "Supervisor_Result"
-        Me.gbPage3.ResumeLayout(False)
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Guna2Panel5.PerformLayout()
-        Me.gbPage2.ResumeLayout(False)
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel4.PerformLayout()
-        Me.gbPage1.ResumeLayout(False)
-        Me.Guna2Panel3.ResumeLayout(False)
-        Me.Guna2Panel3.PerformLayout()
-        Me.Guna2GroupBox10.ResumeLayout(False)
-        Me.gbPage4.ResumeLayout(False)
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
+        ClientSize = New Size(1147, 920)
+        ControlBox = False
+        Controls.Add(Guna2GroupBox10)
+        Controls.Add(lblEmployeeName)
+        Controls.Add(lblEmployeeID)
+        Controls.Add(Label7)
+        Controls.Add(Label6)
+        Controls.Add(lblSupervisor)
+        Controls.Add(lblId)
+        Controls.Add(lblName)
+        Controls.Add(Guna2Shapes1)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
+        Controls.Add(gbPage1)
+        Controls.Add(gbPage2)
+        Controls.Add(gbPage3)
+        Controls.Add(gbPage4)
+        Margin = New Padding(4, 3, 4, 3)
+        Name = "Supervisor_Result"
+        gbPage3.ResumeLayout(False)
+        Guna2Panel5.ResumeLayout(False)
+        Guna2Panel5.PerformLayout()
+        gbPage2.ResumeLayout(False)
+        Guna2Panel4.ResumeLayout(False)
+        Guna2Panel4.PerformLayout()
+        gbPage1.ResumeLayout(False)
+        Guna2Panel3.ResumeLayout(False)
+        Guna2Panel3.PerformLayout()
+        Guna2GroupBox10.ResumeLayout(False)
+        gbPage4.ResumeLayout(False)
+        Guna2Panel1.ResumeLayout(False)
+        Guna2Panel1.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
     Friend WithEvents gbPage1 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
