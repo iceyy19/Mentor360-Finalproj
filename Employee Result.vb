@@ -51,4 +51,5 @@ Public Class Employee_Result
             gbPage4.Visible = True
         End If
     End Sub
+
 End Class

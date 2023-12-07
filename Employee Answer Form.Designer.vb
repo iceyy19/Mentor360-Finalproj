@@ -330,6 +330,7 @@ Partial Class Employee_Answer_Form
         Label47 = New Label()
         txtP = New Guna.UI2.WinForms.Guna2TextBox()
         txtCL = New Guna.UI2.WinForms.Guna2TextBox()
+        Label48 = New Label()
         gbPageSelection.SuspendLayout()
         gbPage1.SuspendLayout()
         Guna2Panel3.SuspendLayout()
@@ -603,7 +604,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel3.Dock = DockStyle.Fill
         Guna2Panel3.Location = New Point(0, 40)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.Padding = New Padding(3, 3, 3, 3)
+        Guna2Panel3.Padding = New Padding(3)
         Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges144
         Guna2Panel3.Size = New Size(880, 570)
         Guna2Panel3.TabIndex = 3
@@ -1762,7 +1763,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel1.Dock = DockStyle.Fill
         Guna2Panel1.Location = New Point(0, 40)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.Padding = New Padding(3, 3, 3, 3)
+        Guna2Panel1.Padding = New Padding(3)
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges174
         Guna2Panel1.Size = New Size(880, 570)
         Guna2Panel1.TabIndex = 3
@@ -2495,7 +2496,7 @@ Partial Class Employee_Answer_Form
         ' Label33
         ' 
         Label33.AutoSize = True
-        Label33.Location = New Point(9, 841)
+        Label33.Location = New Point(9, 763)
         Label33.Name = "Label33"
         Label33.Size = New Size(101, 20)
         Label33.TabIndex = 2
@@ -2561,6 +2562,7 @@ Partial Class Employee_Answer_Form
         ' 
         Guna2Panel2.AutoScroll = True
         Guna2Panel2.BackColor = Color.FromArgb(CByte(234), CByte(243), CByte(243))
+        Guna2Panel2.Controls.Add(Label48)
         Guna2Panel2.Controls.Add(gbP7)
         Guna2Panel2.Controls.Add(gbP6)
         Guna2Panel2.Controls.Add(Label36)
@@ -2589,7 +2591,7 @@ Partial Class Employee_Answer_Form
         Guna2Panel2.Dock = DockStyle.Fill
         Guna2Panel2.Location = New Point(0, 40)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.Padding = New Padding(3, 3, 3, 3)
+        Guna2Panel2.Padding = New Padding(3)
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges202
         Guna2Panel2.Size = New Size(880, 570)
         Guna2Panel2.TabIndex = 3
@@ -3365,6 +3367,14 @@ Partial Class Employee_Answer_Form
         txtCL.Size = New Size(229, 185)
         txtCL.TabIndex = 4
         ' 
+        ' Label48
+        ' 
+        Label48.AutoSize = True
+        Label48.Location = New Point(10, 743)
+        Label48.Name = "Label48"
+        Label48.Size = New Size(0, 20)
+        Label48.TabIndex = 4
+        ' 
         ' Employee_Answer_Form
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -3383,9 +3393,9 @@ Partial Class Employee_Answer_Form
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Controls.Add(gbPage3)
         Controls.Add(gbPage1)
         Controls.Add(gbPage2)
-        Controls.Add(gbPage3)
         Name = "Employee_Answer_Form"
         gbPageSelection.ResumeLayout(False)
         gbPage1.ResumeLayout(False)
@@ -3675,4 +3685,5 @@ Partial Class Employee_Answer_Form
     Friend WithEvents Label47 As Label
     Friend WithEvents txtP As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtCL As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label48 As Label
 End Class
