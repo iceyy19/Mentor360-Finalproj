@@ -1,6 +1,7 @@
 ﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Status
 
 Public Class Employee_Result
+    Public Property SelectedRowData2 As Dictionary(Of String, String)
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
@@ -10,6 +11,22 @@ Public Class Employee_Result
         gbPage3.Visible = False
         gbPage4.Visible = False
         rbPage1.Checked = True
+
+        txtCIE1.Enabled = False
+        txtCIS1.Enabled = False
+        txtSDAE1.Enabled = False
+        txtSDAS1.Enabled = False
+        txtCLE1.Enabled = False
+        txtCLS1.Enabled = False
+        txtDE1.Enabled = False
+        txtDS1.Enabled = False
+        txtPSE1.Enabled = False
+        txtPSS1.Enabled = False
+        txtSDE1.Enabled = False
+        txtSDS1.Enabled = False
+        txtPE1.Enabled = False
+        txtPS1.Enabled = False
+        txtDiscussion.Enabled = False
     End Sub
 
     Private Sub Page1MouseWheel(sender As Object, e As MouseEventArgs) Handles MyBase.MouseWheel

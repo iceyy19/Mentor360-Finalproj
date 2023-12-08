@@ -47,8 +47,11 @@ Partial Class Employee_History
         ' 
         ' dgHistory
         ' 
+        dgHistory.AllowUserToAddRows = False
+        dgHistory.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = Color.White
         dgHistory.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        dgHistory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -57,7 +60,7 @@ Partial Class Employee_History
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
         dgHistory.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgHistory.ColumnHeadersHeight = 4
+        dgHistory.ColumnHeadersHeight = 20
         dgHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
@@ -68,12 +71,14 @@ Partial Class Employee_History
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgHistory.DefaultCellStyle = DataGridViewCellStyle3
         dgHistory.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgHistory.Location = New Point(19, 121)
+        dgHistory.Location = New Point(17, 91)
+        dgHistory.Margin = New Padding(3, 2, 3, 2)
         dgHistory.Name = "dgHistory"
+        dgHistory.ReadOnly = True
         dgHistory.RowHeadersVisible = False
         dgHistory.RowHeadersWidth = 51
         dgHistory.RowTemplate.Height = 29
-        dgHistory.Size = New Size(882, 521)
+        dgHistory.Size = New Size(772, 391)
         dgHistory.TabIndex = 0
         dgHistory.Tag = "dgHistory"
         dgHistory.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
@@ -88,8 +93,8 @@ Partial Class Employee_History
         dgHistory.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dgHistory.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgHistory.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgHistory.ThemeStyle.HeaderStyle.Height = 4
-        dgHistory.ThemeStyle.ReadOnly = False
+        dgHistory.ThemeStyle.HeaderStyle.Height = 20
+        dgHistory.ThemeStyle.ReadOnly = True
         dgHistory.ThemeStyle.RowsStyle.BackColor = Color.White
         dgHistory.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgHistory.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -109,10 +114,11 @@ Partial Class Employee_History
         btnExport.FillColor = Color.Maroon
         btnExport.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnExport.ForeColor = Color.White
-        btnExport.Location = New Point(788, 662)
+        btnExport.Location = New Point(690, 496)
+        btnExport.Margin = New Padding(3, 2, 3, 2)
         btnExport.Name = "btnExport"
         btnExport.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnExport.Size = New Size(113, 43)
+        btnExport.Size = New Size(99, 32)
         btnExport.TabIndex = 8
         btnExport.Tag = "btnExport"
         btnExport.Text = "Export"
@@ -120,9 +126,9 @@ Partial Class Employee_History
         ' lblManager
         ' 
         lblManager.AutoSize = True
-        lblManager.Location = New Point(734, 65)
+        lblManager.Location = New Point(642, 49)
         lblManager.Name = "lblManager"
-        lblManager.Size = New Size(53, 20)
+        lblManager.Size = New Size(41, 15)
         lblManager.TabIndex = 19
         lblManager.Tag = "lblManager"
         lblManager.Text = "Label8"
@@ -130,9 +136,9 @@ Partial Class Employee_History
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(734, 31)
+        lblSupervisor.Location = New Point(642, 23)
         lblSupervisor.Name = "lblSupervisor"
-        lblSupervisor.Size = New Size(53, 20)
+        lblSupervisor.Size = New Size(41, 15)
         lblSupervisor.TabIndex = 18
         lblSupervisor.Tag = "lblSupervisor"
         lblSupervisor.Text = "Label7"
@@ -140,9 +146,9 @@ Partial Class Employee_History
         ' lblEmployeeID
         ' 
         lblEmployeeID.AutoSize = True
-        lblEmployeeID.Location = New Point(147, 65)
+        lblEmployeeID.Location = New Point(129, 49)
         lblEmployeeID.Name = "lblEmployeeID"
-        lblEmployeeID.Size = New Size(53, 20)
+        lblEmployeeID.Size = New Size(41, 15)
         lblEmployeeID.TabIndex = 17
         lblEmployeeID.Tag = "lblEmployeeID"
         lblEmployeeID.Text = "Label6"
@@ -150,9 +156,9 @@ Partial Class Employee_History
         ' lblEmployeeName
         ' 
         lblEmployeeName.AutoSize = True
-        lblEmployeeName.Location = New Point(147, 31)
+        lblEmployeeName.Location = New Point(129, 23)
         lblEmployeeName.Name = "lblEmployeeName"
-        lblEmployeeName.Size = New Size(53, 20)
+        lblEmployeeName.Size = New Size(41, 15)
         lblEmployeeName.TabIndex = 13
         lblEmployeeName.Tag = "lblEmployeeName"
         lblEmployeeName.Text = "Label5"
@@ -161,9 +167,9 @@ Partial Class Employee_History
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(647, 65)
+        Label4.Location = New Point(566, 49)
         Label4.Name = "Label4"
-        Label4.Size = New Size(71, 20)
+        Label4.Size = New Size(57, 15)
         Label4.TabIndex = 15
         Label4.Text = "Manager:"
         ' 
@@ -171,9 +177,9 @@ Partial Class Employee_History
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(647, 31)
+        Label3.Location = New Point(566, 23)
         Label3.Name = "Label3"
-        Label3.Size = New Size(81, 20)
+        Label3.Size = New Size(65, 15)
         Label3.TabIndex = 14
         Label3.Text = "Supervisor:"
         ' 
@@ -181,9 +187,9 @@ Partial Class Employee_History
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(19, 65)
+        Label2.Location = New Point(17, 49)
         Label2.Name = "Label2"
-        Label2.Size = New Size(97, 20)
+        Label2.Size = New Size(76, 15)
         Label2.TabIndex = 12
         Label2.Text = "Employee ID:"
         ' 
@@ -191,22 +197,23 @@ Partial Class Employee_History
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(19, 31)
+        Label1.Location = New Point(17, 23)
         Label1.Name = "Label1"
-        Label1.Size = New Size(122, 20)
+        Label1.Size = New Size(97, 15)
         Label1.TabIndex = 11
         Label1.Text = "Employee Name:"
         ' 
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-92, 98)
+        Guna2Shapes1.Location = New Point(-80, 74)
+        Guna2Shapes1.Margin = New Padding(3, 2, 3, 2)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
         Guna2Shapes1.RoundedEdges = CustomizableEdges3
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Guna2Shapes1.Size = New Size(1103, 3)
+        Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 58
         Guna2Shapes1.Text = "Guna2Shapes1"
         Guna2Shapes1.Zoom = 80
@@ -222,20 +229,21 @@ Partial Class Employee_History
         btnSelect.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnSelect.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnSelect.ForeColor = Color.White
-        btnSelect.Location = New Point(19, 662)
+        btnSelect.Location = New Point(17, 496)
+        btnSelect.Margin = New Padding(3, 2, 3, 2)
         btnSelect.Name = "btnSelect"
         btnSelect.ShadowDecoration.CustomizableEdges = CustomizableEdges5
-        btnSelect.Size = New Size(113, 43)
+        btnSelect.Size = New Size(99, 32)
         btnSelect.TabIndex = 10
         btnSelect.Tag = "btnSelect"
         btnSelect.Text = "Select"
         ' 
         ' Employee_History
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(918, 736)
+        ClientSize = New Size(803, 552)
         ControlBox = False
         Controls.Add(Guna2Shapes1)
         Controls.Add(lblManager)
@@ -249,6 +257,7 @@ Partial Class Employee_History
         Controls.Add(btnSelect)
         Controls.Add(dgHistory)
         Controls.Add(btnExport)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Employee_History"
         CType(dgHistory, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

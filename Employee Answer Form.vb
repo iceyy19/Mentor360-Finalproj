@@ -8,12 +8,12 @@ Imports Mysqlx.XDevAPI
 
 
 Public Class Employee_Answer_Form
-    Public ID As String = "2022" 'Login.ID
-    Public eN As String = "2022" 'Employee_Dashboard.eN
-    Public sID As String = "2023" 'Employee_Dashboard.sID
-    Public sN As String = "2023" 'Employee_Dashboard.sN
-    Public mID As String = "2024" 'Employee_Dashboard.mID
-    Public mN As String = "2024" 'Employee_Dashboard.mN
+    Public ID As String = Login.ID
+    Public eN As String
+    Public sID As String
+    Public sN As String
+    Public mID As String
+    Public mN As String
     Dim currentPage As Integer = 1
     Private SD1 As String
     Private SD2 As String
@@ -56,6 +56,7 @@ Public Class Employee_Answer_Form
     Private Er5 As String
     Private Er6 As String
     Private Er7 As String
+    Private ERating As Double
 
 
     Private Sub Employee_Answer_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -92,6 +93,7 @@ Public Class Employee_Answer_Form
             Er5 = txtCI.Text
             Er6 = txtCL.Text
             Er7 = txtP.Text
+            CalculateFormula()
             insertfeedback()
             ClearRadioButtons()
             ResetVariables()
@@ -115,9 +117,9 @@ Public Class Employee_Answer_Form
 
             myConnectionx.Open()
             myCommandx = New MySqlCommand($"INSERT INTO tblfeedback (dEmployeeID, dEmployeeName, dSupervisorID, dSupervisorName, dManagerID, dManagerName, dEl1, dEl2, dEl3, dEl4, dEl5, dEl6, dEl7, dEl8
-            , dEl9, dEl10, dEl11, dEl12, dEl13, dEl14, dEl15, dEl16, dEl17, dEl18, dEl19, dEl20, dEl21, dEl22, dEl23, dEl24, dEl25, dEl26, dEl27, dEl28, dEl29, dEl30, dEl31, dEl32, dEl33, dEl34, dEr1, dEr2, dEr3, dEr4, dEr5, dEr6, dEr7, tEDateResponse)
+            , dEl9, dEl10, dEl11, dEl12, dEl13, dEl14, dEl15, dEl16, dEl17, dEl18, dEl19, dEl20, dEl21, dEl22, dEl23, dEl24, dEl25, dEl26, dEl27, dEl28, dEl29, dEl30, dEl31, dEl32, dEl33, dEl34, dEr1, dEr2, dEr3, dEr4, dEr5, dEr6, dEr7, tEDateResponse, dErating)
             VALUES ('{ID}', '{eN}','{sID}','{sN}','{mID}', '{mN}','{SD1}','{SD2}','{SD3}','{SD4}','{SD5}','{SD6}','{SD7}','{SD8}','{SD9}','{SD10}','{SD11}','{SD12}','{SD13}','{SD14}','{SD15}',
-            '{SDA1}','{SDA2}','{PS1}','{D1}','{D2}','{CI1}','{CI2}','{CI3}','{CI4}','{CL1}','{CL2}','{CL3}','{P1}','{P2}','{P3}','{P4}','{P5}','{P6}','{P7}','{Er1}','{Er2}','{Er3}','{Er4}','{Er5}','{Er6}','{Er7}', CURRENT_TIMESTAMP())", myConnectionx)
+            '{SDA1}','{SDA2}','{PS1}','{D1}','{D2}','{CI1}','{CI2}','{CI3}','{CI4}','{CL1}','{CL2}','{CL3}','{P1}','{P2}','{P3}','{P4}','{P5}','{P6}','{P7}','{Er1}','{Er2}','{Er3}','{Er4}','{Er5}','{Er6}','{Er7}', CURRENT_TIMESTAMP(), '{ERating}')", myConnectionx)
             myCommandx.ExecuteNonQuery()
 
         Catch ex As Exception
@@ -261,6 +263,70 @@ Public Class Employee_Answer_Form
             End Select
         End If
     End Sub
+
+    Private Sub CalculateFormula()
+        Dim yesCount As Integer = 0
+        Dim noCount As Integer = 0
+        Dim naCount As Integer = 0
+
+        CountOption(SD1, yesCount, noCount, naCount)
+        CountOption(SD2, yesCount, noCount, naCount)
+        CountOption(SD3, yesCount, noCount, naCount)
+        CountOption(SD4, yesCount, noCount, naCount)
+        CountOption(SD5, yesCount, noCount, naCount)
+        CountOption(SD6, yesCount, noCount, naCount)
+        CountOption(SD7, yesCount, noCount, naCount)
+        CountOption(SD8, yesCount, noCount, naCount)
+        CountOption(SD9, yesCount, noCount, naCount)
+        CountOption(SD10, yesCount, noCount, naCount)
+        CountOption(SD11, yesCount, noCount, naCount)
+        CountOption(SD12, yesCount, noCount, naCount)
+        CountOption(SD13, yesCount, noCount, naCount)
+        CountOption(SD14, yesCount, noCount, naCount)
+        CountOption(SD15, yesCount, noCount, naCount)
+        CountOption(SDA1, yesCount, noCount, naCount)
+        CountOption(SDA2, yesCount, noCount, naCount)
+        CountOption(PS1, yesCount, noCount, naCount)
+        CountOption(D1, yesCount, noCount, naCount)
+        CountOption(D2, yesCount, noCount, naCount)
+        CountOption(CI1, yesCount, noCount, naCount)
+        CountOption(CI2, yesCount, noCount, naCount)
+        CountOption(CI3, yesCount, noCount, naCount)
+        CountOption(CI4, yesCount, noCount, naCount)
+        CountOption(CL1, yesCount, noCount, naCount)
+        CountOption(CL2, yesCount, noCount, naCount)
+        CountOption(CL3, yesCount, noCount, naCount)
+        CountOption(P1, yesCount, noCount, naCount)
+        CountOption(P2, yesCount, noCount, naCount)
+        CountOption(P3, yesCount, noCount, naCount)
+        CountOption(P4, yesCount, noCount, naCount)
+        CountOption(P5, yesCount, noCount, naCount)
+        CountOption(P6, yesCount, noCount, naCount)
+        CountOption(P7, yesCount, noCount, naCount)
+
+        ERating = 0.00
+
+        If (yesCount + noCount) > 0 Then
+            ERating = Math.Round((yesCount / (yesCount + noCount)) * 5, 2)
+        Else
+            ' Handle the case where there are no Yes or No responses
+            ERating = 0.00
+        End If
+
+        ERating.ToString()
+    End Sub
+
+    Private Sub CountOption(optionValue As String, ByRef yesCount As Integer, ByRef noCount As Integer, ByRef naCount As Integer)
+        ' Update counters based on the option value
+        Select Case optionValue
+            Case "Yes"
+                yesCount += 1
+            Case "No"
+                noCount += 1
+            Case "NA"
+                naCount += 1
+        End Select
+    End Sub
     Private Sub ResetVariables()
         SDA1 = Nothing
         SDA2 = Nothing
@@ -296,6 +362,7 @@ Public Class Employee_Answer_Form
         SD13 = Nothing
         SD14 = Nothing
         SD15 = Nothing
+        ERating = Nothing
     End Sub
 
     Private Sub ClearRadioButtons()
