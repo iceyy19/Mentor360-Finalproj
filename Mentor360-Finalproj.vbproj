@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>Mentor360_Finalproj</RootNamespace>
-    <StartupObject>Mentor360_Finalproj.Login</StartupObject>
+    <StartupObject>Mentor360_Finalproj.Supervisor_Dashboard</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>

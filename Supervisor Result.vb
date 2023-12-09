@@ -131,4 +131,101 @@ Public Class Supervisor_Result
             End Using
         End If
     End Sub
+
+    Private Sub lblSDS14_Click(sender As Object, e As EventArgs) Handles lblSDS14.Click
+
+    End Sub
+
+    Private Sub lblSDS13_Click(sender As Object, e As EventArgs) Handles lblSDS13.Click
+    End Sub
+
+    Private Sub lblSDS12_Click(sender As Object, e As EventArgs) Handles lblSDS12.Click
+    End Sub
+
+    Private Sub lblSDS11_Click(sender As Object, e As EventArgs) Handles lblSDS11.Click
+    End Sub
+
+    Private Sub lblSDS10_Click(sender As Object, e As EventArgs) Handles lblSDS10.Click
+    End Sub
+
+    Private Sub lblSDS9_Click(sender As Object, e As EventArgs) Handles lblSDS9.Click
+    End Sub
+
+    Private Sub lblSDS8_Click(sender As Object, e As EventArgs) Handles lblSDS8.Click
+    End Sub
+
+    Private Sub lblSDS7_Click(sender As Object, e As EventArgs) Handles lblSDS7.Click
+    End Sub
+
+    Private Sub lblSDS6_Click(sender As Object, e As EventArgs) Handles lblSDS6.Click
+    End Sub
+
+    Private Sub lblSDS5_Click(sender As Object, e As EventArgs) Handles lblSDS5.Click
+    End Sub
+
+    Private Sub lblSDS4_Click(sender As Object, e As EventArgs) Handles lblSDS4.Click
+    End Sub
+
+    Private Sub lblSDS3_Click(sender As Object, e As EventArgs) Handles lblSDS3.Click
+    End Sub
+
+    Private Sub lblSDE14_Click(sender As Object, e As EventArgs) Handles lblSDE14.Click
+    End Sub
+
+    Private Sub lblSDE13_Click(sender As Object, e As EventArgs) Handles lblSDE13.Click
+    End Sub
+
+    Private Sub lblSDE12_Click(sender As Object, e As EventArgs) Handles lblSDE12.Click
+    End Sub
+
+    Private Sub lblSDE11_Click(sender As Object, e As EventArgs) Handles lblSDE11.Click
+    End Sub
+
+    Private Sub lblSDE10_Click(sender As Object, e As EventArgs) Handles lblSDE10.Click
+    End Sub
+
+    Private Sub lblSDE9_Click(sender As Object, e As EventArgs) Handles lblSDE9.Click
+    End Sub
+
+    Private Sub lblSDE8_Click(sender As Object, e As EventArgs) Handles lblSDE8.Click
+    End Sub
+
+    Private Sub lblSDE7_Click(sender As Object, e As EventArgs) Handles lblSDE7.Click
+    End Sub
+
+    Private Sub lblSDE6_Click(sender As Object, e As EventArgs) Handles lblSDE6.Click
+    End Sub
+
+    Private Sub lblSDE5_Click(sender As Object, e As EventArgs) Handles lblSDE5.Click
+    End Sub
+
+    Private Sub lblSDE4_Click(sender As Object, e As EventArgs) Handles lblSDE4.Click
+    End Sub
+
+    Private Sub lblSDE3_Click(sender As Object, e As EventArgs) Handles lblSDE3.Click
+    End Sub
+
+    Private Sub lblSDE2_Click(sender As Object, e As EventArgs) Handles lblSDE2.Click
+    End Sub
+
+    Private Sub lblSDE1_Click(sender As Object, e As EventArgs) Handles lblSDE1.Click
+    End Sub
+
+    Private Sub Guna2HtmlLabel32_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel32.Click
+    End Sub
+
+    Private Sub Guna2HtmlLabel35_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel35.Click
+    End Sub
+
+    Private Sub Guna2HtmlLabel38_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel38.Click
+    End Sub
+
+    Private Sub Guna2HtmlLabel44_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel44.Click
+    End Sub
+
+    Private Sub lblSDS15_Click(sender As Object, e As EventArgs) Handles lblSDS15.Click
+    End Sub
+
+    Private Sub lblSDE15_Click(sender As Object, e As EventArgs) Handles lblSDE15.Click
+    End Sub
 End Class
