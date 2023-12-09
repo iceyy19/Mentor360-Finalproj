@@ -56,7 +56,7 @@ Public Class Admin_Dashboard
         End If
     End Sub
 
-    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+    Private Sub btnReset_Click(sender As Object, e As EventArgs)
         Clear()
     End Sub
 
@@ -211,7 +211,7 @@ Public Class Admin_Dashboard
         End Try
     End Sub
 
-    Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
+    Private Sub btnAdd_Click(sender As Object, e As EventArgs)
         If txtEId.Text = "Employee ID" Or txtEName.Text = "Employee Name" Or txtSId.Text = "Supervisor ID" Or txtSName.Text = "Supervisor Name" Or txtMId.Text = "Manager ID" Or txtMName.Text = "Manager Name" Then
             MessageBox.Show("Provide information in the designated fields.")
         Else

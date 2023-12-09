@@ -51,7 +51,6 @@ Partial Class Supervisor_Dashboard
         Label2 = New Label()
         Label1 = New Label()
         Controlpanel = New Guna.UI2.WinForms.Guna2Panel()
-        PictureBox1 = New PictureBox()
         btnLogout = New Guna.UI2.WinForms.Guna2Button()
         btnEmployees = New Guna.UI2.WinForms.Guna2Button()
         btnHome = New Guna.UI2.WinForms.Guna2Button()
@@ -59,10 +58,11 @@ Partial Class Supervisor_Dashboard
         btnHistory = New Guna.UI2.WinForms.Guna2Button()
         btnAnswers = New Guna.UI2.WinForms.Guna2Button()
         btnResult = New Guna.UI2.WinForms.Guna2Button()
+        PictureBox1 = New PictureBox()
         Homepanel.SuspendLayout()
         Controlpanel.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Homepanel
@@ -86,7 +86,7 @@ Partial Class Supervisor_Dashboard
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(640, 31)
+        lblSupervisor.Location = New Point(640, 24)
         lblSupervisor.Name = "lblSupervisor"
         lblSupervisor.Size = New Size(41, 15)
         lblSupervisor.TabIndex = 6
@@ -95,7 +95,7 @@ Partial Class Supervisor_Dashboard
         ' lblId
         ' 
         lblId.AutoSize = True
-        lblId.Location = New Point(136, 56)
+        lblId.Location = New Point(136, 49)
         lblId.Name = "lblId"
         lblId.Size = New Size(41, 15)
         lblId.TabIndex = 5
@@ -104,7 +104,7 @@ Partial Class Supervisor_Dashboard
         ' lblName
         ' 
         lblName.AutoSize = True
-        lblName.Location = New Point(136, 31)
+        lblName.Location = New Point(136, 24)
         lblName.Name = "lblName"
         lblName.Size = New Size(41, 15)
         lblName.TabIndex = 2
@@ -113,7 +113,7 @@ Partial Class Supervisor_Dashboard
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-72, 80)
+        Guna2Shapes1.Location = New Point(-72, 73)
         Guna2Shapes1.Margin = New Padding(3, 2, 3, 2)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
@@ -129,7 +129,7 @@ Partial Class Supervisor_Dashboard
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(573, 31)
+        Label3.Location = New Point(573, 24)
         Label3.Name = "Label3"
         Label3.Size = New Size(57, 15)
         Label3.TabIndex = 2
@@ -139,7 +139,7 @@ Partial Class Supervisor_Dashboard
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(24, 56)
+        Label2.Location = New Point(24, 49)
         Label2.Name = "Label2"
         Label2.Size = New Size(79, 15)
         Label2.TabIndex = 1
@@ -149,7 +149,7 @@ Partial Class Supervisor_Dashboard
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(24, 31)
+        Label1.Location = New Point(24, 24)
         Label1.Name = "Label1"
         Label1.Size = New Size(100, 15)
         Label1.TabIndex = 0
@@ -173,17 +173,6 @@ Partial Class Supervisor_Dashboard
         Controlpanel.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Controlpanel.Size = New Size(131, 568)
         Controlpanel.TabIndex = 5
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.small_wave1
-        PictureBox1.Location = New Point(-22, 350)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(206, 161)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 13
-        PictureBox1.TabStop = False
         ' 
         ' btnLogout
         ' 
@@ -310,6 +299,17 @@ Partial Class Supervisor_Dashboard
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.small_wave1
+        PictureBox1.Location = New Point(-22, 350)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(206, 161)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 13
+        PictureBox1.TabStop = False
+        ' 
         ' Supervisor_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -324,8 +324,8 @@ Partial Class Supervisor_Dashboard
         Homepanel.ResumeLayout(False)
         Homepanel.PerformLayout()
         Controlpanel.ResumeLayout(False)
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
     Friend WithEvents lblSupervisor As Label

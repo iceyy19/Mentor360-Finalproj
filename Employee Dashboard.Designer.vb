@@ -57,9 +57,11 @@ Partial Class Employee_Dashboard
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
+        PictureBox1 = New PictureBox()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         Homepanel.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Panel1
@@ -71,6 +73,7 @@ Partial Class Employee_Dashboard
         Guna2Panel1.Controls.Add(btnLogout)
         Guna2Panel1.Controls.Add(btnAnswer)
         Guna2Panel1.Controls.Add(btnResult)
+        Guna2Panel1.Controls.Add(PictureBox1)
         Guna2Panel1.CustomizableEdges = CustomizableEdges13
         Guna2Panel1.Location = New Point(0, 0)
         Guna2Panel1.Margin = New Padding(3, 2, 3, 2)
@@ -207,7 +210,7 @@ Partial Class Employee_Dashboard
         ' lblManager
         ' 
         lblManager.AutoSize = True
-        lblManager.Location = New Point(649, 56)
+        lblManager.Location = New Point(649, 48)
         lblManager.Name = "lblManager"
         lblManager.Size = New Size(41, 15)
         lblManager.TabIndex = 7
@@ -216,7 +219,7 @@ Partial Class Employee_Dashboard
         ' lblSupervisor
         ' 
         lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(649, 31)
+        lblSupervisor.Location = New Point(649, 23)
         lblSupervisor.Name = "lblSupervisor"
         lblSupervisor.Size = New Size(41, 15)
         lblSupervisor.TabIndex = 6
@@ -225,7 +228,7 @@ Partial Class Employee_Dashboard
         ' lblEID
         ' 
         lblEID.AutoSize = True
-        lblEID.Location = New Point(136, 56)
+        lblEID.Location = New Point(136, 48)
         lblEID.Name = "lblEID"
         lblEID.Size = New Size(41, 15)
         lblEID.TabIndex = 5
@@ -234,7 +237,7 @@ Partial Class Employee_Dashboard
         ' lblEName
         ' 
         lblEName.AutoSize = True
-        lblEName.Location = New Point(136, 31)
+        lblEName.Location = New Point(136, 23)
         lblEName.Name = "lblEName"
         lblEName.Size = New Size(41, 15)
         lblEName.TabIndex = 2
@@ -243,7 +246,7 @@ Partial Class Employee_Dashboard
         ' Guna2Shapes1
         ' 
         Guna2Shapes1.FillColor = Color.Gray
-        Guna2Shapes1.Location = New Point(-72, 92)
+        Guna2Shapes1.Location = New Point(-72, 84)
         Guna2Shapes1.Margin = New Padding(3, 2, 3, 2)
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
@@ -259,7 +262,7 @@ Partial Class Employee_Dashboard
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(573, 56)
+        Label4.Location = New Point(573, 48)
         Label4.Name = "Label4"
         Label4.Size = New Size(57, 15)
         Label4.TabIndex = 3
@@ -269,7 +272,7 @@ Partial Class Employee_Dashboard
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(573, 31)
+        Label3.Location = New Point(573, 23)
         Label3.Name = "Label3"
         Label3.Size = New Size(65, 15)
         Label3.TabIndex = 2
@@ -279,7 +282,7 @@ Partial Class Employee_Dashboard
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(24, 56)
+        Label2.Location = New Point(24, 48)
         Label2.Name = "Label2"
         Label2.Size = New Size(76, 15)
         Label2.TabIndex = 1
@@ -289,17 +292,28 @@ Partial Class Employee_Dashboard
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(24, 31)
+        Label1.Location = New Point(24, 23)
         Label1.Name = "Label1"
         Label1.Size = New Size(97, 15)
         Label1.TabIndex = 0
         Label1.Text = "Employee Name:"
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.small_wave1
+        PictureBox1.Location = New Point(-22, 350)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(206, 161)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 15
+        PictureBox1.TabStop = False
+        ' 
         ' Employee_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(947, 567)
+        ClientSize = New Size(947, 569)
         Controls.Add(Homepanel)
         Controls.Add(Guna2Panel1)
         IsMdiContainer = True
@@ -310,6 +324,7 @@ Partial Class Employee_Dashboard
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         Homepanel.ResumeLayout(False)
         Homepanel.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -330,4 +345,5 @@ Partial Class Employee_Dashboard
     Friend WithEvents btnHistory As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents btnHome As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

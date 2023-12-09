@@ -297,4 +297,8 @@ Public Class Employee_Dashboard
             Login.Show()
         End If
     End Sub
+
+    Private Sub Homepanel_Paint(sender As Object, e As PaintEventArgs) Handles Homepanel.Paint
+
+    End Sub
 End Class

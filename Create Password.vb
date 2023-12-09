@@ -9,7 +9,7 @@ Public Class Create_Password
     Public Q2 As String = Security_Questions.Q2
     Public Q3 As String = Security_Questions.Q3
 
-    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnBack.Click
 
     End Sub
 

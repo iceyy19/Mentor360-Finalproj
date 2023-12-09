@@ -33,6 +33,8 @@ Partial Class Login
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         btnLogin = New Guna.UI2.WinForms.Guna2Button()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -40,10 +42,11 @@ Partial Class Login
         txtPass = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         gblogin = New GroupBox()
-        cAdmin = New CheckBox()
+        btnShowPass = New Guna.UI2.WinForms.Guna2Button()
+        cAdmin = New Guna.UI2.WinForms.Guna2CheckBox()
+        LinkLabel1 = New LinkLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Label1 = New Label()
-        LinkLabel1 = New LinkLabel()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         gblogin.SuspendLayout()
@@ -165,8 +168,9 @@ Partial Class Login
         ' gblogin
         ' 
         gblogin.BackColor = Color.White
-        gblogin.Controls.Add(LinkLabel1)
+        gblogin.Controls.Add(btnShowPass)
         gblogin.Controls.Add(cAdmin)
+        gblogin.Controls.Add(LinkLabel1)
         gblogin.Controls.Add(Guna2HtmlLabel1)
         gblogin.Controls.Add(Label1)
         gblogin.Controls.Add(txtPass)
@@ -182,15 +186,57 @@ Partial Class Login
         gblogin.TabIndex = 9
         gblogin.TabStop = False
         ' 
+        ' btnShowPass
+        ' 
+        btnShowPass.BackColor = Color.Transparent
+        btnShowPass.CustomizableEdges = CustomizableEdges11
+        btnShowPass.DisabledState.BorderColor = Color.DarkGray
+        btnShowPass.DisabledState.CustomBorderColor = Color.DarkGray
+        btnShowPass.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnShowPass.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnShowPass.FillColor = Color.White
+        btnShowPass.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnShowPass.ForeColor = Color.White
+        btnShowPass.HoverState.BorderColor = Color.White
+        btnShowPass.HoverState.CustomBorderColor = Color.White
+        btnShowPass.HoverState.FillColor = Color.White
+        btnShowPass.ImageSize = New Size(30, 17)
+        btnShowPass.Location = New Point(246, 279)
+        btnShowPass.Margin = New Padding(3, 2, 3, 2)
+        btnShowPass.Name = "btnShowPass"
+        btnShowPass.PressedColor = Color.White
+        btnShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        btnShowPass.Size = New Size(46, 23)
+        btnShowPass.TabIndex = 25
+        btnShowPass.UseTransparentBackground = True
+        ' 
         ' cAdmin
         ' 
         cAdmin.AutoSize = True
-        cAdmin.Location = New Point(305, 378)
+        cAdmin.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cAdmin.CheckedState.BorderRadius = 0
+        cAdmin.CheckedState.BorderThickness = 0
+        cAdmin.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cAdmin.Location = New Point(304, 378)
+        cAdmin.Margin = New Padding(3, 2, 3, 2)
         cAdmin.Name = "cAdmin"
         cAdmin.Size = New Size(62, 19)
-        cAdmin.TabIndex = 9
+        cAdmin.TabIndex = 11
         cAdmin.Text = "Admin"
-        cAdmin.UseVisualStyleBackColor = True
+        cAdmin.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        cAdmin.UncheckedState.BorderRadius = 0
+        cAdmin.UncheckedState.BorderThickness = 0
+        cAdmin.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.AutoSize = True
+        LinkLabel1.Location = New Point(79, 310)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(100, 15)
+        LinkLabel1.TabIndex = 10
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "Forgot Password?"
         ' 
         ' Guna2HtmlLabel1
         ' 
@@ -200,7 +246,7 @@ Partial Class Login
         Guna2HtmlLabel1.Location = New Point(120, 104)
         Guna2HtmlLabel1.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(123, 29)
+        Guna2HtmlLabel1.Size = New Size(137, 37)
         Guna2HtmlLabel1.TabIndex = 8
         Guna2HtmlLabel1.Text = "Mentor360"
         ' 
@@ -214,16 +260,6 @@ Partial Class Login
         Label1.Size = New Size(66, 25)
         Label1.TabIndex = 7
         Label1.Text = "LOGIN"
-        ' 
-        ' LinkLabel1
-        ' 
-        LinkLabel1.AutoSize = True
-        LinkLabel1.Location = New Point(79, 310)
-        LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(100, 15)
-        LinkLabel1.TabIndex = 10
-        LinkLabel1.TabStop = True
-        LinkLabel1.Text = "Forgot Password?"
         ' 
         ' Login
         ' 
@@ -251,6 +287,7 @@ Partial Class Login
     Friend WithEvents gblogin As GroupBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents cAdmin As CheckBox
     Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents cAdmin As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents btnShowPass As Guna.UI2.WinForms.Guna2Button
 End Class
