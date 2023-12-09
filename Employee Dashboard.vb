@@ -7,11 +7,11 @@ Public Class Employee_Dashboard
     Public Resultform As Employee_Result
     Private Historyform As Employee_History
     Public ID As String = Login.ID
-    Public Shared eN As String
-    Public Shared sID As String
-    Public Shared sN As String
-    Public Shared mID As String
-    Public Shared mN As String
+    Public eN As String
+    Public sID As String
+    Public sN As String
+    Public mID As String
+    Public mN As String
     Private Sub Employee_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Answerform = New Employee_Answer_Form()
@@ -21,12 +21,7 @@ Public Class Employee_Dashboard
         InitializeForm(Answerform)
         InitializeForm(Resultform)
         InitializeForm(Historyform)
-        Answerform.Show()
-        Resultform.Show()
-        Historyform.Show()
-        Answerform.Hide()
-        Resultform.Hide()
-        Historyform.Hide()
+
         Dim result As Tuple(Of String, String, String, String, String) = GetEmployeeData(ID)
 
         ' Access the data using the result variables
@@ -38,8 +33,14 @@ Public Class Employee_Dashboard
 
         lblEID.Text = ID
         lblEName.Text = eN
-        lblSupervisor.Text = sID & ", " & sN
-        lblManager.Text = mID & ", " & mN
+        lblSupervisor.Text = sN
+        lblManager.Text = mN
+        Answerform.Show()
+        Resultform.Show()
+        Historyform.Show()
+        Answerform.Hide()
+        Resultform.Hide()
+        Historyform.Hide()
     End Sub
 
     Private Sub InitializeForm(form As Form)
@@ -175,6 +176,7 @@ Public Class Employee_Dashboard
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData2("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData2("dSr6")
                 Resultform.txtPS1.Text = Resultform.SelectedRowData2("dSr7")
+                Resultform.txtDiscussion.Text = Resultform.SelectedRowData2("dDiscussion")
             End If
 
             Answerform.Hide()

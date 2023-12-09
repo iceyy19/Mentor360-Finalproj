@@ -9,11 +9,40 @@ Public Class Supervisor_Dashboard
     Public Resultform As Supervisor_Result
     Public Historyform As Supervisor_History
     Public ID As String = Login.ID
+    Public Sname As String
+    Public Mname As String
     Private Sub Supervisor_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim sqlQuery As String = "SELECT dSupervisorID, dSupervisorName, dManagerID, dManagerName FROM tblhierarchy WHERE dSupervisorID = 2021"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            ' Create a MySqlCommand
+            Using command As New MySqlCommand(sqlQuery, connection)
+                ' Open the connection
+                connection.Open()
+
+                ' Execute the query
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    ' Check if there are rows
+                    If reader.HasRows Then
+                        ' Read the first row
+                        reader.Read()
+
+                        ' Retrieve values and store in variables
+                        Sname = reader("dSupervisorName").ToString()
+                        Mname = reader("dManagerName").ToString()
+
+                    Else
+                        Console.WriteLine("No data found for the specified Supervisor ID.")
+                    End If
+                End Using
+            End Using
+        End Using
         Answerform = New Supervisor_Answer_Form()
         Resultform = New Supervisor_Result()
         Historyform = New Supervisor_History
-
+        lblId.Text = ID
+        lblName.Text = Sname
+        lblSupervisor.Text = Mname
 
         InitializeForm(Answerform)
         InitializeForm(Resultform)
@@ -63,6 +92,9 @@ Public Class Supervisor_Dashboard
             If Resultform.SelectedRowData IsNot Nothing Then
                 Resultform.lblEmployeeID.Text = Resultform.SelectedRowData("dEmployeeID")
                 Resultform.lblEmployeeName.Text = Resultform.SelectedRowData("dEmployeeName")
+                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData("dSupervisorID")
+                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData("dSupervisorName")
+                Resultform.lblManager.Text = Resultform.SelectedRowData("dManagerName")
                 Resultform.lblSDS1.Text = Resultform.SelectedRowData("dSl1")
                 Resultform.lblSDS2.Text = Resultform.SelectedRowData("dSl2")
                 Resultform.lblSDS3.Text = Resultform.SelectedRowData("dSl3")

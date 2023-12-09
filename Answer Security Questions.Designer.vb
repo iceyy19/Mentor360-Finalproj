@@ -58,10 +58,11 @@ Partial Class Answer_Security_Questions
         btnNext.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnNext.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnNext.ForeColor = Color.White
-        btnNext.Location = New Point(494, 509)
+        btnNext.Location = New Point(160, 387)
+        btnNext.Margin = New Padding(3, 2, 3, 2)
         btnNext.Name = "btnNext"
         btnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        btnNext.Size = New Size(113, 41)
+        btnNext.Size = New Size(99, 31)
         btnNext.TabIndex = 30
         btnNext.Text = "Next"
         ' 
@@ -75,10 +76,11 @@ Partial Class Answer_Security_Questions
         btnReset.FillColor = Color.Maroon
         btnReset.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnReset.ForeColor = Color.White
-        btnReset.Location = New Point(352, 509)
+        btnReset.Location = New Point(29, 387)
+        btnReset.Margin = New Padding(3, 2, 3, 2)
         btnReset.Name = "btnReset"
         btnReset.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnReset.Size = New Size(113, 41)
+        btnReset.Size = New Size(99, 31)
         btnReset.TabIndex = 29
         btnReset.Text = "Reset"
         ' 
@@ -87,16 +89,17 @@ Partial Class Answer_Security_Questions
         Guna2HtmlLabel2.AutoSize = False
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2HtmlLabel2.Location = New Point(23, 32)
+        Guna2HtmlLabel2.Location = New Point(20, 24)
+        Guna2HtmlLabel2.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(245, 21)
+        Guna2HtmlLabel2.Size = New Size(214, 16)
         Guna2HtmlLabel2.TabIndex = 20
         Guna2HtmlLabel2.Text = "Security Question 1"
         ' 
         ' Guna2TextBox1
         ' 
         Guna2TextBox1.AutoRoundedCorners = True
-        Guna2TextBox1.BorderRadius = 21
+        Guna2TextBox1.BorderRadius = 16
         Guna2TextBox1.CustomizableEdges = CustomizableEdges5
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -106,22 +109,24 @@ Partial Class Answer_Security_Questions
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(23, 92)
+        Guna2TextBox1.Location = New Point(20, 69)
+        Guna2TextBox1.Margin = New Padding(3, 2, 3, 2)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox1.Size = New Size(305, 45)
+        Guna2TextBox1.Size = New Size(267, 34)
         Guna2TextBox1.TabIndex = 19
         ' 
         ' Guna2HtmlLabel1
         ' 
         Guna2HtmlLabel1.AutoSize = False
         Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Location = New Point(23, 64)
+        Guna2HtmlLabel1.Location = New Point(20, 48)
+        Guna2HtmlLabel1.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(123, 21)
+        Guna2HtmlLabel1.Size = New Size(108, 16)
         Guna2HtmlLabel1.TabIndex = 18
         Guna2HtmlLabel1.Text = "Answer:"
         ' 
@@ -138,10 +143,11 @@ Partial Class Answer_Security_Questions
         cbquestion1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cbquestion1.ItemHeight = 30
         cbquestion1.Items.AddRange(New Object() {"What is the name of your favorite pet?", "What is your favorite music?", "What is your best friend’s name?", "What is the first name of your cousin?", "What was your dream job as a child?"})
-        cbquestion1.Location = New Point(23, 44)
+        cbquestion1.Location = New Point(20, 33)
+        cbquestion1.Margin = New Padding(3, 2, 3, 2)
         cbquestion1.Name = "cbquestion1"
         cbquestion1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        cbquestion1.Size = New Size(0, 31)
+        cbquestion1.Size = New Size(0, 27)
         cbquestion1.TabIndex = 17
         ' 
         ' Guna2HtmlLabel3
@@ -149,16 +155,17 @@ Partial Class Answer_Security_Questions
         Guna2HtmlLabel3.AutoSize = False
         Guna2HtmlLabel3.BackColor = Color.Transparent
         Guna2HtmlLabel3.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2HtmlLabel3.Location = New Point(23, 181)
+        Guna2HtmlLabel3.Location = New Point(20, 136)
+        Guna2HtmlLabel3.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Guna2HtmlLabel3.Size = New Size(245, 21)
+        Guna2HtmlLabel3.Size = New Size(214, 16)
         Guna2HtmlLabel3.TabIndex = 33
         Guna2HtmlLabel3.Text = "Security Question 2"
         ' 
         ' Guna2TextBox2
         ' 
         Guna2TextBox2.AutoRoundedCorners = True
-        Guna2TextBox2.BorderRadius = 21
+        Guna2TextBox2.BorderRadius = 16
         Guna2TextBox2.CustomizableEdges = CustomizableEdges9
         Guna2TextBox2.DefaultText = ""
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -168,22 +175,24 @@ Partial Class Answer_Security_Questions
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(23, 241)
+        Guna2TextBox2.Location = New Point(20, 181)
+        Guna2TextBox2.Margin = New Padding(3, 2, 3, 2)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox2.Size = New Size(305, 45)
+        Guna2TextBox2.Size = New Size(267, 34)
         Guna2TextBox2.TabIndex = 32
         ' 
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.AutoSize = False
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.Location = New Point(23, 213)
+        Guna2HtmlLabel4.Location = New Point(20, 160)
+        Guna2HtmlLabel4.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Guna2HtmlLabel4.Size = New Size(123, 21)
+        Guna2HtmlLabel4.Size = New Size(108, 16)
         Guna2HtmlLabel4.TabIndex = 31
         Guna2HtmlLabel4.Text = "Answer:"
         ' 
@@ -192,16 +201,17 @@ Partial Class Answer_Security_Questions
         Guna2HtmlLabel5.AutoSize = False
         Guna2HtmlLabel5.BackColor = Color.Transparent
         Guna2HtmlLabel5.Font = New Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2HtmlLabel5.Location = New Point(23, 334)
+        Guna2HtmlLabel5.Location = New Point(20, 250)
+        Guna2HtmlLabel5.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Guna2HtmlLabel5.Size = New Size(245, 21)
+        Guna2HtmlLabel5.Size = New Size(214, 16)
         Guna2HtmlLabel5.TabIndex = 36
         Guna2HtmlLabel5.Text = "Security Question 3"
         ' 
         ' Guna2TextBox3
         ' 
         Guna2TextBox3.AutoRoundedCorners = True
-        Guna2TextBox3.BorderRadius = 21
+        Guna2TextBox3.BorderRadius = 16
         Guna2TextBox3.CustomizableEdges = CustomizableEdges11
         Guna2TextBox3.DefaultText = ""
         Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -211,31 +221,33 @@ Partial Class Answer_Security_Questions
         Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(23, 394)
+        Guna2TextBox3.Location = New Point(20, 296)
+        Guna2TextBox3.Margin = New Padding(3, 2, 3, 2)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox3.Size = New Size(305, 45)
+        Guna2TextBox3.Size = New Size(267, 34)
         Guna2TextBox3.TabIndex = 35
         ' 
         ' Guna2HtmlLabel6
         ' 
         Guna2HtmlLabel6.AutoSize = False
         Guna2HtmlLabel6.BackColor = Color.Transparent
-        Guna2HtmlLabel6.Location = New Point(23, 366)
+        Guna2HtmlLabel6.Location = New Point(20, 274)
+        Guna2HtmlLabel6.Margin = New Padding(3, 2, 3, 2)
         Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
-        Guna2HtmlLabel6.Size = New Size(123, 21)
+        Guna2HtmlLabel6.Size = New Size(108, 16)
         Guna2HtmlLabel6.TabIndex = 34
         Guna2HtmlLabel6.Text = "Answer:"
         ' 
         ' Answer_Security_Questions
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(630, 572)
+        ClientSize = New Size(316, 429)
         ControlBox = False
         Controls.Add(Guna2HtmlLabel5)
         Controls.Add(Guna2TextBox3)
@@ -249,7 +261,9 @@ Partial Class Answer_Security_Questions
         Controls.Add(Guna2TextBox1)
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(cbquestion1)
+        Margin = New Padding(3, 2, 3, 2)
         Name = "Answer_Security_Questions"
+        StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
     End Sub
 

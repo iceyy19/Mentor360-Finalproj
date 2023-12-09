@@ -9,11 +9,11 @@ Imports Mysqlx.XDevAPI
 
 Public Class Employee_Answer_Form
     Public ID As String = Login.ID
-    Public eN As String
-    Public sID As String
-    Public sN As String
-    Public mID As String
-    Public mN As String
+    Public eN As String = Employee_Dashboard.eN
+    Public sID As String = Employee_Dashboard.sID
+    Public sN As String = Employee_Dashboard.sN
+    Public mID As String = Employee_Dashboard.mID
+    Public mN As String = Employee_Dashboard.mN
     Dim currentPage As Integer = 1
     Private SD1 As String
     Private SD2 As String
@@ -62,9 +62,9 @@ Public Class Employee_Answer_Form
     Private Sub Employee_Answer_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         rbPage1.Checked = True
         lblEID.Text = ID
-        lblEName.Text = eN
-        lblSupervisor.Text = sID & ", " & sN
-        lblManager.Text = mID & ", " & mN
+        lblEName.Text = Employee_Dashboard.eN
+        lblSupervisor.Text = Employee_Dashboard.sN
+        lblManager.Text = Employee_Dashboard.mN
 
     End Sub
 

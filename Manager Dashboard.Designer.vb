@@ -22,153 +22,61 @@ Partial Class Manager_Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Manager_Dashboard))
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Label3 = New Label()
-        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        btnLogout = New Guna.UI2.WinForms.Guna2Button()
-        btnHistory = New Guna.UI2.WinForms.Guna2Button()
-        btnResult = New Guna.UI2.WinForms.Guna2Button()
-        PictureBox1 = New PictureBox()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Homepanel = New Guna.UI2.WinForms.Guna2Panel()
         lblManagerID = New Label()
         lblManagerName = New Label()
         Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Label2 = New Label()
         Label1 = New Label()
-        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        btnHome = New Guna.UI2.WinForms.Guna2Button()
+        Label3 = New Label()
+        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         btnEmployees = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Panel2.SuspendLayout()
+        btnHome = New Guna.UI2.WinForms.Guna2Button()
+        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        btnLogout = New Guna.UI2.WinForms.Guna2Button()
+        btnHistory = New Guna.UI2.WinForms.Guna2Button()
+        btnResult = New Guna.UI2.WinForms.Guna2Button()
+        PictureBox1 = New PictureBox()
+        Homepanel.SuspendLayout()
         Guna2Panel1.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' Guna2Panel2
+        ' Homepanel
         ' 
-        Guna2Panel2.BackColor = Color.White
-        Guna2Panel2.Controls.Add(lblManagerID)
-        Guna2Panel2.Controls.Add(lblManagerName)
-        Guna2Panel2.Controls.Add(Guna2Shapes1)
-        Guna2Panel2.Controls.Add(Label2)
-        Guna2Panel2.Controls.Add(Label1)
-        Guna2Panel2.Controls.Add(Label3)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges2
-        Guna2Panel2.Location = New Point(130, -2)
-        Guna2Panel2.Margin = New Padding(3, 2, 3, 2)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        Guna2Panel2.Size = New Size(821, 574)
-        Guna2Panel2.TabIndex = 1
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(405, 31)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(0, 15)
-        Label3.TabIndex = 2
-        ' 
-        ' Guna2Panel1
-        ' 
-        Guna2Panel1.BackColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        Guna2Panel1.Controls.Add(btnEmployees)
-        Guna2Panel1.Controls.Add(btnHome)
-        Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.Controls.Add(btnLogout)
-        Guna2Panel1.Controls.Add(btnHistory)
-        Guna2Panel1.Controls.Add(btnResult)
-        Guna2Panel1.Controls.Add(PictureBox1)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges16
-        Guna2Panel1.Location = New Point(0, -2)
-        Guna2Panel1.Margin = New Padding(3, 2, 3, 2)
-        Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-        Guna2Panel1.Size = New Size(131, 574)
-        Guna2Panel1.TabIndex = 2
-        ' 
-        ' btnLogout
-        ' 
-        btnLogout.CustomizableEdges = CustomizableEdges10
-        btnLogout.DisabledState.BorderColor = Color.DarkGray
-        btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
-        btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnLogout.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(3, 502)
-        btnLogout.Margin = New Padding(3, 2, 3, 2)
-        btnLogout.Name = "btnLogout"
-        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges11
-        btnLogout.Size = New Size(122, 33)
-        btnLogout.TabIndex = 7
-        btnLogout.Text = "Logout"
-        ' 
-        ' btnHistory
-        ' 
-        btnHistory.CustomizableEdges = CustomizableEdges12
-        btnHistory.DisabledState.BorderColor = Color.DarkGray
-        btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
-        btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(3, 147)
-        btnHistory.Margin = New Padding(3, 2, 3, 2)
-        btnHistory.Name = "btnHistory"
-        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges13
-        btnHistory.Size = New Size(122, 33)
-        btnHistory.TabIndex = 6
-        btnHistory.Text = "History"
-        ' 
-        ' btnResult
-        ' 
-        btnResult.CustomizableEdges = CustomizableEdges14
-        btnResult.DisabledState.BorderColor = Color.DarkGray
-        btnResult.DisabledState.CustomBorderColor = Color.DarkGray
-        btnResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnResult.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnResult.ForeColor = Color.White
-        btnResult.Location = New Point(3, 184)
-        btnResult.Margin = New Padding(3, 2, 3, 2)
-        btnResult.Name = "btnResult"
-        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges15
-        btnResult.Size = New Size(122, 33)
-        btnResult.TabIndex = 5
-        btnResult.Text = "Results"
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.small_wave1
-        PictureBox1.Location = New Point(-22, 350)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(206, 161)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 14
-        PictureBox1.TabStop = False
+        Homepanel.BackColor = Color.White
+        Homepanel.Controls.Add(lblManagerID)
+        Homepanel.Controls.Add(lblManagerName)
+        Homepanel.Controls.Add(Guna2Shapes1)
+        Homepanel.Controls.Add(Label2)
+        Homepanel.Controls.Add(Label1)
+        Homepanel.Controls.Add(Label3)
+        Homepanel.CustomizableEdges = CustomizableEdges19
+        Homepanel.Location = New Point(130, -2)
+        Homepanel.Margin = New Padding(3, 2, 3, 2)
+        Homepanel.Name = "Homepanel"
+        Homepanel.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Homepanel.Size = New Size(821, 574)
+        Homepanel.TabIndex = 1
         ' 
         ' lblManagerID
         ' 
@@ -198,7 +106,7 @@ Partial Class Manager_Dashboard
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
-        Guna2Shapes1.RoundedEdges = CustomizableEdges1
+        Guna2Shapes1.RoundedEdges = CustomizableEdges18
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
         Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 35
@@ -225,42 +133,36 @@ Partial Class Manager_Dashboard
         Label1.TabIndex = 32
         Label1.Text = "Manager Name:"
         ' 
-        ' Guna2PictureBox2
+        ' Label3
         ' 
-        Guna2PictureBox2.BackColor = Color.Transparent
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges8
-        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
-        Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(3, 9)
-        Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
-        Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges9
-        Guna2PictureBox2.Size = New Size(122, 40)
-        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox2.TabIndex = 15
-        Guna2PictureBox2.TabStop = False
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(405, 31)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(0, 15)
+        Label3.TabIndex = 2
         ' 
-        ' btnHome
+        ' Guna2Panel1
         ' 
-        btnHome.CustomizableEdges = CustomizableEdges6
-        btnHome.DisabledState.BorderColor = Color.DarkGray
-        btnHome.DisabledState.CustomBorderColor = Color.DarkGray
-        btnHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnHome.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
-        btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
-        btnHome.ForeColor = Color.White
-        btnHome.Location = New Point(3, 110)
-        btnHome.Margin = New Padding(3, 2, 3, 2)
-        btnHome.Name = "btnHome"
-        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges7
-        btnHome.Size = New Size(122, 33)
-        btnHome.TabIndex = 16
-        btnHome.Text = "Home"
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        Guna2Panel1.Controls.Add(btnEmployees)
+        Guna2Panel1.Controls.Add(btnHome)
+        Guna2Panel1.Controls.Add(Guna2PictureBox2)
+        Guna2Panel1.Controls.Add(btnLogout)
+        Guna2Panel1.Controls.Add(btnHistory)
+        Guna2Panel1.Controls.Add(btnResult)
+        Guna2Panel1.Controls.Add(PictureBox1)
+        Guna2Panel1.CustomizableEdges = CustomizableEdges33
+        Guna2Panel1.Location = New Point(0, -2)
+        Guna2Panel1.Margin = New Padding(3, 2, 3, 2)
+        Guna2Panel1.Name = "Guna2Panel1"
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        Guna2Panel1.Size = New Size(131, 574)
+        Guna2Panel1.TabIndex = 2
         ' 
         ' btnEmployees
         ' 
-        btnEmployees.CustomizableEdges = CustomizableEdges4
+        btnEmployees.CustomizableEdges = CustomizableEdges21
         btnEmployees.DisabledState.BorderColor = Color.DarkGray
         btnEmployees.DisabledState.CustomBorderColor = Color.DarkGray
         btnEmployees.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -271,10 +173,108 @@ Partial Class Manager_Dashboard
         btnEmployees.Location = New Point(3, 221)
         btnEmployees.Margin = New Padding(3, 2, 3, 2)
         btnEmployees.Name = "btnEmployees"
-        btnEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges5
+        btnEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         btnEmployees.Size = New Size(122, 33)
         btnEmployees.TabIndex = 17
         btnEmployees.Text = "Employees"
+        ' 
+        ' btnHome
+        ' 
+        btnHome.CustomizableEdges = CustomizableEdges23
+        btnHome.DisabledState.BorderColor = Color.DarkGray
+        btnHome.DisabledState.CustomBorderColor = Color.DarkGray
+        btnHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnHome.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnHome.ForeColor = Color.White
+        btnHome.Location = New Point(3, 110)
+        btnHome.Margin = New Padding(3, 2, 3, 2)
+        btnHome.Name = "btnHome"
+        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        btnHome.Size = New Size(122, 33)
+        btnHome.TabIndex = 16
+        btnHome.Text = "Home"
+        ' 
+        ' Guna2PictureBox2
+        ' 
+        Guna2PictureBox2.BackColor = Color.Transparent
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges25
+        Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
+        Guna2PictureBox2.ImageRotate = 0F
+        Guna2PictureBox2.Location = New Point(3, 9)
+        Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
+        Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Guna2PictureBox2.Size = New Size(122, 40)
+        Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox2.TabIndex = 15
+        Guna2PictureBox2.TabStop = False
+        ' 
+        ' btnLogout
+        ' 
+        btnLogout.CustomizableEdges = CustomizableEdges27
+        btnLogout.DisabledState.BorderColor = Color.DarkGray
+        btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
+        btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnLogout.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnLogout.ForeColor = Color.White
+        btnLogout.Location = New Point(3, 502)
+        btnLogout.Margin = New Padding(3, 2, 3, 2)
+        btnLogout.Name = "btnLogout"
+        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        btnLogout.Size = New Size(122, 33)
+        btnLogout.TabIndex = 7
+        btnLogout.Text = "Logout"
+        ' 
+        ' btnHistory
+        ' 
+        btnHistory.CustomizableEdges = CustomizableEdges29
+        btnHistory.DisabledState.BorderColor = Color.DarkGray
+        btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
+        btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnHistory.ForeColor = Color.White
+        btnHistory.Location = New Point(3, 147)
+        btnHistory.Margin = New Padding(3, 2, 3, 2)
+        btnHistory.Name = "btnHistory"
+        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        btnHistory.Size = New Size(122, 33)
+        btnHistory.TabIndex = 6
+        btnHistory.Text = "History"
+        ' 
+        ' btnResult
+        ' 
+        btnResult.CustomizableEdges = CustomizableEdges31
+        btnResult.DisabledState.BorderColor = Color.DarkGray
+        btnResult.DisabledState.CustomBorderColor = Color.DarkGray
+        btnResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnResult.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
+        btnResult.ForeColor = Color.White
+        btnResult.Location = New Point(3, 184)
+        btnResult.Margin = New Padding(3, 2, 3, 2)
+        btnResult.Name = "btnResult"
+        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        btnResult.Size = New Size(122, 33)
+        btnResult.TabIndex = 5
+        btnResult.Text = "Results"
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.small_wave1
+        PictureBox1.Location = New Point(-22, 350)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(206, 161)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 14
+        PictureBox1.TabStop = False
         ' 
         ' Manager_Dashboard
         ' 
@@ -282,21 +282,22 @@ Partial Class Manager_Dashboard
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(947, 569)
-        Controls.Add(Guna2Panel2)
+        Controls.Add(Homepanel)
         Controls.Add(Guna2Panel1)
         IsMdiContainer = True
         Margin = New Padding(3, 2, 3, 2)
         Name = "Manager_Dashboard"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Manager_Dashboard"
-        Guna2Panel2.ResumeLayout(False)
-        Guna2Panel2.PerformLayout()
+        Homepanel.ResumeLayout(False)
+        Homepanel.PerformLayout()
         Guna2Panel1.ResumeLayout(False)
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Homepanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button

@@ -47,6 +47,7 @@ Partial Class Employee_Dashboard
         btnLogout = New Guna.UI2.WinForms.Guna2Button()
         btnAnswer = New Guna.UI2.WinForms.Guna2Button()
         btnResult = New Guna.UI2.WinForms.Guna2Button()
+        PictureBox1 = New PictureBox()
         Homepanel = New Guna.UI2.WinForms.Guna2Panel()
         lblManager = New Label()
         lblSupervisor = New Label()
@@ -57,11 +58,10 @@ Partial Class Employee_Dashboard
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
-        PictureBox1 = New PictureBox()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        Homepanel.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Homepanel.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Panel1
@@ -187,6 +187,17 @@ Partial Class Employee_Dashboard
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.small_wave1
+        PictureBox1.Location = New Point(-22, 350)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(206, 161)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 15
+        PictureBox1.TabStop = False
+        ' 
         ' Homepanel
         ' 
         Homepanel.BackColor = Color.White
@@ -298,17 +309,6 @@ Partial Class Employee_Dashboard
         Label1.TabIndex = 0
         Label1.Text = "Employee Name:"
         ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.small_wave1
-        PictureBox1.Location = New Point(-22, 350)
-        PictureBox1.Margin = New Padding(3, 2, 3, 2)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(206, 161)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 15
-        PictureBox1.TabStop = False
-        ' 
         ' Employee_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -319,12 +319,13 @@ Partial Class Employee_Dashboard
         IsMdiContainer = True
         Margin = New Padding(3, 2, 3, 2)
         Name = "Employee_Dashboard"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Employee_Dashboard"
         Guna2Panel1.ResumeLayout(False)
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Homepanel.ResumeLayout(False)
         Homepanel.PerformLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 

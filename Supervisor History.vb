@@ -8,6 +8,9 @@ Public Class Supervisor_History
     Public Shared parsedtime As DateTime
     Public Shared Property SelectedRowData As Dictionary(Of String, String)
     Private Sub Supervisor_History_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblSupervisorID.Text = ID
+        lblSupervisorName.Text = Supervisor_Dashboard.Sname
+        lblManager.Text = Supervisor_Dashboard.Mname
         Resultform = Supervisor_Dashboard.Resultform
 
         InitializeForm(Resultform)
@@ -93,6 +96,9 @@ Public Class Supervisor_History
                 End Using
                 Resultform.lblEmployeeID.Text = Resultform.SelectedRowData("dEmployeeID")
                 Resultform.lblEmployeeName.Text = Resultform.SelectedRowData("dEmployeeName")
+                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData("dSupervisorID")
+                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData("dSupervisorName")
+                Resultform.lblManager.Text = Resultform.SelectedRowData("dManagerName")
                 Resultform.lblSDS1.Text = Resultform.SelectedRowData("dSl1")
                 Resultform.lblSDS2.Text = Resultform.SelectedRowData("dSl2")
                 Resultform.lblSDS3.Text = Resultform.SelectedRowData("dSl3")

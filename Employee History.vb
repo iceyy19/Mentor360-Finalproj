@@ -3,12 +3,7 @@ Imports MySql.Data.MySqlClient
 Public Class Employee_History
     Public Shared Property SelectedRowData2 As Dictionary(Of String, String)
     Public Resultform As Employee_Result
-    Public Shared ID As String
-    Public Shared eN As String
-    Public Shared sID As String
-    Public Shared sN As String
-    Public Shared mID As String
-    Public Shared mN As String
+    Public ID As String = Login.ID
     Private Sub Guna2DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgHistory.CellContentClick
 
     End Sub
@@ -18,9 +13,9 @@ Public Class Employee_History
 
         InitializeForm(Resultform)
         lblEmployeeID.Text = ID
-        lblEmployeeName.Text = eN
-        lblSupervisor.Text = sID & ", " & sN
-        lblManager.Text = mID & ", " & mN
+        lblEmployeeName.Text = Employee_Dashboard.eN
+        lblSupervisor.Text = Employee_Dashboard.sN
+        lblManager.Text = Employee_Dashboard.mN
     End Sub
     Private Sub InitializeForm(form As Form)
         form.TopLevel = False
@@ -154,7 +149,7 @@ Public Class Employee_History
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData2("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData2("dSr6")
                 Resultform.txtPS1.Text = Resultform.SelectedRowData2("dSr7")
-
+                Resultform.txtDiscussion.Text = Resultform.SelectedRowData2("dDiscussion")
                 ' ... (Repeat for other columns)
             End If
 

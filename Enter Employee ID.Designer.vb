@@ -78,7 +78,7 @@ Partial Class Enter_Employee_ID
         txtNPassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtNPassword.Location = New Point(21, 40)
         txtNPassword.Margin = New Padding(3, 2, 3, 2)
-        txtNPassword.MaxLength = 20
+        txtNPassword.MaxLength = 10
         txtNPassword.Name = "txtNPassword"
         txtNPassword.PasswordChar = ChrW(0)
         txtNPassword.PlaceholderText = ""
@@ -117,6 +117,7 @@ Partial Class Enter_Employee_ID
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(txtNPassword)
         Name = "Enter_Employee_ID"
+        StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
     End Sub
 

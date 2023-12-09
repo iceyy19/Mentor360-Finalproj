@@ -24,6 +24,15 @@ Partial Class Admin_Dashboard
     Private Sub InitializeComponent()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Admin_Dashboard))
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -58,16 +67,11 @@ Partial Class Admin_Dashboard
         Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Admin_Dashboard))
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        btnSave = New Guna.UI2.WinForms.Guna2Button()
+        btnRemove = New Guna.UI2.WinForms.Guna2Button()
+        btnEdit = New Guna.UI2.WinForms.Guna2Button()
         btnReset = New Guna.UI2.WinForms.Guna2Button()
         btnAdd = New Guna.UI2.WinForms.Guna2Button()
         txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
@@ -90,16 +94,12 @@ Partial Class Admin_Dashboard
         btnHome = New Guna.UI2.WinForms.Guna2Button()
         btnAdmin = New Guna.UI2.WinForms.Guna2Button()
         PictureBox1 = New PictureBox()
-        btnEdit = New Guna.UI2.WinForms.Guna2Button()
-        btnRemove = New Guna.UI2.WinForms.Guna2Button()
-        btnSave = New Guna.UI2.WinForms.Guna2Button()
-        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2Panel2.SuspendLayout()
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(dghierarchy, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Panel2
@@ -132,6 +132,79 @@ Partial Class Admin_Dashboard
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         Guna2Panel2.Size = New Size(818, 575)
         Guna2Panel2.TabIndex = 1
+        ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
+        Guna2PictureBox1.Image = My.Resources.Resources.search_icon
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(198, 82)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2PictureBox1.Size = New Size(18, 18)
+        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox1.TabIndex = 43
+        Guna2PictureBox1.TabStop = False
+        ' 
+        ' btnSave
+        ' 
+        btnSave.AutoRoundedCorners = True
+        btnSave.BorderRadius = 13
+        btnSave.CustomizableEdges = CustomizableEdges3
+        btnSave.DisabledState.BorderColor = Color.DarkGray
+        btnSave.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSave.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSave.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSave.FillColor = Color.White
+        btnSave.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnSave.ForeColor = Color.White
+        btnSave.Image = CType(resources.GetObject("btnSave.Image"), Image)
+        btnSave.ImageSize = New Size(32, 29)
+        btnSave.Location = New Point(151, 451)
+        btnSave.Name = "btnSave"
+        btnSave.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnSave.Size = New Size(30, 28)
+        btnSave.TabIndex = 42
+        ' 
+        ' btnRemove
+        ' 
+        btnRemove.AutoRoundedCorners = True
+        btnRemove.BorderRadius = 13
+        btnRemove.CustomizableEdges = CustomizableEdges5
+        btnRemove.DisabledState.BorderColor = Color.DarkGray
+        btnRemove.DisabledState.CustomBorderColor = Color.DarkGray
+        btnRemove.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnRemove.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnRemove.FillColor = Color.White
+        btnRemove.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnRemove.ForeColor = Color.White
+        btnRemove.Image = CType(resources.GetObject("btnRemove.Image"), Image)
+        btnRemove.ImageSize = New Size(31, 28)
+        btnRemove.Location = New Point(108, 451)
+        btnRemove.Name = "btnRemove"
+        btnRemove.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btnRemove.Size = New Size(30, 28)
+        btnRemove.TabIndex = 41
+        ' 
+        ' btnEdit
+        ' 
+        btnEdit.AutoRoundedCorners = True
+        btnEdit.BorderRadius = 13
+        btnEdit.CustomizableEdges = CustomizableEdges7
+        btnEdit.DisabledState.BorderColor = Color.DarkGray
+        btnEdit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEdit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEdit.FillColor = Color.White
+        btnEdit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEdit.ForeColor = Color.White
+        btnEdit.Image = CType(resources.GetObject("btnEdit.Image"), Image)
+        btnEdit.ImageSize = New Size(26, 26)
+        btnEdit.Location = New Point(66, 451)
+        btnEdit.Name = "btnEdit"
+        btnEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        btnEdit.Size = New Size(30, 28)
+        btnEdit.TabIndex = 40
         ' 
         ' btnReset
         ' 
@@ -598,79 +671,6 @@ Partial Class Admin_Dashboard
         PictureBox1.TabIndex = 15
         PictureBox1.TabStop = False
         ' 
-        ' btnEdit
-        ' 
-        btnEdit.AutoRoundedCorners = True
-        btnEdit.BorderRadius = 13
-        btnEdit.CustomizableEdges = CustomizableEdges7
-        btnEdit.DisabledState.BorderColor = Color.DarkGray
-        btnEdit.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEdit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEdit.FillColor = Color.White
-        btnEdit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEdit.ForeColor = Color.White
-        btnEdit.Image = CType(resources.GetObject("btnEdit.Image"), Image)
-        btnEdit.ImageSize = New Size(26, 26)
-        btnEdit.Location = New Point(66, 451)
-        btnEdit.Name = "btnEdit"
-        btnEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        btnEdit.Size = New Size(30, 28)
-        btnEdit.TabIndex = 40
-        ' 
-        ' btnRemove
-        ' 
-        btnRemove.AutoRoundedCorners = True
-        btnRemove.BorderRadius = 13
-        btnRemove.CustomizableEdges = CustomizableEdges5
-        btnRemove.DisabledState.BorderColor = Color.DarkGray
-        btnRemove.DisabledState.CustomBorderColor = Color.DarkGray
-        btnRemove.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnRemove.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnRemove.FillColor = Color.White
-        btnRemove.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnRemove.ForeColor = Color.White
-        btnRemove.Image = CType(resources.GetObject("btnRemove.Image"), Image)
-        btnRemove.ImageSize = New Size(31, 28)
-        btnRemove.Location = New Point(108, 451)
-        btnRemove.Name = "btnRemove"
-        btnRemove.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnRemove.Size = New Size(30, 28)
-        btnRemove.TabIndex = 41
-        ' 
-        ' btnSave
-        ' 
-        btnSave.AutoRoundedCorners = True
-        btnSave.BorderRadius = 13
-        btnSave.CustomizableEdges = CustomizableEdges3
-        btnSave.DisabledState.BorderColor = Color.DarkGray
-        btnSave.DisabledState.CustomBorderColor = Color.DarkGray
-        btnSave.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnSave.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnSave.FillColor = Color.White
-        btnSave.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSave.ForeColor = Color.White
-        btnSave.Image = CType(resources.GetObject("btnSave.Image"), Image)
-        btnSave.ImageSize = New Size(32, 29)
-        btnSave.Location = New Point(151, 451)
-        btnSave.Name = "btnSave"
-        btnSave.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        btnSave.Size = New Size(30, 28)
-        btnSave.TabIndex = 42
-        ' 
-        ' Guna2PictureBox1
-        ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
-        Guna2PictureBox1.Image = My.Resources.Resources.search_icon
-        Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(198, 82)
-        Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox1.Size = New Size(18, 18)
-        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox1.TabIndex = 43
-        Guna2PictureBox1.TabStop = False
-        ' 
         ' Admin_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -681,14 +681,15 @@ Partial Class Admin_Dashboard
         IsMdiContainer = True
         Margin = New Padding(3, 2, 3, 2)
         Name = "Admin_Dashboard"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Admin_Dashboard"
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(dghierarchy, ComponentModel.ISupportInitialize).EndInit()
         Guna2Panel1.ResumeLayout(False)
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 

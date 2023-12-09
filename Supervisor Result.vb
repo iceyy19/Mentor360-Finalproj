@@ -12,6 +12,9 @@ Public Class Supervisor_Result
     Public time As String
     Public Property SelectedRowData As Dictionary(Of String, String)
     Private Sub Supervisor_Result_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblSupervisorID.Text = ID
+        lblSupervisorName.Text = Supervisor_Dashboard.Sname
+        lblManager.Text = Supervisor_Dashboard.Mname
         gbPage2.Visible = False
         gbPage3.Visible = False
         gbPage4.Visible = False
@@ -132,101 +135,4 @@ Public Class Supervisor_Result
         End If
     End Sub
 
-    Private Sub lblSDS14_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub lblSDS13_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS12_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS11_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS10_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS9_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS8_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS7_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS6_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS5_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS4_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS3_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE14_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE13_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE12_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE11_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE10_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE9_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE8_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE7_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE6_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE5_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE4_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE3_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE2_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE1_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDS15_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub lblSDE15_Click(sender As Object, e As EventArgs)
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-    End Sub
-
-    Private Sub Guna2Shapes1_Click(sender As Object, e As EventArgs) Handles Guna2Shapes1.Click
-    End Sub
-
-    Private Sub lblSupervisorName_Click(sender As Object, e As EventArgs) Handles lblSupervisorName.Click
-    End Sub
 End Class

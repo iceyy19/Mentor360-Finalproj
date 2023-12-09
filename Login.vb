@@ -13,6 +13,11 @@ Public Class Login
     End Sub
 
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtPass.UseSystemPasswordChar = True
+        btnShowPass.Image = My.Resources.Hidepassword
+        btnShowPass.ImageOffset = New Point(0, 0)
+        btnShowPass.ImageAlign = HorizontalAlignment.Center
+        btnShowPass.TextAlign = HorizontalAlignment.Center
         For Each textBox As Guna2TextBox In {txtID, txtPass}
             textBox.Tag = textBox.Text
         Next
@@ -232,10 +237,25 @@ Public Class Login
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-
+        Enter_Employee_ID.Show()
     End Sub
 
     Private Sub gblogin_Enter(sender As Object, e As EventArgs) Handles gblogin.Enter
 
+    End Sub
+    Dim isPasswordVisible As Boolean = True
+    Private Sub btnShowPass_Click(sender As Object, e As EventArgs) Handles btnShowPass.Click
+
+        isPasswordVisible = Not isPasswordVisible
+        If isPasswordVisible Then
+            txtPass.UseSystemPasswordChar = False
+            btnShowPass.Image = My.Resources.Showpassword
+        Else
+            txtPass.UseSystemPasswordChar = True
+            btnShowPass.Image = My.Resources.Hidepassword
+        End If
+        btnShowPass.ImageOffset = New Point(0, 0)
+        btnShowPass.ImageAlign = HorizontalAlignment.Center
+        btnShowPass.TextAlign = HorizontalAlignment.Center
     End Sub
 End Class

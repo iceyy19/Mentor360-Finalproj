@@ -61,6 +61,8 @@ Public Class Supervisor_Answer_Form
         lblSupervisorID.Text = ID
         lblEmployeeID.Text = eID
         lblEmployeeName.Text = eName
+        lblSupervisorName.Text = Supervisor_Dashboard.Sname
+        lblManager.Text = Supervisor_Dashboard.Mname
 
     End Sub
 

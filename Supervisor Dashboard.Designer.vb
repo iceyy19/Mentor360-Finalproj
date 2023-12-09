@@ -320,6 +320,7 @@ Partial Class Supervisor_Dashboard
         IsMdiContainer = True
         Margin = New Padding(3, 2, 3, 2)
         Name = "Supervisor_Dashboard"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Supervisor_Dashboard"
         Homepanel.ResumeLayout(False)
         Homepanel.PerformLayout()

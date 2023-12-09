@@ -117,7 +117,7 @@ Partial Class Login
         txtID.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtID.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtID.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtID.Location = New Point(79, 218)
+        txtID.Location = New Point(79, 199)
         txtID.Margin = New Padding(3, 2, 3, 2)
         txtID.MaxLength = 10
         txtID.Name = "txtID"
@@ -142,11 +142,11 @@ Partial Class Login
         txtPass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtPass.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtPass.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtPass.Location = New Point(79, 274)
+        txtPass.Location = New Point(79, 248)
         txtPass.Margin = New Padding(3, 2, 3, 2)
         txtPass.MaxLength = 20
         txtPass.Name = "txtPass"
-        txtPass.PasswordChar = "*"c
+        txtPass.PasswordChar = ChrW(0)
         txtPass.PlaceholderText = "Password"
         txtPass.SelectedText = ""
         txtPass.ShadowDecoration.CustomizableEdges = CustomizableEdges10
@@ -200,13 +200,13 @@ Partial Class Login
         btnShowPass.HoverState.BorderColor = Color.White
         btnShowPass.HoverState.CustomBorderColor = Color.White
         btnShowPass.HoverState.FillColor = Color.White
-        btnShowPass.ImageSize = New Size(30, 17)
-        btnShowPass.Location = New Point(246, 279)
+        btnShowPass.ImageSize = New Size(25, 15)
+        btnShowPass.Location = New Point(259, 254)
         btnShowPass.Margin = New Padding(3, 2, 3, 2)
         btnShowPass.Name = "btnShowPass"
         btnShowPass.PressedColor = Color.White
         btnShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        btnShowPass.Size = New Size(46, 23)
+        btnShowPass.Size = New Size(32, 23)
         btnShowPass.TabIndex = 25
         btnShowPass.UseTransparentBackground = True
         ' 
@@ -231,7 +231,7 @@ Partial Class Login
         ' LinkLabel1
         ' 
         LinkLabel1.AutoSize = True
-        LinkLabel1.Location = New Point(79, 310)
+        LinkLabel1.Location = New Point(81, 295)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(100, 15)
         LinkLabel1.TabIndex = 10
@@ -254,7 +254,7 @@ Partial Class Login
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(146, 170)
+        Label1.Location = New Point(146, 157)
         Label1.Margin = New Padding(2, 0, 2, 0)
         Label1.Name = "Label1"
         Label1.Size = New Size(66, 25)
@@ -270,6 +270,7 @@ Partial Class Login
         Controls.Add(Guna2PictureBox1)
         Margin = New Padding(3, 2, 3, 2)
         Name = "Login"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Login"
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
