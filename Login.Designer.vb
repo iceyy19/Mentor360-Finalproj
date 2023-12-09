@@ -43,6 +43,7 @@ Partial Class Login
         cAdmin = New CheckBox()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Label1 = New Label()
+        LinkLabel1 = New LinkLabel()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         gblogin.SuspendLayout()
@@ -90,11 +91,11 @@ Partial Class Login
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges5
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(120, 18)
+        Guna2PictureBox2.Location = New Point(120, 10)
         Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2PictureBox2.Size = New Size(123, 91)
+        Guna2PictureBox2.Size = New Size(123, 99)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 6
         Guna2PictureBox2.TabStop = False
@@ -164,6 +165,7 @@ Partial Class Login
         ' gblogin
         ' 
         gblogin.BackColor = Color.White
+        gblogin.Controls.Add(LinkLabel1)
         gblogin.Controls.Add(cAdmin)
         gblogin.Controls.Add(Guna2HtmlLabel1)
         gblogin.Controls.Add(Label1)
@@ -213,6 +215,16 @@ Partial Class Login
         Label1.TabIndex = 7
         Label1.Text = "LOGIN"
         ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.AutoSize = True
+        LinkLabel1.Location = New Point(79, 310)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(100, 15)
+        LinkLabel1.TabIndex = 10
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "Forgot Password?"
+        ' 
         ' Login
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -240,4 +252,5 @@ Partial Class Login
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents cAdmin As CheckBox
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

@@ -69,4 +69,17 @@ Public Class Employee_Result
         End If
     End Sub
 
+    Private Sub lblSDS1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
+    End Sub
+
+    Private Sub txtSDE1_TextChanged(sender As Object, e As EventArgs) Handles txtSDE1.TextChanged
+
+    End Sub
+
+    Private Sub txtSDS1_TextChanged(sender As Object, e As EventArgs) Handles txtSDS1.TextChanged
+    End Sub
 End Class

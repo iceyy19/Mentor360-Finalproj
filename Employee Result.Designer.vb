@@ -35,19 +35,18 @@ Partial Class Employee_Result
         Dim CustomizableEdges11 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges41 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As Global.System.ComponentModel.ComponentResourceManager = New Global.System.ComponentModel.ComponentResourceManager(GetType(Global.Mentor360_Finalproj.Employee_Result))
         Dim CustomizableEdges22 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -64,6 +63,7 @@ Partial Class Employee_Result
         Dim CustomizableEdges35 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges36 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges37 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As Global.System.ComponentModel.ComponentResourceManager = New Global.System.ComponentModel.ComponentResourceManager(GetType(Global.Mentor360_Finalproj.Employee_Result))
         Dim CustomizableEdges52 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges53 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -144,8 +144,26 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel45 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel44 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel43 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.gbPage1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel3 = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.lblSDS9 = New Global.System.Windows.Forms.Label()
+        Me.Guna2HtmlLabel58 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.lblSDE9 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS7 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE7 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS8 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE8 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS6 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE6 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS5 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE5 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS4 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE4 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS3 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE3 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS2 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE2 = New Global.System.Windows.Forms.Label()
+        Me.lblSDS1 = New Global.System.Windows.Forms.Label()
+        Me.lblSDE1 = New Global.System.Windows.Forms.Label()
         Me.Label21 = New Global.System.Windows.Forms.Label()
         Me.Label10 = New Global.System.Windows.Forms.Label()
         Me.Label22 = New Global.System.Windows.Forms.Label()
@@ -168,30 +186,12 @@ Partial Class Employee_Result
         Me.lblSDS12 = New Global.System.Windows.Forms.Label()
         Me.lblSDS11 = New Global.System.Windows.Forms.Label()
         Me.lblSDS10 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS9 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS8 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS7 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS6 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS5 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS4 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS3 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDS1 = New Global.System.Windows.Forms.Label()
         Me.lblSDE15 = New Global.System.Windows.Forms.Label()
         Me.lblSDE14 = New Global.System.Windows.Forms.Label()
         Me.lblSDE13 = New Global.System.Windows.Forms.Label()
         Me.lblSDE12 = New Global.System.Windows.Forms.Label()
         Me.lblSDE11 = New Global.System.Windows.Forms.Label()
         Me.lblSDE10 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE9 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE8 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE7 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE6 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE5 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE4 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE3 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE2 = New Global.System.Windows.Forms.Label()
-        Me.lblSDE1 = New Global.System.Windows.Forms.Label()
         Me.Guna2HtmlLabel46 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel47 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel48 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -206,7 +206,6 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel55 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel56 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel57 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel58 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel59 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel60 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel61 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -225,12 +224,17 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel74 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel75 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Label5 = New Global.System.Windows.Forms.Label()
+        Me.gbPage1 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
         Me.gbPage2 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel4 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.Label38 = New Global.System.Windows.Forms.Label()
-        Me.Label37 = New Global.System.Windows.Forms.Label()
-        Me.Label36 = New Global.System.Windows.Forms.Label()
-        Me.Label35 = New Global.System.Windows.Forms.Label()
+        Me.txtCIS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtCIE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtDS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtDE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPSS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPSE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtSDAS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtSDAE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
         Me.lblCIS4 = New Global.System.Windows.Forms.Label()
         Me.lblCIS3 = New Global.System.Windows.Forms.Label()
         Me.lblCIS2 = New Global.System.Windows.Forms.Label()
@@ -249,14 +253,10 @@ Partial Class Employee_Result
         Me.lblPSE1 = New Global.System.Windows.Forms.Label()
         Me.lblSDAE2 = New Global.System.Windows.Forms.Label()
         Me.lblSDAE1 = New Global.System.Windows.Forms.Label()
-        Me.txtCIS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtCIE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtDS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtDE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPSS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPSE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtSDAS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtSDAE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label38 = New Global.System.Windows.Forms.Label()
+        Me.Label37 = New Global.System.Windows.Forms.Label()
+        Me.Label36 = New Global.System.Windows.Forms.Label()
+        Me.Label35 = New Global.System.Windows.Forms.Label()
         Me.Label11 = New Global.System.Windows.Forms.Label()
         Me.Label9 = New Global.System.Windows.Forms.Label()
         Me.Label8 = New Global.System.Windows.Forms.Label()
@@ -284,13 +284,14 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel97 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel98 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel99 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Label1 = New Global.System.Windows.Forms.Label()
         Me.Label6 = New Global.System.Windows.Forms.Label()
-        Me.Label7 = New Global.System.Windows.Forms.Label()
         Me.gbPage3 = New Global.Guna.UI2.WinForms.Guna2GroupBox()
         Me.Guna2Panel5 = New Global.Guna.UI2.WinForms.Guna2Panel()
-        Me.Label41 = New Global.System.Windows.Forms.Label()
-        Me.Label40 = New Global.System.Windows.Forms.Label()
-        Me.Label39 = New Global.System.Windows.Forms.Label()
+        Me.txtCLS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtCLE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtPE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
         Me.lblPS7 = New Global.System.Windows.Forms.Label()
         Me.lblPS6 = New Global.System.Windows.Forms.Label()
         Me.lblPS5 = New Global.System.Windows.Forms.Label()
@@ -311,13 +312,12 @@ Partial Class Employee_Result
         Me.lblCLE3 = New Global.System.Windows.Forms.Label()
         Me.lblCLE2 = New Global.System.Windows.Forms.Label()
         Me.lblCLE1 = New Global.System.Windows.Forms.Label()
-        Me.txtCLS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtCLE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label41 = New Global.System.Windows.Forms.Label()
+        Me.Label40 = New Global.System.Windows.Forms.Label()
+        Me.Label39 = New Global.System.Windows.Forms.Label()
         Me.Guna2HtmlLabel100 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel101 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Label14 = New Global.System.Windows.Forms.Label()
-        Me.txtPS1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPE1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel102 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel105 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel106 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -348,8 +348,8 @@ Partial Class Employee_Result
         Me.Guna2GroupBox10.SuspendLayout()
         Me.gbPage4.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
-        Me.gbPage1.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
+        Me.gbPage1.SuspendLayout()
         Me.gbPage2.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
         Me.gbPage3.SuspendLayout()
@@ -410,7 +410,7 @@ Partial Class Employee_Result
         ' Label4
         ' 
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label4.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label4.Location = New Global.System.Drawing.Point(565, 48)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New Global.System.Drawing.Size(57, 15)
@@ -420,7 +420,7 @@ Partial Class Employee_Result
         ' Label3
         ' 
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label3.Location = New Global.System.Drawing.Point(565, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New Global.System.Drawing.Size(65, 15)
@@ -430,7 +430,7 @@ Partial Class Employee_Result
         ' Label2
         ' 
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New Global.System.Drawing.Point(16, 48)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New Global.System.Drawing.Size(76, 15)
@@ -440,7 +440,7 @@ Partial Class Employee_Result
         ' Label12
         ' 
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label12.Location = New Global.System.Drawing.Point(16, 23)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New Global.System.Drawing.Size(97, 15)
@@ -457,7 +457,7 @@ Partial Class Employee_Result
         Me.Guna2GroupBox10.Controls.Add(Me.rbPage3)
         Me.Guna2GroupBox10.CustomBorderColor = Global.System.Drawing.Color.White
         Me.Guna2GroupBox10.CustomizableEdges = CustomizableEdges6
-        Me.Guna2GroupBox10.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2GroupBox10.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2GroupBox10.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2GroupBox10.Location = New Global.System.Drawing.Point(648, 523)
         Me.Guna2GroupBox10.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -544,7 +544,7 @@ Partial Class Employee_Result
         Me.gbPage4.Controls.Add(Me.Guna2Panel1)
         Me.gbPage4.CustomBorderColor = Global.System.Drawing.Color.White
         Me.gbPage4.CustomizableEdges = CustomizableEdges12
-        Me.gbPage4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.gbPage4.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.gbPage4.ForeColor = Global.System.Drawing.Color.White
         Me.gbPage4.Location = New Global.System.Drawing.Point(16, 48)
         Me.gbPage4.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -638,7 +638,7 @@ Partial Class Employee_Result
         Me.txtDiscussion.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtDiscussion.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtDiscussion.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDiscussion.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtDiscussion.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtDiscussion.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtDiscussion.Location = New Global.System.Drawing.Point(18, 37)
         Me.txtDiscussion.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -1158,29 +1158,30 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel43.TabIndex = 53
         Me.Guna2HtmlLabel43.Text = "Supervisor:"
         ' 
-        ' gbPage1
-        ' 
-        Me.gbPage1.BackColor = Global.System.Drawing.Color.Transparent
-        Me.gbPage1.BorderColor = Global.System.Drawing.Color.Transparent
-        Me.gbPage1.BorderThickness = 0
-        Me.gbPage1.Controls.Add(Me.Guna2Panel3)
-        Me.gbPage1.CustomBorderColor = Global.System.Drawing.Color.White
-        Me.gbPage1.CustomizableEdges = CustomizableEdges20
-        Me.gbPage1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.gbPage1.ForeColor = Global.System.Drawing.Color.White
-        Me.gbPage1.Location = New Global.System.Drawing.Point(16, 48)
-        Me.gbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.gbPage1.Name = "gbPage1"
-        Me.gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-        Me.gbPage1.Size = New Global.System.Drawing.Size(770, 470)
-        Me.gbPage1.TabIndex = 67
-        Me.gbPage1.Tag = "gbPage1"
-        ' 
         ' Guna2Panel3
         ' 
         Me.Guna2Panel3.AutoScroll = True
         Me.Guna2Panel3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
         Me.Guna2Panel3.BorderColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS9)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel58)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE9)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS7)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE7)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS8)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE8)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS6)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE6)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS5)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE5)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS4)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE4)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS3)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE3)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS2)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE2)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDS1)
+        Me.Guna2Panel3.Controls.Add(Me.lblSDE1)
         Me.Guna2Panel3.Controls.Add(Me.Label21)
         Me.Guna2Panel3.Controls.Add(Me.Label10)
         Me.Guna2Panel3.Controls.Add(Me.Label22)
@@ -1203,30 +1204,12 @@ Partial Class Employee_Result
         Me.Guna2Panel3.Controls.Add(Me.lblSDS12)
         Me.Guna2Panel3.Controls.Add(Me.lblSDS11)
         Me.Guna2Panel3.Controls.Add(Me.lblSDS10)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS9)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS8)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS7)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS6)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS5)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS4)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS3)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS2)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDS1)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE15)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE14)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE13)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE12)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE11)
         Me.Guna2Panel3.Controls.Add(Me.lblSDE10)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE9)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE8)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE7)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE6)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE5)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE4)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE3)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE2)
-        Me.Guna2Panel3.Controls.Add(Me.lblSDE1)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel46)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel47)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel48)
@@ -1241,7 +1224,6 @@ Partial Class Employee_Result
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel55)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel56)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel57)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel58)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel59)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel60)
         Me.Guna2Panel3.Controls.Add(Me.Guna2HtmlLabel61)
@@ -1270,6 +1252,199 @@ Partial Class Employee_Result
         Me.Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Me.Guna2Panel3.Size = New Global.System.Drawing.Size(770, 430)
         Me.Guna2Panel3.TabIndex = 3
+        ' 
+        ' lblSDS9
+        ' 
+        Me.lblSDS9.AutoSize = True
+        Me.lblSDS9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS9.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS9.Location = New Global.System.Drawing.Point(466, 340)
+        Me.lblSDS9.Name = "lblSDS9"
+        Me.lblSDS9.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS9.TabIndex = 146
+        ' 
+        ' Guna2HtmlLabel58
+        ' 
+        Me.Guna2HtmlLabel58.AutoSize = False
+        Me.Guna2HtmlLabel58.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel58.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel58.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
+        Me.Guna2HtmlLabel58.Location = New Global.System.Drawing.Point(396, 338)
+        Me.Guna2HtmlLabel58.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
+        Me.Guna2HtmlLabel58.Size = New Global.System.Drawing.Size(88, 26)
+        Me.Guna2HtmlLabel58.TabIndex = 33
+        Me.Guna2HtmlLabel58.Text = "Supervisor:"
+        ' 
+        ' lblSDE9
+        ' 
+        Me.lblSDE9.AutoSize = True
+        Me.lblSDE9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE9.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE9.Location = New Global.System.Drawing.Point(111, 340)
+        Me.lblSDE9.Name = "lblSDE9"
+        Me.lblSDE9.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE9.TabIndex = 145
+        ' 
+        ' lblSDS7
+        ' 
+        Me.lblSDS7.AutoSize = True
+        Me.lblSDS7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS7.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS7.Location = New Global.System.Drawing.Point(466, 269)
+        Me.lblSDS7.Name = "lblSDS7"
+        Me.lblSDS7.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS7.TabIndex = 144
+        ' 
+        ' lblSDE7
+        ' 
+        Me.lblSDE7.AutoSize = True
+        Me.lblSDE7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE7.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE7.Location = New Global.System.Drawing.Point(111, 269)
+        Me.lblSDE7.Name = "lblSDE7"
+        Me.lblSDE7.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE7.TabIndex = 143
+        ' 
+        ' lblSDS8
+        ' 
+        Me.lblSDS8.AutoSize = True
+        Me.lblSDS8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS8.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS8.Location = New Global.System.Drawing.Point(466, 304)
+        Me.lblSDS8.Name = "lblSDS8"
+        Me.lblSDS8.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS8.TabIndex = 142
+        ' 
+        ' lblSDE8
+        ' 
+        Me.lblSDE8.AutoSize = True
+        Me.lblSDE8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE8.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE8.Location = New Global.System.Drawing.Point(111, 304)
+        Me.lblSDE8.Name = "lblSDE8"
+        Me.lblSDE8.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE8.TabIndex = 141
+        ' 
+        ' lblSDS6
+        ' 
+        Me.lblSDS6.AutoSize = True
+        Me.lblSDS6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS6.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS6.Location = New Global.System.Drawing.Point(466, 225)
+        Me.lblSDS6.Name = "lblSDS6"
+        Me.lblSDS6.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS6.TabIndex = 140
+        ' 
+        ' lblSDE6
+        ' 
+        Me.lblSDE6.AutoSize = True
+        Me.lblSDE6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE6.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE6.Location = New Global.System.Drawing.Point(111, 225)
+        Me.lblSDE6.Name = "lblSDE6"
+        Me.lblSDE6.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE6.TabIndex = 139
+        ' 
+        ' lblSDS5
+        ' 
+        Me.lblSDS5.AutoSize = True
+        Me.lblSDS5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS5.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS5.Location = New Global.System.Drawing.Point(466, 196)
+        Me.lblSDS5.Name = "lblSDS5"
+        Me.lblSDS5.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS5.TabIndex = 138
+        ' 
+        ' lblSDE5
+        ' 
+        Me.lblSDE5.AutoSize = True
+        Me.lblSDE5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE5.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE5.Location = New Global.System.Drawing.Point(111, 196)
+        Me.lblSDE5.Name = "lblSDE5"
+        Me.lblSDE5.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE5.TabIndex = 137
+        ' 
+        ' lblSDS4
+        ' 
+        Me.lblSDS4.AutoSize = True
+        Me.lblSDS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS4.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS4.Location = New Global.System.Drawing.Point(466, 161)
+        Me.lblSDS4.Name = "lblSDS4"
+        Me.lblSDS4.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS4.TabIndex = 136
+        ' 
+        ' lblSDE4
+        ' 
+        Me.lblSDE4.AutoSize = True
+        Me.lblSDE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE4.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE4.Location = New Global.System.Drawing.Point(111, 161)
+        Me.lblSDE4.Name = "lblSDE4"
+        Me.lblSDE4.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE4.TabIndex = 135
+        ' 
+        ' lblSDS3
+        ' 
+        Me.lblSDS3.AutoSize = True
+        Me.lblSDS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS3.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS3.Location = New Global.System.Drawing.Point(466, 126)
+        Me.lblSDS3.Name = "lblSDS3"
+        Me.lblSDS3.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS3.TabIndex = 134
+        ' 
+        ' lblSDE3
+        ' 
+        Me.lblSDE3.AutoSize = True
+        Me.lblSDE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE3.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE3.Location = New Global.System.Drawing.Point(111, 126)
+        Me.lblSDE3.Name = "lblSDE3"
+        Me.lblSDE3.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE3.TabIndex = 133
+        ' 
+        ' lblSDS2
+        ' 
+        Me.lblSDS2.AutoSize = True
+        Me.lblSDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS2.Location = New Global.System.Drawing.Point(466, 92)
+        Me.lblSDS2.Name = "lblSDS2"
+        Me.lblSDS2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS2.TabIndex = 132
+        ' 
+        ' lblSDE2
+        ' 
+        Me.lblSDE2.AutoSize = True
+        Me.lblSDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE2.Location = New Global.System.Drawing.Point(111, 92)
+        Me.lblSDE2.Name = "lblSDE2"
+        Me.lblSDE2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE2.TabIndex = 131
+        ' 
+        ' lblSDS1
+        ' 
+        Me.lblSDS1.AutoSize = True
+        Me.lblSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDS1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDS1.Location = New Global.System.Drawing.Point(466, 52)
+        Me.lblSDS1.Name = "lblSDS1"
+        Me.lblSDS1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDS1.TabIndex = 130
+        ' 
+        ' lblSDE1
+        ' 
+        Me.lblSDE1.AutoSize = True
+        Me.lblSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDE1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDE1.Location = New Global.System.Drawing.Point(111, 52)
+        Me.lblSDE1.Name = "lblSDE1"
+        Me.lblSDE1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDE1.TabIndex = 68
         ' 
         ' Label21
         ' 
@@ -1490,87 +1665,6 @@ Partial Class Employee_Result
         Me.lblSDS10.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblSDS10.TabIndex = 108
         ' 
-        ' lblSDS9
-        ' 
-        Me.lblSDS9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS9.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS9.Location = New Global.System.Drawing.Point(457, 341)
-        Me.lblSDS9.Name = "lblSDS9"
-        Me.lblSDS9.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS9.TabIndex = 107
-        ' 
-        ' lblSDS8
-        ' 
-        Me.lblSDS8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS8.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS8.Location = New Global.System.Drawing.Point(457, 305)
-        Me.lblSDS8.Name = "lblSDS8"
-        Me.lblSDS8.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS8.TabIndex = 106
-        ' 
-        ' lblSDS7
-        ' 
-        Me.lblSDS7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS7.Location = New Global.System.Drawing.Point(457, 269)
-        Me.lblSDS7.Name = "lblSDS7"
-        Me.lblSDS7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS7.TabIndex = 105
-        ' 
-        ' lblSDS6
-        ' 
-        Me.lblSDS6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS6.Location = New Global.System.Drawing.Point(460, 234)
-        Me.lblSDS6.Name = "lblSDS6"
-        Me.lblSDS6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS6.TabIndex = 104
-        ' 
-        ' lblSDS5
-        ' 
-        Me.lblSDS5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS5.Location = New Global.System.Drawing.Point(459, 161)
-        Me.lblSDS5.Name = "lblSDS5"
-        Me.lblSDS5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS5.TabIndex = 103
-        ' 
-        ' lblSDS4
-        ' 
-        Me.lblSDS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS4.Location = New Global.System.Drawing.Point(462, 196)
-        Me.lblSDS4.Name = "lblSDS4"
-        Me.lblSDS4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS4.TabIndex = 102
-        ' 
-        ' lblSDS3
-        ' 
-        Me.lblSDS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS3.Location = New Global.System.Drawing.Point(461, 129)
-        Me.lblSDS3.Name = "lblSDS3"
-        Me.lblSDS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS3.TabIndex = 101
-        ' 
-        ' lblSDS2
-        ' 
-        Me.lblSDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS2.Location = New Global.System.Drawing.Point(461, 93)
-        Me.lblSDS2.Name = "lblSDS2"
-        Me.lblSDS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS2.TabIndex = 100
-        ' 
-        ' lblSDS1
-        ' 
-        Me.lblSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDS1.Location = New Global.System.Drawing.Point(461, 55)
-        Me.lblSDS1.Name = "lblSDS1"
-        Me.lblSDS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDS1.TabIndex = 99
-        ' 
         ' lblSDE15
         ' 
         Me.lblSDE15.AutoSize = True
@@ -1630,87 +1724,6 @@ Partial Class Employee_Result
         Me.lblSDE10.Name = "lblSDE10"
         Me.lblSDE10.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblSDE10.TabIndex = 93
-        ' 
-        ' lblSDE9
-        ' 
-        Me.lblSDE9.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE9.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE9.Location = New Global.System.Drawing.Point(102, 341)
-        Me.lblSDE9.Name = "lblSDE9"
-        Me.lblSDE9.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE9.TabIndex = 92
-        ' 
-        ' lblSDE8
-        ' 
-        Me.lblSDE8.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE8.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE8.Location = New Global.System.Drawing.Point(102, 305)
-        Me.lblSDE8.Name = "lblSDE8"
-        Me.lblSDE8.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE8.TabIndex = 91
-        ' 
-        ' lblSDE7
-        ' 
-        Me.lblSDE7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE7.Location = New Global.System.Drawing.Point(102, 269)
-        Me.lblSDE7.Name = "lblSDE7"
-        Me.lblSDE7.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE7.TabIndex = 90
-        ' 
-        ' lblSDE6
-        ' 
-        Me.lblSDE6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE6.Location = New Global.System.Drawing.Point(106, 233)
-        Me.lblSDE6.Name = "lblSDE6"
-        Me.lblSDE6.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE6.TabIndex = 89
-        ' 
-        ' lblSDE5
-        ' 
-        Me.lblSDE5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE5.Location = New Global.System.Drawing.Point(106, 199)
-        Me.lblSDE5.Name = "lblSDE5"
-        Me.lblSDE5.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE5.TabIndex = 88
-        ' 
-        ' lblSDE4
-        ' 
-        Me.lblSDE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE4.Location = New Global.System.Drawing.Point(108, 163)
-        Me.lblSDE4.Name = "lblSDE4"
-        Me.lblSDE4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE4.TabIndex = 87
-        ' 
-        ' lblSDE3
-        ' 
-        Me.lblSDE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE3.Location = New Global.System.Drawing.Point(107, 126)
-        Me.lblSDE3.Name = "lblSDE3"
-        Me.lblSDE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE3.TabIndex = 86
-        ' 
-        ' lblSDE2
-        ' 
-        Me.lblSDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE2.Location = New Global.System.Drawing.Point(107, 93)
-        Me.lblSDE2.Name = "lblSDE2"
-        Me.lblSDE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDE2.TabIndex = 85
-        ' 
-        ' lblSDE1
-        ' 
-        Me.lblSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDE1.Location = New Global.System.Drawing.Point(112, 52)
-        Me.lblSDE1.Name = "lblSDE1"
-        Me.lblSDE1.Size = New Global.System.Drawing.Size(17, 13)
-        Me.lblSDE1.TabIndex = 84
         ' 
         ' Guna2HtmlLabel46
         ' 
@@ -1825,11 +1838,12 @@ Partial Class Employee_Result
         Me.txtSDS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSDS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSDS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtSDS1.ForeColor = Global.System.Drawing.Color.Black
         Me.txtSDS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtSDS1.Location = New Global.System.Drawing.Point(404, 586)
         Me.txtSDS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSDS1.Multiline = True
         Me.txtSDS1.Name = "txtSDS1"
         Me.txtSDS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtSDS1.PlaceholderText = ""
@@ -1848,11 +1862,12 @@ Partial Class Employee_Result
         Me.txtSDE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSDE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSDE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtSDE1.ForeColor = Global.System.Drawing.Color.Black
         Me.txtSDE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtSDE1.Location = New Global.System.Drawing.Point(38, 586)
         Me.txtSDE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSDE1.Multiline = True
         Me.txtSDE1.Name = "txtSDE1"
         Me.txtSDE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtSDE1.PlaceholderText = ""
@@ -1913,19 +1928,6 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel57.Size = New Global.System.Drawing.Size(66, 29)
         Me.Guna2HtmlLabel57.TabIndex = 35
         Me.Guna2HtmlLabel57.Text = "Employee:"
-        ' 
-        ' Guna2HtmlLabel58
-        ' 
-        Me.Guna2HtmlLabel58.AutoSize = False
-        Me.Guna2HtmlLabel58.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel58.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Guna2HtmlLabel58.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(192))), CInt(CByte(CByte(0))), CInt(CByte(CByte(0))))
-        Me.Guna2HtmlLabel58.Location = New Global.System.Drawing.Point(396, 338)
-        Me.Guna2HtmlLabel58.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
-        Me.Guna2HtmlLabel58.Size = New Global.System.Drawing.Size(88, 26)
-        Me.Guna2HtmlLabel58.TabIndex = 33
-        Me.Guna2HtmlLabel58.Text = "Supervisor:"
         ' 
         ' Guna2HtmlLabel59
         ' 
@@ -2158,29 +2160,51 @@ Partial Class Employee_Result
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "SOFTWARE DEVELOPMENT"
         ' 
+        ' gbPage1
+        ' 
+        Me.gbPage1.BackColor = Global.System.Drawing.Color.Transparent
+        Me.gbPage1.BorderColor = Global.System.Drawing.Color.Transparent
+        Me.gbPage1.BorderThickness = 0
+        Me.gbPage1.Controls.Add(Me.Guna2Panel3)
+        Me.gbPage1.CustomBorderColor = Global.System.Drawing.Color.White
+        Me.gbPage1.CustomizableEdges = CustomizableEdges20
+        Me.gbPage1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.gbPage1.ForeColor = Global.System.Drawing.Color.White
+        Me.gbPage1.Location = New Global.System.Drawing.Point(16, 48)
+        Me.gbPage1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.gbPage1.Name = "gbPage1"
+        Me.gbPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        Me.gbPage1.Size = New Global.System.Drawing.Size(770, 470)
+        Me.gbPage1.TabIndex = 67
+        Me.gbPage1.Tag = "gbPage1"
+        ' 
         ' gbPage2
         ' 
         Me.gbPage2.BorderColor = Global.System.Drawing.Color.White
         Me.gbPage2.Controls.Add(Me.Guna2Panel4)
         Me.gbPage2.CustomBorderColor = Global.System.Drawing.Color.White
         Me.gbPage2.CustomizableEdges = CustomizableEdges40
-        Me.gbPage2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.gbPage2.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.gbPage2.ForeColor = Global.System.Drawing.Color.White
         Me.gbPage2.Location = New Global.System.Drawing.Point(16, 48)
         Me.gbPage2.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gbPage2.Name = "gbPage2"
         Me.gbPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges41
         Me.gbPage2.Size = New Global.System.Drawing.Size(770, 470)
-        Me.gbPage2.TabIndex = 65
+        Me.gbPage2.TabIndex = 68
         ' 
         ' Guna2Panel4
         ' 
         Me.Guna2Panel4.AutoScroll = True
         Me.Guna2Panel4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel4.Controls.Add(Me.Label38)
-        Me.Guna2Panel4.Controls.Add(Me.Label37)
-        Me.Guna2Panel4.Controls.Add(Me.Label36)
-        Me.Guna2Panel4.Controls.Add(Me.Label35)
+        Me.Guna2Panel4.Controls.Add(Me.txtCIS1)
+        Me.Guna2Panel4.Controls.Add(Me.txtCIE1)
+        Me.Guna2Panel4.Controls.Add(Me.txtDS1)
+        Me.Guna2Panel4.Controls.Add(Me.txtDE1)
+        Me.Guna2Panel4.Controls.Add(Me.txtPSS1)
+        Me.Guna2Panel4.Controls.Add(Me.txtPSE1)
+        Me.Guna2Panel4.Controls.Add(Me.txtSDAS1)
+        Me.Guna2Panel4.Controls.Add(Me.txtSDAE1)
         Me.Guna2Panel4.Controls.Add(Me.lblCIS4)
         Me.Guna2Panel4.Controls.Add(Me.lblCIS3)
         Me.Guna2Panel4.Controls.Add(Me.lblCIS2)
@@ -2199,14 +2223,10 @@ Partial Class Employee_Result
         Me.Guna2Panel4.Controls.Add(Me.lblPSE1)
         Me.Guna2Panel4.Controls.Add(Me.lblSDAE2)
         Me.Guna2Panel4.Controls.Add(Me.lblSDAE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtCIS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtCIE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtDS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtDE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtPSS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtPSE1)
-        Me.Guna2Panel4.Controls.Add(Me.txtSDAS1)
-        Me.Guna2Panel4.Controls.Add(Me.txtSDAE1)
+        Me.Guna2Panel4.Controls.Add(Me.Label38)
+        Me.Guna2Panel4.Controls.Add(Me.Label37)
+        Me.Guna2Panel4.Controls.Add(Me.Label36)
+        Me.Guna2Panel4.Controls.Add(Me.Label35)
         Me.Guna2Panel4.Controls.Add(Me.Label11)
         Me.Guna2Panel4.Controls.Add(Me.Label9)
         Me.Guna2Panel4.Controls.Add(Me.Label8)
@@ -2234,8 +2254,8 @@ Partial Class Employee_Result
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel97)
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel98)
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel99)
+        Me.Guna2Panel4.Controls.Add(Me.Label1)
         Me.Guna2Panel4.Controls.Add(Me.Label6)
-        Me.Guna2Panel4.Controls.Add(Me.Label7)
         Me.Guna2Panel4.CustomizableEdges = CustomizableEdges38
         Me.Guna2Panel4.Dock = Global.System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel4.Location = New Global.System.Drawing.Point(0, 40)
@@ -2245,6 +2265,370 @@ Partial Class Employee_Result
         Me.Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges39
         Me.Guna2Panel4.Size = New Global.System.Drawing.Size(770, 430)
         Me.Guna2Panel4.TabIndex = 3
+        ' 
+        ' txtCIS1
+        ' 
+        Me.txtCIS1.CustomizableEdges = CustomizableEdges22
+        Me.txtCIS1.DefaultText = ""
+        Me.txtCIS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtCIS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtCIS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCIS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCIS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtCIS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCIS1.Location = New Global.System.Drawing.Point(392, 736)
+        Me.txtCIS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCIS1.Multiline = True
+        Me.txtCIS1.Name = "txtCIS1"
+        Me.txtCIS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtCIS1.PlaceholderText = ""
+        Me.txtCIS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtCIS1.SelectedText = ""
+        Me.txtCIS1.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        Me.txtCIS1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtCIS1.TabIndex = 63
+        ' 
+        ' txtCIE1
+        ' 
+        Me.txtCIE1.CustomizableEdges = CustomizableEdges24
+        Me.txtCIE1.DefaultText = ""
+        Me.txtCIE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtCIE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtCIE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCIE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCIE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtCIE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCIE1.Location = New Global.System.Drawing.Point(33, 736)
+        Me.txtCIE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCIE1.Multiline = True
+        Me.txtCIE1.Name = "txtCIE1"
+        Me.txtCIE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtCIE1.PlaceholderText = ""
+        Me.txtCIE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtCIE1.SelectedText = ""
+        Me.txtCIE1.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        Me.txtCIE1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtCIE1.TabIndex = 62
+        ' 
+        ' txtDS1
+        ' 
+        Me.txtDS1.CustomizableEdges = CustomizableEdges26
+        Me.txtDS1.DefaultText = ""
+        Me.txtDS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtDS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtDS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtDS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtDS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtDS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtDS1.Location = New Global.System.Drawing.Point(392, 446)
+        Me.txtDS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDS1.Multiline = True
+        Me.txtDS1.Name = "txtDS1"
+        Me.txtDS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtDS1.PlaceholderText = ""
+        Me.txtDS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtDS1.SelectedText = ""
+        Me.txtDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Me.txtDS1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtDS1.TabIndex = 61
+        ' 
+        ' txtDE1
+        ' 
+        Me.txtDE1.CustomizableEdges = CustomizableEdges28
+        Me.txtDE1.DefaultText = ""
+        Me.txtDE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtDE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtDE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtDE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtDE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtDE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtDE1.Location = New Global.System.Drawing.Point(33, 446)
+        Me.txtDE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtDE1.Multiline = True
+        Me.txtDE1.Name = "txtDE1"
+        Me.txtDE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtDE1.PlaceholderText = ""
+        Me.txtDE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtDE1.SelectedText = ""
+        Me.txtDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        Me.txtDE1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtDE1.TabIndex = 60
+        ' 
+        ' txtPSS1
+        ' 
+        Me.txtPSS1.CustomizableEdges = CustomizableEdges30
+        Me.txtPSS1.DefaultText = ""
+        Me.txtPSS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtPSS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtPSS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPSS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPSS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtPSS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPSS1.Location = New Global.System.Drawing.Point(392, 264)
+        Me.txtPSS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPSS1.Multiline = True
+        Me.txtPSS1.Name = "txtPSS1"
+        Me.txtPSS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtPSS1.PlaceholderText = ""
+        Me.txtPSS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtPSS1.SelectedText = ""
+        Me.txtPSS1.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        Me.txtPSS1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtPSS1.TabIndex = 59
+        ' 
+        ' txtPSE1
+        ' 
+        Me.txtPSE1.CustomizableEdges = CustomizableEdges32
+        Me.txtPSE1.DefaultText = ""
+        Me.txtPSE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtPSE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtPSE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPSE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPSE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtPSE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPSE1.Location = New Global.System.Drawing.Point(33, 264)
+        Me.txtPSE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPSE1.Multiline = True
+        Me.txtPSE1.Name = "txtPSE1"
+        Me.txtPSE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtPSE1.PlaceholderText = ""
+        Me.txtPSE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtPSE1.SelectedText = ""
+        Me.txtPSE1.ShadowDecoration.CustomizableEdges = CustomizableEdges33
+        Me.txtPSE1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtPSE1.TabIndex = 58
+        ' 
+        ' txtSDAS1
+        ' 
+        Me.txtSDAS1.CustomizableEdges = CustomizableEdges34
+        Me.txtSDAS1.DefaultText = ""
+        Me.txtSDAS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtSDAS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtSDAS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSDAS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSDAS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSDAS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSDAS1.Location = New Global.System.Drawing.Point(392, 106)
+        Me.txtSDAS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSDAS1.Multiline = True
+        Me.txtSDAS1.Name = "txtSDAS1"
+        Me.txtSDAS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtSDAS1.PlaceholderText = ""
+        Me.txtSDAS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtSDAS1.SelectedText = ""
+        Me.txtSDAS1.ShadowDecoration.CustomizableEdges = CustomizableEdges35
+        Me.txtSDAS1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtSDAS1.TabIndex = 57
+        ' 
+        ' txtSDAE1
+        ' 
+        Me.txtSDAE1.CustomizableEdges = CustomizableEdges36
+        Me.txtSDAE1.DefaultText = ""
+        Me.txtSDAE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtSDAE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtSDAE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSDAE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSDAE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSDAE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSDAE1.Location = New Global.System.Drawing.Point(33, 106)
+        Me.txtSDAE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSDAE1.Multiline = True
+        Me.txtSDAE1.Name = "txtSDAE1"
+        Me.txtSDAE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtSDAE1.PlaceholderText = ""
+        Me.txtSDAE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtSDAE1.SelectedText = ""
+        Me.txtSDAE1.ShadowDecoration.CustomizableEdges = CustomizableEdges37
+        Me.txtSDAE1.Size = New Global.System.Drawing.Size(329, 64)
+        Me.txtSDAE1.TabIndex = 56
+        ' 
+        ' lblCIS4
+        ' 
+        Me.lblCIS4.AutoSize = True
+        Me.lblCIS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIS4.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIS4.Location = New Global.System.Drawing.Point(465, 713)
+        Me.lblCIS4.Name = "lblCIS4"
+        Me.lblCIS4.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIS4.TabIndex = 86
+        ' 
+        ' lblCIS3
+        ' 
+        Me.lblCIS3.AutoSize = True
+        Me.lblCIS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIS3.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIS3.Location = New Global.System.Drawing.Point(465, 676)
+        Me.lblCIS3.Name = "lblCIS3"
+        Me.lblCIS3.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIS3.TabIndex = 85
+        ' 
+        ' lblCIS2
+        ' 
+        Me.lblCIS2.AutoSize = True
+        Me.lblCIS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIS2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIS2.Location = New Global.System.Drawing.Point(465, 613)
+        Me.lblCIS2.Name = "lblCIS2"
+        Me.lblCIS2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIS2.TabIndex = 84
+        ' 
+        ' lblCIS1
+        ' 
+        Me.lblCIS1.AutoSize = True
+        Me.lblCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIS1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIS1.Location = New Global.System.Drawing.Point(465, 569)
+        Me.lblCIS1.Name = "lblCIS1"
+        Me.lblCIS1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIS1.TabIndex = 83
+        ' 
+        ' lblDS2
+        ' 
+        Me.lblDS2.AutoSize = True
+        Me.lblDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblDS2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblDS2.Location = New Global.System.Drawing.Point(467, 427)
+        Me.lblDS2.Name = "lblDS2"
+        Me.lblDS2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblDS2.TabIndex = 82
+        ' 
+        ' lblDS1
+        ' 
+        Me.lblDS1.AutoSize = True
+        Me.lblDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblDS1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblDS1.Location = New Global.System.Drawing.Point(467, 392)
+        Me.lblDS1.Name = "lblDS1"
+        Me.lblDS1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblDS1.TabIndex = 81
+        ' 
+        ' lblPSS1
+        ' 
+        Me.lblPSS1.AutoSize = True
+        Me.lblPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblPSS1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblPSS1.Location = New Global.System.Drawing.Point(467, 245)
+        Me.lblPSS1.Name = "lblPSS1"
+        Me.lblPSS1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblPSS1.TabIndex = 80
+        ' 
+        ' lblSDAS2
+        ' 
+        Me.lblSDAS2.AutoSize = True
+        Me.lblSDAS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDAS2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDAS2.Location = New Global.System.Drawing.Point(467, 88)
+        Me.lblSDAS2.Name = "lblSDAS2"
+        Me.lblSDAS2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDAS2.TabIndex = 79
+        ' 
+        ' lblSDAS1
+        ' 
+        Me.lblSDAS1.AutoSize = True
+        Me.lblSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDAS1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDAS1.Location = New Global.System.Drawing.Point(467, 53)
+        Me.lblSDAS1.Name = "lblSDAS1"
+        Me.lblSDAS1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDAS1.TabIndex = 78
+        ' 
+        ' lblCIE4
+        ' 
+        Me.lblCIE4.AutoSize = True
+        Me.lblCIE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIE4.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIE4.Location = New Global.System.Drawing.Point(111, 713)
+        Me.lblCIE4.Name = "lblCIE4"
+        Me.lblCIE4.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIE4.TabIndex = 77
+        ' 
+        ' lblCIE3
+        ' 
+        Me.lblCIE3.AutoSize = True
+        Me.lblCIE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIE3.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIE3.Location = New Global.System.Drawing.Point(111, 676)
+        Me.lblCIE3.Name = "lblCIE3"
+        Me.lblCIE3.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIE3.TabIndex = 76
+        ' 
+        ' lblCIE2
+        ' 
+        Me.lblCIE2.AutoSize = True
+        Me.lblCIE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIE2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIE2.Location = New Global.System.Drawing.Point(111, 615)
+        Me.lblCIE2.Name = "lblCIE2"
+        Me.lblCIE2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIE2.TabIndex = 75
+        ' 
+        ' lblCIE1
+        ' 
+        Me.lblCIE1.AutoSize = True
+        Me.lblCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblCIE1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblCIE1.Location = New Global.System.Drawing.Point(111, 569)
+        Me.lblCIE1.Name = "lblCIE1"
+        Me.lblCIE1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblCIE1.TabIndex = 74
+        ' 
+        ' lblDE2
+        ' 
+        Me.lblDE2.AutoSize = True
+        Me.lblDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblDE2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblDE2.Location = New Global.System.Drawing.Point(112, 427)
+        Me.lblDE2.Name = "lblDE2"
+        Me.lblDE2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblDE2.TabIndex = 73
+        ' 
+        ' lblDE1
+        ' 
+        Me.lblDE1.AutoSize = True
+        Me.lblDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblDE1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblDE1.Location = New Global.System.Drawing.Point(112, 392)
+        Me.lblDE1.Name = "lblDE1"
+        Me.lblDE1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblDE1.TabIndex = 72
+        ' 
+        ' lblPSE1
+        ' 
+        Me.lblPSE1.AutoSize = True
+        Me.lblPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblPSE1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblPSE1.Location = New Global.System.Drawing.Point(112, 245)
+        Me.lblPSE1.Name = "lblPSE1"
+        Me.lblPSE1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblPSE1.TabIndex = 71
+        ' 
+        ' lblSDAE2
+        ' 
+        Me.lblSDAE2.AutoSize = True
+        Me.lblSDAE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDAE2.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDAE2.Location = New Global.System.Drawing.Point(112, 88)
+        Me.lblSDAE2.Name = "lblSDAE2"
+        Me.lblSDAE2.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDAE2.TabIndex = 70
+        ' 
+        ' lblSDAE1
+        ' 
+        Me.lblSDAE1.AutoSize = True
+        Me.lblSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblSDAE1.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblSDAE1.Location = New Global.System.Drawing.Point(112, 53)
+        Me.lblSDAE1.Name = "lblSDAE1"
+        Me.lblSDAE1.Size = New Global.System.Drawing.Size(0, 13)
+        Me.lblSDAE1.TabIndex = 69
         ' 
         ' Label38
         ' 
@@ -2283,368 +2667,12 @@ Partial Class Employee_Result
         Me.Label35.TabIndex = 87
         Me.Label35.Text = resources.GetString("Label35.Text")
         ' 
-        ' lblCIS4
-        ' 
-        Me.lblCIS4.AutoSize = True
-        Me.lblCIS4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS4.Location = New Global.System.Drawing.Point(465, 714)
-        Me.lblCIS4.Name = "lblCIS4"
-        Me.lblCIS4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS4.TabIndex = 86
-        ' 
-        ' lblCIS3
-        ' 
-        Me.lblCIS3.AutoSize = True
-        Me.lblCIS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS3.Location = New Global.System.Drawing.Point(465, 676)
-        Me.lblCIS3.Name = "lblCIS3"
-        Me.lblCIS3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS3.TabIndex = 85
-        ' 
-        ' lblCIS2
-        ' 
-        Me.lblCIS2.AutoSize = True
-        Me.lblCIS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS2.Location = New Global.System.Drawing.Point(465, 614)
-        Me.lblCIS2.Name = "lblCIS2"
-        Me.lblCIS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS2.TabIndex = 84
-        ' 
-        ' lblCIS1
-        ' 
-        Me.lblCIS1.AutoSize = True
-        Me.lblCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIS1.Location = New Global.System.Drawing.Point(465, 570)
-        Me.lblCIS1.Name = "lblCIS1"
-        Me.lblCIS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIS1.TabIndex = 83
-        ' 
-        ' lblDS2
-        ' 
-        Me.lblDS2.AutoSize = True
-        Me.lblDS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDS2.Location = New Global.System.Drawing.Point(466, 429)
-        Me.lblDS2.Name = "lblDS2"
-        Me.lblDS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDS2.TabIndex = 82
-        ' 
-        ' lblDS1
-        ' 
-        Me.lblDS1.AutoSize = True
-        Me.lblDS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDS1.Location = New Global.System.Drawing.Point(466, 394)
-        Me.lblDS1.Name = "lblDS1"
-        Me.lblDS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDS1.TabIndex = 81
-        ' 
-        ' lblPSS1
-        ' 
-        Me.lblPSS1.AutoSize = True
-        Me.lblPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPSS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPSS1.Location = New Global.System.Drawing.Point(466, 248)
-        Me.lblPSS1.Name = "lblPSS1"
-        Me.lblPSS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPSS1.TabIndex = 80
-        ' 
-        ' lblSDAS2
-        ' 
-        Me.lblSDAS2.AutoSize = True
-        Me.lblSDAS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAS2.Location = New Global.System.Drawing.Point(466, 90)
-        Me.lblSDAS2.Name = "lblSDAS2"
-        Me.lblSDAS2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAS2.TabIndex = 79
-        ' 
-        ' lblSDAS1
-        ' 
-        Me.lblSDAS1.AutoSize = True
-        Me.lblSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAS1.Location = New Global.System.Drawing.Point(466, 56)
-        Me.lblSDAS1.Name = "lblSDAS1"
-        Me.lblSDAS1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAS1.TabIndex = 78
-        ' 
-        ' lblCIE4
-        ' 
-        Me.lblCIE4.AutoSize = True
-        Me.lblCIE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE4.Location = New Global.System.Drawing.Point(110, 714)
-        Me.lblCIE4.Name = "lblCIE4"
-        Me.lblCIE4.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE4.TabIndex = 77
-        ' 
-        ' lblCIE3
-        ' 
-        Me.lblCIE3.AutoSize = True
-        Me.lblCIE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE3.Location = New Global.System.Drawing.Point(110, 676)
-        Me.lblCIE3.Name = "lblCIE3"
-        Me.lblCIE3.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE3.TabIndex = 76
-        ' 
-        ' lblCIE2
-        ' 
-        Me.lblCIE2.AutoSize = True
-        Me.lblCIE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE2.Location = New Global.System.Drawing.Point(110, 615)
-        Me.lblCIE2.Name = "lblCIE2"
-        Me.lblCIE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE2.TabIndex = 75
-        ' 
-        ' lblCIE1
-        ' 
-        Me.lblCIE1.AutoSize = True
-        Me.lblCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblCIE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCIE1.Location = New Global.System.Drawing.Point(110, 570)
-        Me.lblCIE1.Name = "lblCIE1"
-        Me.lblCIE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblCIE1.TabIndex = 74
-        ' 
-        ' lblDE2
-        ' 
-        Me.lblDE2.AutoSize = True
-        Me.lblDE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDE2.Location = New Global.System.Drawing.Point(112, 429)
-        Me.lblDE2.Name = "lblDE2"
-        Me.lblDE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDE2.TabIndex = 73
-        ' 
-        ' lblDE1
-        ' 
-        Me.lblDE1.AutoSize = True
-        Me.lblDE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblDE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblDE1.Location = New Global.System.Drawing.Point(112, 394)
-        Me.lblDE1.Name = "lblDE1"
-        Me.lblDE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblDE1.TabIndex = 72
-        ' 
-        ' lblPSE1
-        ' 
-        Me.lblPSE1.AutoSize = True
-        Me.lblPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblPSE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPSE1.Location = New Global.System.Drawing.Point(112, 248)
-        Me.lblPSE1.Name = "lblPSE1"
-        Me.lblPSE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblPSE1.TabIndex = 71
-        ' 
-        ' lblSDAE2
-        ' 
-        Me.lblSDAE2.AutoSize = True
-        Me.lblSDAE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAE2.Location = New Global.System.Drawing.Point(112, 90)
-        Me.lblSDAE2.Name = "lblSDAE2"
-        Me.lblSDAE2.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAE2.TabIndex = 70
-        ' 
-        ' lblSDAE1
-        ' 
-        Me.lblSDAE1.AutoSize = True
-        Me.lblSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblSDAE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblSDAE1.Location = New Global.System.Drawing.Point(112, 56)
-        Me.lblSDAE1.Name = "lblSDAE1"
-        Me.lblSDAE1.Size = New Global.System.Drawing.Size(0, 13)
-        Me.lblSDAE1.TabIndex = 69
-        ' 
-        ' txtCIS1
-        ' 
-        Me.txtCIS1.CustomizableEdges = CustomizableEdges22
-        Me.txtCIS1.DefaultText = ""
-        Me.txtCIS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCIS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCIS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCIS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIS1.Location = New Global.System.Drawing.Point(392, 736)
-        Me.txtCIS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCIS1.Name = "txtCIS1"
-        Me.txtCIS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCIS1.PlaceholderText = ""
-        Me.txtCIS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCIS1.SelectedText = ""
-        Me.txtCIS1.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-        Me.txtCIS1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtCIS1.TabIndex = 63
-        ' 
-        ' txtCIE1
-        ' 
-        Me.txtCIE1.CustomizableEdges = CustomizableEdges24
-        Me.txtCIE1.DefaultText = ""
-        Me.txtCIE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCIE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCIE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCIE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCIE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCIE1.Location = New Global.System.Drawing.Point(33, 736)
-        Me.txtCIE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCIE1.Name = "txtCIE1"
-        Me.txtCIE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCIE1.PlaceholderText = ""
-        Me.txtCIE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCIE1.SelectedText = ""
-        Me.txtCIE1.ShadowDecoration.CustomizableEdges = CustomizableEdges25
-        Me.txtCIE1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtCIE1.TabIndex = 62
-        ' 
-        ' txtDS1
-        ' 
-        Me.txtDS1.CustomizableEdges = CustomizableEdges26
-        Me.txtDS1.DefaultText = ""
-        Me.txtDS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtDS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtDS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtDS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDS1.Location = New Global.System.Drawing.Point(392, 446)
-        Me.txtDS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtDS1.Name = "txtDS1"
-        Me.txtDS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtDS1.PlaceholderText = ""
-        Me.txtDS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtDS1.SelectedText = ""
-        Me.txtDS1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
-        Me.txtDS1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtDS1.TabIndex = 61
-        ' 
-        ' txtDE1
-        ' 
-        Me.txtDE1.CustomizableEdges = CustomizableEdges28
-        Me.txtDE1.DefaultText = ""
-        Me.txtDE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtDE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtDE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtDE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtDE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtDE1.Location = New Global.System.Drawing.Point(33, 446)
-        Me.txtDE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtDE1.Name = "txtDE1"
-        Me.txtDE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtDE1.PlaceholderText = ""
-        Me.txtDE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtDE1.SelectedText = ""
-        Me.txtDE1.ShadowDecoration.CustomizableEdges = CustomizableEdges29
-        Me.txtDE1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtDE1.TabIndex = 60
-        ' 
-        ' txtPSS1
-        ' 
-        Me.txtPSS1.CustomizableEdges = CustomizableEdges30
-        Me.txtPSS1.DefaultText = ""
-        Me.txtPSS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPSS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPSS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPSS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSS1.Location = New Global.System.Drawing.Point(392, 264)
-        Me.txtPSS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPSS1.Name = "txtPSS1"
-        Me.txtPSS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPSS1.PlaceholderText = ""
-        Me.txtPSS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPSS1.SelectedText = ""
-        Me.txtPSS1.ShadowDecoration.CustomizableEdges = CustomizableEdges31
-        Me.txtPSS1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtPSS1.TabIndex = 59
-        ' 
-        ' txtPSE1
-        ' 
-        Me.txtPSE1.CustomizableEdges = CustomizableEdges32
-        Me.txtPSE1.DefaultText = ""
-        Me.txtPSE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPSE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPSE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPSE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPSE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPSE1.Location = New Global.System.Drawing.Point(33, 264)
-        Me.txtPSE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPSE1.Name = "txtPSE1"
-        Me.txtPSE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPSE1.PlaceholderText = ""
-        Me.txtPSE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPSE1.SelectedText = ""
-        Me.txtPSE1.ShadowDecoration.CustomizableEdges = CustomizableEdges33
-        Me.txtPSE1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtPSE1.TabIndex = 58
-        ' 
-        ' txtSDAS1
-        ' 
-        Me.txtSDAS1.CustomizableEdges = CustomizableEdges34
-        Me.txtSDAS1.DefaultText = ""
-        Me.txtSDAS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDAS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDAS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDAS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAS1.Location = New Global.System.Drawing.Point(392, 106)
-        Me.txtSDAS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDAS1.Name = "txtSDAS1"
-        Me.txtSDAS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDAS1.PlaceholderText = ""
-        Me.txtSDAS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDAS1.SelectedText = ""
-        Me.txtSDAS1.ShadowDecoration.CustomizableEdges = CustomizableEdges35
-        Me.txtSDAS1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtSDAS1.TabIndex = 57
-        ' 
-        ' txtSDAE1
-        ' 
-        Me.txtSDAE1.CustomizableEdges = CustomizableEdges36
-        Me.txtSDAE1.DefaultText = ""
-        Me.txtSDAE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtSDAE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtSDAE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtSDAE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtSDAE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSDAE1.Location = New Global.System.Drawing.Point(33, 106)
-        Me.txtSDAE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtSDAE1.Name = "txtSDAE1"
-        Me.txtSDAE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtSDAE1.PlaceholderText = ""
-        Me.txtSDAE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtSDAE1.SelectedText = ""
-        Me.txtSDAE1.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-        Me.txtSDAE1.Size = New Global.System.Drawing.Size(329, 64)
-        Me.txtSDAE1.TabIndex = 56
-        ' 
         ' Label11
         ' 
         Me.Label11.AutoSize = True
         Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label11.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label11.Location = New Global.System.Drawing.Point(12, 528)
+        Me.Label11.Location = New Global.System.Drawing.Point(13, 528)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New Global.System.Drawing.Size(282, 20)
         Me.Label11.TabIndex = 44
@@ -2655,7 +2683,7 @@ Partial Class Employee_Result
         Me.Label9.AutoSize = True
         Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label9.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label9.Location = New Global.System.Drawing.Point(12, 346)
+        Me.Label9.Location = New Global.System.Drawing.Point(13, 347)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New Global.System.Drawing.Size(140, 20)
         Me.Label9.TabIndex = 43
@@ -2666,7 +2694,7 @@ Partial Class Employee_Result
         Me.Label8.AutoSize = True
         Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label8.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label8.Location = New Global.System.Drawing.Point(12, 189)
+        Me.Label8.Location = New Global.System.Drawing.Point(13, 190)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New Global.System.Drawing.Size(178, 20)
         Me.Label8.TabIndex = 42
@@ -2984,25 +3012,25 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel99.TabIndex = 3
         Me.Guna2HtmlLabel99.Text = "1. Design and architect software systems, considering scalability, performance, and other system requirements."
         ' 
+        ' Label1
+        ' 
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label1.Location = New Global.System.Drawing.Point(13, 11)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New Global.System.Drawing.Size(276, 20)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "SYSTEM DESIGN AND ARCHITECTURE"
+        ' 
         ' Label6
         ' 
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label6.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label6.Location = New Global.System.Drawing.Point(12, 10)
+        Me.Label6.Location = New Global.System.Drawing.Point(13, 616)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New Global.System.Drawing.Size(276, 20)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "SYSTEM DESIGN AND ARCHITECTURE"
-        ' 
-        ' Label7
-        ' 
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New Global.System.Drawing.Point(12, 615)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New Global.System.Drawing.Size(76, 15)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "                       "
+        Me.Label6.Size = New Global.System.Drawing.Size(76, 15)
+        Me.Label6.TabIndex = 2
+        Me.Label6.Text = "                       "
         ' 
         ' gbPage3
         ' 
@@ -3010,22 +3038,23 @@ Partial Class Employee_Result
         Me.gbPage3.Controls.Add(Me.Guna2Panel5)
         Me.gbPage3.CustomBorderColor = Global.System.Drawing.Color.White
         Me.gbPage3.CustomizableEdges = CustomizableEdges52
-        Me.gbPage3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.gbPage3.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.gbPage3.ForeColor = Global.System.Drawing.Color.White
         Me.gbPage3.Location = New Global.System.Drawing.Point(16, 48)
         Me.gbPage3.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gbPage3.Name = "gbPage3"
         Me.gbPage3.ShadowDecoration.CustomizableEdges = CustomizableEdges53
         Me.gbPage3.Size = New Global.System.Drawing.Size(770, 470)
-        Me.gbPage3.TabIndex = 66
+        Me.gbPage3.TabIndex = 69
         ' 
         ' Guna2Panel5
         ' 
         Me.Guna2Panel5.AutoScroll = True
         Me.Guna2Panel5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(234))), CInt(CByte(CByte(243))), CInt(CByte(CByte(243))))
-        Me.Guna2Panel5.Controls.Add(Me.Label41)
-        Me.Guna2Panel5.Controls.Add(Me.Label40)
-        Me.Guna2Panel5.Controls.Add(Me.Label39)
+        Me.Guna2Panel5.Controls.Add(Me.txtCLS1)
+        Me.Guna2Panel5.Controls.Add(Me.txtCLE1)
+        Me.Guna2Panel5.Controls.Add(Me.txtPS1)
+        Me.Guna2Panel5.Controls.Add(Me.txtPE1)
         Me.Guna2Panel5.Controls.Add(Me.lblPS7)
         Me.Guna2Panel5.Controls.Add(Me.lblPS6)
         Me.Guna2Panel5.Controls.Add(Me.lblPS5)
@@ -3046,13 +3075,12 @@ Partial Class Employee_Result
         Me.Guna2Panel5.Controls.Add(Me.lblCLE3)
         Me.Guna2Panel5.Controls.Add(Me.lblCLE2)
         Me.Guna2Panel5.Controls.Add(Me.lblCLE1)
-        Me.Guna2Panel5.Controls.Add(Me.txtCLS1)
-        Me.Guna2Panel5.Controls.Add(Me.txtCLE1)
+        Me.Guna2Panel5.Controls.Add(Me.Label41)
+        Me.Guna2Panel5.Controls.Add(Me.Label40)
+        Me.Guna2Panel5.Controls.Add(Me.Label39)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel100)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel101)
         Me.Guna2Panel5.Controls.Add(Me.Label14)
-        Me.Guna2Panel5.Controls.Add(Me.txtPS1)
-        Me.Guna2Panel5.Controls.Add(Me.txtPE1)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel102)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel105)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel106)
@@ -3090,42 +3118,104 @@ Partial Class Employee_Result
         Me.Guna2Panel5.Size = New Global.System.Drawing.Size(770, 430)
         Me.Guna2Panel5.TabIndex = 3
         ' 
-        ' Label41
+        ' txtCLS1
         ' 
-        Me.Label41.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label41.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label41.Location = New Global.System.Drawing.Point(29, 541)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New Global.System.Drawing.Size(718, 44)
-        Me.Label41.TabIndex = 89
-        Me.Label41.Text = resources.GetString("Label41.Text")
+        Me.txtCLS1.CustomizableEdges = CustomizableEdges42
+        Me.txtCLS1.DefaultText = ""
+        Me.txtCLS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtCLS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtCLS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCLS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCLS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCLS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtCLS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCLS1.Location = New Global.System.Drawing.Point(397, 164)
+        Me.txtCLS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCLS1.Multiline = True
+        Me.txtCLS1.Name = "txtCLS1"
+        Me.txtCLS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtCLS1.PlaceholderText = ""
+        Me.txtCLS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtCLS1.SelectedText = ""
+        Me.txtCLS1.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        Me.txtCLS1.Size = New Global.System.Drawing.Size(329, 98)
+        Me.txtCLS1.TabIndex = 47
         ' 
-        ' Label40
+        ' txtCLE1
         ' 
-        Me.Label40.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label40.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label40.Location = New Global.System.Drawing.Point(29, 493)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New Global.System.Drawing.Size(718, 29)
-        Me.Label40.TabIndex = 88
-        Me.Label40.Text = "6. Ensuring that all software development processes, including time tracking in Jira, comply with relevant laws, industry-specific regulations, and organizational policies. "
+        Me.txtCLE1.CustomizableEdges = CustomizableEdges44
+        Me.txtCLE1.DefaultText = ""
+        Me.txtCLE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtCLE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtCLE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCLE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtCLE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCLE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtCLE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtCLE1.Location = New Global.System.Drawing.Point(38, 164)
+        Me.txtCLE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCLE1.Multiline = True
+        Me.txtCLE1.Name = "txtCLE1"
+        Me.txtCLE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtCLE1.PlaceholderText = ""
+        Me.txtCLE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtCLE1.SelectedText = ""
+        Me.txtCLE1.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        Me.txtCLE1.Size = New Global.System.Drawing.Size(329, 98)
+        Me.txtCLE1.TabIndex = 46
         ' 
-        ' Label39
+        ' txtPS1
         ' 
-        Me.Label39.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.Label39.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label39.Location = New Global.System.Drawing.Point(38, 111)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New Global.System.Drawing.Size(713, 32)
-        Me.Label39.TabIndex = 87
-        Me.Label39.Text = resources.GetString("Label39.Text")
+        Me.txtPS1.CustomizableEdges = CustomizableEdges46
+        Me.txtPS1.DefaultText = ""
+        Me.txtPS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtPS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtPS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPS1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtPS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPS1.Location = New Global.System.Drawing.Point(388, 620)
+        Me.txtPS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPS1.Multiline = True
+        Me.txtPS1.Name = "txtPS1"
+        Me.txtPS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtPS1.PlaceholderText = ""
+        Me.txtPS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtPS1.SelectedText = ""
+        Me.txtPS1.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        Me.txtPS1.Size = New Global.System.Drawing.Size(329, 98)
+        Me.txtPS1.TabIndex = 41
+        ' 
+        ' txtPE1
+        ' 
+        Me.txtPE1.CustomizableEdges = CustomizableEdges48
+        Me.txtPE1.DefaultText = ""
+        Me.txtPE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtPE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtPE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtPE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPE1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtPE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtPE1.Location = New Global.System.Drawing.Point(29, 620)
+        Me.txtPE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtPE1.Multiline = True
+        Me.txtPE1.Name = "txtPE1"
+        Me.txtPE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtPE1.PlaceholderText = ""
+        Me.txtPE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
+        Me.txtPE1.SelectedText = ""
+        Me.txtPE1.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Me.txtPE1.Size = New Global.System.Drawing.Size(329, 98)
+        Me.txtPE1.TabIndex = 40
         ' 
         ' lblPS7
         ' 
         Me.lblPS7.AutoSize = True
         Me.lblPS7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS7.Location = New Global.System.Drawing.Point(462, 591)
+        Me.lblPS7.Location = New Global.System.Drawing.Point(462, 590)
         Me.lblPS7.Name = "lblPS7"
         Me.lblPS7.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS7.TabIndex = 86
@@ -3135,7 +3225,7 @@ Partial Class Employee_Result
         Me.lblPS6.AutoSize = True
         Me.lblPS6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS6.Location = New Global.System.Drawing.Point(462, 525)
+        Me.lblPS6.Location = New Global.System.Drawing.Point(462, 524)
         Me.lblPS6.Name = "lblPS6"
         Me.lblPS6.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS6.TabIndex = 85
@@ -3145,7 +3235,7 @@ Partial Class Employee_Result
         Me.lblPS5.AutoSize = True
         Me.lblPS5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS5.Location = New Global.System.Drawing.Point(462, 472)
+        Me.lblPS5.Location = New Global.System.Drawing.Point(462, 471)
         Me.lblPS5.Name = "lblPS5"
         Me.lblPS5.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS5.TabIndex = 84
@@ -3165,7 +3255,7 @@ Partial Class Employee_Result
         Me.lblPS3.AutoSize = True
         Me.lblPS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS3.Location = New Global.System.Drawing.Point(460, 404)
+        Me.lblPS3.Location = New Global.System.Drawing.Point(461, 402)
         Me.lblPS3.Name = "lblPS3"
         Me.lblPS3.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS3.TabIndex = 82
@@ -3175,7 +3265,7 @@ Partial Class Employee_Result
         Me.lblPS2.AutoSize = True
         Me.lblPS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS2.Location = New Global.System.Drawing.Point(462, 369)
+        Me.lblPS2.Location = New Global.System.Drawing.Point(462, 368)
         Me.lblPS2.Name = "lblPS2"
         Me.lblPS2.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS2.TabIndex = 81
@@ -3185,7 +3275,7 @@ Partial Class Employee_Result
         Me.lblPS1.AutoSize = True
         Me.lblPS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPS1.Location = New Global.System.Drawing.Point(463, 334)
+        Me.lblPS1.Location = New Global.System.Drawing.Point(463, 333)
         Me.lblPS1.Name = "lblPS1"
         Me.lblPS1.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPS1.TabIndex = 80
@@ -3195,7 +3285,7 @@ Partial Class Employee_Result
         Me.lblPE7.AutoSize = True
         Me.lblPE7.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE7.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE7.Location = New Global.System.Drawing.Point(108, 591)
+        Me.lblPE7.Location = New Global.System.Drawing.Point(108, 590)
         Me.lblPE7.Name = "lblPE7"
         Me.lblPE7.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE7.TabIndex = 79
@@ -3205,7 +3295,7 @@ Partial Class Employee_Result
         Me.lblPE6.AutoSize = True
         Me.lblPE6.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE6.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE6.Location = New Global.System.Drawing.Point(108, 528)
+        Me.lblPE6.Location = New Global.System.Drawing.Point(108, 526)
         Me.lblPE6.Name = "lblPE6"
         Me.lblPE6.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE6.TabIndex = 78
@@ -3215,7 +3305,7 @@ Partial Class Employee_Result
         Me.lblPE5.AutoSize = True
         Me.lblPE5.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE5.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE5.Location = New Global.System.Drawing.Point(108, 474)
+        Me.lblPE5.Location = New Global.System.Drawing.Point(108, 472)
         Me.lblPE5.Name = "lblPE5"
         Me.lblPE5.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE5.TabIndex = 77
@@ -3225,7 +3315,7 @@ Partial Class Employee_Result
         Me.lblPE4.AutoSize = True
         Me.lblPE4.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE4.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE4.Location = New Global.System.Drawing.Point(108, 435)
+        Me.lblPE4.Location = New Global.System.Drawing.Point(108, 434)
         Me.lblPE4.Name = "lblPE4"
         Me.lblPE4.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE4.TabIndex = 76
@@ -3235,7 +3325,7 @@ Partial Class Employee_Result
         Me.lblPE3.AutoSize = True
         Me.lblPE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE3.Location = New Global.System.Drawing.Point(107, 404)
+        Me.lblPE3.Location = New Global.System.Drawing.Point(107, 402)
         Me.lblPE3.Name = "lblPE3"
         Me.lblPE3.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE3.TabIndex = 75
@@ -3245,7 +3335,7 @@ Partial Class Employee_Result
         Me.lblPE2.AutoSize = True
         Me.lblPE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE2.Location = New Global.System.Drawing.Point(108, 369)
+        Me.lblPE2.Location = New Global.System.Drawing.Point(108, 368)
         Me.lblPE2.Name = "lblPE2"
         Me.lblPE2.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE2.TabIndex = 74
@@ -3255,7 +3345,7 @@ Partial Class Employee_Result
         Me.lblPE1.AutoSize = True
         Me.lblPE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblPE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblPE1.Location = New Global.System.Drawing.Point(108, 334)
+        Me.lblPE1.Location = New Global.System.Drawing.Point(109, 333)
         Me.lblPE1.Name = "lblPE1"
         Me.lblPE1.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblPE1.TabIndex = 73
@@ -3265,7 +3355,7 @@ Partial Class Employee_Result
         Me.lblCLS3.AutoSize = True
         Me.lblCLS3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLS3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS3.Location = New Global.System.Drawing.Point(469, 147)
+        Me.lblCLS3.Location = New Global.System.Drawing.Point(469, 146)
         Me.lblCLS3.Name = "lblCLS3"
         Me.lblCLS3.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLS3.TabIndex = 72
@@ -3275,7 +3365,7 @@ Partial Class Employee_Result
         Me.lblCLS2.AutoSize = True
         Me.lblCLS2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLS2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS2.Location = New Global.System.Drawing.Point(469, 94)
+        Me.lblCLS2.Location = New Global.System.Drawing.Point(469, 93)
         Me.lblCLS2.Name = "lblCLS2"
         Me.lblCLS2.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLS2.TabIndex = 71
@@ -3285,7 +3375,7 @@ Partial Class Employee_Result
         Me.lblCLS1.AutoSize = True
         Me.lblCLS1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLS1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLS1.Location = New Global.System.Drawing.Point(469, 57)
+        Me.lblCLS1.Location = New Global.System.Drawing.Point(469, 56)
         Me.lblCLS1.Name = "lblCLS1"
         Me.lblCLS1.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLS1.TabIndex = 70
@@ -3295,7 +3385,7 @@ Partial Class Employee_Result
         Me.lblCLE3.AutoSize = True
         Me.lblCLE3.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLE3.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE3.Location = New Global.System.Drawing.Point(115, 147)
+        Me.lblCLE3.Location = New Global.System.Drawing.Point(115, 146)
         Me.lblCLE3.Name = "lblCLE3"
         Me.lblCLE3.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLE3.TabIndex = 69
@@ -3305,7 +3395,7 @@ Partial Class Employee_Result
         Me.lblCLE2.AutoSize = True
         Me.lblCLE2.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLE2.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE2.Location = New Global.System.Drawing.Point(115, 93)
+        Me.lblCLE2.Location = New Global.System.Drawing.Point(115, 92)
         Me.lblCLE2.Name = "lblCLE2"
         Me.lblCLE2.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLE2.TabIndex = 68
@@ -3315,54 +3405,40 @@ Partial Class Employee_Result
         Me.lblCLE1.AutoSize = True
         Me.lblCLE1.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblCLE1.ForeColor = Global.System.Drawing.Color.Black
-        Me.lblCLE1.Location = New Global.System.Drawing.Point(115, 57)
+        Me.lblCLE1.Location = New Global.System.Drawing.Point(115, 56)
         Me.lblCLE1.Name = "lblCLE1"
         Me.lblCLE1.Size = New Global.System.Drawing.Size(0, 13)
         Me.lblCLE1.TabIndex = 67
         ' 
-        ' txtCLS1
+        ' Label41
         ' 
-        Me.txtCLS1.CustomizableEdges = CustomizableEdges42
-        Me.txtCLS1.DefaultText = ""
-        Me.txtCLS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCLS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCLS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCLS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLS1.Location = New Global.System.Drawing.Point(397, 164)
-        Me.txtCLS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCLS1.Name = "txtCLS1"
-        Me.txtCLS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCLS1.PlaceholderText = ""
-        Me.txtCLS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCLS1.SelectedText = ""
-        Me.txtCLS1.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-        Me.txtCLS1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtCLS1.TabIndex = 47
+        Me.Label41.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label41.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label41.Location = New Global.System.Drawing.Point(29, 541)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New Global.System.Drawing.Size(697, 44)
+        Me.Label41.TabIndex = 89
+        Me.Label41.Text = resources.GetString("Label41.Text")
         ' 
-        ' txtCLE1
+        ' Label40
         ' 
-        Me.txtCLE1.CustomizableEdges = CustomizableEdges44
-        Me.txtCLE1.DefaultText = ""
-        Me.txtCLE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtCLE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtCLE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtCLE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtCLE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtCLE1.Location = New Global.System.Drawing.Point(38, 164)
-        Me.txtCLE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtCLE1.Name = "txtCLE1"
-        Me.txtCLE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtCLE1.PlaceholderText = ""
-        Me.txtCLE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtCLE1.SelectedText = ""
-        Me.txtCLE1.ShadowDecoration.CustomizableEdges = CustomizableEdges45
-        Me.txtCLE1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtCLE1.TabIndex = 46
+        Me.Label40.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label40.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label40.Location = New Global.System.Drawing.Point(29, 493)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New Global.System.Drawing.Size(716, 29)
+        Me.Label40.TabIndex = 88
+        Me.Label40.Text = "6. Ensuring that all software development processes, including time tracking in Jira, comply with relevant laws, industry-specific regulations, and organizational policies. "
+        ' 
+        ' Label39
+        ' 
+        Me.Label39.Font = New Global.System.Drawing.Font("Segoe UI", 7.8F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label39.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label39.Location = New Global.System.Drawing.Point(38, 111)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New Global.System.Drawing.Size(707, 32)
+        Me.Label39.TabIndex = 87
+        Me.Label39.Text = resources.GetString("Label39.Text")
         ' 
         ' Guna2HtmlLabel100
         ' 
@@ -3395,55 +3471,11 @@ Partial Class Employee_Result
         Me.Label14.AutoSize = True
         Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 10.8F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label14.ForeColor = Global.System.Drawing.Color.Black
-        Me.Label14.Location = New Global.System.Drawing.Point(16, 285)
+        Me.Label14.Location = New Global.System.Drawing.Point(16, 286)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New Global.System.Drawing.Size(145, 20)
         Me.Label14.TabIndex = 42
         Me.Label14.Text = "PROFESSIONALISM"
-        ' 
-        ' txtPS1
-        ' 
-        Me.txtPS1.CustomizableEdges = CustomizableEdges46
-        Me.txtPS1.DefaultText = ""
-        Me.txtPS1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPS1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPS1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPS1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPS1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPS1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPS1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPS1.Location = New Global.System.Drawing.Point(388, 620)
-        Me.txtPS1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPS1.Name = "txtPS1"
-        Me.txtPS1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPS1.PlaceholderText = ""
-        Me.txtPS1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPS1.SelectedText = ""
-        Me.txtPS1.ShadowDecoration.CustomizableEdges = CustomizableEdges47
-        Me.txtPS1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtPS1.TabIndex = 41
-        ' 
-        ' txtPE1
-        ' 
-        Me.txtPE1.CustomizableEdges = CustomizableEdges48
-        Me.txtPE1.DefaultText = ""
-        Me.txtPE1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
-        Me.txtPE1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
-        Me.txtPE1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPE1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
-        Me.txtPE1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPE1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.txtPE1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtPE1.Location = New Global.System.Drawing.Point(29, 620)
-        Me.txtPE1.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.txtPE1.Name = "txtPE1"
-        Me.txtPE1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
-        Me.txtPE1.PlaceholderText = ""
-        Me.txtPE1.ScrollBars = Global.System.Windows.Forms.ScrollBars.Vertical
-        Me.txtPE1.SelectedText = ""
-        Me.txtPE1.ShadowDecoration.CustomizableEdges = CustomizableEdges49
-        Me.txtPE1.Size = New Global.System.Drawing.Size(329, 98)
-        Me.txtPE1.TabIndex = 40
         ' 
         ' Guna2HtmlLabel102
         ' 
@@ -3727,7 +3759,7 @@ Partial Class Employee_Result
         Me.Guna2HtmlLabel125.Location = New Global.System.Drawing.Point(38, 70)
         Me.Guna2HtmlLabel125.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Guna2HtmlLabel125.Name = "Guna2HtmlLabel125"
-        Me.Guna2HtmlLabel125.Size = New Global.System.Drawing.Size(713, 34)
+        Me.Guna2HtmlLabel125.Size = New Global.System.Drawing.Size(707, 34)
         Me.Guna2HtmlLabel125.TabIndex = 10
         Me.Guna2HtmlLabel125.Text = "2. Continuously improve skills and knowledge through training, self-study, and participation in workshops or conferences."
         ' 
@@ -3784,7 +3816,7 @@ Partial Class Employee_Result
         ' Label16
         ' 
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New Global.System.Drawing.Point(5, 720)
+        Me.Label16.Location = New Global.System.Drawing.Point(6, 720)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New Global.System.Drawing.Size(76, 15)
         Me.Label16.TabIndex = 2
@@ -3792,7 +3824,7 @@ Partial Class Employee_Result
         ' 
         ' Employee_Result
         ' 
-        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
+        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7.0F, 15.0F)
         Me.AutoScaleMode = Global.System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = Global.System.Drawing.Color.White
         Me.ClientSize = New Global.System.Drawing.Size(803, 552)
@@ -3807,19 +3839,19 @@ Partial Class Employee_Result
         Me.Controls.Add(Me.lblEmployeeName)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.gbPage1)
         Me.Controls.Add(Me.gbPage2)
         Me.Controls.Add(Me.gbPage3)
         Me.Controls.Add(Me.gbPage4)
-        Me.Controls.Add(Me.gbPage1)
         Me.Margin = New Global.System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Employee_Result"
         Me.Guna2GroupBox10.ResumeLayout(False)
         Me.gbPage4.ResumeLayout(False)
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
-        Me.gbPage1.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
         Me.Guna2Panel3.PerformLayout()
+        Me.gbPage1.ResumeLayout(False)
         Me.gbPage2.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel4.PerformLayout()
@@ -3897,8 +3929,26 @@ Partial Class Employee_Result
     Friend WithEvents Guna2HtmlLabel45 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel44 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents gbPage1 As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblSDS9 As Label
+    Friend WithEvents Guna2HtmlLabel58 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblSDE9 As Label
+    Friend WithEvents lblSDS7 As Label
+    Friend WithEvents lblSDE7 As Label
+    Friend WithEvents lblSDS8 As Label
+    Friend WithEvents lblSDE8 As Label
+    Friend WithEvents lblSDS6 As Label
+    Friend WithEvents lblSDE6 As Label
+    Friend WithEvents lblSDS5 As Label
+    Friend WithEvents lblSDE5 As Label
+    Friend WithEvents lblSDS4 As Label
+    Friend WithEvents lblSDE4 As Label
+    Friend WithEvents lblSDS3 As Label
+    Friend WithEvents lblSDE3 As Label
+    Friend WithEvents lblSDS2 As Label
+    Friend WithEvents lblSDE2 As Label
+    Friend WithEvents lblSDS1 As Label
+    Friend WithEvents lblSDE1 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label22 As Label
@@ -3921,30 +3971,12 @@ Partial Class Employee_Result
     Friend WithEvents lblSDS12 As Label
     Friend WithEvents lblSDS11 As Label
     Friend WithEvents lblSDS10 As Label
-    Friend WithEvents lblSDS9 As Label
-    Friend WithEvents lblSDS8 As Label
-    Friend WithEvents lblSDS7 As Label
-    Friend WithEvents lblSDS6 As Label
-    Friend WithEvents lblSDS5 As Label
-    Friend WithEvents lblSDS4 As Label
-    Friend WithEvents lblSDS3 As Label
-    Friend WithEvents lblSDS2 As Label
-    Friend WithEvents lblSDS1 As Label
     Friend WithEvents lblSDE15 As Label
     Friend WithEvents lblSDE14 As Label
     Friend WithEvents lblSDE13 As Label
     Friend WithEvents lblSDE12 As Label
     Friend WithEvents lblSDE11 As Label
     Friend WithEvents lblSDE10 As Label
-    Friend WithEvents lblSDE9 As Label
-    Friend WithEvents lblSDE8 As Label
-    Friend WithEvents lblSDE7 As Label
-    Friend WithEvents lblSDE6 As Label
-    Friend WithEvents lblSDE5 As Label
-    Friend WithEvents lblSDE4 As Label
-    Friend WithEvents lblSDE3 As Label
-    Friend WithEvents lblSDE2 As Label
-    Friend WithEvents lblSDE1 As Label
     Friend WithEvents Guna2HtmlLabel46 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel47 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel48 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -3959,7 +3991,6 @@ Partial Class Employee_Result
     Friend WithEvents Guna2HtmlLabel55 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel56 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel57 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel58 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel59 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel60 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel61 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -3978,124 +4009,125 @@ Partial Class Employee_Result
     Friend WithEvents Guna2HtmlLabel74 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel75 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Label5 As Label
-    Friend WithEvents gbPage2 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label38 As Label
-    Friend WithEvents Label37 As Label
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label35 As Label
-    Friend WithEvents lblCIS4 As Label
-    Friend WithEvents lblCIS3 As Label
-    Friend WithEvents lblCIS2 As Label
-    Friend WithEvents lblCIS1 As Label
-    Friend WithEvents lblDS2 As Label
-    Friend WithEvents lblDS1 As Label
-    Friend WithEvents lblPSS1 As Label
-    Friend WithEvents lblSDAS2 As Label
-    Friend WithEvents lblSDAS1 As Label
-    Friend WithEvents lblCIE4 As Label
-    Friend WithEvents lblCIE3 As Label
-    Friend WithEvents lblCIE2 As Label
-    Friend WithEvents lblCIE1 As Label
-    Friend WithEvents lblDE2 As Label
-    Friend WithEvents lblDE1 As Label
-    Friend WithEvents lblPSE1 As Label
-    Friend WithEvents lblSDAE2 As Label
-    Friend WithEvents lblSDAE1 As Label
-    Friend WithEvents txtCIS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtCIE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtDS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtDE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtPSS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtPSE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtSDAS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtSDAE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Guna2HtmlLabel76 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel77 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel78 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel79 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel80 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel81 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel82 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel83 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel84 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel85 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel86 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel87 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel88 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel89 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel90 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel91 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel92 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel93 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel94 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel95 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel96 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel97 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel98 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel99 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents gbPage3 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label41 As Label
-    Friend WithEvents Label40 As Label
-    Friend WithEvents Label39 As Label
-    Friend WithEvents lblPS7 As Label
-    Friend WithEvents lblPS6 As Label
-    Friend WithEvents lblPS5 As Label
-    Friend WithEvents lblPS4 As Label
-    Friend WithEvents lblPS3 As Label
-    Friend WithEvents lblPS2 As Label
-    Friend WithEvents lblPS1 As Label
-    Friend WithEvents lblPE7 As Label
-    Friend WithEvents lblPE6 As Label
-    Friend WithEvents lblPE5 As Label
-    Friend WithEvents lblPE4 As Label
-    Friend WithEvents lblPE3 As Label
-    Friend WithEvents lblPE2 As Label
-    Friend WithEvents lblPE1 As Label
-    Friend WithEvents lblCLS3 As Label
-    Friend WithEvents lblCLS2 As Label
-    Friend WithEvents lblCLS1 As Label
-    Friend WithEvents lblCLE3 As Label
-    Friend WithEvents lblCLE2 As Label
-    Friend WithEvents lblCLE1 As Label
-    Friend WithEvents txtCLS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtCLE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2HtmlLabel100 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel101 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label14 As Label
-    Friend WithEvents txtPS1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents txtPE1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2HtmlLabel102 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel105 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel106 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel107 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel108 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel109 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel110 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel111 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel112 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel113 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel114 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel115 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel116 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel117 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel118 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel119 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel120 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel121 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel122 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel123 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel124 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel125 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel126 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel127 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel128 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
+    Friend WithEvents gbPage1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents gbPage2 As Global.Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2Panel4 As Global.Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents txtCIS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtCIE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtDS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtDE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPSS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPSE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSDAS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSDAE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents lblCIS4 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIS3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIS2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblDS2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblDS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPSS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblSDAS2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblSDAS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIE4 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIE3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIE2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCIE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblDE2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblDE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPSE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblSDAE2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblSDAE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label38 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label37 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label36 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label35 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label11 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label9 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label8 As Global.System.Windows.Forms.Label
+    Friend WithEvents Guna2HtmlLabel76 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel77 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel78 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel79 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel80 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel81 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel82 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel83 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel84 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel85 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel86 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel87 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel88 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel89 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel90 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel91 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel92 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel93 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel94 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel95 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel96 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel97 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel98 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel99 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label1 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label6 As Global.System.Windows.Forms.Label
+    Friend WithEvents gbPage3 As Global.Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2Panel5 As Global.Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents txtCLS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtCLE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPS1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtPE1 As Global.Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents lblPS7 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS6 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS5 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS4 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE7 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE6 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE5 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE4 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblPE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLS3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLS2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLS1 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLE3 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLE2 As Global.System.Windows.Forms.Label
+    Friend WithEvents lblCLE1 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label41 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label40 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label39 As Global.System.Windows.Forms.Label
+    Friend WithEvents Guna2HtmlLabel100 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel101 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label14 As Global.System.Windows.Forms.Label
+    Friend WithEvents Guna2HtmlLabel102 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel105 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel106 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel107 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel108 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel109 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel110 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel111 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel112 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel113 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel114 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel115 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel116 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel117 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel118 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel119 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel120 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel121 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel122 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel123 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel124 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel125 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel126 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel127 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel128 As Global.Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label15 As Global.System.Windows.Forms.Label
+    Friend WithEvents Label16 As Global.System.Windows.Forms.Label
 End Class
