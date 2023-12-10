@@ -22,14 +22,14 @@ Partial Class Employee_List
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         dgEmployeeList = New Guna.UI2.WinForms.Guna2DataGridView()
         lblAdminID = New Label()
         lblAdminName = New Label()
@@ -43,29 +43,33 @@ Partial Class Employee_List
         ' 
         ' dgEmployeeList
         ' 
-        DataGridViewCellStyle4.BackColor = Color.White
-        dgEmployeeList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle5.ForeColor = Color.White
-        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
-        dgEmployeeList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
-        dgEmployeeList.ColumnHeadersHeight = 4
+        dgEmployeeList.AllowUserToAddRows = False
+        dgEmployeeList.AllowUserToDeleteRows = False
+        DataGridViewCellStyle1.BackColor = Color.White
+        dgEmployeeList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        dgEmployeeList.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgEmployeeList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        dgEmployeeList.ColumnHeadersHeight = 20
         dgEmployeeList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
-        dgEmployeeList.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgEmployeeList.DefaultCellStyle = DataGridViewCellStyle3
         dgEmployeeList.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgEmployeeList.Location = New Point(15, 133)
         dgEmployeeList.Name = "dgEmployeeList"
+        dgEmployeeList.ReadOnly = True
         dgEmployeeList.RowHeadersVisible = False
         dgEmployeeList.RowTemplate.Height = 25
         dgEmployeeList.Size = New Size(770, 395)
@@ -82,8 +86,8 @@ Partial Class Employee_List
         dgEmployeeList.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dgEmployeeList.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgEmployeeList.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgEmployeeList.ThemeStyle.HeaderStyle.Height = 4
-        dgEmployeeList.ThemeStyle.ReadOnly = False
+        dgEmployeeList.ThemeStyle.HeaderStyle.Height = 20
+        dgEmployeeList.ThemeStyle.ReadOnly = True
         dgEmployeeList.ThemeStyle.RowsStyle.BackColor = Color.White
         dgEmployeeList.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgEmployeeList.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -120,7 +124,7 @@ Partial Class Employee_List
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
-        Guna2Shapes1.RoundedEdges = CustomizableEdges6
+        Guna2Shapes1.RoundedEdges = CustomizableEdges1
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
         Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 43
@@ -152,7 +156,7 @@ Partial Class Employee_List
         txtPassword.AutoRoundedCorners = True
         txtPassword.BackColor = Color.Transparent
         txtPassword.BorderRadius = 13
-        txtPassword.CustomizableEdges = CustomizableEdges7
+        txtPassword.CustomizableEdges = CustomizableEdges2
         txtPassword.DefaultText = "Password"
         txtPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -169,7 +173,7 @@ Partial Class Employee_List
         txtPassword.PasswordChar = ChrW(0)
         txtPassword.PlaceholderText = ""
         txtPassword.SelectedText = ""
-        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges3
         txtPassword.ShadowDecoration.Enabled = True
         txtPassword.ShadowDecoration.Shadow = New Padding(0, 0, 0, 5)
         txtPassword.Size = New Size(202, 28)
@@ -180,7 +184,7 @@ Partial Class Employee_List
         btnUpdate.AutoRoundedCorners = True
         btnUpdate.BackColor = Color.Transparent
         btnUpdate.BorderRadius = 13
-        btnUpdate.CustomizableEdges = CustomizableEdges9
+        btnUpdate.CustomizableEdges = CustomizableEdges4
         btnUpdate.DisabledState.BorderColor = Color.DarkGray
         btnUpdate.DisabledState.CustomBorderColor = Color.DarkGray
         btnUpdate.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -191,7 +195,7 @@ Partial Class Employee_List
         btnUpdate.Location = New Point(233, 93)
         btnUpdate.Margin = New Padding(3, 2, 3, 2)
         btnUpdate.Name = "btnUpdate"
-        btnUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        btnUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         btnUpdate.Size = New Size(95, 28)
         btnUpdate.TabIndex = 47
         btnUpdate.Text = "Update"

@@ -68,17 +68,9 @@ Partial Class Employee_Dashboard
         btnResult = New Guna.UI2.WinForms.Guna2Button()
         PictureBox1 = New PictureBox()
         Homepanel = New Guna.UI2.WinForms.Guna2Panel()
-        lblManager = New Label()
-        lblSupervisor = New Label()
-        lblEID = New Label()
-        lblEName = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
         lblDateLastAnswered = New Label()
         Label5 = New Label()
-        lblSupervisorIDandName = New Label()
+        lblEmployee = New Label()
         Label6 = New Label()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -367,16 +359,8 @@ Partial Class Employee_Dashboard
         Homepanel.BackgroundImageLayout = ImageLayout.Stretch
         Homepanel.Controls.Add(lblDateLastAnswered)
         Homepanel.Controls.Add(Label5)
-        Homepanel.Controls.Add(lblSupervisorIDandName)
+        Homepanel.Controls.Add(lblEmployee)
         Homepanel.Controls.Add(Label6)
-        Homepanel.Controls.Add(lblManager)
-        Homepanel.Controls.Add(lblSupervisor)
-        Homepanel.Controls.Add(lblEID)
-        Homepanel.Controls.Add(lblEName)
-        Homepanel.Controls.Add(Label4)
-        Homepanel.Controls.Add(Label3)
-        Homepanel.Controls.Add(Label2)
-        Homepanel.Controls.Add(Label1)
         Homepanel.CustomizableEdges = CustomizableEdges27
         Homepanel.Location = New Point(130, 0)
         Homepanel.Margin = New Padding(3, 2, 3, 2)
@@ -384,82 +368,6 @@ Partial Class Employee_Dashboard
         Homepanel.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Homepanel.Size = New Size(819, 568)
         Homepanel.TabIndex = 0
-        ' 
-        ' lblManager
-        ' 
-        lblManager.AutoSize = True
-        lblManager.Location = New Point(649, 48)
-        lblManager.Name = "lblManager"
-        lblManager.Size = New Size(41, 15)
-        lblManager.TabIndex = 7
-        lblManager.Text = "Label8"
-        ' 
-        ' lblSupervisor
-        ' 
-        lblSupervisor.AutoSize = True
-        lblSupervisor.Location = New Point(649, 23)
-        lblSupervisor.Name = "lblSupervisor"
-        lblSupervisor.Size = New Size(41, 15)
-        lblSupervisor.TabIndex = 6
-        lblSupervisor.Text = "Label7"
-        ' 
-        ' lblEID
-        ' 
-        lblEID.AutoSize = True
-        lblEID.Location = New Point(136, 48)
-        lblEID.Name = "lblEID"
-        lblEID.Size = New Size(41, 15)
-        lblEID.TabIndex = 5
-        lblEID.Text = "Label6"
-        ' 
-        ' lblEName
-        ' 
-        lblEName.AutoSize = True
-        lblEName.Location = New Point(136, 23)
-        lblEName.Name = "lblEName"
-        lblEName.Size = New Size(41, 15)
-        lblEName.TabIndex = 2
-        lblEName.Text = "Label5"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(573, 48)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(57, 15)
-        Label4.TabIndex = 3
-        Label4.Text = "Manager:"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(573, 23)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(65, 15)
-        Label3.TabIndex = 2
-        Label3.Text = "Supervisor:"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(24, 48)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(76, 15)
-        Label2.TabIndex = 1
-        Label2.Text = "Employee ID:"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(24, 23)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(97, 15)
-        Label1.TabIndex = 0
-        Label1.Text = "Employee Name:"
         ' 
         ' lblDateLastAnswered
         ' 
@@ -485,17 +393,17 @@ Partial Class Employee_Dashboard
         Label5.TabIndex = 13
         Label5.Text = "Last Answered:"
         ' 
-        ' lblSupervisorIDandName
+        ' lblEmployee
         ' 
-        lblSupervisorIDandName.AutoSize = True
-        lblSupervisorIDandName.BackColor = Color.Transparent
-        lblSupervisorIDandName.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point)
-        lblSupervisorIDandName.ForeColor = Color.White
-        lblSupervisorIDandName.Location = New Point(198, 77)
-        lblSupervisorIDandName.Name = "lblSupervisorIDandName"
-        lblSupervisorIDandName.Size = New Size(92, 45)
-        lblSupervisorIDandName.TabIndex = 12
-        lblSupervisorIDandName.Text = "2020"
+        lblEmployee.AutoSize = True
+        lblEmployee.BackColor = Color.Transparent
+        lblEmployee.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point)
+        lblEmployee.ForeColor = Color.White
+        lblEmployee.Location = New Point(198, 76)
+        lblEmployee.Name = "lblEmployee"
+        lblEmployee.Size = New Size(92, 45)
+        lblEmployee.TabIndex = 12
+        lblEmployee.Text = "2020"
         ' 
         ' Label6
         ' 
@@ -534,14 +442,6 @@ Partial Class Employee_Dashboard
     Friend WithEvents btnLogout As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnAnswer As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnResult As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents lblManager As Label
-    Friend WithEvents lblSupervisor As Label
-    Friend WithEvents lblEID As Label
-    Friend WithEvents lblEName As Label
     Friend WithEvents btnHistory As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents btnHome As Guna.UI2.WinForms.Guna2Button
@@ -556,6 +456,6 @@ Partial Class Employee_Dashboard
     Friend WithEvents btnIndicatorHome As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblDateLastAnswered As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents lblSupervisorIDandName As Label
+    Friend WithEvents lblEmployee As Label
     Friend WithEvents Label6 As Label
 End Class

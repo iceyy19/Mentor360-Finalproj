@@ -31,10 +31,7 @@ Public Class Employee_Dashboard
         mID = result.Item4
         mN = result.Item5
 
-        lblEID.Text = ID
-        lblEName.Text = eN
-        lblSupervisor.Text = sN
-        lblManager.Text = mN
+        lblEmployee.Text = ID & " - " & eN
 
         Resultform.lblEmployeeID.Text = ID
         Resultform.lblEmployeeName.Text = eN
@@ -249,12 +246,12 @@ Public Class Employee_Dashboard
             ' SQL query
             Dim query As String = "
                 SELECT
-                    dEmployeeID,
-                    dEmployeeName,
-                    dSupervisorID,
-                    dSupervisorName,
-                    dManagerID,
-                    dManagerName,
+                    dEmployeeID AS 'Employee ID',
+                    dEmployeeName AS 'Employee Name',
+                    dSupervisorID AS 'Supervisor ID',
+                    dSupervisorName AS 'Supervisor Name',
+                    dManagerID AS 'Manager ID',
+                    dManagerName AS 'Manager Name',
                     dEl1, dEl2, dEl3, dEl4, dEl5, dEl6, dEl7, dEl8, dEl9, dEl10,
                     dEl11, dEl12, dEl13, dEl14, dEl15, dEl16, dEl17, dEl18, dEl19, dEl20,
                     dEl21, dEl22, dEl23, dEl24, dEl25, dEl26, dEl27, dEl28, dEl29, dEl30,
@@ -266,10 +263,10 @@ Public Class Employee_Dashboard
                     dSl21, dSl22, dSl23, dSl24, dSl25, dSl26, dSl27, dSl28, dSl29, dSl30,
                     dSl31, dSl32, dSl33, dSl34,
                     dSr1, dSr2, dSr3, dSr4, dSr5, dSr6, dSr7,
-                    tSDateResponse,
-                    dERating,
-                    dSRating,
-                    dDiscussion
+                    tSDateResponse AS 'Supervisor Date Response',
+                    dERating AS 'Employee Rating',
+                    dSRating AS 'Supervisor Rating',
+                    dDiscussion AS 'Discussion'
                 FROM
                     tblfeedback
                 WHERE
@@ -349,4 +346,6 @@ Public Class Employee_Dashboard
     Private Sub Homepanel_Paint(sender As Object, e As PaintEventArgs) Handles Homepanel.Paint
 
     End Sub
+
+
 End Class

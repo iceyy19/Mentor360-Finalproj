@@ -22,10 +22,10 @@ Partial Class Admin_Logs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         dgAdminLogs = New Guna.UI2.WinForms.Guna2DataGridView()
         lblAdminID = New Label()
         lblAdminName = New Label()
@@ -38,29 +38,32 @@ Partial Class Admin_Logs
         ' 
         ' dgAdminLogs
         ' 
-        DataGridViewCellStyle4.BackColor = Color.White
-        dgAdminLogs.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle5.ForeColor = Color.White
-        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
-        dgAdminLogs.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
-        dgAdminLogs.ColumnHeadersHeight = 4
+        dgAdminLogs.AllowUserToAddRows = False
+        dgAdminLogs.AllowUserToDeleteRows = False
+        DataGridViewCellStyle1.BackColor = Color.White
+        dgAdminLogs.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgAdminLogs.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        dgAdminLogs.ColumnHeadersHeight = 20
         dgAdminLogs.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
-        dgAdminLogs.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgAdminLogs.DefaultCellStyle = DataGridViewCellStyle3
         dgAdminLogs.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgAdminLogs.Location = New Point(15, 123)
         dgAdminLogs.Name = "dgAdminLogs"
+        dgAdminLogs.ReadOnly = True
         dgAdminLogs.RowHeadersVisible = False
         dgAdminLogs.RowTemplate.Height = 25
         dgAdminLogs.Size = New Size(770, 405)
@@ -77,8 +80,8 @@ Partial Class Admin_Logs
         dgAdminLogs.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dgAdminLogs.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgAdminLogs.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgAdminLogs.ThemeStyle.HeaderStyle.Height = 4
-        dgAdminLogs.ThemeStyle.ReadOnly = False
+        dgAdminLogs.ThemeStyle.HeaderStyle.Height = 20
+        dgAdminLogs.ThemeStyle.ReadOnly = True
         dgAdminLogs.ThemeStyle.RowsStyle.BackColor = Color.White
         dgAdminLogs.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgAdminLogs.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -115,7 +118,7 @@ Partial Class Admin_Logs
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
-        Guna2Shapes1.RoundedEdges = CustomizableEdges2
+        Guna2Shapes1.RoundedEdges = CustomizableEdges1
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
         Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 36
@@ -146,7 +149,7 @@ Partial Class Admin_Logs
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label3.Location = New Point(15, 100)
+        Label3.Location = New Point(15, 97)
         Label3.Name = "Label3"
         Label3.Size = New Size(93, 20)
         Label3.TabIndex = 39
@@ -159,13 +162,13 @@ Partial Class Admin_Logs
         BackColor = Color.White
         ClientSize = New Size(803, 552)
         ControlBox = False
-        Controls.Add(Label3)
         Controls.Add(dgAdminLogs)
         Controls.Add(lblAdminID)
         Controls.Add(lblAdminName)
         Controls.Add(Guna2Shapes1)
         Controls.Add(Label2)
         Controls.Add(Label1)
+        Controls.Add(Label3)
         Name = "Admin_Logs"
         CType(dgAdminLogs, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

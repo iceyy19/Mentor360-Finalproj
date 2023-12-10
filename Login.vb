@@ -1,6 +1,7 @@
 ﻿Imports System.Windows
 Imports System.Windows.Forms.DataFormats
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar
 Imports Guna.UI2.WinForms
 Imports MySql.Data.MySqlClient
 
@@ -54,6 +55,8 @@ Public Class Login
                     ID = txtID.Text
                     txtID.Clear()
                     txtPass.Clear()
+                    txtPass.UseSystemPasswordChar = True
+                    btnShowPass.Image = My.Resources.Hidepassword
                     Me.Hide()
                     Admin_Dashboard.Show()
                 Else
@@ -72,6 +75,8 @@ Public Class Login
                                 ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
+                                txtPass.UseSystemPasswordChar = True
+                                btnShowPass.Image = My.Resources.Hidepassword
                                 Dim NewUserForm As New New_User()
                                 NewUserForm.Show()
                             Else
@@ -163,18 +168,24 @@ Public Class Login
                                 ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
+                                txtPass.UseSystemPasswordChar = True
+                                btnShowPass.Image = My.Resources.Hidepassword
                                 Me.Hide()
                                 Employee_Dashboard.Show()
                             Case "SupervisorID"
                                 ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
+                                txtPass.UseSystemPasswordChar = True
+                                btnShowPass.Image = My.Resources.Hidepassword
                                 Me.Hide()
                                 Supervisor_Dashboard.Show()
                             Case "ManagerID"
                                 ID = txtID.Text
                                 txtID.Clear()
                                 txtPass.Clear()
+                                txtPass.UseSystemPasswordChar = True
+                                btnShowPass.Image = My.Resources.Hidepassword
                                 Me.Hide()
                                 Manager_Dashboard.Show()
                         End Select
@@ -240,9 +251,29 @@ Public Class Login
         Enter_Employee_ID.Show()
     End Sub
 
-    Private Sub gblogin_Enter(sender As Object, e As EventArgs) Handles gblogin.Enter
-
+    Private Sub txtPassword_KeyDown(sender As Object, e As KeyEventArgs) Handles txtPass.KeyDown
+        ' Check if the Enter key is pressed
+        If e.KeyCode = Keys.Enter Then
+            ' Click the login button
+            btnLogin.PerformClick()
+        End If
     End Sub
+    Private Sub txtID_KeyDown(sender As Object, e As KeyEventArgs) Handles txtID.KeyDown
+        ' Check if the Enter key is pressed
+        If e.KeyCode = Keys.Enter Then
+            ' Click the login button
+            btnLogin.PerformClick()
+        End If
+    End Sub
+    Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
+        ' Check if the Enter key is pressed
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+
+            btnLogin.PerformClick()
+            e.Handled = True
+        End If
+    End Sub
+
     Dim isPasswordVisible As Boolean = True
     Private Sub btnShowPass_Click(sender As Object, e As EventArgs) Handles btnShowPass.Click
 
@@ -257,5 +288,6 @@ Public Class Login
         btnShowPass.ImageOffset = New Point(0, 0)
         btnShowPass.ImageAlign = HorizontalAlignment.Center
         btnShowPass.TextAlign = HorizontalAlignment.Center
+
     End Sub
 End Class

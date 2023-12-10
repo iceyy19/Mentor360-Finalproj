@@ -208,6 +208,7 @@ Partial Class Login
         btnShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         btnShowPass.Size = New Size(32, 23)
         btnShowPass.TabIndex = 25
+        btnShowPass.TabStop = False
         btnShowPass.UseTransparentBackground = True
         ' 
         ' cAdmin

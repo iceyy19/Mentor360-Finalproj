@@ -45,27 +45,27 @@ Public Class Manager_Dashboard
             ' SQL query
             Dim query As String = "
                 SELECT
-                    dEmployeeID,
-                    dEmployeeName,
-                    dSupervisorID,
-                    dSupervisorName,
-                    dManagerID,
-                    dManagerName,
+                    dEmployeeID AS 'Employee ID',
+                    dEmployeeName AS 'Employee Name',
+                    dSupervisorID AS 'Supervisor ID',
+                    dSupervisorName AS 'Supervisor Name',
+                    dManagerID AS 'Manager ID',
+                    dManagerName AS 'Manager Name',
                     dEl1, dEl2, dEl3, dEl4, dEl5, dEl6, dEl7, dEl8, dEl9, dEl10,
                     dEl11, dEl12, dEl13, dEl14, dEl15, dEl16, dEl17, dEl18, dEl19, dEl20,
                     dEl21, dEl22, dEl23, dEl24, dEl25, dEl26, dEl27, dEl28, dEl29, dEl30,
                     dEl31, dEl32, dEl33, dEl34,
                     dEr1, dEr2, dEr3, dEr4, dEr5, dEr6, dEr7,
-                    tEDateResponse,
+                    tEDateResponse AS 'Employee Date Response',
                     dSl1, dSl2, dSl3, dSl4, dSl5, dSl6, dSl7, dSl8, dSl9, dSl10,
                     dSl11, dSl12, dSl13, dSl14, dSl15, dSl16, dSl17, dSl18, dSl19, dSl20,
                     dSl21, dSl22, dSl23, dSl24, dSl25, dSl26, dSl27, dSl28, dSl29, dSl30,
                     dSl31, dSl32, dSl33, dSl34,
                     dSr1, dSr2, dSr3, dSr4, dSr5, dSr6, dSr7,
-                    tSDateResponse,
-                    dERating,
-                    dSRating,
-                    dDiscussion
+                    tSDateResponse AS 'Supervisor Date Response',
+                    dERating AS 'Employee Rating',
+                    dSRating AS 'Supervisor Rating',
+                    dDiscussion AS 'Discussion'
                 FROM
                     tblfeedback
                 WHERE
@@ -204,8 +204,7 @@ Public Class Manager_Dashboard
             End Using
         End Using
 
-        lblManagerID.Text = ID
-        lblManagerName.Text = Mname
+        lblManager.Text = ID & " - " & Mname
         Employeesform.lblManagerID.Text = ID
         Employeesform.lblManagerName.Text = Mname
         Resultform.lblManagerID.Text = ID
@@ -245,8 +244,12 @@ Public Class Manager_Dashboard
         form.BringToFront()
     End Sub
     Private Sub btnLogout_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
-        Me.Close()
-        Login.Show()
+        Dim result As DialogResult = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+        If result = DialogResult.Yes Then
+            Me.Close()
+            Login.Show()
+        End If
     End Sub
     Sub loadRow()
         If Manager_History.SelectedRowData3 IsNot Nothing Then

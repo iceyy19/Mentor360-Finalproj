@@ -57,12 +57,10 @@ Partial Class Supervisor_Dashboard
         Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Homepanel = New Guna.UI2.WinForms.Guna2Panel()
-        lblManager = New Label()
-        lblId = New Label()
-        lblName = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
+        lblDateLastAnswered = New Label()
+        Label5 = New Label()
+        lblSupervisor = New Label()
+        Label4 = New Label()
         Controlpanel = New Guna.UI2.WinForms.Guna2Panel()
         shLineEmployees = New Guna.UI2.WinForms.Guna2Shapes()
         btnIndicatorEmployees = New Guna.UI2.WinForms.Guna2Button()
@@ -82,10 +80,6 @@ Partial Class Supervisor_Dashboard
         btnAnswers = New Guna.UI2.WinForms.Guna2Button()
         btnResult = New Guna.UI2.WinForms.Guna2Button()
         PictureBox1 = New PictureBox()
-        Label4 = New Label()
-        lblSupervisorIDandName = New Label()
-        Label5 = New Label()
-        lblDateLastAnswered = New Label()
         Homepanel.SuspendLayout()
         Controlpanel.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -99,14 +93,8 @@ Partial Class Supervisor_Dashboard
         Homepanel.BackgroundImageLayout = ImageLayout.Stretch
         Homepanel.Controls.Add(lblDateLastAnswered)
         Homepanel.Controls.Add(Label5)
-        Homepanel.Controls.Add(lblSupervisorIDandName)
+        Homepanel.Controls.Add(lblSupervisor)
         Homepanel.Controls.Add(Label4)
-        Homepanel.Controls.Add(lblManager)
-        Homepanel.Controls.Add(lblId)
-        Homepanel.Controls.Add(lblName)
-        Homepanel.Controls.Add(Label3)
-        Homepanel.Controls.Add(Label2)
-        Homepanel.Controls.Add(Label1)
         Homepanel.CustomizableEdges = CustomizableEdges1
         Homepanel.Location = New Point(129, 0)
         Homepanel.Margin = New Padding(3, 2, 3, 2)
@@ -115,64 +103,53 @@ Partial Class Supervisor_Dashboard
         Homepanel.Size = New Size(819, 568)
         Homepanel.TabIndex = 4
         ' 
-        ' lblManager
+        ' lblDateLastAnswered
         ' 
-        lblManager.AutoSize = True
-        lblManager.Location = New Point(640, 24)
-        lblManager.Name = "lblManager"
-        lblManager.Size = New Size(41, 15)
-        lblManager.TabIndex = 6
-        lblManager.Text = "Label7"
+        lblDateLastAnswered.AutoSize = True
+        lblDateLastAnswered.BackColor = Color.Transparent
+        lblDateLastAnswered.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDateLastAnswered.ForeColor = Color.White
+        lblDateLastAnswered.Location = New Point(196, 174)
+        lblDateLastAnswered.Name = "lblDateLastAnswered"
+        lblDateLastAnswered.Size = New Size(51, 25)
+        lblDateLastAnswered.TabIndex = 10
+        lblDateLastAnswered.Text = "Date"
         ' 
-        ' lblId
+        ' Label5
         ' 
-        lblId.AutoSize = True
-        lblId.Location = New Point(136, 49)
-        lblId.Name = "lblId"
-        lblId.Size = New Size(41, 15)
-        lblId.TabIndex = 5
-        lblId.Text = "Label6"
+        Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
+        Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.ForeColor = Color.White
+        Label5.Location = New Point(53, 174)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(137, 25)
+        Label5.TabIndex = 9
+        Label5.Text = "Last Answered:"
         ' 
-        ' lblName
+        ' lblSupervisor
         ' 
-        lblName.AutoSize = True
-        lblName.Location = New Point(136, 24)
-        lblName.Name = "lblName"
-        lblName.Size = New Size(41, 15)
-        lblName.TabIndex = 2
-        lblName.Text = "Label5"
+        lblSupervisor.AutoSize = True
+        lblSupervisor.BackColor = Color.Transparent
+        lblSupervisor.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point)
+        lblSupervisor.ForeColor = Color.White
+        lblSupervisor.Location = New Point(198, 77)
+        lblSupervisor.Name = "lblSupervisor"
+        lblSupervisor.Size = New Size(92, 45)
+        lblSupervisor.TabIndex = 8
+        lblSupervisor.Text = "2020"
         ' 
-        ' Label3
+        ' Label4
         ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(573, 24)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(57, 15)
-        Label3.TabIndex = 2
-        Label3.Text = "Manager:"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(24, 49)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(79, 15)
-        Label2.TabIndex = 1
-        Label2.Text = "Supervisor ID:"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(24, 24)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(100, 15)
-        Label1.TabIndex = 0
-        Label1.Text = "Supervisor Name:"
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.ForeColor = Color.White
+        Label4.Location = New Point(44, 77)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(160, 45)
+        Label4.TabIndex = 7
+        Label4.Text = "Welcome,"
         ' 
         ' Controlpanel
         ' 
@@ -504,54 +481,6 @@ Partial Class Supervisor_Dashboard
         PictureBox1.TabIndex = 13
         PictureBox1.TabStop = False
         ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.ForeColor = Color.White
-        Label4.Location = New Point(44, 77)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(160, 45)
-        Label4.TabIndex = 7
-        Label4.Text = "Welcome,"
-        ' 
-        ' lblSupervisorIDandName
-        ' 
-        lblSupervisorIDandName.AutoSize = True
-        lblSupervisorIDandName.BackColor = Color.Transparent
-        lblSupervisorIDandName.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point)
-        lblSupervisorIDandName.ForeColor = Color.White
-        lblSupervisorIDandName.Location = New Point(198, 77)
-        lblSupervisorIDandName.Name = "lblSupervisorIDandName"
-        lblSupervisorIDandName.Size = New Size(92, 45)
-        lblSupervisorIDandName.TabIndex = 8
-        lblSupervisorIDandName.Text = "2020"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.ForeColor = Color.White
-        Label5.Location = New Point(53, 174)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(137, 25)
-        Label5.TabIndex = 9
-        Label5.Text = "Last Answered:"
-        ' 
-        ' lblDateLastAnswered
-        ' 
-        lblDateLastAnswered.AutoSize = True
-        lblDateLastAnswered.BackColor = Color.Transparent
-        lblDateLastAnswered.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        lblDateLastAnswered.ForeColor = Color.White
-        lblDateLastAnswered.Location = New Point(196, 174)
-        lblDateLastAnswered.Name = "lblDateLastAnswered"
-        lblDateLastAnswered.Size = New Size(51, 25)
-        lblDateLastAnswered.TabIndex = 10
-        lblDateLastAnswered.Text = "Date"
-        ' 
         ' Supervisor_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -571,10 +500,7 @@ Partial Class Supervisor_Dashboard
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
-    Friend WithEvents lblManager As Label
     Friend WithEvents Homepanel As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents lblId As Label
-    Friend WithEvents lblName As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -599,6 +525,6 @@ Partial Class Supervisor_Dashboard
     Friend WithEvents btnIndicatorResult As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents lblSupervisorIDandName As Label
+    Friend WithEvents lblSupervisor As Label
     Friend WithEvents lblDateLastAnswered As Label
 End Class
