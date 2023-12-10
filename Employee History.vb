@@ -136,7 +136,7 @@ Public Class Employee_History
 
                 Resultform.txtSDE1.Text = Resultform.SelectedRowData2("dEr1")
                 Resultform.txtSDAE1.Text = Resultform.SelectedRowData2("dEr2")
-                Resultform.txtPE1.Text = Resultform.SelectedRowData2("dEr3")
+                Resultform.txtPSE1.Text = Resultform.SelectedRowData2("dEr3")
                 Resultform.txtDE1.Text = Resultform.SelectedRowData2("dEr4")
                 Resultform.txtCIE1.Text = Resultform.SelectedRowData2("dEr5")
                 Resultform.txtCLE1.Text = Resultform.SelectedRowData2("dEr6")
@@ -144,7 +144,7 @@ Public Class Employee_History
 
                 Resultform.txtSDS1.Text = Resultform.SelectedRowData2("dSr1")
                 Resultform.txtSDAS1.Text = Resultform.SelectedRowData2("dSr2")
-                Resultform.txtPS1.Text = Resultform.SelectedRowData2("dSr3")
+                Resultform.txtPSS1.Text = Resultform.SelectedRowData2("dSr3")
                 Resultform.txtDS1.Text = Resultform.SelectedRowData2("dSr4")
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData2("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData2("dSr6")

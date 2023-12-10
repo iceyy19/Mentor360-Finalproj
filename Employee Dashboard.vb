@@ -35,6 +35,12 @@ Public Class Employee_Dashboard
         lblEName.Text = eN
         lblSupervisor.Text = sN
         lblManager.Text = mN
+
+        Resultform.lblEmployeeID.Text = ID
+        Resultform.lblEmployeeName.Text = eN
+        Resultform.lblManager.Text = mN
+        Resultform.lblSupervisor.Text = sN
+
         Answerform.Show()
         Resultform.Show()
         Historyform.Show()
@@ -163,7 +169,7 @@ Public Class Employee_Dashboard
 
                 Resultform.txtSDE1.Text = Resultform.SelectedRowData2("dEr1")
                 Resultform.txtSDAE1.Text = Resultform.SelectedRowData2("dEr2")
-                Resultform.txtPE1.Text = Resultform.SelectedRowData2("dEr3")
+                Resultform.txtPSE1.Text = Resultform.SelectedRowData2("dEr3")
                 Resultform.txtDE1.Text = Resultform.SelectedRowData2("dEr4")
                 Resultform.txtCIE1.Text = Resultform.SelectedRowData2("dEr5")
                 Resultform.txtCLE1.Text = Resultform.SelectedRowData2("dEr6")
@@ -171,7 +177,7 @@ Public Class Employee_Dashboard
 
                 Resultform.txtSDS1.Text = Resultform.SelectedRowData2("dSr1")
                 Resultform.txtSDAS1.Text = Resultform.SelectedRowData2("dSr2")
-                Resultform.txtPS1.Text = Resultform.SelectedRowData2("dSr3")
+                Resultform.txtPSS1.Text = Resultform.SelectedRowData2("dSr3")
                 Resultform.txtDS1.Text = Resultform.SelectedRowData2("dSr4")
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData2("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData2("dSr6")

@@ -8,15 +8,17 @@ Public Class Supervisor_Dashboard
     Private Answerform As Supervisor_Answer_Form
     Public Resultform As Supervisor_Result
     Public Historyform As Supervisor_History
+    Private EmployeeForm As Supervisor_Employees
     Public ID As String = Login.ID
     Public Sname As String
     Public Mname As String
     Private Sub Supervisor_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim sqlQuery As String = "SELECT dSupervisorID, dSupervisorName, dManagerID, dManagerName FROM tblhierarchy WHERE dSupervisorID = 2021"
+        Dim sqlQuery As String = "SELECT dSupervisorID, dSupervisorName, dManagerID, dManagerName FROM tblhierarchy WHERE dSupervisorID = @ID"
 
         Using connection As MySqlConnection = Connector.getDBConnection()
             ' Create a MySqlCommand
             Using command As New MySqlCommand(sqlQuery, connection)
+                command.Parameters.AddWithValue("@ID", ID)
                 ' Open the connection
                 connection.Open()
 
@@ -40,13 +42,27 @@ Public Class Supervisor_Dashboard
         Answerform = New Supervisor_Answer_Form()
         Resultform = New Supervisor_Result()
         Historyform = New Supervisor_History
+        EmployeeForm = New Supervisor_Employees
         lblId.Text = ID
         lblName.Text = Sname
-        lblSupervisor.Text = Mname
+        lblManager.Text = Mname
+        EmployeeForm.lblSupervisorName.Text = Sname
+        EmployeeForm.lblSupervisorID.Text = ID
+        EmployeeForm.lblManager.Text = Mname
 
         InitializeForm(Answerform)
         InitializeForm(Resultform)
         InitializeForm(Historyform)
+        InitializeForm(EmployeeForm)
+
+        Answerform.Show()
+        Resultform.Show()
+        Historyform.Show()
+        EmployeeForm.Show()
+        Answerform.Hide()
+        Resultform.Hide()
+        Historyform.Hide()
+        EmployeeForm.Hide()
     End Sub
 
     Private Sub InitializeForm(form As Form)
@@ -62,6 +78,7 @@ Public Class Supervisor_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        EmployeeForm.Hide()
 
         form.Show()
         form.BringToFront()
@@ -71,11 +88,13 @@ Public Class Supervisor_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        EmployeeForm.Hide()
     End Sub
 
     Private Sub btnAnswer_Click(sender As Object, e As EventArgs) Handles btnAnswers.Click
         Resultform.Hide()
         Historyform.Hide()
+        EmployeeForm.Hide()
         ShowForm(Answerform)
     End Sub
 
@@ -216,10 +235,12 @@ Public Class Supervisor_Dashboard
 
             Answerform.Hide()
             Historyform.Hide()
+            EmployeeForm.Hide()
             ShowForm(Resultform)
         Else
             Answerform.Hide()
             Historyform.Hide()
+            EmployeeForm.Hide()
             ShowForm(Resultform)
         End If
     End Sub
@@ -227,6 +248,7 @@ Public Class Supervisor_Dashboard
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
         Answerform.Hide()
         Resultform.Hide()
+        EmployeeForm.Hide()
         ShowForm(Historyform)
         Dim myConnection As MySqlConnection
         myConnection = Connector.getDBConnection()
@@ -301,5 +323,54 @@ Public Class Supervisor_Dashboard
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub btnEmployees_Click(sender As Object, e As EventArgs) Handles btnEmployees.Click
+        Answerform.Hide()
+        Resultform.Hide()
+        Historyform.Hide()
+        ShowForm(EmployeeForm)
+
+        Dim myConnection As MySqlConnection
+        myConnection = Connector.getDBConnection()
+
+        Try
+            ' Open the connection
+            myConnection.Open()
+
+            ' SQL query
+            Dim query As String = "
+                SELECT
+                    dEmployeeID,
+                    dEmployeeName
+                FROM
+                    tblhierarchy
+                WHERE
+                    dSupervisorID = @SID;
+            "
+            Using command As New MySqlCommand(query, myConnection)
+                ' Add parameters
+                command.Parameters.AddWithValue("@SID", ID)
+
+                ' Create a MySqlDataAdapter and DataTable
+                Dim myDataAdapter As New MySqlDataAdapter(command)
+                Dim dataTable As New DataTable()
+
+                ' Fill the DataTable with data from the database
+                myDataAdapter.Fill(dataTable)
+
+                ' Set up BindingSource
+                Dim bindingSource As New BindingSource()
+                bindingSource.DataSource = dataTable
+
+                ' Set up DataGridView
+                EmployeeForm.dgSupervisorEmployee.DataSource = bindingSource
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message)
+        Finally
+            ' Close the connection
+            myConnection.Close()
+        End Try
     End Sub
 End Class

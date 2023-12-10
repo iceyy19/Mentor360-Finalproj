@@ -2345,7 +2345,6 @@ Partial Class Supervisor_Answer_Form
         Me.lblNeedToBeAnswered.Name = "lblNeedToBeAnswered"
         Me.lblNeedToBeAnswered.Size = New Global.System.Drawing.Size(39, 15)
         Me.lblNeedToBeAnswered.TabIndex = 4
-        Me.lblNeedToBeAnswered.Text = "Label"
         ' 
         ' gbPage1
         ' 

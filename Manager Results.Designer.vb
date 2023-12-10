@@ -411,20 +411,18 @@ Partial Class Manager_Results
         Me.lblEmployeeName.AutoSize = True
         Me.lblEmployeeName.Location = New Global.System.Drawing.Point(423, 82)
         Me.lblEmployeeName.Name = "lblEmployeeName"
-        Me.lblEmployeeName.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblEmployeeName.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblEmployeeName.TabIndex = 81
         Me.lblEmployeeName.Tag = "lblEmployeeName"
-        Me.lblEmployeeName.Text = "Label6"
         ' 
         ' lblEmployeeID
         ' 
         Me.lblEmployeeID.AutoSize = True
         Me.lblEmployeeID.Location = New Global.System.Drawing.Point(105, 82)
         Me.lblEmployeeID.Name = "lblEmployeeID"
-        Me.lblEmployeeID.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblEmployeeID.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblEmployeeID.TabIndex = 80
         Me.lblEmployeeID.Tag = "lblEmployeeID"
-        Me.lblEmployeeID.Text = "Label6"
         ' 
         ' Label7
         ' 
@@ -3236,20 +3234,18 @@ Partial Class Manager_Results
         Me.lblSupervisorName.AutoSize = True
         Me.lblSupervisorName.Location = New Global.System.Drawing.Point(423, 62)
         Me.lblSupervisorName.Name = "lblSupervisorName"
-        Me.lblSupervisorName.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblSupervisorName.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblSupervisorName.TabIndex = 87
         Me.lblSupervisorName.Tag = ""
-        Me.lblSupervisorName.Text = "Label6"
         ' 
         ' lblSupervisorID
         ' 
         Me.lblSupervisorID.AutoSize = True
         Me.lblSupervisorID.Location = New Global.System.Drawing.Point(105, 62)
         Me.lblSupervisorID.Name = "lblSupervisorID"
-        Me.lblSupervisorID.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblSupervisorID.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblSupervisorID.TabIndex = 86
         Me.lblSupervisorID.Tag = "lblEmployeeID"
-        Me.lblSupervisorID.Text = "Label6"
         ' 
         ' Label42
         ' 
@@ -3276,10 +3272,9 @@ Partial Class Manager_Results
         Me.lblSRating.AutoSize = True
         Me.lblSRating.Location = New Global.System.Drawing.Point(670, 62)
         Me.lblSRating.Name = "lblSRating"
-        Me.lblSRating.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblSRating.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblSRating.TabIndex = 91
         Me.lblSRating.Tag = "lblEmployeeName"
-        Me.lblSRating.Text = "Label6"
         ' 
         ' Label45
         ' 
@@ -3296,10 +3291,9 @@ Partial Class Manager_Results
         Me.lblERating.AutoSize = True
         Me.lblERating.Location = New Global.System.Drawing.Point(670, 82)
         Me.lblERating.Name = "lblERating"
-        Me.lblERating.Size = New Global.System.Drawing.Size(41, 15)
+        Me.lblERating.Size = New Global.System.Drawing.Size(0, 15)
         Me.lblERating.TabIndex = 89
         Me.lblERating.Tag = "lblEmployeeName"
-        Me.lblERating.Text = "Label6"
         ' 
         ' Label47
         ' 
