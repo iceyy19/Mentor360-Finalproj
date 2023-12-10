@@ -63,6 +63,16 @@ Public Class Supervisor_Dashboard
         Resultform.Hide()
         Historyform.Hide()
         EmployeeForm.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Show()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
     End Sub
 
     Private Sub InitializeForm(form As Form)
@@ -89,6 +99,16 @@ Public Class Supervisor_Dashboard
         Resultform.Hide()
         Historyform.Hide()
         EmployeeForm.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Show()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
     End Sub
 
     Private Sub btnAnswer_Click(sender As Object, e As EventArgs) Handles btnAnswers.Click
@@ -96,10 +116,30 @@ Public Class Supervisor_Dashboard
         Historyform.Hide()
         EmployeeForm.Hide()
         ShowForm(Answerform)
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Show()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Hide()
+        shLineAnswer.Show()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
     End Sub
 
     Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click
         Resultform.btnsubmit.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Show()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Hide()
+        shLineAnswer.Hide()
+        shLineResult.Show()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
         Resultform.txtDiscussion.Enabled = False
         If Supervisor_History.SelectedRowData IsNot Nothing Then
             ' Create an instance of the ResultForm
@@ -249,6 +289,16 @@ Public Class Supervisor_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         EmployeeForm.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Show()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Hide()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Show()
+        shLineEmployees.Hide()
         ShowForm(Historyform)
         Dim myConnection As MySqlConnection
         myConnection = Connector.getDBConnection()
@@ -329,6 +379,16 @@ Public Class Supervisor_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Show()
+        shLineHome.Hide()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Show()
         ShowForm(EmployeeForm)
 
         Dim myConnection As MySqlConnection
@@ -372,5 +432,9 @@ Public Class Supervisor_Dashboard
             ' Close the connection
             myConnection.Close()
         End Try
+    End Sub
+
+    Private Sub Homepanel_Paint(sender As Object, e As PaintEventArgs) Handles Homepanel.Paint
+
     End Sub
 End Class

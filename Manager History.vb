@@ -45,6 +45,15 @@
         Else
             MessageBox.Show("Please select a row first.")
         End If
+
+        Manager_Dashboard.btnIndicatorHome.Hide()
+        Manager_Dashboard.btnIndicatorResult.Show()
+        Manager_Dashboard.btnIndicatorHistory.Hide()
+        Manager_Dashboard.btnIndicatorEmployees.Hide()
+        Manager_Dashboard.shLineHome.Hide()
+        Manager_Dashboard.shLineResult.Show()
+        Manager_Dashboard.shLineHistory.Hide()
+        Manager_Dashboard.shLineEmployees.Hide()
     End Sub
     Sub loadRow()
         If Manager_History.SelectedRowData3 IsNot Nothing Then

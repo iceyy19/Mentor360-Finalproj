@@ -14,6 +14,12 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub Admin_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        btnIndicatorHome.Show()
+        btnIndicatorALogs.Hide()
+        btnIndicatorELogs.Hide()
+        shLineHome.Show()
+        shLineALogs.Hide()
+        shLineELogs.Hide()
         viewHierarchy()
         Dim timer As New Timer()
         timer.Interval = 1 ' Set the delay in milliseconds
@@ -197,7 +203,7 @@ Public Class Admin_Dashboard
             dUploadedByID AS UploaderID, 
             dUploadedByName AS `Uploader Name`, 
             tUploadedWhen AS `TimeStamp` 
-            FROM `mentor360-finals`.tblhierarchy;", myConnection1)
+            FROM tblhierarchy;", myConnection1)
 
             myAdapter2.SelectCommand = myCommand1
             myAdapter2.Fill(myDataSet2, "myData")
@@ -263,4 +269,21 @@ Public Class Admin_Dashboard
         txtMName.ForeColor = Color.DarkGray
     End Sub
 
+    Private Sub btnAdmin_Click(sender As Object, e As EventArgs)
+        btnIndicatorHome.Hide()
+        btnIndicatorALogs.Show()
+        btnIndicatorELogs.Hide()
+        shLineHome.Hide()
+        shLineALogs.Show()
+        shLineELogs.Hide()
+    End Sub
+
+    Private Sub btnEmployee_Click(sender As Object, e As EventArgs)
+        btnIndicatorHome.Hide()
+        btnIndicatorALogs.Show()
+        btnIndicatorELogs.Hide()
+        shLineHome.Hide()
+        shLineALogs.Show()
+        shLineELogs.Hide()
+    End Sub
 End Class

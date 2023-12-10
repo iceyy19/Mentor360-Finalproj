@@ -13,11 +13,27 @@ Public Class Manager_Dashboard
         Employeesform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Show()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
     End Sub
 
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
         Resultform.Hide()
         Employeesform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Show()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Hide()
+        shLineResult.Hide()
+        shLineHistory.Show()
+        shLineEmployees.Hide()
         ShowForm(Historyform)
         Dim myConnection As MySqlConnection
         myConnection = Connector.getDBConnection()
@@ -84,6 +100,14 @@ Public Class Manager_Dashboard
     Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click
         Historyform.Hide()
         Employeesform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorResult.Show()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Hide()
+        shLineResult.Show()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
         ShowForm(Resultform)
         loadRow()
     End Sub
@@ -91,6 +115,14 @@ Public Class Manager_Dashboard
     Private Sub btnEmployees_Click(sender As Object, e As EventArgs) Handles btnEmployees.Click
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Show()
+        shLineHome.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Show()
         ShowForm(Employeesform)
 
         Dim myConnection As MySqlConnection
@@ -187,6 +219,14 @@ Public Class Manager_Dashboard
         Resultform.Hide()
         Historyform.Hide()
         Employeesform.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        btnIndicatorEmployees.Hide()
+        shLineHome.Show()
+        shLineResult.Hide()
+        shLineHistory.Hide()
+        shLineEmployees.Hide()
     End Sub
     Private Sub InitializeForm(form As Form)
         form.TopLevel = False

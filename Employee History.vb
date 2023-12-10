@@ -51,6 +51,15 @@ Public Class Employee_History
         Else
             MessageBox.Show("Please select a row first.")
         End If
+
+        Employee_Dashboard.btnIndicatorHome.Hide()
+        Employee_Dashboard.btnIndicatorAnswer.Hide()
+        Employee_Dashboard.btnIndicatorResult.Show()
+        Employee_Dashboard.btnIndicatorHistory.Hide()
+        Employee_Dashboard.shLineHome.Hide()
+        Employee_Dashboard.shLineAnswer.Hide()
+        Employee_Dashboard.shLineResult.Show()
+        Employee_Dashboard.shLineHistory.Hide()
     End Sub
 
     Sub loadRow()

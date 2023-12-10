@@ -45,6 +45,17 @@ Public Class Supervisor_History
         Else
             MessageBox.Show("Please select a row first.")
         End If
+
+        Supervisor_Dashboard.btnIndicatorHome.Hide()
+        Supervisor_Dashboard.btnIndicatorAnswer.Hide()
+        Supervisor_Dashboard.btnIndicatorResult.Show()
+        Supervisor_Dashboard.btnIndicatorHistory.Hide()
+        Supervisor_Dashboard.btnIndicatorEmployees.Hide()
+        Supervisor_Dashboard.shLineHome.Hide()
+        Supervisor_Dashboard.shLineAnswer.Hide()
+        Supervisor_Dashboard.shLineResult.Show()
+        Supervisor_Dashboard.shLineHistory.Hide()
+        Supervisor_Dashboard.shLineEmployees.Hide()
     End Sub
     Private Sub ShowForm(form As Form)
 

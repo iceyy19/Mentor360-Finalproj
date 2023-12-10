@@ -118,23 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="snow mountain bg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="new user bg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new user bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="small wave1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\small wave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blue wave logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue wave logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="abstract-water-wave-design-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abstract-water-wave-design-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new user bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new user bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new user bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new user bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mentor360 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mentor360 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Showpassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Showpassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="abstract-water-wave-design-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstract-water-wave-design-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow mountain bg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow mountain bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="small wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\small wave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,19 +151,25 @@
   <data name="add icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new user bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new user bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hidepassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hidepassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Showpassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Showpassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="white bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new user bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new user bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="search icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hidepassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hidepassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow mountain bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="small wave1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small wave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snow mountain bg4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

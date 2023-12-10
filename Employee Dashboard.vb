@@ -47,6 +47,14 @@ Public Class Employee_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        shLineHome.Show()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
     End Sub
 
     Private Sub InitializeForm(form As Form)
@@ -71,6 +79,14 @@ Public Class Employee_Dashboard
         Answerform.Hide()
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Show()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        shLineHome.Show()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Hide()
     End Sub
 
     Private Sub btnAnswer_Click(sender As Object, e As EventArgs) Handles btnAnswer.Click
@@ -81,12 +97,28 @@ Public Class Employee_Dashboard
         Answerform.mN = mN
         Resultform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Show()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Hide()
+        shLineHome.Hide()
+        shLineAnswer.Show()
+        shLineResult.Hide()
+        shLineHistory.Hide()
         ShowForm(Answerform)
     End Sub
 
     Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click
         Answerform.Hide()
         Historyform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Show()
+        btnIndicatorHistory.Hide()
+        shLineHome.Hide()
+        shLineAnswer.Hide()
+        shLineResult.Show()
+        shLineHistory.Hide()
         ShowForm(Resultform)
         If Employee_History.SelectedRowData2 IsNot Nothing Then
             ' Create an instance of the ResultForm
@@ -198,6 +230,14 @@ Public Class Employee_Dashboard
     Private Sub btnHistory_Click(sender As Object, e As EventArgs) Handles btnHistory.Click
         Answerform.Hide()
         Resultform.Hide()
+        btnIndicatorHome.Hide()
+        btnIndicatorAnswer.Hide()
+        btnIndicatorResult.Hide()
+        btnIndicatorHistory.Show()
+        shLineHome.Hide()
+        shLineAnswer.Hide()
+        shLineResult.Hide()
+        shLineHistory.Show()
         ShowForm(Historyform)
         Dim myConnection As MySqlConnection
         myConnection = Connector.getDBConnection()
