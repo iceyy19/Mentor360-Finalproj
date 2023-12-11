@@ -22,23 +22,23 @@ Partial Class Create_Password
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         txtNPassword = New Guna.UI2.WinForms.Guna2TextBox()
         txtCNPassword = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        btnBack = New Guna.UI2.WinForms.Guna2Button()
+        btnClear = New Guna.UI2.WinForms.Guna2Button()
         btnConfirm = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -48,13 +48,14 @@ Partial Class Create_Password
         Guna2HtmlLabel8 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         btnCreateShowPass = New Guna.UI2.WinForms.Guna2Button()
         btnConfirmShowPass = New Guna.UI2.WinForms.Guna2Button()
+        lblPasswordStatus = New Guna.UI2.WinForms.Guna2HtmlLabel()
         SuspendLayout()
         ' 
         ' txtNPassword
         ' 
         txtNPassword.AutoRoundedCorners = True
         txtNPassword.BorderRadius = 16
-        txtNPassword.CustomizableEdges = CustomizableEdges1
+        txtNPassword.CustomizableEdges = CustomizableEdges13
         txtNPassword.DefaultText = ""
         txtNPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -70,7 +71,7 @@ Partial Class Create_Password
         txtNPassword.PasswordChar = ChrW(0)
         txtNPassword.PlaceholderText = ""
         txtNPassword.SelectedText = ""
-        txtNPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtNPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtNPassword.Size = New Size(259, 34)
         txtNPassword.TabIndex = 6
         ' 
@@ -78,7 +79,7 @@ Partial Class Create_Password
         ' 
         txtCNPassword.AutoRoundedCorners = True
         txtCNPassword.BorderRadius = 16
-        txtCNPassword.CustomizableEdges = CustomizableEdges3
+        txtCNPassword.CustomizableEdges = CustomizableEdges15
         txtCNPassword.DefaultText = ""
         txtCNPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtCNPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -94,7 +95,7 @@ Partial Class Create_Password
         txtCNPassword.PasswordChar = ChrW(0)
         txtCNPassword.PlaceholderText = ""
         txtCNPassword.SelectedText = ""
-        txtCNPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtCNPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         txtCNPassword.Size = New Size(259, 34)
         txtCNPassword.TabIndex = 7
         ' 
@@ -120,27 +121,27 @@ Partial Class Create_Password
         Guna2HtmlLabel2.TabIndex = 9
         Guna2HtmlLabel2.Text = "Confirm New Password"
         ' 
-        ' btnBack
+        ' btnClear
         ' 
-        btnBack.CustomizableEdges = CustomizableEdges5
-        btnBack.DisabledState.BorderColor = Color.DarkGray
-        btnBack.DisabledState.CustomBorderColor = Color.DarkGray
-        btnBack.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnBack.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnBack.FillColor = Color.Maroon
-        btnBack.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnBack.ForeColor = Color.White
-        btnBack.Location = New Point(327, 166)
-        btnBack.Margin = New Padding(3, 2, 3, 2)
-        btnBack.Name = "btnBack"
-        btnBack.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnBack.Size = New Size(99, 31)
-        btnBack.TabIndex = 16
-        btnBack.Text = "Back"
+        btnClear.CustomizableEdges = CustomizableEdges17
+        btnClear.DisabledState.BorderColor = Color.DarkGray
+        btnClear.DisabledState.CustomBorderColor = Color.DarkGray
+        btnClear.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnClear.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnClear.FillColor = Color.Maroon
+        btnClear.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnClear.ForeColor = Color.White
+        btnClear.Location = New Point(327, 176)
+        btnClear.Margin = New Padding(3, 2, 3, 2)
+        btnClear.Name = "btnClear"
+        btnClear.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        btnClear.Size = New Size(99, 31)
+        btnClear.TabIndex = 16
+        btnClear.Text = "Clear"
         ' 
         ' btnConfirm
         ' 
-        btnConfirm.CustomizableEdges = CustomizableEdges7
+        btnConfirm.CustomizableEdges = CustomizableEdges19
         btnConfirm.DisabledState.BorderColor = Color.DarkGray
         btnConfirm.DisabledState.CustomBorderColor = Color.DarkGray
         btnConfirm.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -148,10 +149,10 @@ Partial Class Create_Password
         btnConfirm.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnConfirm.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnConfirm.ForeColor = Color.White
-        btnConfirm.Location = New Point(29, 166)
+        btnConfirm.Location = New Point(29, 176)
         btnConfirm.Margin = New Padding(3, 2, 3, 2)
         btnConfirm.Name = "btnConfirm"
-        btnConfirm.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        btnConfirm.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         btnConfirm.Size = New Size(259, 31)
         btnConfirm.TabIndex = 17
         btnConfirm.Text = "Confirm"
@@ -235,7 +236,7 @@ Partial Class Create_Password
         ' btnCreateShowPass
         ' 
         btnCreateShowPass.BackColor = Color.Transparent
-        btnCreateShowPass.CustomizableEdges = CustomizableEdges9
+        btnCreateShowPass.CustomizableEdges = CustomizableEdges21
         btnCreateShowPass.DisabledState.BorderColor = Color.DarkGray
         btnCreateShowPass.DisabledState.CustomBorderColor = Color.DarkGray
         btnCreateShowPass.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -251,7 +252,7 @@ Partial Class Create_Password
         btnCreateShowPass.Margin = New Padding(3, 2, 3, 2)
         btnCreateShowPass.Name = "btnCreateShowPass"
         btnCreateShowPass.PressedColor = Color.White
-        btnCreateShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        btnCreateShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         btnCreateShowPass.Size = New Size(39, 26)
         btnCreateShowPass.TabIndex = 24
         btnCreateShowPass.UseTransparentBackground = True
@@ -259,7 +260,7 @@ Partial Class Create_Password
         ' btnConfirmShowPass
         ' 
         btnConfirmShowPass.BackColor = Color.Transparent
-        btnConfirmShowPass.CustomizableEdges = CustomizableEdges11
+        btnConfirmShowPass.CustomizableEdges = CustomizableEdges23
         btnConfirmShowPass.DisabledState.BorderColor = Color.DarkGray
         btnConfirmShowPass.DisabledState.CustomBorderColor = Color.DarkGray
         btnConfirmShowPass.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -275,18 +276,30 @@ Partial Class Create_Password
         btnConfirmShowPass.Margin = New Padding(3, 2, 3, 2)
         btnConfirmShowPass.Name = "btnConfirmShowPass"
         btnConfirmShowPass.PressedColor = Color.White
-        btnConfirmShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        btnConfirmShowPass.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         btnConfirmShowPass.Size = New Size(39, 26)
         btnConfirmShowPass.TabIndex = 25
         btnConfirmShowPass.UseTransparentBackground = True
+        ' 
+        ' lblPasswordStatus
+        ' 
+        lblPasswordStatus.AutoSize = False
+        lblPasswordStatus.BackColor = Color.Transparent
+        lblPasswordStatus.Location = New Point(31, 151)
+        lblPasswordStatus.Margin = New Padding(3, 2, 3, 2)
+        lblPasswordStatus.Name = "lblPasswordStatus"
+        lblPasswordStatus.Size = New Size(184, 16)
+        lblPasswordStatus.TabIndex = 26
+        lblPasswordStatus.Text = Nothing
         ' 
         ' Create_Password
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(460, 218)
+        ClientSize = New Size(460, 226)
         ControlBox = False
+        Controls.Add(lblPasswordStatus)
         Controls.Add(btnConfirmShowPass)
         Controls.Add(btnCreateShowPass)
         Controls.Add(Guna2HtmlLabel8)
@@ -296,7 +309,7 @@ Partial Class Create_Password
         Controls.Add(Guna2HtmlLabel4)
         Controls.Add(Guna2HtmlLabel3)
         Controls.Add(btnConfirm)
-        Controls.Add(btnBack)
+        Controls.Add(btnClear)
         Controls.Add(Guna2HtmlLabel2)
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(txtCNPassword)
@@ -314,7 +327,7 @@ Partial Class Create_Password
     Friend WithEvents txtCNPassword As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents btnBack As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnClear As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnConfirm As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -324,4 +337,5 @@ Partial Class Create_Password
     Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents btnCreateShowPass As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnConfirmShowPass As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents lblPasswordStatus As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class

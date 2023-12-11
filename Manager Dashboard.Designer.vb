@@ -52,7 +52,10 @@ Partial Class Manager_Dashboard
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Homepanel = New Guna.UI2.WinForms.Guna2Panel()
-        lblDateLastAnswered = New Label()
+        Label7 = New Label()
+        Label4 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
         Label5 = New Label()
         lblManager = New Label()
         Label6 = New Label()
@@ -84,7 +87,10 @@ Partial Class Manager_Dashboard
         Homepanel.BackColor = Color.White
         Homepanel.BackgroundImage = My.Resources.Resources.snow_mountain_bg4
         Homepanel.BackgroundImageLayout = ImageLayout.Stretch
-        Homepanel.Controls.Add(lblDateLastAnswered)
+        Homepanel.Controls.Add(Label7)
+        Homepanel.Controls.Add(Label4)
+        Homepanel.Controls.Add(Label2)
+        Homepanel.Controls.Add(Label1)
         Homepanel.Controls.Add(Label5)
         Homepanel.Controls.Add(lblManager)
         Homepanel.Controls.Add(Label6)
@@ -97,17 +103,53 @@ Partial Class Manager_Dashboard
         Homepanel.Size = New Size(821, 574)
         Homepanel.TabIndex = 1
         ' 
-        ' lblDateLastAnswered
+        ' Label7
         ' 
-        lblDateLastAnswered.AutoSize = True
-        lblDateLastAnswered.BackColor = Color.Transparent
-        lblDateLastAnswered.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        lblDateLastAnswered.ForeColor = Color.White
-        lblDateLastAnswered.Location = New Point(198, 178)
-        lblDateLastAnswered.Name = "lblDateLastAnswered"
-        lblDateLastAnswered.Size = New Size(51, 25)
-        lblDateLastAnswered.TabIndex = 40
-        lblDateLastAnswered.Text = "Date"
+        Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
+        Label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.ForeColor = Color.White
+        Label7.Location = New Point(42, 369)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(439, 25)
+        Label7.TabIndex = 43
+        Label7.Text = "Number of Employees, Supervisor and Discussions:"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.ForeColor = Color.White
+        Label4.Location = New Point(42, 317)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(460, 25)
+        Label4.TabIndex = 42
+        Label4.Text = "Number of Employees and Supervisor who answered:"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.ForeColor = Color.White
+        Label2.Location = New Point(42, 268)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(330, 25)
+        Label2.TabIndex = 41
+        Label2.Text = "Number of Supervisor yet to Respond:"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
+        Label1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.ForeColor = Color.White
+        Label1.Location = New Point(42, 221)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(329, 25)
+        Label1.TabIndex = 40
+        Label1.Text = "Number of Employees who answered:"
         ' 
         ' Label5
         ' 
@@ -115,11 +157,11 @@ Partial Class Manager_Dashboard
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label5.ForeColor = Color.White
-        Label5.Location = New Point(55, 178)
+        Label5.Location = New Point(42, 173)
         Label5.Name = "Label5"
-        Label5.Size = New Size(137, 25)
+        Label5.Size = New Size(331, 25)
         Label5.TabIndex = 39
-        Label5.Text = "Last Answered:"
+        Label5.Text = "Number of Employees yet to Respond:"
         ' 
         ' lblManager
         ' 
@@ -271,13 +313,13 @@ Partial Class Manager_Dashboard
         btnIndicatorResult.FillColor = Color.FromArgb(CByte(16), CByte(15), CByte(101))
         btnIndicatorResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnIndicatorResult.ForeColor = Color.White
-        btnIndicatorResult.Location = New Point(-2, 147)
+        btnIndicatorResult.Location = New Point(-1, 147)
         btnIndicatorResult.Margin = New Padding(3, 2, 3, 2)
         btnIndicatorResult.Name = "btnIndicatorResult"
         btnIndicatorResult.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         btnIndicatorResult.Size = New Size(131, 33)
         btnIndicatorResult.TabIndex = 26
-        btnIndicatorResult.Text = "Results"
+        btnIndicatorResult.Text = "Preview"
         ' 
         ' shLineHome
         ' 
@@ -415,7 +457,7 @@ Partial Class Manager_Dashboard
         btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         btnResult.Size = New Size(122, 33)
         btnResult.TabIndex = 5
-        btnResult.Text = "Results"
+        btnResult.Text = "Preview"
         ' 
         ' PictureBox1
         ' 
@@ -467,8 +509,11 @@ Partial Class Manager_Dashboard
     Friend WithEvents btnIndicatorResult As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents shLineHome As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents btnIndicatorHome As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents lblDateLastAnswered As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents lblManager As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class

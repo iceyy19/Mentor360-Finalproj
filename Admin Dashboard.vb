@@ -433,21 +433,34 @@ Public Class Admin_Dashboard
     End Function
     Private Sub DataGridView1_SelectionChanged(sender As Object, e As EventArgs) Handles dghierarchy.SelectionChanged
         ' Check if there is any selected row
+
         txtEId.Enabled = False
         txtEName.Enabled = False
         txtSId.Enabled = False
         txtSName.Enabled = False
         txtMId.Enabled = False
         txtMName.Enabled = False
+        btnAdd.Enabled = False
+        btnEdit.Enabled = False
+        btnRemove.Enabled = False
+        btnSave.Enabled = False
+
+        pIndicatorAdd.Image = Nothing
+        pIndicatorEdit.Image = Nothing
+        pIndicatorRemove.Image = Nothing
+        pIndicatorSave.Image = Nothing
+        pIndicatorAdd.Visible = False
+        pIndicatorEdit.Visible = False
+        pIndicatorRemove.Visible = False
+        pIndicatorSave.Visible = False
+        btnAdd.Enabled = True
         btnEdit.Enabled = True
         btnRemove.Enabled = True
         btnSave.Enabled = True
+        dghierarchy.Focus()
     End Sub
     Private Sub btnAdd_Click_1(sender As Object, e As EventArgs) Handles btnAdd.Click
-        pIndicatorAdd.Show()
-        pIndicatorEdit.Hide()
-        pIndicatorRemove.Hide()
-        pIndicatorSave.Hide()
+
         Clear()
         txtEId.Enabled = True
         txtEName.Enabled = True
@@ -455,25 +468,47 @@ Public Class Admin_Dashboard
         txtSName.Enabled = True
         txtMId.Enabled = True
         txtMName.Enabled = True
+
+
+        pIndicatorAdd.Image = My.Resources.circle
+        pIndicatorEdit.BackgroundImage = Nothing
+        pIndicatorRemove.BackgroundImage = Nothing
+        pIndicatorSave.BackgroundImage = Nothing
+        pIndicatorAdd.Visible = True
+        pIndicatorEdit.Visible = False
+        pIndicatorRemove.Visible = False
+        pIndicatorSave.Visible = False
+        pIndicatorEdit.Focus()
         btnEdit.Enabled = False
         btnRemove.Enabled = False
         btnSave.Enabled = True
+
     End Sub
 
     Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
-        pIndicatorAdd.Hide()
-        pIndicatorEdit.Hide()
-        pIndicatorRemove.Show()
-        pIndicatorSave.Hide()
+
         txtEId.Enabled = False
         txtEName.Enabled = False
         txtSId.Enabled = False
         txtSName.Enabled = False
         txtMId.Enabled = False
         txtMName.Enabled = False
+        btnEdit.Enabled = False
+        btnRemove.Enabled = False
+        btnSave.Enabled = False
+
+        pIndicatorAdd.BackgroundImage = Nothing
+        pIndicatorEdit.BackgroundImage = Nothing
+        pIndicatorRemove.Image = My.Resources.circle
+        pIndicatorSave.BackgroundImage = Nothing
+        pIndicatorAdd.Visible = False
+        pIndicatorEdit.Visible = False
+        pIndicatorRemove.Visible = True
+        pIndicatorSave.Visible = False
         btnEdit.Enabled = True
         btnRemove.Enabled = True
         btnSave.Enabled = True
+
 
         If dghierarchy.SelectedRows.Count > 0 Then
             Dim selectedRow As DataGridViewRow = dghierarchy.SelectedRows(0)
@@ -491,16 +526,25 @@ Public Class Admin_Dashboard
     Dim idToEdit As Integer
     Dim rowIndexToEdit As Integer
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
-        pIndicatorAdd.Hide()
-        pIndicatorEdit.Show()
-        pIndicatorRemove.Hide()
-        pIndicatorSave.Hide()
+
         txtEId.Enabled = False
         txtEName.Enabled = False
         txtSId.Enabled = True
         txtSName.Enabled = True
         txtMId.Enabled = True
         txtMName.Enabled = True
+        btnEdit.Enabled = False
+        btnRemove.Enabled = False
+        btnSave.Enabled = False
+
+        pIndicatorAdd.BackgroundImage = Nothing
+        pIndicatorEdit.Image = My.Resources.circle
+        pIndicatorRemove.BackgroundImage = Nothing
+        pIndicatorSave.BackgroundImage = Nothing
+        pIndicatorAdd.Visible = False
+        pIndicatorEdit.Visible = True
+        pIndicatorRemove.Visible = False
+        pIndicatorSave.Visible = False
         btnEdit.Enabled = True
         btnRemove.Enabled = True
         btnSave.Enabled = True
@@ -524,10 +568,7 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub btnReset_Click_1(sender As Object, e As EventArgs) Handles btnReset.Click
-        pIndicatorAdd.Hide()
-        pIndicatorEdit.Hide()
-        pIndicatorRemove.Hide()
-        pIndicatorSave.Hide()
+
         viewHierarchy()
         txtEId.Enabled = False
         txtEName.Enabled = False
@@ -538,16 +579,24 @@ Public Class Admin_Dashboard
         btnEdit.Enabled = False
         btnRemove.Enabled = False
         btnSave.Enabled = False
+        btnAdd.Enabled = False
+
         Clear()
 
+        pIndicatorEdit.Enabled = False
+        pIndicatorRemove.Enabled = False
+        pIndicatorSave.Enabled = False
+        pIndicatorAdd.Enabled = False
+        pIndicatorAdd.Visible = False
+        pIndicatorEdit.Visible = False
+        pIndicatorRemove.Visible = False
+        pIndicatorSave.Visible = False
+        btnAdd.Enabled = True
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        pIndicatorAdd.Hide()
-        pIndicatorEdit.Hide()
-        pIndicatorRemove.Hide()
-        pIndicatorSave.Show()
-        If btnAdd.Enabled = True And btnEdit.Enabled = False AndAlso btnRemove.Enabled = False Then
+
+        If pIndicatorAdd.Visible = True Then
             If txtEId.Text = "Employee ID" Or txtEName.Text = "Employee Name" Or txtSId.Text = "Supervisor ID" Or txtSName.Text = "Supervisor Name" Or txtMId.Text = "Manager ID" Or txtMName.Text = "Manager Name" Then
                 MessageBox.Show("Provide information in the designated fields.")
             Else
@@ -563,7 +612,7 @@ Public Class Admin_Dashboard
                 Clear()
                 MessageBox.Show("Data has been added")
             End If
-        ElseIf btnAdd.Enabled = True And btnEdit.Enabled = True AndAlso btnRemove.Enabled = True AndAlso txtSId.Enabled = False Then
+        ElseIf pIndicatorRemove.Visible = True Then
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to remove the enire row?", "Remove Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
             If result = DialogResult.Yes Then
@@ -587,7 +636,7 @@ Public Class Admin_Dashboard
                 End If
             End If
 
-        ElseIf btnAdd.Enabled = True And btnEdit.Enabled = True AndAlso btnRemove.Enabled = True AndAlso txtSId.Enabled = True Then
+        ElseIf pIndicatorEdit.Visible = True Then
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to update the data?", "Update Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
             If result = DialogResult.Yes Then
@@ -638,6 +687,12 @@ Public Class Admin_Dashboard
                 End If
             End If
         End If
+
+        pIndicatorAdd.BackgroundImage = Nothing
+        pIndicatorEdit.BackgroundImage = Nothing
+        pIndicatorRemove.BackgroundImage = Nothing
+        pIndicatorSave.BackgroundImage = Nothing
+
     End Sub
     Private Function SupervisorExists(supervisorID As String, supervisorName As String) As Boolean
         Using connection As MySqlConnection = Connector.getDBConnection()

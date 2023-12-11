@@ -22,21 +22,21 @@ Partial Class Enter_Employee_ID
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         btnCancel = New Guna.UI2.WinForms.Guna2Button()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        txtNPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEmployeeID = New Guna.UI2.WinForms.Guna2TextBox()
         btnNext = New Guna.UI2.WinForms.Guna2Button()
         SuspendLayout()
         ' 
         ' btnCancel
         ' 
-        btnCancel.CustomizableEdges = CustomizableEdges1
+        btnCancel.CustomizableEdges = CustomizableEdges7
         btnCancel.DisabledState.BorderColor = Color.DarkGray
         btnCancel.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -47,7 +47,7 @@ Partial Class Enter_Employee_ID
         btnCancel.Location = New Point(181, 117)
         btnCancel.Margin = New Padding(3, 2, 3, 2)
         btnCancel.Name = "btnCancel"
-        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnCancel.Size = New Size(99, 31)
         btnCancel.TabIndex = 19
         btnCancel.Text = "Cancel"
@@ -63,33 +63,33 @@ Partial Class Enter_Employee_ID
         Guna2HtmlLabel1.TabIndex = 18
         Guna2HtmlLabel1.Text = "Enter Employee ID:"
         ' 
-        ' txtNPassword
+        ' txtEmployeeID
         ' 
-        txtNPassword.AutoRoundedCorners = True
-        txtNPassword.BorderRadius = 16
-        txtNPassword.CustomizableEdges = CustomizableEdges3
-        txtNPassword.DefaultText = ""
-        txtNPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtNPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtNPassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtNPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtNPassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtNPassword.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtNPassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtNPassword.Location = New Point(21, 40)
-        txtNPassword.Margin = New Padding(3, 2, 3, 2)
-        txtNPassword.MaxLength = 10
-        txtNPassword.Name = "txtNPassword"
-        txtNPassword.PasswordChar = ChrW(0)
-        txtNPassword.PlaceholderText = ""
-        txtNPassword.SelectedText = ""
-        txtNPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtNPassword.Size = New Size(259, 34)
-        txtNPassword.TabIndex = 17
+        txtEmployeeID.AutoRoundedCorners = True
+        txtEmployeeID.BorderRadius = 16
+        txtEmployeeID.CustomizableEdges = CustomizableEdges9
+        txtEmployeeID.DefaultText = ""
+        txtEmployeeID.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEmployeeID.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEmployeeID.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmployeeID.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEmployeeID.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmployeeID.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEmployeeID.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEmployeeID.Location = New Point(21, 40)
+        txtEmployeeID.Margin = New Padding(3, 2, 3, 2)
+        txtEmployeeID.MaxLength = 10
+        txtEmployeeID.Name = "txtEmployeeID"
+        txtEmployeeID.PasswordChar = ChrW(0)
+        txtEmployeeID.PlaceholderText = ""
+        txtEmployeeID.SelectedText = ""
+        txtEmployeeID.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtEmployeeID.Size = New Size(259, 34)
+        txtEmployeeID.TabIndex = 17
         ' 
         ' btnNext
         ' 
-        btnNext.CustomizableEdges = CustomizableEdges5
+        btnNext.CustomizableEdges = CustomizableEdges11
         btnNext.DisabledState.BorderColor = Color.DarkGray
         btnNext.DisabledState.CustomBorderColor = Color.DarkGray
         btnNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -100,7 +100,7 @@ Partial Class Enter_Employee_ID
         btnNext.Location = New Point(21, 117)
         btnNext.Margin = New Padding(3, 2, 3, 2)
         btnNext.Name = "btnNext"
-        btnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         btnNext.Size = New Size(99, 31)
         btnNext.TabIndex = 20
         btnNext.Text = "Next"
@@ -115,7 +115,7 @@ Partial Class Enter_Employee_ID
         Controls.Add(btnNext)
         Controls.Add(btnCancel)
         Controls.Add(Guna2HtmlLabel1)
-        Controls.Add(txtNPassword)
+        Controls.Add(txtEmployeeID)
         Name = "Enter_Employee_ID"
         StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
@@ -123,6 +123,6 @@ Partial Class Enter_Employee_ID
 
     Friend WithEvents btnCancel As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents txtNPassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtEmployeeID As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents btnNext As Guna.UI2.WinForms.Guna2Button
 End Class

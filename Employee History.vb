@@ -65,11 +65,11 @@ Public Class Employee_History
     Sub loadRow()
         Resultform.txtDiscussion.Enabled = False
         If Employee_History.SelectedRowData2 IsNot Nothing Then
-                ' Create an instance of the ResultForm
+            ' Create an instance of the ResultForm
 
 
-                ' Set the SelectedRowData property from HistoryForm
-                Resultform.SelectedRowData2 = Employee_History.SelectedRowData2
+            ' Set the SelectedRowData property from HistoryForm
+            Resultform.SelectedRowData2 = Employee_History.SelectedRowData2
 
             If Resultform.SelectedRowData2 IsNot Nothing Then
                 Resultform.lblSDS1.Text = Resultform.SelectedRowData2("dSl1")
@@ -163,7 +163,7 @@ Public Class Employee_History
             End If
 
             ShowForm(Resultform)
-            Else
+        Else
             Try
 
             Catch ex As Exception
@@ -172,6 +172,10 @@ Public Class Employee_History
 
         End If
 
+
+    End Sub
+
+    Private Sub btnExport_Click(sender As Object, e As EventArgs) Handles btnExport.Click
 
     End Sub
 End Class

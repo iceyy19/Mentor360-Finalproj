@@ -73,6 +73,7 @@ Partial Class New_User
         Controls.Add(Guna2PictureBox1)
         Margin = New Padding(3, 2, 3, 2)
         Name = "New_User"
+        StartPosition = FormStartPosition.CenterScreen
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub

@@ -41,15 +41,15 @@ Partial Class Login
         txtID = New Guna.UI2.WinForms.Guna2TextBox()
         txtPass = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        gblogin = New GroupBox()
-        btnShowPass = New Guna.UI2.WinForms.Guna2Button()
         cAdmin = New Guna.UI2.WinForms.Guna2CheckBox()
         LinkLabel1 = New LinkLabel()
         Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Label1 = New Label()
+        Panel1 = New Panel()
+        btnShowPass = New Guna.UI2.WinForms.Guna2Button()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        gblogin.SuspendLayout()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2PictureBox1
@@ -79,7 +79,7 @@ Partial Class Login
         btnLogin.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnLogin.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnLogin.ForeColor = Color.White
-        btnLogin.Location = New Point(138, 352)
+        btnLogin.Location = New Point(139, 355)
         btnLogin.Margin = New Padding(3, 2, 3, 2)
         btnLogin.Name = "btnLogin"
         btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges4
@@ -94,7 +94,7 @@ Partial Class Login
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges5
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(120, 10)
+        Guna2PictureBox2.Location = New Point(120, 13)
         Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
         Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
@@ -117,7 +117,7 @@ Partial Class Login
         txtID.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtID.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtID.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtID.Location = New Point(79, 199)
+        txtID.Location = New Point(82, 202)
         txtID.Margin = New Padding(3, 2, 3, 2)
         txtID.MaxLength = 10
         txtID.Name = "txtID"
@@ -142,7 +142,7 @@ Partial Class Login
         txtPass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtPass.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtPass.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtPass.Location = New Point(79, 248)
+        txtPass.Location = New Point(82, 251)
         txtPass.Margin = New Padding(3, 2, 3, 2)
         txtPass.MaxLength = 20
         txtPass.Name = "txtPass"
@@ -165,26 +165,74 @@ Partial Class Login
         Guna2HtmlLabel2.TabIndex = 7
         Guna2HtmlLabel2.Text = "LOGIN"
         ' 
-        ' gblogin
+        ' cAdmin
         ' 
-        gblogin.BackColor = Color.White
-        gblogin.Controls.Add(btnShowPass)
-        gblogin.Controls.Add(cAdmin)
-        gblogin.Controls.Add(LinkLabel1)
-        gblogin.Controls.Add(Guna2HtmlLabel1)
-        gblogin.Controls.Add(Label1)
-        gblogin.Controls.Add(txtPass)
-        gblogin.Controls.Add(txtID)
-        gblogin.Controls.Add(btnLogin)
-        gblogin.Controls.Add(Guna2PictureBox2)
-        gblogin.ForeColor = Color.Black
-        gblogin.Location = New Point(190, 56)
-        gblogin.Margin = New Padding(2)
-        gblogin.Name = "gblogin"
-        gblogin.Padding = New Padding(2)
-        gblogin.Size = New Size(372, 402)
-        gblogin.TabIndex = 9
-        gblogin.TabStop = False
+        cAdmin.AutoSize = True
+        cAdmin.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cAdmin.CheckedState.BorderRadius = 0
+        cAdmin.CheckedState.BorderThickness = 0
+        cAdmin.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cAdmin.Location = New Point(307, 381)
+        cAdmin.Margin = New Padding(3, 2, 3, 2)
+        cAdmin.Name = "cAdmin"
+        cAdmin.Size = New Size(62, 19)
+        cAdmin.TabIndex = 11
+        cAdmin.Text = "Admin"
+        cAdmin.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        cAdmin.UncheckedState.BorderRadius = 0
+        cAdmin.UncheckedState.BorderThickness = 0
+        cAdmin.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.AutoSize = True
+        LinkLabel1.LinkColor = Color.SteelBlue
+        LinkLabel1.Location = New Point(136, 297)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(100, 15)
+        LinkLabel1.TabIndex = 10
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "Forgot Password?"
+        ' 
+        ' Guna2HtmlLabel1
+        ' 
+        Guna2HtmlLabel1.AutoSize = False
+        Guna2HtmlLabel1.BackColor = Color.Transparent
+        Guna2HtmlLabel1.Font = New Font("Sylfaen", 18F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2HtmlLabel1.Location = New Point(125, 107)
+        Guna2HtmlLabel1.Margin = New Padding(3, 2, 3, 2)
+        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Guna2HtmlLabel1.Size = New Size(137, 37)
+        Guna2HtmlLabel1.TabIndex = 8
+        Guna2HtmlLabel1.Text = "Mentor360"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(151, 160)
+        Label1.Margin = New Padding(2, 0, 2, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(66, 25)
+        Label1.TabIndex = 7
+        Label1.Text = "LOGIN"
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.White
+        Panel1.Controls.Add(btnShowPass)
+        Panel1.Controls.Add(Label1)
+        Panel1.Controls.Add(cAdmin)
+        Panel1.Controls.Add(Guna2PictureBox2)
+        Panel1.Controls.Add(LinkLabel1)
+        Panel1.Controls.Add(btnLogin)
+        Panel1.Controls.Add(Guna2HtmlLabel1)
+        Panel1.Controls.Add(txtID)
+        Panel1.Controls.Add(txtPass)
+        Panel1.Location = New Point(174, 47)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(372, 402)
+        Panel1.TabIndex = 10
         ' 
         ' btnShowPass
         ' 
@@ -201,7 +249,7 @@ Partial Class Login
         btnShowPass.HoverState.CustomBorderColor = Color.White
         btnShowPass.HoverState.FillColor = Color.White
         btnShowPass.ImageSize = New Size(25, 15)
-        btnShowPass.Location = New Point(259, 254)
+        btnShowPass.Location = New Point(262, 257)
         btnShowPass.Margin = New Padding(3, 2, 3, 2)
         btnShowPass.Name = "btnShowPass"
         btnShowPass.PressedColor = Color.White
@@ -211,63 +259,12 @@ Partial Class Login
         btnShowPass.TabStop = False
         btnShowPass.UseTransparentBackground = True
         ' 
-        ' cAdmin
-        ' 
-        cAdmin.AutoSize = True
-        cAdmin.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cAdmin.CheckedState.BorderRadius = 0
-        cAdmin.CheckedState.BorderThickness = 0
-        cAdmin.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cAdmin.Location = New Point(304, 378)
-        cAdmin.Margin = New Padding(3, 2, 3, 2)
-        cAdmin.Name = "cAdmin"
-        cAdmin.Size = New Size(62, 19)
-        cAdmin.TabIndex = 11
-        cAdmin.Text = "Admin"
-        cAdmin.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        cAdmin.UncheckedState.BorderRadius = 0
-        cAdmin.UncheckedState.BorderThickness = 0
-        cAdmin.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        ' 
-        ' LinkLabel1
-        ' 
-        LinkLabel1.AutoSize = True
-        LinkLabel1.Location = New Point(81, 295)
-        LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(100, 15)
-        LinkLabel1.TabIndex = 10
-        LinkLabel1.TabStop = True
-        LinkLabel1.Text = "Forgot Password?"
-        ' 
-        ' Guna2HtmlLabel1
-        ' 
-        Guna2HtmlLabel1.AutoSize = False
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Font = New Font("Sylfaen", 18F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2HtmlLabel1.Location = New Point(120, 104)
-        Guna2HtmlLabel1.Margin = New Padding(3, 2, 3, 2)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(137, 37)
-        Guna2HtmlLabel1.TabIndex = 8
-        Guna2HtmlLabel1.Text = "Mentor360"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(146, 157)
-        Label1.Margin = New Padding(2, 0, 2, 0)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(66, 25)
-        Label1.TabIndex = 7
-        Label1.Text = "LOGIN"
-        ' 
         ' Login
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(728, 490)
-        Controls.Add(gblogin)
+        Controls.Add(Panel1)
         Controls.Add(Guna2PictureBox1)
         Margin = New Padding(3, 2, 3, 2)
         Name = "Login"
@@ -275,8 +272,8 @@ Partial Class Login
         Text = "Login"
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        gblogin.ResumeLayout(False)
-        gblogin.PerformLayout()
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -286,10 +283,10 @@ Partial Class Login
     Friend WithEvents txtID As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtPass As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents gblogin As GroupBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents cAdmin As Guna.UI2.WinForms.Guna2CheckBox
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents btnShowPass As Guna.UI2.WinForms.Guna2Button
 End Class

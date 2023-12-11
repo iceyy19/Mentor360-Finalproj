@@ -67,7 +67,6 @@ Partial Class Security_Questions
         cbquestion1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
         cbquestion1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cbquestion1.ItemHeight = 30
-        cbquestion1.Items.AddRange(New Object() {"What is the name of your favorite pet?", "What is your favorite music?", "What is your best friend’s name?", "What is the first name of your cousin?", "What was your dream job as a child?"})
         cbquestion1.Location = New Point(29, 37)
         cbquestion1.Margin = New Padding(3, 2, 3, 2)
         cbquestion1.Name = "cbquestion1"
@@ -178,7 +177,6 @@ Partial Class Security_Questions
         cbquestion2.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
         cbquestion2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cbquestion2.ItemHeight = 30
-        cbquestion2.Items.AddRange(New Object() {"What is the name of your favorite pet?", "What is your favorite music?", "What is your best friend’s name?", "What is the first name of your cousin?", "What was your dream job as a child?"})
         cbquestion2.Location = New Point(29, 175)
         cbquestion2.Margin = New Padding(3, 2, 3, 2)
         cbquestion2.Name = "cbquestion2"
@@ -244,7 +242,6 @@ Partial Class Security_Questions
         cbquestion3.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
         cbquestion3.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cbquestion3.ItemHeight = 30
-        cbquestion3.Items.AddRange(New Object() {"What is the name of your favorite pet?", "What is your favorite music?", "What is your best friend’s name?", "What is the first name of your cousin?", "What was your dream job as a child?"})
         cbquestion3.Location = New Point(29, 315)
         cbquestion3.Margin = New Padding(3, 2, 3, 2)
         cbquestion3.Name = "cbquestion3"
@@ -311,6 +308,7 @@ Partial Class Security_Questions
         Controls.Add(cbquestion1)
         Margin = New Padding(3, 2, 3, 2)
         Name = "Security_Questions"
+        StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
     End Sub
 

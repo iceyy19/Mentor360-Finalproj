@@ -22,7 +22,9 @@ Public Class Login
         For Each textBox As Guna2TextBox In {txtID, txtPass}
             textBox.Tag = textBox.Text
         Next
+
     End Sub
+
     Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs)
 
     End Sub
@@ -77,10 +79,19 @@ Public Class Login
                                 txtPass.Clear()
                                 txtPass.UseSystemPasswordChar = True
                                 btnShowPass.Image = My.Resources.Hidepassword
-                                Dim NewUserForm As New New_User()
-                                NewUserForm.Show()
+                                New_User.Close()
+                                Create_Password.Close()
+                                Security_Questions.Close()
+
+                                New_User.ShowDialog()
+                                If New_User.Visible = False Then
+                                    Security_Questions.ShowDialog()
+                                    If Security_Questions.Visible = False Then
+                                        Create_Password.ShowDialog()
+                                    End If
+                                End If
                             Else
-                                CheckAndNavigate(txtID.Text)
+                                    CheckAndNavigate(txtID.Text)
                             End If
                         End Using
                     End Using
@@ -94,6 +105,13 @@ Public Class Login
 
         End If
     End Sub
+    Private Function Isnewformclosed() As Boolean
+        If New_User Is Nothing OrElse New_User.IsDisposed Then
+            Return True ' Login form is closed
+        Else
+            Return False ' Login form is still open
+        End If
+    End Function
     Private Sub GunaTextBox_GotFocus(sender As Object, e As EventArgs) Handles txtID.GotFocus, txtPass.GotFocus
         HandleGunaTextBoxFocus(DirectCast(sender, Guna2TextBox), Color.Black)
     End Sub
@@ -248,7 +266,9 @@ Public Class Login
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        Enter_Employee_ID.Show()
+        Enter_Employee_ID.Close()
+        Answer_Security_Questions.Close()
+        Enter_Employee_ID.ShowDialog()
     End Sub
 
     Private Sub txtPassword_KeyDown(sender As Object, e As KeyEventArgs) Handles txtPass.KeyDown

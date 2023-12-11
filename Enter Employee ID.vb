@@ -6,10 +6,10 @@ Public Class Enter_Employee_ID
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        If CheckEmployeeCredentials(txtNPassword.Text) Then
-            EmployeeID = txtNPassword.Text
-            Answer_Security_Questions.Show()
-            Me.Close()
+        If CheckEmployeeCredentials(txtEmployeeID.Text) Then
+            EmployeeID = txtEmployeeID.Text
+            Answer_Security_Questions.ShowDialog()
+            Me.Hide()
         Else
             MessageBox.Show("Incorrect EmployeeID")
         End If
@@ -28,4 +28,23 @@ Public Class Enter_Employee_ID
             End Using
         End Using
     End Function
+
+    Private Sub Enter_Employee_ID_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+    Private Sub txtID_KeyDown(sender As Object, e As KeyEventArgs) Handles txtEmployeeID.KeyDown
+        ' Check if the Enter key is pressed
+        If e.KeyCode = Keys.Enter Then
+            ' Click the login button
+            btnNext.PerformClick()
+        End If
+    End Sub
+    Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
+        ' Check if the Enter key is pressed
+        If e.KeyChar = Convert.ToChar(Keys.Enter) Then
+
+            btnNext.PerformClick()
+            e.Handled = True
+        End If
+    End Sub
 End Class
