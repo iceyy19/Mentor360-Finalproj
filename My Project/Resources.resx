@@ -157,19 +157,22 @@
   <data name="white bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\white bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="snow mountain bg4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="search icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hidepassword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hidepassword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="snow mountain bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snow mountain bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="small wave1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\small wave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="snow mountain bg4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snow mountain bg4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="snow mountain bg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snow mountain bg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

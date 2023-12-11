@@ -49,7 +49,10 @@ Public Class Admin_Dashboard
         EmployeeList.Hide()
         EmployeeLogs.Hide()
         AdminLogs.Hide()
-
+        pIndicatorAdd.Hide()
+        pIndicatorEdit.Hide()
+        pIndicatorRemove.Hide()
+        pIndicatorSave.Hide()
         btnIndicatorHome.Show()
         btnIndicatorALogs.Hide()
         btnIndicatorELogs.Hide()
@@ -441,6 +444,10 @@ Public Class Admin_Dashboard
         btnSave.Enabled = True
     End Sub
     Private Sub btnAdd_Click_1(sender As Object, e As EventArgs) Handles btnAdd.Click
+        pIndicatorAdd.Show()
+        pIndicatorEdit.Hide()
+        pIndicatorRemove.Hide()
+        pIndicatorSave.Hide()
         Clear()
         txtEId.Enabled = True
         txtEName.Enabled = True
@@ -454,6 +461,10 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub btnRemove_Click(sender As Object, e As EventArgs) Handles btnRemove.Click
+        pIndicatorAdd.Hide()
+        pIndicatorEdit.Hide()
+        pIndicatorRemove.Show()
+        pIndicatorSave.Hide()
         txtEId.Enabled = False
         txtEName.Enabled = False
         txtSId.Enabled = False
@@ -480,6 +491,10 @@ Public Class Admin_Dashboard
     Dim idToEdit As Integer
     Dim rowIndexToEdit As Integer
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
+        pIndicatorAdd.Hide()
+        pIndicatorEdit.Show()
+        pIndicatorRemove.Hide()
+        pIndicatorSave.Hide()
         txtEId.Enabled = False
         txtEName.Enabled = False
         txtSId.Enabled = True
@@ -509,6 +524,10 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub btnReset_Click_1(sender As Object, e As EventArgs) Handles btnReset.Click
+        pIndicatorAdd.Hide()
+        pIndicatorEdit.Hide()
+        pIndicatorRemove.Hide()
+        pIndicatorSave.Hide()
         viewHierarchy()
         txtEId.Enabled = False
         txtEName.Enabled = False
@@ -524,6 +543,10 @@ Public Class Admin_Dashboard
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        pIndicatorAdd.Hide()
+        pIndicatorEdit.Hide()
+        pIndicatorRemove.Hide()
+        pIndicatorSave.Show()
         If btnAdd.Enabled = True And btnEdit.Enabled = False AndAlso btnRemove.Enabled = False Then
             If txtEId.Text = "Employee ID" Or txtEName.Text = "Employee Name" Or txtSId.Text = "Supervisor ID" Or txtSName.Text = "Supervisor Name" Or txtMId.Text = "Manager ID" Or txtMName.Text = "Manager Name" Then
                 MessageBox.Show("Provide information in the designated fields.")
