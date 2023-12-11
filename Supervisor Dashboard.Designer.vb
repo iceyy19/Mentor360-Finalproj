@@ -111,9 +111,8 @@ Partial Class Supervisor_Dashboard
         lblDateLastAnswered.ForeColor = Color.White
         lblDateLastAnswered.Location = New Point(196, 174)
         lblDateLastAnswered.Name = "lblDateLastAnswered"
-        lblDateLastAnswered.Size = New Size(51, 25)
+        lblDateLastAnswered.Size = New Size(0, 25)
         lblDateLastAnswered.TabIndex = 10
-        lblDateLastAnswered.Text = "Date"
         ' 
         ' Label5
         ' 

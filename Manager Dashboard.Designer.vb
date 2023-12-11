@@ -76,6 +76,11 @@ Partial Class Manager_Dashboard
         btnHistory = New Guna.UI2.WinForms.Guna2Button()
         btnResult = New Guna.UI2.WinForms.Guna2Button()
         PictureBox1 = New PictureBox()
+        lblNumberofEmployeesYet = New Label()
+        lblNumberofEmployeesAnswered = New Label()
+        lblNumberofSupervisorYet = New Label()
+        lblNumberofEmployeesandSupervisor = New Label()
+        lblwithDiscussion = New Label()
         Homepanel.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -87,6 +92,11 @@ Partial Class Manager_Dashboard
         Homepanel.BackColor = Color.White
         Homepanel.BackgroundImage = My.Resources.Resources.snow_mountain_bg4
         Homepanel.BackgroundImageLayout = ImageLayout.Stretch
+        Homepanel.Controls.Add(lblwithDiscussion)
+        Homepanel.Controls.Add(lblNumberofEmployeesandSupervisor)
+        Homepanel.Controls.Add(lblNumberofSupervisorYet)
+        Homepanel.Controls.Add(lblNumberofEmployeesAnswered)
+        Homepanel.Controls.Add(lblNumberofEmployeesYet)
         Homepanel.Controls.Add(Label7)
         Homepanel.Controls.Add(Label4)
         Homepanel.Controls.Add(Label2)
@@ -470,6 +480,56 @@ Partial Class Manager_Dashboard
         PictureBox1.TabIndex = 14
         PictureBox1.TabStop = False
         ' 
+        ' lblNumberofEmployeesYet
+        ' 
+        lblNumberofEmployeesYet.BackColor = Color.Transparent
+        lblNumberofEmployeesYet.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblNumberofEmployeesYet.ForeColor = Color.White
+        lblNumberofEmployeesYet.Location = New Point(379, 173)
+        lblNumberofEmployeesYet.Name = "lblNumberofEmployeesYet"
+        lblNumberofEmployeesYet.Size = New Size(177, 25)
+        lblNumberofEmployeesYet.TabIndex = 44
+        ' 
+        ' lblNumberofEmployeesAnswered
+        ' 
+        lblNumberofEmployeesAnswered.BackColor = Color.Transparent
+        lblNumberofEmployeesAnswered.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblNumberofEmployeesAnswered.ForeColor = Color.White
+        lblNumberofEmployeesAnswered.Location = New Point(379, 221)
+        lblNumberofEmployeesAnswered.Name = "lblNumberofEmployeesAnswered"
+        lblNumberofEmployeesAnswered.Size = New Size(177, 25)
+        lblNumberofEmployeesAnswered.TabIndex = 45
+        ' 
+        ' lblNumberofSupervisorYet
+        ' 
+        lblNumberofSupervisorYet.BackColor = Color.Transparent
+        lblNumberofSupervisorYet.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblNumberofSupervisorYet.ForeColor = Color.White
+        lblNumberofSupervisorYet.Location = New Point(379, 268)
+        lblNumberofSupervisorYet.Name = "lblNumberofSupervisorYet"
+        lblNumberofSupervisorYet.Size = New Size(177, 25)
+        lblNumberofSupervisorYet.TabIndex = 46
+        ' 
+        ' lblNumberofEmployeesandSupervisor
+        ' 
+        lblNumberofEmployeesandSupervisor.BackColor = Color.Transparent
+        lblNumberofEmployeesandSupervisor.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblNumberofEmployeesandSupervisor.ForeColor = Color.White
+        lblNumberofEmployeesandSupervisor.Location = New Point(508, 317)
+        lblNumberofEmployeesandSupervisor.Name = "lblNumberofEmployeesandSupervisor"
+        lblNumberofEmployeesandSupervisor.Size = New Size(177, 25)
+        lblNumberofEmployeesandSupervisor.TabIndex = 47
+        ' 
+        ' lblwithDiscussion
+        ' 
+        lblwithDiscussion.BackColor = Color.Transparent
+        lblwithDiscussion.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        lblwithDiscussion.ForeColor = Color.White
+        lblwithDiscussion.Location = New Point(487, 369)
+        lblwithDiscussion.Name = "lblwithDiscussion"
+        lblwithDiscussion.Size = New Size(177, 25)
+        lblwithDiscussion.TabIndex = 48
+        ' 
         ' Manager_Dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -516,4 +576,9 @@ Partial Class Manager_Dashboard
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents lblwithDiscussion As Label
+    Friend WithEvents lblNumberofEmployeesandSupervisor As Label
+    Friend WithEvents lblNumberofSupervisorYet As Label
+    Friend WithEvents lblNumberofEmployeesAnswered As Label
+    Friend WithEvents lblNumberofEmployeesYet As Label
 End Class

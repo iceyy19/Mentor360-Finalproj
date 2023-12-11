@@ -211,6 +211,11 @@ Public Class Manager_Dashboard
         Resultform.lblManagerName.Text = Mname
         Historyform.lblManagerID.Text = ID
         Historyform.lblManagerName.Text = Mname
+        CountMismatchedEmployeeIDs()
+        GetTotalNumberofEmployeeIDsFromFeedback()
+        CountNonNullDataRows()
+        CountNonNullDataRowsfordiscussion()
+        CountUnmatchedEmployeeSupervisorPairs()
 
         Resultform.Show()
         Historyform.Show()
@@ -368,4 +373,195 @@ Public Class Manager_Dashboard
 
 
     End Sub
+
+    Private Function GetEmployeeIDsFromHierarchy() As List(Of String)
+        ' Retrieve EmployeeIDs from tblhierarchy where ManagerID = ID
+        Dim employeeIDs As New List(Of String)
+
+        Dim hierarchyQuery As String = "SELECT DISTINCT dEmployeeID FROM tblhierarchy WHERE dManagerID = @ManagerID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(hierarchyQuery, connection)
+                command.Parameters.AddWithValue("@ManagerID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    While reader.Read()
+                        employeeIDs.Add(reader.GetString("dEmployeeID"))
+                    End While
+                End Using
+            End Using
+        End Using
+
+        Return employeeIDs
+    End Function
+    Private Function GetTotalNumberofEmployeeIDsFromFeedback() As Integer
+        ' Retrieve the total number of EmployeeIDs from tblfeedback where ManagerID = ID
+        Dim totalEmployeeCount As Integer = 0
+
+        Dim feedbackQuery As String = "SELECT COUNT(DISTINCT dEmployeeID) AS TotalEmployeeCount FROM tblfeedback WHERE dManagerID = @ManagerID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(feedbackQuery, connection)
+                command.Parameters.AddWithValue("@ManagerID", ID)
+
+                ' Execute the query to get the total count
+                totalEmployeeCount = Convert.ToInt32(command.ExecuteScalar())
+            End Using
+        End Using
+        lblNumberofEmployeesAnswered.Text = totalEmployeeCount
+        Return totalEmployeeCount
+    End Function
+    Private Function GetEmployeeIDsFromFeedback() As List(Of String)
+        ' Retrieve EmployeeIDs from tblfeedback where ManagerID = ID
+        Dim employeeIDs As New List(Of String)
+
+        Dim feedbackQuery As String = "SELECT DISTINCT dEmployeeID FROM tblfeedback WHERE dManagerID = @ManagerID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(feedbackQuery, connection)
+                command.Parameters.AddWithValue("@ManagerID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    While reader.Read()
+                        employeeIDs.Add(reader.GetString("dEmployeeID"))
+                    End While
+                End Using
+            End Using
+        End Using
+
+        Return employeeIDs
+    End Function
+    Private Function CountMismatchedEmployeeIDs() As Integer
+        ' Count the total number of EmployeeIDs in tblhierarchy that do not have a match in tblfeedback
+        Dim mismatchCount As Integer = 0
+
+        Dim hierarchyEmployeeIDs = GetEmployeeIDsFromHierarchy()
+        Dim feedbackEmployeeIDs = GetEmployeeIDsFromFeedback()
+
+        ' Use LINQ to find the count of mismatched EmployeeIDs
+        mismatchCount = hierarchyEmployeeIDs.Except(feedbackEmployeeIDs).Count()
+        lblNumberofEmployeesYet.Text = mismatchCount
+        Return mismatchCount
+    End Function
+
+    Private Function CountNonNullDataRows() As Integer
+        Dim totalNonNullDataRows As Integer = 0
+
+        ' Your MySQL query to count rows where dSl1, dSr1, dEl1, and dEr1 are not null or empty
+        Dim query As String = "SELECT COUNT(*) AS TotalNonNullDataRows FROM tblfeedback WHERE dManagerID = @MID AND (COALESCE(dSl1, '') <> '' OR COALESCE(dSr1, '') <> '' OR COALESCE(dEl1, '') <> '' OR COALESCE(dEr1, '') <> '')"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(query, connection)
+                command.Parameters.AddWithValue("@MID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    If reader.Read() AndAlso Not reader.IsDBNull(reader.GetOrdinal("TotalNonNullDataRows")) Then
+                        ' Retrieve the total count of rows with non-null or non-empty data
+                        totalNonNullDataRows = reader.GetInt32("TotalNonNullDataRows")
+                    End If
+                End Using
+            End Using
+        End Using
+        lblNumberofEmployeesandSupervisor.Text = totalNonNullDataRows
+        Return totalNonNullDataRows
+    End Function
+
+    Private Function CountNonNullDataRowsfordiscussion() As Integer
+        Dim totalNonNullDataRows As Integer = 0
+
+        ' Your MySQL query to count rows where dSl1, dSr1, dEl1, and dEr1 are not null or empty
+        Dim query As String = "SELECT COUNT(*) AS TotalNonNullDataRows FROM tblfeedback WHERE dManagerID = @MID AND " &
+                          "(COALESCE(dSl1, '') <> '' OR COALESCE(dSr1, '') <> '' OR COALESCE(dEl1, '') <> '' OR " &
+                          "COALESCE(dEr1, '') <> '' OR COALESCE(dDiscussion, '') <> '')"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(query, connection)
+                command.Parameters.AddWithValue("@MID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    If reader.Read() AndAlso Not reader.IsDBNull(reader.GetOrdinal("TotalNonNullDataRows")) Then
+                        ' Retrieve the total count of rows with non-null or non-empty data
+                        totalNonNullDataRows = reader.GetInt32("TotalNonNullDataRows")
+                    End If
+                End Using
+            End Using
+        End Using
+        lblwithDiscussion.Text = totalNonNullDataRows
+        Return totalNonNullDataRows
+    End Function
+
+    Private Function GetHierarchyEmployeeSupervisorPairs() As List(Of Tuple(Of String, String))
+        ' Retrieve distinct EmployeeID and SupervisorID pairs from tblhierarchy where ManagerID = ID
+        Dim pairs As New List(Of Tuple(Of String, String))
+
+        Dim hierarchyQuery As String = "SELECT DISTINCT dEmployeeID, dSupervisorID FROM tblhierarchy WHERE dManagerID = @ManagerID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(hierarchyQuery, connection)
+                command.Parameters.AddWithValue("@ManagerID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    While reader.Read()
+                        Dim employeeID As String = reader.GetString("dEmployeeID")
+                        Dim supervisorID As String = reader.GetString("dSupervisorID")
+                        pairs.Add(Tuple.Create(employeeID, supervisorID))
+                    End While
+                End Using
+            End Using
+        End Using
+
+        Return pairs
+    End Function
+    Private Function GetFeedbackEmployeeSupervisorPairs() As List(Of Tuple(Of String, String))
+        ' Retrieve EmployeeID and SupervisorID pairs from tblfeedback where ManagerID = ID
+        Dim pairs As New List(Of Tuple(Of String, String))
+
+        Dim feedbackQuery As String = "SELECT dEmployeeID, dSupervisorID FROM tblfeedback WHERE dManagerID = @ManagerID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(feedbackQuery, connection)
+                command.Parameters.AddWithValue("@ManagerID", ID)
+
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    While reader.Read()
+                        Dim employeeID As String = reader.GetString("dEmployeeID")
+                        Dim supervisorID As String = reader.GetString("dSupervisorID")
+                        pairs.Add(Tuple.Create(employeeID, supervisorID))
+                    End While
+                End Using
+            End Using
+        End Using
+
+        Return pairs
+    End Function
+
+    Private Function CountUnmatchedEmployeeSupervisorPairs() As Integer
+        ' Count the total number of pairs that are in tblhierarchy but not in tblfeedback
+        Dim unmatchedPairsCount As Integer = 0
+
+        Dim hierarchyPairs = GetHierarchyEmployeeSupervisorPairs()
+        Dim feedbackPairs = GetFeedbackEmployeeSupervisorPairs()
+
+        ' Use LINQ to find the unmatched pairs
+        Dim unmatchedPairs = hierarchyPairs.Except(feedbackPairs).ToList()
+
+        ' Count the unmatched pairs
+        unmatchedPairsCount = unmatchedPairs.Count
+        lblNumberofSupervisorYet.Text = unmatchedPairsCount
+        Return unmatchedPairsCount
+    End Function
 End Class

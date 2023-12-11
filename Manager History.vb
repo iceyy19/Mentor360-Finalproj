@@ -1,4 +1,8 @@
-﻿Public Class Manager_History
+﻿Imports ClosedXML.Excel
+Imports MySql.Data.MySqlClient
+Imports ZstdSharp.Unsafe
+
+Public Class Manager_History
     Public Resultform As Manager_Results
     Public ID As String = Login.ID
     Public Shared Property SelectedRowData3 As Dictionary(Of String, String)
@@ -10,6 +14,13 @@
         Resultform = Manager_Dashboard.Resultform
 
         InitializeForm(Resultform)
+        dtpfrom.Value = New DateTime(DateTime.Now.Year, DateTime.Now.Month, 1)
+
+        ' Set the last day of the current month
+        dtpto.Value = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month))
+        AddHandler dtpfrom.ValueChanged, AddressOf DateTimePickerValueChanged
+        AddHandler dtpto.ValueChanged, AddressOf DateTimePickerValueChanged
+
     End Sub
     Private Sub InitializeForm(form As Form)
         form.TopLevel = False
@@ -169,5 +180,131 @@
             End Try
 
         End If
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles btnExport.Click
+        Try
+            ' Check if the DataGridView has any rows
+            If dgHistory.Rows.Count > 0 Then
+                ' Create a DataTable to store DataGridView data
+                Dim dataTable As New DataTable()
+
+                ' Add columns to the DataTable based on DataGridView columns
+                For Each column As DataGridViewColumn In dgHistory.Columns
+                    dataTable.Columns.Add(column.HeaderText, column.ValueType)
+                Next
+
+                ' Add rows to the DataTable based on DataGridView rows
+                For Each row As DataGridViewRow In dgHistory.Rows
+                    Dim dataRow As DataRow = dataTable.NewRow()
+
+                    For Each cell As DataGridViewCell In row.Cells
+                        dataRow(cell.ColumnIndex) = cell.Value
+                    Next
+
+                    dataTable.Rows.Add(dataRow)
+                Next
+
+                ' Create a SaveFileDialog to choose the location and name of the Excel file
+                Dim saveFileDialog As New SaveFileDialog()
+                saveFileDialog.Filter = "Excel Workbook|*.xlsx"
+                saveFileDialog.Title = "Save Excel File"
+                saveFileDialog.ShowDialog()
+
+                ' Check if a file name is selected
+                If saveFileDialog.FileName <> "" Then
+                    ' Export the DataTable to an Excel file
+                    ExportDataTableToExcel(dataTable, saveFileDialog.FileName)
+                    MessageBox.Show("Export successful!")
+                End If
+            Else
+                MessageBox.Show("No data to export.")
+            End If
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+        End Try
+    End Sub
+    Private Sub ExportDataTableToExcel(dataTable As DataTable, filePath As String)
+        Using workbook As New XLWorkbook()
+            ' Add a worksheet
+            Dim worksheet As IXLWorksheet = workbook.Worksheets.Add("Sheet1")
+
+            ' Add the DataTable to the worksheet starting from cell A1
+            worksheet.Cell(1, 1).InsertTable(dataTable)
+
+            ' Save the workbook to the specified file path
+            workbook.SaveAs(filePath)
+        End Using
+    End Sub
+
+    Private Sub LoadData()
+        Dim myConnection As MySqlConnection
+        myConnection = Connector.getDBConnection()
+        Try
+            ' Open the connection
+            myConnection.Open()
+
+            ' SQL query
+            Dim query As String = "
+                SELECT
+                    dEmployeeID AS 'Employee ID',
+                    dEmployeeName AS 'Employee Name',
+                    dSupervisorID AS 'Supervisor ID',
+                    dSupervisorName AS 'Supervisor Name',
+                    dManagerID AS 'Manager ID',
+                    dManagerName AS 'Manager Name',
+                    dEl1, dEl2, dEl3, dEl4, dEl5, dEl6, dEl7, dEl8, dEl9, dEl10,
+                    dEl11, dEl12, dEl13, dEl14, dEl15, dEl16, dEl17, dEl18, dEl19, dEl20,
+                    dEl21, dEl22, dEl23, dEl24, dEl25, dEl26, dEl27, dEl28, dEl29, dEl30,
+                    dEl31, dEl32, dEl33, dEl34,
+                    dEr1, dEr2, dEr3, dEr4, dEr5, dEr6, dEr7,
+                    tEDateResponse AS 'Employee Date Response',
+                    dSl1, dSl2, dSl3, dSl4, dSl5, dSl6, dSl7, dSl8, dSl9, dSl10,
+                    dSl11, dSl12, dSl13, dSl14, dSl15, dSl16, dSl17, dSl18, dSl19, dSl20,
+                    dSl21, dSl22, dSl23, dSl24, dSl25, dSl26, dSl27, dSl28, dSl29, dSl30,
+                    dSl31, dSl32, dSl33, dSl34,
+                    dSr1, dSr2, dSr3, dSr4, dSr5, dSr6, dSr7,
+                    tSDateResponse AS 'Supervisor Date Response',
+                    dERating AS 'Employee Rating',
+                    dSRating AS 'Supervisor Rating',
+                    dDiscussion AS 'Discussion'
+                FROM
+                    tblfeedback
+                WHERE
+                    dManagerID = @MID AND (tSDateResponse >= @FromDate AND tSDateResponse <= @ToDate);
+            "
+            Using command As New MySqlCommand(query, myConnection)
+                ' Add parameters
+                command.Parameters.AddWithValue("@MID", ID)
+                command.Parameters.AddWithValue("@FromDate", dtpfrom.Value)
+                command.Parameters.AddWithValue("@ToDate", dtpto.Value)
+
+                ' Create a DataTable to store the results
+                Dim dataTable As New DataTable()
+
+                ' Fill the DataTable with the results of the query
+                Using adapter As New MySqlDataAdapter(command)
+                    adapter.Fill(dataTable)
+                End Using
+
+                ' Display the data in the DataGridView
+                dgHistory.DataSource = dataTable
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message)
+        Finally
+            ' Close the connection
+            myConnection.Close()
+        End Try
+    End Sub
+    Private Sub DateTimePickerValueChanged(sender As Object, e As EventArgs)
+        LoadData()
+    End Sub
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        dtpfrom.Value = New DateTime(DateTime.Now.Year, DateTime.Now.Month, 1)
+
+        ' Set the last day of the current month
+        dtpto.Value = New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month))
     End Sub
 End Class

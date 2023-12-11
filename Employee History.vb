@@ -1,5 +1,8 @@
 ﻿Imports System.Drawing.Drawing2D
 Imports MySql.Data.MySqlClient
+Imports System.Data
+Imports System.Windows.Forms
+Imports ClosedXML.Excel
 Public Class Employee_History
     Public Shared Property SelectedRowData2 As Dictionary(Of String, String)
     Public Resultform As Employee_Result
@@ -176,6 +179,57 @@ Public Class Employee_History
     End Sub
 
     Private Sub btnExport_Click(sender As Object, e As EventArgs) Handles btnExport.Click
+        Try
+            ' Check if the DataGridView has any rows
+            If dgHistory.Rows.Count > 0 Then
+                ' Create a DataTable to store DataGridView data
+                Dim dataTable As New DataTable()
 
+                ' Add columns to the DataTable based on DataGridView columns
+                For Each column As DataGridViewColumn In dgHistory.Columns
+                    dataTable.Columns.Add(column.HeaderText, column.ValueType)
+                Next
+
+                ' Add rows to the DataTable based on DataGridView rows
+                For Each row As DataGridViewRow In dgHistory.Rows
+                    Dim dataRow As DataRow = dataTable.NewRow()
+
+                    For Each cell As DataGridViewCell In row.Cells
+                        dataRow(cell.ColumnIndex) = cell.Value
+                    Next
+
+                    dataTable.Rows.Add(dataRow)
+                Next
+
+                ' Create a SaveFileDialog to choose the location and name of the Excel file
+                Dim saveFileDialog As New SaveFileDialog()
+                saveFileDialog.Filter = "Excel Workbook|*.xlsx"
+                saveFileDialog.Title = "Save Excel File"
+                saveFileDialog.ShowDialog()
+
+                ' Check if a file name is selected
+                If saveFileDialog.FileName <> "" Then
+                    ' Export the DataTable to an Excel file
+                    ExportDataTableToExcel(dataTable, saveFileDialog.FileName)
+                    MessageBox.Show("Export successful!")
+                End If
+            Else
+                MessageBox.Show("No data to export.")
+            End If
+        Catch ex As Exception
+            MessageBox.Show($"Error: {ex.Message}")
+        End Try
+    End Sub
+    Private Sub ExportDataTableToExcel(dataTable As DataTable, filePath As String)
+        Using workbook As New XLWorkbook()
+            ' Add a worksheet
+            Dim worksheet As IXLWorksheet = workbook.Worksheets.Add("Sheet1")
+
+            ' Add the DataTable to the worksheet starting from cell A1
+            worksheet.Cell(1, 1).InsertTable(dataTable)
+
+            ' Save the workbook to the specified file path
+            workbook.SaveAs(filePath)
+        End Using
     End Sub
 End Class

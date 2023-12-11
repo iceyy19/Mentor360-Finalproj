@@ -12,6 +12,7 @@ Public Class Supervisor_Dashboard
     Public ID As String = Login.ID
     Public Sname As String
     Public Mname As String
+    Private latestTimestamp As DateTime
     Private Sub Supervisor_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim sqlQuery As String = "SELECT dSupervisorID, dSupervisorName, dManagerID, dManagerName FROM tblhierarchy WHERE dSupervisorID = @ID"
 
@@ -45,7 +46,7 @@ Public Class Supervisor_Dashboard
         EmployeeForm = New Supervisor_Employees
 
         lblSupervisor.Text = ID & " - " & Sname
-
+        GetLatestTimestamp()
         EmployeeForm.lblSupervisorName.Text = Sname
         EmployeeForm.lblSupervisorID.Text = ID
         EmployeeForm.lblManager.Text = Mname
@@ -434,7 +435,29 @@ Public Class Supervisor_Dashboard
         End Try
     End Sub
 
-    Private Sub Homepanel_Paint(sender As Object, e As PaintEventArgs) Handles Homepanel.Paint
+    Private Function GetLatestTimestamp() As DateTime
+        latestTimestamp = DateTime.MinValue
 
-    End Sub
+        ' Your MySQL query to get the latest timestamp from tblfeedback
+        Dim query As String = "SELECT MAX(tSDateResponse) AS LatestTimestamp FROM tblfeedback WHERE dSupervisorID = @SID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(query, connection)
+                command.Parameters.AddWithValue("@SID", ID)
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    If reader.Read() AndAlso Not reader.IsDBNull(reader.GetOrdinal("LatestTimestamp")) Then
+                        ' Retrieve the latest timestamp from the result
+                        latestTimestamp = reader.GetDateTime("LatestTimestamp")
+                        lblDateLastAnswered.Text = latestTimestamp
+                    Else
+                        lblDateLastAnswered.Text = ""
+                    End If
+                End Using
+            End Using
+        End Using
+
+        Return latestTimestamp
+    End Function
 End Class

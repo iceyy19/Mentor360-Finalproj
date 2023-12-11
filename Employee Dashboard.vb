@@ -12,6 +12,7 @@ Public Class Employee_Dashboard
     Public sN As String
     Public mID As String
     Public mN As String
+    Private latestTimestamp As DateTime
     Private Sub Employee_Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Answerform = New Employee_Answer_Form()
@@ -30,9 +31,8 @@ Public Class Employee_Dashboard
         sN = result.Item3
         mID = result.Item4
         mN = result.Item5
-
+        GetLatestTimestamp()
         lblEmployee.Text = ID & " - " & eN
-
         Resultform.lblEmployeeID.Text = ID
         Resultform.lblEmployeeName.Text = eN
         Resultform.lblManager.Text = mN
@@ -347,5 +347,29 @@ Public Class Employee_Dashboard
 
     End Sub
 
+    Private Function GetLatestTimestamp() As DateTime
+        latestTimestamp = DateTime.MinValue
 
+        ' Your MySQL query to get the latest timestamp from tblfeedback
+        Dim query As String = "SELECT MAX(tEDateResponse) AS LatestTimestamp FROM tblfeedback WHERE dEmployeeID = @EID"
+
+        Using connection As MySqlConnection = Connector.getDBConnection()
+            connection.Open()
+
+            Using command As New MySqlCommand(query, connection)
+                command.Parameters.AddWithValue("@EID", ID)
+                Using reader As MySqlDataReader = command.ExecuteReader()
+                    If reader.Read() AndAlso Not reader.IsDBNull(reader.GetOrdinal("LatestTimestamp")) Then
+                        ' Retrieve the latest timestamp from the result
+                        latestTimestamp = reader.GetDateTime("LatestTimestamp")
+                        lblDateLastAnswered.Text = latestTimestamp
+                    Else
+                        lblDateLastAnswered.Text = ""
+                    End If
+                End Using
+            End Using
+        End Using
+
+        Return latestTimestamp
+    End Function
 End Class
