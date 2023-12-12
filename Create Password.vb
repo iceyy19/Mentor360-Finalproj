@@ -38,9 +38,8 @@ Public Class Create_Password
             MessageBox.Show("Fill the Required Fields.")
         ElseIf lblPasswordStatus.ForeColor = Color.Red Then
             MessageBox.Show("The credentials do not meet the specified requirements.")
-        ElseIf txtNPassword.Text IsNot txtCNPassword.Text Then
-            MessageBox.Show("Credentials do not match.")
-        ElseIf lblPasswordStatus.ForeColor = Color.Green Then
+        ElseIf lblPasswordStatus.ForeColor = Color.Green And txtNPassword.Text = txtCNPassword.Text Then
+
             UpdateUserList()
             txtCNPassword.Clear()
             txtNPassword.Clear()
@@ -49,6 +48,8 @@ Public Class Create_Password
             Enter_Employee_ID.Close()
             Answer_Security_Questions.Close()
             Me.Close()
+        ElseIf txtNPassword.Text IsNot txtCNPassword.Text Then
+            MessageBox.Show("Credentials do not match.")
         End If
     End Sub
 
@@ -104,10 +105,8 @@ Public Class Create_Password
         ' At least 1 number
         Dim numberRequirementMet As Boolean = Regex.IsMatch(password, "[0-9]")
 
-        Dim matchpass As Boolean = Regex.IsMatch(txtNPassword.Text, txtCNPassword.Text)
-
         ' Update label color based on requirements
-        If lengthRequirementMet AndAlso uppercaseRequirementMet AndAlso lowercaseRequirementMet AndAlso specialCharRequirementMet AndAlso numberRequirementMet AndAlso matchpass Then
+        If lengthRequirementMet AndAlso uppercaseRequirementMet AndAlso lowercaseRequirementMet AndAlso specialCharRequirementMet AndAlso numberRequirementMet Then
             lblPasswordStatus.ForeColor = Color.Green
             lblPasswordStatus.Text = "Password Strength: Valid"
         Else
