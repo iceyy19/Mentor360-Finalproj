@@ -171,7 +171,7 @@ Partial Class Supervisor_Employees
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(803, 552)
+        ClientSize = New Size(819, 570)
         ControlBox = False
         Controls.Add(lblManager)
         Controls.Add(Label4)

@@ -120,7 +120,9 @@ Partial Class Supervisor_History
         ' 
         ' btnSelect
         ' 
-        btnSelect.BackColor = Color.WhiteSmoke
+        btnSelect.AutoRoundedCorners = True
+        btnSelect.BackColor = Color.Transparent
+        btnSelect.BorderRadius = 15
         btnSelect.CustomizableEdges = CustomizableEdges2
         btnSelect.DisabledState.BorderColor = Color.DarkGray
         btnSelect.DisabledState.CustomBorderColor = Color.DarkGray
@@ -137,6 +139,7 @@ Partial Class Supervisor_History
         btnSelect.TabIndex = 61
         btnSelect.Tag = "btnSelect"
         btnSelect.Text = "Select"
+        btnSelect.UseTransparentBackground = True
         ' 
         ' dgHistory
         ' 
@@ -199,7 +202,9 @@ Partial Class Supervisor_History
         ' 
         ' btnExport
         ' 
-        btnExport.BackColor = Color.WhiteSmoke
+        btnExport.AutoRoundedCorners = True
+        btnExport.BackColor = Color.Transparent
+        btnExport.BorderRadius = 15
         btnExport.CustomizableEdges = CustomizableEdges4
         btnExport.DisabledState.BorderColor = Color.DarkGray
         btnExport.DisabledState.CustomBorderColor = Color.DarkGray
@@ -216,13 +221,14 @@ Partial Class Supervisor_History
         btnExport.TabIndex = 60
         btnExport.Tag = "btnExport"
         btnExport.Text = "Export"
+        btnExport.UseTransparentBackground = True
         ' 
         ' Supervisor_History
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(803, 552)
+        ClientSize = New Size(819, 570)
         ControlBox = False
         Controls.Add(Guna2Shapes1)
         Controls.Add(lblManager)

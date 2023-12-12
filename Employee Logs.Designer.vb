@@ -40,6 +40,7 @@ Partial Class Employee_Logs
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.ForeColor = Color.Black
         Label3.Location = New Point(15, 97)
         Label3.Name = "Label3"
         Label3.Size = New Size(114, 20)
@@ -103,6 +104,7 @@ Partial Class Employee_Logs
         ' lblAdminID
         ' 
         lblAdminID.AutoSize = True
+        lblAdminID.ForeColor = Color.Black
         lblAdminID.Location = New Point(63, 49)
         lblAdminID.Name = "lblAdminID"
         lblAdminID.Size = New Size(41, 15)
@@ -113,6 +115,7 @@ Partial Class Employee_Logs
         ' lblAdminName
         ' 
         lblAdminName.AutoSize = True
+        lblAdminName.ForeColor = Color.Black
         lblAdminName.Location = New Point(63, 24)
         lblAdminName.Name = "lblAdminName"
         lblAdminName.Size = New Size(41, 15)
@@ -139,6 +142,7 @@ Partial Class Employee_Logs
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.ForeColor = Color.Black
         Label2.Location = New Point(15, 49)
         Label2.Name = "Label2"
         Label2.Size = New Size(21, 15)
@@ -149,6 +153,7 @@ Partial Class Employee_Logs
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.ForeColor = Color.Black
         Label1.Location = New Point(15, 24)
         Label1.Name = "Label1"
         Label1.Size = New Size(42, 15)

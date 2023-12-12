@@ -306,6 +306,7 @@ Partial Class Security_Questions
         Controls.Add(txtAnswer1)
         Controls.Add(Guna2HtmlLabel1)
         Controls.Add(cbquestion1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Margin = New Padding(3, 2, 3, 2)
         Name = "Security_Questions"
         StartPosition = FormStartPosition.CenterScreen

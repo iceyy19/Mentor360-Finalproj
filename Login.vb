@@ -91,7 +91,7 @@ Public Class Login
                                     End If
                                 End If
                             Else
-                                    CheckAndNavigate(txtID.Text)
+                                CheckAndNavigate(txtID.Text)
                             End If
                         End Using
                     End Using

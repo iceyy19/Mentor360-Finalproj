@@ -105,7 +105,9 @@ Partial Class Employee_History
         ' 
         ' btnExport
         ' 
+        btnExport.AutoRoundedCorners = True
         btnExport.BackColor = Color.WhiteSmoke
+        btnExport.BorderRadius = 15
         btnExport.CustomizableEdges = CustomizableEdges1
         btnExport.DisabledState.BorderColor = Color.DarkGray
         btnExport.DisabledState.CustomBorderColor = Color.DarkGray
@@ -220,7 +222,9 @@ Partial Class Employee_History
         ' 
         ' btnSelect
         ' 
+        btnSelect.AutoRoundedCorners = True
         btnSelect.BackColor = Color.WhiteSmoke
+        btnSelect.BorderRadius = 15
         btnSelect.CustomizableEdges = CustomizableEdges4
         btnSelect.DisabledState.BorderColor = Color.DarkGray
         btnSelect.DisabledState.CustomBorderColor = Color.DarkGray
@@ -243,7 +247,7 @@ Partial Class Employee_History
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(803, 552)
+        ClientSize = New Size(819, 570)
         ControlBox = False
         Controls.Add(Guna2Shapes1)
         Controls.Add(lblManager)

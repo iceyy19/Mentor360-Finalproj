@@ -7,7 +7,7 @@ Public Class Connector
             "Database=mentor360;" &
             "Data Source=localhost;" &
             "User id= root;" &
-            "Password= pass0403;" &
+            "Password= root;" &
             "Port=3306;Command TimeOut=600;")
         Return myDBConnection
 

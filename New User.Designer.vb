@@ -71,6 +71,7 @@ Partial Class New_User
         ControlBox = False
         Controls.Add(btnStart)
         Controls.Add(Guna2PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
         Margin = New Padding(3, 2, 3, 2)
         Name = "New_User"
         StartPosition = FormStartPosition.CenterScreen

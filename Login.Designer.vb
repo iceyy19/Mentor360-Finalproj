@@ -266,7 +266,10 @@ Partial Class Login
         ClientSize = New Size(728, 490)
         Controls.Add(Panel1)
         Controls.Add(Guna2PictureBox1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Margin = New Padding(3, 2, 3, 2)
+        MaximizeBox = False
         Name = "Login"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Login"

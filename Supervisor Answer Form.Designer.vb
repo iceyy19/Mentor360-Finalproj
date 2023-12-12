@@ -3578,7 +3578,7 @@ Partial Class Supervisor_Answer_Form
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(803, 552)
+        ClientSize = New Size(819, 570)
         ControlBox = False
         Controls.Add(lblNeedToBeAnswered)
         Controls.Add(Guna2HtmlLabel5)

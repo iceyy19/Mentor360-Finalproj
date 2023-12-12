@@ -22,20 +22,20 @@ Partial Class Manager_History
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         lblManagerID = New Label()
         lblManagerName = New Label()
         Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -78,7 +78,7 @@ Partial Class Manager_History
         Guna2Shapes1.Name = "Guna2Shapes1"
         Guna2Shapes1.PolygonSkip = 1
         Guna2Shapes1.Rotate = 0F
-        Guna2Shapes1.RoundedEdges = CustomizableEdges12
+        Guna2Shapes1.RoundedEdges = CustomizableEdges1
         Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
         Guna2Shapes1.Size = New Size(965, 2)
         Guna2Shapes1.TabIndex = 25
@@ -110,27 +110,27 @@ Partial Class Manager_History
         dgHistory.AllowUserToAddRows = False
         dgHistory.AllowUserToDeleteRows = False
         dgHistory.AllowUserToResizeRows = False
-        DataGridViewCellStyle4.BackColor = Color.White
-        dgHistory.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle1.BackColor = Color.White
+        dgHistory.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         dgHistory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.ColumnHeader
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle5.ForeColor = Color.White
-        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
-        dgHistory.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgHistory.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         dgHistory.ColumnHeadersHeight = 20
         dgHistory.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
-        dgHistory.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgHistory.DefaultCellStyle = DataGridViewCellStyle3
         dgHistory.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgHistory.Location = New Point(16, 147)
         dgHistory.Name = "dgHistory"
@@ -166,52 +166,52 @@ Partial Class Manager_History
         dtpfrom.AutoRoundedCorners = True
         dtpfrom.BorderRadius = 17
         dtpfrom.Checked = True
-        dtpfrom.CustomizableEdges = CustomizableEdges13
+        dtpfrom.CustomizableEdges = CustomizableEdges2
         dtpfrom.FillColor = Color.LightCyan
         dtpfrom.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dtpfrom.Format = DateTimePickerFormat.Short
         dtpfrom.Location = New Point(16, 105)
-        dtpfrom.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        dtpfrom.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dtpfrom.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        dtpfrom.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         dtpfrom.Name = "dtpfrom"
-        dtpfrom.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        dtpfrom.ShadowDecoration.CustomizableEdges = CustomizableEdges3
         dtpfrom.Size = New Size(123, 36)
         dtpfrom.TabIndex = 28
-        dtpfrom.Value = New DateTime(2023, 12, 9, 15, 27, 15, 279)
+        dtpfrom.Value = New Date(2023, 12, 9, 15, 27, 15, 279)
         ' 
         ' dtpto
         ' 
         dtpto.AutoRoundedCorners = True
         dtpto.BorderRadius = 17
         dtpto.Checked = True
-        dtpto.CustomizableEdges = CustomizableEdges15
+        dtpto.CustomizableEdges = CustomizableEdges4
         dtpto.FillColor = Color.LightCyan
         dtpto.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dtpto.Format = DateTimePickerFormat.Short
         dtpto.Location = New Point(158, 105)
-        dtpto.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        dtpto.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dtpto.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        dtpto.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         dtpto.Name = "dtpto"
-        dtpto.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        dtpto.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         dtpto.Size = New Size(123, 36)
         dtpto.TabIndex = 29
-        dtpto.Value = New DateTime(2023, 12, 9, 15, 27, 15, 279)
+        dtpto.Value = New Date(2023, 12, 9, 15, 27, 15, 279)
         ' 
         ' btnExport
         ' 
         btnExport.AutoRoundedCorners = True
         btnExport.BorderRadius = 16
-        btnExport.CustomizableEdges = CustomizableEdges17
+        btnExport.CustomizableEdges = CustomizableEdges6
         btnExport.DisabledState.BorderColor = Color.DarkGray
         btnExport.DisabledState.CustomBorderColor = Color.DarkGray
         btnExport.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnExport.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnExport.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        btnExport.FillColor = Color.Maroon
         btnExport.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnExport.ForeColor = Color.White
         btnExport.Location = New Point(689, 499)
         btnExport.Name = "btnExport"
-        btnExport.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        btnExport.ShadowDecoration.CustomizableEdges = CustomizableEdges7
         btnExport.Size = New Size(102, 34)
         btnExport.TabIndex = 30
         btnExport.Text = "Export"
@@ -220,7 +220,7 @@ Partial Class Manager_History
         ' 
         btnSelect.AutoRoundedCorners = True
         btnSelect.BorderRadius = 16
-        btnSelect.CustomizableEdges = CustomizableEdges19
+        btnSelect.CustomizableEdges = CustomizableEdges8
         btnSelect.DisabledState.BorderColor = Color.DarkGray
         btnSelect.DisabledState.CustomBorderColor = Color.DarkGray
         btnSelect.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -230,7 +230,7 @@ Partial Class Manager_History
         btnSelect.ForeColor = Color.White
         btnSelect.Location = New Point(16, 499)
         btnSelect.Name = "btnSelect"
-        btnSelect.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        btnSelect.ShadowDecoration.CustomizableEdges = CustomizableEdges9
         btnSelect.Size = New Size(102, 34)
         btnSelect.TabIndex = 31
         btnSelect.Text = "Select"
@@ -239,7 +239,7 @@ Partial Class Manager_History
         ' 
         btnReset.AutoRoundedCorners = True
         btnReset.BorderRadius = 16
-        btnReset.CustomizableEdges = CustomizableEdges21
+        btnReset.CustomizableEdges = CustomizableEdges10
         btnReset.DisabledState.BorderColor = Color.DarkGray
         btnReset.DisabledState.CustomBorderColor = Color.DarkGray
         btnReset.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -249,7 +249,7 @@ Partial Class Manager_History
         btnReset.ForeColor = Color.White
         btnReset.Location = New Point(298, 106)
         btnReset.Name = "btnReset"
-        btnReset.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        btnReset.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         btnReset.Size = New Size(102, 34)
         btnReset.TabIndex = 32
         btnReset.Text = "Reset Time"
@@ -259,7 +259,7 @@ Partial Class Manager_History
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(803, 552)
+        ClientSize = New Size(819, 570)
         ControlBox = False
         Controls.Add(btnReset)
         Controls.Add(btnSelect)

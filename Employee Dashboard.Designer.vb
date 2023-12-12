@@ -22,8 +22,8 @@ Partial Class Employee_Dashboard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -39,8 +39,8 @@ Partial Class Employee_Dashboard
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Employee_Dashboard))
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Employee_Dashboard))
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -49,9 +49,11 @@ Partial Class Employee_Dashboard
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         shLineHistory = New Guna.UI2.WinForms.Guna2Shapes()
         btnIndicatorHistory = New Guna.UI2.WinForms.Guna2Button()
         shLineResult = New Guna.UI2.WinForms.Guna2Shapes()
@@ -81,6 +83,7 @@ Partial Class Employee_Dashboard
         ' Guna2Panel1
         ' 
         Guna2Panel1.BackColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
+        Guna2Panel1.Controls.Add(Guna2Shapes1)
         Guna2Panel1.Controls.Add(shLineHistory)
         Guna2Panel1.Controls.Add(btnIndicatorHistory)
         Guna2Panel1.Controls.Add(shLineResult)
@@ -96,32 +99,47 @@ Partial Class Employee_Dashboard
         Guna2Panel1.Controls.Add(btnAnswer)
         Guna2Panel1.Controls.Add(btnResult)
         Guna2Panel1.Controls.Add(PictureBox1)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges25
+        Guna2Panel1.CustomizableEdges = CustomizableEdges26
         Guna2Panel1.Location = New Point(0, 0)
-        Guna2Panel1.Margin = New Padding(4, 3, 4, 3)
+        Guna2Panel1.Margin = New Padding(3, 2, 3, 2)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Guna2Panel1.Size = New Size(187, 947)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Guna2Panel1.Size = New Size(131, 577)
         Guna2Panel1.TabIndex = 0
+        ' 
+        ' Guna2Shapes1
+        ' 
+        Guna2Shapes1.FillColor = Color.White
+        Guna2Shapes1.Location = New Point(35, 32)
+        Guna2Shapes1.Margin = New Padding(3, 2, 3, 2)
+        Guna2Shapes1.Name = "Guna2Shapes1"
+        Guna2Shapes1.PolygonSkip = 1
+        Guna2Shapes1.Rotate = 0F
+        Guna2Shapes1.RoundedEdges = CustomizableEdges1
+        Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
+        Guna2Shapes1.Size = New Size(90, 1)
+        Guna2Shapes1.TabIndex = 29
+        Guna2Shapes1.Text = "Guna2Shapes2"
+        Guna2Shapes1.Zoom = 80
         ' 
         ' shLineHistory
         ' 
         shLineHistory.FillColor = Color.White
-        shLineHistory.Location = New Point(69, 417)
-        shLineHistory.Margin = New Padding(4, 3, 4, 3)
+        shLineHistory.Location = New Point(48, 250)
+        shLineHistory.Margin = New Padding(3, 2, 3, 2)
         shLineHistory.Name = "shLineHistory"
         shLineHistory.PolygonSkip = 1
         shLineHistory.Rotate = 0F
-        shLineHistory.RoundedEdges = CustomizableEdges1
+        shLineHistory.RoundedEdges = CustomizableEdges2
         shLineHistory.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        shLineHistory.Size = New Size(43, 3)
+        shLineHistory.Size = New Size(30, 2)
         shLineHistory.TabIndex = 27
         shLineHistory.Text = "Guna2Shapes2"
         shLineHistory.Zoom = 80
         ' 
         ' btnIndicatorHistory
         ' 
-        btnIndicatorHistory.CustomizableEdges = CustomizableEdges2
+        btnIndicatorHistory.CustomizableEdges = CustomizableEdges3
         btnIndicatorHistory.DisabledState.BorderColor = Color.DarkGray
         btnIndicatorHistory.DisabledState.CustomBorderColor = Color.DarkGray
         btnIndicatorHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -129,32 +147,32 @@ Partial Class Employee_Dashboard
         btnIndicatorHistory.FillColor = Color.FromArgb(CByte(16), CByte(15), CByte(101))
         btnIndicatorHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnIndicatorHistory.ForeColor = Color.White
-        btnIndicatorHistory.Location = New Point(-1, 373)
-        btnIndicatorHistory.Margin = New Padding(4, 3, 4, 3)
+        btnIndicatorHistory.Location = New Point(-1, 224)
+        btnIndicatorHistory.Margin = New Padding(3, 2, 3, 2)
         btnIndicatorHistory.Name = "btnIndicatorHistory"
-        btnIndicatorHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges3
-        btnIndicatorHistory.Size = New Size(187, 55)
+        btnIndicatorHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnIndicatorHistory.Size = New Size(131, 33)
         btnIndicatorHistory.TabIndex = 28
         btnIndicatorHistory.Text = "History"
         ' 
         ' shLineResult
         ' 
         shLineResult.FillColor = Color.White
-        shLineResult.Location = New Point(67, 353)
-        shLineResult.Margin = New Padding(4, 3, 4, 3)
+        shLineResult.Location = New Point(47, 212)
+        shLineResult.Margin = New Padding(3, 2, 3, 2)
         shLineResult.Name = "shLineResult"
         shLineResult.PolygonSkip = 1
         shLineResult.Rotate = 0F
-        shLineResult.RoundedEdges = CustomizableEdges4
+        shLineResult.RoundedEdges = CustomizableEdges5
         shLineResult.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        shLineResult.Size = New Size(43, 3)
+        shLineResult.Size = New Size(30, 2)
         shLineResult.TabIndex = 25
         shLineResult.Text = "Guna2Shapes2"
         shLineResult.Zoom = 80
         ' 
         ' btnIndicatorResult
         ' 
-        btnIndicatorResult.CustomizableEdges = CustomizableEdges5
+        btnIndicatorResult.CustomizableEdges = CustomizableEdges6
         btnIndicatorResult.DisabledState.BorderColor = Color.DarkGray
         btnIndicatorResult.DisabledState.CustomBorderColor = Color.DarkGray
         btnIndicatorResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -162,32 +180,32 @@ Partial Class Employee_Dashboard
         btnIndicatorResult.FillColor = Color.FromArgb(CByte(16), CByte(15), CByte(101))
         btnIndicatorResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnIndicatorResult.ForeColor = Color.White
-        btnIndicatorResult.Location = New Point(-3, 310)
-        btnIndicatorResult.Margin = New Padding(4, 3, 4, 3)
+        btnIndicatorResult.Location = New Point(-2, 186)
+        btnIndicatorResult.Margin = New Padding(3, 2, 3, 2)
         btnIndicatorResult.Name = "btnIndicatorResult"
-        btnIndicatorResult.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        btnIndicatorResult.Size = New Size(187, 55)
+        btnIndicatorResult.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        btnIndicatorResult.Size = New Size(131, 33)
         btnIndicatorResult.TabIndex = 26
         btnIndicatorResult.Text = "Results"
         ' 
         ' shLineAnswer
         ' 
         shLineAnswer.FillColor = Color.White
-        shLineAnswer.Location = New Point(67, 290)
-        shLineAnswer.Margin = New Padding(4, 3, 4, 3)
+        shLineAnswer.Location = New Point(47, 174)
+        shLineAnswer.Margin = New Padding(3, 2, 3, 2)
         shLineAnswer.Name = "shLineAnswer"
         shLineAnswer.PolygonSkip = 1
         shLineAnswer.Rotate = 0F
-        shLineAnswer.RoundedEdges = CustomizableEdges7
+        shLineAnswer.RoundedEdges = CustomizableEdges8
         shLineAnswer.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        shLineAnswer.Size = New Size(43, 3)
+        shLineAnswer.Size = New Size(30, 2)
         shLineAnswer.TabIndex = 23
         shLineAnswer.Text = "Guna2Shapes2"
         shLineAnswer.Zoom = 80
         ' 
         ' btnIndicatorAnswer
         ' 
-        btnIndicatorAnswer.CustomizableEdges = CustomizableEdges8
+        btnIndicatorAnswer.CustomizableEdges = CustomizableEdges9
         btnIndicatorAnswer.DisabledState.BorderColor = Color.DarkGray
         btnIndicatorAnswer.DisabledState.CustomBorderColor = Color.DarkGray
         btnIndicatorAnswer.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -195,32 +213,32 @@ Partial Class Employee_Dashboard
         btnIndicatorAnswer.FillColor = Color.FromArgb(CByte(16), CByte(15), CByte(101))
         btnIndicatorAnswer.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnIndicatorAnswer.ForeColor = Color.White
-        btnIndicatorAnswer.Location = New Point(-3, 247)
-        btnIndicatorAnswer.Margin = New Padding(4, 3, 4, 3)
+        btnIndicatorAnswer.Location = New Point(-2, 148)
+        btnIndicatorAnswer.Margin = New Padding(3, 2, 3, 2)
         btnIndicatorAnswer.Name = "btnIndicatorAnswer"
-        btnIndicatorAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges9
-        btnIndicatorAnswer.Size = New Size(187, 55)
+        btnIndicatorAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        btnIndicatorAnswer.Size = New Size(131, 33)
         btnIndicatorAnswer.TabIndex = 24
         btnIndicatorAnswer.Text = "Answer"
         ' 
         ' shLineHome
         ' 
         shLineHome.FillColor = Color.White
-        shLineHome.Location = New Point(69, 227)
-        shLineHome.Margin = New Padding(4, 3, 4, 3)
+        shLineHome.Location = New Point(48, 136)
+        shLineHome.Margin = New Padding(3, 2, 3, 2)
         shLineHome.Name = "shLineHome"
         shLineHome.PolygonSkip = 1
         shLineHome.Rotate = 0F
-        shLineHome.RoundedEdges = CustomizableEdges10
+        shLineHome.RoundedEdges = CustomizableEdges11
         shLineHome.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        shLineHome.Size = New Size(43, 3)
+        shLineHome.Size = New Size(30, 2)
         shLineHome.TabIndex = 21
         shLineHome.Text = "Guna2Shapes2"
         shLineHome.Zoom = 80
         ' 
         ' btnIndicatorHome
         ' 
-        btnIndicatorHome.CustomizableEdges = CustomizableEdges11
+        btnIndicatorHome.CustomizableEdges = CustomizableEdges12
         btnIndicatorHome.DisabledState.BorderColor = Color.DarkGray
         btnIndicatorHome.DisabledState.CustomBorderColor = Color.DarkGray
         btnIndicatorHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -228,17 +246,17 @@ Partial Class Employee_Dashboard
         btnIndicatorHome.FillColor = Color.FromArgb(CByte(16), CByte(15), CByte(101))
         btnIndicatorHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnIndicatorHome.ForeColor = Color.White
-        btnIndicatorHome.Location = New Point(-1, 183)
-        btnIndicatorHome.Margin = New Padding(4, 3, 4, 3)
+        btnIndicatorHome.Location = New Point(-1, 110)
+        btnIndicatorHome.Margin = New Padding(3, 2, 3, 2)
         btnIndicatorHome.Name = "btnIndicatorHome"
-        btnIndicatorHome.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        btnIndicatorHome.Size = New Size(187, 55)
+        btnIndicatorHome.ShadowDecoration.CustomizableEdges = CustomizableEdges13
+        btnIndicatorHome.Size = New Size(131, 33)
         btnIndicatorHome.TabIndex = 22
         btnIndicatorHome.Text = "Home"
         ' 
         ' btnHome
         ' 
-        btnHome.CustomizableEdges = CustomizableEdges13
+        btnHome.CustomizableEdges = CustomizableEdges14
         btnHome.DisabledState.BorderColor = Color.DarkGray
         btnHome.DisabledState.CustomBorderColor = Color.DarkGray
         btnHome.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -246,32 +264,32 @@ Partial Class Employee_Dashboard
         btnHome.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnHome.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnHome.ForeColor = Color.White
-        btnHome.Location = New Point(4, 183)
-        btnHome.Margin = New Padding(4, 3, 4, 3)
+        btnHome.Location = New Point(3, 110)
+        btnHome.Margin = New Padding(3, 2, 3, 2)
         btnHome.Name = "btnHome"
-        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        btnHome.Size = New Size(174, 55)
+        btnHome.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        btnHome.Size = New Size(122, 33)
         btnHome.TabIndex = 11
         btnHome.Text = "Home"
         ' 
         ' Guna2PictureBox2
         ' 
         Guna2PictureBox2.BackColor = Color.Transparent
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges15
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges16
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(4, 15)
-        Guna2PictureBox2.Margin = New Padding(4, 3, 4, 3)
+        Guna2PictureBox2.Location = New Point(3, 9)
+        Guna2PictureBox2.Margin = New Padding(3, 2, 3, 2)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2PictureBox2.Size = New Size(174, 67)
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        Guna2PictureBox2.Size = New Size(122, 40)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 10
         Guna2PictureBox2.TabStop = False
         ' 
         ' btnHistory
         ' 
-        btnHistory.CustomizableEdges = CustomizableEdges17
+        btnHistory.CustomizableEdges = CustomizableEdges18
         btnHistory.DisabledState.BorderColor = Color.DarkGray
         btnHistory.DisabledState.CustomBorderColor = Color.DarkGray
         btnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -279,17 +297,17 @@ Partial Class Employee_Dashboard
         btnHistory.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnHistory.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnHistory.ForeColor = Color.White
-        btnHistory.Location = New Point(4, 373)
-        btnHistory.Margin = New Padding(4, 3, 4, 3)
+        btnHistory.Location = New Point(3, 224)
+        btnHistory.Margin = New Padding(3, 2, 3, 2)
         btnHistory.Name = "btnHistory"
-        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        btnHistory.Size = New Size(174, 55)
+        btnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        btnHistory.Size = New Size(122, 33)
         btnHistory.TabIndex = 9
         btnHistory.Text = "History"
         ' 
         ' btnLogout
         ' 
-        btnLogout.CustomizableEdges = CustomizableEdges19
+        btnLogout.CustomizableEdges = CustomizableEdges20
         btnLogout.DisabledState.BorderColor = Color.DarkGray
         btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -297,17 +315,17 @@ Partial Class Employee_Dashboard
         btnLogout.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnLogout.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(4, 837)
-        btnLogout.Margin = New Padding(4, 3, 4, 3)
+        btnLogout.Location = New Point(3, 502)
+        btnLogout.Margin = New Padding(3, 2, 3, 2)
         btnLogout.Name = "btnLogout"
-        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        btnLogout.Size = New Size(174, 55)
+        btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        btnLogout.Size = New Size(122, 33)
         btnLogout.TabIndex = 7
         btnLogout.Text = "Logout"
         ' 
         ' btnAnswer
         ' 
-        btnAnswer.CustomizableEdges = CustomizableEdges21
+        btnAnswer.CustomizableEdges = CustomizableEdges22
         btnAnswer.DisabledState.BorderColor = Color.DarkGray
         btnAnswer.DisabledState.CustomBorderColor = Color.DarkGray
         btnAnswer.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -315,17 +333,17 @@ Partial Class Employee_Dashboard
         btnAnswer.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnAnswer.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnAnswer.ForeColor = Color.White
-        btnAnswer.Location = New Point(4, 247)
-        btnAnswer.Margin = New Padding(4, 3, 4, 3)
+        btnAnswer.Location = New Point(3, 148)
+        btnAnswer.Margin = New Padding(3, 2, 3, 2)
         btnAnswer.Name = "btnAnswer"
-        btnAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        btnAnswer.Size = New Size(174, 55)
+        btnAnswer.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        btnAnswer.Size = New Size(122, 33)
         btnAnswer.TabIndex = 6
         btnAnswer.Text = "Answer"
         ' 
         ' btnResult
         ' 
-        btnResult.CustomizableEdges = CustomizableEdges23
+        btnResult.CustomizableEdges = CustomizableEdges24
         btnResult.DisabledState.BorderColor = Color.DarkGray
         btnResult.DisabledState.CustomBorderColor = Color.DarkGray
         btnResult.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -333,21 +351,21 @@ Partial Class Employee_Dashboard
         btnResult.FillColor = Color.FromArgb(CByte(17), CByte(16), CByte(68))
         btnResult.Font = New Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point)
         btnResult.ForeColor = Color.White
-        btnResult.Location = New Point(4, 310)
-        btnResult.Margin = New Padding(4, 3, 4, 3)
+        btnResult.Location = New Point(3, 186)
+        btnResult.Margin = New Padding(3, 2, 3, 2)
         btnResult.Name = "btnResult"
-        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        btnResult.Size = New Size(174, 55)
+        btnResult.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        btnResult.Size = New Size(122, 33)
         btnResult.TabIndex = 5
         btnResult.Text = "Results"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.small_wave1
-        PictureBox1.Location = New Point(-31, 583)
-        PictureBox1.Margin = New Padding(4, 3, 4, 3)
+        PictureBox1.Location = New Point(-22, 350)
+        PictureBox1.Margin = New Padding(3, 2, 3, 2)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(294, 268)
+        PictureBox1.Size = New Size(206, 161)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 15
         PictureBox1.TabStop = False
@@ -361,12 +379,12 @@ Partial Class Employee_Dashboard
         Homepanel.Controls.Add(Label5)
         Homepanel.Controls.Add(lblEmployee)
         Homepanel.Controls.Add(Label6)
-        Homepanel.CustomizableEdges = CustomizableEdges27
-        Homepanel.Location = New Point(186, 0)
-        Homepanel.Margin = New Padding(4, 3, 4, 3)
+        Homepanel.CustomizableEdges = CustomizableEdges28
+        Homepanel.Location = New Point(130, 0)
+        Homepanel.Margin = New Padding(3, 2, 3, 2)
         Homepanel.Name = "Homepanel"
-        Homepanel.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Homepanel.Size = New Size(1170, 947)
+        Homepanel.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        Homepanel.Size = New Size(819, 577)
         Homepanel.TabIndex = 0
         ' 
         ' lblDateLastAnswered
@@ -375,10 +393,9 @@ Partial Class Employee_Dashboard
         lblDateLastAnswered.BackColor = Color.Transparent
         lblDateLastAnswered.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         lblDateLastAnswered.ForeColor = Color.White
-        lblDateLastAnswered.Location = New Point(286, 290)
-        lblDateLastAnswered.Margin = New Padding(4, 0, 4, 0)
+        lblDateLastAnswered.Location = New Point(200, 174)
         lblDateLastAnswered.Name = "lblDateLastAnswered"
-        lblDateLastAnswered.Size = New Size(77, 40)
+        lblDateLastAnswered.Size = New Size(51, 25)
         lblDateLastAnswered.TabIndex = 14
         lblDateLastAnswered.Text = "Date"
         ' 
@@ -388,10 +405,9 @@ Partial Class Employee_Dashboard
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label5.ForeColor = Color.White
-        Label5.Location = New Point(81, 290)
-        Label5.Margin = New Padding(4, 0, 4, 0)
+        Label5.Location = New Point(57, 174)
         Label5.Name = "Label5"
-        Label5.Size = New Size(207, 40)
+        Label5.Size = New Size(137, 25)
         Label5.TabIndex = 13
         Label5.Text = "Last Answered:"
         ' 
@@ -401,10 +417,9 @@ Partial Class Employee_Dashboard
         lblEmployee.BackColor = Color.Transparent
         lblEmployee.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point)
         lblEmployee.ForeColor = Color.White
-        lblEmployee.Location = New Point(283, 127)
-        lblEmployee.Margin = New Padding(4, 0, 4, 0)
+        lblEmployee.Location = New Point(198, 76)
         lblEmployee.Name = "lblEmployee"
-        lblEmployee.Size = New Size(140, 65)
+        lblEmployee.Size = New Size(92, 45)
         lblEmployee.TabIndex = 12
         lblEmployee.Text = "2020"
         ' 
@@ -414,22 +429,24 @@ Partial Class Employee_Dashboard
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.ForeColor = Color.White
-        Label6.Location = New Point(63, 128)
-        Label6.Margin = New Padding(4, 0, 4, 0)
+        Label6.Location = New Point(44, 77)
         Label6.Name = "Label6"
-        Label6.Size = New Size(234, 65)
+        Label6.Size = New Size(160, 45)
         Label6.TabIndex = 11
         Label6.Text = "Welcome,"
         ' 
         ' Employee_Dashboard
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1353, 948)
+        ClientSize = New Size(947, 569)
         Controls.Add(Homepanel)
         Controls.Add(Guna2Panel1)
+        FormBorderStyle = FormBorderStyle.FixedSingle
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         IsMdiContainer = True
-        Margin = New Padding(4, 3, 4, 3)
+        Margin = New Padding(3, 2, 3, 2)
+        MaximizeBox = False
         Name = "Employee_Dashboard"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Employee Dashboard"
@@ -462,4 +479,5 @@ Partial Class Employee_Dashboard
     Friend WithEvents Label5 As Label
     Friend WithEvents lblEmployee As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
 End Class
