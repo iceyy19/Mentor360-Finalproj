@@ -161,7 +161,10 @@ Public Class Employee_History
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData2("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData2("dSr6")
                 Resultform.txtPS1.Text = Resultform.SelectedRowData2("dSr7")
-                Resultform.txtDiscussion.Text = Resultform.SelectedRowData2("dDiscussion")
+
+                Resultform.lblERating.Text = Resultform.SelectedRowData2("Employee Rating")
+                Resultform.lblSRating.Text = Resultform.SelectedRowData2("Supervisor Rating")
+                Resultform.txtDiscussion.Text = Resultform.SelectedRowData2("Discussion")
                 ' ... (Repeat for other columns)
             End If
 

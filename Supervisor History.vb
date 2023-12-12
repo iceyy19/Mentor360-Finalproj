@@ -82,7 +82,7 @@ Public Class Supervisor_History
                 Else
 
                 End If
-                Dim EmployeeID As String = Resultform.SelectedRowData("dEmployeeID")
+                Dim EmployeeID As String = Resultform.SelectedRowData("Employee ID")
                 Using connection As MySqlConnection = Connector.getDBConnection()
                     connection.Open()
 
@@ -106,11 +106,11 @@ Public Class Supervisor_History
                         End Using
                     End Using
                 End Using
-                Resultform.lblEmployeeID.Text = Resultform.SelectedRowData("dEmployeeID")
-                Resultform.lblEmployeeName.Text = Resultform.SelectedRowData("dEmployeeName")
-                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData("dSupervisorID")
-                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData("dSupervisorName")
-                Resultform.lblManager.Text = Resultform.SelectedRowData("dManagerName")
+                Resultform.lblEmployeeID.Text = Resultform.SelectedRowData("Employee ID")
+                Resultform.lblEmployeeName.Text = Resultform.SelectedRowData("Employee Name")
+                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData("Supervisor ID")
+                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData("Supervisor Name")
+                Resultform.lblManager.Text = Resultform.SelectedRowData("Manager Name")
                 Resultform.lblSDS1.Text = Resultform.SelectedRowData("dSl1")
                 Resultform.lblSDS2.Text = Resultform.SelectedRowData("dSl2")
                 Resultform.lblSDS3.Text = Resultform.SelectedRowData("dSl3")
@@ -197,8 +197,9 @@ Public Class Supervisor_History
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData("dSr6")
                 Resultform.txtPS1.Text = Resultform.SelectedRowData("dSr7")
-
-                Resultform.txtDiscussion.Text = Resultform.SelectedRowData("dDiscussion")
+                Resultform.lblERating.Text = Resultform.SelectedRowData("Employee Rating")
+                Resultform.lblSRating.Text = Resultform.SelectedRowData("Supervisor Rating")
+                Resultform.txtDiscussion.Text = Resultform.SelectedRowData("Discussion")
             End If
 
             ShowForm(Resultform)

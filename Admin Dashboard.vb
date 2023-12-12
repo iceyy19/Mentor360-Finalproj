@@ -354,6 +354,7 @@ Public Class Admin_Dashboard
         Dim result As DialogResult = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
         If result = DialogResult.Yes Then
+            Login.ID = Nothing
             Login.cAdmin.Checked = False
             Me.Close()
             Login.Show()

@@ -75,10 +75,10 @@ Public Class Manager_History
             Resultform.SelectedRowData3 = Manager_History.SelectedRowData3
 
             If Resultform.SelectedRowData3 IsNot Nothing Then
-                Resultform.lblEmployeeID.Text = Resultform.SelectedRowData3("dEmployeeID")
-                Resultform.lblEmployeeName.Text = Resultform.SelectedRowData3("dEmployeeName")
-                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData3("dSupervisorID")
-                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData3("dSupervisorName")
+                Resultform.lblEmployeeID.Text = Resultform.SelectedRowData3("Employee ID")
+                Resultform.lblEmployeeName.Text = Resultform.SelectedRowData3("Employee Name")
+                Resultform.lblSupervisorID.Text = Resultform.SelectedRowData3("Supervisor ID")
+                Resultform.lblSupervisorName.Text = Resultform.SelectedRowData3("Supervisor Name")
 
                 Resultform.lblSDS1.Text = Resultform.SelectedRowData3("dSl1")
                 Resultform.lblSDS2.Text = Resultform.SelectedRowData3("dSl2")
@@ -165,9 +165,9 @@ Public Class Manager_History
                 Resultform.txtCIS1.Text = Resultform.SelectedRowData3("dSr5")
                 Resultform.txtCLS1.Text = Resultform.SelectedRowData3("dSr6")
                 Resultform.txtPS1.Text = Resultform.SelectedRowData3("dSr7")
-                Resultform.txtDiscussion.Text = Resultform.SelectedRowData3("dDiscussion")
-                Resultform.lblERating.Text = Resultform.SelectedRowData3("dERating")
-                Resultform.lblSRating.Text = Resultform.SelectedRowData3("dSRating")
+                Resultform.txtDiscussion.Text = Resultform.SelectedRowData3("Discussion")
+                Resultform.lblERating.Text = Resultform.SelectedRowData3("Employee Rating")
+                Resultform.lblSRating.Text = Resultform.SelectedRowData3("Supervisor Rating")
                 ' ... (Repeat for other columns)
             End If
 
